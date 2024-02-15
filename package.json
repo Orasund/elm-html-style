@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "fetch": "git submodule update --remote",
+    "generate": "ts-node ./scripts/generate.ts"
+  },
+  "devDependencies": {
+    "elm-codegen": "^0.5.2",
+    "ts-node": "^10.9.2"
+  }
+}
