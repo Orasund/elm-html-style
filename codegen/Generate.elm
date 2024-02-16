@@ -7,6 +7,7 @@ import Gen.CodeGen.Generate as Generate
 import Json.Decode
 import Dict exposing (Dict)
 import Gen.Html.Attributes
+import Property
 
 main : Program Json.Decode.Value () ()
 main =
@@ -27,50 +28,10 @@ generate files =
      [ Elm.file [ "Html","Style" ]
         (files 
         |> (Dict.keys)
-        |> List.map property )
+        |> List.filter (\key -> key
+        |> String.startsWith "-"
+        |> not)
+        |> List.map Property.toDeclaration )
     ]
 
 
-property : String -> Elm.Declaration
-property key =
-       Elm.declaration (getFileName key)
-            (Elm.fn ("string",Nothing)
-                (\string ->
-                    Gen.Html.Attributes.call_.style (Elm.string key) string
-                )
-            )
-    
-
-
-
-{- Some string formatting -}
-
-
-getFileName : String -> String
-getFileName path =
-    let
-        fileName =
-            String.split "/" path
-                |> List.reverse
-                |> List.head
-                |> Maybe.withDefault path
-    in
-    fileName
-        |> String.replace "." ""
-        |> String.replace "-" ""
-        |> String.replace "_" ""
-        |> String.replace " " ""
-        |> String.replace "/" ""
-        |> String.replace "’" ""
-        |> String.replace "'" ""
-        |> decapitalize
-
-
-decapitalize : String -> String
-decapitalize str =
-    case String.uncons str of
-        Nothing ->
-            str
-
-        Just ( first, tail ) ->
-            String.fromChar (Char.toLower first) ++ tail

@@ -4,528 +4,28 @@ import Html
 import Html.Attributes
 
 
-* : String -> Html.Attribute msg
-* string =
-    Html.Attributes.style "--*" string
-
-
-mozappearance : String -> Html.Attribute msg
-mozappearance string =
-    Html.Attributes.style "-moz-appearance" string
-
-
-mozbinding : String -> Html.Attribute msg
-mozbinding string =
-    Html.Attributes.style "-moz-binding" string
-
-
-mozborderbottomcolors : String -> Html.Attribute msg
-mozborderbottomcolors string =
-    Html.Attributes.style "-moz-border-bottom-colors" string
-
-
-mozborderleftcolors : String -> Html.Attribute msg
-mozborderleftcolors string =
-    Html.Attributes.style "-moz-border-left-colors" string
-
-
-mozborderrightcolors : String -> Html.Attribute msg
-mozborderrightcolors string =
-    Html.Attributes.style "-moz-border-right-colors" string
-
-
-mozbordertopcolors : String -> Html.Attribute msg
-mozbordertopcolors string =
-    Html.Attributes.style "-moz-border-top-colors" string
-
-
-mozcontextproperties : String -> Html.Attribute msg
-mozcontextproperties string =
-    Html.Attributes.style "-moz-context-properties" string
-
-
-mozfloatedge : String -> Html.Attribute msg
-mozfloatedge string =
-    Html.Attributes.style "-moz-float-edge" string
-
-
-mozforcebrokenimageicon : String -> Html.Attribute msg
-mozforcebrokenimageicon string =
-    Html.Attributes.style "-moz-force-broken-image-icon" string
-
-
-mozimageregion : String -> Html.Attribute msg
-mozimageregion string =
-    Html.Attributes.style "-moz-image-region" string
-
-
-mozorient : String -> Html.Attribute msg
-mozorient string =
-    Html.Attributes.style "-moz-orient" string
-
-
-mozoutlineradius : String -> Html.Attribute msg
-mozoutlineradius string =
-    Html.Attributes.style "-moz-outline-radius" string
-
-
-mozoutlineradiusbottomleft : String -> Html.Attribute msg
-mozoutlineradiusbottomleft string =
-    Html.Attributes.style "-moz-outline-radius-bottomleft" string
-
-
-mozoutlineradiusbottomright : String -> Html.Attribute msg
-mozoutlineradiusbottomright string =
-    Html.Attributes.style "-moz-outline-radius-bottomright" string
-
-
-mozoutlineradiustopleft : String -> Html.Attribute msg
-mozoutlineradiustopleft string =
-    Html.Attributes.style "-moz-outline-radius-topleft" string
-
-
-mozoutlineradiustopright : String -> Html.Attribute msg
-mozoutlineradiustopright string =
-    Html.Attributes.style "-moz-outline-radius-topright" string
-
-
-mozstacksizing : String -> Html.Attribute msg
-mozstacksizing string =
-    Html.Attributes.style "-moz-stack-sizing" string
-
-
-moztextblink : String -> Html.Attribute msg
-moztextblink string =
-    Html.Attributes.style "-moz-text-blink" string
-
-
-mozuserfocus : String -> Html.Attribute msg
-mozuserfocus string =
-    Html.Attributes.style "-moz-user-focus" string
-
-
-mozuserinput : String -> Html.Attribute msg
-mozuserinput string =
-    Html.Attributes.style "-moz-user-input" string
-
-
-mozusermodify : String -> Html.Attribute msg
-mozusermodify string =
-    Html.Attributes.style "-moz-user-modify" string
-
-
-mozwindowdragging : String -> Html.Attribute msg
-mozwindowdragging string =
-    Html.Attributes.style "-moz-window-dragging" string
-
-
-mozwindowshadow : String -> Html.Attribute msg
-mozwindowshadow string =
-    Html.Attributes.style "-moz-window-shadow" string
-
-
-msaccelerator : String -> Html.Attribute msg
-msaccelerator string =
-    Html.Attributes.style "-ms-accelerator" string
-
-
-msblockprogression : String -> Html.Attribute msg
-msblockprogression string =
-    Html.Attributes.style "-ms-block-progression" string
-
-
-mscontentzoomchaining : String -> Html.Attribute msg
-mscontentzoomchaining string =
-    Html.Attributes.style "-ms-content-zoom-chaining" string
-
-
-mscontentzoomlimit : String -> Html.Attribute msg
-mscontentzoomlimit string =
-    Html.Attributes.style "-ms-content-zoom-limit" string
-
-
-mscontentzoomlimitmax : String -> Html.Attribute msg
-mscontentzoomlimitmax string =
-    Html.Attributes.style "-ms-content-zoom-limit-max" string
-
-
-mscontentzoomlimitmin : String -> Html.Attribute msg
-mscontentzoomlimitmin string =
-    Html.Attributes.style "-ms-content-zoom-limit-min" string
-
-
-mscontentzoomsnap : String -> Html.Attribute msg
-mscontentzoomsnap string =
-    Html.Attributes.style "-ms-content-zoom-snap" string
-
-
-mscontentzoomsnappoints : String -> Html.Attribute msg
-mscontentzoomsnappoints string =
-    Html.Attributes.style "-ms-content-zoom-snap-points" string
-
-
-mscontentzoomsnaptype : String -> Html.Attribute msg
-mscontentzoomsnaptype string =
-    Html.Attributes.style "-ms-content-zoom-snap-type" string
-
-
-mscontentzooming : String -> Html.Attribute msg
-mscontentzooming string =
-    Html.Attributes.style "-ms-content-zooming" string
-
-
-msfilter : String -> Html.Attribute msg
-msfilter string =
-    Html.Attributes.style "-ms-filter" string
-
-
-msflowfrom : String -> Html.Attribute msg
-msflowfrom string =
-    Html.Attributes.style "-ms-flow-from" string
-
-
-msflowinto : String -> Html.Attribute msg
-msflowinto string =
-    Html.Attributes.style "-ms-flow-into" string
-
-
-msgridcolumns : String -> Html.Attribute msg
-msgridcolumns string =
-    Html.Attributes.style "-ms-grid-columns" string
-
-
-msgridrows : String -> Html.Attribute msg
-msgridrows string =
-    Html.Attributes.style "-ms-grid-rows" string
-
-
-mshighcontrastadjust : String -> Html.Attribute msg
-mshighcontrastadjust string =
-    Html.Attributes.style "-ms-high-contrast-adjust" string
-
-
-mshyphenatelimitchars : String -> Html.Attribute msg
-mshyphenatelimitchars string =
-    Html.Attributes.style "-ms-hyphenate-limit-chars" string
-
-
-mshyphenatelimitlines : String -> Html.Attribute msg
-mshyphenatelimitlines string =
-    Html.Attributes.style "-ms-hyphenate-limit-lines" string
-
-
-mshyphenatelimitzone : String -> Html.Attribute msg
-mshyphenatelimitzone string =
-    Html.Attributes.style "-ms-hyphenate-limit-zone" string
-
-
-msimealign : String -> Html.Attribute msg
-msimealign string =
-    Html.Attributes.style "-ms-ime-align" string
-
-
-msoverflowstyle : String -> Html.Attribute msg
-msoverflowstyle string =
-    Html.Attributes.style "-ms-overflow-style" string
-
-
-msscrollchaining : String -> Html.Attribute msg
-msscrollchaining string =
-    Html.Attributes.style "-ms-scroll-chaining" string
-
-
-msscrolllimit : String -> Html.Attribute msg
-msscrolllimit string =
-    Html.Attributes.style "-ms-scroll-limit" string
-
-
-msscrolllimitxmax : String -> Html.Attribute msg
-msscrolllimitxmax string =
-    Html.Attributes.style "-ms-scroll-limit-x-max" string
-
-
-msscrolllimitxmin : String -> Html.Attribute msg
-msscrolllimitxmin string =
-    Html.Attributes.style "-ms-scroll-limit-x-min" string
-
-
-msscrolllimitymax : String -> Html.Attribute msg
-msscrolllimitymax string =
-    Html.Attributes.style "-ms-scroll-limit-y-max" string
-
-
-msscrolllimitymin : String -> Html.Attribute msg
-msscrolllimitymin string =
-    Html.Attributes.style "-ms-scroll-limit-y-min" string
-
-
-msscrollrails : String -> Html.Attribute msg
-msscrollrails string =
-    Html.Attributes.style "-ms-scroll-rails" string
-
-
-msscrollsnappointsx : String -> Html.Attribute msg
-msscrollsnappointsx string =
-    Html.Attributes.style "-ms-scroll-snap-points-x" string
-
-
-msscrollsnappointsy : String -> Html.Attribute msg
-msscrollsnappointsy string =
-    Html.Attributes.style "-ms-scroll-snap-points-y" string
-
-
-msscrollsnaptype : String -> Html.Attribute msg
-msscrollsnaptype string =
-    Html.Attributes.style "-ms-scroll-snap-type" string
-
-
-msscrollsnapx : String -> Html.Attribute msg
-msscrollsnapx string =
-    Html.Attributes.style "-ms-scroll-snap-x" string
-
-
-msscrollsnapy : String -> Html.Attribute msg
-msscrollsnapy string =
-    Html.Attributes.style "-ms-scroll-snap-y" string
-
-
-msscrolltranslation : String -> Html.Attribute msg
-msscrolltranslation string =
-    Html.Attributes.style "-ms-scroll-translation" string
-
-
-msscrollbar3dlightcolor : String -> Html.Attribute msg
-msscrollbar3dlightcolor string =
-    Html.Attributes.style "-ms-scrollbar-3dlight-color" string
-
-
-msscrollbararrowcolor : String -> Html.Attribute msg
-msscrollbararrowcolor string =
-    Html.Attributes.style "-ms-scrollbar-arrow-color" string
-
-
-msscrollbarbasecolor : String -> Html.Attribute msg
-msscrollbarbasecolor string =
-    Html.Attributes.style "-ms-scrollbar-base-color" string
-
-
-msscrollbardarkshadowcolor : String -> Html.Attribute msg
-msscrollbardarkshadowcolor string =
-    Html.Attributes.style "-ms-scrollbar-darkshadow-color" string
-
-
-msscrollbarfacecolor : String -> Html.Attribute msg
-msscrollbarfacecolor string =
-    Html.Attributes.style "-ms-scrollbar-face-color" string
-
-
-msscrollbarhighlightcolor : String -> Html.Attribute msg
-msscrollbarhighlightcolor string =
-    Html.Attributes.style "-ms-scrollbar-highlight-color" string
-
-
-msscrollbarshadowcolor : String -> Html.Attribute msg
-msscrollbarshadowcolor string =
-    Html.Attributes.style "-ms-scrollbar-shadow-color" string
-
-
-msscrollbartrackcolor : String -> Html.Attribute msg
-msscrollbartrackcolor string =
-    Html.Attributes.style "-ms-scrollbar-track-color" string
-
-
-mstextautospace : String -> Html.Attribute msg
-mstextautospace string =
-    Html.Attributes.style "-ms-text-autospace" string
-
-
-mstouchselect : String -> Html.Attribute msg
-mstouchselect string =
-    Html.Attributes.style "-ms-touch-select" string
-
-
-msuserselect : String -> Html.Attribute msg
-msuserselect string =
-    Html.Attributes.style "-ms-user-select" string
-
-
-mswrapflow : String -> Html.Attribute msg
-mswrapflow string =
-    Html.Attributes.style "-ms-wrap-flow" string
-
-
-mswrapmargin : String -> Html.Attribute msg
-mswrapmargin string =
-    Html.Attributes.style "-ms-wrap-margin" string
-
-
-mswrapthrough : String -> Html.Attribute msg
-mswrapthrough string =
-    Html.Attributes.style "-ms-wrap-through" string
-
-
-webkitappearance : String -> Html.Attribute msg
-webkitappearance string =
-    Html.Attributes.style "-webkit-appearance" string
-
-
-webkitborderbefore : String -> Html.Attribute msg
-webkitborderbefore string =
-    Html.Attributes.style "-webkit-border-before" string
-
-
-webkitborderbeforecolor : String -> Html.Attribute msg
-webkitborderbeforecolor string =
-    Html.Attributes.style "-webkit-border-before-color" string
-
-
-webkitborderbeforestyle : String -> Html.Attribute msg
-webkitborderbeforestyle string =
-    Html.Attributes.style "-webkit-border-before-style" string
-
-
-webkitborderbeforewidth : String -> Html.Attribute msg
-webkitborderbeforewidth string =
-    Html.Attributes.style "-webkit-border-before-width" string
-
-
-webkitboxreflect : String -> Html.Attribute msg
-webkitboxreflect string =
-    Html.Attributes.style "-webkit-box-reflect" string
-
-
-webkitlineclamp : String -> Html.Attribute msg
-webkitlineclamp string =
-    Html.Attributes.style "-webkit-line-clamp" string
-
-
-webkitmask : String -> Html.Attribute msg
-webkitmask string =
-    Html.Attributes.style "-webkit-mask" string
-
-
-webkitmaskattachment : String -> Html.Attribute msg
-webkitmaskattachment string =
-    Html.Attributes.style "-webkit-mask-attachment" string
-
-
-webkitmaskclip : String -> Html.Attribute msg
-webkitmaskclip string =
-    Html.Attributes.style "-webkit-mask-clip" string
-
-
-webkitmaskcomposite : String -> Html.Attribute msg
-webkitmaskcomposite string =
-    Html.Attributes.style "-webkit-mask-composite" string
-
-
-webkitmaskimage : String -> Html.Attribute msg
-webkitmaskimage string =
-    Html.Attributes.style "-webkit-mask-image" string
-
-
-webkitmaskorigin : String -> Html.Attribute msg
-webkitmaskorigin string =
-    Html.Attributes.style "-webkit-mask-origin" string
-
-
-webkitmaskposition : String -> Html.Attribute msg
-webkitmaskposition string =
-    Html.Attributes.style "-webkit-mask-position" string
-
-
-webkitmaskpositionx : String -> Html.Attribute msg
-webkitmaskpositionx string =
-    Html.Attributes.style "-webkit-mask-position-x" string
-
-
-webkitmaskpositiony : String -> Html.Attribute msg
-webkitmaskpositiony string =
-    Html.Attributes.style "-webkit-mask-position-y" string
-
-
-webkitmaskrepeat : String -> Html.Attribute msg
-webkitmaskrepeat string =
-    Html.Attributes.style "-webkit-mask-repeat" string
-
-
-webkitmaskrepeatx : String -> Html.Attribute msg
-webkitmaskrepeatx string =
-    Html.Attributes.style "-webkit-mask-repeat-x" string
-
-
-webkitmaskrepeaty : String -> Html.Attribute msg
-webkitmaskrepeaty string =
-    Html.Attributes.style "-webkit-mask-repeat-y" string
-
-
-webkitmasksize : String -> Html.Attribute msg
-webkitmasksize string =
-    Html.Attributes.style "-webkit-mask-size" string
-
-
-webkitoverflowscrolling : String -> Html.Attribute msg
-webkitoverflowscrolling string =
-    Html.Attributes.style "-webkit-overflow-scrolling" string
-
-
-webkittaphighlightcolor : String -> Html.Attribute msg
-webkittaphighlightcolor string =
-    Html.Attributes.style "-webkit-tap-highlight-color" string
-
-
-webkittextfillcolor : String -> Html.Attribute msg
-webkittextfillcolor string =
-    Html.Attributes.style "-webkit-text-fill-color" string
-
-
-webkittextstroke : String -> Html.Attribute msg
-webkittextstroke string =
-    Html.Attributes.style "-webkit-text-stroke" string
-
-
-webkittextstrokecolor : String -> Html.Attribute msg
-webkittextstrokecolor string =
-    Html.Attributes.style "-webkit-text-stroke-color" string
-
-
-webkittextstrokewidth : String -> Html.Attribute msg
-webkittextstrokewidth string =
-    Html.Attributes.style "-webkit-text-stroke-width" string
-
-
-webkittouchcallout : String -> Html.Attribute msg
-webkittouchcallout string =
-    Html.Attributes.style "-webkit-touch-callout" string
-
-
-webkitusermodify : String -> Html.Attribute msg
-webkitusermodify string =
-    Html.Attributes.style "-webkit-user-modify" string
-
-
-accentcolor : String -> Html.Attribute msg
-accentcolor string =
+accentColor : String -> Html.Attribute msg
+accentColor string =
     Html.Attributes.style "accent-color" string
 
 
-aligncontent : String -> Html.Attribute msg
-aligncontent string =
+alignContent : String -> Html.Attribute msg
+alignContent string =
     Html.Attributes.style "align-content" string
 
 
-alignitems : String -> Html.Attribute msg
-alignitems string =
+alignItems : String -> Html.Attribute msg
+alignItems string =
     Html.Attributes.style "align-items" string
 
 
-alignself : String -> Html.Attribute msg
-alignself string =
+alignSelf : String -> Html.Attribute msg
+alignSelf string =
     Html.Attributes.style "align-self" string
 
 
-aligntracks : String -> Html.Attribute msg
-aligntracks string =
+alignTracks : String -> Html.Attribute msg
+alignTracks string =
     Html.Attributes.style "align-tracks" string
 
 
@@ -539,68 +39,68 @@ animation string =
     Html.Attributes.style "animation" string
 
 
-animationcomposition : String -> Html.Attribute msg
-animationcomposition string =
+animationComposition : String -> Html.Attribute msg
+animationComposition string =
     Html.Attributes.style "animation-composition" string
 
 
-animationdelay : String -> Html.Attribute msg
-animationdelay string =
+animationDelay : String -> Html.Attribute msg
+animationDelay string =
     Html.Attributes.style "animation-delay" string
 
 
-animationdirection : String -> Html.Attribute msg
-animationdirection string =
+animationDirection : String -> Html.Attribute msg
+animationDirection string =
     Html.Attributes.style "animation-direction" string
 
 
-animationduration : String -> Html.Attribute msg
-animationduration string =
+animationDuration : String -> Html.Attribute msg
+animationDuration string =
     Html.Attributes.style "animation-duration" string
 
 
-animationfillmode : String -> Html.Attribute msg
-animationfillmode string =
+animationFillMode : String -> Html.Attribute msg
+animationFillMode string =
     Html.Attributes.style "animation-fill-mode" string
 
 
-animationiterationcount : String -> Html.Attribute msg
-animationiterationcount string =
+animationIterationCount : String -> Html.Attribute msg
+animationIterationCount string =
     Html.Attributes.style "animation-iteration-count" string
 
 
-animationname : String -> Html.Attribute msg
-animationname string =
+animationName : String -> Html.Attribute msg
+animationName string =
     Html.Attributes.style "animation-name" string
 
 
-animationplaystate : String -> Html.Attribute msg
-animationplaystate string =
+animationPlayState : String -> Html.Attribute msg
+animationPlayState string =
     Html.Attributes.style "animation-play-state" string
 
 
-animationrange : String -> Html.Attribute msg
-animationrange string =
+animationRange : String -> Html.Attribute msg
+animationRange string =
     Html.Attributes.style "animation-range" string
 
 
-animationrangeend : String -> Html.Attribute msg
-animationrangeend string =
+animationRangeEnd : String -> Html.Attribute msg
+animationRangeEnd string =
     Html.Attributes.style "animation-range-end" string
 
 
-animationrangestart : String -> Html.Attribute msg
-animationrangestart string =
+animationRangeStart : String -> Html.Attribute msg
+animationRangeStart string =
     Html.Attributes.style "animation-range-start" string
 
 
-animationtimeline : String -> Html.Attribute msg
-animationtimeline string =
+animationTimeline : String -> Html.Attribute msg
+animationTimeline string =
     Html.Attributes.style "animation-timeline" string
 
 
-animationtimingfunction : String -> Html.Attribute msg
-animationtimingfunction string =
+animationTimingFunction : String -> Html.Attribute msg
+animationTimingFunction string =
     Html.Attributes.style "animation-timing-function" string
 
 
@@ -609,8 +109,8 @@ appearance string =
     Html.Attributes.style "appearance" string
 
 
-aspectratio : String -> Html.Attribute msg
-aspectratio string =
+aspectRatio : String -> Html.Attribute msg
+aspectRatio string =
     Html.Attributes.style "aspect-ratio" string
 
 
@@ -619,13 +119,13 @@ azimuth string =
     Html.Attributes.style "azimuth" string
 
 
-backdropfilter : String -> Html.Attribute msg
-backdropfilter string =
+backdropFilter : String -> Html.Attribute msg
+backdropFilter string =
     Html.Attributes.style "backdrop-filter" string
 
 
-backfacevisibility : String -> Html.Attribute msg
-backfacevisibility string =
+backfaceVisibility : String -> Html.Attribute msg
+backfaceVisibility string =
     Html.Attributes.style "backface-visibility" string
 
 
@@ -634,63 +134,63 @@ background string =
     Html.Attributes.style "background" string
 
 
-backgroundattachment : String -> Html.Attribute msg
-backgroundattachment string =
+backgroundAttachment : String -> Html.Attribute msg
+backgroundAttachment string =
     Html.Attributes.style "background-attachment" string
 
 
-backgroundblendmode : String -> Html.Attribute msg
-backgroundblendmode string =
+backgroundBlendMode : String -> Html.Attribute msg
+backgroundBlendMode string =
     Html.Attributes.style "background-blend-mode" string
 
 
-backgroundclip : String -> Html.Attribute msg
-backgroundclip string =
+backgroundClip : String -> Html.Attribute msg
+backgroundClip string =
     Html.Attributes.style "background-clip" string
 
 
-backgroundcolor : String -> Html.Attribute msg
-backgroundcolor string =
+backgroundColor : String -> Html.Attribute msg
+backgroundColor string =
     Html.Attributes.style "background-color" string
 
 
-backgroundimage : String -> Html.Attribute msg
-backgroundimage string =
+backgroundImage : String -> Html.Attribute msg
+backgroundImage string =
     Html.Attributes.style "background-image" string
 
 
-backgroundorigin : String -> Html.Attribute msg
-backgroundorigin string =
+backgroundOrigin : String -> Html.Attribute msg
+backgroundOrigin string =
     Html.Attributes.style "background-origin" string
 
 
-backgroundposition : String -> Html.Attribute msg
-backgroundposition string =
+backgroundPosition : String -> Html.Attribute msg
+backgroundPosition string =
     Html.Attributes.style "background-position" string
 
 
-backgroundpositionx : String -> Html.Attribute msg
-backgroundpositionx string =
+backgroundPositionX : String -> Html.Attribute msg
+backgroundPositionX string =
     Html.Attributes.style "background-position-x" string
 
 
-backgroundpositiony : String -> Html.Attribute msg
-backgroundpositiony string =
+backgroundPositionY : String -> Html.Attribute msg
+backgroundPositionY string =
     Html.Attributes.style "background-position-y" string
 
 
-backgroundrepeat : String -> Html.Attribute msg
-backgroundrepeat string =
+backgroundRepeat : String -> Html.Attribute msg
+backgroundRepeat string =
     Html.Attributes.style "background-repeat" string
 
 
-backgroundsize : String -> Html.Attribute msg
-backgroundsize string =
+backgroundSize : String -> Html.Attribute msg
+backgroundSize string =
     Html.Attributes.style "background-size" string
 
 
-blocksize : String -> Html.Attribute msg
-blocksize string =
+blockSize : String -> Html.Attribute msg
+blockSize string =
     Html.Attributes.style "block-size" string
 
 
@@ -699,303 +199,303 @@ border string =
     Html.Attributes.style "border" string
 
 
-borderblock : String -> Html.Attribute msg
-borderblock string =
+borderBlock : String -> Html.Attribute msg
+borderBlock string =
     Html.Attributes.style "border-block" string
 
 
-borderblockcolor : String -> Html.Attribute msg
-borderblockcolor string =
+borderBlockColor : String -> Html.Attribute msg
+borderBlockColor string =
     Html.Attributes.style "border-block-color" string
 
 
-borderblockend : String -> Html.Attribute msg
-borderblockend string =
+borderBlockEnd : String -> Html.Attribute msg
+borderBlockEnd string =
     Html.Attributes.style "border-block-end" string
 
 
-borderblockendcolor : String -> Html.Attribute msg
-borderblockendcolor string =
+borderBlockEndColor : String -> Html.Attribute msg
+borderBlockEndColor string =
     Html.Attributes.style "border-block-end-color" string
 
 
-borderblockendstyle : String -> Html.Attribute msg
-borderblockendstyle string =
+borderBlockEndStyle : String -> Html.Attribute msg
+borderBlockEndStyle string =
     Html.Attributes.style "border-block-end-style" string
 
 
-borderblockendwidth : String -> Html.Attribute msg
-borderblockendwidth string =
+borderBlockEndWidth : String -> Html.Attribute msg
+borderBlockEndWidth string =
     Html.Attributes.style "border-block-end-width" string
 
 
-borderblockstart : String -> Html.Attribute msg
-borderblockstart string =
+borderBlockStart : String -> Html.Attribute msg
+borderBlockStart string =
     Html.Attributes.style "border-block-start" string
 
 
-borderblockstartcolor : String -> Html.Attribute msg
-borderblockstartcolor string =
+borderBlockStartColor : String -> Html.Attribute msg
+borderBlockStartColor string =
     Html.Attributes.style "border-block-start-color" string
 
 
-borderblockstartstyle : String -> Html.Attribute msg
-borderblockstartstyle string =
+borderBlockStartStyle : String -> Html.Attribute msg
+borderBlockStartStyle string =
     Html.Attributes.style "border-block-start-style" string
 
 
-borderblockstartwidth : String -> Html.Attribute msg
-borderblockstartwidth string =
+borderBlockStartWidth : String -> Html.Attribute msg
+borderBlockStartWidth string =
     Html.Attributes.style "border-block-start-width" string
 
 
-borderblockstyle : String -> Html.Attribute msg
-borderblockstyle string =
+borderBlockStyle : String -> Html.Attribute msg
+borderBlockStyle string =
     Html.Attributes.style "border-block-style" string
 
 
-borderblockwidth : String -> Html.Attribute msg
-borderblockwidth string =
+borderBlockWidth : String -> Html.Attribute msg
+borderBlockWidth string =
     Html.Attributes.style "border-block-width" string
 
 
-borderbottom : String -> Html.Attribute msg
-borderbottom string =
+borderBottom : String -> Html.Attribute msg
+borderBottom string =
     Html.Attributes.style "border-bottom" string
 
 
-borderbottomcolor : String -> Html.Attribute msg
-borderbottomcolor string =
+borderBottomColor : String -> Html.Attribute msg
+borderBottomColor string =
     Html.Attributes.style "border-bottom-color" string
 
 
-borderbottomleftradius : String -> Html.Attribute msg
-borderbottomleftradius string =
+borderBottomLeftRadius : String -> Html.Attribute msg
+borderBottomLeftRadius string =
     Html.Attributes.style "border-bottom-left-radius" string
 
 
-borderbottomrightradius : String -> Html.Attribute msg
-borderbottomrightradius string =
+borderBottomRightRadius : String -> Html.Attribute msg
+borderBottomRightRadius string =
     Html.Attributes.style "border-bottom-right-radius" string
 
 
-borderbottomstyle : String -> Html.Attribute msg
-borderbottomstyle string =
+borderBottomStyle : String -> Html.Attribute msg
+borderBottomStyle string =
     Html.Attributes.style "border-bottom-style" string
 
 
-borderbottomwidth : String -> Html.Attribute msg
-borderbottomwidth string =
+borderBottomWidth : String -> Html.Attribute msg
+borderBottomWidth string =
     Html.Attributes.style "border-bottom-width" string
 
 
-bordercollapse : String -> Html.Attribute msg
-bordercollapse string =
+borderCollapse : String -> Html.Attribute msg
+borderCollapse string =
     Html.Attributes.style "border-collapse" string
 
 
-bordercolor : String -> Html.Attribute msg
-bordercolor string =
+borderColor : String -> Html.Attribute msg
+borderColor string =
     Html.Attributes.style "border-color" string
 
 
-borderendendradius : String -> Html.Attribute msg
-borderendendradius string =
+borderEndEndRadius : String -> Html.Attribute msg
+borderEndEndRadius string =
     Html.Attributes.style "border-end-end-radius" string
 
 
-borderendstartradius : String -> Html.Attribute msg
-borderendstartradius string =
+borderEndStartRadius : String -> Html.Attribute msg
+borderEndStartRadius string =
     Html.Attributes.style "border-end-start-radius" string
 
 
-borderimage : String -> Html.Attribute msg
-borderimage string =
+borderImage : String -> Html.Attribute msg
+borderImage string =
     Html.Attributes.style "border-image" string
 
 
-borderimageoutset : String -> Html.Attribute msg
-borderimageoutset string =
+borderImageOutset : String -> Html.Attribute msg
+borderImageOutset string =
     Html.Attributes.style "border-image-outset" string
 
 
-borderimagerepeat : String -> Html.Attribute msg
-borderimagerepeat string =
+borderImageRepeat : String -> Html.Attribute msg
+borderImageRepeat string =
     Html.Attributes.style "border-image-repeat" string
 
 
-borderimageslice : String -> Html.Attribute msg
-borderimageslice string =
+borderImageSlice : String -> Html.Attribute msg
+borderImageSlice string =
     Html.Attributes.style "border-image-slice" string
 
 
-borderimagesource : String -> Html.Attribute msg
-borderimagesource string =
+borderImageSource : String -> Html.Attribute msg
+borderImageSource string =
     Html.Attributes.style "border-image-source" string
 
 
-borderimagewidth : String -> Html.Attribute msg
-borderimagewidth string =
+borderImageWidth : String -> Html.Attribute msg
+borderImageWidth string =
     Html.Attributes.style "border-image-width" string
 
 
-borderinline : String -> Html.Attribute msg
-borderinline string =
+borderInline : String -> Html.Attribute msg
+borderInline string =
     Html.Attributes.style "border-inline" string
 
 
-borderinlinecolor : String -> Html.Attribute msg
-borderinlinecolor string =
+borderInlineColor : String -> Html.Attribute msg
+borderInlineColor string =
     Html.Attributes.style "border-inline-color" string
 
 
-borderinlineend : String -> Html.Attribute msg
-borderinlineend string =
+borderInlineEnd : String -> Html.Attribute msg
+borderInlineEnd string =
     Html.Attributes.style "border-inline-end" string
 
 
-borderinlineendcolor : String -> Html.Attribute msg
-borderinlineendcolor string =
+borderInlineEndColor : String -> Html.Attribute msg
+borderInlineEndColor string =
     Html.Attributes.style "border-inline-end-color" string
 
 
-borderinlineendstyle : String -> Html.Attribute msg
-borderinlineendstyle string =
+borderInlineEndStyle : String -> Html.Attribute msg
+borderInlineEndStyle string =
     Html.Attributes.style "border-inline-end-style" string
 
 
-borderinlineendwidth : String -> Html.Attribute msg
-borderinlineendwidth string =
+borderInlineEndWidth : String -> Html.Attribute msg
+borderInlineEndWidth string =
     Html.Attributes.style "border-inline-end-width" string
 
 
-borderinlinestart : String -> Html.Attribute msg
-borderinlinestart string =
+borderInlineStart : String -> Html.Attribute msg
+borderInlineStart string =
     Html.Attributes.style "border-inline-start" string
 
 
-borderinlinestartcolor : String -> Html.Attribute msg
-borderinlinestartcolor string =
+borderInlineStartColor : String -> Html.Attribute msg
+borderInlineStartColor string =
     Html.Attributes.style "border-inline-start-color" string
 
 
-borderinlinestartstyle : String -> Html.Attribute msg
-borderinlinestartstyle string =
+borderInlineStartStyle : String -> Html.Attribute msg
+borderInlineStartStyle string =
     Html.Attributes.style "border-inline-start-style" string
 
 
-borderinlinestartwidth : String -> Html.Attribute msg
-borderinlinestartwidth string =
+borderInlineStartWidth : String -> Html.Attribute msg
+borderInlineStartWidth string =
     Html.Attributes.style "border-inline-start-width" string
 
 
-borderinlinestyle : String -> Html.Attribute msg
-borderinlinestyle string =
+borderInlineStyle : String -> Html.Attribute msg
+borderInlineStyle string =
     Html.Attributes.style "border-inline-style" string
 
 
-borderinlinewidth : String -> Html.Attribute msg
-borderinlinewidth string =
+borderInlineWidth : String -> Html.Attribute msg
+borderInlineWidth string =
     Html.Attributes.style "border-inline-width" string
 
 
-borderleft : String -> Html.Attribute msg
-borderleft string =
+borderLeft : String -> Html.Attribute msg
+borderLeft string =
     Html.Attributes.style "border-left" string
 
 
-borderleftcolor : String -> Html.Attribute msg
-borderleftcolor string =
+borderLeftColor : String -> Html.Attribute msg
+borderLeftColor string =
     Html.Attributes.style "border-left-color" string
 
 
-borderleftstyle : String -> Html.Attribute msg
-borderleftstyle string =
+borderLeftStyle : String -> Html.Attribute msg
+borderLeftStyle string =
     Html.Attributes.style "border-left-style" string
 
 
-borderleftwidth : String -> Html.Attribute msg
-borderleftwidth string =
+borderLeftWidth : String -> Html.Attribute msg
+borderLeftWidth string =
     Html.Attributes.style "border-left-width" string
 
 
-borderradius : String -> Html.Attribute msg
-borderradius string =
+borderRadius : String -> Html.Attribute msg
+borderRadius string =
     Html.Attributes.style "border-radius" string
 
 
-borderright : String -> Html.Attribute msg
-borderright string =
+borderRight : String -> Html.Attribute msg
+borderRight string =
     Html.Attributes.style "border-right" string
 
 
-borderrightcolor : String -> Html.Attribute msg
-borderrightcolor string =
+borderRightColor : String -> Html.Attribute msg
+borderRightColor string =
     Html.Attributes.style "border-right-color" string
 
 
-borderrightstyle : String -> Html.Attribute msg
-borderrightstyle string =
+borderRightStyle : String -> Html.Attribute msg
+borderRightStyle string =
     Html.Attributes.style "border-right-style" string
 
 
-borderrightwidth : String -> Html.Attribute msg
-borderrightwidth string =
+borderRightWidth : String -> Html.Attribute msg
+borderRightWidth string =
     Html.Attributes.style "border-right-width" string
 
 
-borderspacing : String -> Html.Attribute msg
-borderspacing string =
+borderSpacing : String -> Html.Attribute msg
+borderSpacing string =
     Html.Attributes.style "border-spacing" string
 
 
-borderstartendradius : String -> Html.Attribute msg
-borderstartendradius string =
+borderStartEndRadius : String -> Html.Attribute msg
+borderStartEndRadius string =
     Html.Attributes.style "border-start-end-radius" string
 
 
-borderstartstartradius : String -> Html.Attribute msg
-borderstartstartradius string =
+borderStartStartRadius : String -> Html.Attribute msg
+borderStartStartRadius string =
     Html.Attributes.style "border-start-start-radius" string
 
 
-borderstyle : String -> Html.Attribute msg
-borderstyle string =
+borderStyle : String -> Html.Attribute msg
+borderStyle string =
     Html.Attributes.style "border-style" string
 
 
-bordertop : String -> Html.Attribute msg
-bordertop string =
+borderTop : String -> Html.Attribute msg
+borderTop string =
     Html.Attributes.style "border-top" string
 
 
-bordertopcolor : String -> Html.Attribute msg
-bordertopcolor string =
+borderTopColor : String -> Html.Attribute msg
+borderTopColor string =
     Html.Attributes.style "border-top-color" string
 
 
-bordertopleftradius : String -> Html.Attribute msg
-bordertopleftradius string =
+borderTopLeftRadius : String -> Html.Attribute msg
+borderTopLeftRadius string =
     Html.Attributes.style "border-top-left-radius" string
 
 
-bordertoprightradius : String -> Html.Attribute msg
-bordertoprightradius string =
+borderTopRightRadius : String -> Html.Attribute msg
+borderTopRightRadius string =
     Html.Attributes.style "border-top-right-radius" string
 
 
-bordertopstyle : String -> Html.Attribute msg
-bordertopstyle string =
+borderTopStyle : String -> Html.Attribute msg
+borderTopStyle string =
     Html.Attributes.style "border-top-style" string
 
 
-bordertopwidth : String -> Html.Attribute msg
-bordertopwidth string =
+borderTopWidth : String -> Html.Attribute msg
+borderTopWidth string =
     Html.Attributes.style "border-top-width" string
 
 
-borderwidth : String -> Html.Attribute msg
-borderwidth string =
+borderWidth : String -> Html.Attribute msg
+borderWidth string =
     Html.Attributes.style "border-width" string
 
 
@@ -1004,78 +504,78 @@ bottom string =
     Html.Attributes.style "bottom" string
 
 
-boxalign : String -> Html.Attribute msg
-boxalign string =
+boxAlign : String -> Html.Attribute msg
+boxAlign string =
     Html.Attributes.style "box-align" string
 
 
-boxdecorationbreak : String -> Html.Attribute msg
-boxdecorationbreak string =
+boxDecorationBreak : String -> Html.Attribute msg
+boxDecorationBreak string =
     Html.Attributes.style "box-decoration-break" string
 
 
-boxdirection : String -> Html.Attribute msg
-boxdirection string =
+boxDirection : String -> Html.Attribute msg
+boxDirection string =
     Html.Attributes.style "box-direction" string
 
 
-boxflex : String -> Html.Attribute msg
-boxflex string =
+boxFlex : String -> Html.Attribute msg
+boxFlex string =
     Html.Attributes.style "box-flex" string
 
 
-boxflexgroup : String -> Html.Attribute msg
-boxflexgroup string =
+boxFlexGroup : String -> Html.Attribute msg
+boxFlexGroup string =
     Html.Attributes.style "box-flex-group" string
 
 
-boxlines : String -> Html.Attribute msg
-boxlines string =
+boxLines : String -> Html.Attribute msg
+boxLines string =
     Html.Attributes.style "box-lines" string
 
 
-boxordinalgroup : String -> Html.Attribute msg
-boxordinalgroup string =
+boxOrdinalGroup : String -> Html.Attribute msg
+boxOrdinalGroup string =
     Html.Attributes.style "box-ordinal-group" string
 
 
-boxorient : String -> Html.Attribute msg
-boxorient string =
+boxOrient : String -> Html.Attribute msg
+boxOrient string =
     Html.Attributes.style "box-orient" string
 
 
-boxpack : String -> Html.Attribute msg
-boxpack string =
+boxPack : String -> Html.Attribute msg
+boxPack string =
     Html.Attributes.style "box-pack" string
 
 
-boxshadow : String -> Html.Attribute msg
-boxshadow string =
+boxShadow : String -> Html.Attribute msg
+boxShadow string =
     Html.Attributes.style "box-shadow" string
 
 
-boxsizing : String -> Html.Attribute msg
-boxsizing string =
+boxSizing : String -> Html.Attribute msg
+boxSizing string =
     Html.Attributes.style "box-sizing" string
 
 
-breakafter : String -> Html.Attribute msg
-breakafter string =
+breakAfter : String -> Html.Attribute msg
+breakAfter string =
     Html.Attributes.style "break-after" string
 
 
-breakbefore : String -> Html.Attribute msg
-breakbefore string =
+breakBefore : String -> Html.Attribute msg
+breakBefore string =
     Html.Attributes.style "break-before" string
 
 
-breakinside : String -> Html.Attribute msg
-breakinside string =
+breakInside : String -> Html.Attribute msg
+breakInside string =
     Html.Attributes.style "break-inside" string
 
 
-captionside : String -> Html.Attribute msg
-captionside string =
+captionSide : String -> Html.Attribute msg
+captionSide string =
     Html.Attributes.style "caption-side" string
 
 
@@ -1084,13 +584,13 @@ caret string =
     Html.Attributes.style "caret" string
 
 
-caretcolor : String -> Html.Attribute msg
-caretcolor string =
+caretColor : String -> Html.Attribute msg
+caretColor string =
     Html.Attributes.style "caret-color" string
 
 
-caretshape : String -> Html.Attribute msg
-caretshape string =
+caretShape : String -> Html.Attribute msg
+caretShape string =
     Html.Attributes.style "caret-shape" string
 
 
@@ -1104,8 +604,8 @@ clip string =
     Html.Attributes.style "clip" string
 
 
-clippath : String -> Html.Attribute msg
-clippath string =
+clipPath : String -> Html.Attribute msg
+clipPath string =
     Html.Attributes.style "clip-path" string
 
 
@@ -1114,53 +614,53 @@ color string =
     Html.Attributes.style "color" string
 
 
-colorscheme : String -> Html.Attribute msg
-colorscheme string =
+colorScheme : String -> Html.Attribute msg
+colorScheme string =
     Html.Attributes.style "color-scheme" string
 
 
-columncount : String -> Html.Attribute msg
-columncount string =
+columnCount : String -> Html.Attribute msg
+columnCount string =
     Html.Attributes.style "column-count" string
 
 
-columnfill : String -> Html.Attribute msg
-columnfill string =
+columnFill : String -> Html.Attribute msg
+columnFill string =
     Html.Attributes.style "column-fill" string
 
 
-columngap : String -> Html.Attribute msg
-columngap string =
+columnGap : String -> Html.Attribute msg
+columnGap string =
     Html.Attributes.style "column-gap" string
 
 
-columnrule : String -> Html.Attribute msg
-columnrule string =
+columnRule : String -> Html.Attribute msg
+columnRule string =
     Html.Attributes.style "column-rule" string
 
 
-columnrulecolor : String -> Html.Attribute msg
-columnrulecolor string =
+columnRuleColor : String -> Html.Attribute msg
+columnRuleColor string =
     Html.Attributes.style "column-rule-color" string
 
 
-columnrulestyle : String -> Html.Attribute msg
-columnrulestyle string =
+columnRuleStyle : String -> Html.Attribute msg
+columnRuleStyle string =
     Html.Attributes.style "column-rule-style" string
 
 
-columnrulewidth : String -> Html.Attribute msg
-columnrulewidth string =
+columnRuleWidth : String -> Html.Attribute msg
+columnRuleWidth string =
     Html.Attributes.style "column-rule-width" string
 
 
-columnspan : String -> Html.Attribute msg
-columnspan string =
+columnSpan : String -> Html.Attribute msg
+columnSpan string =
     Html.Attributes.style "column-span" string
 
 
-columnwidth : String -> Html.Attribute msg
-columnwidth string =
+columnWidth : String -> Html.Attribute msg
+columnWidth string =
     Html.Attributes.style "column-width" string
 
 
@@ -1174,28 +674,28 @@ contain string =
     Html.Attributes.style "contain" string
 
 
-containintrinsicblocksize : String -> Html.Attribute msg
-containintrinsicblocksize string =
+containIntrinsicBlockSize : String -> Html.Attribute msg
+containIntrinsicBlockSize string =
     Html.Attributes.style "contain-intrinsic-block-size" string
 
 
-containintrinsicheight : String -> Html.Attribute msg
-containintrinsicheight string =
+containIntrinsicHeight : String -> Html.Attribute msg
+containIntrinsicHeight string =
     Html.Attributes.style "contain-intrinsic-height" string
 
 
-containintrinsicinlinesize : String -> Html.Attribute msg
-containintrinsicinlinesize string =
+containIntrinsicInlineSize : String -> Html.Attribute msg
+containIntrinsicInlineSize string =
     Html.Attributes.style "contain-intrinsic-inline-size" string
 
 
-containintrinsicsize : String -> Html.Attribute msg
-containintrinsicsize string =
+containIntrinsicSize : String -> Html.Attribute msg
+containIntrinsicSize string =
     Html.Attributes.style "contain-intrinsic-size" string
 
 
-containintrinsicwidth : String -> Html.Attribute msg
-containintrinsicwidth string =
+containIntrinsicWidth : String -> Html.Attribute msg
+containIntrinsicWidth string =
     Html.Attributes.style "contain-intrinsic-width" string
 
 
@@ -1204,13 +704,13 @@ container string =
     Html.Attributes.style "container" string
 
 
-containername : String -> Html.Attribute msg
-containername string =
+containerName : String -> Html.Attribute msg
+containerName string =
     Html.Attributes.style "container-name" string
 
 
-containertype : String -> Html.Attribute msg
-containertype string =
+containerType : String -> Html.Attribute msg
+containerType string =
     Html.Attributes.style "container-type" string
 
 
@@ -1219,23 +719,23 @@ content string =
     Html.Attributes.style "content" string
 
 
-contentvisibility : String -> Html.Attribute msg
-contentvisibility string =
+contentVisibility : String -> Html.Attribute msg
+contentVisibility string =
     Html.Attributes.style "content-visibility" string
 
 
-counterincrement : String -> Html.Attribute msg
-counterincrement string =
+counterIncrement : String -> Html.Attribute msg
+counterIncrement string =
     Html.Attributes.style "counter-increment" string
 
 
-counterreset : String -> Html.Attribute msg
-counterreset string =
+counterReset : String -> Html.Attribute msg
+counterReset string =
     Html.Attributes.style "counter-reset" string
 
 
-counterset : String -> Html.Attribute msg
-counterset string =
+counterSet : String -> Html.Attribute msg
+counterSet string =
     Html.Attributes.style "counter-set" string
 
 
@@ -1254,8 +754,8 @@ display string =
     Html.Attributes.style "display" string
 
 
-emptycells : String -> Html.Attribute msg
-emptycells string =
+emptyCells : String -> Html.Attribute msg
+emptyCells string =
     Html.Attributes.style "empty-cells" string
 
 
@@ -1269,33 +769,33 @@ flex string =
     Html.Attributes.style "flex" string
 
 
-flexbasis : String -> Html.Attribute msg
-flexbasis string =
+flexBasis : String -> Html.Attribute msg
+flexBasis string =
     Html.Attributes.style "flex-basis" string
 
 
-flexdirection : String -> Html.Attribute msg
-flexdirection string =
+flexDirection : String -> Html.Attribute msg
+flexDirection string =
     Html.Attributes.style "flex-direction" string
 
 
-flexflow : String -> Html.Attribute msg
-flexflow string =
+flexFlow : String -> Html.Attribute msg
+flexFlow string =
     Html.Attributes.style "flex-flow" string
 
 
-flexgrow : String -> Html.Attribute msg
-flexgrow string =
+flexGrow : String -> Html.Attribute msg
+flexGrow string =
     Html.Attributes.style "flex-grow" string
 
 
-flexshrink : String -> Html.Attribute msg
-flexshrink string =
+flexShrink : String -> Html.Attribute msg
+flexShrink string =
     Html.Attributes.style "flex-shrink" string
 
 
-flexwrap : String -> Html.Attribute msg
-flexwrap string =
+flexWrap : String -> Html.Attribute msg
+flexWrap string =
     Html.Attributes.style "flex-wrap" string
 
 
@@ -1309,138 +809,138 @@ font string =
     Html.Attributes.style "font" string
 
 
-fontfamily : String -> Html.Attribute msg
-fontfamily string =
+fontFamily : String -> Html.Attribute msg
+fontFamily string =
     Html.Attributes.style "font-family" string
 
 
-fontfeaturesettings : String -> Html.Attribute msg
-fontfeaturesettings string =
+fontFeatureSettings : String -> Html.Attribute msg
+fontFeatureSettings string =
     Html.Attributes.style "font-feature-settings" string
 
 
-fontkerning : String -> Html.Attribute msg
-fontkerning string =
+fontKerning : String -> Html.Attribute msg
+fontKerning string =
     Html.Attributes.style "font-kerning" string
 
 
-fontlanguageoverride : String -> Html.Attribute msg
-fontlanguageoverride string =
+fontLanguageOverride : String -> Html.Attribute msg
+fontLanguageOverride string =
     Html.Attributes.style "font-language-override" string
 
 
-fontopticalsizing : String -> Html.Attribute msg
-fontopticalsizing string =
+fontOpticalSizing : String -> Html.Attribute msg
+fontOpticalSizing string =
     Html.Attributes.style "font-optical-sizing" string
 
 
-fontpalette : String -> Html.Attribute msg
-fontpalette string =
+fontPalette : String -> Html.Attribute msg
+fontPalette string =
     Html.Attributes.style "font-palette" string
 
 
-fontsize : String -> Html.Attribute msg
-fontsize string =
+fontSize : String -> Html.Attribute msg
+fontSize string =
     Html.Attributes.style "font-size" string
 
 
-fontsizeadjust : String -> Html.Attribute msg
-fontsizeadjust string =
+fontSizeAdjust : String -> Html.Attribute msg
+fontSizeAdjust string =
     Html.Attributes.style "font-size-adjust" string
 
 
-fontsmooth : String -> Html.Attribute msg
-fontsmooth string =
+fontSmooth : String -> Html.Attribute msg
+fontSmooth string =
     Html.Attributes.style "font-smooth" string
 
 
-fontstretch : String -> Html.Attribute msg
-fontstretch string =
+fontStretch : String -> Html.Attribute msg
+fontStretch string =
     Html.Attributes.style "font-stretch" string
 
 
-fontstyle : String -> Html.Attribute msg
-fontstyle string =
+fontStyle : String -> Html.Attribute msg
+fontStyle string =
     Html.Attributes.style "font-style" string
 
 
-fontsynthesis : String -> Html.Attribute msg
-fontsynthesis string =
+fontSynthesis : String -> Html.Attribute msg
+fontSynthesis string =
     Html.Attributes.style "font-synthesis" string
 
 
-fontsynthesisposition : String -> Html.Attribute msg
-fontsynthesisposition string =
+fontSynthesisPosition : String -> Html.Attribute msg
+fontSynthesisPosition string =
     Html.Attributes.style "font-synthesis-position" string
 
 
-fontsynthesissmallcaps : String -> Html.Attribute msg
-fontsynthesissmallcaps string =
+fontSynthesisSmallCaps : String -> Html.Attribute msg
+fontSynthesisSmallCaps string =
     Html.Attributes.style "font-synthesis-small-caps" string
 
 
-fontsynthesisstyle : String -> Html.Attribute msg
-fontsynthesisstyle string =
+fontSynthesisStyle : String -> Html.Attribute msg
+fontSynthesisStyle string =
     Html.Attributes.style "font-synthesis-style" string
 
 
-fontsynthesisweight : String -> Html.Attribute msg
-fontsynthesisweight string =
+fontSynthesisWeight : String -> Html.Attribute msg
+fontSynthesisWeight string =
     Html.Attributes.style "font-synthesis-weight" string
 
 
-fontvariant : String -> Html.Attribute msg
-fontvariant string =
+fontVariant : String -> Html.Attribute msg
+fontVariant string =
     Html.Attributes.style "font-variant" string
 
 
-fontvariantalternates : String -> Html.Attribute msg
-fontvariantalternates string =
+fontVariantAlternates : String -> Html.Attribute msg
+fontVariantAlternates string =
     Html.Attributes.style "font-variant-alternates" string
 
 
-fontvariantcaps : String -> Html.Attribute msg
-fontvariantcaps string =
+fontVariantCaps : String -> Html.Attribute msg
+fontVariantCaps string =
     Html.Attributes.style "font-variant-caps" string
 
 
-fontvarianteastasian : String -> Html.Attribute msg
-fontvarianteastasian string =
+fontVariantEastAsian : String -> Html.Attribute msg
+fontVariantEastAsian string =
     Html.Attributes.style "font-variant-east-asian" string
 
 
-fontvariantemoji : String -> Html.Attribute msg
-fontvariantemoji string =
+fontVariantEmoji : String -> Html.Attribute msg
+fontVariantEmoji string =
     Html.Attributes.style "font-variant-emoji" string
 
 
-fontvariantligatures : String -> Html.Attribute msg
-fontvariantligatures string =
+fontVariantLigatures : String -> Html.Attribute msg
+fontVariantLigatures string =
     Html.Attributes.style "font-variant-ligatures" string
 
 
-fontvariantnumeric : String -> Html.Attribute msg
-fontvariantnumeric string =
+fontVariantNumeric : String -> Html.Attribute msg
+fontVariantNumeric string =
     Html.Attributes.style "font-variant-numeric" string
 
 
-fontvariantposition : String -> Html.Attribute msg
-fontvariantposition string =
+fontVariantPosition : String -> Html.Attribute msg
+fontVariantPosition string =
     Html.Attributes.style "font-variant-position" string
 
 
-fontvariationsettings : String -> Html.Attribute msg
-fontvariationsettings string =
+fontVariationSettings : String -> Html.Attribute msg
+fontVariationSettings string =
     Html.Attributes.style "font-variation-settings" string
 
 
-fontweight : String -> Html.Attribute msg
-fontweight string =
+fontWeight : String -> Html.Attribute msg
+fontWeight string =
     Html.Attributes.style "font-weight" string
 
 
-forcedcoloradjust : String -> Html.Attribute msg
-forcedcoloradjust string =
+forcedColorAdjust : String -> Html.Attribute msg
+forcedColorAdjust string =
     Html.Attributes.style "forced-color-adjust" string
 
 
@@ -1454,93 +954,93 @@ grid string =
     Html.Attributes.style "grid" string
 
 
-gridarea : String -> Html.Attribute msg
-gridarea string =
+gridArea : String -> Html.Attribute msg
+gridArea string =
     Html.Attributes.style "grid-area" string
 
 
-gridautocolumns : String -> Html.Attribute msg
-gridautocolumns string =
+gridAutoColumns : String -> Html.Attribute msg
+gridAutoColumns string =
     Html.Attributes.style "grid-auto-columns" string
 
 
-gridautoflow : String -> Html.Attribute msg
-gridautoflow string =
+gridAutoFlow : String -> Html.Attribute msg
+gridAutoFlow string =
     Html.Attributes.style "grid-auto-flow" string
 
 
-gridautorows : String -> Html.Attribute msg
-gridautorows string =
+gridAutoRows : String -> Html.Attribute msg
+gridAutoRows string =
     Html.Attributes.style "grid-auto-rows" string
 
 
-gridcolumn : String -> Html.Attribute msg
-gridcolumn string =
+gridColumn : String -> Html.Attribute msg
+gridColumn string =
     Html.Attributes.style "grid-column" string
 
 
-gridcolumnend : String -> Html.Attribute msg
-gridcolumnend string =
+gridColumnEnd : String -> Html.Attribute msg
+gridColumnEnd string =
     Html.Attributes.style "grid-column-end" string
 
 
-gridcolumngap : String -> Html.Attribute msg
-gridcolumngap string =
+gridColumnGap : String -> Html.Attribute msg
+gridColumnGap string =
     Html.Attributes.style "grid-column-gap" string
 
 
-gridcolumnstart : String -> Html.Attribute msg
-gridcolumnstart string =
+gridColumnStart : String -> Html.Attribute msg
+gridColumnStart string =
     Html.Attributes.style "grid-column-start" string
 
 
-gridgap : String -> Html.Attribute msg
-gridgap string =
+gridGap : String -> Html.Attribute msg
+gridGap string =
     Html.Attributes.style "grid-gap" string
 
 
-gridrow : String -> Html.Attribute msg
-gridrow string =
+gridRow : String -> Html.Attribute msg
+gridRow string =
     Html.Attributes.style "grid-row" string
 
 
-gridrowend : String -> Html.Attribute msg
-gridrowend string =
+gridRowEnd : String -> Html.Attribute msg
+gridRowEnd string =
     Html.Attributes.style "grid-row-end" string
 
 
-gridrowgap : String -> Html.Attribute msg
-gridrowgap string =
+gridRowGap : String -> Html.Attribute msg
+gridRowGap string =
     Html.Attributes.style "grid-row-gap" string
 
 
-gridrowstart : String -> Html.Attribute msg
-gridrowstart string =
+gridRowStart : String -> Html.Attribute msg
+gridRowStart string =
     Html.Attributes.style "grid-row-start" string
 
 
-gridtemplate : String -> Html.Attribute msg
-gridtemplate string =
+gridTemplate : String -> Html.Attribute msg
+gridTemplate string =
     Html.Attributes.style "grid-template" string
 
 
-gridtemplateareas : String -> Html.Attribute msg
-gridtemplateareas string =
+gridTemplateAreas : String -> Html.Attribute msg
+gridTemplateAreas string =
     Html.Attributes.style "grid-template-areas" string
 
 
-gridtemplatecolumns : String -> Html.Attribute msg
-gridtemplatecolumns string =
+gridTemplateColumns : String -> Html.Attribute msg
+gridTemplateColumns string =
     Html.Attributes.style "grid-template-columns" string
 
 
-gridtemplaterows : String -> Html.Attribute msg
-gridtemplaterows string =
+gridTemplateRows : String -> Html.Attribute msg
+gridTemplateRows string =
     Html.Attributes.style "grid-template-rows" string
 
 
-hangingpunctuation : String -> Html.Attribute msg
-hangingpunctuation string =
+hangingPunctuation : String -> Html.Attribute msg
+hangingPunctuation string =
     Html.Attributes.style "hanging-punctuation" string
 
 
@@ -1549,13 +1049,13 @@ height string =
     Html.Attributes.style "height" string
 
 
-hyphenatecharacter : String -> Html.Attribute msg
-hyphenatecharacter string =
+hyphenateCharacter : String -> Html.Attribute msg
+hyphenateCharacter string =
     Html.Attributes.style "hyphenate-character" string
 
 
-hyphenatelimitchars : String -> Html.Attribute msg
-hyphenatelimitchars string =
+hyphenateLimitChars : String -> Html.Attribute msg
+hyphenateLimitChars string =
     Html.Attributes.style "hyphenate-limit-chars" string
 
 
@@ -1564,43 +1064,43 @@ hyphens string =
     Html.Attributes.style "hyphens" string
 
 
-imageorientation : String -> Html.Attribute msg
-imageorientation string =
+imageOrientation : String -> Html.Attribute msg
+imageOrientation string =
     Html.Attributes.style "image-orientation" string
 
 
-imagerendering : String -> Html.Attribute msg
-imagerendering string =
+imageRendering : String -> Html.Attribute msg
+imageRendering string =
     Html.Attributes.style "image-rendering" string
 
 
-imageresolution : String -> Html.Attribute msg
-imageresolution string =
+imageResolution : String -> Html.Attribute msg
+imageResolution string =
     Html.Attributes.style "image-resolution" string
 
 
-imemode : String -> Html.Attribute msg
-imemode string =
+imeMode : String -> Html.Attribute msg
+imeMode string =
     Html.Attributes.style "ime-mode" string
 
 
-initialletter : String -> Html.Attribute msg
-initialletter string =
+initialLetter : String -> Html.Attribute msg
+initialLetter string =
     Html.Attributes.style "initial-letter" string
 
 
-initialletteralign : String -> Html.Attribute msg
-initialletteralign string =
+initialLetterAlign : String -> Html.Attribute msg
+initialLetterAlign string =
     Html.Attributes.style "initial-letter-align" string
 
 
-inlinesize : String -> Html.Attribute msg
-inlinesize string =
+inlineSize : String -> Html.Attribute msg
+inlineSize string =
     Html.Attributes.style "inline-size" string
 
 
-inputsecurity : String -> Html.Attribute msg
-inputsecurity string =
+inputSecurity : String -> Html.Attribute msg
+inputSecurity string =
     Html.Attributes.style "input-security" string
 
 
@@ -1609,33 +1109,33 @@ inset string =
     Html.Attributes.style "inset" string
 
 
-insetblock : String -> Html.Attribute msg
-insetblock string =
+insetBlock : String -> Html.Attribute msg
+insetBlock string =
     Html.Attributes.style "inset-block" string
 
 
-insetblockend : String -> Html.Attribute msg
-insetblockend string =
+insetBlockEnd : String -> Html.Attribute msg
+insetBlockEnd string =
     Html.Attributes.style "inset-block-end" string
 
 
-insetblockstart : String -> Html.Attribute msg
-insetblockstart string =
+insetBlockStart : String -> Html.Attribute msg
+insetBlockStart string =
     Html.Attributes.style "inset-block-start" string
 
 
-insetinline : String -> Html.Attribute msg
-insetinline string =
+insetInline : String -> Html.Attribute msg
+insetInline string =
     Html.Attributes.style "inset-inline" string
 
 
-insetinlineend : String -> Html.Attribute msg
-insetinlineend string =
+insetInlineEnd : String -> Html.Attribute msg
+insetInlineEnd string =
     Html.Attributes.style "inset-inline-end" string
 
 
-insetinlinestart : String -> Html.Attribute msg
-insetinlinestart string =
+insetInlineStart : String -> Html.Attribute msg
+insetInlineStart string =
     Html.Attributes.style "inset-inline-start" string
 
 
@@ -1644,23 +1144,23 @@ isolation string =
     Html.Attributes.style "isolation" string
 
 
-justifycontent : String -> Html.Attribute msg
-justifycontent string =
+justifyContent : String -> Html.Attribute msg
+justifyContent string =
     Html.Attributes.style "justify-content" string
 
 
-justifyitems : String -> Html.Attribute msg
-justifyitems string =
+justifyItems : String -> Html.Attribute msg
+justifyItems string =
     Html.Attributes.style "justify-items" string
 
 
-justifyself : String -> Html.Attribute msg
-justifyself string =
+justifySelf : String -> Html.Attribute msg
+justifySelf string =
     Html.Attributes.style "justify-self" string
 
 
-justifytracks : String -> Html.Attribute msg
-justifytracks string =
+justifyTracks : String -> Html.Attribute msg
+justifyTracks string =
     Html.Attributes.style "justify-tracks" string
 
 
@@ -1669,48 +1169,48 @@ left string =
     Html.Attributes.style "left" string
 
 
-letterspacing : String -> Html.Attribute msg
-letterspacing string =
+letterSpacing : String -> Html.Attribute msg
+letterSpacing string =
     Html.Attributes.style "letter-spacing" string
 
 
-linebreak : String -> Html.Attribute msg
-linebreak string =
+lineBreak : String -> Html.Attribute msg
+lineBreak string =
     Html.Attributes.style "line-break" string
 
 
-lineclamp : String -> Html.Attribute msg
-lineclamp string =
+lineClamp : String -> Html.Attribute msg
+lineClamp string =
     Html.Attributes.style "line-clamp" string
 
 
-lineheight : String -> Html.Attribute msg
-lineheight string =
+lineHeight : String -> Html.Attribute msg
+lineHeight string =
     Html.Attributes.style "line-height" string
 
 
-lineheightstep : String -> Html.Attribute msg
-lineheightstep string =
+lineHeightStep : String -> Html.Attribute msg
+lineHeightStep string =
     Html.Attributes.style "line-height-step" string
 
 
-liststyle : String -> Html.Attribute msg
-liststyle string =
+listStyle : String -> Html.Attribute msg
+listStyle string =
     Html.Attributes.style "list-style" string
 
 
-liststyleimage : String -> Html.Attribute msg
-liststyleimage string =
+listStyleImage : String -> Html.Attribute msg
+listStyleImage string =
     Html.Attributes.style "list-style-image" string
 
 
-liststyleposition : String -> Html.Attribute msg
-liststyleposition string =
+listStylePosition : String -> Html.Attribute msg
+listStylePosition string =
     Html.Attributes.style "list-style-position" string
 
 
-liststyletype : String -> Html.Attribute msg
-liststyletype string =
+listStyleType : String -> Html.Attribute msg
+listStyleType string =
     Html.Attributes.style "list-style-type" string
 
 
@@ -1719,58 +1219,58 @@ margin string =
     Html.Attributes.style "margin" string
 
 
-marginblock : String -> Html.Attribute msg
-marginblock string =
+marginBlock : String -> Html.Attribute msg
+marginBlock string =
     Html.Attributes.style "margin-block" string
 
 
-marginblockend : String -> Html.Attribute msg
-marginblockend string =
+marginBlockEnd : String -> Html.Attribute msg
+marginBlockEnd string =
     Html.Attributes.style "margin-block-end" string
 
 
-marginblockstart : String -> Html.Attribute msg
-marginblockstart string =
+marginBlockStart : String -> Html.Attribute msg
+marginBlockStart string =
     Html.Attributes.style "margin-block-start" string
 
 
-marginbottom : String -> Html.Attribute msg
-marginbottom string =
+marginBottom : String -> Html.Attribute msg
+marginBottom string =
     Html.Attributes.style "margin-bottom" string
 
 
-margininline : String -> Html.Attribute msg
-margininline string =
+marginInline : String -> Html.Attribute msg
+marginInline string =
     Html.Attributes.style "margin-inline" string
 
 
-margininlineend : String -> Html.Attribute msg
-margininlineend string =
+marginInlineEnd : String -> Html.Attribute msg
+marginInlineEnd string =
     Html.Attributes.style "margin-inline-end" string
 
 
-margininlinestart : String -> Html.Attribute msg
-margininlinestart string =
+marginInlineStart : String -> Html.Attribute msg
+marginInlineStart string =
     Html.Attributes.style "margin-inline-start" string
 
 
-marginleft : String -> Html.Attribute msg
-marginleft string =
+marginLeft : String -> Html.Attribute msg
+marginLeft string =
     Html.Attributes.style "margin-left" string
 
 
-marginright : String -> Html.Attribute msg
-marginright string =
+marginRight : String -> Html.Attribute msg
+marginRight string =
     Html.Attributes.style "margin-right" string
 
 
-margintop : String -> Html.Attribute msg
-margintop string =
+marginTop : String -> Html.Attribute msg
+marginTop string =
     Html.Attributes.style "margin-top" string
 
 
-margintrim : String -> Html.Attribute msg
-margintrim string =
+marginTrim : String -> Html.Attribute msg
+marginTrim string =
     Html.Attributes.style "margin-trim" string
 
 
@@ -1779,163 +1279,163 @@ mask string =
     Html.Attributes.style "mask" string
 
 
-maskborder : String -> Html.Attribute msg
-maskborder string =
+maskBorder : String -> Html.Attribute msg
+maskBorder string =
     Html.Attributes.style "mask-border" string
 
 
-maskbordermode : String -> Html.Attribute msg
-maskbordermode string =
+maskBorderMode : String -> Html.Attribute msg
+maskBorderMode string =
     Html.Attributes.style "mask-border-mode" string
 
 
-maskborderoutset : String -> Html.Attribute msg
-maskborderoutset string =
+maskBorderOutset : String -> Html.Attribute msg
+maskBorderOutset string =
     Html.Attributes.style "mask-border-outset" string
 
 
-maskborderrepeat : String -> Html.Attribute msg
-maskborderrepeat string =
+maskBorderRepeat : String -> Html.Attribute msg
+maskBorderRepeat string =
     Html.Attributes.style "mask-border-repeat" string
 
 
-maskborderslice : String -> Html.Attribute msg
-maskborderslice string =
+maskBorderSlice : String -> Html.Attribute msg
+maskBorderSlice string =
     Html.Attributes.style "mask-border-slice" string
 
 
-maskbordersource : String -> Html.Attribute msg
-maskbordersource string =
+maskBorderSource : String -> Html.Attribute msg
+maskBorderSource string =
     Html.Attributes.style "mask-border-source" string
 
 
-maskborderwidth : String -> Html.Attribute msg
-maskborderwidth string =
+maskBorderWidth : String -> Html.Attribute msg
+maskBorderWidth string =
     Html.Attributes.style "mask-border-width" string
 
 
-maskclip : String -> Html.Attribute msg
-maskclip string =
+maskClip : String -> Html.Attribute msg
+maskClip string =
     Html.Attributes.style "mask-clip" string
 
 
-maskcomposite : String -> Html.Attribute msg
-maskcomposite string =
+maskComposite : String -> Html.Attribute msg
+maskComposite string =
     Html.Attributes.style "mask-composite" string
 
 
-maskimage : String -> Html.Attribute msg
-maskimage string =
+maskImage : String -> Html.Attribute msg
+maskImage string =
     Html.Attributes.style "mask-image" string
 
 
-maskmode : String -> Html.Attribute msg
-maskmode string =
+maskMode : String -> Html.Attribute msg
+maskMode string =
     Html.Attributes.style "mask-mode" string
 
 
-maskorigin : String -> Html.Attribute msg
-maskorigin string =
+maskOrigin : String -> Html.Attribute msg
+maskOrigin string =
     Html.Attributes.style "mask-origin" string
 
 
-maskposition : String -> Html.Attribute msg
-maskposition string =
+maskPosition : String -> Html.Attribute msg
+maskPosition string =
     Html.Attributes.style "mask-position" string
 
 
-maskrepeat : String -> Html.Attribute msg
-maskrepeat string =
+maskRepeat : String -> Html.Attribute msg
+maskRepeat string =
     Html.Attributes.style "mask-repeat" string
 
 
-masksize : String -> Html.Attribute msg
-masksize string =
+maskSize : String -> Html.Attribute msg
+maskSize string =
     Html.Attributes.style "mask-size" string
 
 
-masktype : String -> Html.Attribute msg
-masktype string =
+maskType : String -> Html.Attribute msg
+maskType string =
     Html.Attributes.style "mask-type" string
 
 
-masonryautoflow : String -> Html.Attribute msg
-masonryautoflow string =
+masonryAutoFlow : String -> Html.Attribute msg
+masonryAutoFlow string =
     Html.Attributes.style "masonry-auto-flow" string
 
 
-mathdepth : String -> Html.Attribute msg
-mathdepth string =
+mathDepth : String -> Html.Attribute msg
+mathDepth string =
     Html.Attributes.style "math-depth" string
 
 
-mathshift : String -> Html.Attribute msg
-mathshift string =
+mathShift : String -> Html.Attribute msg
+mathShift string =
     Html.Attributes.style "math-shift" string
 
 
-mathstyle : String -> Html.Attribute msg
-mathstyle string =
+mathStyle : String -> Html.Attribute msg
+mathStyle string =
     Html.Attributes.style "math-style" string
 
 
-maxblocksize : String -> Html.Attribute msg
-maxblocksize string =
+maxBlockSize : String -> Html.Attribute msg
+maxBlockSize string =
     Html.Attributes.style "max-block-size" string
 
 
-maxheight : String -> Html.Attribute msg
-maxheight string =
+maxHeight : String -> Html.Attribute msg
+maxHeight string =
     Html.Attributes.style "max-height" string
 
 
-maxinlinesize : String -> Html.Attribute msg
-maxinlinesize string =
+maxInlineSize : String -> Html.Attribute msg
+maxInlineSize string =
     Html.Attributes.style "max-inline-size" string
 
 
-maxlines : String -> Html.Attribute msg
-maxlines string =
+maxLines : String -> Html.Attribute msg
+maxLines string =
     Html.Attributes.style "max-lines" string
 
 
-maxwidth : String -> Html.Attribute msg
-maxwidth string =
+maxWidth : String -> Html.Attribute msg
+maxWidth string =
     Html.Attributes.style "max-width" string
 
 
-minblocksize : String -> Html.Attribute msg
-minblocksize string =
+minBlockSize : String -> Html.Attribute msg
+minBlockSize string =
     Html.Attributes.style "min-block-size" string
 
 
-minheight : String -> Html.Attribute msg
-minheight string =
+minHeight : String -> Html.Attribute msg
+minHeight string =
     Html.Attributes.style "min-height" string
 
 
-mininlinesize : String -> Html.Attribute msg
-mininlinesize string =
+minInlineSize : String -> Html.Attribute msg
+minInlineSize string =
     Html.Attributes.style "min-inline-size" string
 
 
-minwidth : String -> Html.Attribute msg
-minwidth string =
+minWidth : String -> Html.Attribute msg
+minWidth string =
     Html.Attributes.style "min-width" string
 
 
-mixblendmode : String -> Html.Attribute msg
-mixblendmode string =
+mixBlendMode : String -> Html.Attribute msg
+mixBlendMode string =
     Html.Attributes.style "mix-blend-mode" string
 
 
-objectfit : String -> Html.Attribute msg
-objectfit string =
+objectFit : String -> Html.Attribute msg
+objectFit string =
     Html.Attributes.style "object-fit" string
 
 
-objectposition : String -> Html.Attribute msg
-objectposition string =
+objectPosition : String -> Html.Attribute msg
+objectPosition string =
     Html.Attributes.style "object-position" string
 
 
@@ -1944,28 +1444,28 @@ offset string =
     Html.Attributes.style "offset" string
 
 
-offsetanchor : String -> Html.Attribute msg
-offsetanchor string =
+offsetAnchor : String -> Html.Attribute msg
+offsetAnchor string =
     Html.Attributes.style "offset-anchor" string
 
 
-offsetdistance : String -> Html.Attribute msg
-offsetdistance string =
+offsetDistance : String -> Html.Attribute msg
+offsetDistance string =
     Html.Attributes.style "offset-distance" string
 
 
-offsetpath : String -> Html.Attribute msg
-offsetpath string =
+offsetPath : String -> Html.Attribute msg
+offsetPath string =
     Html.Attributes.style "offset-path" string
 
 
-offsetposition : String -> Html.Attribute msg
-offsetposition string =
+offsetPosition : String -> Html.Attribute msg
+offsetPosition string =
     Html.Attributes.style "offset-position" string
 
 
-offsetrotate : String -> Html.Attribute msg
-offsetrotate string =
+offsetRotate : String -> Html.Attribute msg
+offsetRotate string =
     Html.Attributes.style "offset-rotate" string
 
 
@@ -1989,23 +1489,23 @@ outline string =
     Html.Attributes.style "outline" string
 
 
-outlinecolor : String -> Html.Attribute msg
-outlinecolor string =
+outlineColor : String -> Html.Attribute msg
+outlineColor string =
     Html.Attributes.style "outline-color" string
 
 
-outlineoffset : String -> Html.Attribute msg
-outlineoffset string =
+outlineOffset : String -> Html.Attribute msg
+outlineOffset string =
     Html.Attributes.style "outline-offset" string
 
 
-outlinestyle : String -> Html.Attribute msg
-outlinestyle string =
+outlineStyle : String -> Html.Attribute msg
+outlineStyle string =
     Html.Attributes.style "outline-style" string
 
 
-outlinewidth : String -> Html.Attribute msg
-outlinewidth string =
+outlineWidth : String -> Html.Attribute msg
+outlineWidth string =
     Html.Attributes.style "outline-width" string
 
 
@@ -2014,43 +1514,43 @@ overflow string =
     Html.Attributes.style "overflow" string
 
 
-overflowanchor : String -> Html.Attribute msg
-overflowanchor string =
+overflowAnchor : String -> Html.Attribute msg
+overflowAnchor string =
     Html.Attributes.style "overflow-anchor" string
 
 
-overflowblock : String -> Html.Attribute msg
-overflowblock string =
+overflowBlock : String -> Html.Attribute msg
+overflowBlock string =
     Html.Attributes.style "overflow-block" string
 
 
-overflowclipbox : String -> Html.Attribute msg
-overflowclipbox string =
+overflowClipBox : String -> Html.Attribute msg
+overflowClipBox string =
     Html.Attributes.style "overflow-clip-box" string
 
 
-overflowclipmargin : String -> Html.Attribute msg
-overflowclipmargin string =
+overflowClipMargin : String -> Html.Attribute msg
+overflowClipMargin string =
     Html.Attributes.style "overflow-clip-margin" string
 
 
-overflowinline : String -> Html.Attribute msg
-overflowinline string =
+overflowInline : String -> Html.Attribute msg
+overflowInline string =
     Html.Attributes.style "overflow-inline" string
 
 
-overflowwrap : String -> Html.Attribute msg
-overflowwrap string =
+overflowWrap : String -> Html.Attribute msg
+overflowWrap string =
     Html.Attributes.style "overflow-wrap" string
 
 
-overflowx : String -> Html.Attribute msg
-overflowx string =
+overflowX : String -> Html.Attribute msg
+overflowX string =
     Html.Attributes.style "overflow-x" string
 
 
-overflowy : String -> Html.Attribute msg
-overflowy string =
+overflowY : String -> Html.Attribute msg
+overflowY string =
     Html.Attributes.style "overflow-y" string
 
 
@@ -2059,28 +1559,28 @@ overlay string =
     Html.Attributes.style "overlay" string
 
 
-overscrollbehavior : String -> Html.Attribute msg
-overscrollbehavior string =
+overscrollBehavior : String -> Html.Attribute msg
+overscrollBehavior string =
     Html.Attributes.style "overscroll-behavior" string
 
 
-overscrollbehaviorblock : String -> Html.Attribute msg
-overscrollbehaviorblock string =
+overscrollBehaviorBlock : String -> Html.Attribute msg
+overscrollBehaviorBlock string =
     Html.Attributes.style "overscroll-behavior-block" string
 
 
-overscrollbehaviorinline : String -> Html.Attribute msg
-overscrollbehaviorinline string =
+overscrollBehaviorInline : String -> Html.Attribute msg
+overscrollBehaviorInline string =
     Html.Attributes.style "overscroll-behavior-inline" string
 
 
-overscrollbehaviorx : String -> Html.Attribute msg
-overscrollbehaviorx string =
+overscrollBehaviorX : String -> Html.Attribute msg
+overscrollBehaviorX string =
     Html.Attributes.style "overscroll-behavior-x" string
 
 
-overscrollbehaviory : String -> Html.Attribute msg
-overscrollbehaviory string =
+overscrollBehaviorY : String -> Html.Attribute msg
+overscrollBehaviorY string =
     Html.Attributes.style "overscroll-behavior-y" string
 
 
@@ -2089,53 +1589,53 @@ padding string =
     Html.Attributes.style "padding" string
 
 
-paddingblock : String -> Html.Attribute msg
-paddingblock string =
+paddingBlock : String -> Html.Attribute msg
+paddingBlock string =
     Html.Attributes.style "padding-block" string
 
 
-paddingblockend : String -> Html.Attribute msg
-paddingblockend string =
+paddingBlockEnd : String -> Html.Attribute msg
+paddingBlockEnd string =
     Html.Attributes.style "padding-block-end" string
 
 
-paddingblockstart : String -> Html.Attribute msg
-paddingblockstart string =
+paddingBlockStart : String -> Html.Attribute msg
+paddingBlockStart string =
     Html.Attributes.style "padding-block-start" string
 
 
-paddingbottom : String -> Html.Attribute msg
-paddingbottom string =
+paddingBottom : String -> Html.Attribute msg
+paddingBottom string =
     Html.Attributes.style "padding-bottom" string
 
 
-paddinginline : String -> Html.Attribute msg
-paddinginline string =
+paddingInline : String -> Html.Attribute msg
+paddingInline string =
     Html.Attributes.style "padding-inline" string
 
 
-paddinginlineend : String -> Html.Attribute msg
-paddinginlineend string =
+paddingInlineEnd : String -> Html.Attribute msg
+paddingInlineEnd string =
     Html.Attributes.style "padding-inline-end" string
 
 
-paddinginlinestart : String -> Html.Attribute msg
-paddinginlinestart string =
+paddingInlineStart : String -> Html.Attribute msg
+paddingInlineStart string =
     Html.Attributes.style "padding-inline-start" string
 
 
-paddingleft : String -> Html.Attribute msg
-paddingleft string =
+paddingLeft : String -> Html.Attribute msg
+paddingLeft string =
     Html.Attributes.style "padding-left" string
 
 
-paddingright : String -> Html.Attribute msg
-paddingright string =
+paddingRight : String -> Html.Attribute msg
+paddingRight string =
     Html.Attributes.style "padding-right" string
 
 
-paddingtop : String -> Html.Attribute msg
-paddingtop string =
+paddingTop : String -> Html.Attribute msg
+paddingTop string =
     Html.Attributes.style "padding-top" string
 
 
@@ -2144,23 +1644,23 @@ page string =
     Html.Attributes.style "page" string
 
 
-pagebreakafter : String -> Html.Attribute msg
-pagebreakafter string =
+pageBreakAfter : String -> Html.Attribute msg
+pageBreakAfter string =
     Html.Attributes.style "page-break-after" string
 
 
-pagebreakbefore : String -> Html.Attribute msg
-pagebreakbefore string =
+pageBreakBefore : String -> Html.Attribute msg
+pageBreakBefore string =
     Html.Attributes.style "page-break-before" string
 
 
-pagebreakinside : String -> Html.Attribute msg
-pagebreakinside string =
+pageBreakInside : String -> Html.Attribute msg
+pageBreakInside string =
     Html.Attributes.style "page-break-inside" string
 
 
-paintorder : String -> Html.Attribute msg
-paintorder string =
+paintOrder : String -> Html.Attribute msg
+paintOrder string =
     Html.Attributes.style "paint-order" string
 
 
@@ -2169,28 +1669,28 @@ perspective string =
     Html.Attributes.style "perspective" string
 
 
-perspectiveorigin : String -> Html.Attribute msg
-perspectiveorigin string =
+perspectiveOrigin : String -> Html.Attribute msg
+perspectiveOrigin string =
     Html.Attributes.style "perspective-origin" string
 
 
-placecontent : String -> Html.Attribute msg
-placecontent string =
+placeContent : String -> Html.Attribute msg
+placeContent string =
     Html.Attributes.style "place-content" string
 
 
-placeitems : String -> Html.Attribute msg
-placeitems string =
+placeItems : String -> Html.Attribute msg
+placeItems string =
     Html.Attributes.style "place-items" string
 
 
-placeself : String -> Html.Attribute msg
-placeself string =
+placeSelf : String -> Html.Attribute msg
+placeSelf string =
     Html.Attributes.style "place-self" string
 
 
-pointerevents : String -> Html.Attribute msg
-pointerevents string =
+pointerEvents : String -> Html.Attribute msg
+pointerEvents string =
     Html.Attributes.style "pointer-events" string
 
 
@@ -2199,8 +1699,8 @@ position string =
     Html.Attributes.style "position" string
 
 
-printcoloradjust : String -> Html.Attribute msg
-printcoloradjust string =
+printColorAdjust : String -> Html.Attribute msg
+printColorAdjust string =
     Html.Attributes.style "print-color-adjust" string
 
 
@@ -2224,23 +1724,23 @@ rotate string =
     Html.Attributes.style "rotate" string
 
 
-rowgap : String -> Html.Attribute msg
-rowgap string =
+rowGap : String -> Html.Attribute msg
+rowGap string =
     Html.Attributes.style "row-gap" string
 
 
-rubyalign : String -> Html.Attribute msg
-rubyalign string =
+rubyAlign : String -> Html.Attribute msg
+rubyAlign string =
     Html.Attributes.style "ruby-align" string
 
 
-rubymerge : String -> Html.Attribute msg
-rubymerge string =
+rubyMerge : String -> Html.Attribute msg
+rubyMerge string =
     Html.Attributes.style "ruby-merge" string
 
 
-rubyposition : String -> Html.Attribute msg
-rubyposition string =
+rubyPosition : String -> Html.Attribute msg
+rubyPosition string =
     Html.Attributes.style "ruby-position" string
 
 
@@ -2249,348 +1749,348 @@ scale string =
     Html.Attributes.style "scale" string
 
 
-scrollbehavior : String -> Html.Attribute msg
-scrollbehavior string =
+scrollBehavior : String -> Html.Attribute msg
+scrollBehavior string =
     Html.Attributes.style "scroll-behavior" string
 
 
-scrollmargin : String -> Html.Attribute msg
-scrollmargin string =
+scrollMargin : String -> Html.Attribute msg
+scrollMargin string =
     Html.Attributes.style "scroll-margin" string
 
 
-scrollmarginblock : String -> Html.Attribute msg
-scrollmarginblock string =
+scrollMarginBlock : String -> Html.Attribute msg
+scrollMarginBlock string =
     Html.Attributes.style "scroll-margin-block" string
 
 
-scrollmarginblockend : String -> Html.Attribute msg
-scrollmarginblockend string =
+scrollMarginBlockEnd : String -> Html.Attribute msg
+scrollMarginBlockEnd string =
     Html.Attributes.style "scroll-margin-block-end" string
 
 
-scrollmarginblockstart : String -> Html.Attribute msg
-scrollmarginblockstart string =
+scrollMarginBlockStart : String -> Html.Attribute msg
+scrollMarginBlockStart string =
     Html.Attributes.style "scroll-margin-block-start" string
 
 
-scrollmarginbottom : String -> Html.Attribute msg
-scrollmarginbottom string =
+scrollMarginBottom : String -> Html.Attribute msg
+scrollMarginBottom string =
     Html.Attributes.style "scroll-margin-bottom" string
 
 
-scrollmargininline : String -> Html.Attribute msg
-scrollmargininline string =
+scrollMarginInline : String -> Html.Attribute msg
+scrollMarginInline string =
     Html.Attributes.style "scroll-margin-inline" string
 
 
-scrollmargininlineend : String -> Html.Attribute msg
-scrollmargininlineend string =
+scrollMarginInlineEnd : String -> Html.Attribute msg
+scrollMarginInlineEnd string =
     Html.Attributes.style "scroll-margin-inline-end" string
 
 
-scrollmargininlinestart : String -> Html.Attribute msg
-scrollmargininlinestart string =
+scrollMarginInlineStart : String -> Html.Attribute msg
+scrollMarginInlineStart string =
     Html.Attributes.style "scroll-margin-inline-start" string
 
 
-scrollmarginleft : String -> Html.Attribute msg
-scrollmarginleft string =
+scrollMarginLeft : String -> Html.Attribute msg
+scrollMarginLeft string =
     Html.Attributes.style "scroll-margin-left" string
 
 
-scrollmarginright : String -> Html.Attribute msg
-scrollmarginright string =
+scrollMarginRight : String -> Html.Attribute msg
+scrollMarginRight string =
     Html.Attributes.style "scroll-margin-right" string
 
 
-scrollmargintop : String -> Html.Attribute msg
-scrollmargintop string =
+scrollMarginTop : String -> Html.Attribute msg
+scrollMarginTop string =
     Html.Attributes.style "scroll-margin-top" string
 
 
-scrollpadding : String -> Html.Attribute msg
-scrollpadding string =
+scrollPadding : String -> Html.Attribute msg
+scrollPadding string =
     Html.Attributes.style "scroll-padding" string
 
 
-scrollpaddingblock : String -> Html.Attribute msg
-scrollpaddingblock string =
+scrollPaddingBlock : String -> Html.Attribute msg
+scrollPaddingBlock string =
     Html.Attributes.style "scroll-padding-block" string
 
 
-scrollpaddingblockend : String -> Html.Attribute msg
-scrollpaddingblockend string =
+scrollPaddingBlockEnd : String -> Html.Attribute msg
+scrollPaddingBlockEnd string =
     Html.Attributes.style "scroll-padding-block-end" string
 
 
-scrollpaddingblockstart : String -> Html.Attribute msg
-scrollpaddingblockstart string =
+scrollPaddingBlockStart : String -> Html.Attribute msg
+scrollPaddingBlockStart string =
     Html.Attributes.style "scroll-padding-block-start" string
 
 
-scrollpaddingbottom : String -> Html.Attribute msg
-scrollpaddingbottom string =
+scrollPaddingBottom : String -> Html.Attribute msg
+scrollPaddingBottom string =
     Html.Attributes.style "scroll-padding-bottom" string
 
 
-scrollpaddinginline : String -> Html.Attribute msg
-scrollpaddinginline string =
+scrollPaddingInline : String -> Html.Attribute msg
+scrollPaddingInline string =
     Html.Attributes.style "scroll-padding-inline" string
 
 
-scrollpaddinginlineend : String -> Html.Attribute msg
-scrollpaddinginlineend string =
+scrollPaddingInlineEnd : String -> Html.Attribute msg
+scrollPaddingInlineEnd string =
     Html.Attributes.style "scroll-padding-inline-end" string
 
 
-scrollpaddinginlinestart : String -> Html.Attribute msg
-scrollpaddinginlinestart string =
+scrollPaddingInlineStart : String -> Html.Attribute msg
+scrollPaddingInlineStart string =
     Html.Attributes.style "scroll-padding-inline-start" string
 
 
-scrollpaddingleft : String -> Html.Attribute msg
-scrollpaddingleft string =
+scrollPaddingLeft : String -> Html.Attribute msg
+scrollPaddingLeft string =
     Html.Attributes.style "scroll-padding-left" string
 
 
-scrollpaddingright : String -> Html.Attribute msg
-scrollpaddingright string =
+scrollPaddingRight : String -> Html.Attribute msg
+scrollPaddingRight string =
     Html.Attributes.style "scroll-padding-right" string
 
 
-scrollpaddingtop : String -> Html.Attribute msg
-scrollpaddingtop string =
+scrollPaddingTop : String -> Html.Attribute msg
+scrollPaddingTop string =
     Html.Attributes.style "scroll-padding-top" string
 
 
-scrollsnapalign : String -> Html.Attribute msg
-scrollsnapalign string =
+scrollSnapAlign : String -> Html.Attribute msg
+scrollSnapAlign string =
     Html.Attributes.style "scroll-snap-align" string
 
 
-scrollsnapcoordinate : String -> Html.Attribute msg
-scrollsnapcoordinate string =
+scrollSnapCoordinate : String -> Html.Attribute msg
+scrollSnapCoordinate string =
     Html.Attributes.style "scroll-snap-coordinate" string
 
 
-scrollsnapdestination : String -> Html.Attribute msg
-scrollsnapdestination string =
+scrollSnapDestination : String -> Html.Attribute msg
+scrollSnapDestination string =
     Html.Attributes.style "scroll-snap-destination" string
 
 
-scrollsnappointsx : String -> Html.Attribute msg
-scrollsnappointsx string =
+scrollSnapPointsX : String -> Html.Attribute msg
+scrollSnapPointsX string =
     Html.Attributes.style "scroll-snap-points-x" string
 
 
-scrollsnappointsy : String -> Html.Attribute msg
-scrollsnappointsy string =
+scrollSnapPointsY : String -> Html.Attribute msg
+scrollSnapPointsY string =
     Html.Attributes.style "scroll-snap-points-y" string
 
 
-scrollsnapstop : String -> Html.Attribute msg
-scrollsnapstop string =
+scrollSnapStop : String -> Html.Attribute msg
+scrollSnapStop string =
     Html.Attributes.style "scroll-snap-stop" string
 
 
-scrollsnaptype : String -> Html.Attribute msg
-scrollsnaptype string =
+scrollSnapType : String -> Html.Attribute msg
+scrollSnapType string =
     Html.Attributes.style "scroll-snap-type" string
 
 
-scrollsnaptypex : String -> Html.Attribute msg
-scrollsnaptypex string =
+scrollSnapTypeX : String -> Html.Attribute msg
+scrollSnapTypeX string =
     Html.Attributes.style "scroll-snap-type-x" string
 
 
-scrollsnaptypey : String -> Html.Attribute msg
-scrollsnaptypey string =
+scrollSnapTypeY : String -> Html.Attribute msg
+scrollSnapTypeY string =
     Html.Attributes.style "scroll-snap-type-y" string
 
 
-scrolltimeline : String -> Html.Attribute msg
-scrolltimeline string =
+scrollTimeline : String -> Html.Attribute msg
+scrollTimeline string =
     Html.Attributes.style "scroll-timeline" string
 
 
-scrolltimelineaxis : String -> Html.Attribute msg
-scrolltimelineaxis string =
+scrollTimelineAxis : String -> Html.Attribute msg
+scrollTimelineAxis string =
     Html.Attributes.style "scroll-timeline-axis" string
 
 
-scrolltimelinename : String -> Html.Attribute msg
-scrolltimelinename string =
+scrollTimelineName : String -> Html.Attribute msg
+scrollTimelineName string =
     Html.Attributes.style "scroll-timeline-name" string
 
 
-scrollbarcolor : String -> Html.Attribute msg
-scrollbarcolor string =
+scrollbarColor : String -> Html.Attribute msg
+scrollbarColor string =
     Html.Attributes.style "scrollbar-color" string
 
 
-scrollbargutter : String -> Html.Attribute msg
-scrollbargutter string =
+scrollbarGutter : String -> Html.Attribute msg
+scrollbarGutter string =
     Html.Attributes.style "scrollbar-gutter" string
 
 
-scrollbarwidth : String -> Html.Attribute msg
-scrollbarwidth string =
+scrollbarWidth : String -> Html.Attribute msg
+scrollbarWidth string =
     Html.Attributes.style "scrollbar-width" string
 
 
-shapeimagethreshold : String -> Html.Attribute msg
-shapeimagethreshold string =
+shapeImageThreshold : String -> Html.Attribute msg
+shapeImageThreshold string =
     Html.Attributes.style "shape-image-threshold" string
 
 
-shapemargin : String -> Html.Attribute msg
-shapemargin string =
+shapeMargin : String -> Html.Attribute msg
+shapeMargin string =
     Html.Attributes.style "shape-margin" string
 
 
-shapeoutside : String -> Html.Attribute msg
-shapeoutside string =
+shapeOutside : String -> Html.Attribute msg
+shapeOutside string =
     Html.Attributes.style "shape-outside" string
 
 
-tabsize : String -> Html.Attribute msg
-tabsize string =
+tabSize : String -> Html.Attribute msg
+tabSize string =
     Html.Attributes.style "tab-size" string
 
 
-tablelayout : String -> Html.Attribute msg
-tablelayout string =
+tableLayout : String -> Html.Attribute msg
+tableLayout string =
     Html.Attributes.style "table-layout" string
 
 
-textalign : String -> Html.Attribute msg
-textalign string =
+textAlign : String -> Html.Attribute msg
+textAlign string =
     Html.Attributes.style "text-align" string
 
 
-textalignlast : String -> Html.Attribute msg
-textalignlast string =
+textAlignLast : String -> Html.Attribute msg
+textAlignLast string =
     Html.Attributes.style "text-align-last" string
 
 
-textcombineupright : String -> Html.Attribute msg
-textcombineupright string =
+textCombineUpright : String -> Html.Attribute msg
+textCombineUpright string =
     Html.Attributes.style "text-combine-upright" string
 
 
-textdecoration : String -> Html.Attribute msg
-textdecoration string =
+textDecoration : String -> Html.Attribute msg
+textDecoration string =
     Html.Attributes.style "text-decoration" string
 
 
-textdecorationcolor : String -> Html.Attribute msg
-textdecorationcolor string =
+textDecorationColor : String -> Html.Attribute msg
+textDecorationColor string =
     Html.Attributes.style "text-decoration-color" string
 
 
-textdecorationline : String -> Html.Attribute msg
-textdecorationline string =
+textDecorationLine : String -> Html.Attribute msg
+textDecorationLine string =
     Html.Attributes.style "text-decoration-line" string
 
 
-textdecorationskip : String -> Html.Attribute msg
-textdecorationskip string =
+textDecorationSkip : String -> Html.Attribute msg
+textDecorationSkip string =
     Html.Attributes.style "text-decoration-skip" string
 
 
-textdecorationskipink : String -> Html.Attribute msg
-textdecorationskipink string =
+textDecorationSkipInk : String -> Html.Attribute msg
+textDecorationSkipInk string =
     Html.Attributes.style "text-decoration-skip-ink" string
 
 
-textdecorationstyle : String -> Html.Attribute msg
-textdecorationstyle string =
+textDecorationStyle : String -> Html.Attribute msg
+textDecorationStyle string =
     Html.Attributes.style "text-decoration-style" string
 
 
-textdecorationthickness : String -> Html.Attribute msg
-textdecorationthickness string =
+textDecorationThickness : String -> Html.Attribute msg
+textDecorationThickness string =
     Html.Attributes.style "text-decoration-thickness" string
 
 
-textemphasis : String -> Html.Attribute msg
-textemphasis string =
+textEmphasis : String -> Html.Attribute msg
+textEmphasis string =
     Html.Attributes.style "text-emphasis" string
 
 
-textemphasiscolor : String -> Html.Attribute msg
-textemphasiscolor string =
+textEmphasisColor : String -> Html.Attribute msg
+textEmphasisColor string =
     Html.Attributes.style "text-emphasis-color" string
 
 
-textemphasisposition : String -> Html.Attribute msg
-textemphasisposition string =
+textEmphasisPosition : String -> Html.Attribute msg
+textEmphasisPosition string =
     Html.Attributes.style "text-emphasis-position" string
 
 
-textemphasisstyle : String -> Html.Attribute msg
-textemphasisstyle string =
+textEmphasisStyle : String -> Html.Attribute msg
+textEmphasisStyle string =
     Html.Attributes.style "text-emphasis-style" string
 
 
-textindent : String -> Html.Attribute msg
-textindent string =
+textIndent : String -> Html.Attribute msg
+textIndent string =
     Html.Attributes.style "text-indent" string
 
 
-textjustify : String -> Html.Attribute msg
-textjustify string =
+textJustify : String -> Html.Attribute msg
+textJustify string =
     Html.Attributes.style "text-justify" string
 
 
-textorientation : String -> Html.Attribute msg
-textorientation string =
+textOrientation : String -> Html.Attribute msg
+textOrientation string =
     Html.Attributes.style "text-orientation" string
 
 
-textoverflow : String -> Html.Attribute msg
-textoverflow string =
+textOverflow : String -> Html.Attribute msg
+textOverflow string =
     Html.Attributes.style "text-overflow" string
 
 
-textrendering : String -> Html.Attribute msg
-textrendering string =
+textRendering : String -> Html.Attribute msg
+textRendering string =
     Html.Attributes.style "text-rendering" string
 
 
-textshadow : String -> Html.Attribute msg
-textshadow string =
+textShadow : String -> Html.Attribute msg
+textShadow string =
     Html.Attributes.style "text-shadow" string
 
 
-textsizeadjust : String -> Html.Attribute msg
-textsizeadjust string =
+textSizeAdjust : String -> Html.Attribute msg
+textSizeAdjust string =
     Html.Attributes.style "text-size-adjust" string
 
 
-texttransform : String -> Html.Attribute msg
-texttransform string =
+textTransform : String -> Html.Attribute msg
+textTransform string =
     Html.Attributes.style "text-transform" string
 
 
-textunderlineoffset : String -> Html.Attribute msg
-textunderlineoffset string =
+textUnderlineOffset : String -> Html.Attribute msg
+textUnderlineOffset string =
     Html.Attributes.style "text-underline-offset" string
 
 
-textunderlineposition : String -> Html.Attribute msg
-textunderlineposition string =
+textUnderlinePosition : String -> Html.Attribute msg
+textUnderlinePosition string =
     Html.Attributes.style "text-underline-position" string
 
 
-textwrap : String -> Html.Attribute msg
-textwrap string =
+textWrap : String -> Html.Attribute msg
+textWrap string =
     Html.Attributes.style "text-wrap" string
 
 
-timelinescope : String -> Html.Attribute msg
-timelinescope string =
+timelineScope : String -> Html.Attribute msg
+timelineScope string =
     Html.Attributes.style "timeline-scope" string
 
 
@@ -2599,8 +2099,8 @@ top string =
     Html.Attributes.style "top" string
 
 
-touchaction : String -> Html.Attribute msg
-touchaction string =
+touchAction : String -> Html.Attribute msg
+touchAction string =
     Html.Attributes.style "touch-action" string
 
 
@@ -2609,18 +2109,18 @@ transform string =
     Html.Attributes.style "transform" string
 
 
-transformbox : String -> Html.Attribute msg
-transformbox string =
+transformBox : String -> Html.Attribute msg
+transformBox string =
     Html.Attributes.style "transform-box" string
 
 
-transformorigin : String -> Html.Attribute msg
-transformorigin string =
+transformOrigin : String -> Html.Attribute msg
+transformOrigin string =
     Html.Attributes.style "transform-origin" string
 
 
-transformstyle : String -> Html.Attribute msg
-transformstyle string =
+transformStyle : String -> Html.Attribute msg
+transformStyle string =
     Html.Attributes.style "transform-style" string
 
 
@@ -2629,28 +2129,28 @@ transition string =
     Html.Attributes.style "transition" string
 
 
-transitionbehavior : String -> Html.Attribute msg
-transitionbehavior string =
+transitionBehavior : String -> Html.Attribute msg
+transitionBehavior string =
     Html.Attributes.style "transition-behavior" string
 
 
-transitiondelay : String -> Html.Attribute msg
-transitiondelay string =
+transitionDelay : String -> Html.Attribute msg
+transitionDelay string =
     Html.Attributes.style "transition-delay" string
 
 
-transitionduration : String -> Html.Attribute msg
-transitionduration string =
+transitionDuration : String -> Html.Attribute msg
+transitionDuration string =
     Html.Attributes.style "transition-duration" string
 
 
-transitionproperty : String -> Html.Attribute msg
-transitionproperty string =
+transitionProperty : String -> Html.Attribute msg
+transitionProperty string =
     Html.Attributes.style "transition-property" string
 
 
-transitiontimingfunction : String -> Html.Attribute msg
-transitiontimingfunction string =
+transitionTimingFunction : String -> Html.Attribute msg
+transitionTimingFunction string =
     Html.Attributes.style "transition-timing-function" string
 
 
@@ -2659,43 +2159,43 @@ translate string =
     Html.Attributes.style "translate" string
 
 
-unicodebidi : String -> Html.Attribute msg
-unicodebidi string =
+unicodeBidi : String -> Html.Attribute msg
+unicodeBidi string =
     Html.Attributes.style "unicode-bidi" string
 
 
-userselect : String -> Html.Attribute msg
-userselect string =
+userSelect : String -> Html.Attribute msg
+userSelect string =
     Html.Attributes.style "user-select" string
 
 
-verticalalign : String -> Html.Attribute msg
-verticalalign string =
+verticalAlign : String -> Html.Attribute msg
+verticalAlign string =
     Html.Attributes.style "vertical-align" string
 
 
-viewtimeline : String -> Html.Attribute msg
-viewtimeline string =
+viewTimeline : String -> Html.Attribute msg
+viewTimeline string =
     Html.Attributes.style "view-timeline" string
 
 
-viewtimelineaxis : String -> Html.Attribute msg
-viewtimelineaxis string =
+viewTimelineAxis : String -> Html.Attribute msg
+viewTimelineAxis string =
     Html.Attributes.style "view-timeline-axis" string
 
 
-viewtimelineinset : String -> Html.Attribute msg
-viewtimelineinset string =
+viewTimelineInset : String -> Html.Attribute msg
+viewTimelineInset string =
     Html.Attributes.style "view-timeline-inset" string
 
 
-viewtimelinename : String -> Html.Attribute msg
-viewtimelinename string =
+viewTimelineName : String -> Html.Attribute msg
+viewTimelineName string =
     Html.Attributes.style "view-timeline-name" string
 
 
-viewtransitionname : String -> Html.Attribute msg
-viewtransitionname string =
+viewTransitionName : String -> Html.Attribute msg
+viewTransitionName string =
     Html.Attributes.style "view-transition-name" string
 
 
@@ -2704,13 +2204,13 @@ visibility string =
     Html.Attributes.style "visibility" string
 
 
-whitespace : String -> Html.Attribute msg
-whitespace string =
+whiteSpace : String -> Html.Attribute msg
+whiteSpace string =
     Html.Attributes.style "white-space" string
 
 
-whitespacecollapse : String -> Html.Attribute msg
-whitespacecollapse string =
+whiteSpaceCollapse : String -> Html.Attribute msg
+whiteSpaceCollapse string =
     Html.Attributes.style "white-space-collapse" string
 
 
@@ -2724,33 +2224,33 @@ width string =
     Html.Attributes.style "width" string
 
 
-willchange : String -> Html.Attribute msg
-willchange string =
+willChange : String -> Html.Attribute msg
+willChange string =
     Html.Attributes.style "will-change" string
 
 
-wordbreak : String -> Html.Attribute msg
-wordbreak string =
+wordBreak : String -> Html.Attribute msg
+wordBreak string =
     Html.Attributes.style "word-break" string
 
 
-wordspacing : String -> Html.Attribute msg
-wordspacing string =
+wordSpacing : String -> Html.Attribute msg
+wordSpacing string =
     Html.Attributes.style "word-spacing" string
 
 
-wordwrap : String -> Html.Attribute msg
-wordwrap string =
+wordWrap : String -> Html.Attribute msg
+wordWrap string =
     Html.Attributes.style "word-wrap" string
 
 
-writingmode : String -> Html.Attribute msg
-writingmode string =
+writingMode : String -> Html.Attribute msg
+writingMode string =
     Html.Attributes.style "writing-mode" string
 
 
-zindex : String -> Html.Attribute msg
-zindex string =
+zIndex : String -> Html.Attribute msg
+zIndex string =
     Html.Attributes.style "z-index" string
 
 
