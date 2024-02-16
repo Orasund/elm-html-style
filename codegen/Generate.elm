@@ -6,6 +6,7 @@ import Elm
 import Gen.CodeGen.Generate as Generate
 import Json.Decode
 import Dict exposing (Dict)
+import Gen.Html.Attributes
 
 main : Program Json.Decode.Value () ()
 main =
@@ -33,7 +34,11 @@ generate files =
 property : String -> Elm.Declaration
 property key =
        Elm.declaration (getFileName key)
-            (Elm.string "test")
+            (Elm.fn ("string",Nothing)
+                (\string ->
+                    Gen.Html.Attributes.call_.style (Elm.string key) string
+                )
+            )
     
 
 
