@@ -34,7 +34,7 @@ const flags = {
 
 CodeGen.run("Generate.elm", {
     debug: true,
-    output: "generated",
+    output: "src",
     flags: flags,
     cwd: "./codegen",
 })

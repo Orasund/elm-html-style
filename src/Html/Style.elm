@@ -7,16 +7,10 @@ This module helps you write CSS in Elm.
 maxWidth string = Html.Attributes.style "max-width" string
 ```
 
-There are also functions for setting a property to a constant.
+There are also shorthands for setting a property to a constant.
 
 ```
 maxWidthMaxContent = Html.Attributes.style "max-width" "max-content"
-```
-
-Additionally, there are also variants for "px" and "rem".
-
-```
-maxWidthPx float = Html.Attributes.style "max-width" (float ++ "px")
 ```
 
 This file was generated from the [MDN data repository](https://github.com/mdn/data).
