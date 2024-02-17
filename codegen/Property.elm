@@ -1,5 +1,6 @@
 module Property exposing (..)
 
+import Config
 import Elm
 import Elm.ToString
 import Gen.Basics
@@ -7,7 +8,8 @@ import Gen.Html.Attributes
 import Gen.String
 import Json.Decode
 import Name
-import Value exposing (Value(..))
+import Syntax exposing (Value(..))
+import Value
 
 
 type alias Property =
@@ -87,11 +89,16 @@ toDeclarations ( key, property ) =
         |> (::)
             (baseDeclaration
                 |> Elm.withDocumentation
-                    --"Possible values: "
-                    -- ++ property.syntax
-                    --++ "\n\n"
-                    --++
-                    (documentation (Elm.ToString.declaration baseDeclaration))
+                    ((if Config.debug then
+                        "Possible values: "
+                            ++ property.syntax
+                            ++ "\n\n"
+
+                      else
+                        ""
+                     )
+                        ++ documentation (Elm.ToString.declaration baseDeclaration)
+                    )
                 |> Elm.exposeWith
                     { exposeConstructor = False
                     , group = property.groups |> List.head

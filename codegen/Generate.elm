@@ -30,11 +30,11 @@ generate files =
     [ Elm.fileWith [ "Html", "Style" ]
         { docs =
             \list ->
-                [ "This module helps you write CSS in Elm."
-                , "```\nmaxWidth string = Html.Attributes.style \"max-width\" string\n```"
-                , "There are also shorthands for setting a property to a constant."
-                , "```\nmaxWidthMaxContent = Html.Attributes.style \"max-width\" \"max-content\"\n```"
-                , "This file was generated from the [MDN data repository](https://github.com/mdn/data)."
+                [ "All functions have been generated from the [MDN data repository](https://github.com/mdn/data), ensuring that you can always use the most recent css features."
+                ,"The following functions are currently generated:"
+                ,"Generic functions returning a Html.Attributes\n```\nmaxWidth string =\n  Html.Attributes.style \"max-width\" string\n```"
+                ,"Variants for constant values\n ```\nmaxWidthMaxContent =\n  Html.Attributes.style \"max-width\" \"max-content\"\n```"
+                ,"Variants for lengths (currently only \"px\" and \"rem\")\n```maxWidthPx float =\n  Html.Attributes.style \"max-width\" (float ++ \"px\")\n```"
                 ]
                     ++ List.map Elm.docs list
         , aliases =

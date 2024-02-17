@@ -1,129 +1,8 @@
 module Value exposing (..)
 
-{-| <https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax>
--}
-
 import Parser exposing ((|.), (|=), DeadEnd, Parser, Problem(..))
 import Set
-
-
-type Value
-    = Constant String
-    | Unit String
-
-
-type ValueSyntax
-    = Keyword String
-    | Type String
-    | Function String Syntax
-
-
-type MultiplierSyntax
-    = Multible { min : Int, max : Maybe Int } ValueSyntax
-    | MultibleCommaSeperatedMinOne ValueSyntax
-    | NonEmpty ValueSyntax
-    | One ValueSyntax
-
-
-type SequenceSyntax
-    = Value MultiplierSyntax
-    | And MultiplierSyntax SequenceSyntax
-
-
-type Syntax
-    = Singleton ValueSyntax
-    | Or ValueSyntax Syntax
-
-
-reservedCharacters =
-    [ ' ', '&', '|', '<', '>', '(', ')', '[', ']', '{', '}', '*', '+', '?', '#', '!' ]
-
-
-keyword : Parser String
-keyword =
-    Parser.variable
-        { start = \char -> Char.isAlpha char || char == '-'
-        , inner = \char -> List.member char reservedCharacters |> not
-        , reserved = Set.empty
-        }
-
-
-valueParser : Parser ValueSyntax
-valueParser =
-    Parser.oneOf
-        [ Parser.succeed Type
-            |. Parser.symbol "<"
-            |= keyword
-            |. Parser.symbol ">"
-        , keyword
-            |> Parser.andThen
-                (\v ->
-                    Parser.oneOf
-                        [ Parser.succeed (Function v)
-                            |. Parser.symbol "("
-                            |= Parser.lazy (\() -> parser)
-                            |. Parser.symbol ")"
-                        , Parser.succeed (Keyword v)
-                        ]
-                )
-        ]
-
-
-value : Parser MultiplierSyntax
-value =
-    valueParser
-        |> Parser.andThen
-            (\v ->
-                Parser.oneOf
-                    [ Parser.succeed (Multible { min = 0, max = Nothing } v)
-                        |. Parser.symbol "*"
-                    , Parser.succeed (Multible { min = 1, max = Nothing } v)
-                        |. Parser.symbol "+"
-                    , Parser.succeed (Multible { min = 0, max = Just 1 } v)
-                        |. Parser.symbol "?"
-                    , Parser.succeed (\min max -> Multible { min = min, max = Just max } v)
-                        |. Parser.symbol "{"
-                        |= Parser.int
-                        |. Parser.symbol ","
-                        |= Parser.int
-                        |. Parser.symbol "}"
-                    , Parser.succeed (MultibleCommaSeperatedMinOne v)
-                        |. Parser.symbol "#"
-                    , Parser.succeed (NonEmpty v)
-                        |. Parser.symbol "!"
-                    , Parser.succeed (One v)
-                    ]
-            )
-
-
-sequence : Parser SequenceSyntax
-sequence =
-    value
-        |> Parser.andThen
-            (\v ->
-                Parser.oneOf
-                    [ Parser.succeed (And v)
-                        |. Parser.symbol " "
-                        |= Parser.lazy (\() -> sequence)
-                    , Parser.succeed (Value v)
-                    ]
-            )
-
-
-parser : Parser Syntax
-parser =
-    valueParser
-        |> Parser.andThen
-            (\v ->
-                Parser.oneOf
-                    [ Parser.succeed (Or v)
-                        |. Parser.spaces
-                        |. Parser.symbol "|"
-                        |. Parser.spaces
-                        |= Parser.lazy (\() -> parser)
-                    , Parser.succeed (Singleton v)
-                    ]
-            )
+import Syntax exposing (ElementSyntax(..), MultiplierSyntax, Syntax(..), Value(..), ValueSyntax(..))
 
 
 collectValue : ValueSyntax -> List Value
@@ -146,29 +25,37 @@ collectValue valueSyntax =
             []
 
 
-collectSequence : SequenceSyntax -> List Value
-collectSequence sequenceSyntax =
-    case sequenceSyntax of
-        Value multiplierSyntax ->
-            case multiplierSyntax of
-                One valueSyntax ->
-                    collectValue valueSyntax
+collectSequence : List ElementSyntax -> List Value
+collectSequence list =
+    case list of
+        [ elem ] ->
+            collectElem elem
 
-                _ ->
-                    []
+        _ ->
+            []
 
-        And _ _ ->
+
+collectElem : ElementSyntax -> List Value
+collectElem elementSyntax =
+    case elementSyntax of
+        ValueElem ( valueSyntax, Nothing ) ->
+            collectValue valueSyntax
+
+        ValueElem _ ->
+            []
+
+        Brackets _ ->
             []
 
 
 collectConstants : Syntax -> List Value
 collectConstants syntax =
     case syntax of
-        Singleton sequenceSyntax ->
-            collectValue sequenceSyntax
+        And sequenceSyntax ->
+            collectSequence sequenceSyntax
 
         Or sequenceSyntax s ->
-            collectValue sequenceSyntax
+            collectSequence sequenceSyntax
                 |> (++) (collectConstants s)
                 |> List.reverse
 
@@ -235,7 +122,7 @@ constants string =
         string
             |> Parser.run
                 (Parser.succeed identity
-                    |= parser
+                    |= Syntax.parser
                     |. Parser.end
                 )
     of

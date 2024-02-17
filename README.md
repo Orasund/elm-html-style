@@ -9,14 +9,17 @@ The following functions are currently generated:
 * Generic functions returning a Html.Attributes
   
   ```
-  maxWidth string = Html.Attributes.style "max-width" string
+  maxWidth string = 
+    Html.Attributes.style "max-width" string
   ```
 * Variants for constant values
 
   ```
-  maxWidthMaxContent = Html.Attributes.style "max-width" "max-content"
+  maxWidthMaxContent = 
+    Html.Attributes.style "max-width" "max-content"
   ```
 * Variants for lengths (currently only "px" and "rem")
   ```
-  maxWidthPx float = Html.Attributes.style "max-width" (float ++ "px")
+  maxWidthPx float =
+    Html.Attributes.style "max-width" (float ++ "px")
   ```
