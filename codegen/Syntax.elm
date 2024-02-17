@@ -104,8 +104,6 @@ valueWihMultiplier =
             |. Parser.symbol "["
             |. Parser.spaces
             |= Parser.lazy (\() -> parser)
-            |. Parser.spaces
-            |. Parser.symbol "]"
             |= multiplier
         , Parser.succeed (\value mult -> ValueElem ( value, mult ))
             |= valueParser
@@ -118,21 +116,11 @@ collect list =
         [ Parser.succeed identity
             |. Parser.symbol " "
             |= Parser.oneOf
-                [ Parser.succeed (\v2 -> Or (List.reverse list) v2)
+                [ Parser.succeed (And (List.reverse list))
+                    |. Parser.symbol "]"
+                , Parser.succeed (\v2 -> Or (List.reverse list) v2)
                     |. Parser.symbol "| "
                     |= Parser.lazy (\() -> parser)
-                , (Parser.succeed (\syntax maybeMultiplier -> Brackets ( syntax, maybeMultiplier ))
-                    |. Parser.symbol "["
-                    |. Parser.spaces
-                    |= Parser.lazy (\() -> parser)
-                    |. Parser.spaces
-                    |. Parser.symbol "]"
-                    |= multiplier
-                  )
-                    |> Parser.andThen
-                        (\v2 ->
-                            v2 :: list |> collect
-                        )
                 , valueWihMultiplier
                     |> Parser.andThen
                         (\v2 ->
