@@ -2,10 +2,12 @@ module Property exposing (..)
 
 import Elm
 import Elm.ToString
+import Gen.Basics
 import Gen.Html.Attributes
+import Gen.String
 import Json.Decode
 import Name
-import Value
+import Value exposing (Value(..))
 
 
 type alias Property =
@@ -31,12 +33,26 @@ decode =
         (Json.Decode.field "groups" (Json.Decode.list Json.Decode.string))
 
 
+fromValue : Value -> ( String, Property ) -> Elm.Declaration
+fromValue value ( key, property ) =
+    case value of
+        Constant constant ->
+            Elm.declaration (Name.normalize key ++ Name.capitalize (Name.normalize constant))
+                (Gen.Html.Attributes.call_.style (Elm.string key) (Elm.string constant))
+
+        Unit unit ->
+            Elm.declaration (Name.normalize key ++ Name.capitalize (Name.normalize unit))
+                (Elm.fn ( "value", Nothing )
+                    (\float -> Gen.Html.Attributes.call_.style (Elm.string key) (Gen.String.call_.append (Gen.String.call_.fromFloat float) (Elm.string unit)))
+                )
+
+
 toDeclarations : ( String, Property ) -> List Elm.Declaration
 toDeclarations ( key, property ) =
     let
         baseDeclaration =
             Elm.declaration (Name.normalize key)
-                (Elm.fn ( "string", Nothing )
+                (Elm.fn ( "value", Nothing )
                     (\string ->
                         Gen.Html.Attributes.call_.style (Elm.string key) string
                     )
@@ -47,8 +63,7 @@ toDeclarations ( key, property ) =
                 |> Value.constants
                 |> List.map
                     (\value ->
-                        Elm.declaration (Name.normalize key ++ Name.capitalize (Name.normalize value))
-                            (Gen.Html.Attributes.call_.style (Elm.string key) (Elm.string value))
+                        fromValue value ( key, property )
                     )
 
         documentation args =

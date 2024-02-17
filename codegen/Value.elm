@@ -3,9 +3,13 @@ module Value exposing (..)
 {-| <https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax>
 -}
 
-import Name
 import Parser exposing ((|.), (|=), DeadEnd, Parser, Problem(..))
 import Set
+
+
+type Value
+    = Constant String
+    | Unit String
 
 
 type ValueSyntax
@@ -122,17 +126,27 @@ parser =
             )
 
 
-collectValue : ValueSyntax -> List String
+collectValue : ValueSyntax -> List Value
 collectValue valueSyntax =
     case valueSyntax of
         Keyword v ->
-            [ v ]
+            [ Constant v ]
+
+        Type t ->
+            case t of
+                "length" ->
+                    [ Unit "px"
+                    , Unit "rem"
+                    ]
+
+                _ ->
+                    []
 
         _ ->
             []
 
 
-collectSequence : SequenceSyntax -> List String
+collectSequence : SequenceSyntax -> List Value
 collectSequence sequenceSyntax =
     case sequenceSyntax of
         Value multiplierSyntax ->
@@ -147,7 +161,7 @@ collectSequence sequenceSyntax =
             []
 
 
-collectConstants : Syntax -> List String
+collectConstants : Syntax -> List Value
 collectConstants syntax =
     case syntax of
         Singleton sequenceSyntax ->
@@ -215,7 +229,7 @@ deadEndsToString deadEnds =
     List.foldl (++) "" (List.map deadEndToString deadEnds)
 
 
-constants : String -> List String
+constants : String -> List Value
 constants string =
     case
         string
