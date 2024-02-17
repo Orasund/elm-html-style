@@ -2,36 +2,52 @@ module Generate exposing (main)
 
 {-| -}
 
+import Dict exposing (Dict)
 import Elm
 import Gen.CodeGen.Generate as Generate
 import Json.Decode
-import Dict exposing (Dict)
-import Gen.Html.Attributes
-import Property
+import Property exposing (Property)
+
 
 main : Program Json.Decode.Value () ()
 main =
-    Generate.fromJson (decodeFiles) generate
+    Generate.fromJson decodeFiles generate
 
-decodeProperties : Json.Decode.Decoder (Dict String ())
+
+decodeProperties : Json.Decode.Decoder (Dict String Property)
 decodeProperties =
-    Json.Decode.dict (Json.Decode.succeed ())
+    Property.decode
+        |> Json.Decode.dict
 
 
-decodeFiles : Json.Decode.Decoder (Dict String ())
+decodeFiles : Json.Decode.Decoder (Dict String Property)
 decodeFiles =
-    (Json.Decode.field "properties" decodeProperties)
+    Json.Decode.field "properties" decodeProperties
 
 
-generate : Dict String () -> List Elm.File
+generate : Dict String Property -> List Elm.File
 generate files =
-     [ Elm.file [ "Html","Style" ]
-        (files 
-        |> (Dict.keys)
-        |> List.filter (\key -> key
-        |> String.startsWith "-"
-        |> not)
-        |> List.map Property.toDeclaration )
+    [ Elm.fileWith [ "Html", "Style" ]
+        { docs =
+            \list ->
+                [ "This module helps you write CSS in Elm."
+                , "```\nmaxWidth string = Html.Attributes.style \"max-width\" string\n```"
+                , "There are also shorthands for setting a property to a constant."
+                , "```\nmaxWidthMaxContent = Html.Attributes.style \"max-width\" \"max-content\"\n```"
+                , "This file was generated from the [MDN data repository](https://github.com/mdn/data)."
+                ]
+                    ++ List.map Elm.docs list
+        , aliases =
+            []
+        }
+        (files
+            |> Dict.toList
+            |> List.filter
+                (\( key, _ ) ->
+                    key
+                        |> String.startsWith "-"
+                        |> not
+                )
+            |> List.concatMap Property.toDeclarations
+        )
     ]
-
-
