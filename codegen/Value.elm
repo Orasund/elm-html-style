@@ -1,12 +1,12 @@
 module Value exposing (..)
 
-import Parser exposing ((|.), (|=), DeadEnd, Parser, Problem(..))
-import Set
-import Syntax exposing (ElementSyntax(..), MultiplierSyntax, Syntax(..), Value(..), ValueSyntax(..))
+import Dict exposing (Dict)
+import Parser exposing ((|.), (|=), DeadEnd, Problem(..))
+import Syntax exposing (ElementSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
 
 
-collectValue : ValueSyntax -> List Value
-collectValue valueSyntax =
+collectValue : Dict String (List Value) -> ValueSyntax -> List Value
+collectValue syntaxGroup valueSyntax =
     case valueSyntax of
         Keyword v ->
             [ Constant v ]
@@ -19,27 +19,27 @@ collectValue valueSyntax =
                     ]
 
                 _ ->
-                    []
+                    syntaxGroup |> Dict.get t |> Maybe.withDefault []
 
         _ ->
             []
 
 
-collectSequence : List ElementSyntax -> List Value
-collectSequence list =
+collectSequence : Dict String (List Value) -> List ElementSyntax -> List Value
+collectSequence syntaxGroup list =
     case list of
         [ elem ] ->
-            collectElem elem
+            collectElem syntaxGroup elem
 
         _ ->
             []
 
 
-collectElem : ElementSyntax -> List Value
-collectElem elementSyntax =
+collectElem : Dict String (List Value) -> ElementSyntax -> List Value
+collectElem syntaxGroup elementSyntax =
     case elementSyntax of
         ValueElem ( valueSyntax, Nothing ) ->
-            collectValue valueSyntax
+            collectValue syntaxGroup valueSyntax
 
         ValueElem _ ->
             []
@@ -48,15 +48,15 @@ collectElem elementSyntax =
             []
 
 
-collectConstants : Syntax -> List Value
-collectConstants syntax =
+collectConstants : Dict String (List Value) -> Syntax -> List Value
+collectConstants syntaxGroup syntax =
     case syntax of
         And sequenceSyntax ->
-            collectSequence sequenceSyntax
+            collectSequence syntaxGroup sequenceSyntax
 
         Or sequenceSyntax s ->
-            collectSequence sequenceSyntax
-                |> (++) (collectConstants s)
+            collectSequence syntaxGroup sequenceSyntax
+                |> (++) (collectConstants syntaxGroup s)
                 |> List.reverse
 
 
@@ -116,8 +116,8 @@ deadEndsToString deadEnds =
     List.foldl (++) "" (List.map deadEndToString deadEnds)
 
 
-constants : String -> List Value
-constants string =
+parse : Dict String (List Value) -> String -> List Value
+parse syntaxGroup string =
     case
         string
             |> Parser.run
@@ -127,7 +127,7 @@ constants string =
                 )
     of
         Ok a ->
-            collectConstants a
+            collectConstants syntaxGroup a
 
         {--|> List.filter
                     (String.all

@@ -3,7 +3,7 @@ module Syntax exposing (..)
 {-| <https://developer.mozilla.org/en-US/docs/Web/CSS/Value_definition_syntax>
 -}
 
-import Parser exposing ((|.), (|=), DeadEnd, Parser, Problem(..))
+import Parser exposing ((|.), (|=), Parser, Problem(..))
 import Set
 
 

@@ -28,7 +28,8 @@ function readFile(file: string): string {
 }
 
 const flags = {
-    properties: JSON.parse(readFile("../data/css/properties.json"))
+    properties: JSON.parse(readFile("../data/css/properties.json")),
+    syntaxes: JSON.parse(readFile("../data/css/syntaxes.json"))
 }
 
 

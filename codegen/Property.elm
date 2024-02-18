@@ -1,38 +1,15 @@
 module Property exposing (..)
 
 import Config
+import Dict exposing (Dict)
 import Elm
 import Elm.ToString
-import Gen.Basics
+import File.PropertiesJson exposing (Property)
 import Gen.Html.Attributes
 import Gen.String
-import Json.Decode
 import Name
 import Syntax exposing (Value(..))
 import Value
-
-
-type alias Property =
-    { url : Maybe String
-    , syntax : String
-    , groups : List String
-    }
-
-
-decode : Json.Decode.Decoder Property
-decode =
-    Json.Decode.map3
-        (\url syntax groups ->
-            { url = url
-            , syntax = syntax
-            , groups = groups
-            }
-        )
-        (Json.Decode.maybe
-            (Json.Decode.field "mdn_url" Json.Decode.string)
-        )
-        (Json.Decode.field "syntax" Json.Decode.string)
-        (Json.Decode.field "groups" (Json.Decode.list Json.Decode.string))
 
 
 fromValue : Value -> ( String, Property ) -> Elm.Declaration
@@ -49,8 +26,8 @@ fromValue value ( key, property ) =
                 )
 
 
-toDeclarations : ( String, Property ) -> List Elm.Declaration
-toDeclarations ( key, property ) =
+toDeclarations : Dict String (List Value) -> ( String, Property ) -> List Elm.Declaration
+toDeclarations syntaxGroups ( key, property ) =
     let
         baseDeclaration =
             Elm.declaration (Name.normalize key)
@@ -62,7 +39,7 @@ toDeclarations ( key, property ) =
 
         declarations =
             property.syntax
-                |> Value.constants
+                |> Value.parse syntaxGroups
                 |> List.map
                     (\value ->
                         fromValue value ( key, property )
