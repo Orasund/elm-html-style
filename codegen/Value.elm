@@ -2,7 +2,7 @@ module Value exposing (..)
 
 import Dict exposing (Dict)
 import Parser exposing ((|.), (|=), DeadEnd, Problem(..))
-import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
+import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), SequenceSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
 
 
 collectValue : Dict String (List Value) -> ValueSyntax -> List Value
@@ -35,32 +35,47 @@ collectElem syntaxGroup elementSyntax =
             collectConstants syntaxGroup syntax
 
 
-collectSequence : Dict String (List Value) -> List ( ElementSyntax, Maybe MultiplierSyntax ) -> List Value
-collectSequence syntaxGroup list =
-    case list of
-        [ ( elem, Nothing ) ] ->
-            collectElem syntaxGroup elem
-
-        [ ( elem, Just (Multiple args) ) ] ->
-            case ( args.min, args.max ) of
-                ( 0, Just 1 ) ->
-                    --ignoring case 0
+collectSequence : Dict String (List Value) -> SequenceSyntax -> List Value
+collectSequence syntaxGroup sequenceSyntax =
+    case sequenceSyntax of
+        Sequence list ->
+            case list of
+                [ ( elem, Nothing ) ] ->
                     collectElem syntaxGroup elem
 
+                [ ( elem, Just (Multiple args) ) ] ->
+                    case ( args.min, args.max ) of
+                        ( 0, Just 1 ) ->
+                            --TODO implement case 0
+                            collectElem syntaxGroup elem
+
+                        _ ->
+                            []
+
+                [ ( _, Just (Multiple args) ), ( elem2, Nothing ) ] ->
+                    case ( args.min, args.max ) of
+                        ( 0, Just 1 ) ->
+                            --TODO implement case 1
+                            collectElem syntaxGroup elem2
+
+                        _ ->
+                            []
+
                 _ ->
                     []
 
-        [ ( _, Just (Multiple args) ), ( elem2, Nothing ) ] ->
-            case ( args.min, args.max ) of
-                ( 0, Just 1 ) ->
-                    --ignoring case 1
-                    collectElem syntaxGroup elem2
+        Set list ->
+            --TODO support multiple values
+            list
+                |> List.concatMap
+                    (\tuple ->
+                        case tuple of
+                            ( elem, Nothing ) ->
+                                collectElem syntaxGroup elem
 
-                _ ->
-                    []
-
-        _ ->
-            []
+                            _ ->
+                                []
+                    )
 
 
 collectConstants : Dict String (List Value) -> Syntax -> List Value
