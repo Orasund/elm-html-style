@@ -45,9 +45,9 @@ collectSequence syntaxGroup sequenceSyntax =
 
                 [ ( elem, Just (Multiple args) ) ] ->
                     case ( args.min, args.max ) of
-                        ( 0, Just 1 ) ->
-                            --TODO implement case 0
-                            collectElem syntaxGroup elem
+                        ( 1, _ ) ->
+                            --TODO implement more then one value
+                            collectElem syntaxGroup elem--}
 
                         _ ->
                             []
