@@ -1,9 +1,9 @@
 {
     "type": "package",
     "name": "Orasund/elm-html-style",
-    "license": "BSD-3-Clause",
     "summary": "helpful functions for writing CSS",
-    "version": "1.0.0",
+    "license": "BSD-3-Clause",
+    "version": "1.1.0",
     "exposed-modules": [
         "Html.Style"
     ],
