@@ -1,12 +1,13 @@
 module Value exposing (..)
 
 import Dict exposing (Dict)
+import List.Extra
 import Parser exposing ((|.), (|=), DeadEnd, Problem(..))
 import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), SequenceSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
 
 
-collectValue : Dict String (List Value) -> ValueSyntax -> List Value
-collectValue syntaxGroup valueSyntax =
+collectValue : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> ValueSyntax -> List Value
+collectValue args valueSyntax =
     case valueSyntax of
         Keyword v ->
             [ Constant v ]
@@ -19,44 +20,50 @@ collectValue syntaxGroup valueSyntax =
                     ]
 
                 _ ->
-                    syntaxGroup |> Dict.get t |> Maybe.withDefault []
+                    args.syntaxGroups |> Dict.get t |> Maybe.withDefault []
+
+        Reference key ->
+            Dict.get key args.syntaxes
+                |> Maybe.map (collectConstants args)
+                |> Maybe.withDefault []
 
         _ ->
             []
 
 
-collectElem : Dict String (List Value) -> ElementSyntax -> List Value
-collectElem syntaxGroup elementSyntax =
+collectElem : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> ElementSyntax -> List Value
+collectElem args elementSyntax =
     case elementSyntax of
         ValueElem valueSyntax ->
-            collectValue syntaxGroup valueSyntax
+            collectValue args valueSyntax
 
         Brackets syntax ->
-            collectConstants syntaxGroup syntax
+            collectConstants args syntax
 
 
-collectSequence : Dict String (List Value) -> SequenceSyntax -> List Value
-collectSequence syntaxGroup sequenceSyntax =
+collectSequence : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> SequenceSyntax -> List Value
+collectSequence args sequenceSyntax =
     case sequenceSyntax of
         Sequence list ->
             case list of
                 [ ( elem, Nothing ) ] ->
-                    collectElem syntaxGroup elem
+                    collectElem args elem
 
-                [ ( elem, Just (Multiple args) ) ] ->
-                    case ( args.min, args.max ) of
+                [ ( elem, Just (Multiple range) ) ] ->
+                    case ( range.min, range.max ) of
                         ( 1, _ ) ->
                             --TODO implement more then one value
-                            collectElem syntaxGroup elem--}
+                            collectElem args elem
 
+                        --}
                         _ ->
                             []
 
-                [ ( _, Just (Multiple args) ), ( elem2, Nothing ) ] ->
-                    case ( args.min, args.max ) of
+                [ ( _, Just (Multiple range) ), ( elem2, Nothing ) ] ->
+                    case ( range.min, range.max ) of
                         ( 0, Just 1 ) ->
                             --TODO implement case 1
-                            collectElem syntaxGroup elem2
+                            collectElem args elem2
 
                         _ ->
                             []
@@ -71,23 +78,24 @@ collectSequence syntaxGroup sequenceSyntax =
                     (\tuple ->
                         case tuple of
                             ( elem, Nothing ) ->
-                                collectElem syntaxGroup elem
+                                collectElem args elem
 
                             _ ->
                                 []
                     )
 
 
-collectConstants : Dict String (List Value) -> Syntax -> List Value
-collectConstants syntaxGroup syntax =
+collectConstants : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> Syntax -> List Value
+collectConstants args syntax =
     case syntax of
         Or sequenceSyntax maybeSyntax ->
-            collectSequence syntaxGroup sequenceSyntax
+            collectSequence args sequenceSyntax
                 |> (++)
                     (maybeSyntax
-                        |> Maybe.map (collectConstants syntaxGroup)
+                        |> Maybe.map (collectConstants args)
                         |> Maybe.withDefault []
                     )
+                    |> List.Extra.unique
                 |> List.reverse
 
 
@@ -147,8 +155,8 @@ deadEndsToString deadEnds =
     List.foldl (++) "" (List.map deadEndToString deadEnds)
 
 
-parse : Dict String (List Value) -> String -> List Value
-parse syntaxGroup string =
+parse : String -> Maybe Syntax
+parse string =
     case
         string
             |> Parser.run
@@ -158,17 +166,35 @@ parse syntaxGroup string =
                 )
     of
         Ok a ->
-            collectConstants syntaxGroup a
+            Just a
 
-        {--|> List.filter
-                    (String.all
-                        (\char ->
-                            Char.isAlpha char || char == '='
-                        )
-                    )--}
         Err err ->
             let
                 _ =
                     Debug.log string (deadEndsToString err)
             in
-            []
+            Nothing
+
+
+build : Dict String (List Value) -> Dict String String -> Dict String (List Value)
+build syntaxGroups dict =
+    let
+        syntaxes =
+            dict
+                |> Dict.toList
+                |> List.filterMap
+                    (\( key, string ) ->
+                        string
+                            |> parse
+                            |> Maybe.map (Tuple.pair key)
+                    )
+                |> Dict.fromList
+    in
+    Dict.map
+        (\_ ->
+            collectConstants
+                { syntaxGroups = syntaxGroups
+                , syntaxes = syntaxes
+                }
+        )
+        syntaxes

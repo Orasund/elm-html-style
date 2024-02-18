@@ -9,7 +9,6 @@ import File.SyntaxesJson
 import Gen.CodeGen.Generate as Generate
 import Json.Decode
 import Property
-import Syntax
 import Value
 
 
@@ -40,8 +39,18 @@ generate : Flags -> List Elm.File
 generate flags =
     let
         syntaxGroups =
-            flags.syntaxes
-                |> Dict.map (\_ -> Value.parse Dict.empty)
+            Value.build Dict.empty flags.syntaxes
+
+        values =
+            flags.properties
+                |> Dict.filter
+                    (\key _ ->
+                        key
+                            |> String.startsWith "-"
+                            |> not
+                    )
+                |> Dict.map (\_ -> .syntax)
+                |> Value.build syntaxGroups
     in
     [ Elm.fileWith [ "Html", "Style" ]
         { docs =
@@ -64,6 +73,6 @@ generate flags =
                         |> String.startsWith "-"
                         |> not
                 )
-            |> List.concatMap (Property.toDeclarations syntaxGroups)
+            |> List.concatMap (Property.toDeclarations { values = values })
         )
     ]

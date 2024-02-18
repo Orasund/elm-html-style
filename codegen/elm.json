@@ -11,6 +11,7 @@
             "elm/html": "1.0.0",
             "elm/json": "1.1.3",
             "elm/parser": "1.1.0",
+            "elm-community/list-extra": "8.6.0",
             "mdgriffith/elm-codegen": "4.1.1"
         },
         "indirect": {
@@ -18,7 +19,6 @@
             "elm/url": "1.0.0",
             "elm/virtual-dom": "1.0.2",
             "elm-community/basics-extra": "4.1.0",
-            "elm-community/list-extra": "8.6.0",
             "miniBill/elm-unicode": "1.0.2",
             "rtfeldman/elm-hex": "1.0.0",
             "stil4m/elm-syntax": "7.2.9",

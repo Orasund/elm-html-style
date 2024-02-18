@@ -9,6 +9,7 @@ import Set
 
 type ValueSyntax
     = Keyword String
+    | Reference String
     | Type String
     | Function String Syntax
 
@@ -34,7 +35,7 @@ type Syntax
 
 
 reservedCharacters =
-    [ ' ', '&', '|', '<', '>', '(', ')', '[', ']', '{', '}', '*', '+', '?', '#', '!' ]
+    [ ' ', '&', '|', '<', '>', '(', ')', '[', ']', '{', '}', '*', '+', '?', '#', '!','\'' ]
 
 
 type Value
@@ -54,7 +55,11 @@ keyword =
 valueParser : Parser ValueSyntax
 valueParser =
     Parser.oneOf
-        [ Parser.succeed Type
+        [ Parser.succeed Reference
+            |. Parser.symbol "<'"
+            |= keyword
+            |. Parser.symbol "'>"
+        , Parser.succeed Type
             |. Parser.symbol "<"
             |= keyword
             |. Parser.symbol ">"

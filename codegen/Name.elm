@@ -1,5 +1,20 @@
 module Name exposing (..)
 
+import Syntax exposing (Value(..))
+
+fromValue : Value -> String -> String
+fromValue value base =
+    case (base,value) of
+        ("white-space", Constant "collapse") ->
+            normalize base ++ "_collapse"
+        _ ->
+            case value of
+                Constant constant ->
+                    
+                    normalize base ++ capitalize (normalize constant)
+
+                Unit unit ->
+                    normalize base ++ capitalize (normalize unit)
 
 normalize : String -> String
 normalize key =
