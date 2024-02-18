@@ -14,19 +14,18 @@ type ValueSyntax
 
 
 type MultiplierSyntax
-    = Multible { min : Int, max : Maybe Int }
-    | MultibleCommaSeperatedMinOne
+    = Multiple { min : Int, max : Maybe Int }
+    | MultipleCommaSeperatedMinOne
     | NonEmpty
 
 
 type ElementSyntax
-    = Brackets ( Syntax, Maybe MultiplierSyntax )
-    | ValueElem ( ValueSyntax, Maybe MultiplierSyntax )
+    = Brackets Syntax
+    | ValueElem ValueSyntax
 
 
 type Syntax
-    = And (List ElementSyntax)
-    | Or (List ElementSyntax) Syntax
+    = Or (List ( ElementSyntax, Maybe MultiplierSyntax )) (Maybe Syntax)
 
 
 reservedCharacters =
@@ -71,19 +70,19 @@ valueParser =
 multiplier : Parser (Maybe MultiplierSyntax)
 multiplier =
     Parser.oneOf
-        [ Parser.succeed (Multible { min = 0, max = Nothing } |> Just)
+        [ Parser.succeed (Multiple { min = 0, max = Nothing } |> Just)
             |. Parser.symbol "*"
-        , Parser.succeed (Multible { min = 1, max = Nothing } |> Just)
+        , Parser.succeed (Multiple { min = 1, max = Nothing } |> Just)
             |. Parser.symbol "+"
-        , Parser.succeed (Multible { min = 0, max = Just 1 } |> Just)
+        , Parser.succeed (Multiple { min = 0, max = Just 1 } |> Just)
             |. Parser.symbol "?"
-        , Parser.succeed (\min max -> Multible { min = min, max = Just max } |> Just)
+        , Parser.succeed (\min max -> Multiple { min = min, max = Just max } |> Just)
             |. Parser.symbol "{"
             |= Parser.int
             |. Parser.symbol ","
             |= Parser.int
             |. Parser.symbol "}"
-        , Parser.succeed (MultibleCommaSeperatedMinOne |> Just)
+        , Parser.succeed (MultipleCommaSeperatedMinOne |> Just)
             |. Parser.symbol "#"
         , Parser.succeed (NonEmpty |> Just)
             |. Parser.symbol "!"
@@ -100,12 +99,12 @@ parser =
 
 valueWihMultiplier =
     Parser.oneOf
-        [ Parser.succeed (\syntax maybeMultiplier -> Brackets ( syntax, maybeMultiplier ))
+        [ Parser.succeed (\syntax maybeMultiplier -> ( Brackets syntax, maybeMultiplier ))
             |. Parser.symbol "["
             |. Parser.spaces
             |= Parser.lazy (\() -> parser)
             |= multiplier
-        , Parser.succeed (\value mult -> ValueElem ( value, mult ))
+        , Parser.succeed (\value mult -> ( ValueElem value, mult ))
             |= valueParser
             |= multiplier
         ]
@@ -116,9 +115,9 @@ collect list =
         [ Parser.succeed identity
             |. Parser.symbol " "
             |= Parser.oneOf
-                [ Parser.succeed (And (List.reverse list))
+                [ Parser.succeed (Or (List.reverse list) Nothing)
                     |. Parser.symbol "]"
-                , Parser.succeed (\v2 -> Or (List.reverse list) v2)
+                , Parser.succeed (\v2 -> Or (List.reverse list) (Just v2))
                     |. Parser.symbol "| "
                     |= Parser.lazy (\() -> parser)
                 , valueWihMultiplier
@@ -127,5 +126,5 @@ collect list =
                             v2 :: list |> collect
                         )
                 ]
-        , Parser.succeed (And (List.reverse list))
+        , Parser.succeed (Or (List.reverse list) Nothing)
         ]

@@ -2,7 +2,7 @@ module Value exposing (..)
 
 import Dict exposing (Dict)
 import Parser exposing ((|.), (|=), DeadEnd, Problem(..))
-import Syntax exposing (ElementSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
+import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
 
 
 collectValue : Dict String (List Value) -> ValueSyntax -> List Value
@@ -25,38 +25,54 @@ collectValue syntaxGroup valueSyntax =
             []
 
 
-collectSequence : Dict String (List Value) -> List ElementSyntax -> List Value
-collectSequence syntaxGroup list =
-    case list of
-        [ elem ] ->
-            collectElem syntaxGroup elem
-
-        _ ->
-            []
-
-
 collectElem : Dict String (List Value) -> ElementSyntax -> List Value
 collectElem syntaxGroup elementSyntax =
     case elementSyntax of
-        ValueElem ( valueSyntax, Nothing ) ->
+        ValueElem valueSyntax ->
             collectValue syntaxGroup valueSyntax
 
-        ValueElem _ ->
-            []
+        Brackets syntax ->
+            collectConstants syntaxGroup syntax
 
-        Brackets _ ->
+
+collectSequence : Dict String (List Value) -> List ( ElementSyntax, Maybe MultiplierSyntax ) -> List Value
+collectSequence syntaxGroup list =
+    case list of
+        [ ( elem, Nothing ) ] ->
+            collectElem syntaxGroup elem
+
+        [ ( elem, Just (Multiple args) ) ] ->
+            case ( args.min, args.max ) of
+                ( 0, Just 1 ) ->
+                    --ignoring case 0
+                    collectElem syntaxGroup elem
+
+                _ ->
+                    []
+
+        [ ( _, Just (Multiple args) ), ( elem2, Nothing ) ] ->
+            case ( args.min, args.max ) of
+                ( 0, Just 1 ) ->
+                    --ignoring case 1
+                    collectElem syntaxGroup elem2
+
+                _ ->
+                    []
+
+        _ ->
             []
 
 
 collectConstants : Dict String (List Value) -> Syntax -> List Value
 collectConstants syntaxGroup syntax =
     case syntax of
-        And sequenceSyntax ->
+        Or sequenceSyntax maybeSyntax ->
             collectSequence syntaxGroup sequenceSyntax
-
-        Or sequenceSyntax s ->
-            collectSequence syntaxGroup sequenceSyntax
-                |> (++) (collectConstants syntaxGroup s)
+                |> (++)
+                    (maybeSyntax
+                        |> Maybe.map (collectConstants syntaxGroup)
+                        |> Maybe.withDefault []
+                    )
                 |> List.reverse
 
 
