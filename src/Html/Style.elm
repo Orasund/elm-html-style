@@ -1,4 +1,4 @@
-module Html.Style exposing (accentColor, accentColorAuto, alignContent, alignContentBaseline, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentNormal, alignContentSpaceAround, alignContentSpaceBetween, alignContentSpaceEvenly, alignContentStart, alignContentStretch, alignItems, alignItemsBaseline, alignItemsCenter, alignItemsEnd, alignItemsFlexEnd, alignItemsFlexStart, alignItemsNormal, alignItemsSelfEnd, alignItemsSelfStart, alignItemsStart, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfBaseline, alignSelfCenter, alignSelfEnd, alignSelfFlexEnd, alignSelfFlexStart, alignSelfNormal, alignSelfSelfEnd, alignSelfSelfStart, alignSelfStart, alignSelfStretch, alignTracks, all, allInherit, allInitial, allRevert, allRevertLayer, allUnset, animation, animationComposition, animationDelay, animationDirection, animationDuration, animationFillMode, animationIterationCount, animationName, animationPlayState, animationRange, animationRangeEnd, animationRangeStart, animationTimeline, animationTimingFunction, appearance, appearanceAuto, appearanceButton, appearanceCheckbox, appearanceListbox, appearanceMenulist, appearanceMenulistButton, appearanceMeter, appearanceNone, appearanceProgressBar, appearancePushButton, appearanceRadio, appearanceSearchfield, appearanceSliderHorizontal, appearanceSquareButton, appearanceTextarea, appearanceTextfield, aspectRatio, aspectRatioAuto, azimuth, azimuthBehind, azimuthCenter, azimuthCenterLeft, azimuthCenterRight, azimuthFarLeft, azimuthFarRight, azimuthLeft, azimuthLeftSide, azimuthLeftwards, azimuthRight, azimuthRightSide, azimuthRightwards, backdropFilter, backdropFilterNone, backfaceVisibility, backfaceVisibilityHidden, backfaceVisibilityVisible, background, backgroundAttachment, backgroundBlendMode, backgroundClip, backgroundColor, backgroundImage, backgroundOrigin, backgroundPosition, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize, blockSize, blockSizeAuto, blockSizeFitContent, blockSizeMaxContent, blockSizeMinContent, blockSizePx, blockSizeRem, border, borderBlock, borderBlockColor, borderBlockDashed, borderBlockDotted, borderBlockDouble, borderBlockEnd, borderBlockEndColor, borderBlockEndDashed, borderBlockEndDotted, borderBlockEndDouble, borderBlockEndGroove, borderBlockEndHidden, borderBlockEndInset, borderBlockEndMedium, borderBlockEndNone, borderBlockEndOutset, borderBlockEndPx, borderBlockEndRem, borderBlockEndRidge, borderBlockEndSolid, borderBlockEndStyle, borderBlockEndStyleDashed, borderBlockEndStyleDotted, borderBlockEndStyleDouble, borderBlockEndStyleGroove, borderBlockEndStyleHidden, borderBlockEndStyleInset, borderBlockEndStyleNone, borderBlockEndStyleOutset, borderBlockEndStyleRidge, borderBlockEndStyleSolid, borderBlockEndThick, borderBlockEndThin, borderBlockEndWidth, borderBlockEndWidthMedium, borderBlockEndWidthPx, borderBlockEndWidthRem, borderBlockEndWidthThick, borderBlockEndWidthThin, borderBlockGroove, borderBlockHidden, borderBlockInset, borderBlockMedium, borderBlockNone, borderBlockOutset, borderBlockPx, borderBlockRem, borderBlockRidge, borderBlockSolid, borderBlockStart, borderBlockStartColor, borderBlockStartDashed, borderBlockStartDotted, borderBlockStartDouble, borderBlockStartGroove, borderBlockStartHidden, borderBlockStartInset, borderBlockStartMedium, borderBlockStartNone, borderBlockStartOutset, borderBlockStartPx, borderBlockStartRem, borderBlockStartRidge, borderBlockStartSolid, borderBlockStartStyle, borderBlockStartStyleDashed, borderBlockStartStyleDotted, borderBlockStartStyleDouble, borderBlockStartStyleGroove, borderBlockStartStyleHidden, borderBlockStartStyleInset, borderBlockStartStyleNone, borderBlockStartStyleOutset, borderBlockStartStyleRidge, borderBlockStartStyleSolid, borderBlockStartThick, borderBlockStartThin, borderBlockStartWidth, borderBlockStartWidthMedium, borderBlockStartWidthPx, borderBlockStartWidthRem, borderBlockStartWidthThick, borderBlockStartWidthThin, borderBlockStyle, borderBlockStyleDashed, borderBlockStyleDotted, borderBlockStyleDouble, borderBlockStyleGroove, borderBlockStyleHidden, borderBlockStyleInset, borderBlockStyleNone, borderBlockStyleOutset, borderBlockStyleRidge, borderBlockStyleSolid, borderBlockThick, borderBlockThin, borderBlockWidth, borderBlockWidthMedium, borderBlockWidthPx, borderBlockWidthRem, borderBlockWidthThick, borderBlockWidthThin, borderBottom, borderBottomColor, borderBottomDashed, borderBottomDotted, borderBottomDouble, borderBottomGroove, borderBottomHidden, borderBottomInset, borderBottomLeftRadius, borderBottomLeftRadiusPx, borderBottomLeftRadiusRem, borderBottomMedium, borderBottomNone, borderBottomOutset, borderBottomPx, borderBottomRem, borderBottomRidge, borderBottomRightRadius, borderBottomRightRadiusPx, borderBottomRightRadiusRem, borderBottomSolid, borderBottomStyle, borderBottomStyleDashed, borderBottomStyleDotted, borderBottomStyleDouble, borderBottomStyleGroove, borderBottomStyleHidden, borderBottomStyleInset, borderBottomStyleNone, borderBottomStyleOutset, borderBottomStyleRidge, borderBottomStyleSolid, borderBottomThick, borderBottomThin, borderBottomWidth, borderBottomWidthMedium, borderBottomWidthPx, borderBottomWidthRem, borderBottomWidthThick, borderBottomWidthThin, borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderColor, borderDashed, borderDotted, borderDouble, borderEndEndRadius, borderEndEndRadiusPx, borderEndEndRadiusRem, borderEndStartRadius, borderEndStartRadiusPx, borderEndStartRadiusRem, borderGroove, borderHidden, borderImage, borderImageOutset, borderImageOutsetPx, borderImageOutsetRem, borderImageRepeat, borderImageRepeatRepeat, borderImageRepeatRound, borderImageRepeatSpace, borderImageRepeatStretch, borderImageSlice, borderImageSource, borderImageSourceNone, borderImageWidth, borderImageWidthAuto, borderImageWidthPx, borderImageWidthRem, borderInline, borderInlineColor, borderInlineDashed, borderInlineDotted, borderInlineDouble, borderInlineEnd, borderInlineEndColor, borderInlineEndDashed, borderInlineEndDotted, borderInlineEndDouble, borderInlineEndGroove, borderInlineEndHidden, borderInlineEndInset, borderInlineEndMedium, borderInlineEndNone, borderInlineEndOutset, borderInlineEndPx, borderInlineEndRem, borderInlineEndRidge, borderInlineEndSolid, borderInlineEndStyle, borderInlineEndStyleDashed, borderInlineEndStyleDotted, borderInlineEndStyleDouble, borderInlineEndStyleGroove, borderInlineEndStyleHidden, borderInlineEndStyleInset, borderInlineEndStyleNone, borderInlineEndStyleOutset, borderInlineEndStyleRidge, borderInlineEndStyleSolid, borderInlineEndThick, borderInlineEndThin, borderInlineEndWidth, borderInlineEndWidthMedium, borderInlineEndWidthPx, borderInlineEndWidthRem, borderInlineEndWidthThick, borderInlineEndWidthThin, borderInlineGroove, borderInlineHidden, borderInlineInset, borderInlineMedium, borderInlineNone, borderInlineOutset, borderInlinePx, borderInlineRem, borderInlineRidge, borderInlineSolid, borderInlineStart, borderInlineStartColor, borderInlineStartDashed, borderInlineStartDotted, borderInlineStartDouble, borderInlineStartGroove, borderInlineStartHidden, borderInlineStartInset, borderInlineStartMedium, borderInlineStartNone, borderInlineStartOutset, borderInlineStartPx, borderInlineStartRem, borderInlineStartRidge, borderInlineStartSolid, borderInlineStartStyle, borderInlineStartStyleDashed, borderInlineStartStyleDotted, borderInlineStartStyleDouble, borderInlineStartStyleGroove, borderInlineStartStyleHidden, borderInlineStartStyleInset, borderInlineStartStyleNone, borderInlineStartStyleOutset, borderInlineStartStyleRidge, borderInlineStartStyleSolid, borderInlineStartThick, borderInlineStartThin, borderInlineStartWidth, borderInlineStartWidthMedium, borderInlineStartWidthPx, borderInlineStartWidthRem, borderInlineStartWidthThick, borderInlineStartWidthThin, borderInlineStyle, borderInlineStyleDashed, borderInlineStyleDotted, borderInlineStyleDouble, borderInlineStyleGroove, borderInlineStyleHidden, borderInlineStyleInset, borderInlineStyleNone, borderInlineStyleOutset, borderInlineStyleRidge, borderInlineStyleSolid, borderInlineThick, borderInlineThin, borderInlineWidth, borderInlineWidthMedium, borderInlineWidthPx, borderInlineWidthRem, borderInlineWidthThick, borderInlineWidthThin, borderInset, borderLeft, borderLeftColor, borderLeftDashed, borderLeftDotted, borderLeftDouble, borderLeftGroove, borderLeftHidden, borderLeftInset, borderLeftMedium, borderLeftNone, borderLeftOutset, borderLeftPx, borderLeftRem, borderLeftRidge, borderLeftSolid, borderLeftStyle, borderLeftStyleDashed, borderLeftStyleDotted, borderLeftStyleDouble, borderLeftStyleGroove, borderLeftStyleHidden, borderLeftStyleInset, borderLeftStyleNone, borderLeftStyleOutset, borderLeftStyleRidge, borderLeftStyleSolid, borderLeftThick, borderLeftThin, borderLeftWidth, borderLeftWidthMedium, borderLeftWidthPx, borderLeftWidthRem, borderLeftWidthThick, borderLeftWidthThin, borderMedium, borderNone, borderOutset, borderPx, borderRadius, borderRem, borderRidge, borderRight, borderRightColor, borderRightDashed, borderRightDotted, borderRightDouble, borderRightGroove, borderRightHidden, borderRightInset, borderRightMedium, borderRightNone, borderRightOutset, borderRightPx, borderRightRem, borderRightRidge, borderRightSolid, borderRightStyle, borderRightStyleDashed, borderRightStyleDotted, borderRightStyleDouble, borderRightStyleGroove, borderRightStyleHidden, borderRightStyleInset, borderRightStyleNone, borderRightStyleOutset, borderRightStyleRidge, borderRightStyleSolid, borderRightThick, borderRightThin, borderRightWidth, borderRightWidthMedium, borderRightWidthPx, borderRightWidthRem, borderRightWidthThick, borderRightWidthThin, borderSolid, borderSpacing, borderStartEndRadius, borderStartEndRadiusPx, borderStartEndRadiusRem, borderStartStartRadius, borderStartStartRadiusPx, borderStartStartRadiusRem, borderStyle, borderStyleDashed, borderStyleDotted, borderStyleDouble, borderStyleGroove, borderStyleHidden, borderStyleInset, borderStyleNone, borderStyleOutset, borderStyleRidge, borderStyleSolid, borderThick, borderThin, borderTop, borderTopColor, borderTopDashed, borderTopDotted, borderTopDouble, borderTopGroove, borderTopHidden, borderTopInset, borderTopLeftRadius, borderTopLeftRadiusPx, borderTopLeftRadiusRem, borderTopMedium, borderTopNone, borderTopOutset, borderTopPx, borderTopRem, borderTopRidge, borderTopRightRadius, borderTopRightRadiusPx, borderTopRightRadiusRem, borderTopSolid, borderTopStyle, borderTopStyleDashed, borderTopStyleDotted, borderTopStyleDouble, borderTopStyleGroove, borderTopStyleHidden, borderTopStyleInset, borderTopStyleNone, borderTopStyleOutset, borderTopStyleRidge, borderTopStyleSolid, borderTopThick, borderTopThin, borderTopWidth, borderTopWidthMedium, borderTopWidthPx, borderTopWidthRem, borderTopWidthThick, borderTopWidthThin, borderWidth, borderWidthMedium, borderWidthPx, borderWidthRem, borderWidthThick, borderWidthThin, bottom, bottomAuto, bottomPx, bottomRem, boxAlign, boxAlignBaseline, boxAlignCenter, boxAlignEnd, boxAlignStart, boxAlignStretch, boxDecorationBreak, boxDecorationBreakClone, boxDecorationBreakSlice, boxDirection, boxDirectionInherit, boxDirectionNormal, boxDirectionReverse, boxFlex, boxFlexGroup, boxLines, boxLinesMultiple, boxLinesSingle, boxOrdinalGroup, boxOrient, boxOrientBlockAxis, boxOrientHorizontal, boxOrientInherit, boxOrientInlineAxis, boxOrientVertical, boxPack, boxPackCenter, boxPackEnd, boxPackJustify, boxPackStart, boxShadow, boxShadowNone, boxSizing, boxSizingBorderBox, boxSizingContentBox, breakAfter, breakAfterAll, breakAfterAlways, breakAfterAuto, breakAfterAvoid, breakAfterAvoidColumn, breakAfterAvoidPage, breakAfterAvoidRegion, breakAfterColumn, breakAfterLeft, breakAfterPage, breakAfterRecto, breakAfterRegion, breakAfterRight, breakAfterVerso, breakBefore, breakBeforeAll, breakBeforeAlways, breakBeforeAuto, breakBeforeAvoid, breakBeforeAvoidColumn, breakBeforeAvoidPage, breakBeforeAvoidRegion, breakBeforeColumn, breakBeforeLeft, breakBeforePage, breakBeforeRecto, breakBeforeRegion, breakBeforeRight, breakBeforeVerso, breakInside, breakInsideAuto, breakInsideAvoid, breakInsideAvoidColumn, breakInsideAvoidPage, breakInsideAvoidRegion, captionSide, captionSideBlockEnd, captionSideBlockStart, captionSideBottom, captionSideInlineEnd, captionSideInlineStart, captionSideTop, caret, caretAuto, caretBar, caretBlock, caretColor, caretColorAuto, caretShape, caretShapeAuto, caretShapeBar, caretShapeBlock, caretShapeUnderscore, caretUnderscore, clear, clearBoth, clearInlineEnd, clearInlineStart, clearLeft, clearNone, clearRight, clip, clipAuto, clipPath, clipPathFillBox, clipPathNone, clipPathStrokeBox, clipPathViewBox, color, colorScheme, columnCount, columnCountAuto, columnFill, columnFillAuto, columnFillBalance, columnFillBalanceAll, columnGap, columnGapNormal, columnGapPx, columnGapRem, columnRule, columnRuleColor, columnRuleDashed, columnRuleDotted, columnRuleDouble, columnRuleGroove, columnRuleHidden, columnRuleInset, columnRuleMedium, columnRuleNone, columnRuleOutset, columnRulePx, columnRuleRem, columnRuleRidge, columnRuleSolid, columnRuleStyle, columnRuleStyleDashed, columnRuleStyleDotted, columnRuleStyleDouble, columnRuleStyleGroove, columnRuleStyleHidden, columnRuleStyleInset, columnRuleStyleNone, columnRuleStyleOutset, columnRuleStyleRidge, columnRuleStyleSolid, columnRuleThick, columnRuleThin, columnRuleWidth, columnRuleWidthMedium, columnRuleWidthPx, columnRuleWidthRem, columnRuleWidthThick, columnRuleWidthThin, columnSpan, columnSpanAll, columnSpanNone, columnWidth, columnWidthAuto, columnWidthPx, columnWidthRem, columns, columnsAuto, columnsPx, columnsRem, contain, containContent, containInlineSize, containIntrinsicBlockSize, containIntrinsicBlockSizeNone, containIntrinsicBlockSizePx, containIntrinsicBlockSizeRem, containIntrinsicHeight, containIntrinsicHeightNone, containIntrinsicHeightPx, containIntrinsicHeightRem, containIntrinsicInlineSize, containIntrinsicInlineSizeNone, containIntrinsicInlineSizePx, containIntrinsicInlineSizeRem, containIntrinsicSize, containIntrinsicSizeNone, containIntrinsicSizePx, containIntrinsicSizeRem, containIntrinsicWidth, containIntrinsicWidthNone, containIntrinsicWidthPx, containIntrinsicWidthRem, containLayout, containNone, containPaint, containSize, containStrict, containStyle, container, containerName, containerNameNone, containerType, containerTypeInlineSize, containerTypeNormal, containerTypeSize, content, contentVisibility, contentVisibilityAuto, contentVisibilityHidden, contentVisibilityVisible, counterIncrement, counterIncrementNone, counterReset, counterResetNone, counterSet, counterSetNone, cursor, direction, directionLtr, directionRtl, display, displayBlock, displayContents, displayFlex, displayFlow, displayFlowRoot, displayGrid, displayInline, displayInlineBlock, displayInlineFlex, displayInlineGrid, displayInlineListItem, displayInlineTable, displayNone, displayRuby, displayRubyBase, displayRubyBaseContainer, displayRubyText, displayRubyTextContainer, displayRunIn, displayTable, displayTableCaption, displayTableCell, displayTableColumn, displayTableColumnGroup, displayTableFooterGroup, displayTableHeaderGroup, displayTableRow, displayTableRowGroup, emptyCells, emptyCellsHide, emptyCellsShow, filter, filterNone, flex, flexBasis, flexBasisAuto, flexBasisContent, flexBasisFitContent, flexBasisMaxContent, flexBasisMinContent, flexBasisPx, flexBasisRem, flexDirection, flexDirectionColumn, flexDirectionColumnReverse, flexDirectionRow, flexDirectionRowReverse, flexFlow, flexFlowColumn, flexFlowColumnReverse, flexFlowNowrap, flexFlowRow, flexFlowRowReverse, flexFlowWrap, flexFlowWrapReverse, flexGrow, flexShrink, flexWrap, flexWrapNowrap, flexWrapWrap, flexWrapWrapReverse, float, floatInlineEnd, floatInlineStart, floatLeft, floatNone, floatRight, font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteDark, fontPaletteLight, fontPaletteNormal, fontSize, fontSizeAdjust, fontSizeAdjustFromFont, fontSizeAdjustNone, fontSizeLarge, fontSizeLarger, fontSizeMedium, fontSizePx, fontSizeRem, fontSizeSmall, fontSizeSmaller, fontSizeXLarge, fontSizeXSmall, fontSizeXxLarge, fontSizeXxSmall, fontSizeXxxLarge, fontSmooth, fontSmoothAlways, fontSmoothAuto, fontSmoothLarge, fontSmoothMedium, fontSmoothNever, fontSmoothPx, fontSmoothRem, fontSmoothSmall, fontSmoothXLarge, fontSmoothXSmall, fontSmoothXxLarge, fontSmoothXxSmall, fontSmoothXxxLarge, fontStretch, fontStretchCondensed, fontStretchExpanded, fontStretchExtraCondensed, fontStretchExtraExpanded, fontStretchNormal, fontStretchSemiCondensed, fontStretchSemiExpanded, fontStretchUltraCondensed, fontStretchUltraExpanded, fontStyle, fontStyleItalic, fontStyleNormal, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsAllSmallCaps, fontVariantCapsNormal, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantEastAsian, fontVariantEastAsianFullWidth, fontVariantEastAsianJis04, fontVariantEastAsianJis78, fontVariantEastAsianJis83, fontVariantEastAsianJis90, fontVariantEastAsianNormal, fontVariantEastAsianProportionalWidth, fontVariantEastAsianRuby, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEmoji, fontVariantEmojiEmoji, fontVariantEmojiNormal, fontVariantEmojiText, fontVariantEmojiUnicode, fontVariantLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesContextual, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesNone, fontVariantLigaturesNormal, fontVariantNumeric, fontVariantNumericDiagonalFractions, fontVariantNumericLiningNums, fontVariantNumericNormal, fontVariantNumericOldstyleNums, fontVariantNumericOrdinal, fontVariantNumericProportionalNums, fontVariantNumericSlashedZero, fontVariantNumericStackedFractions, fontVariantNumericTabularNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSub, fontVariantPositionSuper, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightBolder, fontWeightLighter, forcedColorAdjust, forcedColorAdjustAuto, forcedColorAdjustNone, gap, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowColumn, gridAutoFlowDense, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateRows, gridTemplateRowsNone, hangingPunctuation, hangingPunctuationAllowEnd, hangingPunctuationFirst, hangingPunctuationForceEnd, hangingPunctuationLast, hangingPunctuationNone, height, heightAuto, heightFitContent, heightMaxContent, heightMinContent, heightPx, heightRem, hyphenateCharacter, hyphenateCharacterAuto, hyphenateLimitChars, hyphenateLimitCharsAuto, hyphens, hyphensAuto, hyphensManual, hyphensNone, imageOrientation, imageOrientationFlip, imageOrientationFromImage, imageRendering, imageRenderingAuto, imageRenderingCrispEdges, imageRenderingPixelated, imageResolution, imeMode, imeModeActive, imeModeAuto, imeModeDisabled, imeModeInactive, imeModeNormal, initialLetter, initialLetterAlign, initialLetterAlignAlphabetic, initialLetterAlignAuto, initialLetterAlignHanging, initialLetterAlignIdeographic, initialLetterNormal, inlineSize, inlineSizeAuto, inlineSizeFitContent, inlineSizeMaxContent, inlineSizeMinContent, inlineSizePx, inlineSizeRem, inputSecurity, inputSecurityAuto, inputSecurityNone, inset, insetAuto, insetBlock, insetBlockAuto, insetBlockEnd, insetBlockEndAuto, insetBlockEndPx, insetBlockEndRem, insetBlockPx, insetBlockRem, insetBlockStart, insetBlockStartAuto, insetBlockStartPx, insetBlockStartRem, insetInline, insetInlineAuto, insetInlineEnd, insetInlineEndAuto, insetInlineEndPx, insetInlineEndRem, insetInlinePx, insetInlineRem, insetInlineStart, insetInlineStartAuto, insetInlineStartPx, insetInlineStartRem, insetPx, insetRem, isolation, isolationAuto, isolationIsolate, justifyContent, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentLeft, justifyContentNormal, justifyContentRight, justifyContentSpaceAround, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStart, justifyContentStretch, justifyItems, justifySelf, justifySelfAuto, justifySelfBaseline, justifySelfCenter, justifySelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfLeft, justifySelfNormal, justifySelfRight, justifySelfSelfEnd, justifySelfSelfStart, justifySelfStart, justifySelfStretch, justifyTracks, left, leftAuto, leftPx, leftRem, letterSpacing, letterSpacingNormal, letterSpacingPx, letterSpacingRem, lineBreak, lineBreakAnywhere, lineBreakAuto, lineBreakLoose, lineBreakNormal, lineBreakStrict, lineClamp, lineClampNone, lineHeight, lineHeightNormal, lineHeightPx, lineHeightRem, lineHeightStep, lineHeightStepPx, lineHeightStepRem, listStyle, listStyleImage, listStyleImageNone, listStyleInside, listStyleNone, listStyleOutside, listStylePosition, listStylePositionInside, listStylePositionOutside, listStyleType, listStyleTypeNone, margin, marginAuto, marginBlock, marginBlockAuto, marginBlockEnd, marginBlockEndAuto, marginBlockEndPx, marginBlockEndRem, marginBlockPx, marginBlockRem, marginBlockStart, marginBlockStartAuto, marginBlockStartPx, marginBlockStartRem, marginBottom, marginBottomAuto, marginBottomPx, marginBottomRem, marginInline, marginInlineAuto, marginInlineEnd, marginInlineEndAuto, marginInlineEndPx, marginInlineEndRem, marginInlinePx, marginInlineRem, marginInlineStart, marginInlineStartAuto, marginInlineStartPx, marginInlineStartRem, marginLeft, marginLeftAuto, marginLeftPx, marginLeftRem, marginPx, marginRem, marginRight, marginRightAuto, marginRightPx, marginRightRem, marginTop, marginTopAuto, marginTopPx, marginTopRem, marginTrim, marginTrimAll, marginTrimInFlow, marginTrimNone, mask, maskBorder, maskBorderMode, maskBorderModeAlpha, maskBorderModeLuminance, maskBorderOutset, maskBorderOutsetPx, maskBorderOutsetRem, maskBorderRepeat, maskBorderRepeatRepeat, maskBorderRepeatRound, maskBorderRepeatSpace, maskBorderRepeatStretch, maskBorderSlice, maskBorderSource, maskBorderSourceNone, maskBorderWidth, maskBorderWidthAuto, maskBorderWidthPx, maskBorderWidthRem, maskClip, maskComposite, maskImage, maskMode, maskOrigin, maskPosition, maskRepeat, maskSize, maskType, maskTypeAlpha, maskTypeLuminance, masonryAutoFlow, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowOrdered, masonryAutoFlowPack, mathDepth, mathDepthAutoAdd, mathShift, mathShiftCompact, mathShiftNormal, mathStyle, mathStyleCompact, mathStyleNormal, maxBlockSize, maxBlockSizeFitContent, maxBlockSizeMaxContent, maxBlockSizeMinContent, maxBlockSizeNone, maxBlockSizePx, maxBlockSizeRem, maxHeight, maxHeightFitContent, maxHeightMaxContent, maxHeightMinContent, maxHeightNone, maxHeightPx, maxHeightRem, maxInlineSize, maxInlineSizeFitContent, maxInlineSizeMaxContent, maxInlineSizeMinContent, maxInlineSizeNone, maxInlineSizePx, maxInlineSizeRem, maxLines, maxLinesNone, maxWidth, maxWidthFitContent, maxWidthMaxContent, maxWidthMinContent, maxWidthNone, maxWidthPx, maxWidthRem, minBlockSize, minBlockSizeAuto, minBlockSizeFitContent, minBlockSizeMaxContent, minBlockSizeMinContent, minBlockSizePx, minBlockSizeRem, minHeight, minHeightAuto, minHeightFitContent, minHeightMaxContent, minHeightMinContent, minHeightPx, minHeightRem, minInlineSize, minInlineSizeAuto, minInlineSizeFitContent, minInlineSizeMaxContent, minInlineSizeMinContent, minInlineSizePx, minInlineSizeRem, minWidth, minWidthAuto, minWidthFitContent, minWidthMaxContent, minWidthMinContent, minWidthPx, minWidthRem, mixBlendMode, mixBlendModeColor, mixBlendModeColorBurn, mixBlendModeColorDodge, mixBlendModeDarken, mixBlendModeDifference, mixBlendModeExclusion, mixBlendModeHardLight, mixBlendModeHue, mixBlendModeLighten, mixBlendModeLuminosity, mixBlendModeMultiply, mixBlendModeNormal, mixBlendModeOverlay, mixBlendModePlusLighter, mixBlendModeSaturation, mixBlendModeScreen, mixBlendModeSoftLight, objectFit, objectFitContain, objectFitCover, objectFitFill, objectFitNone, objectFitScaleDown, objectPosition, offset, offsetAnchor, offsetAnchorAuto, offsetDistance, offsetDistancePx, offsetDistanceRem, offsetPath, offsetPathNone, offsetPosition, offsetPositionAuto, offsetPositionNormal, offsetRotate, offsetRotateAuto, offsetRotateReverse, opacity, order, orphans, outline, outlineAuto, outlineColor, outlineColorAuto, outlineDashed, outlineDotted, outlineDouble, outlineGroove, outlineHidden, outlineInset, outlineMedium, outlineNone, outlineOffset, outlineOffsetPx, outlineOffsetRem, outlineOutset, outlinePx, outlineRem, outlineRidge, outlineSolid, outlineStyle, outlineStyleAuto, outlineStyleDashed, outlineStyleDotted, outlineStyleDouble, outlineStyleGroove, outlineStyleHidden, outlineStyleInset, outlineStyleNone, outlineStyleOutset, outlineStyleRidge, outlineStyleSolid, outlineThick, outlineThin, outlineWidth, outlineWidthMedium, outlineWidthPx, outlineWidthRem, outlineWidthThick, outlineWidthThin, overflow, overflowAnchor, overflowAnchorAuto, overflowAnchorNone, overflowAuto, overflowBlock, overflowBlockAuto, overflowBlockClip, overflowBlockHidden, overflowBlockScroll, overflowBlockVisible, overflowClip, overflowClipBox, overflowClipBoxContentBox, overflowClipBoxPaddingBox, overflowClipMargin, overflowHidden, overflowInline, overflowInlineAuto, overflowInlineClip, overflowInlineHidden, overflowInlineScroll, overflowInlineVisible, overflowScroll, overflowVisible, overflowWrap, overflowWrapAnywhere, overflowWrapBreakWord, overflowWrapNormal, overflowX, overflowXAuto, overflowXClip, overflowXHidden, overflowXScroll, overflowXVisible, overflowY, overflowYAuto, overflowYClip, overflowYHidden, overflowYScroll, overflowYVisible, overlay, overlayAuto, overlayNone, overscrollBehavior, overscrollBehaviorAuto, overscrollBehaviorBlock, overscrollBehaviorBlockAuto, overscrollBehaviorBlockContain, overscrollBehaviorBlockNone, overscrollBehaviorContain, overscrollBehaviorInline, overscrollBehaviorInlineAuto, overscrollBehaviorInlineContain, overscrollBehaviorInlineNone, overscrollBehaviorNone, overscrollBehaviorX, overscrollBehaviorXAuto, overscrollBehaviorXContain, overscrollBehaviorXNone, overscrollBehaviorY, overscrollBehaviorYAuto, overscrollBehaviorYContain, overscrollBehaviorYNone, padding, paddingBlock, paddingBlockEnd, paddingBlockEndPx, paddingBlockEndRem, paddingBlockPx, paddingBlockRem, paddingBlockStart, paddingBlockStartPx, paddingBlockStartRem, paddingBottom, paddingBottomPx, paddingBottomRem, paddingInline, paddingInlineEnd, paddingInlineEndPx, paddingInlineEndRem, paddingInlinePx, paddingInlineRem, paddingInlineStart, paddingInlineStartPx, paddingInlineStartRem, paddingLeft, paddingLeftPx, paddingLeftRem, paddingPx, paddingRem, paddingRight, paddingRightPx, paddingRightRem, paddingTop, paddingTopPx, paddingTopRem, page, pageAuto, pageBreakAfter, pageBreakAfterAlways, pageBreakAfterAuto, pageBreakAfterAvoid, pageBreakAfterLeft, pageBreakAfterRecto, pageBreakAfterRight, pageBreakAfterVerso, pageBreakBefore, pageBreakBeforeAlways, pageBreakBeforeAuto, pageBreakBeforeAvoid, pageBreakBeforeLeft, pageBreakBeforeRecto, pageBreakBeforeRight, pageBreakBeforeVerso, pageBreakInside, pageBreakInsideAuto, pageBreakInsideAvoid, paintOrder, paintOrderFill, paintOrderMarkers, paintOrderNormal, paintOrderStroke, perspective, perspectiveNone, perspectiveOrigin, perspectivePx, perspectiveRem, placeContent, placeItems, placeSelf, pointerEvents, pointerEventsAll, pointerEventsAuto, pointerEventsFill, pointerEventsInherit, pointerEventsNone, pointerEventsPainted, pointerEventsStroke, pointerEventsVisible, pointerEventsVisibleFill, pointerEventsVisiblePainted, pointerEventsVisibleStroke, position, positionAbsolute, positionFixed, positionRelative, positionStatic, positionSticky, printColorAdjust, printColorAdjustEconomy, printColorAdjustExact, quotes, quotesAuto, quotesNone, resize, resizeBlock, resizeBoth, resizeHorizontal, resizeInline, resizeNone, resizeVertical, right, rightAuto, rightPx, rightRem, rotate, rowGap, rowGapNormal, rowGapPx, rowGapRem, rubyAlign, rubyAlignCenter, rubyAlignSpaceAround, rubyAlignSpaceBetween, rubyAlignStart, rubyMerge, rubyMergeAuto, rubyMergeCollapse, rubyMergeSeparate, rubyPosition, rubyPositionAlternate, rubyPositionInterCharacter, rubyPositionOver, rubyPositionUnder, scale, scaleNone, scrollBehavior, scrollBehaviorAuto, scrollBehaviorSmooth, scrollMargin, scrollMarginBlock, scrollMarginBlockEnd, scrollMarginBlockEndPx, scrollMarginBlockEndRem, scrollMarginBlockPx, scrollMarginBlockRem, scrollMarginBlockStart, scrollMarginBlockStartPx, scrollMarginBlockStartRem, scrollMarginBottom, scrollMarginBottomPx, scrollMarginBottomRem, scrollMarginInline, scrollMarginInlineEnd, scrollMarginInlineEndPx, scrollMarginInlineEndRem, scrollMarginInlinePx, scrollMarginInlineRem, scrollMarginInlineStart, scrollMarginInlineStartPx, scrollMarginInlineStartRem, scrollMarginLeft, scrollMarginLeftPx, scrollMarginLeftRem, scrollMarginPx, scrollMarginRem, scrollMarginRight, scrollMarginRightPx, scrollMarginRightRem, scrollMarginTop, scrollMarginTopPx, scrollMarginTopRem, scrollPadding, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndPx, scrollPaddingBlockEndRem, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartPx, scrollPaddingBlockStartRem, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomPx, scrollPaddingBottomRem, scrollPaddingInline, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndPx, scrollPaddingInlineEndRem, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartPx, scrollPaddingInlineStartRem, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftPx, scrollPaddingLeftRem, scrollPaddingPx, scrollPaddingRem, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightPx, scrollPaddingRightRem, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopPx, scrollPaddingTopRem, scrollSnapAlign, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapAlignStart, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopAlways, scrollSnapStopNormal, scrollSnapType, scrollSnapTypeNone, scrollSnapTypeX, scrollSnapTypeXMandatory, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeY, scrollSnapTypeYMandatory, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollTimeline, scrollTimelineAxis, scrollTimelineName, scrollTimelineNameNone, scrollbarColor, scrollbarGutter, scrollbarWidth, scrollbarWidthAuto, scrollbarWidthNone, scrollbarWidthThin, shapeImageThreshold, shapeMargin, shapeMarginPx, shapeMarginRem, shapeOutside, shapeOutsideMarginBox, shapeOutsideNone, tabSize, tabSizePx, tabSizeRem, tableLayout, tableLayoutAuto, tableLayoutFixed, textAlign, textAlignCenter, textAlignEnd, textAlignJustify, textAlignLast, textAlignLastAuto, textAlignLastCenter, textAlignLastEnd, textAlignLastJustify, textAlignLastLeft, textAlignLastRight, textAlignLastStart, textAlignLeft, textAlignMatchParent, textAlignRight, textAlignStart, textCombineUpright, textCombineUprightAll, textCombineUprightNone, textDecoration, textDecorationBlink, textDecorationColor, textDecorationDashed, textDecorationDotted, textDecorationDouble, textDecorationGrammarError, textDecorationLine, textDecorationLineBlink, textDecorationLineGrammarError, textDecorationLineLineThrough, textDecorationLineNone, textDecorationLineOverline, textDecorationLineSpellingError, textDecorationLineThrough, textDecorationLineUnderline, textDecorationNone, textDecorationOverline, textDecorationSkip, textDecorationSkipBoxDecoration, textDecorationSkipEdges, textDecorationSkipInk, textDecorationSkipInkAll, textDecorationSkipInkAuto, textDecorationSkipInkNone, textDecorationSkipLeadingSpaces, textDecorationSkipNone, textDecorationSkipObjects, textDecorationSkipSpaces, textDecorationSkipTrailingSpaces, textDecorationSolid, textDecorationSpellingError, textDecorationStyle, textDecorationStyleDashed, textDecorationStyleDotted, textDecorationStyleDouble, textDecorationStyleSolid, textDecorationStyleWavy, textDecorationThickness, textDecorationUnderline, textDecorationWavy, textEmphasis, textEmphasisCircle, textEmphasisColor, textEmphasisDot, textEmphasisDoubleCircle, textEmphasisFilled, textEmphasisNone, textEmphasisOpen, textEmphasisPosition, textEmphasisSesame, textEmphasisStyle, textEmphasisStyleCircle, textEmphasisStyleDot, textEmphasisStyleDoubleCircle, textEmphasisStyleFilled, textEmphasisStyleNone, textEmphasisStyleOpen, textEmphasisStyleSesame, textEmphasisStyleTriangle, textEmphasisTriangle, textIndent, textJustify, textJustifyAuto, textJustifyInterCharacter, textJustifyInterWord, textJustifyNone, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, textOverflow, textOverflowClip, textOverflowEllipsis, textRendering, textRenderingAuto, textRenderingGeometricPrecision, textRenderingOptimizeLegibility, textRenderingOptimizeSpeed, textShadow, textShadowNone, textSizeAdjust, textSizeAdjustAuto, textSizeAdjustNone, textTransform, textTransformCapitalize, textTransformFullSizeKana, textTransformFullWidth, textTransformLowercase, textTransformNone, textTransformUppercase, textUnderlineOffset, textUnderlinePosition, textUnderlinePositionAuto, textUnderlinePositionFromFont, textUnderlinePositionLeft, textUnderlinePositionRight, textUnderlinePositionUnder, textWrap, textWrapBalance, textWrapNowrap, textWrapPretty, textWrapStable, textWrapWrap, timelineScope, timelineScopeNone, top, topAuto, topPx, topRem, touchAction, touchActionAuto, touchActionManipulation, touchActionNone, touchActionPanDown, touchActionPanLeft, touchActionPanRight, touchActionPanUp, touchActionPanX, touchActionPanY, touchActionPinchZoom, transform, transformBox, transformBoxBorderBox, transformBoxContentBox, transformBoxFillBox, transformBoxStrokeBox, transformBoxViewBox, transformNone, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, transition, transitionBehavior, transitionDelay, transitionDuration, transitionProperty, transitionPropertyNone, transitionTimingFunction, translate, translateNone, unicodeBidi, unicodeBidiBidiOverride, unicodeBidiEmbed, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiNormal, unicodeBidiPlaintext, userSelect, userSelectAll, userSelectAuto, userSelectContain, userSelectNone, userSelectText, verticalAlign, verticalAlignBaseline, verticalAlignBottom, verticalAlignMiddle, verticalAlignPx, verticalAlignRem, verticalAlignSub, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTextTop, verticalAlignTop, viewTimeline, viewTimelineAxis, viewTimelineInset, viewTimelineName, viewTimelineNameNone, viewTransitionName, viewTransitionNameNone, visibility, visibilityCollapse, visibilityHidden, visibilityVisible, whiteSpace, whiteSpaceBalance, whiteSpaceBreakSpaces, whiteSpaceCollapse, whiteSpaceCollapseBreakSpaces, whiteSpaceCollapseCollapse, whiteSpaceCollapseDiscard, whiteSpaceCollapsePreserve, whiteSpaceCollapsePreserveBreaks, whiteSpaceCollapsePreserveSpaces, whiteSpaceDiscard, whiteSpaceNormal, whiteSpaceNowrap, whiteSpacePre, whiteSpacePreLine, whiteSpacePreWrap, whiteSpacePreserve, whiteSpacePreserveBreaks, whiteSpacePreserveSpaces, whiteSpacePretty, whiteSpaceStable, whiteSpaceWrap, whiteSpace_collapse, widows, width, widthAuto, widthFitContent, widthMaxContent, widthMinContent, widthPx, widthRem, willChange, willChangeAuto, wordBreak, wordBreakBreakAll, wordBreakBreakWord, wordBreakKeepAll, wordBreakNormal, wordSpacing, wordSpacingNormal, wordSpacingPx, wordSpacingRem, wordWrap, wordWrapBreakWord, wordWrapNormal, writingMode, writingModeHorizontalTb, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalLr, writingModeVerticalRl, zIndex, zIndexAuto, zoom, zoomNormal, zoomReset)
+module Html.Style exposing (accentColor, accentColorAuto, alignContent, alignContentBaseline, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentNormal, alignContentSpaceAround, alignContentSpaceBetween, alignContentSpaceEvenly, alignContentStart, alignContentStretch, alignItems, alignItemsBaseline, alignItemsCenter, alignItemsEnd, alignItemsFlexEnd, alignItemsFlexStart, alignItemsNormal, alignItemsSelfEnd, alignItemsSelfStart, alignItemsStart, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfBaseline, alignSelfCenter, alignSelfEnd, alignSelfFlexEnd, alignSelfFlexStart, alignSelfNormal, alignSelfSelfEnd, alignSelfSelfStart, alignSelfStart, alignSelfStretch, alignTracks, all, allInherit, allInitial, allRevert, allRevertLayer, allUnset, animation, animationComposition, animationDelay, animationDirection, animationDuration, animationFillMode, animationIterationCount, animationName, animationPlayState, animationRange, animationRangeEnd, animationRangeStart, animationTimeline, animationTimingFunction, appearance, appearanceAuto, appearanceButton, appearanceCheckbox, appearanceListbox, appearanceMenulist, appearanceMenulistButton, appearanceMeter, appearanceNone, appearanceProgressBar, appearancePushButton, appearanceRadio, appearanceSearchfield, appearanceSliderHorizontal, appearanceSquareButton, appearanceTextarea, appearanceTextfield, aspectRatio, aspectRatioAuto, azimuth, azimuthBehind, azimuthCenter, azimuthCenterLeft, azimuthCenterRight, azimuthFarLeft, azimuthFarRight, azimuthLeft, azimuthLeftSide, azimuthLeftwards, azimuthRight, azimuthRightSide, azimuthRightwards, backdropFilter, backdropFilterNone, backfaceVisibility, backfaceVisibilityHidden, backfaceVisibilityVisible, background, backgroundAttachment, backgroundBlendMode, backgroundClip, backgroundColor, backgroundImage, backgroundOrigin, backgroundPosition, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize, blockSize, blockSizeAuto, blockSizeFitContent, blockSizeMaxContent, blockSizeMinContent, blockSizePx, blockSizeRem, border, borderBlock, borderBlockColor, borderBlockDashed, borderBlockDotted, borderBlockDouble, borderBlockEnd, borderBlockEndColor, borderBlockEndDashed, borderBlockEndDotted, borderBlockEndDouble, borderBlockEndGroove, borderBlockEndHidden, borderBlockEndInset, borderBlockEndMedium, borderBlockEndNone, borderBlockEndOutset, borderBlockEndPx, borderBlockEndRem, borderBlockEndRidge, borderBlockEndSolid, borderBlockEndStyle, borderBlockEndStyleDashed, borderBlockEndStyleDotted, borderBlockEndStyleDouble, borderBlockEndStyleGroove, borderBlockEndStyleHidden, borderBlockEndStyleInset, borderBlockEndStyleNone, borderBlockEndStyleOutset, borderBlockEndStyleRidge, borderBlockEndStyleSolid, borderBlockEndThick, borderBlockEndThin, borderBlockEndWidth, borderBlockEndWidthMedium, borderBlockEndWidthPx, borderBlockEndWidthRem, borderBlockEndWidthThick, borderBlockEndWidthThin, borderBlockGroove, borderBlockHidden, borderBlockInset, borderBlockMedium, borderBlockNone, borderBlockOutset, borderBlockPx, borderBlockRem, borderBlockRidge, borderBlockSolid, borderBlockStart, borderBlockStartColor, borderBlockStartDashed, borderBlockStartDotted, borderBlockStartDouble, borderBlockStartGroove, borderBlockStartHidden, borderBlockStartInset, borderBlockStartMedium, borderBlockStartNone, borderBlockStartOutset, borderBlockStartPx, borderBlockStartRem, borderBlockStartRidge, borderBlockStartSolid, borderBlockStartStyle, borderBlockStartStyleDashed, borderBlockStartStyleDotted, borderBlockStartStyleDouble, borderBlockStartStyleGroove, borderBlockStartStyleHidden, borderBlockStartStyleInset, borderBlockStartStyleNone, borderBlockStartStyleOutset, borderBlockStartStyleRidge, borderBlockStartStyleSolid, borderBlockStartThick, borderBlockStartThin, borderBlockStartWidth, borderBlockStartWidthMedium, borderBlockStartWidthPx, borderBlockStartWidthRem, borderBlockStartWidthThick, borderBlockStartWidthThin, borderBlockStyle, borderBlockStyleDashed, borderBlockStyleDotted, borderBlockStyleDouble, borderBlockStyleGroove, borderBlockStyleHidden, borderBlockStyleInset, borderBlockStyleNone, borderBlockStyleOutset, borderBlockStyleRidge, borderBlockStyleSolid, borderBlockThick, borderBlockThin, borderBlockWidth, borderBlockWidthMedium, borderBlockWidthPx, borderBlockWidthRem, borderBlockWidthThick, borderBlockWidthThin, borderBottom, borderBottomColor, borderBottomDashed, borderBottomDotted, borderBottomDouble, borderBottomGroove, borderBottomHidden, borderBottomInset, borderBottomLeftRadius, borderBottomLeftRadiusPx, borderBottomLeftRadiusRem, borderBottomMedium, borderBottomNone, borderBottomOutset, borderBottomPx, borderBottomRem, borderBottomRidge, borderBottomRightRadius, borderBottomRightRadiusPx, borderBottomRightRadiusRem, borderBottomSolid, borderBottomStyle, borderBottomStyleDashed, borderBottomStyleDotted, borderBottomStyleDouble, borderBottomStyleGroove, borderBottomStyleHidden, borderBottomStyleInset, borderBottomStyleNone, borderBottomStyleOutset, borderBottomStyleRidge, borderBottomStyleSolid, borderBottomThick, borderBottomThin, borderBottomWidth, borderBottomWidthMedium, borderBottomWidthPx, borderBottomWidthRem, borderBottomWidthThick, borderBottomWidthThin, borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderColor, borderDashed, borderDotted, borderDouble, borderEndEndRadius, borderEndEndRadiusPx, borderEndEndRadiusRem, borderEndStartRadius, borderEndStartRadiusPx, borderEndStartRadiusRem, borderGroove, borderHidden, borderImage, borderImageOutset, borderImageOutsetPx, borderImageOutsetRem, borderImageRepeat, borderImageRepeatRepeat, borderImageRepeatRound, borderImageRepeatSpace, borderImageRepeatStretch, borderImageSlice, borderImageSource, borderImageSourceNone, borderImageWidth, borderImageWidthAuto, borderImageWidthPx, borderImageWidthRem, borderInline, borderInlineColor, borderInlineDashed, borderInlineDotted, borderInlineDouble, borderInlineEnd, borderInlineEndColor, borderInlineEndDashed, borderInlineEndDotted, borderInlineEndDouble, borderInlineEndGroove, borderInlineEndHidden, borderInlineEndInset, borderInlineEndMedium, borderInlineEndNone, borderInlineEndOutset, borderInlineEndPx, borderInlineEndRem, borderInlineEndRidge, borderInlineEndSolid, borderInlineEndStyle, borderInlineEndStyleDashed, borderInlineEndStyleDotted, borderInlineEndStyleDouble, borderInlineEndStyleGroove, borderInlineEndStyleHidden, borderInlineEndStyleInset, borderInlineEndStyleNone, borderInlineEndStyleOutset, borderInlineEndStyleRidge, borderInlineEndStyleSolid, borderInlineEndThick, borderInlineEndThin, borderInlineEndWidth, borderInlineEndWidthMedium, borderInlineEndWidthPx, borderInlineEndWidthRem, borderInlineEndWidthThick, borderInlineEndWidthThin, borderInlineGroove, borderInlineHidden, borderInlineInset, borderInlineMedium, borderInlineNone, borderInlineOutset, borderInlinePx, borderInlineRem, borderInlineRidge, borderInlineSolid, borderInlineStart, borderInlineStartColor, borderInlineStartDashed, borderInlineStartDotted, borderInlineStartDouble, borderInlineStartGroove, borderInlineStartHidden, borderInlineStartInset, borderInlineStartMedium, borderInlineStartNone, borderInlineStartOutset, borderInlineStartPx, borderInlineStartRem, borderInlineStartRidge, borderInlineStartSolid, borderInlineStartStyle, borderInlineStartStyleDashed, borderInlineStartStyleDotted, borderInlineStartStyleDouble, borderInlineStartStyleGroove, borderInlineStartStyleHidden, borderInlineStartStyleInset, borderInlineStartStyleNone, borderInlineStartStyleOutset, borderInlineStartStyleRidge, borderInlineStartStyleSolid, borderInlineStartThick, borderInlineStartThin, borderInlineStartWidth, borderInlineStartWidthMedium, borderInlineStartWidthPx, borderInlineStartWidthRem, borderInlineStartWidthThick, borderInlineStartWidthThin, borderInlineStyle, borderInlineStyleDashed, borderInlineStyleDotted, borderInlineStyleDouble, borderInlineStyleGroove, borderInlineStyleHidden, borderInlineStyleInset, borderInlineStyleNone, borderInlineStyleOutset, borderInlineStyleRidge, borderInlineStyleSolid, borderInlineThick, borderInlineThin, borderInlineWidth, borderInlineWidthMedium, borderInlineWidthPx, borderInlineWidthRem, borderInlineWidthThick, borderInlineWidthThin, borderInset, borderLeft, borderLeftColor, borderLeftDashed, borderLeftDotted, borderLeftDouble, borderLeftGroove, borderLeftHidden, borderLeftInset, borderLeftMedium, borderLeftNone, borderLeftOutset, borderLeftPx, borderLeftRem, borderLeftRidge, borderLeftSolid, borderLeftStyle, borderLeftStyleDashed, borderLeftStyleDotted, borderLeftStyleDouble, borderLeftStyleGroove, borderLeftStyleHidden, borderLeftStyleInset, borderLeftStyleNone, borderLeftStyleOutset, borderLeftStyleRidge, borderLeftStyleSolid, borderLeftThick, borderLeftThin, borderLeftWidth, borderLeftWidthMedium, borderLeftWidthPx, borderLeftWidthRem, borderLeftWidthThick, borderLeftWidthThin, borderMedium, borderNone, borderOutset, borderPx, borderRadius, borderRem, borderRidge, borderRight, borderRightColor, borderRightDashed, borderRightDotted, borderRightDouble, borderRightGroove, borderRightHidden, borderRightInset, borderRightMedium, borderRightNone, borderRightOutset, borderRightPx, borderRightRem, borderRightRidge, borderRightSolid, borderRightStyle, borderRightStyleDashed, borderRightStyleDotted, borderRightStyleDouble, borderRightStyleGroove, borderRightStyleHidden, borderRightStyleInset, borderRightStyleNone, borderRightStyleOutset, borderRightStyleRidge, borderRightStyleSolid, borderRightThick, borderRightThin, borderRightWidth, borderRightWidthMedium, borderRightWidthPx, borderRightWidthRem, borderRightWidthThick, borderRightWidthThin, borderSolid, borderSpacing, borderSpacingPx, borderSpacingRem, borderStartEndRadius, borderStartEndRadiusPx, borderStartEndRadiusRem, borderStartStartRadius, borderStartStartRadiusPx, borderStartStartRadiusRem, borderStyle, borderStyleDashed, borderStyleDotted, borderStyleDouble, borderStyleGroove, borderStyleHidden, borderStyleInset, borderStyleNone, borderStyleOutset, borderStyleRidge, borderStyleSolid, borderThick, borderThin, borderTop, borderTopColor, borderTopDashed, borderTopDotted, borderTopDouble, borderTopGroove, borderTopHidden, borderTopInset, borderTopLeftRadius, borderTopLeftRadiusPx, borderTopLeftRadiusRem, borderTopMedium, borderTopNone, borderTopOutset, borderTopPx, borderTopRem, borderTopRidge, borderTopRightRadius, borderTopRightRadiusPx, borderTopRightRadiusRem, borderTopSolid, borderTopStyle, borderTopStyleDashed, borderTopStyleDotted, borderTopStyleDouble, borderTopStyleGroove, borderTopStyleHidden, borderTopStyleInset, borderTopStyleNone, borderTopStyleOutset, borderTopStyleRidge, borderTopStyleSolid, borderTopThick, borderTopThin, borderTopWidth, borderTopWidthMedium, borderTopWidthPx, borderTopWidthRem, borderTopWidthThick, borderTopWidthThin, borderWidth, borderWidthMedium, borderWidthPx, borderWidthRem, borderWidthThick, borderWidthThin, bottom, bottomAuto, bottomPx, bottomRem, boxAlign, boxAlignBaseline, boxAlignCenter, boxAlignEnd, boxAlignStart, boxAlignStretch, boxDecorationBreak, boxDecorationBreakClone, boxDecorationBreakSlice, boxDirection, boxDirectionInherit, boxDirectionNormal, boxDirectionReverse, boxFlex, boxFlexGroup, boxLines, boxLinesMultiple, boxLinesSingle, boxOrdinalGroup, boxOrient, boxOrientBlockAxis, boxOrientHorizontal, boxOrientInherit, boxOrientInlineAxis, boxOrientVertical, boxPack, boxPackCenter, boxPackEnd, boxPackJustify, boxPackStart, boxShadow, boxShadowNone, boxSizing, boxSizingBorderBox, boxSizingContentBox, breakAfter, breakAfterAll, breakAfterAlways, breakAfterAuto, breakAfterAvoid, breakAfterAvoidColumn, breakAfterAvoidPage, breakAfterAvoidRegion, breakAfterColumn, breakAfterLeft, breakAfterPage, breakAfterRecto, breakAfterRegion, breakAfterRight, breakAfterVerso, breakBefore, breakBeforeAll, breakBeforeAlways, breakBeforeAuto, breakBeforeAvoid, breakBeforeAvoidColumn, breakBeforeAvoidPage, breakBeforeAvoidRegion, breakBeforeColumn, breakBeforeLeft, breakBeforePage, breakBeforeRecto, breakBeforeRegion, breakBeforeRight, breakBeforeVerso, breakInside, breakInsideAuto, breakInsideAvoid, breakInsideAvoidColumn, breakInsideAvoidPage, breakInsideAvoidRegion, captionSide, captionSideBlockEnd, captionSideBlockStart, captionSideBottom, captionSideInlineEnd, captionSideInlineStart, captionSideTop, caret, caretAuto, caretBar, caretBlock, caretColor, caretColorAuto, caretShape, caretShapeAuto, caretShapeBar, caretShapeBlock, caretShapeUnderscore, caretUnderscore, clear, clearBoth, clearInlineEnd, clearInlineStart, clearLeft, clearNone, clearRight, clip, clipAuto, clipPath, clipPathFillBox, clipPathNone, clipPathStrokeBox, clipPathViewBox, color, colorScheme, columnCount, columnCountAuto, columnFill, columnFillAuto, columnFillBalance, columnFillBalanceAll, columnGap, columnGapNormal, columnGapPx, columnGapRem, columnRule, columnRuleColor, columnRuleDashed, columnRuleDotted, columnRuleDouble, columnRuleGroove, columnRuleHidden, columnRuleInset, columnRuleMedium, columnRuleNone, columnRuleOutset, columnRulePx, columnRuleRem, columnRuleRidge, columnRuleSolid, columnRuleStyle, columnRuleStyleDashed, columnRuleStyleDotted, columnRuleStyleDouble, columnRuleStyleGroove, columnRuleStyleHidden, columnRuleStyleInset, columnRuleStyleNone, columnRuleStyleOutset, columnRuleStyleRidge, columnRuleStyleSolid, columnRuleThick, columnRuleThin, columnRuleWidth, columnRuleWidthMedium, columnRuleWidthPx, columnRuleWidthRem, columnRuleWidthThick, columnRuleWidthThin, columnSpan, columnSpanAll, columnSpanNone, columnWidth, columnWidthAuto, columnWidthPx, columnWidthRem, columns, columnsAuto, columnsPx, columnsRem, contain, containContent, containInlineSize, containIntrinsicBlockSize, containIntrinsicBlockSizeNone, containIntrinsicBlockSizePx, containIntrinsicBlockSizeRem, containIntrinsicHeight, containIntrinsicHeightNone, containIntrinsicHeightPx, containIntrinsicHeightRem, containIntrinsicInlineSize, containIntrinsicInlineSizeNone, containIntrinsicInlineSizePx, containIntrinsicInlineSizeRem, containIntrinsicSize, containIntrinsicSizeNone, containIntrinsicSizePx, containIntrinsicSizeRem, containIntrinsicWidth, containIntrinsicWidthNone, containIntrinsicWidthPx, containIntrinsicWidthRem, containLayout, containNone, containPaint, containSize, containStrict, containStyle, container, containerName, containerNameNone, containerType, containerTypeInlineSize, containerTypeNormal, containerTypeSize, content, contentVisibility, contentVisibilityAuto, contentVisibilityHidden, contentVisibilityVisible, counterIncrement, counterIncrementNone, counterReset, counterResetNone, counterSet, counterSetNone, cursor, direction, directionLtr, directionRtl, display, displayBlock, displayContents, displayFlex, displayFlow, displayFlowRoot, displayGrid, displayInline, displayInlineBlock, displayInlineFlex, displayInlineGrid, displayInlineListItem, displayInlineTable, displayNone, displayRuby, displayRubyBase, displayRubyBaseContainer, displayRubyText, displayRubyTextContainer, displayRunIn, displayTable, displayTableCaption, displayTableCell, displayTableColumn, displayTableColumnGroup, displayTableFooterGroup, displayTableHeaderGroup, displayTableRow, displayTableRowGroup, emptyCells, emptyCellsHide, emptyCellsShow, filter, filterNone, flex, flexBasis, flexBasisAuto, flexBasisContent, flexBasisFitContent, flexBasisMaxContent, flexBasisMinContent, flexBasisPx, flexBasisRem, flexDirection, flexDirectionColumn, flexDirectionColumnReverse, flexDirectionRow, flexDirectionRowReverse, flexFlow, flexFlowColumn, flexFlowColumnReverse, flexFlowNowrap, flexFlowRow, flexFlowRowReverse, flexFlowWrap, flexFlowWrapReverse, flexGrow, flexShrink, flexWrap, flexWrapNowrap, flexWrapWrap, flexWrapWrapReverse, float, floatInlineEnd, floatInlineStart, floatLeft, floatNone, floatRight, font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteDark, fontPaletteLight, fontPaletteNormal, fontSize, fontSizeAdjust, fontSizeAdjustFromFont, fontSizeAdjustNone, fontSizeLarge, fontSizeLarger, fontSizeMedium, fontSizePx, fontSizeRem, fontSizeSmall, fontSizeSmaller, fontSizeXLarge, fontSizeXSmall, fontSizeXxLarge, fontSizeXxSmall, fontSizeXxxLarge, fontSmooth, fontSmoothAlways, fontSmoothAuto, fontSmoothLarge, fontSmoothMedium, fontSmoothNever, fontSmoothPx, fontSmoothRem, fontSmoothSmall, fontSmoothXLarge, fontSmoothXSmall, fontSmoothXxLarge, fontSmoothXxSmall, fontSmoothXxxLarge, fontStretch, fontStretchCondensed, fontStretchExpanded, fontStretchExtraCondensed, fontStretchExtraExpanded, fontStretchNormal, fontStretchSemiCondensed, fontStretchSemiExpanded, fontStretchUltraCondensed, fontStretchUltraExpanded, fontStyle, fontStyleItalic, fontStyleNormal, fontStyleOblique, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsAllSmallCaps, fontVariantCapsNormal, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantEastAsian, fontVariantEastAsianFullWidth, fontVariantEastAsianJis04, fontVariantEastAsianJis78, fontVariantEastAsianJis83, fontVariantEastAsianJis90, fontVariantEastAsianNormal, fontVariantEastAsianProportionalWidth, fontVariantEastAsianRuby, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEmoji, fontVariantEmojiEmoji, fontVariantEmojiNormal, fontVariantEmojiText, fontVariantEmojiUnicode, fontVariantLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesContextual, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesNone, fontVariantLigaturesNormal, fontVariantNumeric, fontVariantNumericDiagonalFractions, fontVariantNumericLiningNums, fontVariantNumericNormal, fontVariantNumericOldstyleNums, fontVariantNumericOrdinal, fontVariantNumericProportionalNums, fontVariantNumericSlashedZero, fontVariantNumericStackedFractions, fontVariantNumericTabularNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSub, fontVariantPositionSuper, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightBolder, fontWeightLighter, forcedColorAdjust, forcedColorAdjustAuto, forcedColorAdjustNone, gap, gapNormal, gapPx, gapRem, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowColumn, gridAutoFlowDense, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridGapPx, gridGapRem, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateColumnsSubgrid, gridTemplateRows, gridTemplateRowsNone, gridTemplateRowsSubgrid, hangingPunctuation, hangingPunctuationAllowEnd, hangingPunctuationFirst, hangingPunctuationForceEnd, hangingPunctuationLast, hangingPunctuationNone, height, heightAuto, heightFitContent, heightMaxContent, heightMinContent, heightPx, heightRem, hyphenateCharacter, hyphenateCharacterAuto, hyphenateLimitChars, hyphenateLimitCharsAuto, hyphens, hyphensAuto, hyphensManual, hyphensNone, imageOrientation, imageOrientationFlip, imageOrientationFromImage, imageRendering, imageRenderingAuto, imageRenderingCrispEdges, imageRenderingPixelated, imageResolution, imeMode, imeModeActive, imeModeAuto, imeModeDisabled, imeModeInactive, imeModeNormal, initialLetter, initialLetterAlign, initialLetterAlignAlphabetic, initialLetterAlignAuto, initialLetterAlignHanging, initialLetterAlignIdeographic, initialLetterNormal, inlineSize, inlineSizeAuto, inlineSizeFitContent, inlineSizeMaxContent, inlineSizeMinContent, inlineSizePx, inlineSizeRem, inputSecurity, inputSecurityAuto, inputSecurityNone, inset, insetAuto, insetBlock, insetBlockAuto, insetBlockEnd, insetBlockEndAuto, insetBlockEndPx, insetBlockEndRem, insetBlockPx, insetBlockRem, insetBlockStart, insetBlockStartAuto, insetBlockStartPx, insetBlockStartRem, insetInline, insetInlineAuto, insetInlineEnd, insetInlineEndAuto, insetInlineEndPx, insetInlineEndRem, insetInlinePx, insetInlineRem, insetInlineStart, insetInlineStartAuto, insetInlineStartPx, insetInlineStartRem, insetPx, insetRem, isolation, isolationAuto, isolationIsolate, justifyContent, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentLeft, justifyContentNormal, justifyContentRight, justifyContentSpaceAround, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStart, justifyContentStretch, justifyItems, justifySelf, justifySelfAuto, justifySelfBaseline, justifySelfCenter, justifySelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfLeft, justifySelfNormal, justifySelfRight, justifySelfSelfEnd, justifySelfSelfStart, justifySelfStart, justifySelfStretch, justifyTracks, left, leftAuto, leftPx, leftRem, letterSpacing, letterSpacingNormal, letterSpacingPx, letterSpacingRem, lineBreak, lineBreakAnywhere, lineBreakAuto, lineBreakLoose, lineBreakNormal, lineBreakStrict, lineClamp, lineClampNone, lineHeight, lineHeightNormal, lineHeightPx, lineHeightRem, lineHeightStep, lineHeightStepPx, lineHeightStepRem, listStyle, listStyleImage, listStyleImageNone, listStyleInside, listStyleNone, listStyleOutside, listStylePosition, listStylePositionInside, listStylePositionOutside, listStyleType, listStyleTypeNone, margin, marginAuto, marginBlock, marginBlockAuto, marginBlockEnd, marginBlockEndAuto, marginBlockEndPx, marginBlockEndRem, marginBlockPx, marginBlockRem, marginBlockStart, marginBlockStartAuto, marginBlockStartPx, marginBlockStartRem, marginBottom, marginBottomAuto, marginBottomPx, marginBottomRem, marginInline, marginInlineAuto, marginInlineEnd, marginInlineEndAuto, marginInlineEndPx, marginInlineEndRem, marginInlinePx, marginInlineRem, marginInlineStart, marginInlineStartAuto, marginInlineStartPx, marginInlineStartRem, marginLeft, marginLeftAuto, marginLeftPx, marginLeftRem, marginPx, marginRem, marginRight, marginRightAuto, marginRightPx, marginRightRem, marginTop, marginTopAuto, marginTopPx, marginTopRem, marginTrim, marginTrimAll, marginTrimInFlow, marginTrimNone, mask, maskBorder, maskBorderMode, maskBorderModeAlpha, maskBorderModeLuminance, maskBorderOutset, maskBorderOutsetPx, maskBorderOutsetRem, maskBorderRepeat, maskBorderRepeatRepeat, maskBorderRepeatRound, maskBorderRepeatSpace, maskBorderRepeatStretch, maskBorderSlice, maskBorderSource, maskBorderSourceNone, maskBorderWidth, maskBorderWidthAuto, maskBorderWidthPx, maskBorderWidthRem, maskClip, maskComposite, maskImage, maskMode, maskOrigin, maskPosition, maskRepeat, maskSize, maskType, maskTypeAlpha, maskTypeLuminance, masonryAutoFlow, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowOrdered, masonryAutoFlowPack, mathDepth, mathDepthAutoAdd, mathShift, mathShiftCompact, mathShiftNormal, mathStyle, mathStyleCompact, mathStyleNormal, maxBlockSize, maxBlockSizeFitContent, maxBlockSizeMaxContent, maxBlockSizeMinContent, maxBlockSizeNone, maxBlockSizePx, maxBlockSizeRem, maxHeight, maxHeightFitContent, maxHeightMaxContent, maxHeightMinContent, maxHeightNone, maxHeightPx, maxHeightRem, maxInlineSize, maxInlineSizeFitContent, maxInlineSizeMaxContent, maxInlineSizeMinContent, maxInlineSizeNone, maxInlineSizePx, maxInlineSizeRem, maxLines, maxLinesNone, maxWidth, maxWidthFitContent, maxWidthMaxContent, maxWidthMinContent, maxWidthNone, maxWidthPx, maxWidthRem, minBlockSize, minBlockSizeAuto, minBlockSizeFitContent, minBlockSizeMaxContent, minBlockSizeMinContent, minBlockSizePx, minBlockSizeRem, minHeight, minHeightAuto, minHeightFitContent, minHeightMaxContent, minHeightMinContent, minHeightPx, minHeightRem, minInlineSize, minInlineSizeAuto, minInlineSizeFitContent, minInlineSizeMaxContent, minInlineSizeMinContent, minInlineSizePx, minInlineSizeRem, minWidth, minWidthAuto, minWidthFitContent, minWidthMaxContent, minWidthMinContent, minWidthPx, minWidthRem, mixBlendMode, mixBlendModeColor, mixBlendModeColorBurn, mixBlendModeColorDodge, mixBlendModeDarken, mixBlendModeDifference, mixBlendModeExclusion, mixBlendModeHardLight, mixBlendModeHue, mixBlendModeLighten, mixBlendModeLuminosity, mixBlendModeMultiply, mixBlendModeNormal, mixBlendModeOverlay, mixBlendModePlusLighter, mixBlendModeSaturation, mixBlendModeScreen, mixBlendModeSoftLight, objectFit, objectFitContain, objectFitCover, objectFitFill, objectFitNone, objectFitScaleDown, objectPosition, offset, offsetAnchor, offsetAnchorAuto, offsetDistance, offsetDistancePx, offsetDistanceRem, offsetPath, offsetPathNone, offsetPosition, offsetPositionAuto, offsetPositionNormal, offsetRotate, offsetRotateAuto, offsetRotateReverse, opacity, order, orphans, outline, outlineAuto, outlineColor, outlineColorAuto, outlineDashed, outlineDotted, outlineDouble, outlineGroove, outlineHidden, outlineInset, outlineMedium, outlineNone, outlineOffset, outlineOffsetPx, outlineOffsetRem, outlineOutset, outlinePx, outlineRem, outlineRidge, outlineSolid, outlineStyle, outlineStyleAuto, outlineStyleDashed, outlineStyleDotted, outlineStyleDouble, outlineStyleGroove, outlineStyleHidden, outlineStyleInset, outlineStyleNone, outlineStyleOutset, outlineStyleRidge, outlineStyleSolid, outlineThick, outlineThin, outlineWidth, outlineWidthMedium, outlineWidthPx, outlineWidthRem, outlineWidthThick, outlineWidthThin, overflow, overflowAnchor, overflowAnchorAuto, overflowAnchorNone, overflowAuto, overflowBlock, overflowBlockAuto, overflowBlockClip, overflowBlockHidden, overflowBlockScroll, overflowBlockVisible, overflowClip, overflowClipBox, overflowClipBoxContentBox, overflowClipBoxPaddingBox, overflowClipMargin, overflowHidden, overflowInline, overflowInlineAuto, overflowInlineClip, overflowInlineHidden, overflowInlineScroll, overflowInlineVisible, overflowScroll, overflowVisible, overflowWrap, overflowWrapAnywhere, overflowWrapBreakWord, overflowWrapNormal, overflowX, overflowXAuto, overflowXClip, overflowXHidden, overflowXScroll, overflowXVisible, overflowY, overflowYAuto, overflowYClip, overflowYHidden, overflowYScroll, overflowYVisible, overlay, overlayAuto, overlayNone, overscrollBehavior, overscrollBehaviorAuto, overscrollBehaviorBlock, overscrollBehaviorBlockAuto, overscrollBehaviorBlockContain, overscrollBehaviorBlockNone, overscrollBehaviorContain, overscrollBehaviorInline, overscrollBehaviorInlineAuto, overscrollBehaviorInlineContain, overscrollBehaviorInlineNone, overscrollBehaviorNone, overscrollBehaviorX, overscrollBehaviorXAuto, overscrollBehaviorXContain, overscrollBehaviorXNone, overscrollBehaviorY, overscrollBehaviorYAuto, overscrollBehaviorYContain, overscrollBehaviorYNone, padding, paddingBlock, paddingBlockEnd, paddingBlockEndPx, paddingBlockEndRem, paddingBlockPx, paddingBlockRem, paddingBlockStart, paddingBlockStartPx, paddingBlockStartRem, paddingBottom, paddingBottomPx, paddingBottomRem, paddingInline, paddingInlineEnd, paddingInlineEndPx, paddingInlineEndRem, paddingInlinePx, paddingInlineRem, paddingInlineStart, paddingInlineStartPx, paddingInlineStartRem, paddingLeft, paddingLeftPx, paddingLeftRem, paddingPx, paddingRem, paddingRight, paddingRightPx, paddingRightRem, paddingTop, paddingTopPx, paddingTopRem, page, pageAuto, pageBreakAfter, pageBreakAfterAlways, pageBreakAfterAuto, pageBreakAfterAvoid, pageBreakAfterLeft, pageBreakAfterRecto, pageBreakAfterRight, pageBreakAfterVerso, pageBreakBefore, pageBreakBeforeAlways, pageBreakBeforeAuto, pageBreakBeforeAvoid, pageBreakBeforeLeft, pageBreakBeforeRecto, pageBreakBeforeRight, pageBreakBeforeVerso, pageBreakInside, pageBreakInsideAuto, pageBreakInsideAvoid, paintOrder, paintOrderFill, paintOrderMarkers, paintOrderNormal, paintOrderStroke, perspective, perspectiveNone, perspectiveOrigin, perspectivePx, perspectiveRem, placeContent, placeContentBaseline, placeContentCenter, placeContentEnd, placeContentFlexEnd, placeContentFlexStart, placeContentNormal, placeContentSpaceAround, placeContentSpaceBetween, placeContentSpaceEvenly, placeContentStart, placeContentStretch, placeItems, placeItemsBaseline, placeItemsCenter, placeItemsEnd, placeItemsFlexEnd, placeItemsFlexStart, placeItemsNormal, placeItemsSelfEnd, placeItemsSelfStart, placeItemsStart, placeItemsStretch, placeSelf, placeSelfAuto, placeSelfBaseline, placeSelfCenter, placeSelfEnd, placeSelfFlexEnd, placeSelfFlexStart, placeSelfNormal, placeSelfSelfEnd, placeSelfSelfStart, placeSelfStart, placeSelfStretch, pointerEvents, pointerEventsAll, pointerEventsAuto, pointerEventsFill, pointerEventsInherit, pointerEventsNone, pointerEventsPainted, pointerEventsStroke, pointerEventsVisible, pointerEventsVisibleFill, pointerEventsVisiblePainted, pointerEventsVisibleStroke, position, positionAbsolute, positionFixed, positionRelative, positionStatic, positionSticky, printColorAdjust, printColorAdjustEconomy, printColorAdjustExact, quotes, quotesAuto, quotesNone, resize, resizeBlock, resizeBoth, resizeHorizontal, resizeInline, resizeNone, resizeVertical, right, rightAuto, rightPx, rightRem, rotate, rowGap, rowGapNormal, rowGapPx, rowGapRem, rubyAlign, rubyAlignCenter, rubyAlignSpaceAround, rubyAlignSpaceBetween, rubyAlignStart, rubyMerge, rubyMergeAuto, rubyMergeCollapse, rubyMergeSeparate, rubyPosition, rubyPositionAlternate, rubyPositionInterCharacter, rubyPositionOver, rubyPositionUnder, scale, scaleNone, scrollBehavior, scrollBehaviorAuto, scrollBehaviorSmooth, scrollMargin, scrollMarginBlock, scrollMarginBlockEnd, scrollMarginBlockEndPx, scrollMarginBlockEndRem, scrollMarginBlockPx, scrollMarginBlockRem, scrollMarginBlockStart, scrollMarginBlockStartPx, scrollMarginBlockStartRem, scrollMarginBottom, scrollMarginBottomPx, scrollMarginBottomRem, scrollMarginInline, scrollMarginInlineEnd, scrollMarginInlineEndPx, scrollMarginInlineEndRem, scrollMarginInlinePx, scrollMarginInlineRem, scrollMarginInlineStart, scrollMarginInlineStartPx, scrollMarginInlineStartRem, scrollMarginLeft, scrollMarginLeftPx, scrollMarginLeftRem, scrollMarginPx, scrollMarginRem, scrollMarginRight, scrollMarginRightPx, scrollMarginRightRem, scrollMarginTop, scrollMarginTopPx, scrollMarginTopRem, scrollPadding, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndPx, scrollPaddingBlockEndRem, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartPx, scrollPaddingBlockStartRem, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomPx, scrollPaddingBottomRem, scrollPaddingInline, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndPx, scrollPaddingInlineEndRem, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartPx, scrollPaddingInlineStartRem, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftPx, scrollPaddingLeftRem, scrollPaddingPx, scrollPaddingRem, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightPx, scrollPaddingRightRem, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopPx, scrollPaddingTopRem, scrollSnapAlign, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapAlignStart, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopAlways, scrollSnapStopNormal, scrollSnapType, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapTypeNone, scrollSnapTypeX, scrollSnapTypeXMandatory, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeY, scrollSnapTypeYMandatory, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapType_x, scrollTimeline, scrollTimelineAxis, scrollTimelineName, scrollTimelineNameNone, scrollbarColor, scrollbarGutter, scrollbarWidth, scrollbarWidthAuto, scrollbarWidthNone, scrollbarWidthThin, shapeImageThreshold, shapeMargin, shapeMarginPx, shapeMarginRem, shapeOutside, shapeOutsideMarginBox, shapeOutsideNone, tabSize, tabSizePx, tabSizeRem, tableLayout, tableLayoutAuto, tableLayoutFixed, textAlign, textAlignCenter, textAlignEnd, textAlignJustify, textAlignLast, textAlignLastAuto, textAlignLastCenter, textAlignLastEnd, textAlignLastJustify, textAlignLastLeft, textAlignLastRight, textAlignLastStart, textAlignLeft, textAlignMatchParent, textAlignRight, textAlignStart, textCombineUpright, textCombineUprightAll, textCombineUprightDigits, textCombineUprightNone, textDecoration, textDecorationBlink, textDecorationColor, textDecorationDashed, textDecorationDotted, textDecorationDouble, textDecorationGrammarError, textDecorationLine, textDecorationLineBlink, textDecorationLineGrammarError, textDecorationLineLineThrough, textDecorationLineNone, textDecorationLineOverline, textDecorationLineSpellingError, textDecorationLineThrough, textDecorationLineUnderline, textDecorationNone, textDecorationOverline, textDecorationSkip, textDecorationSkipBoxDecoration, textDecorationSkipEdges, textDecorationSkipInk, textDecorationSkipInkAll, textDecorationSkipInkAuto, textDecorationSkipInkNone, textDecorationSkipLeadingSpaces, textDecorationSkipNone, textDecorationSkipObjects, textDecorationSkipSpaces, textDecorationSkipTrailingSpaces, textDecorationSolid, textDecorationSpellingError, textDecorationStyle, textDecorationStyleDashed, textDecorationStyleDotted, textDecorationStyleDouble, textDecorationStyleSolid, textDecorationStyleWavy, textDecorationThickness, textDecorationUnderline, textDecorationWavy, textEmphasis, textEmphasisCircle, textEmphasisColor, textEmphasisDot, textEmphasisDoubleCircle, textEmphasisFilled, textEmphasisNone, textEmphasisOpen, textEmphasisPosition, textEmphasisSesame, textEmphasisStyle, textEmphasisStyleCircle, textEmphasisStyleDot, textEmphasisStyleDoubleCircle, textEmphasisStyleFilled, textEmphasisStyleNone, textEmphasisStyleOpen, textEmphasisStyleSesame, textEmphasisStyleTriangle, textEmphasisTriangle, textIndent, textJustify, textJustifyAuto, textJustifyInterCharacter, textJustifyInterWord, textJustifyNone, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, textOverflow, textOverflowClip, textOverflowEllipsis, textRendering, textRenderingAuto, textRenderingGeometricPrecision, textRenderingOptimizeLegibility, textRenderingOptimizeSpeed, textShadow, textShadowNone, textSizeAdjust, textSizeAdjustAuto, textSizeAdjustNone, textTransform, textTransformCapitalize, textTransformFullSizeKana, textTransformFullWidth, textTransformLowercase, textTransformNone, textTransformUppercase, textUnderlineOffset, textUnderlinePosition, textUnderlinePositionAuto, textUnderlinePositionFromFont, textUnderlinePositionLeft, textUnderlinePositionRight, textUnderlinePositionUnder, textWrap, textWrapBalance, textWrapNowrap, textWrapPretty, textWrapStable, textWrapWrap, timelineScope, timelineScopeNone, top, topAuto, topPx, topRem, touchAction, touchActionAuto, touchActionManipulation, touchActionNone, touchActionPanDown, touchActionPanLeft, touchActionPanRight, touchActionPanUp, touchActionPanX, touchActionPanY, touchActionPinchZoom, transform, transformBox, transformBoxBorderBox, transformBoxContentBox, transformBoxFillBox, transformBoxStrokeBox, transformBoxViewBox, transformNone, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, transition, transitionBehavior, transitionDelay, transitionDuration, transitionProperty, transitionPropertyNone, transitionTimingFunction, translate, translateNone, translatePx, translateRem, unicodeBidi, unicodeBidiBidiOverride, unicodeBidiEmbed, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiNormal, unicodeBidiPlaintext, userSelect, userSelectAll, userSelectAuto, userSelectContain, userSelectNone, userSelectText, verticalAlign, verticalAlignBaseline, verticalAlignBottom, verticalAlignMiddle, verticalAlignPx, verticalAlignRem, verticalAlignSub, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTextTop, verticalAlignTop, viewTimeline, viewTimelineAxis, viewTimelineInset, viewTimelineName, viewTimelineNameNone, viewTransitionName, viewTransitionNameNone, visibility, visibilityCollapse, visibilityHidden, visibilityVisible, whiteSpace, whiteSpaceBalance, whiteSpaceBreakSpaces, whiteSpaceCollapse, whiteSpaceCollapseBreakSpaces, whiteSpaceCollapseCollapse, whiteSpaceCollapseDiscard, whiteSpaceCollapsePreserve, whiteSpaceCollapsePreserveBreaks, whiteSpaceCollapsePreserveSpaces, whiteSpaceDiscard, whiteSpaceNormal, whiteSpaceNowrap, whiteSpacePre, whiteSpacePreLine, whiteSpacePreWrap, whiteSpacePreserve, whiteSpacePreserveBreaks, whiteSpacePreserveSpaces, whiteSpacePretty, whiteSpaceStable, whiteSpaceWrap, whiteSpace_collapse, widows, width, widthAuto, widthFitContent, widthMaxContent, widthMinContent, widthPx, widthRem, willChange, willChangeAuto, wordBreak, wordBreakBreakAll, wordBreakBreakWord, wordBreakKeepAll, wordBreakNormal, wordSpacing, wordSpacingNormal, wordSpacingPx, wordSpacingRem, wordWrap, wordWrapBreakWord, wordWrapNormal, writingMode, writingModeHorizontalTb, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalLr, writingModeVerticalRl, zIndex, zIndexAuto, zoom, zoomNormal, zoomReset)
 
 {-| 
 All functions have been generated from the [MDN data repository](https://github.com/mdn/data), ensuring that you can always use the most recent css features.
@@ -36,7 +36,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Box Alignment
 
-@docs alignContent, alignContentNormal, alignContentSpaceAround, alignContentStretch, alignContentSpaceEvenly, alignContentSpaceBetween, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentStart, alignContentBaseline, alignItems, alignItemsNormal, alignItemsBaseline, alignItemsStart, alignItemsSelfStart, alignItemsFlexStart, alignItemsFlexEnd, alignItemsSelfEnd, alignItemsEnd, alignItemsCenter, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfStretch, alignSelfStart, alignSelfSelfStart, alignSelfFlexStart, alignSelfFlexEnd, alignSelfSelfEnd, alignSelfEnd, alignSelfCenter, alignSelfBaseline, alignSelfNormal, columnGap, columnGapNormal, columnGapRem, columnGapPx, gap, justifyContent, justifyContentNormal, justifyContentLeft, justifyContentRight, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentStart, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStretch, justifyContentSpaceAround, justifyItems, justifySelf, justifySelfAuto, justifySelfStretch, justifySelfLeft, justifySelfRight, justifySelfCenter, justifySelfEnd, justifySelfSelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfSelfStart, justifySelfStart, justifySelfBaseline, justifySelfNormal, placeContent, placeItems, placeSelf, rowGap, rowGapNormal, rowGapRem, rowGapPx
+@docs alignContent, alignContentNormal, alignContentSpaceAround, alignContentStretch, alignContentSpaceEvenly, alignContentSpaceBetween, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentStart, alignContentBaseline, alignItems, alignItemsNormal, alignItemsBaseline, alignItemsStart, alignItemsSelfStart, alignItemsFlexStart, alignItemsFlexEnd, alignItemsSelfEnd, alignItemsEnd, alignItemsCenter, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfStretch, alignSelfStart, alignSelfSelfStart, alignSelfFlexStart, alignSelfFlexEnd, alignSelfSelfEnd, alignSelfEnd, alignSelfCenter, alignSelfBaseline, alignSelfNormal, columnGap, columnGapNormal, columnGapRem, columnGapPx, gap, gapPx, gapRem, gapNormal, justifyContent, justifyContentNormal, justifyContentLeft, justifyContentRight, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentStart, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStretch, justifyContentSpaceAround, justifyItems, justifySelf, justifySelfAuto, justifySelfStretch, justifySelfLeft, justifySelfRight, justifySelfCenter, justifySelfEnd, justifySelfSelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfSelfStart, justifySelfStart, justifySelfBaseline, justifySelfNormal, placeContent, placeContentBaseline, placeContentStart, placeContentFlexStart, placeContentFlexEnd, placeContentEnd, placeContentCenter, placeContentSpaceBetween, placeContentSpaceEvenly, placeContentStretch, placeContentSpaceAround, placeContentNormal, placeItems, placeItemsStretch, placeItemsCenter, placeItemsEnd, placeItemsSelfEnd, placeItemsFlexEnd, placeItemsFlexStart, placeItemsSelfStart, placeItemsStart, placeItemsBaseline, placeItemsNormal, placeSelf, placeSelfNormal, placeSelfBaseline, placeSelfCenter, placeSelfEnd, placeSelfSelfEnd, placeSelfFlexEnd, placeSelfFlexStart, placeSelfSelfStart, placeSelfStart, placeSelfStretch, placeSelfAuto, rowGap, rowGapNormal, rowGapRem, rowGapPx
 
 ## CSS Box Model
 
@@ -68,7 +68,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Fonts
 
-@docs font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteNormal, fontPaletteDark, fontPaletteLight, fontSize, fontSizeXSmall, fontSizeMedium, fontSizeXLarge, fontSizeXxxLarge, fontSizeXxLarge, fontSizeLarge, fontSizeSmall, fontSizeXxSmall, fontSizePx, fontSizeRem, fontSizeLarger, fontSizeSmaller, fontSizeAdjust, fontSizeAdjustNone, fontSizeAdjustFromFont, fontSmooth, fontSmoothAuto, fontSmoothAlways, fontSmoothRem, fontSmoothPx, fontSmoothXxSmall, fontSmoothSmall, fontSmoothLarge, fontSmoothXxLarge, fontSmoothXxxLarge, fontSmoothXLarge, fontSmoothMedium, fontSmoothXSmall, fontSmoothNever, fontStretch, fontStretchUltraCondensed, fontStretchCondensed, fontStretchSemiExpanded, fontStretchExtraExpanded, fontStretchUltraExpanded, fontStretchExpanded, fontStretchSemiCondensed, fontStretchExtraCondensed, fontStretchNormal, fontStyle, fontStyleNormal, fontStyleItalic, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsNormal, fontVariantCapsAllSmallCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantEastAsian, fontVariantEastAsianNormal, fontVariantEastAsianRuby, fontVariantEastAsianFullWidth, fontVariantEastAsianProportionalWidth, fontVariantEastAsianJis78, fontVariantEastAsianJis90, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEastAsianJis04, fontVariantEastAsianJis83, fontVariantEmoji, fontVariantEmojiNormal, fontVariantEmojiEmoji, fontVariantEmojiUnicode, fontVariantEmojiText, fontVariantLigatures, fontVariantLigaturesNormal, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesContextual, fontVariantLigaturesNone, fontVariantNumeric, fontVariantNumericNormal, fontVariantNumericSlashedZero, fontVariantNumericOrdinal, fontVariantNumericDiagonalFractions, fontVariantNumericStackedFractions, fontVariantNumericProportionalNums, fontVariantNumericTabularNums, fontVariantNumericLiningNums, fontVariantNumericOldstyleNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSuper, fontVariantPositionSub, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightLighter, fontWeightBolder, lineHeight, lineHeightNormal, lineHeightRem, lineHeightPx, lineHeightStep, lineHeightStepRem, lineHeightStepPx
+@docs font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteNormal, fontPaletteDark, fontPaletteLight, fontSize, fontSizeXSmall, fontSizeMedium, fontSizeXLarge, fontSizeXxxLarge, fontSizeXxLarge, fontSizeLarge, fontSizeSmall, fontSizeXxSmall, fontSizePx, fontSizeRem, fontSizeLarger, fontSizeSmaller, fontSizeAdjust, fontSizeAdjustNone, fontSizeAdjustFromFont, fontSmooth, fontSmoothAuto, fontSmoothAlways, fontSmoothRem, fontSmoothPx, fontSmoothXxSmall, fontSmoothSmall, fontSmoothLarge, fontSmoothXxLarge, fontSmoothXxxLarge, fontSmoothXLarge, fontSmoothMedium, fontSmoothXSmall, fontSmoothNever, fontStretch, fontStretchUltraCondensed, fontStretchCondensed, fontStretchSemiExpanded, fontStretchExtraExpanded, fontStretchUltraExpanded, fontStretchExpanded, fontStretchSemiCondensed, fontStretchExtraCondensed, fontStretchNormal, fontStyle, fontStyleNormal, fontStyleOblique, fontStyleItalic, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsNormal, fontVariantCapsAllSmallCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantEastAsian, fontVariantEastAsianNormal, fontVariantEastAsianRuby, fontVariantEastAsianFullWidth, fontVariantEastAsianProportionalWidth, fontVariantEastAsianJis78, fontVariantEastAsianJis90, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEastAsianJis04, fontVariantEastAsianJis83, fontVariantEmoji, fontVariantEmojiNormal, fontVariantEmojiEmoji, fontVariantEmojiUnicode, fontVariantEmojiText, fontVariantLigatures, fontVariantLigaturesNormal, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesContextual, fontVariantLigaturesNone, fontVariantNumeric, fontVariantNumericNormal, fontVariantNumericSlashedZero, fontVariantNumericOrdinal, fontVariantNumericDiagonalFractions, fontVariantNumericStackedFractions, fontVariantNumericProportionalNums, fontVariantNumericTabularNums, fontVariantNumericLiningNums, fontVariantNumericOldstyleNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSuper, fontVariantPositionSub, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightLighter, fontWeightBolder, lineHeight, lineHeightNormal, lineHeightRem, lineHeightPx, lineHeightStep, lineHeightStepRem, lineHeightStepPx
 
 ## CSS Fragmentation
 
@@ -80,7 +80,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Grid Layout
 
-@docs alignTracks, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowDense, gridAutoFlowColumn, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateRows, gridTemplateRowsNone, justifyTracks, masonryAutoFlow, masonryAutoFlowOrdered, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowPack
+@docs alignTracks, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowDense, gridAutoFlowColumn, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridGapRem, gridGapPx, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateColumnsSubgrid, gridTemplateRows, gridTemplateRowsNone, gridTemplateRowsSubgrid, justifyTracks, masonryAutoFlow, masonryAutoFlowOrdered, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowPack
 
 ## CSS Images
 
@@ -132,7 +132,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Scroll Snap
 
-@docs scrollMargin, scrollMarginRem, scrollMarginPx, scrollMarginBlock, scrollMarginBlockRem, scrollMarginBlockPx, scrollMarginBlockEnd, scrollMarginBlockEndRem, scrollMarginBlockEndPx, scrollMarginBlockStart, scrollMarginBlockStartRem, scrollMarginBlockStartPx, scrollMarginBottom, scrollMarginBottomRem, scrollMarginBottomPx, scrollMarginInline, scrollMarginInlineRem, scrollMarginInlinePx, scrollMarginInlineEnd, scrollMarginInlineEndRem, scrollMarginInlineEndPx, scrollMarginInlineStart, scrollMarginInlineStartRem, scrollMarginInlineStartPx, scrollMarginLeft, scrollMarginLeftRem, scrollMarginLeftPx, scrollMarginRight, scrollMarginRightRem, scrollMarginRightPx, scrollMarginTop, scrollMarginTopRem, scrollMarginTopPx, scrollPadding, scrollPaddingPx, scrollPaddingRem, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndRem, scrollPaddingBlockEndPx, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartRem, scrollPaddingBlockStartPx, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomRem, scrollPaddingBottomPx, scrollPaddingInline, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndRem, scrollPaddingInlineEndPx, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartRem, scrollPaddingInlineStartPx, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftRem, scrollPaddingLeftPx, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightRem, scrollPaddingRightPx, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopRem, scrollPaddingTopPx, scrollSnapAlign, scrollSnapAlignStart, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopNormal, scrollSnapStopAlways, scrollSnapType, scrollSnapTypeNone, scrollSnapTypeX, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeXMandatory, scrollSnapTypeY, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapTypeYMandatory
+@docs scrollMargin, scrollMarginRem, scrollMarginPx, scrollMarginBlock, scrollMarginBlockRem, scrollMarginBlockPx, scrollMarginBlockEnd, scrollMarginBlockEndRem, scrollMarginBlockEndPx, scrollMarginBlockStart, scrollMarginBlockStartRem, scrollMarginBlockStartPx, scrollMarginBottom, scrollMarginBottomRem, scrollMarginBottomPx, scrollMarginInline, scrollMarginInlineRem, scrollMarginInlinePx, scrollMarginInlineEnd, scrollMarginInlineEndRem, scrollMarginInlineEndPx, scrollMarginInlineStart, scrollMarginInlineStartRem, scrollMarginInlineStartPx, scrollMarginLeft, scrollMarginLeftRem, scrollMarginLeftPx, scrollMarginRight, scrollMarginRightRem, scrollMarginRightPx, scrollMarginTop, scrollMarginTopRem, scrollMarginTopPx, scrollPadding, scrollPaddingPx, scrollPaddingRem, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndRem, scrollPaddingBlockEndPx, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartRem, scrollPaddingBlockStartPx, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomRem, scrollPaddingBottomPx, scrollPaddingInline, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndRem, scrollPaddingInlineEndPx, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartRem, scrollPaddingInlineStartPx, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftRem, scrollPaddingLeftPx, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightRem, scrollPaddingRightPx, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopRem, scrollPaddingTopPx, scrollSnapAlign, scrollSnapAlignStart, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopNormal, scrollSnapStopAlways, scrollSnapType, scrollSnapTypeNone, scrollSnapType_x, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapTypeY, scrollSnapTypeX, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeXMandatory, scrollSnapTypeY, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapTypeYMandatory
 
 ## CSS Scrollbars
 
@@ -148,7 +148,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Table
 
-@docs borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderSpacing, captionSide, captionSideTop, captionSideBlockStart, captionSideInlineStart, captionSideInlineEnd, captionSideBlockEnd, captionSideBottom, emptyCells, emptyCellsShow, emptyCellsHide, tableLayout, tableLayoutAuto, tableLayoutFixed, verticalAlign, verticalAlignBaseline, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTop, verticalAlignPx, verticalAlignRem, verticalAlignBottom, verticalAlignMiddle, verticalAlignTextTop, verticalAlignSub
+@docs borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderSpacing, borderSpacingRem, borderSpacingPx, captionSide, captionSideTop, captionSideBlockStart, captionSideInlineStart, captionSideInlineEnd, captionSideBlockEnd, captionSideBottom, emptyCells, emptyCellsShow, emptyCellsHide, tableLayout, tableLayoutAuto, tableLayoutFixed, verticalAlign, verticalAlignBaseline, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTop, verticalAlignPx, verticalAlignRem, verticalAlignBottom, verticalAlignMiddle, verticalAlignTextTop, verticalAlignSub
 
 ## CSS Text
 
@@ -160,7 +160,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Transforms
 
-@docs backfaceVisibility, backfaceVisibilityVisible, backfaceVisibilityHidden, perspective, perspectiveNone, perspectivePx, perspectiveRem, perspectiveOrigin, rotate, scale, scaleNone, transform, transformNone, transformBox, transformBoxContentBox, transformBoxFillBox, transformBoxViewBox, transformBoxStrokeBox, transformBoxBorderBox, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, translate, translateNone
+@docs backfaceVisibility, backfaceVisibilityVisible, backfaceVisibilityHidden, perspective, perspectiveNone, perspectivePx, perspectiveRem, perspectiveOrigin, rotate, scale, scaleNone, transform, transformNone, transformBox, transformBoxContentBox, transformBoxFillBox, transformBoxViewBox, transformBoxStrokeBox, transformBoxBorderBox, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, translate, translateNone, translateRem, translatePx
 
 ## CSS Transitions
 
@@ -176,7 +176,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Writing Modes
 
-@docs direction, directionLtr, directionRtl, textCombineUpright, textCombineUprightNone, textCombineUprightAll, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, unicodeBidi, unicodeBidiNormal, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiPlaintext, unicodeBidiBidiOverride, unicodeBidiEmbed, writingMode, writingModeHorizontalTb, writingModeVerticalLr, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalRl
+@docs direction, directionLtr, directionRtl, textCombineUpright, textCombineUprightNone, textCombineUprightDigits, textCombineUprightAll, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, unicodeBidi, unicodeBidiNormal, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiPlaintext, unicodeBidiBidiOverride, unicodeBidiEmbed, writingMode, writingModeHorizontalTb, writingModeVerticalLr, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalRl
 
 ## Compositing and Blending
 
@@ -6523,6 +6523,40 @@ borderSpacing value =
 
 
 {-| ```
+borderSpacingRem : Float -> Html.Attribute msg
+borderSpacingRem value =
+    Html.Attributes.style
+        "border-spacing"
+        (String.append (String.fromFloat value) "rem")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/border-spacing
+-}
+borderSpacingRem : Float -> Html.Attribute msg
+borderSpacingRem value =
+    Html.Attributes.style
+        "border-spacing"
+        (String.append (String.fromFloat value) "rem")
+
+
+{-| ```
+borderSpacingPx : Float -> Html.Attribute msg
+borderSpacingPx value =
+    Html.Attributes.style
+        "border-spacing"
+        (String.append (String.fromFloat value) "px")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/border-spacing
+-}
+borderSpacingPx : Float -> Html.Attribute msg
+borderSpacingPx value =
+    Html.Attributes.style
+        "border-spacing"
+        (String.append (String.fromFloat value) "px")
+
+
+{-| ```
 borderStartEndRadius : String -> Html.Attribute msg
 borderStartEndRadius value =
     Html.Attributes.style "border-start-end-radius" value
@@ -11937,6 +11971,19 @@ fontStyleNormal =
 
 
 {-| ```
+fontStyleOblique : Html.Attribute msg
+fontStyleOblique =
+    Html.Attributes.style "font-style" "oblique"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/font-style
+-}
+fontStyleOblique : Html.Attribute msg
+fontStyleOblique =
+    Html.Attributes.style "font-style" "oblique"
+
+
+{-| ```
 fontStyleItalic : Html.Attribute msg
 fontStyleItalic =
     Html.Attributes.style "font-style" "italic"
@@ -12889,6 +12936,45 @@ gap value =
 
 
 {-| ```
+gapPx : Float -> Html.Attribute msg
+gapPx value =
+    Html.Attributes.style "gap" (String.append (String.fromFloat value) "px")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/gap
+-}
+gapPx : Float -> Html.Attribute msg
+gapPx value =
+    Html.Attributes.style "gap" (String.append (String.fromFloat value) "px")
+
+
+{-| ```
+gapRem : Float -> Html.Attribute msg
+gapRem value =
+    Html.Attributes.style "gap" (String.append (String.fromFloat value) "rem")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/gap
+-}
+gapRem : Float -> Html.Attribute msg
+gapRem value =
+    Html.Attributes.style "gap" (String.append (String.fromFloat value) "rem")
+
+
+{-| ```
+gapNormal : Html.Attribute msg
+gapNormal =
+    Html.Attributes.style "gap" "normal"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/gap
+-}
+gapNormal : Html.Attribute msg
+gapNormal =
+    Html.Attributes.style "gap" "normal"
+
+
+{-| ```
 grid : String -> Html.Attribute msg
 grid value =
     Html.Attributes.style "grid" value
@@ -13092,6 +13178,40 @@ gridGap value =
 
 
 {-| ```
+gridGapRem : Float -> Html.Attribute msg
+gridGapRem value =
+    Html.Attributes.style
+        "grid-gap"
+        (String.append (String.fromFloat value) "rem")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/gap
+-}
+gridGapRem : Float -> Html.Attribute msg
+gridGapRem value =
+    Html.Attributes.style
+        "grid-gap"
+        (String.append (String.fromFloat value) "rem")
+
+
+{-| ```
+gridGapPx : Float -> Html.Attribute msg
+gridGapPx value =
+    Html.Attributes.style
+        "grid-gap"
+        (String.append (String.fromFloat value) "px")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/gap
+-}
+gridGapPx : Float -> Html.Attribute msg
+gridGapPx value =
+    Html.Attributes.style
+        "grid-gap"
+        (String.append (String.fromFloat value) "px")
+
+
+{-| ```
 gridRow : String -> Html.Attribute msg
 gridRow value =
     Html.Attributes.style "grid-row" value
@@ -13243,6 +13363,19 @@ gridTemplateColumnsNone =
 
 
 {-| ```
+gridTemplateColumnsSubgrid : Html.Attribute msg
+gridTemplateColumnsSubgrid =
+    Html.Attributes.style "grid-template-columns" "subgrid"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/grid-template-columns
+-}
+gridTemplateColumnsSubgrid : Html.Attribute msg
+gridTemplateColumnsSubgrid =
+    Html.Attributes.style "grid-template-columns" "subgrid"
+
+
+{-| ```
 gridTemplateRows : String -> Html.Attribute msg
 gridTemplateRows value =
     Html.Attributes.style "grid-template-rows" value
@@ -13266,6 +13399,19 @@ https://developer.mozilla.org/docs/Web/CSS/grid-template-rows
 gridTemplateRowsNone : Html.Attribute msg
 gridTemplateRowsNone =
     Html.Attributes.style "grid-template-rows" "none"
+
+
+{-| ```
+gridTemplateRowsSubgrid : Html.Attribute msg
+gridTemplateRowsSubgrid =
+    Html.Attributes.style "grid-template-rows" "subgrid"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/grid-template-rows
+-}
+gridTemplateRowsSubgrid : Html.Attribute msg
+gridTemplateRowsSubgrid =
+    Html.Attributes.style "grid-template-rows" "subgrid"
 
 
 {-| ```
@@ -20178,6 +20324,149 @@ placeContent value =
 
 
 {-| ```
+placeContentBaseline : Html.Attribute msg
+placeContentBaseline =
+    Html.Attributes.style "place-content" "baseline"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentBaseline : Html.Attribute msg
+placeContentBaseline =
+    Html.Attributes.style "place-content" "baseline"
+
+
+{-| ```
+placeContentStart : Html.Attribute msg
+placeContentStart =
+    Html.Attributes.style "place-content" "start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentStart : Html.Attribute msg
+placeContentStart =
+    Html.Attributes.style "place-content" "start"
+
+
+{-| ```
+placeContentFlexStart : Html.Attribute msg
+placeContentFlexStart =
+    Html.Attributes.style "place-content" "flex-start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentFlexStart : Html.Attribute msg
+placeContentFlexStart =
+    Html.Attributes.style "place-content" "flex-start"
+
+
+{-| ```
+placeContentFlexEnd : Html.Attribute msg
+placeContentFlexEnd =
+    Html.Attributes.style "place-content" "flex-end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentFlexEnd : Html.Attribute msg
+placeContentFlexEnd =
+    Html.Attributes.style "place-content" "flex-end"
+
+
+{-| ```
+placeContentEnd : Html.Attribute msg
+placeContentEnd =
+    Html.Attributes.style "place-content" "end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentEnd : Html.Attribute msg
+placeContentEnd =
+    Html.Attributes.style "place-content" "end"
+
+
+{-| ```
+placeContentCenter : Html.Attribute msg
+placeContentCenter =
+    Html.Attributes.style "place-content" "center"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentCenter : Html.Attribute msg
+placeContentCenter =
+    Html.Attributes.style "place-content" "center"
+
+
+{-| ```
+placeContentSpaceBetween : Html.Attribute msg
+placeContentSpaceBetween =
+    Html.Attributes.style "place-content" "space-between"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentSpaceBetween : Html.Attribute msg
+placeContentSpaceBetween =
+    Html.Attributes.style "place-content" "space-between"
+
+
+{-| ```
+placeContentSpaceEvenly : Html.Attribute msg
+placeContentSpaceEvenly =
+    Html.Attributes.style "place-content" "space-evenly"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentSpaceEvenly : Html.Attribute msg
+placeContentSpaceEvenly =
+    Html.Attributes.style "place-content" "space-evenly"
+
+
+{-| ```
+placeContentStretch : Html.Attribute msg
+placeContentStretch =
+    Html.Attributes.style "place-content" "stretch"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentStretch : Html.Attribute msg
+placeContentStretch =
+    Html.Attributes.style "place-content" "stretch"
+
+
+{-| ```
+placeContentSpaceAround : Html.Attribute msg
+placeContentSpaceAround =
+    Html.Attributes.style "place-content" "space-around"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentSpaceAround : Html.Attribute msg
+placeContentSpaceAround =
+    Html.Attributes.style "place-content" "space-around"
+
+
+{-| ```
+placeContentNormal : Html.Attribute msg
+placeContentNormal =
+    Html.Attributes.style "place-content" "normal"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-content
+-}
+placeContentNormal : Html.Attribute msg
+placeContentNormal =
+    Html.Attributes.style "place-content" "normal"
+
+
+{-| ```
 placeItems : String -> Html.Attribute msg
 placeItems value =
     Html.Attributes.style "place-items" value
@@ -20191,6 +20480,136 @@ placeItems value =
 
 
 {-| ```
+placeItemsStretch : Html.Attribute msg
+placeItemsStretch =
+    Html.Attributes.style "place-items" "stretch"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsStretch : Html.Attribute msg
+placeItemsStretch =
+    Html.Attributes.style "place-items" "stretch"
+
+
+{-| ```
+placeItemsCenter : Html.Attribute msg
+placeItemsCenter =
+    Html.Attributes.style "place-items" "center"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsCenter : Html.Attribute msg
+placeItemsCenter =
+    Html.Attributes.style "place-items" "center"
+
+
+{-| ```
+placeItemsEnd : Html.Attribute msg
+placeItemsEnd =
+    Html.Attributes.style "place-items" "end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsEnd : Html.Attribute msg
+placeItemsEnd =
+    Html.Attributes.style "place-items" "end"
+
+
+{-| ```
+placeItemsSelfEnd : Html.Attribute msg
+placeItemsSelfEnd =
+    Html.Attributes.style "place-items" "self-end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsSelfEnd : Html.Attribute msg
+placeItemsSelfEnd =
+    Html.Attributes.style "place-items" "self-end"
+
+
+{-| ```
+placeItemsFlexEnd : Html.Attribute msg
+placeItemsFlexEnd =
+    Html.Attributes.style "place-items" "flex-end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsFlexEnd : Html.Attribute msg
+placeItemsFlexEnd =
+    Html.Attributes.style "place-items" "flex-end"
+
+
+{-| ```
+placeItemsFlexStart : Html.Attribute msg
+placeItemsFlexStart =
+    Html.Attributes.style "place-items" "flex-start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsFlexStart : Html.Attribute msg
+placeItemsFlexStart =
+    Html.Attributes.style "place-items" "flex-start"
+
+
+{-| ```
+placeItemsSelfStart : Html.Attribute msg
+placeItemsSelfStart =
+    Html.Attributes.style "place-items" "self-start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsSelfStart : Html.Attribute msg
+placeItemsSelfStart =
+    Html.Attributes.style "place-items" "self-start"
+
+
+{-| ```
+placeItemsStart : Html.Attribute msg
+placeItemsStart =
+    Html.Attributes.style "place-items" "start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsStart : Html.Attribute msg
+placeItemsStart =
+    Html.Attributes.style "place-items" "start"
+
+
+{-| ```
+placeItemsBaseline : Html.Attribute msg
+placeItemsBaseline =
+    Html.Attributes.style "place-items" "baseline"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsBaseline : Html.Attribute msg
+placeItemsBaseline =
+    Html.Attributes.style "place-items" "baseline"
+
+
+{-| ```
+placeItemsNormal : Html.Attribute msg
+placeItemsNormal =
+    Html.Attributes.style "place-items" "normal"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-items
+-}
+placeItemsNormal : Html.Attribute msg
+placeItemsNormal =
+    Html.Attributes.style "place-items" "normal"
+
+
+{-| ```
 placeSelf : String -> Html.Attribute msg
 placeSelf value =
     Html.Attributes.style "place-self" value
@@ -20201,6 +20620,149 @@ https://developer.mozilla.org/docs/Web/CSS/place-self
 placeSelf : String -> Html.Attribute msg
 placeSelf value =
     Html.Attributes.style "place-self" value
+
+
+{-| ```
+placeSelfNormal : Html.Attribute msg
+placeSelfNormal =
+    Html.Attributes.style "place-self" "normal"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfNormal : Html.Attribute msg
+placeSelfNormal =
+    Html.Attributes.style "place-self" "normal"
+
+
+{-| ```
+placeSelfBaseline : Html.Attribute msg
+placeSelfBaseline =
+    Html.Attributes.style "place-self" "baseline"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfBaseline : Html.Attribute msg
+placeSelfBaseline =
+    Html.Attributes.style "place-self" "baseline"
+
+
+{-| ```
+placeSelfCenter : Html.Attribute msg
+placeSelfCenter =
+    Html.Attributes.style "place-self" "center"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfCenter : Html.Attribute msg
+placeSelfCenter =
+    Html.Attributes.style "place-self" "center"
+
+
+{-| ```
+placeSelfEnd : Html.Attribute msg
+placeSelfEnd =
+    Html.Attributes.style "place-self" "end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfEnd : Html.Attribute msg
+placeSelfEnd =
+    Html.Attributes.style "place-self" "end"
+
+
+{-| ```
+placeSelfSelfEnd : Html.Attribute msg
+placeSelfSelfEnd =
+    Html.Attributes.style "place-self" "self-end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfSelfEnd : Html.Attribute msg
+placeSelfSelfEnd =
+    Html.Attributes.style "place-self" "self-end"
+
+
+{-| ```
+placeSelfFlexEnd : Html.Attribute msg
+placeSelfFlexEnd =
+    Html.Attributes.style "place-self" "flex-end"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfFlexEnd : Html.Attribute msg
+placeSelfFlexEnd =
+    Html.Attributes.style "place-self" "flex-end"
+
+
+{-| ```
+placeSelfFlexStart : Html.Attribute msg
+placeSelfFlexStart =
+    Html.Attributes.style "place-self" "flex-start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfFlexStart : Html.Attribute msg
+placeSelfFlexStart =
+    Html.Attributes.style "place-self" "flex-start"
+
+
+{-| ```
+placeSelfSelfStart : Html.Attribute msg
+placeSelfSelfStart =
+    Html.Attributes.style "place-self" "self-start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfSelfStart : Html.Attribute msg
+placeSelfSelfStart =
+    Html.Attributes.style "place-self" "self-start"
+
+
+{-| ```
+placeSelfStart : Html.Attribute msg
+placeSelfStart =
+    Html.Attributes.style "place-self" "start"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfStart : Html.Attribute msg
+placeSelfStart =
+    Html.Attributes.style "place-self" "start"
+
+
+{-| ```
+placeSelfStretch : Html.Attribute msg
+placeSelfStretch =
+    Html.Attributes.style "place-self" "stretch"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfStretch : Html.Attribute msg
+placeSelfStretch =
+    Html.Attributes.style "place-self" "stretch"
+
+
+{-| ```
+placeSelfAuto : Html.Attribute msg
+placeSelfAuto =
+    Html.Attributes.style "place-self" "auto"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/place-self
+-}
+placeSelfAuto : Html.Attribute msg
+placeSelfAuto =
+    Html.Attributes.style "place-self" "auto"
 
 
 {-| ```
@@ -22343,6 +22905,71 @@ scrollSnapTypeNone =
 
 
 {-| ```
+scrollSnapType_x : Html.Attribute msg
+scrollSnapType_x =
+    Html.Attributes.style "scroll-snap-type" "x"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
+-}
+scrollSnapType_x : Html.Attribute msg
+scrollSnapType_x =
+    Html.Attributes.style "scroll-snap-type" "x"
+
+
+{-| ```
+scrollSnapTypeBlock : Html.Attribute msg
+scrollSnapTypeBlock =
+    Html.Attributes.style "scroll-snap-type" "block"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
+-}
+scrollSnapTypeBlock : Html.Attribute msg
+scrollSnapTypeBlock =
+    Html.Attributes.style "scroll-snap-type" "block"
+
+
+{-| ```
+scrollSnapTypeBoth : Html.Attribute msg
+scrollSnapTypeBoth =
+    Html.Attributes.style "scroll-snap-type" "both"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
+-}
+scrollSnapTypeBoth : Html.Attribute msg
+scrollSnapTypeBoth =
+    Html.Attributes.style "scroll-snap-type" "both"
+
+
+{-| ```
+scrollSnapTypeInline : Html.Attribute msg
+scrollSnapTypeInline =
+    Html.Attributes.style "scroll-snap-type" "inline"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
+-}
+scrollSnapTypeInline : Html.Attribute msg
+scrollSnapTypeInline =
+    Html.Attributes.style "scroll-snap-type" "inline"
+
+
+{-| ```
+scrollSnapTypeY : Html.Attribute msg
+scrollSnapTypeY =
+    Html.Attributes.style "scroll-snap-type" "y"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
+-}
+scrollSnapTypeY : Html.Attribute msg
+scrollSnapTypeY =
+    Html.Attributes.style "scroll-snap-type" "y"
+
+
+{-| ```
 scrollSnapTypeX : String -> Html.Attribute msg
 scrollSnapTypeX value =
     Html.Attributes.style "scroll-snap-type-x" value
@@ -22993,6 +23620,19 @@ https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
 textCombineUprightNone : Html.Attribute msg
 textCombineUprightNone =
     Html.Attributes.style "text-combine-upright" "none"
+
+
+{-| ```
+textCombineUprightDigits : Html.Attribute msg
+textCombineUprightDigits =
+    Html.Attributes.style "text-combine-upright" "digits"
+```
+
+https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
+-}
+textCombineUprightDigits : Html.Attribute msg
+textCombineUprightDigits =
+    Html.Attributes.style "text-combine-upright" "digits"
 
 
 {-| ```
@@ -24852,6 +25492,40 @@ https://developer.mozilla.org/docs/Web/CSS/translate
 translateNone : Html.Attribute msg
 translateNone =
     Html.Attributes.style "translate" "none"
+
+
+{-| ```
+translateRem : Float -> Html.Attribute msg
+translateRem value =
+    Html.Attributes.style
+        "translate"
+        (String.append (String.fromFloat value) "rem")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/translate
+-}
+translateRem : Float -> Html.Attribute msg
+translateRem value =
+    Html.Attributes.style
+        "translate"
+        (String.append (String.fromFloat value) "rem")
+
+
+{-| ```
+translatePx : Float -> Html.Attribute msg
+translatePx value =
+    Html.Attributes.style
+        "translate"
+        (String.append (String.fromFloat value) "px")
+```
+
+https://developer.mozilla.org/docs/Web/CSS/translate
+-}
+translatePx : Float -> Html.Attribute msg
+translatePx value =
+    Html.Attributes.style
+        "translate"
+        (String.append (String.fromFloat value) "px")
 
 
 {-| ```

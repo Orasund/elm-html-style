@@ -61,9 +61,17 @@ collectSequence args sequenceSyntax =
 
                 [ ( _, Just (Multiple range) ), ( elem2, Nothing ) ] ->
                     case ( range.min, range.max ) of
-                        ( 0, Just 1 ) ->
-                            --TODO implement case 1
+                        ( 0, _ ) ->
+                            --TODO implement more then zero values
                             collectElem args elem2
+
+                        _ ->
+                            []
+                [ (elem1,Nothing),( _,Just (Multiple range))] ->
+                    case ( range.min, range.max ) of
+                        ( 0, _ ) ->
+                            --TODO implement more then zero values
+                            collectElem args elem1
 
                         _ ->
                             []

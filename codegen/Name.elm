@@ -7,6 +7,8 @@ fromValue value base =
     case (base,value) of
         ("white-space", Constant "collapse") ->
             normalize base ++ "_collapse"
+        ("scroll-snap-type",Constant "x") ->
+            normalize base ++ "_x"
         _ ->
             case value of
                 Constant constant ->
