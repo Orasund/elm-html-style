@@ -79,10 +79,10 @@ jobs:
         uses: actions-js/push@v1.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          message: "[Github Action] new version"
+          message: "Version ${{steps.bump.outputs.version}}"
       - name: create tag
-        run: git tag -a ${{steps.bump.outputs}}
+        run: git tag -a ${{steps.bump.outputs.version}}
       - name: push tag
-        run: git push origin ${{steps.bump.outputs}}
+        run: git push origin ${{steps.bump.outputs.version}}
       - name: publish
         run: npm run publish
