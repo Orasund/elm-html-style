@@ -1,4 +1,4 @@
-module Html.Style exposing (accentColor, accentColorAuto, alignContent, alignContentBaseline, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentNormal, alignContentSpaceAround, alignContentSpaceBetween, alignContentSpaceEvenly, alignContentStart, alignContentStretch, alignItems, alignItemsBaseline, alignItemsCenter, alignItemsEnd, alignItemsFlexEnd, alignItemsFlexStart, alignItemsNormal, alignItemsSelfEnd, alignItemsSelfStart, alignItemsStart, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfBaseline, alignSelfCenter, alignSelfEnd, alignSelfFlexEnd, alignSelfFlexStart, alignSelfNormal, alignSelfSelfEnd, alignSelfSelfStart, alignSelfStart, alignSelfStretch, alignTracks, all, allInherit, allInitial, allRevert, allRevertLayer, allUnset, animation, animationComposition, animationDelay, animationDirection, animationDuration, animationFillMode, animationIterationCount, animationName, animationPlayState, animationRange, animationRangeEnd, animationRangeStart, animationTimeline, animationTimingFunction, appearance, appearanceAuto, appearanceButton, appearanceCheckbox, appearanceListbox, appearanceMenulist, appearanceMenulistButton, appearanceMeter, appearanceNone, appearanceProgressBar, appearancePushButton, appearanceRadio, appearanceSearchfield, appearanceSliderHorizontal, appearanceSquareButton, appearanceTextarea, appearanceTextfield, aspectRatio, aspectRatioAuto, azimuth, azimuthBehind, azimuthCenter, azimuthCenterLeft, azimuthCenterRight, azimuthFarLeft, azimuthFarRight, azimuthLeft, azimuthLeftSide, azimuthLeftwards, azimuthRight, azimuthRightSide, azimuthRightwards, backdropFilter, backdropFilterNone, backfaceVisibility, backfaceVisibilityHidden, backfaceVisibilityVisible, background, backgroundAttachment, backgroundBlendMode, backgroundClip, backgroundColor, backgroundImage, backgroundOrigin, backgroundPosition, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize, blockSize, blockSizeAuto, blockSizeFitContent, blockSizeMaxContent, blockSizeMinContent, blockSizePx, blockSizeRem, border, borderBlock, borderBlockColor, borderBlockDashed, borderBlockDotted, borderBlockDouble, borderBlockEnd, borderBlockEndColor, borderBlockEndDashed, borderBlockEndDotted, borderBlockEndDouble, borderBlockEndGroove, borderBlockEndHidden, borderBlockEndInset, borderBlockEndMedium, borderBlockEndNone, borderBlockEndOutset, borderBlockEndPx, borderBlockEndRem, borderBlockEndRidge, borderBlockEndSolid, borderBlockEndStyle, borderBlockEndStyleDashed, borderBlockEndStyleDotted, borderBlockEndStyleDouble, borderBlockEndStyleGroove, borderBlockEndStyleHidden, borderBlockEndStyleInset, borderBlockEndStyleNone, borderBlockEndStyleOutset, borderBlockEndStyleRidge, borderBlockEndStyleSolid, borderBlockEndThick, borderBlockEndThin, borderBlockEndWidth, borderBlockEndWidthMedium, borderBlockEndWidthPx, borderBlockEndWidthRem, borderBlockEndWidthThick, borderBlockEndWidthThin, borderBlockGroove, borderBlockHidden, borderBlockInset, borderBlockMedium, borderBlockNone, borderBlockOutset, borderBlockPx, borderBlockRem, borderBlockRidge, borderBlockSolid, borderBlockStart, borderBlockStartColor, borderBlockStartDashed, borderBlockStartDotted, borderBlockStartDouble, borderBlockStartGroove, borderBlockStartHidden, borderBlockStartInset, borderBlockStartMedium, borderBlockStartNone, borderBlockStartOutset, borderBlockStartPx, borderBlockStartRem, borderBlockStartRidge, borderBlockStartSolid, borderBlockStartStyle, borderBlockStartStyleDashed, borderBlockStartStyleDotted, borderBlockStartStyleDouble, borderBlockStartStyleGroove, borderBlockStartStyleHidden, borderBlockStartStyleInset, borderBlockStartStyleNone, borderBlockStartStyleOutset, borderBlockStartStyleRidge, borderBlockStartStyleSolid, borderBlockStartThick, borderBlockStartThin, borderBlockStartWidth, borderBlockStartWidthMedium, borderBlockStartWidthPx, borderBlockStartWidthRem, borderBlockStartWidthThick, borderBlockStartWidthThin, borderBlockStyle, borderBlockStyleDashed, borderBlockStyleDotted, borderBlockStyleDouble, borderBlockStyleGroove, borderBlockStyleHidden, borderBlockStyleInset, borderBlockStyleNone, borderBlockStyleOutset, borderBlockStyleRidge, borderBlockStyleSolid, borderBlockThick, borderBlockThin, borderBlockWidth, borderBlockWidthMedium, borderBlockWidthPx, borderBlockWidthRem, borderBlockWidthThick, borderBlockWidthThin, borderBottom, borderBottomColor, borderBottomDashed, borderBottomDotted, borderBottomDouble, borderBottomGroove, borderBottomHidden, borderBottomInset, borderBottomLeftRadius, borderBottomLeftRadiusPx, borderBottomLeftRadiusRem, borderBottomMedium, borderBottomNone, borderBottomOutset, borderBottomPx, borderBottomRem, borderBottomRidge, borderBottomRightRadius, borderBottomRightRadiusPx, borderBottomRightRadiusRem, borderBottomSolid, borderBottomStyle, borderBottomStyleDashed, borderBottomStyleDotted, borderBottomStyleDouble, borderBottomStyleGroove, borderBottomStyleHidden, borderBottomStyleInset, borderBottomStyleNone, borderBottomStyleOutset, borderBottomStyleRidge, borderBottomStyleSolid, borderBottomThick, borderBottomThin, borderBottomWidth, borderBottomWidthMedium, borderBottomWidthPx, borderBottomWidthRem, borderBottomWidthThick, borderBottomWidthThin, borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderColor, borderDashed, borderDotted, borderDouble, borderEndEndRadius, borderEndEndRadiusPx, borderEndEndRadiusRem, borderEndStartRadius, borderEndStartRadiusPx, borderEndStartRadiusRem, borderGroove, borderHidden, borderImage, borderImageOutset, borderImageOutsetPx, borderImageOutsetRem, borderImageRepeat, borderImageRepeatRepeat, borderImageRepeatRound, borderImageRepeatSpace, borderImageRepeatStretch, borderImageSlice, borderImageSource, borderImageSourceNone, borderImageWidth, borderImageWidthAuto, borderImageWidthPx, borderImageWidthRem, borderInline, borderInlineColor, borderInlineDashed, borderInlineDotted, borderInlineDouble, borderInlineEnd, borderInlineEndColor, borderInlineEndDashed, borderInlineEndDotted, borderInlineEndDouble, borderInlineEndGroove, borderInlineEndHidden, borderInlineEndInset, borderInlineEndMedium, borderInlineEndNone, borderInlineEndOutset, borderInlineEndPx, borderInlineEndRem, borderInlineEndRidge, borderInlineEndSolid, borderInlineEndStyle, borderInlineEndStyleDashed, borderInlineEndStyleDotted, borderInlineEndStyleDouble, borderInlineEndStyleGroove, borderInlineEndStyleHidden, borderInlineEndStyleInset, borderInlineEndStyleNone, borderInlineEndStyleOutset, borderInlineEndStyleRidge, borderInlineEndStyleSolid, borderInlineEndThick, borderInlineEndThin, borderInlineEndWidth, borderInlineEndWidthMedium, borderInlineEndWidthPx, borderInlineEndWidthRem, borderInlineEndWidthThick, borderInlineEndWidthThin, borderInlineGroove, borderInlineHidden, borderInlineInset, borderInlineMedium, borderInlineNone, borderInlineOutset, borderInlinePx, borderInlineRem, borderInlineRidge, borderInlineSolid, borderInlineStart, borderInlineStartColor, borderInlineStartDashed, borderInlineStartDotted, borderInlineStartDouble, borderInlineStartGroove, borderInlineStartHidden, borderInlineStartInset, borderInlineStartMedium, borderInlineStartNone, borderInlineStartOutset, borderInlineStartPx, borderInlineStartRem, borderInlineStartRidge, borderInlineStartSolid, borderInlineStartStyle, borderInlineStartStyleDashed, borderInlineStartStyleDotted, borderInlineStartStyleDouble, borderInlineStartStyleGroove, borderInlineStartStyleHidden, borderInlineStartStyleInset, borderInlineStartStyleNone, borderInlineStartStyleOutset, borderInlineStartStyleRidge, borderInlineStartStyleSolid, borderInlineStartThick, borderInlineStartThin, borderInlineStartWidth, borderInlineStartWidthMedium, borderInlineStartWidthPx, borderInlineStartWidthRem, borderInlineStartWidthThick, borderInlineStartWidthThin, borderInlineStyle, borderInlineStyleDashed, borderInlineStyleDotted, borderInlineStyleDouble, borderInlineStyleGroove, borderInlineStyleHidden, borderInlineStyleInset, borderInlineStyleNone, borderInlineStyleOutset, borderInlineStyleRidge, borderInlineStyleSolid, borderInlineThick, borderInlineThin, borderInlineWidth, borderInlineWidthMedium, borderInlineWidthPx, borderInlineWidthRem, borderInlineWidthThick, borderInlineWidthThin, borderInset, borderLeft, borderLeftColor, borderLeftDashed, borderLeftDotted, borderLeftDouble, borderLeftGroove, borderLeftHidden, borderLeftInset, borderLeftMedium, borderLeftNone, borderLeftOutset, borderLeftPx, borderLeftRem, borderLeftRidge, borderLeftSolid, borderLeftStyle, borderLeftStyleDashed, borderLeftStyleDotted, borderLeftStyleDouble, borderLeftStyleGroove, borderLeftStyleHidden, borderLeftStyleInset, borderLeftStyleNone, borderLeftStyleOutset, borderLeftStyleRidge, borderLeftStyleSolid, borderLeftThick, borderLeftThin, borderLeftWidth, borderLeftWidthMedium, borderLeftWidthPx, borderLeftWidthRem, borderLeftWidthThick, borderLeftWidthThin, borderMedium, borderNone, borderOutset, borderPx, borderRadius, borderRem, borderRidge, borderRight, borderRightColor, borderRightDashed, borderRightDotted, borderRightDouble, borderRightGroove, borderRightHidden, borderRightInset, borderRightMedium, borderRightNone, borderRightOutset, borderRightPx, borderRightRem, borderRightRidge, borderRightSolid, borderRightStyle, borderRightStyleDashed, borderRightStyleDotted, borderRightStyleDouble, borderRightStyleGroove, borderRightStyleHidden, borderRightStyleInset, borderRightStyleNone, borderRightStyleOutset, borderRightStyleRidge, borderRightStyleSolid, borderRightThick, borderRightThin, borderRightWidth, borderRightWidthMedium, borderRightWidthPx, borderRightWidthRem, borderRightWidthThick, borderRightWidthThin, borderSolid, borderSpacing, borderSpacingPx, borderSpacingRem, borderStartEndRadius, borderStartEndRadiusPx, borderStartEndRadiusRem, borderStartStartRadius, borderStartStartRadiusPx, borderStartStartRadiusRem, borderStyle, borderStyleDashed, borderStyleDotted, borderStyleDouble, borderStyleGroove, borderStyleHidden, borderStyleInset, borderStyleNone, borderStyleOutset, borderStyleRidge, borderStyleSolid, borderThick, borderThin, borderTop, borderTopColor, borderTopDashed, borderTopDotted, borderTopDouble, borderTopGroove, borderTopHidden, borderTopInset, borderTopLeftRadius, borderTopLeftRadiusPx, borderTopLeftRadiusRem, borderTopMedium, borderTopNone, borderTopOutset, borderTopPx, borderTopRem, borderTopRidge, borderTopRightRadius, borderTopRightRadiusPx, borderTopRightRadiusRem, borderTopSolid, borderTopStyle, borderTopStyleDashed, borderTopStyleDotted, borderTopStyleDouble, borderTopStyleGroove, borderTopStyleHidden, borderTopStyleInset, borderTopStyleNone, borderTopStyleOutset, borderTopStyleRidge, borderTopStyleSolid, borderTopThick, borderTopThin, borderTopWidth, borderTopWidthMedium, borderTopWidthPx, borderTopWidthRem, borderTopWidthThick, borderTopWidthThin, borderWidth, borderWidthMedium, borderWidthPx, borderWidthRem, borderWidthThick, borderWidthThin, bottom, bottomAuto, bottomPx, bottomRem, boxAlign, boxAlignBaseline, boxAlignCenter, boxAlignEnd, boxAlignStart, boxAlignStretch, boxDecorationBreak, boxDecorationBreakClone, boxDecorationBreakSlice, boxDirection, boxDirectionInherit, boxDirectionNormal, boxDirectionReverse, boxFlex, boxFlexGroup, boxLines, boxLinesMultiple, boxLinesSingle, boxOrdinalGroup, boxOrient, boxOrientBlockAxis, boxOrientHorizontal, boxOrientInherit, boxOrientInlineAxis, boxOrientVertical, boxPack, boxPackCenter, boxPackEnd, boxPackJustify, boxPackStart, boxShadow, boxShadowNone, boxSizing, boxSizingBorderBox, boxSizingContentBox, breakAfter, breakAfterAll, breakAfterAlways, breakAfterAuto, breakAfterAvoid, breakAfterAvoidColumn, breakAfterAvoidPage, breakAfterAvoidRegion, breakAfterColumn, breakAfterLeft, breakAfterPage, breakAfterRecto, breakAfterRegion, breakAfterRight, breakAfterVerso, breakBefore, breakBeforeAll, breakBeforeAlways, breakBeforeAuto, breakBeforeAvoid, breakBeforeAvoidColumn, breakBeforeAvoidPage, breakBeforeAvoidRegion, breakBeforeColumn, breakBeforeLeft, breakBeforePage, breakBeforeRecto, breakBeforeRegion, breakBeforeRight, breakBeforeVerso, breakInside, breakInsideAuto, breakInsideAvoid, breakInsideAvoidColumn, breakInsideAvoidPage, breakInsideAvoidRegion, captionSide, captionSideBlockEnd, captionSideBlockStart, captionSideBottom, captionSideInlineEnd, captionSideInlineStart, captionSideTop, caret, caretAuto, caretBar, caretBlock, caretColor, caretColorAuto, caretShape, caretShapeAuto, caretShapeBar, caretShapeBlock, caretShapeUnderscore, caretUnderscore, clear, clearBoth, clearInlineEnd, clearInlineStart, clearLeft, clearNone, clearRight, clip, clipAuto, clipPath, clipPathFillBox, clipPathNone, clipPathStrokeBox, clipPathViewBox, color, colorScheme, columnCount, columnCountAuto, columnFill, columnFillAuto, columnFillBalance, columnFillBalanceAll, columnGap, columnGapNormal, columnGapPx, columnGapRem, columnRule, columnRuleColor, columnRuleDashed, columnRuleDotted, columnRuleDouble, columnRuleGroove, columnRuleHidden, columnRuleInset, columnRuleMedium, columnRuleNone, columnRuleOutset, columnRulePx, columnRuleRem, columnRuleRidge, columnRuleSolid, columnRuleStyle, columnRuleStyleDashed, columnRuleStyleDotted, columnRuleStyleDouble, columnRuleStyleGroove, columnRuleStyleHidden, columnRuleStyleInset, columnRuleStyleNone, columnRuleStyleOutset, columnRuleStyleRidge, columnRuleStyleSolid, columnRuleThick, columnRuleThin, columnRuleWidth, columnRuleWidthMedium, columnRuleWidthPx, columnRuleWidthRem, columnRuleWidthThick, columnRuleWidthThin, columnSpan, columnSpanAll, columnSpanNone, columnWidth, columnWidthAuto, columnWidthPx, columnWidthRem, columns, columnsAuto, columnsPx, columnsRem, contain, containContent, containInlineSize, containIntrinsicBlockSize, containIntrinsicBlockSizeNone, containIntrinsicBlockSizePx, containIntrinsicBlockSizeRem, containIntrinsicHeight, containIntrinsicHeightNone, containIntrinsicHeightPx, containIntrinsicHeightRem, containIntrinsicInlineSize, containIntrinsicInlineSizeNone, containIntrinsicInlineSizePx, containIntrinsicInlineSizeRem, containIntrinsicSize, containIntrinsicSizeNone, containIntrinsicSizePx, containIntrinsicSizeRem, containIntrinsicWidth, containIntrinsicWidthNone, containIntrinsicWidthPx, containIntrinsicWidthRem, containLayout, containNone, containPaint, containSize, containStrict, containStyle, container, containerName, containerNameNone, containerType, containerTypeInlineSize, containerTypeNormal, containerTypeSize, content, contentVisibility, contentVisibilityAuto, contentVisibilityHidden, contentVisibilityVisible, counterIncrement, counterIncrementNone, counterReset, counterResetNone, counterSet, counterSetNone, cursor, direction, directionLtr, directionRtl, display, displayBlock, displayContents, displayFlex, displayFlow, displayFlowRoot, displayGrid, displayInline, displayInlineBlock, displayInlineFlex, displayInlineGrid, displayInlineListItem, displayInlineTable, displayNone, displayRuby, displayRubyBase, displayRubyBaseContainer, displayRubyText, displayRubyTextContainer, displayRunIn, displayTable, displayTableCaption, displayTableCell, displayTableColumn, displayTableColumnGroup, displayTableFooterGroup, displayTableHeaderGroup, displayTableRow, displayTableRowGroup, emptyCells, emptyCellsHide, emptyCellsShow, filter, filterNone, flex, flexBasis, flexBasisAuto, flexBasisContent, flexBasisFitContent, flexBasisMaxContent, flexBasisMinContent, flexBasisPx, flexBasisRem, flexDirection, flexDirectionColumn, flexDirectionColumnReverse, flexDirectionRow, flexDirectionRowReverse, flexFlow, flexFlowColumn, flexFlowColumnReverse, flexFlowNowrap, flexFlowRow, flexFlowRowReverse, flexFlowWrap, flexFlowWrapReverse, flexGrow, flexShrink, flexWrap, flexWrapNowrap, flexWrapWrap, flexWrapWrapReverse, float, floatInlineEnd, floatInlineStart, floatLeft, floatNone, floatRight, font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteDark, fontPaletteLight, fontPaletteNormal, fontSize, fontSizeAdjust, fontSizeAdjustFromFont, fontSizeAdjustNone, fontSizeLarge, fontSizeLarger, fontSizeMedium, fontSizePx, fontSizeRem, fontSizeSmall, fontSizeSmaller, fontSizeXLarge, fontSizeXSmall, fontSizeXxLarge, fontSizeXxSmall, fontSizeXxxLarge, fontSmooth, fontSmoothAlways, fontSmoothAuto, fontSmoothLarge, fontSmoothMedium, fontSmoothNever, fontSmoothPx, fontSmoothRem, fontSmoothSmall, fontSmoothXLarge, fontSmoothXSmall, fontSmoothXxLarge, fontSmoothXxSmall, fontSmoothXxxLarge, fontStretch, fontStretchCondensed, fontStretchExpanded, fontStretchExtraCondensed, fontStretchExtraExpanded, fontStretchNormal, fontStretchSemiCondensed, fontStretchSemiExpanded, fontStretchUltraCondensed, fontStretchUltraExpanded, fontStyle, fontStyleItalic, fontStyleNormal, fontStyleOblique, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsAllSmallCaps, fontVariantCapsNormal, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantEastAsian, fontVariantEastAsianFullWidth, fontVariantEastAsianJis04, fontVariantEastAsianJis78, fontVariantEastAsianJis83, fontVariantEastAsianJis90, fontVariantEastAsianNormal, fontVariantEastAsianProportionalWidth, fontVariantEastAsianRuby, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEmoji, fontVariantEmojiEmoji, fontVariantEmojiNormal, fontVariantEmojiText, fontVariantEmojiUnicode, fontVariantLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesContextual, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesNone, fontVariantLigaturesNormal, fontVariantNumeric, fontVariantNumericDiagonalFractions, fontVariantNumericLiningNums, fontVariantNumericNormal, fontVariantNumericOldstyleNums, fontVariantNumericOrdinal, fontVariantNumericProportionalNums, fontVariantNumericSlashedZero, fontVariantNumericStackedFractions, fontVariantNumericTabularNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSub, fontVariantPositionSuper, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightBolder, fontWeightLighter, forcedColorAdjust, forcedColorAdjustAuto, forcedColorAdjustNone, gap, gapNormal, gapPx, gapRem, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowColumn, gridAutoFlowDense, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridGapPx, gridGapRem, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateColumnsSubgrid, gridTemplateRows, gridTemplateRowsNone, gridTemplateRowsSubgrid, hangingPunctuation, hangingPunctuationAllowEnd, hangingPunctuationFirst, hangingPunctuationForceEnd, hangingPunctuationLast, hangingPunctuationNone, height, heightAuto, heightFitContent, heightMaxContent, heightMinContent, heightPx, heightRem, hyphenateCharacter, hyphenateCharacterAuto, hyphenateLimitChars, hyphenateLimitCharsAuto, hyphens, hyphensAuto, hyphensManual, hyphensNone, imageOrientation, imageOrientationFlip, imageOrientationFromImage, imageRendering, imageRenderingAuto, imageRenderingCrispEdges, imageRenderingPixelated, imageResolution, imeMode, imeModeActive, imeModeAuto, imeModeDisabled, imeModeInactive, imeModeNormal, initialLetter, initialLetterAlign, initialLetterAlignAlphabetic, initialLetterAlignAuto, initialLetterAlignHanging, initialLetterAlignIdeographic, initialLetterNormal, inlineSize, inlineSizeAuto, inlineSizeFitContent, inlineSizeMaxContent, inlineSizeMinContent, inlineSizePx, inlineSizeRem, inputSecurity, inputSecurityAuto, inputSecurityNone, inset, insetAuto, insetBlock, insetBlockAuto, insetBlockEnd, insetBlockEndAuto, insetBlockEndPx, insetBlockEndRem, insetBlockPx, insetBlockRem, insetBlockStart, insetBlockStartAuto, insetBlockStartPx, insetBlockStartRem, insetInline, insetInlineAuto, insetInlineEnd, insetInlineEndAuto, insetInlineEndPx, insetInlineEndRem, insetInlinePx, insetInlineRem, insetInlineStart, insetInlineStartAuto, insetInlineStartPx, insetInlineStartRem, insetPx, insetRem, isolation, isolationAuto, isolationIsolate, justifyContent, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentLeft, justifyContentNormal, justifyContentRight, justifyContentSpaceAround, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStart, justifyContentStretch, justifyItems, justifySelf, justifySelfAuto, justifySelfBaseline, justifySelfCenter, justifySelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfLeft, justifySelfNormal, justifySelfRight, justifySelfSelfEnd, justifySelfSelfStart, justifySelfStart, justifySelfStretch, justifyTracks, left, leftAuto, leftPx, leftRem, letterSpacing, letterSpacingNormal, letterSpacingPx, letterSpacingRem, lineBreak, lineBreakAnywhere, lineBreakAuto, lineBreakLoose, lineBreakNormal, lineBreakStrict, lineClamp, lineClampNone, lineHeight, lineHeightNormal, lineHeightPx, lineHeightRem, lineHeightStep, lineHeightStepPx, lineHeightStepRem, listStyle, listStyleImage, listStyleImageNone, listStyleInside, listStyleNone, listStyleOutside, listStylePosition, listStylePositionInside, listStylePositionOutside, listStyleType, listStyleTypeNone, margin, marginAuto, marginBlock, marginBlockAuto, marginBlockEnd, marginBlockEndAuto, marginBlockEndPx, marginBlockEndRem, marginBlockPx, marginBlockRem, marginBlockStart, marginBlockStartAuto, marginBlockStartPx, marginBlockStartRem, marginBottom, marginBottomAuto, marginBottomPx, marginBottomRem, marginInline, marginInlineAuto, marginInlineEnd, marginInlineEndAuto, marginInlineEndPx, marginInlineEndRem, marginInlinePx, marginInlineRem, marginInlineStart, marginInlineStartAuto, marginInlineStartPx, marginInlineStartRem, marginLeft, marginLeftAuto, marginLeftPx, marginLeftRem, marginPx, marginRem, marginRight, marginRightAuto, marginRightPx, marginRightRem, marginTop, marginTopAuto, marginTopPx, marginTopRem, marginTrim, marginTrimAll, marginTrimInFlow, marginTrimNone, mask, maskBorder, maskBorderMode, maskBorderModeAlpha, maskBorderModeLuminance, maskBorderOutset, maskBorderOutsetPx, maskBorderOutsetRem, maskBorderRepeat, maskBorderRepeatRepeat, maskBorderRepeatRound, maskBorderRepeatSpace, maskBorderRepeatStretch, maskBorderSlice, maskBorderSource, maskBorderSourceNone, maskBorderWidth, maskBorderWidthAuto, maskBorderWidthPx, maskBorderWidthRem, maskClip, maskComposite, maskImage, maskMode, maskOrigin, maskPosition, maskRepeat, maskSize, maskType, maskTypeAlpha, maskTypeLuminance, masonryAutoFlow, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowOrdered, masonryAutoFlowPack, mathDepth, mathDepthAutoAdd, mathShift, mathShiftCompact, mathShiftNormal, mathStyle, mathStyleCompact, mathStyleNormal, maxBlockSize, maxBlockSizeFitContent, maxBlockSizeMaxContent, maxBlockSizeMinContent, maxBlockSizeNone, maxBlockSizePx, maxBlockSizeRem, maxHeight, maxHeightFitContent, maxHeightMaxContent, maxHeightMinContent, maxHeightNone, maxHeightPx, maxHeightRem, maxInlineSize, maxInlineSizeFitContent, maxInlineSizeMaxContent, maxInlineSizeMinContent, maxInlineSizeNone, maxInlineSizePx, maxInlineSizeRem, maxLines, maxLinesNone, maxWidth, maxWidthFitContent, maxWidthMaxContent, maxWidthMinContent, maxWidthNone, maxWidthPx, maxWidthRem, minBlockSize, minBlockSizeAuto, minBlockSizeFitContent, minBlockSizeMaxContent, minBlockSizeMinContent, minBlockSizePx, minBlockSizeRem, minHeight, minHeightAuto, minHeightFitContent, minHeightMaxContent, minHeightMinContent, minHeightPx, minHeightRem, minInlineSize, minInlineSizeAuto, minInlineSizeFitContent, minInlineSizeMaxContent, minInlineSizeMinContent, minInlineSizePx, minInlineSizeRem, minWidth, minWidthAuto, minWidthFitContent, minWidthMaxContent, minWidthMinContent, minWidthPx, minWidthRem, mixBlendMode, mixBlendModeColor, mixBlendModeColorBurn, mixBlendModeColorDodge, mixBlendModeDarken, mixBlendModeDifference, mixBlendModeExclusion, mixBlendModeHardLight, mixBlendModeHue, mixBlendModeLighten, mixBlendModeLuminosity, mixBlendModeMultiply, mixBlendModeNormal, mixBlendModeOverlay, mixBlendModePlusLighter, mixBlendModeSaturation, mixBlendModeScreen, mixBlendModeSoftLight, objectFit, objectFitContain, objectFitCover, objectFitFill, objectFitNone, objectFitScaleDown, objectPosition, offset, offsetAnchor, offsetAnchorAuto, offsetDistance, offsetDistancePx, offsetDistanceRem, offsetPath, offsetPathNone, offsetPosition, offsetPositionAuto, offsetPositionNormal, offsetRotate, offsetRotateAuto, offsetRotateReverse, opacity, order, orphans, outline, outlineAuto, outlineColor, outlineColorAuto, outlineDashed, outlineDotted, outlineDouble, outlineGroove, outlineHidden, outlineInset, outlineMedium, outlineNone, outlineOffset, outlineOffsetPx, outlineOffsetRem, outlineOutset, outlinePx, outlineRem, outlineRidge, outlineSolid, outlineStyle, outlineStyleAuto, outlineStyleDashed, outlineStyleDotted, outlineStyleDouble, outlineStyleGroove, outlineStyleHidden, outlineStyleInset, outlineStyleNone, outlineStyleOutset, outlineStyleRidge, outlineStyleSolid, outlineThick, outlineThin, outlineWidth, outlineWidthMedium, outlineWidthPx, outlineWidthRem, outlineWidthThick, outlineWidthThin, overflow, overflowAnchor, overflowAnchorAuto, overflowAnchorNone, overflowAuto, overflowBlock, overflowBlockAuto, overflowBlockClip, overflowBlockHidden, overflowBlockScroll, overflowBlockVisible, overflowClip, overflowClipBox, overflowClipBoxContentBox, overflowClipBoxPaddingBox, overflowClipMargin, overflowHidden, overflowInline, overflowInlineAuto, overflowInlineClip, overflowInlineHidden, overflowInlineScroll, overflowInlineVisible, overflowScroll, overflowVisible, overflowWrap, overflowWrapAnywhere, overflowWrapBreakWord, overflowWrapNormal, overflowX, overflowXAuto, overflowXClip, overflowXHidden, overflowXScroll, overflowXVisible, overflowY, overflowYAuto, overflowYClip, overflowYHidden, overflowYScroll, overflowYVisible, overlay, overlayAuto, overlayNone, overscrollBehavior, overscrollBehaviorAuto, overscrollBehaviorBlock, overscrollBehaviorBlockAuto, overscrollBehaviorBlockContain, overscrollBehaviorBlockNone, overscrollBehaviorContain, overscrollBehaviorInline, overscrollBehaviorInlineAuto, overscrollBehaviorInlineContain, overscrollBehaviorInlineNone, overscrollBehaviorNone, overscrollBehaviorX, overscrollBehaviorXAuto, overscrollBehaviorXContain, overscrollBehaviorXNone, overscrollBehaviorY, overscrollBehaviorYAuto, overscrollBehaviorYContain, overscrollBehaviorYNone, padding, paddingBlock, paddingBlockEnd, paddingBlockEndPx, paddingBlockEndRem, paddingBlockPx, paddingBlockRem, paddingBlockStart, paddingBlockStartPx, paddingBlockStartRem, paddingBottom, paddingBottomPx, paddingBottomRem, paddingInline, paddingInlineEnd, paddingInlineEndPx, paddingInlineEndRem, paddingInlinePx, paddingInlineRem, paddingInlineStart, paddingInlineStartPx, paddingInlineStartRem, paddingLeft, paddingLeftPx, paddingLeftRem, paddingPx, paddingRem, paddingRight, paddingRightPx, paddingRightRem, paddingTop, paddingTopPx, paddingTopRem, page, pageAuto, pageBreakAfter, pageBreakAfterAlways, pageBreakAfterAuto, pageBreakAfterAvoid, pageBreakAfterLeft, pageBreakAfterRecto, pageBreakAfterRight, pageBreakAfterVerso, pageBreakBefore, pageBreakBeforeAlways, pageBreakBeforeAuto, pageBreakBeforeAvoid, pageBreakBeforeLeft, pageBreakBeforeRecto, pageBreakBeforeRight, pageBreakBeforeVerso, pageBreakInside, pageBreakInsideAuto, pageBreakInsideAvoid, paintOrder, paintOrderFill, paintOrderMarkers, paintOrderNormal, paintOrderStroke, perspective, perspectiveNone, perspectiveOrigin, perspectivePx, perspectiveRem, placeContent, placeContentBaseline, placeContentCenter, placeContentEnd, placeContentFlexEnd, placeContentFlexStart, placeContentNormal, placeContentSpaceAround, placeContentSpaceBetween, placeContentSpaceEvenly, placeContentStart, placeContentStretch, placeItems, placeItemsBaseline, placeItemsCenter, placeItemsEnd, placeItemsFlexEnd, placeItemsFlexStart, placeItemsNormal, placeItemsSelfEnd, placeItemsSelfStart, placeItemsStart, placeItemsStretch, placeSelf, placeSelfAuto, placeSelfBaseline, placeSelfCenter, placeSelfEnd, placeSelfFlexEnd, placeSelfFlexStart, placeSelfNormal, placeSelfSelfEnd, placeSelfSelfStart, placeSelfStart, placeSelfStretch, pointerEvents, pointerEventsAll, pointerEventsAuto, pointerEventsFill, pointerEventsInherit, pointerEventsNone, pointerEventsPainted, pointerEventsStroke, pointerEventsVisible, pointerEventsVisibleFill, pointerEventsVisiblePainted, pointerEventsVisibleStroke, position, positionAbsolute, positionFixed, positionRelative, positionStatic, positionSticky, printColorAdjust, printColorAdjustEconomy, printColorAdjustExact, quotes, quotesAuto, quotesNone, resize, resizeBlock, resizeBoth, resizeHorizontal, resizeInline, resizeNone, resizeVertical, right, rightAuto, rightPx, rightRem, rotate, rowGap, rowGapNormal, rowGapPx, rowGapRem, rubyAlign, rubyAlignCenter, rubyAlignSpaceAround, rubyAlignSpaceBetween, rubyAlignStart, rubyMerge, rubyMergeAuto, rubyMergeCollapse, rubyMergeSeparate, rubyPosition, rubyPositionAlternate, rubyPositionInterCharacter, rubyPositionOver, rubyPositionUnder, scale, scaleNone, scrollBehavior, scrollBehaviorAuto, scrollBehaviorSmooth, scrollMargin, scrollMarginBlock, scrollMarginBlockEnd, scrollMarginBlockEndPx, scrollMarginBlockEndRem, scrollMarginBlockPx, scrollMarginBlockRem, scrollMarginBlockStart, scrollMarginBlockStartPx, scrollMarginBlockStartRem, scrollMarginBottom, scrollMarginBottomPx, scrollMarginBottomRem, scrollMarginInline, scrollMarginInlineEnd, scrollMarginInlineEndPx, scrollMarginInlineEndRem, scrollMarginInlinePx, scrollMarginInlineRem, scrollMarginInlineStart, scrollMarginInlineStartPx, scrollMarginInlineStartRem, scrollMarginLeft, scrollMarginLeftPx, scrollMarginLeftRem, scrollMarginPx, scrollMarginRem, scrollMarginRight, scrollMarginRightPx, scrollMarginRightRem, scrollMarginTop, scrollMarginTopPx, scrollMarginTopRem, scrollPadding, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndPx, scrollPaddingBlockEndRem, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartPx, scrollPaddingBlockStartRem, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomPx, scrollPaddingBottomRem, scrollPaddingInline, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndPx, scrollPaddingInlineEndRem, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartPx, scrollPaddingInlineStartRem, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftPx, scrollPaddingLeftRem, scrollPaddingPx, scrollPaddingRem, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightPx, scrollPaddingRightRem, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopPx, scrollPaddingTopRem, scrollSnapAlign, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapAlignStart, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopAlways, scrollSnapStopNormal, scrollSnapType, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapTypeNone, scrollSnapTypeX, scrollSnapTypeXMandatory, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeY, scrollSnapTypeYMandatory, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapType_x, scrollTimeline, scrollTimelineAxis, scrollTimelineName, scrollTimelineNameNone, scrollbarColor, scrollbarGutter, scrollbarWidth, scrollbarWidthAuto, scrollbarWidthNone, scrollbarWidthThin, shapeImageThreshold, shapeMargin, shapeMarginPx, shapeMarginRem, shapeOutside, shapeOutsideMarginBox, shapeOutsideNone, tabSize, tabSizePx, tabSizeRem, tableLayout, tableLayoutAuto, tableLayoutFixed, textAlign, textAlignCenter, textAlignEnd, textAlignJustify, textAlignLast, textAlignLastAuto, textAlignLastCenter, textAlignLastEnd, textAlignLastJustify, textAlignLastLeft, textAlignLastRight, textAlignLastStart, textAlignLeft, textAlignMatchParent, textAlignRight, textAlignStart, textCombineUpright, textCombineUprightAll, textCombineUprightDigits, textCombineUprightNone, textDecoration, textDecorationBlink, textDecorationColor, textDecorationDashed, textDecorationDotted, textDecorationDouble, textDecorationGrammarError, textDecorationLine, textDecorationLineBlink, textDecorationLineGrammarError, textDecorationLineLineThrough, textDecorationLineNone, textDecorationLineOverline, textDecorationLineSpellingError, textDecorationLineThrough, textDecorationLineUnderline, textDecorationNone, textDecorationOverline, textDecorationSkip, textDecorationSkipBoxDecoration, textDecorationSkipEdges, textDecorationSkipInk, textDecorationSkipInkAll, textDecorationSkipInkAuto, textDecorationSkipInkNone, textDecorationSkipLeadingSpaces, textDecorationSkipNone, textDecorationSkipObjects, textDecorationSkipSpaces, textDecorationSkipTrailingSpaces, textDecorationSolid, textDecorationSpellingError, textDecorationStyle, textDecorationStyleDashed, textDecorationStyleDotted, textDecorationStyleDouble, textDecorationStyleSolid, textDecorationStyleWavy, textDecorationThickness, textDecorationUnderline, textDecorationWavy, textEmphasis, textEmphasisCircle, textEmphasisColor, textEmphasisDot, textEmphasisDoubleCircle, textEmphasisFilled, textEmphasisNone, textEmphasisOpen, textEmphasisPosition, textEmphasisSesame, textEmphasisStyle, textEmphasisStyleCircle, textEmphasisStyleDot, textEmphasisStyleDoubleCircle, textEmphasisStyleFilled, textEmphasisStyleNone, textEmphasisStyleOpen, textEmphasisStyleSesame, textEmphasisStyleTriangle, textEmphasisTriangle, textIndent, textJustify, textJustifyAuto, textJustifyInterCharacter, textJustifyInterWord, textJustifyNone, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, textOverflow, textOverflowClip, textOverflowEllipsis, textRendering, textRenderingAuto, textRenderingGeometricPrecision, textRenderingOptimizeLegibility, textRenderingOptimizeSpeed, textShadow, textShadowNone, textSizeAdjust, textSizeAdjustAuto, textSizeAdjustNone, textTransform, textTransformCapitalize, textTransformFullSizeKana, textTransformFullWidth, textTransformLowercase, textTransformNone, textTransformUppercase, textUnderlineOffset, textUnderlinePosition, textUnderlinePositionAuto, textUnderlinePositionFromFont, textUnderlinePositionLeft, textUnderlinePositionRight, textUnderlinePositionUnder, textWrap, textWrapBalance, textWrapNowrap, textWrapPretty, textWrapStable, textWrapWrap, timelineScope, timelineScopeNone, top, topAuto, topPx, topRem, touchAction, touchActionAuto, touchActionManipulation, touchActionNone, touchActionPanDown, touchActionPanLeft, touchActionPanRight, touchActionPanUp, touchActionPanX, touchActionPanY, touchActionPinchZoom, transform, transformBox, transformBoxBorderBox, transformBoxContentBox, transformBoxFillBox, transformBoxStrokeBox, transformBoxViewBox, transformNone, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, transition, transitionBehavior, transitionDelay, transitionDuration, transitionProperty, transitionPropertyNone, transitionTimingFunction, translate, translateNone, translatePx, translateRem, unicodeBidi, unicodeBidiBidiOverride, unicodeBidiEmbed, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiNormal, unicodeBidiPlaintext, userSelect, userSelectAll, userSelectAuto, userSelectContain, userSelectNone, userSelectText, verticalAlign, verticalAlignBaseline, verticalAlignBottom, verticalAlignMiddle, verticalAlignPx, verticalAlignRem, verticalAlignSub, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTextTop, verticalAlignTop, viewTimeline, viewTimelineAxis, viewTimelineInset, viewTimelineName, viewTimelineNameNone, viewTransitionName, viewTransitionNameNone, visibility, visibilityCollapse, visibilityHidden, visibilityVisible, whiteSpace, whiteSpaceBalance, whiteSpaceBreakSpaces, whiteSpaceCollapse, whiteSpaceCollapseBreakSpaces, whiteSpaceCollapseCollapse, whiteSpaceCollapseDiscard, whiteSpaceCollapsePreserve, whiteSpaceCollapsePreserveBreaks, whiteSpaceCollapsePreserveSpaces, whiteSpaceDiscard, whiteSpaceNormal, whiteSpaceNowrap, whiteSpacePre, whiteSpacePreLine, whiteSpacePreWrap, whiteSpacePreserve, whiteSpacePreserveBreaks, whiteSpacePreserveSpaces, whiteSpacePretty, whiteSpaceStable, whiteSpaceWrap, whiteSpace_collapse, widows, width, widthAuto, widthFitContent, widthMaxContent, widthMinContent, widthPx, widthRem, willChange, willChangeAuto, wordBreak, wordBreakBreakAll, wordBreakBreakWord, wordBreakKeepAll, wordBreakNormal, wordSpacing, wordSpacingNormal, wordSpacingPx, wordSpacingRem, wordWrap, wordWrapBreakWord, wordWrapNormal, writingMode, writingModeHorizontalTb, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalLr, writingModeVerticalRl, zIndex, zIndexAuto, zoom, zoomNormal, zoomReset)
+module Html.Style exposing (accentColor, accentColorAuto, alignContent, alignContentBaseline, alignContentCenter, alignContentEnd, alignContentFlexEnd, alignContentFlexStart, alignContentNormal, alignContentSpaceAround, alignContentSpaceBetween, alignContentSpaceEvenly, alignContentStart, alignContentStretch, alignItems, alignItemsBaseline, alignItemsCenter, alignItemsEnd, alignItemsFlexEnd, alignItemsFlexStart, alignItemsNormal, alignItemsSelfEnd, alignItemsSelfStart, alignItemsStart, alignItemsStretch, alignSelf, alignSelfAuto, alignSelfBaseline, alignSelfCenter, alignSelfEnd, alignSelfFlexEnd, alignSelfFlexStart, alignSelfNormal, alignSelfSelfEnd, alignSelfSelfStart, alignSelfStart, alignSelfStretch, alignTracks, all, allInherit, allInitial, allRevert, allRevertLayer, allUnset, animation, animationComposition, animationDelay, animationDirection, animationDuration, animationFillMode, animationIterationCount, animationName, animationPlayState, animationRange, animationRangeEnd, animationRangeStart, animationTimeline, animationTimingFunction, appearance, appearanceAuto, appearanceButton, appearanceCheckbox, appearanceListbox, appearanceMenulist, appearanceMenulistButton, appearanceMeter, appearanceNone, appearanceProgressBar, appearancePushButton, appearanceRadio, appearanceSearchfield, appearanceSliderHorizontal, appearanceSquareButton, appearanceTextarea, appearanceTextfield, aspectRatio, aspectRatioAuto, azimuth, azimuthBehind, azimuthCenter, azimuthCenterLeft, azimuthCenterRight, azimuthFarLeft, azimuthFarRight, azimuthLeft, azimuthLeftSide, azimuthLeftwards, azimuthRight, azimuthRightSide, azimuthRightwards, backdropFilter, backdropFilterNone, backfaceVisibility, backfaceVisibilityHidden, backfaceVisibilityVisible, background, backgroundAttachment, backgroundBlendMode, backgroundClip, backgroundColor, backgroundImage, backgroundOrigin, backgroundPosition, backgroundPositionX, backgroundPositionY, backgroundRepeat, backgroundSize, blockSize, blockSizeAuto, blockSizeFitContent, blockSizeMaxContent, blockSizeMinContent, blockSizePx, blockSizeRem, border, borderBlock, borderBlockColor, borderBlockDashed, borderBlockDotted, borderBlockDouble, borderBlockEnd, borderBlockEndColor, borderBlockEndDashed, borderBlockEndDotted, borderBlockEndDouble, borderBlockEndGroove, borderBlockEndHidden, borderBlockEndInset, borderBlockEndMedium, borderBlockEndNone, borderBlockEndOutset, borderBlockEndPx, borderBlockEndRem, borderBlockEndRidge, borderBlockEndSolid, borderBlockEndStyle, borderBlockEndStyleDashed, borderBlockEndStyleDotted, borderBlockEndStyleDouble, borderBlockEndStyleGroove, borderBlockEndStyleHidden, borderBlockEndStyleInset, borderBlockEndStyleNone, borderBlockEndStyleOutset, borderBlockEndStyleRidge, borderBlockEndStyleSolid, borderBlockEndThick, borderBlockEndThin, borderBlockEndWidth, borderBlockEndWidthMedium, borderBlockEndWidthPx, borderBlockEndWidthRem, borderBlockEndWidthThick, borderBlockEndWidthThin, borderBlockGroove, borderBlockHidden, borderBlockInset, borderBlockMedium, borderBlockNone, borderBlockOutset, borderBlockPx, borderBlockRem, borderBlockRidge, borderBlockSolid, borderBlockStart, borderBlockStartColor, borderBlockStartDashed, borderBlockStartDotted, borderBlockStartDouble, borderBlockStartGroove, borderBlockStartHidden, borderBlockStartInset, borderBlockStartMedium, borderBlockStartNone, borderBlockStartOutset, borderBlockStartPx, borderBlockStartRem, borderBlockStartRidge, borderBlockStartSolid, borderBlockStartStyle, borderBlockStartStyleDashed, borderBlockStartStyleDotted, borderBlockStartStyleDouble, borderBlockStartStyleGroove, borderBlockStartStyleHidden, borderBlockStartStyleInset, borderBlockStartStyleNone, borderBlockStartStyleOutset, borderBlockStartStyleRidge, borderBlockStartStyleSolid, borderBlockStartThick, borderBlockStartThin, borderBlockStartWidth, borderBlockStartWidthMedium, borderBlockStartWidthPx, borderBlockStartWidthRem, borderBlockStartWidthThick, borderBlockStartWidthThin, borderBlockStyle, borderBlockStyleDashed, borderBlockStyleDotted, borderBlockStyleDouble, borderBlockStyleGroove, borderBlockStyleHidden, borderBlockStyleInset, borderBlockStyleNone, borderBlockStyleOutset, borderBlockStyleRidge, borderBlockStyleSolid, borderBlockThick, borderBlockThin, borderBlockWidth, borderBlockWidthMedium, borderBlockWidthPx, borderBlockWidthRem, borderBlockWidthThick, borderBlockWidthThin, borderBottom, borderBottomColor, borderBottomDashed, borderBottomDotted, borderBottomDouble, borderBottomGroove, borderBottomHidden, borderBottomInset, borderBottomLeftRadius, borderBottomLeftRadiusPx, borderBottomLeftRadiusRem, borderBottomMedium, borderBottomNone, borderBottomOutset, borderBottomPx, borderBottomRem, borderBottomRidge, borderBottomRightRadius, borderBottomRightRadiusPx, borderBottomRightRadiusRem, borderBottomSolid, borderBottomStyle, borderBottomStyleDashed, borderBottomStyleDotted, borderBottomStyleDouble, borderBottomStyleGroove, borderBottomStyleHidden, borderBottomStyleInset, borderBottomStyleNone, borderBottomStyleOutset, borderBottomStyleRidge, borderBottomStyleSolid, borderBottomThick, borderBottomThin, borderBottomWidth, borderBottomWidthMedium, borderBottomWidthPx, borderBottomWidthRem, borderBottomWidthThick, borderBottomWidthThin, borderCollapse, borderCollapseCollapse, borderCollapseSeparate, borderColor, borderDashed, borderDotted, borderDouble, borderEndEndRadius, borderEndEndRadiusPx, borderEndEndRadiusRem, borderEndStartRadius, borderEndStartRadiusPx, borderEndStartRadiusRem, borderGroove, borderHidden, borderImage, borderImageOutset, borderImageOutsetPx, borderImageOutsetRem, borderImageRepeat, borderImageRepeatRepeat, borderImageRepeatRound, borderImageRepeatSpace, borderImageRepeatStretch, borderImageSlice, borderImageSource, borderImageSourceNone, borderImageWidth, borderImageWidthAuto, borderImageWidthPx, borderImageWidthRem, borderInline, borderInlineColor, borderInlineDashed, borderInlineDotted, borderInlineDouble, borderInlineEnd, borderInlineEndColor, borderInlineEndDashed, borderInlineEndDotted, borderInlineEndDouble, borderInlineEndGroove, borderInlineEndHidden, borderInlineEndInset, borderInlineEndMedium, borderInlineEndNone, borderInlineEndOutset, borderInlineEndPx, borderInlineEndRem, borderInlineEndRidge, borderInlineEndSolid, borderInlineEndStyle, borderInlineEndStyleDashed, borderInlineEndStyleDotted, borderInlineEndStyleDouble, borderInlineEndStyleGroove, borderInlineEndStyleHidden, borderInlineEndStyleInset, borderInlineEndStyleNone, borderInlineEndStyleOutset, borderInlineEndStyleRidge, borderInlineEndStyleSolid, borderInlineEndThick, borderInlineEndThin, borderInlineEndWidth, borderInlineEndWidthMedium, borderInlineEndWidthPx, borderInlineEndWidthRem, borderInlineEndWidthThick, borderInlineEndWidthThin, borderInlineGroove, borderInlineHidden, borderInlineInset, borderInlineMedium, borderInlineNone, borderInlineOutset, borderInlinePx, borderInlineRem, borderInlineRidge, borderInlineSolid, borderInlineStart, borderInlineStartColor, borderInlineStartDashed, borderInlineStartDotted, borderInlineStartDouble, borderInlineStartGroove, borderInlineStartHidden, borderInlineStartInset, borderInlineStartMedium, borderInlineStartNone, borderInlineStartOutset, borderInlineStartPx, borderInlineStartRem, borderInlineStartRidge, borderInlineStartSolid, borderInlineStartStyle, borderInlineStartStyleDashed, borderInlineStartStyleDotted, borderInlineStartStyleDouble, borderInlineStartStyleGroove, borderInlineStartStyleHidden, borderInlineStartStyleInset, borderInlineStartStyleNone, borderInlineStartStyleOutset, borderInlineStartStyleRidge, borderInlineStartStyleSolid, borderInlineStartThick, borderInlineStartThin, borderInlineStartWidth, borderInlineStartWidthMedium, borderInlineStartWidthPx, borderInlineStartWidthRem, borderInlineStartWidthThick, borderInlineStartWidthThin, borderInlineStyle, borderInlineStyleDashed, borderInlineStyleDotted, borderInlineStyleDouble, borderInlineStyleGroove, borderInlineStyleHidden, borderInlineStyleInset, borderInlineStyleNone, borderInlineStyleOutset, borderInlineStyleRidge, borderInlineStyleSolid, borderInlineThick, borderInlineThin, borderInlineWidth, borderInlineWidthMedium, borderInlineWidthPx, borderInlineWidthRem, borderInlineWidthThick, borderInlineWidthThin, borderInset, borderLeft, borderLeftColor, borderLeftDashed, borderLeftDotted, borderLeftDouble, borderLeftGroove, borderLeftHidden, borderLeftInset, borderLeftMedium, borderLeftNone, borderLeftOutset, borderLeftPx, borderLeftRem, borderLeftRidge, borderLeftSolid, borderLeftStyle, borderLeftStyleDashed, borderLeftStyleDotted, borderLeftStyleDouble, borderLeftStyleGroove, borderLeftStyleHidden, borderLeftStyleInset, borderLeftStyleNone, borderLeftStyleOutset, borderLeftStyleRidge, borderLeftStyleSolid, borderLeftThick, borderLeftThin, borderLeftWidth, borderLeftWidthMedium, borderLeftWidthPx, borderLeftWidthRem, borderLeftWidthThick, borderLeftWidthThin, borderMedium, borderNone, borderOutset, borderPx, borderRadius, borderRem, borderRidge, borderRight, borderRightColor, borderRightDashed, borderRightDotted, borderRightDouble, borderRightGroove, borderRightHidden, borderRightInset, borderRightMedium, borderRightNone, borderRightOutset, borderRightPx, borderRightRem, borderRightRidge, borderRightSolid, borderRightStyle, borderRightStyleDashed, borderRightStyleDotted, borderRightStyleDouble, borderRightStyleGroove, borderRightStyleHidden, borderRightStyleInset, borderRightStyleNone, borderRightStyleOutset, borderRightStyleRidge, borderRightStyleSolid, borderRightThick, borderRightThin, borderRightWidth, borderRightWidthMedium, borderRightWidthPx, borderRightWidthRem, borderRightWidthThick, borderRightWidthThin, borderSolid, borderSpacing, borderSpacingPx, borderSpacingRem, borderStartEndRadius, borderStartEndRadiusPx, borderStartEndRadiusRem, borderStartStartRadius, borderStartStartRadiusPx, borderStartStartRadiusRem, borderStyle, borderStyleDashed, borderStyleDotted, borderStyleDouble, borderStyleGroove, borderStyleHidden, borderStyleInset, borderStyleNone, borderStyleOutset, borderStyleRidge, borderStyleSolid, borderThick, borderThin, borderTop, borderTopColor, borderTopDashed, borderTopDotted, borderTopDouble, borderTopGroove, borderTopHidden, borderTopInset, borderTopLeftRadius, borderTopLeftRadiusPx, borderTopLeftRadiusRem, borderTopMedium, borderTopNone, borderTopOutset, borderTopPx, borderTopRem, borderTopRidge, borderTopRightRadius, borderTopRightRadiusPx, borderTopRightRadiusRem, borderTopSolid, borderTopStyle, borderTopStyleDashed, borderTopStyleDotted, borderTopStyleDouble, borderTopStyleGroove, borderTopStyleHidden, borderTopStyleInset, borderTopStyleNone, borderTopStyleOutset, borderTopStyleRidge, borderTopStyleSolid, borderTopThick, borderTopThin, borderTopWidth, borderTopWidthMedium, borderTopWidthPx, borderTopWidthRem, borderTopWidthThick, borderTopWidthThin, borderWidth, borderWidthMedium, borderWidthPx, borderWidthRem, borderWidthThick, borderWidthThin, bottom, bottomAuto, bottomPx, bottomRem, boxAlign, boxAlignBaseline, boxAlignCenter, boxAlignEnd, boxAlignStart, boxAlignStretch, boxDecorationBreak, boxDecorationBreakClone, boxDecorationBreakSlice, boxDirection, boxDirectionInherit, boxDirectionNormal, boxDirectionReverse, boxFlex, boxFlexGroup, boxLines, boxLinesMultiple, boxLinesSingle, boxOrdinalGroup, boxOrient, boxOrientBlockAxis, boxOrientHorizontal, boxOrientInherit, boxOrientInlineAxis, boxOrientVertical, boxPack, boxPackCenter, boxPackEnd, boxPackJustify, boxPackStart, boxShadow, boxShadowNone, boxSizing, boxSizingBorderBox, boxSizingContentBox, breakAfter, breakAfterAll, breakAfterAlways, breakAfterAuto, breakAfterAvoid, breakAfterAvoidColumn, breakAfterAvoidPage, breakAfterAvoidRegion, breakAfterColumn, breakAfterLeft, breakAfterPage, breakAfterRecto, breakAfterRegion, breakAfterRight, breakAfterVerso, breakBefore, breakBeforeAll, breakBeforeAlways, breakBeforeAuto, breakBeforeAvoid, breakBeforeAvoidColumn, breakBeforeAvoidPage, breakBeforeAvoidRegion, breakBeforeColumn, breakBeforeLeft, breakBeforePage, breakBeforeRecto, breakBeforeRegion, breakBeforeRight, breakBeforeVerso, breakInside, breakInsideAuto, breakInsideAvoid, breakInsideAvoidColumn, breakInsideAvoidPage, breakInsideAvoidRegion, captionSide, captionSideBlockEnd, captionSideBlockStart, captionSideBottom, captionSideInlineEnd, captionSideInlineStart, captionSideTop, caret, caretAuto, caretBar, caretBlock, caretColor, caretColorAuto, caretShape, caretShapeAuto, caretShapeBar, caretShapeBlock, caretShapeUnderscore, caretUnderscore, clear, clearBoth, clearInlineEnd, clearInlineStart, clearLeft, clearNone, clearRight, clip, clipAuto, clipPath, clipPathFillBox, clipPathNone, clipPathStrokeBox, clipPathViewBox, color, colorScheme, columnCount, columnCountAuto, columnFill, columnFillAuto, columnFillBalance, columnFillBalanceAll, columnGap, columnGapNormal, columnGapPx, columnGapRem, columnRule, columnRuleColor, columnRuleDashed, columnRuleDotted, columnRuleDouble, columnRuleGroove, columnRuleHidden, columnRuleInset, columnRuleMedium, columnRuleNone, columnRuleOutset, columnRulePx, columnRuleRem, columnRuleRidge, columnRuleSolid, columnRuleStyle, columnRuleStyleDashed, columnRuleStyleDotted, columnRuleStyleDouble, columnRuleStyleGroove, columnRuleStyleHidden, columnRuleStyleInset, columnRuleStyleNone, columnRuleStyleOutset, columnRuleStyleRidge, columnRuleStyleSolid, columnRuleThick, columnRuleThin, columnRuleWidth, columnRuleWidthMedium, columnRuleWidthPx, columnRuleWidthRem, columnRuleWidthThick, columnRuleWidthThin, columnSpan, columnSpanAll, columnSpanNone, columnWidth, columnWidthAuto, columnWidthPx, columnWidthRem, columns, columnsAuto, columnsPx, columnsRem, contain, containContent, containInlineSize, containIntrinsicBlockSize, containIntrinsicBlockSizeNone, containIntrinsicBlockSizePx, containIntrinsicBlockSizeRem, containIntrinsicHeight, containIntrinsicHeightNone, containIntrinsicHeightPx, containIntrinsicHeightRem, containIntrinsicInlineSize, containIntrinsicInlineSizeNone, containIntrinsicInlineSizePx, containIntrinsicInlineSizeRem, containIntrinsicSize, containIntrinsicSizeNone, containIntrinsicSizePx, containIntrinsicSizeRem, containIntrinsicWidth, containIntrinsicWidthNone, containIntrinsicWidthPx, containIntrinsicWidthRem, containLayout, containNone, containPaint, containSize, containStrict, containStyle, container, containerName, containerNameNone, containerType, containerTypeInlineSize, containerTypeNormal, containerTypeSize, content, contentVisibility, contentVisibilityAuto, contentVisibilityHidden, contentVisibilityVisible, counterIncrement, counterIncrementNone, counterReset, counterResetNone, counterSet, counterSetNone, cursor, direction, directionLtr, directionRtl, display, displayBlock, displayContents, displayFlex, displayFlow, displayFlowRoot, displayGrid, displayInline, displayInlineBlock, displayInlineFlex, displayInlineGrid, displayInlineListItem, displayInlineTable, displayNone, displayRuby, displayRubyBase, displayRubyBaseContainer, displayRubyText, displayRubyTextContainer, displayRunIn, displayTable, displayTableCaption, displayTableCell, displayTableColumn, displayTableColumnGroup, displayTableFooterGroup, displayTableHeaderGroup, displayTableRow, displayTableRowGroup, emptyCells, emptyCellsHide, emptyCellsShow, filter, filterNone, flex, flexBasis, flexBasisAuto, flexBasisContent, flexBasisFitContent, flexBasisMaxContent, flexBasisMinContent, flexBasisPx, flexBasisRem, flexDirection, flexDirectionColumn, flexDirectionColumnReverse, flexDirectionRow, flexDirectionRowReverse, flexFlow, flexFlowColumn, flexFlowColumnReverse, flexFlowNowrap, flexFlowRow, flexFlowRowReverse, flexFlowWrap, flexFlowWrapReverse, flexGrow, flexShrink, flexWrap, flexWrapNowrap, flexWrapWrap, flexWrapWrapReverse, float, floatInlineEnd, floatInlineStart, floatLeft, floatNone, floatRight, font, fontFamily, fontFeatureSettings, fontFeatureSettingsNormal, fontKerning, fontKerningAuto, fontKerningNone, fontKerningNormal, fontLanguageOverride, fontLanguageOverrideNormal, fontOpticalSizing, fontOpticalSizingAuto, fontOpticalSizingNone, fontPalette, fontPaletteDark, fontPaletteLight, fontPaletteNormal, fontSize, fontSizeAdjust, fontSizeAdjustFromFont, fontSizeAdjustNone, fontSizeLarge, fontSizeLarger, fontSizeMedium, fontSizePx, fontSizeRem, fontSizeSmall, fontSizeSmaller, fontSizeXLarge, fontSizeXSmall, fontSizeXxLarge, fontSizeXxSmall, fontSizeXxxLarge, fontSmooth, fontSmoothAlways, fontSmoothAuto, fontSmoothLarge, fontSmoothMedium, fontSmoothNever, fontSmoothPx, fontSmoothRem, fontSmoothSmall, fontSmoothXLarge, fontSmoothXSmall, fontSmoothXxLarge, fontSmoothXxSmall, fontSmoothXxxLarge, fontStretch, fontStretchCondensed, fontStretchExpanded, fontStretchExtraCondensed, fontStretchExtraExpanded, fontStretchNormal, fontStretchSemiCondensed, fontStretchSemiExpanded, fontStretchUltraCondensed, fontStretchUltraExpanded, fontStyle, fontStyleItalic, fontStyleNormal, fontStyleOblique, fontSynthesis, fontSynthesisPosition, fontSynthesisPositionAuto, fontSynthesisPositionNone, fontSynthesisSmallCaps, fontSynthesisSmallCapsAuto, fontSynthesisSmallCapsNone, fontSynthesisStyle, fontSynthesisStyleAuto, fontSynthesisStyleNone, fontSynthesisWeight, fontSynthesisWeightAuto, fontSynthesisWeightNone, fontVariant, fontVariantAlternates, fontVariantCaps, fontVariantCapsAllPetiteCaps, fontVariantCapsAllSmallCaps, fontVariantCapsNormal, fontVariantCapsPetiteCaps, fontVariantCapsSmallCaps, fontVariantCapsTitlingCaps, fontVariantCapsUnicase, fontVariantEastAsian, fontVariantEastAsianFullWidth, fontVariantEastAsianJis04, fontVariantEastAsianJis78, fontVariantEastAsianJis83, fontVariantEastAsianJis90, fontVariantEastAsianNormal, fontVariantEastAsianProportionalWidth, fontVariantEastAsianRuby, fontVariantEastAsianSimplified, fontVariantEastAsianTraditional, fontVariantEmoji, fontVariantEmojiEmoji, fontVariantEmojiNormal, fontVariantEmojiText, fontVariantEmojiUnicode, fontVariantLigatures, fontVariantLigaturesCommonLigatures, fontVariantLigaturesContextual, fontVariantLigaturesDiscretionaryLigatures, fontVariantLigaturesHistoricalLigatures, fontVariantLigaturesNoCommonLigatures, fontVariantLigaturesNoContextual, fontVariantLigaturesNoDiscretionaryLigatures, fontVariantLigaturesNoHistoricalLigatures, fontVariantLigaturesNone, fontVariantLigaturesNormal, fontVariantNumeric, fontVariantNumericDiagonalFractions, fontVariantNumericLiningNums, fontVariantNumericNormal, fontVariantNumericOldstyleNums, fontVariantNumericOrdinal, fontVariantNumericProportionalNums, fontVariantNumericSlashedZero, fontVariantNumericStackedFractions, fontVariantNumericTabularNums, fontVariantPosition, fontVariantPositionNormal, fontVariantPositionSub, fontVariantPositionSuper, fontVariationSettings, fontVariationSettingsNormal, fontWeight, fontWeightBolder, fontWeightLighter, forcedColorAdjust, forcedColorAdjustAuto, forcedColorAdjustNone, gap, gapNormal, gapPx, gapRem, grid, gridArea, gridAutoColumns, gridAutoFlow, gridAutoFlowColumn, gridAutoFlowDense, gridAutoFlowRow, gridAutoRows, gridColumn, gridColumnEnd, gridColumnGap, gridColumnGapPx, gridColumnGapRem, gridColumnStart, gridGap, gridGapPx, gridGapRem, gridRow, gridRowEnd, gridRowGap, gridRowGapPx, gridRowGapRem, gridRowStart, gridTemplate, gridTemplateAreas, gridTemplateAreasNone, gridTemplateColumns, gridTemplateColumnsNone, gridTemplateColumnsSubgrid, gridTemplateRows, gridTemplateRowsNone, gridTemplateRowsSubgrid, hangingPunctuation, hangingPunctuationAllowEnd, hangingPunctuationFirst, hangingPunctuationForceEnd, hangingPunctuationLast, hangingPunctuationNone, height, heightAuto, heightFitContent, heightMaxContent, heightMinContent, heightPx, heightRem, hyphenateCharacter, hyphenateCharacterAuto, hyphenateLimitChars, hyphenateLimitCharsAuto, hyphens, hyphensAuto, hyphensManual, hyphensNone, imageOrientation, imageOrientationFlip, imageOrientationFromImage, imageRendering, imageRenderingAuto, imageRenderingCrispEdges, imageRenderingPixelated, imageResolution, imeMode, imeModeActive, imeModeAuto, imeModeDisabled, imeModeInactive, imeModeNormal, initialLetter, initialLetterAlign, initialLetterAlignAlphabetic, initialLetterAlignAuto, initialLetterAlignHanging, initialLetterAlignIdeographic, initialLetterNormal, inlineSize, inlineSizeAuto, inlineSizeFitContent, inlineSizeMaxContent, inlineSizeMinContent, inlineSizePx, inlineSizeRem, inputSecurity, inputSecurityAuto, inputSecurityNone, inset, insetAuto, insetBlock, insetBlockAuto, insetBlockEnd, insetBlockEndAuto, insetBlockEndPx, insetBlockEndRem, insetBlockPx, insetBlockRem, insetBlockStart, insetBlockStartAuto, insetBlockStartPx, insetBlockStartRem, insetInline, insetInlineAuto, insetInlineEnd, insetInlineEndAuto, insetInlineEndPx, insetInlineEndRem, insetInlinePx, insetInlineRem, insetInlineStart, insetInlineStartAuto, insetInlineStartPx, insetInlineStartRem, insetPx, insetRem, isolation, isolationAuto, isolationIsolate, justifyContent, justifyContentCenter, justifyContentEnd, justifyContentFlexEnd, justifyContentFlexStart, justifyContentLeft, justifyContentNormal, justifyContentRight, justifyContentSpaceAround, justifyContentSpaceBetween, justifyContentSpaceEvenly, justifyContentStart, justifyContentStretch, justifyItems, justifySelf, justifySelfAuto, justifySelfBaseline, justifySelfCenter, justifySelfEnd, justifySelfFlexEnd, justifySelfFlexStart, justifySelfLeft, justifySelfNormal, justifySelfRight, justifySelfSelfEnd, justifySelfSelfStart, justifySelfStart, justifySelfStretch, justifyTracks, left, leftAuto, leftPx, leftRem, letterSpacing, letterSpacingNormal, letterSpacingPx, letterSpacingRem, lineBreak, lineBreakAnywhere, lineBreakAuto, lineBreakLoose, lineBreakNormal, lineBreakStrict, lineClamp, lineClampNone, lineHeight, lineHeightNormal, lineHeightPx, lineHeightRem, lineHeightStep, lineHeightStepPx, lineHeightStepRem, listStyle, listStyleImage, listStyleImageNone, listStyleInside, listStyleNone, listStyleOutside, listStylePosition, listStylePositionInside, listStylePositionOutside, listStyleType, listStyleTypeNone, margin, marginAuto, marginBlock, marginBlockAuto, marginBlockEnd, marginBlockEndAuto, marginBlockEndPx, marginBlockEndRem, marginBlockPx, marginBlockRem, marginBlockStart, marginBlockStartAuto, marginBlockStartPx, marginBlockStartRem, marginBottom, marginBottomAuto, marginBottomPx, marginBottomRem, marginInline, marginInlineAuto, marginInlineEnd, marginInlineEndAuto, marginInlineEndPx, marginInlineEndRem, marginInlinePx, marginInlineRem, marginInlineStart, marginInlineStartAuto, marginInlineStartPx, marginInlineStartRem, marginLeft, marginLeftAuto, marginLeftPx, marginLeftRem, marginPx, marginRem, marginRight, marginRightAuto, marginRightPx, marginRightRem, marginTop, marginTopAuto, marginTopPx, marginTopRem, marginTrim, marginTrimAll, marginTrimInFlow, marginTrimNone, mask, maskBorder, maskBorderMode, maskBorderModeAlpha, maskBorderModeLuminance, maskBorderOutset, maskBorderOutsetPx, maskBorderOutsetRem, maskBorderRepeat, maskBorderRepeatRepeat, maskBorderRepeatRound, maskBorderRepeatSpace, maskBorderRepeatStretch, maskBorderSlice, maskBorderSource, maskBorderSourceNone, maskBorderWidth, maskBorderWidthAuto, maskBorderWidthPx, maskBorderWidthRem, maskClip, maskComposite, maskImage, maskMode, maskOrigin, maskPosition, maskRepeat, maskSize, maskType, maskTypeAlpha, maskTypeLuminance, masonryAutoFlow, masonryAutoFlowDefiniteFirst, masonryAutoFlowNext, masonryAutoFlowOrdered, masonryAutoFlowPack, mathDepth, mathDepthAutoAdd, mathShift, mathShiftCompact, mathShiftNormal, mathStyle, mathStyleCompact, mathStyleNormal, maxBlockSize, maxBlockSizeFitContent, maxBlockSizeMaxContent, maxBlockSizeMinContent, maxBlockSizeNone, maxBlockSizePx, maxBlockSizeRem, maxHeight, maxHeightFitContent, maxHeightMaxContent, maxHeightMinContent, maxHeightNone, maxHeightPx, maxHeightRem, maxInlineSize, maxInlineSizeFitContent, maxInlineSizeMaxContent, maxInlineSizeMinContent, maxInlineSizeNone, maxInlineSizePx, maxInlineSizeRem, maxLines, maxLinesNone, maxWidth, maxWidthFitContent, maxWidthMaxContent, maxWidthMinContent, maxWidthNone, maxWidthPx, maxWidthRem, minBlockSize, minBlockSizeAuto, minBlockSizeFitContent, minBlockSizeMaxContent, minBlockSizeMinContent, minBlockSizePx, minBlockSizeRem, minHeight, minHeightAuto, minHeightFitContent, minHeightMaxContent, minHeightMinContent, minHeightPx, minHeightRem, minInlineSize, minInlineSizeAuto, minInlineSizeFitContent, minInlineSizeMaxContent, minInlineSizeMinContent, minInlineSizePx, minInlineSizeRem, minWidth, minWidthAuto, minWidthFitContent, minWidthMaxContent, minWidthMinContent, minWidthPx, minWidthRem, mixBlendMode, mixBlendModeColor, mixBlendModeColorBurn, mixBlendModeColorDodge, mixBlendModeDarken, mixBlendModeDifference, mixBlendModeExclusion, mixBlendModeHardLight, mixBlendModeHue, mixBlendModeLighten, mixBlendModeLuminosity, mixBlendModeMultiply, mixBlendModeNormal, mixBlendModeOverlay, mixBlendModePlusLighter, mixBlendModeSaturation, mixBlendModeScreen, mixBlendModeSoftLight, objectFit, objectFitContain, objectFitCover, objectFitFill, objectFitNone, objectFitScaleDown, objectPosition, offset, offsetAnchor, offsetAnchorAuto, offsetDistance, offsetDistancePx, offsetDistanceRem, offsetPath, offsetPathNone, offsetPosition, offsetPositionAuto, offsetPositionNormal, offsetRotate, offsetRotateAuto, offsetRotateReverse, opacity, order, orphans, outline, outlineAuto, outlineColor, outlineColorAuto, outlineDashed, outlineDotted, outlineDouble, outlineGroove, outlineHidden, outlineInset, outlineMedium, outlineNone, outlineOffset, outlineOffsetPx, outlineOffsetRem, outlineOutset, outlinePx, outlineRem, outlineRidge, outlineSolid, outlineStyle, outlineStyleAuto, outlineStyleDashed, outlineStyleDotted, outlineStyleDouble, outlineStyleGroove, outlineStyleHidden, outlineStyleInset, outlineStyleNone, outlineStyleOutset, outlineStyleRidge, outlineStyleSolid, outlineThick, outlineThin, outlineWidth, outlineWidthMedium, outlineWidthPx, outlineWidthRem, outlineWidthThick, outlineWidthThin, overflow, overflowAnchor, overflowAnchorAuto, overflowAnchorNone, overflowAuto, overflowBlock, overflowBlockAuto, overflowBlockClip, overflowBlockHidden, overflowBlockScroll, overflowBlockVisible, overflowClip, overflowClipBox, overflowClipBoxContentBox, overflowClipBoxPaddingBox, overflowClipMargin, overflowHidden, overflowInline, overflowInlineAuto, overflowInlineClip, overflowInlineHidden, overflowInlineScroll, overflowInlineVisible, overflowScroll, overflowVisible, overflowWrap, overflowWrapAnywhere, overflowWrapBreakWord, overflowWrapNormal, overflowX, overflowXAuto, overflowXClip, overflowXHidden, overflowXScroll, overflowXVisible, overflowY, overflowYAuto, overflowYClip, overflowYHidden, overflowYScroll, overflowYVisible, overlay, overlayAuto, overlayNone, overscrollBehavior, overscrollBehaviorAuto, overscrollBehaviorBlock, overscrollBehaviorBlockAuto, overscrollBehaviorBlockContain, overscrollBehaviorBlockNone, overscrollBehaviorContain, overscrollBehaviorInline, overscrollBehaviorInlineAuto, overscrollBehaviorInlineContain, overscrollBehaviorInlineNone, overscrollBehaviorNone, overscrollBehaviorX, overscrollBehaviorXAuto, overscrollBehaviorXContain, overscrollBehaviorXNone, overscrollBehaviorY, overscrollBehaviorYAuto, overscrollBehaviorYContain, overscrollBehaviorYNone, padding, paddingBlock, paddingBlockEnd, paddingBlockEndPx, paddingBlockEndRem, paddingBlockPx, paddingBlockRem, paddingBlockStart, paddingBlockStartPx, paddingBlockStartRem, paddingBottom, paddingBottomPx, paddingBottomRem, paddingInline, paddingInlineEnd, paddingInlineEndPx, paddingInlineEndRem, paddingInlinePx, paddingInlineRem, paddingInlineStart, paddingInlineStartPx, paddingInlineStartRem, paddingLeft, paddingLeftPx, paddingLeftRem, paddingPx, paddingRem, paddingRight, paddingRightPx, paddingRightRem, paddingTop, paddingTopPx, paddingTopRem, page, pageAuto, pageBreakAfter, pageBreakAfterAlways, pageBreakAfterAuto, pageBreakAfterAvoid, pageBreakAfterLeft, pageBreakAfterRecto, pageBreakAfterRight, pageBreakAfterVerso, pageBreakBefore, pageBreakBeforeAlways, pageBreakBeforeAuto, pageBreakBeforeAvoid, pageBreakBeforeLeft, pageBreakBeforeRecto, pageBreakBeforeRight, pageBreakBeforeVerso, pageBreakInside, pageBreakInsideAuto, pageBreakInsideAvoid, paintOrder, paintOrderFill, paintOrderMarkers, paintOrderNormal, paintOrderStroke, perspective, perspectiveNone, perspectiveOrigin, perspectivePx, perspectiveRem, placeContent, placeContentBaseline, placeContentCenter, placeContentEnd, placeContentFlexEnd, placeContentFlexStart, placeContentNormal, placeContentSpaceAround, placeContentSpaceBetween, placeContentSpaceEvenly, placeContentStart, placeContentStretch, placeItems, placeItemsBaseline, placeItemsCenter, placeItemsEnd, placeItemsFlexEnd, placeItemsFlexStart, placeItemsNormal, placeItemsSelfEnd, placeItemsSelfStart, placeItemsStart, placeItemsStretch, placeSelf, placeSelfAuto, placeSelfBaseline, placeSelfCenter, placeSelfEnd, placeSelfFlexEnd, placeSelfFlexStart, placeSelfNormal, placeSelfSelfEnd, placeSelfSelfStart, placeSelfStart, placeSelfStretch, pointerEvents, pointerEventsAll, pointerEventsAuto, pointerEventsFill, pointerEventsInherit, pointerEventsNone, pointerEventsPainted, pointerEventsStroke, pointerEventsVisible, pointerEventsVisibleFill, pointerEventsVisiblePainted, pointerEventsVisibleStroke, position, positionAbsolute, positionFixed, positionRelative, positionStatic, positionSticky, printColorAdjust, printColorAdjustEconomy, printColorAdjustExact, quotes, quotesAuto, quotesNone, resize, resizeBlock, resizeBoth, resizeHorizontal, resizeInline, resizeNone, resizeVertical, right, rightAuto, rightPx, rightRem, rotate, rowGap, rowGapNormal, rowGapPx, rowGapRem, rubyAlign, rubyAlignCenter, rubyAlignSpaceAround, rubyAlignSpaceBetween, rubyAlignStart, rubyMerge, rubyMergeAuto, rubyMergeCollapse, rubyMergeSeparate, rubyPosition, rubyPositionAlternate, rubyPositionInterCharacter, rubyPositionOver, rubyPositionUnder, scale, scaleNone, scrollBehavior, scrollBehaviorAuto, scrollBehaviorSmooth, scrollMargin, scrollMarginBlock, scrollMarginBlockEnd, scrollMarginBlockEndPx, scrollMarginBlockEndRem, scrollMarginBlockPx, scrollMarginBlockRem, scrollMarginBlockStart, scrollMarginBlockStartPx, scrollMarginBlockStartRem, scrollMarginBottom, scrollMarginBottomPx, scrollMarginBottomRem, scrollMarginInline, scrollMarginInlineEnd, scrollMarginInlineEndPx, scrollMarginInlineEndRem, scrollMarginInlinePx, scrollMarginInlineRem, scrollMarginInlineStart, scrollMarginInlineStartPx, scrollMarginInlineStartRem, scrollMarginLeft, scrollMarginLeftPx, scrollMarginLeftRem, scrollMarginPx, scrollMarginRem, scrollMarginRight, scrollMarginRightPx, scrollMarginRightRem, scrollMarginTop, scrollMarginTopPx, scrollMarginTopRem, scrollPadding, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndPx, scrollPaddingBlockEndRem, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartPx, scrollPaddingBlockStartRem, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomPx, scrollPaddingBottomRem, scrollPaddingInline, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndPx, scrollPaddingInlineEndRem, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartPx, scrollPaddingInlineStartRem, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftPx, scrollPaddingLeftRem, scrollPaddingPx, scrollPaddingRem, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightPx, scrollPaddingRightRem, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopPx, scrollPaddingTopRem, scrollSnapAlign, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapAlignStart, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopAlways, scrollSnapStopNormal, scrollSnapType, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapTypeNone, scrollSnapTypeX, scrollSnapTypeXMandatory, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeY, scrollSnapTypeYMandatory, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapType_x, scrollSnapType_y, scrollTimeline, scrollTimelineAxis, scrollTimelineName, scrollTimelineNameNone, scrollbarColor, scrollbarGutter, scrollbarWidth, scrollbarWidthAuto, scrollbarWidthNone, scrollbarWidthThin, shapeImageThreshold, shapeMargin, shapeMarginPx, shapeMarginRem, shapeOutside, shapeOutsideMarginBox, shapeOutsideNone, tabSize, tabSizePx, tabSizeRem, tableLayout, tableLayoutAuto, tableLayoutFixed, textAlign, textAlignCenter, textAlignEnd, textAlignJustify, textAlignLast, textAlignLastAuto, textAlignLastCenter, textAlignLastEnd, textAlignLastJustify, textAlignLastLeft, textAlignLastRight, textAlignLastStart, textAlignLeft, textAlignMatchParent, textAlignRight, textAlignStart, textCombineUpright, textCombineUprightAll, textCombineUprightDigits, textCombineUprightNone, textDecoration, textDecorationBlink, textDecorationColor, textDecorationDashed, textDecorationDotted, textDecorationDouble, textDecorationGrammarError, textDecorationLine, textDecorationLineBlink, textDecorationLineGrammarError, textDecorationLineLineThrough, textDecorationLineNone, textDecorationLineOverline, textDecorationLineSpellingError, textDecorationLineThrough, textDecorationLineUnderline, textDecorationNone, textDecorationOverline, textDecorationSkip, textDecorationSkipBoxDecoration, textDecorationSkipEdges, textDecorationSkipInk, textDecorationSkipInkAll, textDecorationSkipInkAuto, textDecorationSkipInkNone, textDecorationSkipLeadingSpaces, textDecorationSkipNone, textDecorationSkipObjects, textDecorationSkipSpaces, textDecorationSkipTrailingSpaces, textDecorationSolid, textDecorationSpellingError, textDecorationStyle, textDecorationStyleDashed, textDecorationStyleDotted, textDecorationStyleDouble, textDecorationStyleSolid, textDecorationStyleWavy, textDecorationThickness, textDecorationUnderline, textDecorationWavy, textEmphasis, textEmphasisCircle, textEmphasisColor, textEmphasisDot, textEmphasisDoubleCircle, textEmphasisFilled, textEmphasisNone, textEmphasisOpen, textEmphasisPosition, textEmphasisSesame, textEmphasisStyle, textEmphasisStyleCircle, textEmphasisStyleDot, textEmphasisStyleDoubleCircle, textEmphasisStyleFilled, textEmphasisStyleNone, textEmphasisStyleOpen, textEmphasisStyleSesame, textEmphasisStyleTriangle, textEmphasisTriangle, textIndent, textJustify, textJustifyAuto, textJustifyInterCharacter, textJustifyInterWord, textJustifyNone, textOrientation, textOrientationMixed, textOrientationSideways, textOrientationUpright, textOverflow, textOverflowClip, textOverflowEllipsis, textRendering, textRenderingAuto, textRenderingGeometricPrecision, textRenderingOptimizeLegibility, textRenderingOptimizeSpeed, textShadow, textShadowNone, textSizeAdjust, textSizeAdjustAuto, textSizeAdjustNone, textTransform, textTransformCapitalize, textTransformFullSizeKana, textTransformFullWidth, textTransformLowercase, textTransformNone, textTransformUppercase, textUnderlineOffset, textUnderlinePosition, textUnderlinePositionAuto, textUnderlinePositionFromFont, textUnderlinePositionLeft, textUnderlinePositionRight, textUnderlinePositionUnder, textWrap, textWrapBalance, textWrapNowrap, textWrapPretty, textWrapStable, textWrapWrap, timelineScope, timelineScopeNone, top, topAuto, topPx, topRem, touchAction, touchActionAuto, touchActionManipulation, touchActionNone, touchActionPanDown, touchActionPanLeft, touchActionPanRight, touchActionPanUp, touchActionPanX, touchActionPanY, touchActionPinchZoom, transform, transformBox, transformBoxBorderBox, transformBoxContentBox, transformBoxFillBox, transformBoxStrokeBox, transformBoxViewBox, transformNone, transformOrigin, transformStyle, transformStyleFlat, transformStylePreserve3d, transition, transitionBehavior, transitionDelay, transitionDuration, transitionProperty, transitionPropertyNone, transitionTimingFunction, translate, translateNone, translatePx, translateRem, unicodeBidi, unicodeBidiBidiOverride, unicodeBidiEmbed, unicodeBidiIsolate, unicodeBidiIsolateOverride, unicodeBidiNormal, unicodeBidiPlaintext, userSelect, userSelectAll, userSelectAuto, userSelectContain, userSelectNone, userSelectText, verticalAlign, verticalAlignBaseline, verticalAlignBottom, verticalAlignMiddle, verticalAlignPx, verticalAlignRem, verticalAlignSub, verticalAlignSuper, verticalAlignTextBottom, verticalAlignTextTop, verticalAlignTop, viewTimeline, viewTimelineAxis, viewTimelineInset, viewTimelineName, viewTimelineNameNone, viewTransitionName, viewTransitionNameNone, visibility, visibilityCollapse, visibilityHidden, visibilityVisible, whiteSpace, whiteSpaceBalance, whiteSpaceBreakSpaces, whiteSpaceCollapse, whiteSpaceCollapseBreakSpaces, whiteSpaceCollapseCollapse, whiteSpaceCollapseDiscard, whiteSpaceCollapsePreserve, whiteSpaceCollapsePreserveBreaks, whiteSpaceCollapsePreserveSpaces, whiteSpaceDiscard, whiteSpaceNormal, whiteSpaceNowrap, whiteSpacePre, whiteSpacePreLine, whiteSpacePreWrap, whiteSpacePreserve, whiteSpacePreserveBreaks, whiteSpacePreserveSpaces, whiteSpacePretty, whiteSpaceStable, whiteSpaceWrap, whiteSpace_collapse, widows, width, widthAuto, widthFitContent, widthMaxContent, widthMinContent, widthPx, widthRem, willChange, willChangeAuto, wordBreak, wordBreakBreakAll, wordBreakBreakWord, wordBreakKeepAll, wordBreakNormal, wordSpacing, wordSpacingNormal, wordSpacingPx, wordSpacingRem, wordWrap, wordWrapBreakWord, wordWrapNormal, writingMode, writingModeHorizontalTb, writingModeSidewaysLr, writingModeSidewaysRl, writingModeVerticalLr, writingModeVerticalRl, zIndex, zIndexAuto, zoom, zoomNormal, zoomReset)
 
 {-| 
 All functions have been generated from the [MDN data repository](https://github.com/mdn/data), ensuring that you can always use the most recent css features.
@@ -132,7 +132,7 @@ Variants for lengths (currently only "px" and "rem")
 
 ## CSS Scroll Snap
 
-@docs scrollMargin, scrollMarginRem, scrollMarginPx, scrollMarginBlock, scrollMarginBlockRem, scrollMarginBlockPx, scrollMarginBlockEnd, scrollMarginBlockEndRem, scrollMarginBlockEndPx, scrollMarginBlockStart, scrollMarginBlockStartRem, scrollMarginBlockStartPx, scrollMarginBottom, scrollMarginBottomRem, scrollMarginBottomPx, scrollMarginInline, scrollMarginInlineRem, scrollMarginInlinePx, scrollMarginInlineEnd, scrollMarginInlineEndRem, scrollMarginInlineEndPx, scrollMarginInlineStart, scrollMarginInlineStartRem, scrollMarginInlineStartPx, scrollMarginLeft, scrollMarginLeftRem, scrollMarginLeftPx, scrollMarginRight, scrollMarginRightRem, scrollMarginRightPx, scrollMarginTop, scrollMarginTopRem, scrollMarginTopPx, scrollPadding, scrollPaddingPx, scrollPaddingRem, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndRem, scrollPaddingBlockEndPx, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartRem, scrollPaddingBlockStartPx, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomRem, scrollPaddingBottomPx, scrollPaddingInline, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndRem, scrollPaddingInlineEndPx, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartRem, scrollPaddingInlineStartPx, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftRem, scrollPaddingLeftPx, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightRem, scrollPaddingRightPx, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopRem, scrollPaddingTopPx, scrollSnapAlign, scrollSnapAlignStart, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopNormal, scrollSnapStopAlways, scrollSnapType, scrollSnapTypeNone, scrollSnapType_x, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapTypeY, scrollSnapTypeX, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeXMandatory, scrollSnapTypeY, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapTypeYMandatory
+@docs scrollMargin, scrollMarginRem, scrollMarginPx, scrollMarginBlock, scrollMarginBlockRem, scrollMarginBlockPx, scrollMarginBlockEnd, scrollMarginBlockEndRem, scrollMarginBlockEndPx, scrollMarginBlockStart, scrollMarginBlockStartRem, scrollMarginBlockStartPx, scrollMarginBottom, scrollMarginBottomRem, scrollMarginBottomPx, scrollMarginInline, scrollMarginInlineRem, scrollMarginInlinePx, scrollMarginInlineEnd, scrollMarginInlineEndRem, scrollMarginInlineEndPx, scrollMarginInlineStart, scrollMarginInlineStartRem, scrollMarginInlineStartPx, scrollMarginLeft, scrollMarginLeftRem, scrollMarginLeftPx, scrollMarginRight, scrollMarginRightRem, scrollMarginRightPx, scrollMarginTop, scrollMarginTopRem, scrollMarginTopPx, scrollPadding, scrollPaddingPx, scrollPaddingRem, scrollPaddingAuto, scrollPaddingBlock, scrollPaddingBlockPx, scrollPaddingBlockRem, scrollPaddingBlockAuto, scrollPaddingBlockEnd, scrollPaddingBlockEndAuto, scrollPaddingBlockEndRem, scrollPaddingBlockEndPx, scrollPaddingBlockStart, scrollPaddingBlockStartAuto, scrollPaddingBlockStartRem, scrollPaddingBlockStartPx, scrollPaddingBottom, scrollPaddingBottomAuto, scrollPaddingBottomRem, scrollPaddingBottomPx, scrollPaddingInline, scrollPaddingInlinePx, scrollPaddingInlineRem, scrollPaddingInlineAuto, scrollPaddingInlineEnd, scrollPaddingInlineEndAuto, scrollPaddingInlineEndRem, scrollPaddingInlineEndPx, scrollPaddingInlineStart, scrollPaddingInlineStartAuto, scrollPaddingInlineStartRem, scrollPaddingInlineStartPx, scrollPaddingLeft, scrollPaddingLeftAuto, scrollPaddingLeftRem, scrollPaddingLeftPx, scrollPaddingRight, scrollPaddingRightAuto, scrollPaddingRightRem, scrollPaddingRightPx, scrollPaddingTop, scrollPaddingTopAuto, scrollPaddingTopRem, scrollPaddingTopPx, scrollSnapAlign, scrollSnapAlignStart, scrollSnapAlignCenter, scrollSnapAlignEnd, scrollSnapAlignNone, scrollSnapCoordinate, scrollSnapCoordinateNone, scrollSnapDestination, scrollSnapPointsX, scrollSnapPointsY, scrollSnapStop, scrollSnapStopNormal, scrollSnapStopAlways, scrollSnapType, scrollSnapTypeNone, scrollSnapType_x, scrollSnapTypeBlock, scrollSnapTypeBoth, scrollSnapTypeInline, scrollSnapType_y, scrollSnapTypeX, scrollSnapTypeXNone, scrollSnapTypeXProximity, scrollSnapTypeXMandatory, scrollSnapTypeY, scrollSnapTypeYNone, scrollSnapTypeYProximity, scrollSnapTypeYMandatory
 
 ## CSS Scrollbars
 
@@ -208,11 +208,9 @@ import Html
 import Html.Attributes
 
 
-{-| ```
-accentColor : String -> Html.Attribute msg
-accentColor value =
-    Html.Attributes.style "accent-color" value
-```
+{-| CSS property `accent-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/accent-color
 -}
@@ -222,23 +220,19 @@ accentColor value =
 
 
 {-| ```
-accentColorAuto : Html.Attribute msg
-accentColorAuto =
-    Html.Attributes.style "accent-color" "auto"
+accent-color : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/accent-color
 -}
 accentColorAuto : Html.Attribute msg
 accentColorAuto =
-    Html.Attributes.style "accent-color" "auto"
+    accentColor "auto"
 
 
-{-| ```
-alignContent : String -> Html.Attribute msg
-alignContent value =
-    Html.Attributes.style "align-content" value
-```
+{-| CSS property `align-content`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
@@ -248,153 +242,129 @@ alignContent value =
 
 
 {-| ```
-alignContentNormal : Html.Attribute msg
-alignContentNormal =
-    Html.Attributes.style "align-content" "normal"
+align-content : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentNormal : Html.Attribute msg
 alignContentNormal =
-    Html.Attributes.style "align-content" "normal"
+    alignContent "normal"
 
 
 {-| ```
-alignContentSpaceAround : Html.Attribute msg
-alignContentSpaceAround =
-    Html.Attributes.style "align-content" "space-around"
+align-content : space-around
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentSpaceAround : Html.Attribute msg
 alignContentSpaceAround =
-    Html.Attributes.style "align-content" "space-around"
+    alignContent "space-around"
 
 
 {-| ```
-alignContentStretch : Html.Attribute msg
-alignContentStretch =
-    Html.Attributes.style "align-content" "stretch"
+align-content : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentStretch : Html.Attribute msg
 alignContentStretch =
-    Html.Attributes.style "align-content" "stretch"
+    alignContent "stretch"
 
 
 {-| ```
-alignContentSpaceEvenly : Html.Attribute msg
-alignContentSpaceEvenly =
-    Html.Attributes.style "align-content" "space-evenly"
+align-content : space-evenly
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentSpaceEvenly : Html.Attribute msg
 alignContentSpaceEvenly =
-    Html.Attributes.style "align-content" "space-evenly"
+    alignContent "space-evenly"
 
 
 {-| ```
-alignContentSpaceBetween : Html.Attribute msg
-alignContentSpaceBetween =
-    Html.Attributes.style "align-content" "space-between"
+align-content : space-between
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentSpaceBetween : Html.Attribute msg
 alignContentSpaceBetween =
-    Html.Attributes.style "align-content" "space-between"
+    alignContent "space-between"
 
 
 {-| ```
-alignContentCenter : Html.Attribute msg
-alignContentCenter =
-    Html.Attributes.style "align-content" "center"
+align-content : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentCenter : Html.Attribute msg
 alignContentCenter =
-    Html.Attributes.style "align-content" "center"
+    alignContent "center"
 
 
 {-| ```
-alignContentEnd : Html.Attribute msg
-alignContentEnd =
-    Html.Attributes.style "align-content" "end"
+align-content : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentEnd : Html.Attribute msg
 alignContentEnd =
-    Html.Attributes.style "align-content" "end"
+    alignContent "end"
 
 
 {-| ```
-alignContentFlexEnd : Html.Attribute msg
-alignContentFlexEnd =
-    Html.Attributes.style "align-content" "flex-end"
+align-content : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentFlexEnd : Html.Attribute msg
 alignContentFlexEnd =
-    Html.Attributes.style "align-content" "flex-end"
+    alignContent "flex-end"
 
 
 {-| ```
-alignContentFlexStart : Html.Attribute msg
-alignContentFlexStart =
-    Html.Attributes.style "align-content" "flex-start"
+align-content : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentFlexStart : Html.Attribute msg
 alignContentFlexStart =
-    Html.Attributes.style "align-content" "flex-start"
+    alignContent "flex-start"
 
 
 {-| ```
-alignContentStart : Html.Attribute msg
-alignContentStart =
-    Html.Attributes.style "align-content" "start"
+align-content : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentStart : Html.Attribute msg
 alignContentStart =
-    Html.Attributes.style "align-content" "start"
+    alignContent "start"
 
 
 {-| ```
-alignContentBaseline : Html.Attribute msg
-alignContentBaseline =
-    Html.Attributes.style "align-content" "baseline"
+align-content : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-content
 -}
 alignContentBaseline : Html.Attribute msg
 alignContentBaseline =
-    Html.Attributes.style "align-content" "baseline"
+    alignContent "baseline"
 
 
-{-| ```
-alignItems : String -> Html.Attribute msg
-alignItems value =
-    Html.Attributes.style "align-items" value
-```
+{-| CSS property `align-items`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
@@ -404,140 +374,118 @@ alignItems value =
 
 
 {-| ```
-alignItemsNormal : Html.Attribute msg
-alignItemsNormal =
-    Html.Attributes.style "align-items" "normal"
+align-items : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsNormal : Html.Attribute msg
 alignItemsNormal =
-    Html.Attributes.style "align-items" "normal"
+    alignItems "normal"
 
 
 {-| ```
-alignItemsBaseline : Html.Attribute msg
-alignItemsBaseline =
-    Html.Attributes.style "align-items" "baseline"
+align-items : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsBaseline : Html.Attribute msg
 alignItemsBaseline =
-    Html.Attributes.style "align-items" "baseline"
+    alignItems "baseline"
 
 
 {-| ```
-alignItemsStart : Html.Attribute msg
-alignItemsStart =
-    Html.Attributes.style "align-items" "start"
+align-items : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsStart : Html.Attribute msg
 alignItemsStart =
-    Html.Attributes.style "align-items" "start"
+    alignItems "start"
 
 
 {-| ```
-alignItemsSelfStart : Html.Attribute msg
-alignItemsSelfStart =
-    Html.Attributes.style "align-items" "self-start"
+align-items : self-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsSelfStart : Html.Attribute msg
 alignItemsSelfStart =
-    Html.Attributes.style "align-items" "self-start"
+    alignItems "self-start"
 
 
 {-| ```
-alignItemsFlexStart : Html.Attribute msg
-alignItemsFlexStart =
-    Html.Attributes.style "align-items" "flex-start"
+align-items : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsFlexStart : Html.Attribute msg
 alignItemsFlexStart =
-    Html.Attributes.style "align-items" "flex-start"
+    alignItems "flex-start"
 
 
 {-| ```
-alignItemsFlexEnd : Html.Attribute msg
-alignItemsFlexEnd =
-    Html.Attributes.style "align-items" "flex-end"
+align-items : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsFlexEnd : Html.Attribute msg
 alignItemsFlexEnd =
-    Html.Attributes.style "align-items" "flex-end"
+    alignItems "flex-end"
 
 
 {-| ```
-alignItemsSelfEnd : Html.Attribute msg
-alignItemsSelfEnd =
-    Html.Attributes.style "align-items" "self-end"
+align-items : self-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsSelfEnd : Html.Attribute msg
 alignItemsSelfEnd =
-    Html.Attributes.style "align-items" "self-end"
+    alignItems "self-end"
 
 
 {-| ```
-alignItemsEnd : Html.Attribute msg
-alignItemsEnd =
-    Html.Attributes.style "align-items" "end"
+align-items : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsEnd : Html.Attribute msg
 alignItemsEnd =
-    Html.Attributes.style "align-items" "end"
+    alignItems "end"
 
 
 {-| ```
-alignItemsCenter : Html.Attribute msg
-alignItemsCenter =
-    Html.Attributes.style "align-items" "center"
+align-items : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsCenter : Html.Attribute msg
 alignItemsCenter =
-    Html.Attributes.style "align-items" "center"
+    alignItems "center"
 
 
 {-| ```
-alignItemsStretch : Html.Attribute msg
-alignItemsStretch =
-    Html.Attributes.style "align-items" "stretch"
+align-items : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-items
 -}
 alignItemsStretch : Html.Attribute msg
 alignItemsStretch =
-    Html.Attributes.style "align-items" "stretch"
+    alignItems "stretch"
 
 
-{-| ```
-alignSelf : String -> Html.Attribute msg
-alignSelf value =
-    Html.Attributes.style "align-self" value
-```
+{-| CSS property `align-self`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
@@ -547,153 +495,129 @@ alignSelf value =
 
 
 {-| ```
-alignSelfAuto : Html.Attribute msg
-alignSelfAuto =
-    Html.Attributes.style "align-self" "auto"
+align-self : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfAuto : Html.Attribute msg
 alignSelfAuto =
-    Html.Attributes.style "align-self" "auto"
+    alignSelf "auto"
 
 
 {-| ```
-alignSelfStretch : Html.Attribute msg
-alignSelfStretch =
-    Html.Attributes.style "align-self" "stretch"
+align-self : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfStretch : Html.Attribute msg
 alignSelfStretch =
-    Html.Attributes.style "align-self" "stretch"
+    alignSelf "stretch"
 
 
 {-| ```
-alignSelfStart : Html.Attribute msg
-alignSelfStart =
-    Html.Attributes.style "align-self" "start"
+align-self : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfStart : Html.Attribute msg
 alignSelfStart =
-    Html.Attributes.style "align-self" "start"
+    alignSelf "start"
 
 
 {-| ```
-alignSelfSelfStart : Html.Attribute msg
-alignSelfSelfStart =
-    Html.Attributes.style "align-self" "self-start"
+align-self : self-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfSelfStart : Html.Attribute msg
 alignSelfSelfStart =
-    Html.Attributes.style "align-self" "self-start"
+    alignSelf "self-start"
 
 
 {-| ```
-alignSelfFlexStart : Html.Attribute msg
-alignSelfFlexStart =
-    Html.Attributes.style "align-self" "flex-start"
+align-self : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfFlexStart : Html.Attribute msg
 alignSelfFlexStart =
-    Html.Attributes.style "align-self" "flex-start"
+    alignSelf "flex-start"
 
 
 {-| ```
-alignSelfFlexEnd : Html.Attribute msg
-alignSelfFlexEnd =
-    Html.Attributes.style "align-self" "flex-end"
+align-self : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfFlexEnd : Html.Attribute msg
 alignSelfFlexEnd =
-    Html.Attributes.style "align-self" "flex-end"
+    alignSelf "flex-end"
 
 
 {-| ```
-alignSelfSelfEnd : Html.Attribute msg
-alignSelfSelfEnd =
-    Html.Attributes.style "align-self" "self-end"
+align-self : self-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfSelfEnd : Html.Attribute msg
 alignSelfSelfEnd =
-    Html.Attributes.style "align-self" "self-end"
+    alignSelf "self-end"
 
 
 {-| ```
-alignSelfEnd : Html.Attribute msg
-alignSelfEnd =
-    Html.Attributes.style "align-self" "end"
+align-self : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfEnd : Html.Attribute msg
 alignSelfEnd =
-    Html.Attributes.style "align-self" "end"
+    alignSelf "end"
 
 
 {-| ```
-alignSelfCenter : Html.Attribute msg
-alignSelfCenter =
-    Html.Attributes.style "align-self" "center"
+align-self : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfCenter : Html.Attribute msg
 alignSelfCenter =
-    Html.Attributes.style "align-self" "center"
+    alignSelf "center"
 
 
 {-| ```
-alignSelfBaseline : Html.Attribute msg
-alignSelfBaseline =
-    Html.Attributes.style "align-self" "baseline"
+align-self : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfBaseline : Html.Attribute msg
 alignSelfBaseline =
-    Html.Attributes.style "align-self" "baseline"
+    alignSelf "baseline"
 
 
 {-| ```
-alignSelfNormal : Html.Attribute msg
-alignSelfNormal =
-    Html.Attributes.style "align-self" "normal"
+align-self : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/align-self
 -}
 alignSelfNormal : Html.Attribute msg
 alignSelfNormal =
-    Html.Attributes.style "align-self" "normal"
+    alignSelf "normal"
 
 
-{-| ```
-alignTracks : String -> Html.Attribute msg
-alignTracks value =
-    Html.Attributes.style "align-tracks" value
-```
+{-| CSS property `align-tracks`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/align-tracks
 -}
@@ -702,11 +626,9 @@ alignTracks value =
     Html.Attributes.style "align-tracks" value
 
 
-{-| ```
-all : String -> Html.Attribute msg
-all value =
-    Html.Attributes.style "all" value
-```
+{-| CSS property `all`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
@@ -716,75 +638,63 @@ all value =
 
 
 {-| ```
-allInitial : Html.Attribute msg
-allInitial =
-    Html.Attributes.style "all" "initial"
+all : initial
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
 allInitial : Html.Attribute msg
 allInitial =
-    Html.Attributes.style "all" "initial"
+    all "initial"
 
 
 {-| ```
-allUnset : Html.Attribute msg
-allUnset =
-    Html.Attributes.style "all" "unset"
+all : unset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
 allUnset : Html.Attribute msg
 allUnset =
-    Html.Attributes.style "all" "unset"
+    all "unset"
 
 
 {-| ```
-allRevertLayer : Html.Attribute msg
-allRevertLayer =
-    Html.Attributes.style "all" "revert-layer"
+all : revert-layer
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
 allRevertLayer : Html.Attribute msg
 allRevertLayer =
-    Html.Attributes.style "all" "revert-layer"
+    all "revert-layer"
 
 
 {-| ```
-allRevert : Html.Attribute msg
-allRevert =
-    Html.Attributes.style "all" "revert"
+all : revert
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
 allRevert : Html.Attribute msg
 allRevert =
-    Html.Attributes.style "all" "revert"
+    all "revert"
 
 
 {-| ```
-allInherit : Html.Attribute msg
-allInherit =
-    Html.Attributes.style "all" "inherit"
+all : inherit
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/all
 -}
 allInherit : Html.Attribute msg
 allInherit =
-    Html.Attributes.style "all" "inherit"
+    all "inherit"
 
 
-{-| ```
-animation : String -> Html.Attribute msg
-animation value =
-    Html.Attributes.style "animation" value
-```
+{-| CSS property `animation`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation
 -}
@@ -793,11 +703,9 @@ animation value =
     Html.Attributes.style "animation" value
 
 
-{-| ```
-animationComposition : String -> Html.Attribute msg
-animationComposition value =
-    Html.Attributes.style "animation-composition" value
-```
+{-| CSS property `animation-composition`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-composition
 -}
@@ -806,11 +714,9 @@ animationComposition value =
     Html.Attributes.style "animation-composition" value
 
 
-{-| ```
-animationDelay : String -> Html.Attribute msg
-animationDelay value =
-    Html.Attributes.style "animation-delay" value
-```
+{-| CSS property `animation-delay`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-delay
 -}
@@ -819,11 +725,9 @@ animationDelay value =
     Html.Attributes.style "animation-delay" value
 
 
-{-| ```
-animationDirection : String -> Html.Attribute msg
-animationDirection value =
-    Html.Attributes.style "animation-direction" value
-```
+{-| CSS property `animation-direction`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-direction
 -}
@@ -832,11 +736,9 @@ animationDirection value =
     Html.Attributes.style "animation-direction" value
 
 
-{-| ```
-animationDuration : String -> Html.Attribute msg
-animationDuration value =
-    Html.Attributes.style "animation-duration" value
-```
+{-| CSS property `animation-duration`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-duration
 -}
@@ -845,11 +747,9 @@ animationDuration value =
     Html.Attributes.style "animation-duration" value
 
 
-{-| ```
-animationFillMode : String -> Html.Attribute msg
-animationFillMode value =
-    Html.Attributes.style "animation-fill-mode" value
-```
+{-| CSS property `animation-fill-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode
 -}
@@ -858,11 +758,9 @@ animationFillMode value =
     Html.Attributes.style "animation-fill-mode" value
 
 
-{-| ```
-animationIterationCount : String -> Html.Attribute msg
-animationIterationCount value =
-    Html.Attributes.style "animation-iteration-count" value
-```
+{-| CSS property `animation-iteration-count`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count
 -}
@@ -871,11 +769,9 @@ animationIterationCount value =
     Html.Attributes.style "animation-iteration-count" value
 
 
-{-| ```
-animationName : String -> Html.Attribute msg
-animationName value =
-    Html.Attributes.style "animation-name" value
-```
+{-| CSS property `animation-name`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-name
 -}
@@ -884,11 +780,9 @@ animationName value =
     Html.Attributes.style "animation-name" value
 
 
-{-| ```
-animationPlayState : String -> Html.Attribute msg
-animationPlayState value =
-    Html.Attributes.style "animation-play-state" value
-```
+{-| CSS property `animation-play-state`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-play-state
 -}
@@ -897,11 +791,9 @@ animationPlayState value =
     Html.Attributes.style "animation-play-state" value
 
 
-{-| ```
-animationRange : String -> Html.Attribute msg
-animationRange value =
-    Html.Attributes.style "animation-range" value
-```
+{-| CSS property `animation-range`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-range
 -}
@@ -910,11 +802,9 @@ animationRange value =
     Html.Attributes.style "animation-range" value
 
 
-{-| ```
-animationRangeEnd : String -> Html.Attribute msg
-animationRangeEnd value =
-    Html.Attributes.style "animation-range-end" value
-```
+{-| CSS property `animation-range-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-range-end
 -}
@@ -923,11 +813,9 @@ animationRangeEnd value =
     Html.Attributes.style "animation-range-end" value
 
 
-{-| ```
-animationRangeStart : String -> Html.Attribute msg
-animationRangeStart value =
-    Html.Attributes.style "animation-range-start" value
-```
+{-| CSS property `animation-range-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-range-start
 -}
@@ -936,11 +824,9 @@ animationRangeStart value =
     Html.Attributes.style "animation-range-start" value
 
 
-{-| ```
-animationTimeline : String -> Html.Attribute msg
-animationTimeline value =
-    Html.Attributes.style "animation-timeline" value
-```
+{-| CSS property `animation-timeline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-timeline
 -}
@@ -949,11 +835,9 @@ animationTimeline value =
     Html.Attributes.style "animation-timeline" value
 
 
-{-| ```
-animationTimingFunction : String -> Html.Attribute msg
-animationTimingFunction value =
-    Html.Attributes.style "animation-timing-function" value
-```
+{-| CSS property `animation-timing-function`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/animation-timing-function
 -}
@@ -962,11 +846,9 @@ animationTimingFunction value =
     Html.Attributes.style "animation-timing-function" value
 
 
-{-| ```
-appearance : String -> Html.Attribute msg
-appearance value =
-    Html.Attributes.style "appearance" value
-```
+{-| CSS property `appearance`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
@@ -976,218 +858,184 @@ appearance value =
 
 
 {-| ```
-appearanceNone : Html.Attribute msg
-appearanceNone =
-    Html.Attributes.style "appearance" "none"
+appearance : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceNone : Html.Attribute msg
 appearanceNone =
-    Html.Attributes.style "appearance" "none"
+    appearance "none"
 
 
 {-| ```
-appearanceTextfield : Html.Attribute msg
-appearanceTextfield =
-    Html.Attributes.style "appearance" "textfield"
+appearance : textfield
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceTextfield : Html.Attribute msg
 appearanceTextfield =
-    Html.Attributes.style "appearance" "textfield"
+    appearance "textfield"
 
 
 {-| ```
-appearanceTextarea : Html.Attribute msg
-appearanceTextarea =
-    Html.Attributes.style "appearance" "textarea"
+appearance : textarea
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceTextarea : Html.Attribute msg
 appearanceTextarea =
-    Html.Attributes.style "appearance" "textarea"
+    appearance "textarea"
 
 
 {-| ```
-appearanceSliderHorizontal : Html.Attribute msg
-appearanceSliderHorizontal =
-    Html.Attributes.style "appearance" "slider-horizontal"
+appearance : slider-horizontal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceSliderHorizontal : Html.Attribute msg
 appearanceSliderHorizontal =
-    Html.Attributes.style "appearance" "slider-horizontal"
+    appearance "slider-horizontal"
 
 
 {-| ```
-appearanceRadio : Html.Attribute msg
-appearanceRadio =
-    Html.Attributes.style "appearance" "radio"
+appearance : radio
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceRadio : Html.Attribute msg
 appearanceRadio =
-    Html.Attributes.style "appearance" "radio"
+    appearance "radio"
 
 
 {-| ```
-appearanceMenulist : Html.Attribute msg
-appearanceMenulist =
-    Html.Attributes.style "appearance" "menulist"
+appearance : menulist
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceMenulist : Html.Attribute msg
 appearanceMenulist =
-    Html.Attributes.style "appearance" "menulist"
+    appearance "menulist"
 
 
 {-| ```
-appearanceMeter : Html.Attribute msg
-appearanceMeter =
-    Html.Attributes.style "appearance" "meter"
+appearance : meter
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceMeter : Html.Attribute msg
 appearanceMeter =
-    Html.Attributes.style "appearance" "meter"
+    appearance "meter"
 
 
 {-| ```
-appearanceButton : Html.Attribute msg
-appearanceButton =
-    Html.Attributes.style "appearance" "button"
+appearance : button
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceButton : Html.Attribute msg
 appearanceButton =
-    Html.Attributes.style "appearance" "button"
+    appearance "button"
 
 
 {-| ```
-appearanceProgressBar : Html.Attribute msg
-appearanceProgressBar =
-    Html.Attributes.style "appearance" "progress-bar"
+appearance : progress-bar
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceProgressBar : Html.Attribute msg
 appearanceProgressBar =
-    Html.Attributes.style "appearance" "progress-bar"
+    appearance "progress-bar"
 
 
 {-| ```
-appearanceListbox : Html.Attribute msg
-appearanceListbox =
-    Html.Attributes.style "appearance" "listbox"
+appearance : listbox
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceListbox : Html.Attribute msg
 appearanceListbox =
-    Html.Attributes.style "appearance" "listbox"
+    appearance "listbox"
 
 
 {-| ```
-appearanceSquareButton : Html.Attribute msg
-appearanceSquareButton =
-    Html.Attributes.style "appearance" "square-button"
+appearance : square-button
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceSquareButton : Html.Attribute msg
 appearanceSquareButton =
-    Html.Attributes.style "appearance" "square-button"
+    appearance "square-button"
 
 
 {-| ```
-appearanceCheckbox : Html.Attribute msg
-appearanceCheckbox =
-    Html.Attributes.style "appearance" "checkbox"
+appearance : checkbox
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceCheckbox : Html.Attribute msg
 appearanceCheckbox =
-    Html.Attributes.style "appearance" "checkbox"
+    appearance "checkbox"
 
 
 {-| ```
-appearancePushButton : Html.Attribute msg
-appearancePushButton =
-    Html.Attributes.style "appearance" "push-button"
+appearance : push-button
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearancePushButton : Html.Attribute msg
 appearancePushButton =
-    Html.Attributes.style "appearance" "push-button"
+    appearance "push-button"
 
 
 {-| ```
-appearanceSearchfield : Html.Attribute msg
-appearanceSearchfield =
-    Html.Attributes.style "appearance" "searchfield"
+appearance : searchfield
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceSearchfield : Html.Attribute msg
 appearanceSearchfield =
-    Html.Attributes.style "appearance" "searchfield"
+    appearance "searchfield"
 
 
 {-| ```
-appearanceMenulistButton : Html.Attribute msg
-appearanceMenulistButton =
-    Html.Attributes.style "appearance" "menulist-button"
+appearance : menulist-button
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceMenulistButton : Html.Attribute msg
 appearanceMenulistButton =
-    Html.Attributes.style "appearance" "menulist-button"
+    appearance "menulist-button"
 
 
 {-| ```
-appearanceAuto : Html.Attribute msg
-appearanceAuto =
-    Html.Attributes.style "appearance" "auto"
+appearance : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/appearance
 -}
 appearanceAuto : Html.Attribute msg
 appearanceAuto =
-    Html.Attributes.style "appearance" "auto"
+    appearance "auto"
 
 
-{-| ```
-aspectRatio : String -> Html.Attribute msg
-aspectRatio value =
-    Html.Attributes.style "aspect-ratio" value
-```
+{-| CSS property `aspect-ratio`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/aspect-ratio
 -}
@@ -1197,23 +1045,19 @@ aspectRatio value =
 
 
 {-| ```
-aspectRatioAuto : Html.Attribute msg
-aspectRatioAuto =
-    Html.Attributes.style "aspect-ratio" "auto"
+aspect-ratio : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/aspect-ratio
 -}
 aspectRatioAuto : Html.Attribute msg
 aspectRatioAuto =
-    Html.Attributes.style "aspect-ratio" "auto"
+    aspectRatio "auto"
 
 
-{-| ```
-azimuth : String -> Html.Attribute msg
-azimuth value =
-    Html.Attributes.style "azimuth" value
-```
+{-| CSS property `azimuth`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
@@ -1223,166 +1067,140 @@ azimuth value =
 
 
 {-| ```
-azimuthLeftwards : Html.Attribute msg
-azimuthLeftwards =
-    Html.Attributes.style "azimuth" "leftwards"
+azimuth : leftwards
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthLeftwards : Html.Attribute msg
 azimuthLeftwards =
-    Html.Attributes.style "azimuth" "leftwards"
+    azimuth "leftwards"
 
 
 {-| ```
-azimuthRightwards : Html.Attribute msg
-azimuthRightwards =
-    Html.Attributes.style "azimuth" "rightwards"
+azimuth : rightwards
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthRightwards : Html.Attribute msg
 azimuthRightwards =
-    Html.Attributes.style "azimuth" "rightwards"
+    azimuth "rightwards"
 
 
 {-| ```
-azimuthBehind : Html.Attribute msg
-azimuthBehind =
-    Html.Attributes.style "azimuth" "behind"
+azimuth : behind
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthBehind : Html.Attribute msg
 azimuthBehind =
-    Html.Attributes.style "azimuth" "behind"
+    azimuth "behind"
 
 
 {-| ```
-azimuthFarLeft : Html.Attribute msg
-azimuthFarLeft =
-    Html.Attributes.style "azimuth" "far-left"
+azimuth : far-left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthFarLeft : Html.Attribute msg
 azimuthFarLeft =
-    Html.Attributes.style "azimuth" "far-left"
+    azimuth "far-left"
 
 
 {-| ```
-azimuthCenterLeft : Html.Attribute msg
-azimuthCenterLeft =
-    Html.Attributes.style "azimuth" "center-left"
+azimuth : center-left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthCenterLeft : Html.Attribute msg
 azimuthCenterLeft =
-    Html.Attributes.style "azimuth" "center-left"
+    azimuth "center-left"
 
 
 {-| ```
-azimuthCenterRight : Html.Attribute msg
-azimuthCenterRight =
-    Html.Attributes.style "azimuth" "center-right"
+azimuth : center-right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthCenterRight : Html.Attribute msg
 azimuthCenterRight =
-    Html.Attributes.style "azimuth" "center-right"
+    azimuth "center-right"
 
 
 {-| ```
-azimuthFarRight : Html.Attribute msg
-azimuthFarRight =
-    Html.Attributes.style "azimuth" "far-right"
+azimuth : far-right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthFarRight : Html.Attribute msg
 azimuthFarRight =
-    Html.Attributes.style "azimuth" "far-right"
+    azimuth "far-right"
 
 
 {-| ```
-azimuthRightSide : Html.Attribute msg
-azimuthRightSide =
-    Html.Attributes.style "azimuth" "right-side"
+azimuth : right-side
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthRightSide : Html.Attribute msg
 azimuthRightSide =
-    Html.Attributes.style "azimuth" "right-side"
+    azimuth "right-side"
 
 
 {-| ```
-azimuthRight : Html.Attribute msg
-azimuthRight =
-    Html.Attributes.style "azimuth" "right"
+azimuth : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthRight : Html.Attribute msg
 azimuthRight =
-    Html.Attributes.style "azimuth" "right"
+    azimuth "right"
 
 
 {-| ```
-azimuthCenter : Html.Attribute msg
-azimuthCenter =
-    Html.Attributes.style "azimuth" "center"
+azimuth : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthCenter : Html.Attribute msg
 azimuthCenter =
-    Html.Attributes.style "azimuth" "center"
+    azimuth "center"
 
 
 {-| ```
-azimuthLeft : Html.Attribute msg
-azimuthLeft =
-    Html.Attributes.style "azimuth" "left"
+azimuth : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthLeft : Html.Attribute msg
 azimuthLeft =
-    Html.Attributes.style "azimuth" "left"
+    azimuth "left"
 
 
 {-| ```
-azimuthLeftSide : Html.Attribute msg
-azimuthLeftSide =
-    Html.Attributes.style "azimuth" "left-side"
+azimuth : left-side
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/azimuth
 -}
 azimuthLeftSide : Html.Attribute msg
 azimuthLeftSide =
-    Html.Attributes.style "azimuth" "left-side"
+    azimuth "left-side"
 
 
-{-| ```
-backdropFilter : String -> Html.Attribute msg
-backdropFilter value =
-    Html.Attributes.style "backdrop-filter" value
-```
+{-| CSS property `backdrop-filter`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/backdrop-filter
 -}
@@ -1392,23 +1210,19 @@ backdropFilter value =
 
 
 {-| ```
-backdropFilterNone : Html.Attribute msg
-backdropFilterNone =
-    Html.Attributes.style "backdrop-filter" "none"
+backdrop-filter : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/backdrop-filter
 -}
 backdropFilterNone : Html.Attribute msg
 backdropFilterNone =
-    Html.Attributes.style "backdrop-filter" "none"
+    backdropFilter "none"
 
 
-{-| ```
-backfaceVisibility : String -> Html.Attribute msg
-backfaceVisibility value =
-    Html.Attributes.style "backface-visibility" value
-```
+{-| CSS property `backface-visibility`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/backface-visibility
 -}
@@ -1418,36 +1232,30 @@ backfaceVisibility value =
 
 
 {-| ```
-backfaceVisibilityVisible : Html.Attribute msg
-backfaceVisibilityVisible =
-    Html.Attributes.style "backface-visibility" "visible"
+backface-visibility : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/backface-visibility
 -}
 backfaceVisibilityVisible : Html.Attribute msg
 backfaceVisibilityVisible =
-    Html.Attributes.style "backface-visibility" "visible"
+    backfaceVisibility "visible"
 
 
 {-| ```
-backfaceVisibilityHidden : Html.Attribute msg
-backfaceVisibilityHidden =
-    Html.Attributes.style "backface-visibility" "hidden"
+backface-visibility : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/backface-visibility
 -}
 backfaceVisibilityHidden : Html.Attribute msg
 backfaceVisibilityHidden =
-    Html.Attributes.style "backface-visibility" "hidden"
+    backfaceVisibility "hidden"
 
 
-{-| ```
-background : String -> Html.Attribute msg
-background value =
-    Html.Attributes.style "background" value
-```
+{-| CSS property `background`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background
 -}
@@ -1456,11 +1264,9 @@ background value =
     Html.Attributes.style "background" value
 
 
-{-| ```
-backgroundAttachment : String -> Html.Attribute msg
-backgroundAttachment value =
-    Html.Attributes.style "background-attachment" value
-```
+{-| CSS property `background-attachment`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-attachment
 -}
@@ -1469,11 +1275,9 @@ backgroundAttachment value =
     Html.Attributes.style "background-attachment" value
 
 
-{-| ```
-backgroundBlendMode : String -> Html.Attribute msg
-backgroundBlendMode value =
-    Html.Attributes.style "background-blend-mode" value
-```
+{-| CSS property `background-blend-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-blend-mode
 -}
@@ -1482,11 +1286,9 @@ backgroundBlendMode value =
     Html.Attributes.style "background-blend-mode" value
 
 
-{-| ```
-backgroundClip : String -> Html.Attribute msg
-backgroundClip value =
-    Html.Attributes.style "background-clip" value
-```
+{-| CSS property `background-clip`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-clip
 -}
@@ -1495,11 +1297,9 @@ backgroundClip value =
     Html.Attributes.style "background-clip" value
 
 
-{-| ```
-backgroundColor : String -> Html.Attribute msg
-backgroundColor value =
-    Html.Attributes.style "background-color" value
-```
+{-| CSS property `background-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-color
 -}
@@ -1508,11 +1308,9 @@ backgroundColor value =
     Html.Attributes.style "background-color" value
 
 
-{-| ```
-backgroundImage : String -> Html.Attribute msg
-backgroundImage value =
-    Html.Attributes.style "background-image" value
-```
+{-| CSS property `background-image`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-image
 -}
@@ -1521,11 +1319,9 @@ backgroundImage value =
     Html.Attributes.style "background-image" value
 
 
-{-| ```
-backgroundOrigin : String -> Html.Attribute msg
-backgroundOrigin value =
-    Html.Attributes.style "background-origin" value
-```
+{-| CSS property `background-origin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-origin
 -}
@@ -1534,11 +1330,9 @@ backgroundOrigin value =
     Html.Attributes.style "background-origin" value
 
 
-{-| ```
-backgroundPosition : String -> Html.Attribute msg
-backgroundPosition value =
-    Html.Attributes.style "background-position" value
-```
+{-| CSS property `background-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-position
 -}
@@ -1547,11 +1341,9 @@ backgroundPosition value =
     Html.Attributes.style "background-position" value
 
 
-{-| ```
-backgroundPositionX : String -> Html.Attribute msg
-backgroundPositionX value =
-    Html.Attributes.style "background-position-x" value
-```
+{-| CSS property `background-position-x`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-position-x
 -}
@@ -1560,11 +1352,9 @@ backgroundPositionX value =
     Html.Attributes.style "background-position-x" value
 
 
-{-| ```
-backgroundPositionY : String -> Html.Attribute msg
-backgroundPositionY value =
-    Html.Attributes.style "background-position-y" value
-```
+{-| CSS property `background-position-y`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-position-y
 -}
@@ -1573,11 +1363,9 @@ backgroundPositionY value =
     Html.Attributes.style "background-position-y" value
 
 
-{-| ```
-backgroundRepeat : String -> Html.Attribute msg
-backgroundRepeat value =
-    Html.Attributes.style "background-repeat" value
-```
+{-| CSS property `background-repeat`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-repeat
 -}
@@ -1586,11 +1374,9 @@ backgroundRepeat value =
     Html.Attributes.style "background-repeat" value
 
 
-{-| ```
-backgroundSize : String -> Html.Attribute msg
-backgroundSize value =
-    Html.Attributes.style "background-size" value
-```
+{-| CSS property `background-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/background-size
 -}
@@ -1599,11 +1385,9 @@ backgroundSize value =
     Html.Attributes.style "background-size" value
 
 
-{-| ```
-blockSize : String -> Html.Attribute msg
-blockSize value =
-    Html.Attributes.style "block-size" value
-```
+{-| CSS property `block-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
@@ -1613,96 +1397,74 @@ blockSize value =
 
 
 {-| ```
-blockSizeRem : Float -> Html.Attribute msg
-blockSizeRem value =
-    Html.Attributes.style
-        "block-size"
-        (String.append (String.fromFloat value) "rem")
+block-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizeRem : Float -> Html.Attribute msg
 blockSizeRem value =
-    Html.Attributes.style
-        "block-size"
-        (String.append (String.fromFloat value) "rem")
+    blockSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-blockSizePx : Float -> Html.Attribute msg
-blockSizePx value =
-    Html.Attributes.style
-        "block-size"
-        (String.append (String.fromFloat value) "px")
+block-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizePx : Float -> Html.Attribute msg
 blockSizePx value =
-    Html.Attributes.style
-        "block-size"
-        (String.append (String.fromFloat value) "px")
+    blockSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-blockSizeMinContent : Html.Attribute msg
-blockSizeMinContent =
-    Html.Attributes.style "block-size" "min-content"
+block-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizeMinContent : Html.Attribute msg
 blockSizeMinContent =
-    Html.Attributes.style "block-size" "min-content"
+    blockSize "min-content"
 
 
 {-| ```
-blockSizeFitContent : Html.Attribute msg
-blockSizeFitContent =
-    Html.Attributes.style "block-size" "fit-content"
+block-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizeFitContent : Html.Attribute msg
 blockSizeFitContent =
-    Html.Attributes.style "block-size" "fit-content"
+    blockSize "fit-content"
 
 
 {-| ```
-blockSizeMaxContent : Html.Attribute msg
-blockSizeMaxContent =
-    Html.Attributes.style "block-size" "max-content"
+block-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizeMaxContent : Html.Attribute msg
 blockSizeMaxContent =
-    Html.Attributes.style "block-size" "max-content"
+    blockSize "max-content"
 
 
 {-| ```
-blockSizeAuto : Html.Attribute msg
-blockSizeAuto =
-    Html.Attributes.style "block-size" "auto"
+block-size : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/block-size
 -}
 blockSizeAuto : Html.Attribute msg
 blockSizeAuto =
-    Html.Attributes.style "block-size" "auto"
+    blockSize "auto"
 
 
-{-| ```
-border : String -> Html.Attribute msg
-border value =
-    Html.Attributes.style "border" value
-```
+{-| CSS property `border`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
@@ -1712,209 +1474,173 @@ border value =
 
 
 {-| ```
-borderHidden : Html.Attribute msg
-borderHidden =
-    Html.Attributes.style "border" "hidden"
+border : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderHidden : Html.Attribute msg
 borderHidden =
-    Html.Attributes.style "border" "hidden"
+    border "hidden"
 
 
 {-| ```
-borderDashed : Html.Attribute msg
-borderDashed =
-    Html.Attributes.style "border" "dashed"
+border : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderDashed : Html.Attribute msg
 borderDashed =
-    Html.Attributes.style "border" "dashed"
+    border "dashed"
 
 
 {-| ```
-borderDouble : Html.Attribute msg
-borderDouble =
-    Html.Attributes.style "border" "double"
+border : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderDouble : Html.Attribute msg
 borderDouble =
-    Html.Attributes.style "border" "double"
+    border "double"
 
 
 {-| ```
-borderRidge : Html.Attribute msg
-borderRidge =
-    Html.Attributes.style "border" "ridge"
+border : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderRidge : Html.Attribute msg
 borderRidge =
-    Html.Attributes.style "border" "ridge"
+    border "ridge"
 
 
 {-| ```
-borderOutset : Html.Attribute msg
-borderOutset =
-    Html.Attributes.style "border" "outset"
+border : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderOutset : Html.Attribute msg
 borderOutset =
-    Html.Attributes.style "border" "outset"
+    border "outset"
 
 
 {-| ```
-borderInset : Html.Attribute msg
-borderInset =
-    Html.Attributes.style "border" "inset"
+border : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderInset : Html.Attribute msg
 borderInset =
-    Html.Attributes.style "border" "inset"
+    border "inset"
 
 
 {-| ```
-borderGroove : Html.Attribute msg
-borderGroove =
-    Html.Attributes.style "border" "groove"
+border : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderGroove : Html.Attribute msg
 borderGroove =
-    Html.Attributes.style "border" "groove"
+    border "groove"
 
 
 {-| ```
-borderSolid : Html.Attribute msg
-borderSolid =
-    Html.Attributes.style "border" "solid"
+border : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderSolid : Html.Attribute msg
 borderSolid =
-    Html.Attributes.style "border" "solid"
+    border "solid"
 
 
 {-| ```
-borderDotted : Html.Attribute msg
-borderDotted =
-    Html.Attributes.style "border" "dotted"
+border : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderDotted : Html.Attribute msg
 borderDotted =
-    Html.Attributes.style "border" "dotted"
+    border "dotted"
 
 
 {-| ```
-borderNone : Html.Attribute msg
-borderNone =
-    Html.Attributes.style "border" "none"
+border : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderNone : Html.Attribute msg
 borderNone =
-    Html.Attributes.style "border" "none"
+    border "none"
 
 
 {-| ```
-borderThin : Html.Attribute msg
-borderThin =
-    Html.Attributes.style "border" "thin"
+border : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderThin : Html.Attribute msg
 borderThin =
-    Html.Attributes.style "border" "thin"
+    border "thin"
 
 
 {-| ```
-borderThick : Html.Attribute msg
-borderThick =
-    Html.Attributes.style "border" "thick"
+border : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderThick : Html.Attribute msg
 borderThick =
-    Html.Attributes.style "border" "thick"
+    border "thick"
 
 
 {-| ```
-borderMedium : Html.Attribute msg
-borderMedium =
-    Html.Attributes.style "border" "medium"
+border : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderMedium : Html.Attribute msg
 borderMedium =
-    Html.Attributes.style "border" "medium"
+    border "medium"
 
 
 {-| ```
-borderPx : Float -> Html.Attribute msg
-borderPx value =
-    Html.Attributes.style "border" (String.append (String.fromFloat value) "px")
+border : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderPx : Float -> Html.Attribute msg
 borderPx value =
-    Html.Attributes.style "border" (String.append (String.fromFloat value) "px")
+    border (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderRem : Float -> Html.Attribute msg
-borderRem value =
-    Html.Attributes.style
-        "border"
-        (String.append (String.fromFloat value) "rem")
+border : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border
 -}
 borderRem : Float -> Html.Attribute msg
 borderRem value =
-    Html.Attributes.style
-        "border"
-        (String.append (String.fromFloat value) "rem")
+    border (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderBlock : String -> Html.Attribute msg
-borderBlock value =
-    Html.Attributes.style "border-block" value
-```
+{-| CSS property `border-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
@@ -1924,213 +1650,173 @@ borderBlock value =
 
 
 {-| ```
-borderBlockNone : Html.Attribute msg
-borderBlockNone =
-    Html.Attributes.style "border-block" "none"
+border-block : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockNone : Html.Attribute msg
 borderBlockNone =
-    Html.Attributes.style "border-block" "none"
+    borderBlock "none"
 
 
 {-| ```
-borderBlockDotted : Html.Attribute msg
-borderBlockDotted =
-    Html.Attributes.style "border-block" "dotted"
+border-block : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockDotted : Html.Attribute msg
 borderBlockDotted =
-    Html.Attributes.style "border-block" "dotted"
+    borderBlock "dotted"
 
 
 {-| ```
-borderBlockSolid : Html.Attribute msg
-borderBlockSolid =
-    Html.Attributes.style "border-block" "solid"
+border-block : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockSolid : Html.Attribute msg
 borderBlockSolid =
-    Html.Attributes.style "border-block" "solid"
+    borderBlock "solid"
 
 
 {-| ```
-borderBlockGroove : Html.Attribute msg
-borderBlockGroove =
-    Html.Attributes.style "border-block" "groove"
+border-block : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockGroove : Html.Attribute msg
 borderBlockGroove =
-    Html.Attributes.style "border-block" "groove"
+    borderBlock "groove"
 
 
 {-| ```
-borderBlockInset : Html.Attribute msg
-borderBlockInset =
-    Html.Attributes.style "border-block" "inset"
+border-block : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockInset : Html.Attribute msg
 borderBlockInset =
-    Html.Attributes.style "border-block" "inset"
+    borderBlock "inset"
 
 
 {-| ```
-borderBlockOutset : Html.Attribute msg
-borderBlockOutset =
-    Html.Attributes.style "border-block" "outset"
+border-block : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockOutset : Html.Attribute msg
 borderBlockOutset =
-    Html.Attributes.style "border-block" "outset"
+    borderBlock "outset"
 
 
 {-| ```
-borderBlockRidge : Html.Attribute msg
-borderBlockRidge =
-    Html.Attributes.style "border-block" "ridge"
+border-block : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockRidge : Html.Attribute msg
 borderBlockRidge =
-    Html.Attributes.style "border-block" "ridge"
+    borderBlock "ridge"
 
 
 {-| ```
-borderBlockDouble : Html.Attribute msg
-borderBlockDouble =
-    Html.Attributes.style "border-block" "double"
+border-block : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockDouble : Html.Attribute msg
 borderBlockDouble =
-    Html.Attributes.style "border-block" "double"
+    borderBlock "double"
 
 
 {-| ```
-borderBlockDashed : Html.Attribute msg
-borderBlockDashed =
-    Html.Attributes.style "border-block" "dashed"
+border-block : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockDashed : Html.Attribute msg
 borderBlockDashed =
-    Html.Attributes.style "border-block" "dashed"
+    borderBlock "dashed"
 
 
 {-| ```
-borderBlockHidden : Html.Attribute msg
-borderBlockHidden =
-    Html.Attributes.style "border-block" "hidden"
+border-block : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockHidden : Html.Attribute msg
 borderBlockHidden =
-    Html.Attributes.style "border-block" "hidden"
+    borderBlock "hidden"
 
 
 {-| ```
-borderBlockRem : Float -> Html.Attribute msg
-borderBlockRem value =
-    Html.Attributes.style
-        "border-block"
-        (String.append (String.fromFloat value) "rem")
+border-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockRem : Float -> Html.Attribute msg
 borderBlockRem value =
-    Html.Attributes.style
-        "border-block"
-        (String.append (String.fromFloat value) "rem")
+    borderBlock (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockPx : Float -> Html.Attribute msg
-borderBlockPx value =
-    Html.Attributes.style
-        "border-block"
-        (String.append (String.fromFloat value) "px")
+border-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockPx : Float -> Html.Attribute msg
 borderBlockPx value =
-    Html.Attributes.style
-        "border-block"
-        (String.append (String.fromFloat value) "px")
+    borderBlock (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockMedium : Html.Attribute msg
-borderBlockMedium =
-    Html.Attributes.style "border-block" "medium"
+border-block : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockMedium : Html.Attribute msg
 borderBlockMedium =
-    Html.Attributes.style "border-block" "medium"
+    borderBlock "medium"
 
 
 {-| ```
-borderBlockThick : Html.Attribute msg
-borderBlockThick =
-    Html.Attributes.style "border-block" "thick"
+border-block : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockThick : Html.Attribute msg
 borderBlockThick =
-    Html.Attributes.style "border-block" "thick"
+    borderBlock "thick"
 
 
 {-| ```
-borderBlockThin : Html.Attribute msg
-borderBlockThin =
-    Html.Attributes.style "border-block" "thin"
+border-block : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block
 -}
 borderBlockThin : Html.Attribute msg
 borderBlockThin =
-    Html.Attributes.style "border-block" "thin"
+    borderBlock "thin"
 
 
-{-| ```
-borderBlockColor : String -> Html.Attribute msg
-borderBlockColor value =
-    Html.Attributes.style "border-block-color" value
-```
+{-| CSS property `border-block-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-color
 -}
@@ -2139,11 +1825,9 @@ borderBlockColor value =
     Html.Attributes.style "border-block-color" value
 
 
-{-| ```
-borderBlockEnd : String -> Html.Attribute msg
-borderBlockEnd value =
-    Html.Attributes.style "border-block-end" value
-```
+{-| CSS property `border-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
@@ -2153,213 +1837,173 @@ borderBlockEnd value =
 
 
 {-| ```
-borderBlockEndNone : Html.Attribute msg
-borderBlockEndNone =
-    Html.Attributes.style "border-block-end" "none"
+border-block-end : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndNone : Html.Attribute msg
 borderBlockEndNone =
-    Html.Attributes.style "border-block-end" "none"
+    borderBlockEnd "none"
 
 
 {-| ```
-borderBlockEndDotted : Html.Attribute msg
-borderBlockEndDotted =
-    Html.Attributes.style "border-block-end" "dotted"
+border-block-end : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndDotted : Html.Attribute msg
 borderBlockEndDotted =
-    Html.Attributes.style "border-block-end" "dotted"
+    borderBlockEnd "dotted"
 
 
 {-| ```
-borderBlockEndSolid : Html.Attribute msg
-borderBlockEndSolid =
-    Html.Attributes.style "border-block-end" "solid"
+border-block-end : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndSolid : Html.Attribute msg
 borderBlockEndSolid =
-    Html.Attributes.style "border-block-end" "solid"
+    borderBlockEnd "solid"
 
 
 {-| ```
-borderBlockEndGroove : Html.Attribute msg
-borderBlockEndGroove =
-    Html.Attributes.style "border-block-end" "groove"
+border-block-end : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndGroove : Html.Attribute msg
 borderBlockEndGroove =
-    Html.Attributes.style "border-block-end" "groove"
+    borderBlockEnd "groove"
 
 
 {-| ```
-borderBlockEndInset : Html.Attribute msg
-borderBlockEndInset =
-    Html.Attributes.style "border-block-end" "inset"
+border-block-end : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndInset : Html.Attribute msg
 borderBlockEndInset =
-    Html.Attributes.style "border-block-end" "inset"
+    borderBlockEnd "inset"
 
 
 {-| ```
-borderBlockEndOutset : Html.Attribute msg
-borderBlockEndOutset =
-    Html.Attributes.style "border-block-end" "outset"
+border-block-end : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndOutset : Html.Attribute msg
 borderBlockEndOutset =
-    Html.Attributes.style "border-block-end" "outset"
+    borderBlockEnd "outset"
 
 
 {-| ```
-borderBlockEndRidge : Html.Attribute msg
-borderBlockEndRidge =
-    Html.Attributes.style "border-block-end" "ridge"
+border-block-end : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndRidge : Html.Attribute msg
 borderBlockEndRidge =
-    Html.Attributes.style "border-block-end" "ridge"
+    borderBlockEnd "ridge"
 
 
 {-| ```
-borderBlockEndDouble : Html.Attribute msg
-borderBlockEndDouble =
-    Html.Attributes.style "border-block-end" "double"
+border-block-end : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndDouble : Html.Attribute msg
 borderBlockEndDouble =
-    Html.Attributes.style "border-block-end" "double"
+    borderBlockEnd "double"
 
 
 {-| ```
-borderBlockEndDashed : Html.Attribute msg
-borderBlockEndDashed =
-    Html.Attributes.style "border-block-end" "dashed"
+border-block-end : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndDashed : Html.Attribute msg
 borderBlockEndDashed =
-    Html.Attributes.style "border-block-end" "dashed"
+    borderBlockEnd "dashed"
 
 
 {-| ```
-borderBlockEndHidden : Html.Attribute msg
-borderBlockEndHidden =
-    Html.Attributes.style "border-block-end" "hidden"
+border-block-end : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndHidden : Html.Attribute msg
 borderBlockEndHidden =
-    Html.Attributes.style "border-block-end" "hidden"
+    borderBlockEnd "hidden"
 
 
 {-| ```
-borderBlockEndRem : Float -> Html.Attribute msg
-borderBlockEndRem value =
-    Html.Attributes.style
-        "border-block-end"
-        (String.append (String.fromFloat value) "rem")
+border-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndRem : Float -> Html.Attribute msg
 borderBlockEndRem value =
-    Html.Attributes.style
-        "border-block-end"
-        (String.append (String.fromFloat value) "rem")
+    borderBlockEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockEndPx : Float -> Html.Attribute msg
-borderBlockEndPx value =
-    Html.Attributes.style
-        "border-block-end"
-        (String.append (String.fromFloat value) "px")
+border-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndPx : Float -> Html.Attribute msg
 borderBlockEndPx value =
-    Html.Attributes.style
-        "border-block-end"
-        (String.append (String.fromFloat value) "px")
+    borderBlockEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockEndMedium : Html.Attribute msg
-borderBlockEndMedium =
-    Html.Attributes.style "border-block-end" "medium"
+border-block-end : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndMedium : Html.Attribute msg
 borderBlockEndMedium =
-    Html.Attributes.style "border-block-end" "medium"
+    borderBlockEnd "medium"
 
 
 {-| ```
-borderBlockEndThick : Html.Attribute msg
-borderBlockEndThick =
-    Html.Attributes.style "border-block-end" "thick"
+border-block-end : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndThick : Html.Attribute msg
 borderBlockEndThick =
-    Html.Attributes.style "border-block-end" "thick"
+    borderBlockEnd "thick"
 
 
 {-| ```
-borderBlockEndThin : Html.Attribute msg
-borderBlockEndThin =
-    Html.Attributes.style "border-block-end" "thin"
+border-block-end : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end
 -}
 borderBlockEndThin : Html.Attribute msg
 borderBlockEndThin =
-    Html.Attributes.style "border-block-end" "thin"
+    borderBlockEnd "thin"
 
 
-{-| ```
-borderBlockEndColor : String -> Html.Attribute msg
-borderBlockEndColor value =
-    Html.Attributes.style "border-block-end-color" value
-```
+{-| CSS property `border-block-end-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-color
 -}
@@ -2368,11 +2012,9 @@ borderBlockEndColor value =
     Html.Attributes.style "border-block-end-color" value
 
 
-{-| ```
-borderBlockEndStyle : String -> Html.Attribute msg
-borderBlockEndStyle value =
-    Html.Attributes.style "border-block-end-style" value
-```
+{-| CSS property `border-block-end-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
@@ -2382,140 +2024,118 @@ borderBlockEndStyle value =
 
 
 {-| ```
-borderBlockEndStyleNone : Html.Attribute msg
-borderBlockEndStyleNone =
-    Html.Attributes.style "border-block-end-style" "none"
+border-block-end-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleNone : Html.Attribute msg
 borderBlockEndStyleNone =
-    Html.Attributes.style "border-block-end-style" "none"
+    borderBlockEndStyle "none"
 
 
 {-| ```
-borderBlockEndStyleDotted : Html.Attribute msg
-borderBlockEndStyleDotted =
-    Html.Attributes.style "border-block-end-style" "dotted"
+border-block-end-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleDotted : Html.Attribute msg
 borderBlockEndStyleDotted =
-    Html.Attributes.style "border-block-end-style" "dotted"
+    borderBlockEndStyle "dotted"
 
 
 {-| ```
-borderBlockEndStyleSolid : Html.Attribute msg
-borderBlockEndStyleSolid =
-    Html.Attributes.style "border-block-end-style" "solid"
+border-block-end-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleSolid : Html.Attribute msg
 borderBlockEndStyleSolid =
-    Html.Attributes.style "border-block-end-style" "solid"
+    borderBlockEndStyle "solid"
 
 
 {-| ```
-borderBlockEndStyleGroove : Html.Attribute msg
-borderBlockEndStyleGroove =
-    Html.Attributes.style "border-block-end-style" "groove"
+border-block-end-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleGroove : Html.Attribute msg
 borderBlockEndStyleGroove =
-    Html.Attributes.style "border-block-end-style" "groove"
+    borderBlockEndStyle "groove"
 
 
 {-| ```
-borderBlockEndStyleInset : Html.Attribute msg
-borderBlockEndStyleInset =
-    Html.Attributes.style "border-block-end-style" "inset"
+border-block-end-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleInset : Html.Attribute msg
 borderBlockEndStyleInset =
-    Html.Attributes.style "border-block-end-style" "inset"
+    borderBlockEndStyle "inset"
 
 
 {-| ```
-borderBlockEndStyleOutset : Html.Attribute msg
-borderBlockEndStyleOutset =
-    Html.Attributes.style "border-block-end-style" "outset"
+border-block-end-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleOutset : Html.Attribute msg
 borderBlockEndStyleOutset =
-    Html.Attributes.style "border-block-end-style" "outset"
+    borderBlockEndStyle "outset"
 
 
 {-| ```
-borderBlockEndStyleRidge : Html.Attribute msg
-borderBlockEndStyleRidge =
-    Html.Attributes.style "border-block-end-style" "ridge"
+border-block-end-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleRidge : Html.Attribute msg
 borderBlockEndStyleRidge =
-    Html.Attributes.style "border-block-end-style" "ridge"
+    borderBlockEndStyle "ridge"
 
 
 {-| ```
-borderBlockEndStyleDouble : Html.Attribute msg
-borderBlockEndStyleDouble =
-    Html.Attributes.style "border-block-end-style" "double"
+border-block-end-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleDouble : Html.Attribute msg
 borderBlockEndStyleDouble =
-    Html.Attributes.style "border-block-end-style" "double"
+    borderBlockEndStyle "double"
 
 
 {-| ```
-borderBlockEndStyleDashed : Html.Attribute msg
-borderBlockEndStyleDashed =
-    Html.Attributes.style "border-block-end-style" "dashed"
+border-block-end-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleDashed : Html.Attribute msg
 borderBlockEndStyleDashed =
-    Html.Attributes.style "border-block-end-style" "dashed"
+    borderBlockEndStyle "dashed"
 
 
 {-| ```
-borderBlockEndStyleHidden : Html.Attribute msg
-borderBlockEndStyleHidden =
-    Html.Attributes.style "border-block-end-style" "hidden"
+border-block-end-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-style
 -}
 borderBlockEndStyleHidden : Html.Attribute msg
 borderBlockEndStyleHidden =
-    Html.Attributes.style "border-block-end-style" "hidden"
+    borderBlockEndStyle "hidden"
 
 
-{-| ```
-borderBlockEndWidth : String -> Html.Attribute msg
-borderBlockEndWidth value =
-    Html.Attributes.style "border-block-end-width" value
-```
+{-| CSS property `border-block-end-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
@@ -2525,83 +2145,63 @@ borderBlockEndWidth value =
 
 
 {-| ```
-borderBlockEndWidthRem : Float -> Html.Attribute msg
-borderBlockEndWidthRem value =
-    Html.Attributes.style
-        "border-block-end-width"
-        (String.append (String.fromFloat value) "rem")
+border-block-end-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
 borderBlockEndWidthRem : Float -> Html.Attribute msg
 borderBlockEndWidthRem value =
-    Html.Attributes.style
-        "border-block-end-width"
-        (String.append (String.fromFloat value) "rem")
+    borderBlockEndWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockEndWidthPx : Float -> Html.Attribute msg
-borderBlockEndWidthPx value =
-    Html.Attributes.style
-        "border-block-end-width"
-        (String.append (String.fromFloat value) "px")
+border-block-end-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
 borderBlockEndWidthPx : Float -> Html.Attribute msg
 borderBlockEndWidthPx value =
-    Html.Attributes.style
-        "border-block-end-width"
-        (String.append (String.fromFloat value) "px")
+    borderBlockEndWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockEndWidthMedium : Html.Attribute msg
-borderBlockEndWidthMedium =
-    Html.Attributes.style "border-block-end-width" "medium"
+border-block-end-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
 borderBlockEndWidthMedium : Html.Attribute msg
 borderBlockEndWidthMedium =
-    Html.Attributes.style "border-block-end-width" "medium"
+    borderBlockEndWidth "medium"
 
 
 {-| ```
-borderBlockEndWidthThick : Html.Attribute msg
-borderBlockEndWidthThick =
-    Html.Attributes.style "border-block-end-width" "thick"
+border-block-end-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
 borderBlockEndWidthThick : Html.Attribute msg
 borderBlockEndWidthThick =
-    Html.Attributes.style "border-block-end-width" "thick"
+    borderBlockEndWidth "thick"
 
 
 {-| ```
-borderBlockEndWidthThin : Html.Attribute msg
-borderBlockEndWidthThin =
-    Html.Attributes.style "border-block-end-width" "thin"
+border-block-end-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-end-width
 -}
 borderBlockEndWidthThin : Html.Attribute msg
 borderBlockEndWidthThin =
-    Html.Attributes.style "border-block-end-width" "thin"
+    borderBlockEndWidth "thin"
 
 
-{-| ```
-borderBlockStart : String -> Html.Attribute msg
-borderBlockStart value =
-    Html.Attributes.style "border-block-start" value
-```
+{-| CSS property `border-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
@@ -2611,213 +2211,173 @@ borderBlockStart value =
 
 
 {-| ```
-borderBlockStartNone : Html.Attribute msg
-borderBlockStartNone =
-    Html.Attributes.style "border-block-start" "none"
+border-block-start : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartNone : Html.Attribute msg
 borderBlockStartNone =
-    Html.Attributes.style "border-block-start" "none"
+    borderBlockStart "none"
 
 
 {-| ```
-borderBlockStartDotted : Html.Attribute msg
-borderBlockStartDotted =
-    Html.Attributes.style "border-block-start" "dotted"
+border-block-start : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartDotted : Html.Attribute msg
 borderBlockStartDotted =
-    Html.Attributes.style "border-block-start" "dotted"
+    borderBlockStart "dotted"
 
 
 {-| ```
-borderBlockStartSolid : Html.Attribute msg
-borderBlockStartSolid =
-    Html.Attributes.style "border-block-start" "solid"
+border-block-start : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartSolid : Html.Attribute msg
 borderBlockStartSolid =
-    Html.Attributes.style "border-block-start" "solid"
+    borderBlockStart "solid"
 
 
 {-| ```
-borderBlockStartGroove : Html.Attribute msg
-borderBlockStartGroove =
-    Html.Attributes.style "border-block-start" "groove"
+border-block-start : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartGroove : Html.Attribute msg
 borderBlockStartGroove =
-    Html.Attributes.style "border-block-start" "groove"
+    borderBlockStart "groove"
 
 
 {-| ```
-borderBlockStartInset : Html.Attribute msg
-borderBlockStartInset =
-    Html.Attributes.style "border-block-start" "inset"
+border-block-start : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartInset : Html.Attribute msg
 borderBlockStartInset =
-    Html.Attributes.style "border-block-start" "inset"
+    borderBlockStart "inset"
 
 
 {-| ```
-borderBlockStartOutset : Html.Attribute msg
-borderBlockStartOutset =
-    Html.Attributes.style "border-block-start" "outset"
+border-block-start : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartOutset : Html.Attribute msg
 borderBlockStartOutset =
-    Html.Attributes.style "border-block-start" "outset"
+    borderBlockStart "outset"
 
 
 {-| ```
-borderBlockStartRidge : Html.Attribute msg
-borderBlockStartRidge =
-    Html.Attributes.style "border-block-start" "ridge"
+border-block-start : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartRidge : Html.Attribute msg
 borderBlockStartRidge =
-    Html.Attributes.style "border-block-start" "ridge"
+    borderBlockStart "ridge"
 
 
 {-| ```
-borderBlockStartDouble : Html.Attribute msg
-borderBlockStartDouble =
-    Html.Attributes.style "border-block-start" "double"
+border-block-start : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartDouble : Html.Attribute msg
 borderBlockStartDouble =
-    Html.Attributes.style "border-block-start" "double"
+    borderBlockStart "double"
 
 
 {-| ```
-borderBlockStartDashed : Html.Attribute msg
-borderBlockStartDashed =
-    Html.Attributes.style "border-block-start" "dashed"
+border-block-start : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartDashed : Html.Attribute msg
 borderBlockStartDashed =
-    Html.Attributes.style "border-block-start" "dashed"
+    borderBlockStart "dashed"
 
 
 {-| ```
-borderBlockStartHidden : Html.Attribute msg
-borderBlockStartHidden =
-    Html.Attributes.style "border-block-start" "hidden"
+border-block-start : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartHidden : Html.Attribute msg
 borderBlockStartHidden =
-    Html.Attributes.style "border-block-start" "hidden"
+    borderBlockStart "hidden"
 
 
 {-| ```
-borderBlockStartRem : Float -> Html.Attribute msg
-borderBlockStartRem value =
-    Html.Attributes.style
-        "border-block-start"
-        (String.append (String.fromFloat value) "rem")
+border-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartRem : Float -> Html.Attribute msg
 borderBlockStartRem value =
-    Html.Attributes.style
-        "border-block-start"
-        (String.append (String.fromFloat value) "rem")
+    borderBlockStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockStartPx : Float -> Html.Attribute msg
-borderBlockStartPx value =
-    Html.Attributes.style
-        "border-block-start"
-        (String.append (String.fromFloat value) "px")
+border-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartPx : Float -> Html.Attribute msg
 borderBlockStartPx value =
-    Html.Attributes.style
-        "border-block-start"
-        (String.append (String.fromFloat value) "px")
+    borderBlockStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockStartMedium : Html.Attribute msg
-borderBlockStartMedium =
-    Html.Attributes.style "border-block-start" "medium"
+border-block-start : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartMedium : Html.Attribute msg
 borderBlockStartMedium =
-    Html.Attributes.style "border-block-start" "medium"
+    borderBlockStart "medium"
 
 
 {-| ```
-borderBlockStartThick : Html.Attribute msg
-borderBlockStartThick =
-    Html.Attributes.style "border-block-start" "thick"
+border-block-start : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartThick : Html.Attribute msg
 borderBlockStartThick =
-    Html.Attributes.style "border-block-start" "thick"
+    borderBlockStart "thick"
 
 
 {-| ```
-borderBlockStartThin : Html.Attribute msg
-borderBlockStartThin =
-    Html.Attributes.style "border-block-start" "thin"
+border-block-start : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start
 -}
 borderBlockStartThin : Html.Attribute msg
 borderBlockStartThin =
-    Html.Attributes.style "border-block-start" "thin"
+    borderBlockStart "thin"
 
 
-{-| ```
-borderBlockStartColor : String -> Html.Attribute msg
-borderBlockStartColor value =
-    Html.Attributes.style "border-block-start-color" value
-```
+{-| CSS property `border-block-start-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-color
 -}
@@ -2826,11 +2386,9 @@ borderBlockStartColor value =
     Html.Attributes.style "border-block-start-color" value
 
 
-{-| ```
-borderBlockStartStyle : String -> Html.Attribute msg
-borderBlockStartStyle value =
-    Html.Attributes.style "border-block-start-style" value
-```
+{-| CSS property `border-block-start-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
@@ -2840,140 +2398,118 @@ borderBlockStartStyle value =
 
 
 {-| ```
-borderBlockStartStyleNone : Html.Attribute msg
-borderBlockStartStyleNone =
-    Html.Attributes.style "border-block-start-style" "none"
+border-block-start-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleNone : Html.Attribute msg
 borderBlockStartStyleNone =
-    Html.Attributes.style "border-block-start-style" "none"
+    borderBlockStartStyle "none"
 
 
 {-| ```
-borderBlockStartStyleDotted : Html.Attribute msg
-borderBlockStartStyleDotted =
-    Html.Attributes.style "border-block-start-style" "dotted"
+border-block-start-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleDotted : Html.Attribute msg
 borderBlockStartStyleDotted =
-    Html.Attributes.style "border-block-start-style" "dotted"
+    borderBlockStartStyle "dotted"
 
 
 {-| ```
-borderBlockStartStyleSolid : Html.Attribute msg
-borderBlockStartStyleSolid =
-    Html.Attributes.style "border-block-start-style" "solid"
+border-block-start-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleSolid : Html.Attribute msg
 borderBlockStartStyleSolid =
-    Html.Attributes.style "border-block-start-style" "solid"
+    borderBlockStartStyle "solid"
 
 
 {-| ```
-borderBlockStartStyleGroove : Html.Attribute msg
-borderBlockStartStyleGroove =
-    Html.Attributes.style "border-block-start-style" "groove"
+border-block-start-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleGroove : Html.Attribute msg
 borderBlockStartStyleGroove =
-    Html.Attributes.style "border-block-start-style" "groove"
+    borderBlockStartStyle "groove"
 
 
 {-| ```
-borderBlockStartStyleInset : Html.Attribute msg
-borderBlockStartStyleInset =
-    Html.Attributes.style "border-block-start-style" "inset"
+border-block-start-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleInset : Html.Attribute msg
 borderBlockStartStyleInset =
-    Html.Attributes.style "border-block-start-style" "inset"
+    borderBlockStartStyle "inset"
 
 
 {-| ```
-borderBlockStartStyleOutset : Html.Attribute msg
-borderBlockStartStyleOutset =
-    Html.Attributes.style "border-block-start-style" "outset"
+border-block-start-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleOutset : Html.Attribute msg
 borderBlockStartStyleOutset =
-    Html.Attributes.style "border-block-start-style" "outset"
+    borderBlockStartStyle "outset"
 
 
 {-| ```
-borderBlockStartStyleRidge : Html.Attribute msg
-borderBlockStartStyleRidge =
-    Html.Attributes.style "border-block-start-style" "ridge"
+border-block-start-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleRidge : Html.Attribute msg
 borderBlockStartStyleRidge =
-    Html.Attributes.style "border-block-start-style" "ridge"
+    borderBlockStartStyle "ridge"
 
 
 {-| ```
-borderBlockStartStyleDouble : Html.Attribute msg
-borderBlockStartStyleDouble =
-    Html.Attributes.style "border-block-start-style" "double"
+border-block-start-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleDouble : Html.Attribute msg
 borderBlockStartStyleDouble =
-    Html.Attributes.style "border-block-start-style" "double"
+    borderBlockStartStyle "double"
 
 
 {-| ```
-borderBlockStartStyleDashed : Html.Attribute msg
-borderBlockStartStyleDashed =
-    Html.Attributes.style "border-block-start-style" "dashed"
+border-block-start-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleDashed : Html.Attribute msg
 borderBlockStartStyleDashed =
-    Html.Attributes.style "border-block-start-style" "dashed"
+    borderBlockStartStyle "dashed"
 
 
 {-| ```
-borderBlockStartStyleHidden : Html.Attribute msg
-borderBlockStartStyleHidden =
-    Html.Attributes.style "border-block-start-style" "hidden"
+border-block-start-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-style
 -}
 borderBlockStartStyleHidden : Html.Attribute msg
 borderBlockStartStyleHidden =
-    Html.Attributes.style "border-block-start-style" "hidden"
+    borderBlockStartStyle "hidden"
 
 
-{-| ```
-borderBlockStartWidth : String -> Html.Attribute msg
-borderBlockStartWidth value =
-    Html.Attributes.style "border-block-start-width" value
-```
+{-| CSS property `border-block-start-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
@@ -2983,83 +2519,63 @@ borderBlockStartWidth value =
 
 
 {-| ```
-borderBlockStartWidthRem : Float -> Html.Attribute msg
-borderBlockStartWidthRem value =
-    Html.Attributes.style
-        "border-block-start-width"
-        (String.append (String.fromFloat value) "rem")
+border-block-start-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
 borderBlockStartWidthRem : Float -> Html.Attribute msg
 borderBlockStartWidthRem value =
-    Html.Attributes.style
-        "border-block-start-width"
-        (String.append (String.fromFloat value) "rem")
+    borderBlockStartWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockStartWidthPx : Float -> Html.Attribute msg
-borderBlockStartWidthPx value =
-    Html.Attributes.style
-        "border-block-start-width"
-        (String.append (String.fromFloat value) "px")
+border-block-start-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
 borderBlockStartWidthPx : Float -> Html.Attribute msg
 borderBlockStartWidthPx value =
-    Html.Attributes.style
-        "border-block-start-width"
-        (String.append (String.fromFloat value) "px")
+    borderBlockStartWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockStartWidthMedium : Html.Attribute msg
-borderBlockStartWidthMedium =
-    Html.Attributes.style "border-block-start-width" "medium"
+border-block-start-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
 borderBlockStartWidthMedium : Html.Attribute msg
 borderBlockStartWidthMedium =
-    Html.Attributes.style "border-block-start-width" "medium"
+    borderBlockStartWidth "medium"
 
 
 {-| ```
-borderBlockStartWidthThick : Html.Attribute msg
-borderBlockStartWidthThick =
-    Html.Attributes.style "border-block-start-width" "thick"
+border-block-start-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
 borderBlockStartWidthThick : Html.Attribute msg
 borderBlockStartWidthThick =
-    Html.Attributes.style "border-block-start-width" "thick"
+    borderBlockStartWidth "thick"
 
 
 {-| ```
-borderBlockStartWidthThin : Html.Attribute msg
-borderBlockStartWidthThin =
-    Html.Attributes.style "border-block-start-width" "thin"
+border-block-start-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-start-width
 -}
 borderBlockStartWidthThin : Html.Attribute msg
 borderBlockStartWidthThin =
-    Html.Attributes.style "border-block-start-width" "thin"
+    borderBlockStartWidth "thin"
 
 
-{-| ```
-borderBlockStyle : String -> Html.Attribute msg
-borderBlockStyle value =
-    Html.Attributes.style "border-block-style" value
-```
+{-| CSS property `border-block-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
@@ -3069,140 +2585,118 @@ borderBlockStyle value =
 
 
 {-| ```
-borderBlockStyleNone : Html.Attribute msg
-borderBlockStyleNone =
-    Html.Attributes.style "border-block-style" "none"
+border-block-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleNone : Html.Attribute msg
 borderBlockStyleNone =
-    Html.Attributes.style "border-block-style" "none"
+    borderBlockStyle "none"
 
 
 {-| ```
-borderBlockStyleDotted : Html.Attribute msg
-borderBlockStyleDotted =
-    Html.Attributes.style "border-block-style" "dotted"
+border-block-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleDotted : Html.Attribute msg
 borderBlockStyleDotted =
-    Html.Attributes.style "border-block-style" "dotted"
+    borderBlockStyle "dotted"
 
 
 {-| ```
-borderBlockStyleSolid : Html.Attribute msg
-borderBlockStyleSolid =
-    Html.Attributes.style "border-block-style" "solid"
+border-block-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleSolid : Html.Attribute msg
 borderBlockStyleSolid =
-    Html.Attributes.style "border-block-style" "solid"
+    borderBlockStyle "solid"
 
 
 {-| ```
-borderBlockStyleGroove : Html.Attribute msg
-borderBlockStyleGroove =
-    Html.Attributes.style "border-block-style" "groove"
+border-block-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleGroove : Html.Attribute msg
 borderBlockStyleGroove =
-    Html.Attributes.style "border-block-style" "groove"
+    borderBlockStyle "groove"
 
 
 {-| ```
-borderBlockStyleInset : Html.Attribute msg
-borderBlockStyleInset =
-    Html.Attributes.style "border-block-style" "inset"
+border-block-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleInset : Html.Attribute msg
 borderBlockStyleInset =
-    Html.Attributes.style "border-block-style" "inset"
+    borderBlockStyle "inset"
 
 
 {-| ```
-borderBlockStyleOutset : Html.Attribute msg
-borderBlockStyleOutset =
-    Html.Attributes.style "border-block-style" "outset"
+border-block-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleOutset : Html.Attribute msg
 borderBlockStyleOutset =
-    Html.Attributes.style "border-block-style" "outset"
+    borderBlockStyle "outset"
 
 
 {-| ```
-borderBlockStyleRidge : Html.Attribute msg
-borderBlockStyleRidge =
-    Html.Attributes.style "border-block-style" "ridge"
+border-block-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleRidge : Html.Attribute msg
 borderBlockStyleRidge =
-    Html.Attributes.style "border-block-style" "ridge"
+    borderBlockStyle "ridge"
 
 
 {-| ```
-borderBlockStyleDouble : Html.Attribute msg
-borderBlockStyleDouble =
-    Html.Attributes.style "border-block-style" "double"
+border-block-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleDouble : Html.Attribute msg
 borderBlockStyleDouble =
-    Html.Attributes.style "border-block-style" "double"
+    borderBlockStyle "double"
 
 
 {-| ```
-borderBlockStyleDashed : Html.Attribute msg
-borderBlockStyleDashed =
-    Html.Attributes.style "border-block-style" "dashed"
+border-block-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleDashed : Html.Attribute msg
 borderBlockStyleDashed =
-    Html.Attributes.style "border-block-style" "dashed"
+    borderBlockStyle "dashed"
 
 
 {-| ```
-borderBlockStyleHidden : Html.Attribute msg
-borderBlockStyleHidden =
-    Html.Attributes.style "border-block-style" "hidden"
+border-block-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-style
 -}
 borderBlockStyleHidden : Html.Attribute msg
 borderBlockStyleHidden =
-    Html.Attributes.style "border-block-style" "hidden"
+    borderBlockStyle "hidden"
 
 
-{-| ```
-borderBlockWidth : String -> Html.Attribute msg
-borderBlockWidth value =
-    Html.Attributes.style "border-block-width" value
-```
+{-| CSS property `border-block-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
@@ -3212,83 +2706,63 @@ borderBlockWidth value =
 
 
 {-| ```
-borderBlockWidthRem : Float -> Html.Attribute msg
-borderBlockWidthRem value =
-    Html.Attributes.style
-        "border-block-width"
-        (String.append (String.fromFloat value) "rem")
+border-block-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
 borderBlockWidthRem : Float -> Html.Attribute msg
 borderBlockWidthRem value =
-    Html.Attributes.style
-        "border-block-width"
-        (String.append (String.fromFloat value) "rem")
+    borderBlockWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderBlockWidthPx : Float -> Html.Attribute msg
-borderBlockWidthPx value =
-    Html.Attributes.style
-        "border-block-width"
-        (String.append (String.fromFloat value) "px")
+border-block-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
 borderBlockWidthPx : Float -> Html.Attribute msg
 borderBlockWidthPx value =
-    Html.Attributes.style
-        "border-block-width"
-        (String.append (String.fromFloat value) "px")
+    borderBlockWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBlockWidthMedium : Html.Attribute msg
-borderBlockWidthMedium =
-    Html.Attributes.style "border-block-width" "medium"
+border-block-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
 borderBlockWidthMedium : Html.Attribute msg
 borderBlockWidthMedium =
-    Html.Attributes.style "border-block-width" "medium"
+    borderBlockWidth "medium"
 
 
 {-| ```
-borderBlockWidthThick : Html.Attribute msg
-borderBlockWidthThick =
-    Html.Attributes.style "border-block-width" "thick"
+border-block-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
 borderBlockWidthThick : Html.Attribute msg
 borderBlockWidthThick =
-    Html.Attributes.style "border-block-width" "thick"
+    borderBlockWidth "thick"
 
 
 {-| ```
-borderBlockWidthThin : Html.Attribute msg
-borderBlockWidthThin =
-    Html.Attributes.style "border-block-width" "thin"
+border-block-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-block-width
 -}
 borderBlockWidthThin : Html.Attribute msg
 borderBlockWidthThin =
-    Html.Attributes.style "border-block-width" "thin"
+    borderBlockWidth "thin"
 
 
-{-| ```
-borderBottom : String -> Html.Attribute msg
-borderBottom value =
-    Html.Attributes.style "border-bottom" value
-```
+{-| CSS property `border-bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
@@ -3298,213 +2772,173 @@ borderBottom value =
 
 
 {-| ```
-borderBottomHidden : Html.Attribute msg
-borderBottomHidden =
-    Html.Attributes.style "border-bottom" "hidden"
+border-bottom : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomHidden : Html.Attribute msg
 borderBottomHidden =
-    Html.Attributes.style "border-bottom" "hidden"
+    borderBottom "hidden"
 
 
 {-| ```
-borderBottomDashed : Html.Attribute msg
-borderBottomDashed =
-    Html.Attributes.style "border-bottom" "dashed"
+border-bottom : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomDashed : Html.Attribute msg
 borderBottomDashed =
-    Html.Attributes.style "border-bottom" "dashed"
+    borderBottom "dashed"
 
 
 {-| ```
-borderBottomDouble : Html.Attribute msg
-borderBottomDouble =
-    Html.Attributes.style "border-bottom" "double"
+border-bottom : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomDouble : Html.Attribute msg
 borderBottomDouble =
-    Html.Attributes.style "border-bottom" "double"
+    borderBottom "double"
 
 
 {-| ```
-borderBottomRidge : Html.Attribute msg
-borderBottomRidge =
-    Html.Attributes.style "border-bottom" "ridge"
+border-bottom : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomRidge : Html.Attribute msg
 borderBottomRidge =
-    Html.Attributes.style "border-bottom" "ridge"
+    borderBottom "ridge"
 
 
 {-| ```
-borderBottomOutset : Html.Attribute msg
-borderBottomOutset =
-    Html.Attributes.style "border-bottom" "outset"
+border-bottom : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomOutset : Html.Attribute msg
 borderBottomOutset =
-    Html.Attributes.style "border-bottom" "outset"
+    borderBottom "outset"
 
 
 {-| ```
-borderBottomInset : Html.Attribute msg
-borderBottomInset =
-    Html.Attributes.style "border-bottom" "inset"
+border-bottom : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomInset : Html.Attribute msg
 borderBottomInset =
-    Html.Attributes.style "border-bottom" "inset"
+    borderBottom "inset"
 
 
 {-| ```
-borderBottomGroove : Html.Attribute msg
-borderBottomGroove =
-    Html.Attributes.style "border-bottom" "groove"
+border-bottom : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomGroove : Html.Attribute msg
 borderBottomGroove =
-    Html.Attributes.style "border-bottom" "groove"
+    borderBottom "groove"
 
 
 {-| ```
-borderBottomSolid : Html.Attribute msg
-borderBottomSolid =
-    Html.Attributes.style "border-bottom" "solid"
+border-bottom : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomSolid : Html.Attribute msg
 borderBottomSolid =
-    Html.Attributes.style "border-bottom" "solid"
+    borderBottom "solid"
 
 
 {-| ```
-borderBottomDotted : Html.Attribute msg
-borderBottomDotted =
-    Html.Attributes.style "border-bottom" "dotted"
+border-bottom : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomDotted : Html.Attribute msg
 borderBottomDotted =
-    Html.Attributes.style "border-bottom" "dotted"
+    borderBottom "dotted"
 
 
 {-| ```
-borderBottomNone : Html.Attribute msg
-borderBottomNone =
-    Html.Attributes.style "border-bottom" "none"
+border-bottom : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomNone : Html.Attribute msg
 borderBottomNone =
-    Html.Attributes.style "border-bottom" "none"
+    borderBottom "none"
 
 
 {-| ```
-borderBottomThin : Html.Attribute msg
-borderBottomThin =
-    Html.Attributes.style "border-bottom" "thin"
+border-bottom : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomThin : Html.Attribute msg
 borderBottomThin =
-    Html.Attributes.style "border-bottom" "thin"
+    borderBottom "thin"
 
 
 {-| ```
-borderBottomThick : Html.Attribute msg
-borderBottomThick =
-    Html.Attributes.style "border-bottom" "thick"
+border-bottom : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomThick : Html.Attribute msg
 borderBottomThick =
-    Html.Attributes.style "border-bottom" "thick"
+    borderBottom "thick"
 
 
 {-| ```
-borderBottomMedium : Html.Attribute msg
-borderBottomMedium =
-    Html.Attributes.style "border-bottom" "medium"
+border-bottom : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomMedium : Html.Attribute msg
 borderBottomMedium =
-    Html.Attributes.style "border-bottom" "medium"
+    borderBottom "medium"
 
 
 {-| ```
-borderBottomPx : Float -> Html.Attribute msg
-borderBottomPx value =
-    Html.Attributes.style
-        "border-bottom"
-        (String.append (String.fromFloat value) "px")
+border-bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomPx : Float -> Html.Attribute msg
 borderBottomPx value =
-    Html.Attributes.style
-        "border-bottom"
-        (String.append (String.fromFloat value) "px")
+    borderBottom (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBottomRem : Float -> Html.Attribute msg
-borderBottomRem value =
-    Html.Attributes.style
-        "border-bottom"
-        (String.append (String.fromFloat value) "rem")
+border-bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom
 -}
 borderBottomRem : Float -> Html.Attribute msg
 borderBottomRem value =
-    Html.Attributes.style
-        "border-bottom"
-        (String.append (String.fromFloat value) "rem")
+    borderBottom (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderBottomColor : String -> Html.Attribute msg
-borderBottomColor value =
-    Html.Attributes.style "border-bottom-color" value
-```
+{-| CSS property `border-bottom-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-color
 -}
@@ -3513,11 +2947,9 @@ borderBottomColor value =
     Html.Attributes.style "border-bottom-color" value
 
 
-{-| ```
-borderBottomLeftRadius : String -> Html.Attribute msg
-borderBottomLeftRadius value =
-    Html.Attributes.style "border-bottom-left-radius" value
-```
+{-| CSS property `border-bottom-left-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius
 -}
@@ -3527,44 +2959,30 @@ borderBottomLeftRadius value =
 
 
 {-| ```
-borderBottomLeftRadiusPx : Float -> Html.Attribute msg
-borderBottomLeftRadiusPx value =
-    Html.Attributes.style
-        "border-bottom-left-radius"
-        (String.append (String.fromFloat value) "px")
+border-bottom-left-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius
 -}
 borderBottomLeftRadiusPx : Float -> Html.Attribute msg
 borderBottomLeftRadiusPx value =
-    Html.Attributes.style
-        "border-bottom-left-radius"
-        (String.append (String.fromFloat value) "px")
+    borderBottomLeftRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBottomLeftRadiusRem : Float -> Html.Attribute msg
-borderBottomLeftRadiusRem value =
-    Html.Attributes.style
-        "border-bottom-left-radius"
-        (String.append (String.fromFloat value) "rem")
+border-bottom-left-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius
 -}
 borderBottomLeftRadiusRem : Float -> Html.Attribute msg
 borderBottomLeftRadiusRem value =
-    Html.Attributes.style
-        "border-bottom-left-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderBottomLeftRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderBottomRightRadius : String -> Html.Attribute msg
-borderBottomRightRadius value =
-    Html.Attributes.style "border-bottom-right-radius" value
-```
+{-| CSS property `border-bottom-right-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius
 -}
@@ -3574,44 +2992,30 @@ borderBottomRightRadius value =
 
 
 {-| ```
-borderBottomRightRadiusPx : Float -> Html.Attribute msg
-borderBottomRightRadiusPx value =
-    Html.Attributes.style
-        "border-bottom-right-radius"
-        (String.append (String.fromFloat value) "px")
+border-bottom-right-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius
 -}
 borderBottomRightRadiusPx : Float -> Html.Attribute msg
 borderBottomRightRadiusPx value =
-    Html.Attributes.style
-        "border-bottom-right-radius"
-        (String.append (String.fromFloat value) "px")
+    borderBottomRightRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBottomRightRadiusRem : Float -> Html.Attribute msg
-borderBottomRightRadiusRem value =
-    Html.Attributes.style
-        "border-bottom-right-radius"
-        (String.append (String.fromFloat value) "rem")
+border-bottom-right-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius
 -}
 borderBottomRightRadiusRem : Float -> Html.Attribute msg
 borderBottomRightRadiusRem value =
-    Html.Attributes.style
-        "border-bottom-right-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderBottomRightRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderBottomStyle : String -> Html.Attribute msg
-borderBottomStyle value =
-    Html.Attributes.style "border-bottom-style" value
-```
+{-| CSS property `border-bottom-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
@@ -3621,140 +3025,118 @@ borderBottomStyle value =
 
 
 {-| ```
-borderBottomStyleHidden : Html.Attribute msg
-borderBottomStyleHidden =
-    Html.Attributes.style "border-bottom-style" "hidden"
+border-bottom-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleHidden : Html.Attribute msg
 borderBottomStyleHidden =
-    Html.Attributes.style "border-bottom-style" "hidden"
+    borderBottomStyle "hidden"
 
 
 {-| ```
-borderBottomStyleDashed : Html.Attribute msg
-borderBottomStyleDashed =
-    Html.Attributes.style "border-bottom-style" "dashed"
+border-bottom-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleDashed : Html.Attribute msg
 borderBottomStyleDashed =
-    Html.Attributes.style "border-bottom-style" "dashed"
+    borderBottomStyle "dashed"
 
 
 {-| ```
-borderBottomStyleDouble : Html.Attribute msg
-borderBottomStyleDouble =
-    Html.Attributes.style "border-bottom-style" "double"
+border-bottom-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleDouble : Html.Attribute msg
 borderBottomStyleDouble =
-    Html.Attributes.style "border-bottom-style" "double"
+    borderBottomStyle "double"
 
 
 {-| ```
-borderBottomStyleRidge : Html.Attribute msg
-borderBottomStyleRidge =
-    Html.Attributes.style "border-bottom-style" "ridge"
+border-bottom-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleRidge : Html.Attribute msg
 borderBottomStyleRidge =
-    Html.Attributes.style "border-bottom-style" "ridge"
+    borderBottomStyle "ridge"
 
 
 {-| ```
-borderBottomStyleOutset : Html.Attribute msg
-borderBottomStyleOutset =
-    Html.Attributes.style "border-bottom-style" "outset"
+border-bottom-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleOutset : Html.Attribute msg
 borderBottomStyleOutset =
-    Html.Attributes.style "border-bottom-style" "outset"
+    borderBottomStyle "outset"
 
 
 {-| ```
-borderBottomStyleInset : Html.Attribute msg
-borderBottomStyleInset =
-    Html.Attributes.style "border-bottom-style" "inset"
+border-bottom-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleInset : Html.Attribute msg
 borderBottomStyleInset =
-    Html.Attributes.style "border-bottom-style" "inset"
+    borderBottomStyle "inset"
 
 
 {-| ```
-borderBottomStyleGroove : Html.Attribute msg
-borderBottomStyleGroove =
-    Html.Attributes.style "border-bottom-style" "groove"
+border-bottom-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleGroove : Html.Attribute msg
 borderBottomStyleGroove =
-    Html.Attributes.style "border-bottom-style" "groove"
+    borderBottomStyle "groove"
 
 
 {-| ```
-borderBottomStyleSolid : Html.Attribute msg
-borderBottomStyleSolid =
-    Html.Attributes.style "border-bottom-style" "solid"
+border-bottom-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleSolid : Html.Attribute msg
 borderBottomStyleSolid =
-    Html.Attributes.style "border-bottom-style" "solid"
+    borderBottomStyle "solid"
 
 
 {-| ```
-borderBottomStyleDotted : Html.Attribute msg
-borderBottomStyleDotted =
-    Html.Attributes.style "border-bottom-style" "dotted"
+border-bottom-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleDotted : Html.Attribute msg
 borderBottomStyleDotted =
-    Html.Attributes.style "border-bottom-style" "dotted"
+    borderBottomStyle "dotted"
 
 
 {-| ```
-borderBottomStyleNone : Html.Attribute msg
-borderBottomStyleNone =
-    Html.Attributes.style "border-bottom-style" "none"
+border-bottom-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-style
 -}
 borderBottomStyleNone : Html.Attribute msg
 borderBottomStyleNone =
-    Html.Attributes.style "border-bottom-style" "none"
+    borderBottomStyle "none"
 
 
-{-| ```
-borderBottomWidth : String -> Html.Attribute msg
-borderBottomWidth value =
-    Html.Attributes.style "border-bottom-width" value
-```
+{-| CSS property `border-bottom-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
@@ -3764,83 +3146,63 @@ borderBottomWidth value =
 
 
 {-| ```
-borderBottomWidthThin : Html.Attribute msg
-borderBottomWidthThin =
-    Html.Attributes.style "border-bottom-width" "thin"
+border-bottom-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
 borderBottomWidthThin : Html.Attribute msg
 borderBottomWidthThin =
-    Html.Attributes.style "border-bottom-width" "thin"
+    borderBottomWidth "thin"
 
 
 {-| ```
-borderBottomWidthThick : Html.Attribute msg
-borderBottomWidthThick =
-    Html.Attributes.style "border-bottom-width" "thick"
+border-bottom-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
 borderBottomWidthThick : Html.Attribute msg
 borderBottomWidthThick =
-    Html.Attributes.style "border-bottom-width" "thick"
+    borderBottomWidth "thick"
 
 
 {-| ```
-borderBottomWidthMedium : Html.Attribute msg
-borderBottomWidthMedium =
-    Html.Attributes.style "border-bottom-width" "medium"
+border-bottom-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
 borderBottomWidthMedium : Html.Attribute msg
 borderBottomWidthMedium =
-    Html.Attributes.style "border-bottom-width" "medium"
+    borderBottomWidth "medium"
 
 
 {-| ```
-borderBottomWidthPx : Float -> Html.Attribute msg
-borderBottomWidthPx value =
-    Html.Attributes.style
-        "border-bottom-width"
-        (String.append (String.fromFloat value) "px")
+border-bottom-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
 borderBottomWidthPx : Float -> Html.Attribute msg
 borderBottomWidthPx value =
-    Html.Attributes.style
-        "border-bottom-width"
-        (String.append (String.fromFloat value) "px")
+    borderBottomWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderBottomWidthRem : Float -> Html.Attribute msg
-borderBottomWidthRem value =
-    Html.Attributes.style
-        "border-bottom-width"
-        (String.append (String.fromFloat value) "rem")
+border-bottom-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-bottom-width
 -}
 borderBottomWidthRem : Float -> Html.Attribute msg
 borderBottomWidthRem value =
-    Html.Attributes.style
-        "border-bottom-width"
-        (String.append (String.fromFloat value) "rem")
+    borderBottomWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderCollapse : String -> Html.Attribute msg
-borderCollapse value =
-    Html.Attributes.style "border-collapse" value
-```
+{-| CSS property `border-collapse`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-collapse
 -}
@@ -3850,36 +3212,30 @@ borderCollapse value =
 
 
 {-| ```
-borderCollapseCollapse : Html.Attribute msg
-borderCollapseCollapse =
-    Html.Attributes.style "border-collapse" "collapse"
+border-collapse : collapse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-collapse
 -}
 borderCollapseCollapse : Html.Attribute msg
 borderCollapseCollapse =
-    Html.Attributes.style "border-collapse" "collapse"
+    borderCollapse "collapse"
 
 
 {-| ```
-borderCollapseSeparate : Html.Attribute msg
-borderCollapseSeparate =
-    Html.Attributes.style "border-collapse" "separate"
+border-collapse : separate
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-collapse
 -}
 borderCollapseSeparate : Html.Attribute msg
 borderCollapseSeparate =
-    Html.Attributes.style "border-collapse" "separate"
+    borderCollapse "separate"
 
 
-{-| ```
-borderColor : String -> Html.Attribute msg
-borderColor value =
-    Html.Attributes.style "border-color" value
-```
+{-| CSS property `border-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-color
 -}
@@ -3888,11 +3244,9 @@ borderColor value =
     Html.Attributes.style "border-color" value
 
 
-{-| ```
-borderEndEndRadius : String -> Html.Attribute msg
-borderEndEndRadius value =
-    Html.Attributes.style "border-end-end-radius" value
-```
+{-| CSS property `border-end-end-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius
 -}
@@ -3902,44 +3256,30 @@ borderEndEndRadius value =
 
 
 {-| ```
-borderEndEndRadiusPx : Float -> Html.Attribute msg
-borderEndEndRadiusPx value =
-    Html.Attributes.style
-        "border-end-end-radius"
-        (String.append (String.fromFloat value) "px")
+border-end-end-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius
 -}
 borderEndEndRadiusPx : Float -> Html.Attribute msg
 borderEndEndRadiusPx value =
-    Html.Attributes.style
-        "border-end-end-radius"
-        (String.append (String.fromFloat value) "px")
+    borderEndEndRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderEndEndRadiusRem : Float -> Html.Attribute msg
-borderEndEndRadiusRem value =
-    Html.Attributes.style
-        "border-end-end-radius"
-        (String.append (String.fromFloat value) "rem")
+border-end-end-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius
 -}
 borderEndEndRadiusRem : Float -> Html.Attribute msg
 borderEndEndRadiusRem value =
-    Html.Attributes.style
-        "border-end-end-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderEndEndRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderEndStartRadius : String -> Html.Attribute msg
-borderEndStartRadius value =
-    Html.Attributes.style "border-end-start-radius" value
-```
+{-| CSS property `border-end-start-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius
 -}
@@ -3949,44 +3289,30 @@ borderEndStartRadius value =
 
 
 {-| ```
-borderEndStartRadiusPx : Float -> Html.Attribute msg
-borderEndStartRadiusPx value =
-    Html.Attributes.style
-        "border-end-start-radius"
-        (String.append (String.fromFloat value) "px")
+border-end-start-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius
 -}
 borderEndStartRadiusPx : Float -> Html.Attribute msg
 borderEndStartRadiusPx value =
-    Html.Attributes.style
-        "border-end-start-radius"
-        (String.append (String.fromFloat value) "px")
+    borderEndStartRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderEndStartRadiusRem : Float -> Html.Attribute msg
-borderEndStartRadiusRem value =
-    Html.Attributes.style
-        "border-end-start-radius"
-        (String.append (String.fromFloat value) "rem")
+border-end-start-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius
 -}
 borderEndStartRadiusRem : Float -> Html.Attribute msg
 borderEndStartRadiusRem value =
-    Html.Attributes.style
-        "border-end-start-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderEndStartRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderImage : String -> Html.Attribute msg
-borderImage value =
-    Html.Attributes.style "border-image" value
-```
+{-| CSS property `border-image`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image
 -}
@@ -3995,11 +3321,9 @@ borderImage value =
     Html.Attributes.style "border-image" value
 
 
-{-| ```
-borderImageOutset : String -> Html.Attribute msg
-borderImageOutset value =
-    Html.Attributes.style "border-image-outset" value
-```
+{-| CSS property `border-image-outset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-outset
 -}
@@ -4009,44 +3333,30 @@ borderImageOutset value =
 
 
 {-| ```
-borderImageOutsetPx : Float -> Html.Attribute msg
-borderImageOutsetPx value =
-    Html.Attributes.style
-        "border-image-outset"
-        (String.append (String.fromFloat value) "px")
+border-image-outset : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-outset
 -}
 borderImageOutsetPx : Float -> Html.Attribute msg
 borderImageOutsetPx value =
-    Html.Attributes.style
-        "border-image-outset"
-        (String.append (String.fromFloat value) "px")
+    borderImageOutset (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderImageOutsetRem : Float -> Html.Attribute msg
-borderImageOutsetRem value =
-    Html.Attributes.style
-        "border-image-outset"
-        (String.append (String.fromFloat value) "rem")
+border-image-outset : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-outset
 -}
 borderImageOutsetRem : Float -> Html.Attribute msg
 borderImageOutsetRem value =
-    Html.Attributes.style
-        "border-image-outset"
-        (String.append (String.fromFloat value) "rem")
+    borderImageOutset (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderImageRepeat : String -> Html.Attribute msg
-borderImageRepeat value =
-    Html.Attributes.style "border-image-repeat" value
-```
+{-| CSS property `border-image-repeat`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-repeat
 -}
@@ -4056,62 +3366,52 @@ borderImageRepeat value =
 
 
 {-| ```
-borderImageRepeatRepeat : Html.Attribute msg
-borderImageRepeatRepeat =
-    Html.Attributes.style "border-image-repeat" "repeat"
+border-image-repeat : repeat
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-repeat
 -}
 borderImageRepeatRepeat : Html.Attribute msg
 borderImageRepeatRepeat =
-    Html.Attributes.style "border-image-repeat" "repeat"
+    borderImageRepeat "repeat"
 
 
 {-| ```
-borderImageRepeatSpace : Html.Attribute msg
-borderImageRepeatSpace =
-    Html.Attributes.style "border-image-repeat" "space"
+border-image-repeat : space
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-repeat
 -}
 borderImageRepeatSpace : Html.Attribute msg
 borderImageRepeatSpace =
-    Html.Attributes.style "border-image-repeat" "space"
+    borderImageRepeat "space"
 
 
 {-| ```
-borderImageRepeatRound : Html.Attribute msg
-borderImageRepeatRound =
-    Html.Attributes.style "border-image-repeat" "round"
+border-image-repeat : round
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-repeat
 -}
 borderImageRepeatRound : Html.Attribute msg
 borderImageRepeatRound =
-    Html.Attributes.style "border-image-repeat" "round"
+    borderImageRepeat "round"
 
 
 {-| ```
-borderImageRepeatStretch : Html.Attribute msg
-borderImageRepeatStretch =
-    Html.Attributes.style "border-image-repeat" "stretch"
+border-image-repeat : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-repeat
 -}
 borderImageRepeatStretch : Html.Attribute msg
 borderImageRepeatStretch =
-    Html.Attributes.style "border-image-repeat" "stretch"
+    borderImageRepeat "stretch"
 
 
-{-| ```
-borderImageSlice : String -> Html.Attribute msg
-borderImageSlice value =
-    Html.Attributes.style "border-image-slice" value
-```
+{-| CSS property `border-image-slice`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-slice
 -}
@@ -4120,11 +3420,9 @@ borderImageSlice value =
     Html.Attributes.style "border-image-slice" value
 
 
-{-| ```
-borderImageSource : String -> Html.Attribute msg
-borderImageSource value =
-    Html.Attributes.style "border-image-source" value
-```
+{-| CSS property `border-image-source`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-source
 -}
@@ -4134,23 +3432,19 @@ borderImageSource value =
 
 
 {-| ```
-borderImageSourceNone : Html.Attribute msg
-borderImageSourceNone =
-    Html.Attributes.style "border-image-source" "none"
+border-image-source : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-source
 -}
 borderImageSourceNone : Html.Attribute msg
 borderImageSourceNone =
-    Html.Attributes.style "border-image-source" "none"
+    borderImageSource "none"
 
 
-{-| ```
-borderImageWidth : String -> Html.Attribute msg
-borderImageWidth value =
-    Html.Attributes.style "border-image-width" value
-```
+{-| CSS property `border-image-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-width
 -}
@@ -4160,57 +3454,41 @@ borderImageWidth value =
 
 
 {-| ```
-borderImageWidthAuto : Html.Attribute msg
-borderImageWidthAuto =
-    Html.Attributes.style "border-image-width" "auto"
+border-image-width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-width
 -}
 borderImageWidthAuto : Html.Attribute msg
 borderImageWidthAuto =
-    Html.Attributes.style "border-image-width" "auto"
+    borderImageWidth "auto"
 
 
 {-| ```
-borderImageWidthRem : Float -> Html.Attribute msg
-borderImageWidthRem value =
-    Html.Attributes.style
-        "border-image-width"
-        (String.append (String.fromFloat value) "rem")
+border-image-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-width
 -}
 borderImageWidthRem : Float -> Html.Attribute msg
 borderImageWidthRem value =
-    Html.Attributes.style
-        "border-image-width"
-        (String.append (String.fromFloat value) "rem")
+    borderImageWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderImageWidthPx : Float -> Html.Attribute msg
-borderImageWidthPx value =
-    Html.Attributes.style
-        "border-image-width"
-        (String.append (String.fromFloat value) "px")
+border-image-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-image-width
 -}
 borderImageWidthPx : Float -> Html.Attribute msg
 borderImageWidthPx value =
-    Html.Attributes.style
-        "border-image-width"
-        (String.append (String.fromFloat value) "px")
+    borderImageWidth (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-borderInline : String -> Html.Attribute msg
-borderInline value =
-    Html.Attributes.style "border-inline" value
-```
+{-| CSS property `border-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
@@ -4220,213 +3498,173 @@ borderInline value =
 
 
 {-| ```
-borderInlineNone : Html.Attribute msg
-borderInlineNone =
-    Html.Attributes.style "border-inline" "none"
+border-inline : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineNone : Html.Attribute msg
 borderInlineNone =
-    Html.Attributes.style "border-inline" "none"
+    borderInline "none"
 
 
 {-| ```
-borderInlineDotted : Html.Attribute msg
-borderInlineDotted =
-    Html.Attributes.style "border-inline" "dotted"
+border-inline : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineDotted : Html.Attribute msg
 borderInlineDotted =
-    Html.Attributes.style "border-inline" "dotted"
+    borderInline "dotted"
 
 
 {-| ```
-borderInlineSolid : Html.Attribute msg
-borderInlineSolid =
-    Html.Attributes.style "border-inline" "solid"
+border-inline : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineSolid : Html.Attribute msg
 borderInlineSolid =
-    Html.Attributes.style "border-inline" "solid"
+    borderInline "solid"
 
 
 {-| ```
-borderInlineGroove : Html.Attribute msg
-borderInlineGroove =
-    Html.Attributes.style "border-inline" "groove"
+border-inline : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineGroove : Html.Attribute msg
 borderInlineGroove =
-    Html.Attributes.style "border-inline" "groove"
+    borderInline "groove"
 
 
 {-| ```
-borderInlineInset : Html.Attribute msg
-borderInlineInset =
-    Html.Attributes.style "border-inline" "inset"
+border-inline : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineInset : Html.Attribute msg
 borderInlineInset =
-    Html.Attributes.style "border-inline" "inset"
+    borderInline "inset"
 
 
 {-| ```
-borderInlineOutset : Html.Attribute msg
-borderInlineOutset =
-    Html.Attributes.style "border-inline" "outset"
+border-inline : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineOutset : Html.Attribute msg
 borderInlineOutset =
-    Html.Attributes.style "border-inline" "outset"
+    borderInline "outset"
 
 
 {-| ```
-borderInlineRidge : Html.Attribute msg
-borderInlineRidge =
-    Html.Attributes.style "border-inline" "ridge"
+border-inline : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineRidge : Html.Attribute msg
 borderInlineRidge =
-    Html.Attributes.style "border-inline" "ridge"
+    borderInline "ridge"
 
 
 {-| ```
-borderInlineDouble : Html.Attribute msg
-borderInlineDouble =
-    Html.Attributes.style "border-inline" "double"
+border-inline : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineDouble : Html.Attribute msg
 borderInlineDouble =
-    Html.Attributes.style "border-inline" "double"
+    borderInline "double"
 
 
 {-| ```
-borderInlineDashed : Html.Attribute msg
-borderInlineDashed =
-    Html.Attributes.style "border-inline" "dashed"
+border-inline : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineDashed : Html.Attribute msg
 borderInlineDashed =
-    Html.Attributes.style "border-inline" "dashed"
+    borderInline "dashed"
 
 
 {-| ```
-borderInlineHidden : Html.Attribute msg
-borderInlineHidden =
-    Html.Attributes.style "border-inline" "hidden"
+border-inline : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineHidden : Html.Attribute msg
 borderInlineHidden =
-    Html.Attributes.style "border-inline" "hidden"
+    borderInline "hidden"
 
 
 {-| ```
-borderInlineRem : Float -> Html.Attribute msg
-borderInlineRem value =
-    Html.Attributes.style
-        "border-inline"
-        (String.append (String.fromFloat value) "rem")
+border-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineRem : Float -> Html.Attribute msg
 borderInlineRem value =
-    Html.Attributes.style
-        "border-inline"
-        (String.append (String.fromFloat value) "rem")
+    borderInline (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlinePx : Float -> Html.Attribute msg
-borderInlinePx value =
-    Html.Attributes.style
-        "border-inline"
-        (String.append (String.fromFloat value) "px")
+border-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlinePx : Float -> Html.Attribute msg
 borderInlinePx value =
-    Html.Attributes.style
-        "border-inline"
-        (String.append (String.fromFloat value) "px")
+    borderInline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineMedium : Html.Attribute msg
-borderInlineMedium =
-    Html.Attributes.style "border-inline" "medium"
+border-inline : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineMedium : Html.Attribute msg
 borderInlineMedium =
-    Html.Attributes.style "border-inline" "medium"
+    borderInline "medium"
 
 
 {-| ```
-borderInlineThick : Html.Attribute msg
-borderInlineThick =
-    Html.Attributes.style "border-inline" "thick"
+border-inline : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineThick : Html.Attribute msg
 borderInlineThick =
-    Html.Attributes.style "border-inline" "thick"
+    borderInline "thick"
 
 
 {-| ```
-borderInlineThin : Html.Attribute msg
-borderInlineThin =
-    Html.Attributes.style "border-inline" "thin"
+border-inline : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline
 -}
 borderInlineThin : Html.Attribute msg
 borderInlineThin =
-    Html.Attributes.style "border-inline" "thin"
+    borderInline "thin"
 
 
-{-| ```
-borderInlineColor : String -> Html.Attribute msg
-borderInlineColor value =
-    Html.Attributes.style "border-inline-color" value
-```
+{-| CSS property `border-inline-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-color
 -}
@@ -4435,11 +3673,9 @@ borderInlineColor value =
     Html.Attributes.style "border-inline-color" value
 
 
-{-| ```
-borderInlineEnd : String -> Html.Attribute msg
-borderInlineEnd value =
-    Html.Attributes.style "border-inline-end" value
-```
+{-| CSS property `border-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
@@ -4449,213 +3685,173 @@ borderInlineEnd value =
 
 
 {-| ```
-borderInlineEndNone : Html.Attribute msg
-borderInlineEndNone =
-    Html.Attributes.style "border-inline-end" "none"
+border-inline-end : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndNone : Html.Attribute msg
 borderInlineEndNone =
-    Html.Attributes.style "border-inline-end" "none"
+    borderInlineEnd "none"
 
 
 {-| ```
-borderInlineEndDotted : Html.Attribute msg
-borderInlineEndDotted =
-    Html.Attributes.style "border-inline-end" "dotted"
+border-inline-end : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndDotted : Html.Attribute msg
 borderInlineEndDotted =
-    Html.Attributes.style "border-inline-end" "dotted"
+    borderInlineEnd "dotted"
 
 
 {-| ```
-borderInlineEndSolid : Html.Attribute msg
-borderInlineEndSolid =
-    Html.Attributes.style "border-inline-end" "solid"
+border-inline-end : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndSolid : Html.Attribute msg
 borderInlineEndSolid =
-    Html.Attributes.style "border-inline-end" "solid"
+    borderInlineEnd "solid"
 
 
 {-| ```
-borderInlineEndGroove : Html.Attribute msg
-borderInlineEndGroove =
-    Html.Attributes.style "border-inline-end" "groove"
+border-inline-end : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndGroove : Html.Attribute msg
 borderInlineEndGroove =
-    Html.Attributes.style "border-inline-end" "groove"
+    borderInlineEnd "groove"
 
 
 {-| ```
-borderInlineEndInset : Html.Attribute msg
-borderInlineEndInset =
-    Html.Attributes.style "border-inline-end" "inset"
+border-inline-end : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndInset : Html.Attribute msg
 borderInlineEndInset =
-    Html.Attributes.style "border-inline-end" "inset"
+    borderInlineEnd "inset"
 
 
 {-| ```
-borderInlineEndOutset : Html.Attribute msg
-borderInlineEndOutset =
-    Html.Attributes.style "border-inline-end" "outset"
+border-inline-end : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndOutset : Html.Attribute msg
 borderInlineEndOutset =
-    Html.Attributes.style "border-inline-end" "outset"
+    borderInlineEnd "outset"
 
 
 {-| ```
-borderInlineEndRidge : Html.Attribute msg
-borderInlineEndRidge =
-    Html.Attributes.style "border-inline-end" "ridge"
+border-inline-end : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndRidge : Html.Attribute msg
 borderInlineEndRidge =
-    Html.Attributes.style "border-inline-end" "ridge"
+    borderInlineEnd "ridge"
 
 
 {-| ```
-borderInlineEndDouble : Html.Attribute msg
-borderInlineEndDouble =
-    Html.Attributes.style "border-inline-end" "double"
+border-inline-end : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndDouble : Html.Attribute msg
 borderInlineEndDouble =
-    Html.Attributes.style "border-inline-end" "double"
+    borderInlineEnd "double"
 
 
 {-| ```
-borderInlineEndDashed : Html.Attribute msg
-borderInlineEndDashed =
-    Html.Attributes.style "border-inline-end" "dashed"
+border-inline-end : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndDashed : Html.Attribute msg
 borderInlineEndDashed =
-    Html.Attributes.style "border-inline-end" "dashed"
+    borderInlineEnd "dashed"
 
 
 {-| ```
-borderInlineEndHidden : Html.Attribute msg
-borderInlineEndHidden =
-    Html.Attributes.style "border-inline-end" "hidden"
+border-inline-end : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndHidden : Html.Attribute msg
 borderInlineEndHidden =
-    Html.Attributes.style "border-inline-end" "hidden"
+    borderInlineEnd "hidden"
 
 
 {-| ```
-borderInlineEndRem : Float -> Html.Attribute msg
-borderInlineEndRem value =
-    Html.Attributes.style
-        "border-inline-end"
-        (String.append (String.fromFloat value) "rem")
+border-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndRem : Float -> Html.Attribute msg
 borderInlineEndRem value =
-    Html.Attributes.style
-        "border-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    borderInlineEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlineEndPx : Float -> Html.Attribute msg
-borderInlineEndPx value =
-    Html.Attributes.style
-        "border-inline-end"
-        (String.append (String.fromFloat value) "px")
+border-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndPx : Float -> Html.Attribute msg
 borderInlineEndPx value =
-    Html.Attributes.style
-        "border-inline-end"
-        (String.append (String.fromFloat value) "px")
+    borderInlineEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineEndMedium : Html.Attribute msg
-borderInlineEndMedium =
-    Html.Attributes.style "border-inline-end" "medium"
+border-inline-end : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndMedium : Html.Attribute msg
 borderInlineEndMedium =
-    Html.Attributes.style "border-inline-end" "medium"
+    borderInlineEnd "medium"
 
 
 {-| ```
-borderInlineEndThick : Html.Attribute msg
-borderInlineEndThick =
-    Html.Attributes.style "border-inline-end" "thick"
+border-inline-end : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndThick : Html.Attribute msg
 borderInlineEndThick =
-    Html.Attributes.style "border-inline-end" "thick"
+    borderInlineEnd "thick"
 
 
 {-| ```
-borderInlineEndThin : Html.Attribute msg
-borderInlineEndThin =
-    Html.Attributes.style "border-inline-end" "thin"
+border-inline-end : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end
 -}
 borderInlineEndThin : Html.Attribute msg
 borderInlineEndThin =
-    Html.Attributes.style "border-inline-end" "thin"
+    borderInlineEnd "thin"
 
 
-{-| ```
-borderInlineEndColor : String -> Html.Attribute msg
-borderInlineEndColor value =
-    Html.Attributes.style "border-inline-end-color" value
-```
+{-| CSS property `border-inline-end-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color
 -}
@@ -4664,11 +3860,9 @@ borderInlineEndColor value =
     Html.Attributes.style "border-inline-end-color" value
 
 
-{-| ```
-borderInlineEndStyle : String -> Html.Attribute msg
-borderInlineEndStyle value =
-    Html.Attributes.style "border-inline-end-style" value
-```
+{-| CSS property `border-inline-end-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
@@ -4678,140 +3872,118 @@ borderInlineEndStyle value =
 
 
 {-| ```
-borderInlineEndStyleNone : Html.Attribute msg
-borderInlineEndStyleNone =
-    Html.Attributes.style "border-inline-end-style" "none"
+border-inline-end-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleNone : Html.Attribute msg
 borderInlineEndStyleNone =
-    Html.Attributes.style "border-inline-end-style" "none"
+    borderInlineEndStyle "none"
 
 
 {-| ```
-borderInlineEndStyleDotted : Html.Attribute msg
-borderInlineEndStyleDotted =
-    Html.Attributes.style "border-inline-end-style" "dotted"
+border-inline-end-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleDotted : Html.Attribute msg
 borderInlineEndStyleDotted =
-    Html.Attributes.style "border-inline-end-style" "dotted"
+    borderInlineEndStyle "dotted"
 
 
 {-| ```
-borderInlineEndStyleSolid : Html.Attribute msg
-borderInlineEndStyleSolid =
-    Html.Attributes.style "border-inline-end-style" "solid"
+border-inline-end-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleSolid : Html.Attribute msg
 borderInlineEndStyleSolid =
-    Html.Attributes.style "border-inline-end-style" "solid"
+    borderInlineEndStyle "solid"
 
 
 {-| ```
-borderInlineEndStyleGroove : Html.Attribute msg
-borderInlineEndStyleGroove =
-    Html.Attributes.style "border-inline-end-style" "groove"
+border-inline-end-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleGroove : Html.Attribute msg
 borderInlineEndStyleGroove =
-    Html.Attributes.style "border-inline-end-style" "groove"
+    borderInlineEndStyle "groove"
 
 
 {-| ```
-borderInlineEndStyleInset : Html.Attribute msg
-borderInlineEndStyleInset =
-    Html.Attributes.style "border-inline-end-style" "inset"
+border-inline-end-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleInset : Html.Attribute msg
 borderInlineEndStyleInset =
-    Html.Attributes.style "border-inline-end-style" "inset"
+    borderInlineEndStyle "inset"
 
 
 {-| ```
-borderInlineEndStyleOutset : Html.Attribute msg
-borderInlineEndStyleOutset =
-    Html.Attributes.style "border-inline-end-style" "outset"
+border-inline-end-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleOutset : Html.Attribute msg
 borderInlineEndStyleOutset =
-    Html.Attributes.style "border-inline-end-style" "outset"
+    borderInlineEndStyle "outset"
 
 
 {-| ```
-borderInlineEndStyleRidge : Html.Attribute msg
-borderInlineEndStyleRidge =
-    Html.Attributes.style "border-inline-end-style" "ridge"
+border-inline-end-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleRidge : Html.Attribute msg
 borderInlineEndStyleRidge =
-    Html.Attributes.style "border-inline-end-style" "ridge"
+    borderInlineEndStyle "ridge"
 
 
 {-| ```
-borderInlineEndStyleDouble : Html.Attribute msg
-borderInlineEndStyleDouble =
-    Html.Attributes.style "border-inline-end-style" "double"
+border-inline-end-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleDouble : Html.Attribute msg
 borderInlineEndStyleDouble =
-    Html.Attributes.style "border-inline-end-style" "double"
+    borderInlineEndStyle "double"
 
 
 {-| ```
-borderInlineEndStyleDashed : Html.Attribute msg
-borderInlineEndStyleDashed =
-    Html.Attributes.style "border-inline-end-style" "dashed"
+border-inline-end-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleDashed : Html.Attribute msg
 borderInlineEndStyleDashed =
-    Html.Attributes.style "border-inline-end-style" "dashed"
+    borderInlineEndStyle "dashed"
 
 
 {-| ```
-borderInlineEndStyleHidden : Html.Attribute msg
-borderInlineEndStyleHidden =
-    Html.Attributes.style "border-inline-end-style" "hidden"
+border-inline-end-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style
 -}
 borderInlineEndStyleHidden : Html.Attribute msg
 borderInlineEndStyleHidden =
-    Html.Attributes.style "border-inline-end-style" "hidden"
+    borderInlineEndStyle "hidden"
 
 
-{-| ```
-borderInlineEndWidth : String -> Html.Attribute msg
-borderInlineEndWidth value =
-    Html.Attributes.style "border-inline-end-width" value
-```
+{-| CSS property `border-inline-end-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
@@ -4821,83 +3993,63 @@ borderInlineEndWidth value =
 
 
 {-| ```
-borderInlineEndWidthRem : Float -> Html.Attribute msg
-borderInlineEndWidthRem value =
-    Html.Attributes.style
-        "border-inline-end-width"
-        (String.append (String.fromFloat value) "rem")
+border-inline-end-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
 borderInlineEndWidthRem : Float -> Html.Attribute msg
 borderInlineEndWidthRem value =
-    Html.Attributes.style
-        "border-inline-end-width"
-        (String.append (String.fromFloat value) "rem")
+    borderInlineEndWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlineEndWidthPx : Float -> Html.Attribute msg
-borderInlineEndWidthPx value =
-    Html.Attributes.style
-        "border-inline-end-width"
-        (String.append (String.fromFloat value) "px")
+border-inline-end-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
 borderInlineEndWidthPx : Float -> Html.Attribute msg
 borderInlineEndWidthPx value =
-    Html.Attributes.style
-        "border-inline-end-width"
-        (String.append (String.fromFloat value) "px")
+    borderInlineEndWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineEndWidthMedium : Html.Attribute msg
-borderInlineEndWidthMedium =
-    Html.Attributes.style "border-inline-end-width" "medium"
+border-inline-end-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
 borderInlineEndWidthMedium : Html.Attribute msg
 borderInlineEndWidthMedium =
-    Html.Attributes.style "border-inline-end-width" "medium"
+    borderInlineEndWidth "medium"
 
 
 {-| ```
-borderInlineEndWidthThick : Html.Attribute msg
-borderInlineEndWidthThick =
-    Html.Attributes.style "border-inline-end-width" "thick"
+border-inline-end-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
 borderInlineEndWidthThick : Html.Attribute msg
 borderInlineEndWidthThick =
-    Html.Attributes.style "border-inline-end-width" "thick"
+    borderInlineEndWidth "thick"
 
 
 {-| ```
-borderInlineEndWidthThin : Html.Attribute msg
-borderInlineEndWidthThin =
-    Html.Attributes.style "border-inline-end-width" "thin"
+border-inline-end-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width
 -}
 borderInlineEndWidthThin : Html.Attribute msg
 borderInlineEndWidthThin =
-    Html.Attributes.style "border-inline-end-width" "thin"
+    borderInlineEndWidth "thin"
 
 
-{-| ```
-borderInlineStart : String -> Html.Attribute msg
-borderInlineStart value =
-    Html.Attributes.style "border-inline-start" value
-```
+{-| CSS property `border-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
@@ -4907,213 +4059,173 @@ borderInlineStart value =
 
 
 {-| ```
-borderInlineStartNone : Html.Attribute msg
-borderInlineStartNone =
-    Html.Attributes.style "border-inline-start" "none"
+border-inline-start : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartNone : Html.Attribute msg
 borderInlineStartNone =
-    Html.Attributes.style "border-inline-start" "none"
+    borderInlineStart "none"
 
 
 {-| ```
-borderInlineStartDotted : Html.Attribute msg
-borderInlineStartDotted =
-    Html.Attributes.style "border-inline-start" "dotted"
+border-inline-start : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartDotted : Html.Attribute msg
 borderInlineStartDotted =
-    Html.Attributes.style "border-inline-start" "dotted"
+    borderInlineStart "dotted"
 
 
 {-| ```
-borderInlineStartSolid : Html.Attribute msg
-borderInlineStartSolid =
-    Html.Attributes.style "border-inline-start" "solid"
+border-inline-start : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartSolid : Html.Attribute msg
 borderInlineStartSolid =
-    Html.Attributes.style "border-inline-start" "solid"
+    borderInlineStart "solid"
 
 
 {-| ```
-borderInlineStartGroove : Html.Attribute msg
-borderInlineStartGroove =
-    Html.Attributes.style "border-inline-start" "groove"
+border-inline-start : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartGroove : Html.Attribute msg
 borderInlineStartGroove =
-    Html.Attributes.style "border-inline-start" "groove"
+    borderInlineStart "groove"
 
 
 {-| ```
-borderInlineStartInset : Html.Attribute msg
-borderInlineStartInset =
-    Html.Attributes.style "border-inline-start" "inset"
+border-inline-start : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartInset : Html.Attribute msg
 borderInlineStartInset =
-    Html.Attributes.style "border-inline-start" "inset"
+    borderInlineStart "inset"
 
 
 {-| ```
-borderInlineStartOutset : Html.Attribute msg
-borderInlineStartOutset =
-    Html.Attributes.style "border-inline-start" "outset"
+border-inline-start : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartOutset : Html.Attribute msg
 borderInlineStartOutset =
-    Html.Attributes.style "border-inline-start" "outset"
+    borderInlineStart "outset"
 
 
 {-| ```
-borderInlineStartRidge : Html.Attribute msg
-borderInlineStartRidge =
-    Html.Attributes.style "border-inline-start" "ridge"
+border-inline-start : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartRidge : Html.Attribute msg
 borderInlineStartRidge =
-    Html.Attributes.style "border-inline-start" "ridge"
+    borderInlineStart "ridge"
 
 
 {-| ```
-borderInlineStartDouble : Html.Attribute msg
-borderInlineStartDouble =
-    Html.Attributes.style "border-inline-start" "double"
+border-inline-start : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartDouble : Html.Attribute msg
 borderInlineStartDouble =
-    Html.Attributes.style "border-inline-start" "double"
+    borderInlineStart "double"
 
 
 {-| ```
-borderInlineStartDashed : Html.Attribute msg
-borderInlineStartDashed =
-    Html.Attributes.style "border-inline-start" "dashed"
+border-inline-start : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartDashed : Html.Attribute msg
 borderInlineStartDashed =
-    Html.Attributes.style "border-inline-start" "dashed"
+    borderInlineStart "dashed"
 
 
 {-| ```
-borderInlineStartHidden : Html.Attribute msg
-borderInlineStartHidden =
-    Html.Attributes.style "border-inline-start" "hidden"
+border-inline-start : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartHidden : Html.Attribute msg
 borderInlineStartHidden =
-    Html.Attributes.style "border-inline-start" "hidden"
+    borderInlineStart "hidden"
 
 
 {-| ```
-borderInlineStartRem : Float -> Html.Attribute msg
-borderInlineStartRem value =
-    Html.Attributes.style
-        "border-inline-start"
-        (String.append (String.fromFloat value) "rem")
+border-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartRem : Float -> Html.Attribute msg
 borderInlineStartRem value =
-    Html.Attributes.style
-        "border-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    borderInlineStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlineStartPx : Float -> Html.Attribute msg
-borderInlineStartPx value =
-    Html.Attributes.style
-        "border-inline-start"
-        (String.append (String.fromFloat value) "px")
+border-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartPx : Float -> Html.Attribute msg
 borderInlineStartPx value =
-    Html.Attributes.style
-        "border-inline-start"
-        (String.append (String.fromFloat value) "px")
+    borderInlineStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineStartMedium : Html.Attribute msg
-borderInlineStartMedium =
-    Html.Attributes.style "border-inline-start" "medium"
+border-inline-start : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartMedium : Html.Attribute msg
 borderInlineStartMedium =
-    Html.Attributes.style "border-inline-start" "medium"
+    borderInlineStart "medium"
 
 
 {-| ```
-borderInlineStartThick : Html.Attribute msg
-borderInlineStartThick =
-    Html.Attributes.style "border-inline-start" "thick"
+border-inline-start : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartThick : Html.Attribute msg
 borderInlineStartThick =
-    Html.Attributes.style "border-inline-start" "thick"
+    borderInlineStart "thick"
 
 
 {-| ```
-borderInlineStartThin : Html.Attribute msg
-borderInlineStartThin =
-    Html.Attributes.style "border-inline-start" "thin"
+border-inline-start : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start
 -}
 borderInlineStartThin : Html.Attribute msg
 borderInlineStartThin =
-    Html.Attributes.style "border-inline-start" "thin"
+    borderInlineStart "thin"
 
 
-{-| ```
-borderInlineStartColor : String -> Html.Attribute msg
-borderInlineStartColor value =
-    Html.Attributes.style "border-inline-start-color" value
-```
+{-| CSS property `border-inline-start-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color
 -}
@@ -5122,11 +4234,9 @@ borderInlineStartColor value =
     Html.Attributes.style "border-inline-start-color" value
 
 
-{-| ```
-borderInlineStartStyle : String -> Html.Attribute msg
-borderInlineStartStyle value =
-    Html.Attributes.style "border-inline-start-style" value
-```
+{-| CSS property `border-inline-start-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
@@ -5136,140 +4246,118 @@ borderInlineStartStyle value =
 
 
 {-| ```
-borderInlineStartStyleNone : Html.Attribute msg
-borderInlineStartStyleNone =
-    Html.Attributes.style "border-inline-start-style" "none"
+border-inline-start-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleNone : Html.Attribute msg
 borderInlineStartStyleNone =
-    Html.Attributes.style "border-inline-start-style" "none"
+    borderInlineStartStyle "none"
 
 
 {-| ```
-borderInlineStartStyleDotted : Html.Attribute msg
-borderInlineStartStyleDotted =
-    Html.Attributes.style "border-inline-start-style" "dotted"
+border-inline-start-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleDotted : Html.Attribute msg
 borderInlineStartStyleDotted =
-    Html.Attributes.style "border-inline-start-style" "dotted"
+    borderInlineStartStyle "dotted"
 
 
 {-| ```
-borderInlineStartStyleSolid : Html.Attribute msg
-borderInlineStartStyleSolid =
-    Html.Attributes.style "border-inline-start-style" "solid"
+border-inline-start-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleSolid : Html.Attribute msg
 borderInlineStartStyleSolid =
-    Html.Attributes.style "border-inline-start-style" "solid"
+    borderInlineStartStyle "solid"
 
 
 {-| ```
-borderInlineStartStyleGroove : Html.Attribute msg
-borderInlineStartStyleGroove =
-    Html.Attributes.style "border-inline-start-style" "groove"
+border-inline-start-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleGroove : Html.Attribute msg
 borderInlineStartStyleGroove =
-    Html.Attributes.style "border-inline-start-style" "groove"
+    borderInlineStartStyle "groove"
 
 
 {-| ```
-borderInlineStartStyleInset : Html.Attribute msg
-borderInlineStartStyleInset =
-    Html.Attributes.style "border-inline-start-style" "inset"
+border-inline-start-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleInset : Html.Attribute msg
 borderInlineStartStyleInset =
-    Html.Attributes.style "border-inline-start-style" "inset"
+    borderInlineStartStyle "inset"
 
 
 {-| ```
-borderInlineStartStyleOutset : Html.Attribute msg
-borderInlineStartStyleOutset =
-    Html.Attributes.style "border-inline-start-style" "outset"
+border-inline-start-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleOutset : Html.Attribute msg
 borderInlineStartStyleOutset =
-    Html.Attributes.style "border-inline-start-style" "outset"
+    borderInlineStartStyle "outset"
 
 
 {-| ```
-borderInlineStartStyleRidge : Html.Attribute msg
-borderInlineStartStyleRidge =
-    Html.Attributes.style "border-inline-start-style" "ridge"
+border-inline-start-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleRidge : Html.Attribute msg
 borderInlineStartStyleRidge =
-    Html.Attributes.style "border-inline-start-style" "ridge"
+    borderInlineStartStyle "ridge"
 
 
 {-| ```
-borderInlineStartStyleDouble : Html.Attribute msg
-borderInlineStartStyleDouble =
-    Html.Attributes.style "border-inline-start-style" "double"
+border-inline-start-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleDouble : Html.Attribute msg
 borderInlineStartStyleDouble =
-    Html.Attributes.style "border-inline-start-style" "double"
+    borderInlineStartStyle "double"
 
 
 {-| ```
-borderInlineStartStyleDashed : Html.Attribute msg
-borderInlineStartStyleDashed =
-    Html.Attributes.style "border-inline-start-style" "dashed"
+border-inline-start-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleDashed : Html.Attribute msg
 borderInlineStartStyleDashed =
-    Html.Attributes.style "border-inline-start-style" "dashed"
+    borderInlineStartStyle "dashed"
 
 
 {-| ```
-borderInlineStartStyleHidden : Html.Attribute msg
-borderInlineStartStyleHidden =
-    Html.Attributes.style "border-inline-start-style" "hidden"
+border-inline-start-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style
 -}
 borderInlineStartStyleHidden : Html.Attribute msg
 borderInlineStartStyleHidden =
-    Html.Attributes.style "border-inline-start-style" "hidden"
+    borderInlineStartStyle "hidden"
 
 
-{-| ```
-borderInlineStartWidth : String -> Html.Attribute msg
-borderInlineStartWidth value =
-    Html.Attributes.style "border-inline-start-width" value
-```
+{-| CSS property `border-inline-start-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
@@ -5279,83 +4367,63 @@ borderInlineStartWidth value =
 
 
 {-| ```
-borderInlineStartWidthRem : Float -> Html.Attribute msg
-borderInlineStartWidthRem value =
-    Html.Attributes.style
-        "border-inline-start-width"
-        (String.append (String.fromFloat value) "rem")
+border-inline-start-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
 borderInlineStartWidthRem : Float -> Html.Attribute msg
 borderInlineStartWidthRem value =
-    Html.Attributes.style
-        "border-inline-start-width"
-        (String.append (String.fromFloat value) "rem")
+    borderInlineStartWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlineStartWidthPx : Float -> Html.Attribute msg
-borderInlineStartWidthPx value =
-    Html.Attributes.style
-        "border-inline-start-width"
-        (String.append (String.fromFloat value) "px")
+border-inline-start-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
 borderInlineStartWidthPx : Float -> Html.Attribute msg
 borderInlineStartWidthPx value =
-    Html.Attributes.style
-        "border-inline-start-width"
-        (String.append (String.fromFloat value) "px")
+    borderInlineStartWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineStartWidthMedium : Html.Attribute msg
-borderInlineStartWidthMedium =
-    Html.Attributes.style "border-inline-start-width" "medium"
+border-inline-start-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
 borderInlineStartWidthMedium : Html.Attribute msg
 borderInlineStartWidthMedium =
-    Html.Attributes.style "border-inline-start-width" "medium"
+    borderInlineStartWidth "medium"
 
 
 {-| ```
-borderInlineStartWidthThick : Html.Attribute msg
-borderInlineStartWidthThick =
-    Html.Attributes.style "border-inline-start-width" "thick"
+border-inline-start-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
 borderInlineStartWidthThick : Html.Attribute msg
 borderInlineStartWidthThick =
-    Html.Attributes.style "border-inline-start-width" "thick"
+    borderInlineStartWidth "thick"
 
 
 {-| ```
-borderInlineStartWidthThin : Html.Attribute msg
-borderInlineStartWidthThin =
-    Html.Attributes.style "border-inline-start-width" "thin"
+border-inline-start-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width
 -}
 borderInlineStartWidthThin : Html.Attribute msg
 borderInlineStartWidthThin =
-    Html.Attributes.style "border-inline-start-width" "thin"
+    borderInlineStartWidth "thin"
 
 
-{-| ```
-borderInlineStyle : String -> Html.Attribute msg
-borderInlineStyle value =
-    Html.Attributes.style "border-inline-style" value
-```
+{-| CSS property `border-inline-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
@@ -5365,140 +4433,118 @@ borderInlineStyle value =
 
 
 {-| ```
-borderInlineStyleNone : Html.Attribute msg
-borderInlineStyleNone =
-    Html.Attributes.style "border-inline-style" "none"
+border-inline-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleNone : Html.Attribute msg
 borderInlineStyleNone =
-    Html.Attributes.style "border-inline-style" "none"
+    borderInlineStyle "none"
 
 
 {-| ```
-borderInlineStyleDotted : Html.Attribute msg
-borderInlineStyleDotted =
-    Html.Attributes.style "border-inline-style" "dotted"
+border-inline-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleDotted : Html.Attribute msg
 borderInlineStyleDotted =
-    Html.Attributes.style "border-inline-style" "dotted"
+    borderInlineStyle "dotted"
 
 
 {-| ```
-borderInlineStyleSolid : Html.Attribute msg
-borderInlineStyleSolid =
-    Html.Attributes.style "border-inline-style" "solid"
+border-inline-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleSolid : Html.Attribute msg
 borderInlineStyleSolid =
-    Html.Attributes.style "border-inline-style" "solid"
+    borderInlineStyle "solid"
 
 
 {-| ```
-borderInlineStyleGroove : Html.Attribute msg
-borderInlineStyleGroove =
-    Html.Attributes.style "border-inline-style" "groove"
+border-inline-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleGroove : Html.Attribute msg
 borderInlineStyleGroove =
-    Html.Attributes.style "border-inline-style" "groove"
+    borderInlineStyle "groove"
 
 
 {-| ```
-borderInlineStyleInset : Html.Attribute msg
-borderInlineStyleInset =
-    Html.Attributes.style "border-inline-style" "inset"
+border-inline-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleInset : Html.Attribute msg
 borderInlineStyleInset =
-    Html.Attributes.style "border-inline-style" "inset"
+    borderInlineStyle "inset"
 
 
 {-| ```
-borderInlineStyleOutset : Html.Attribute msg
-borderInlineStyleOutset =
-    Html.Attributes.style "border-inline-style" "outset"
+border-inline-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleOutset : Html.Attribute msg
 borderInlineStyleOutset =
-    Html.Attributes.style "border-inline-style" "outset"
+    borderInlineStyle "outset"
 
 
 {-| ```
-borderInlineStyleRidge : Html.Attribute msg
-borderInlineStyleRidge =
-    Html.Attributes.style "border-inline-style" "ridge"
+border-inline-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleRidge : Html.Attribute msg
 borderInlineStyleRidge =
-    Html.Attributes.style "border-inline-style" "ridge"
+    borderInlineStyle "ridge"
 
 
 {-| ```
-borderInlineStyleDouble : Html.Attribute msg
-borderInlineStyleDouble =
-    Html.Attributes.style "border-inline-style" "double"
+border-inline-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleDouble : Html.Attribute msg
 borderInlineStyleDouble =
-    Html.Attributes.style "border-inline-style" "double"
+    borderInlineStyle "double"
 
 
 {-| ```
-borderInlineStyleDashed : Html.Attribute msg
-borderInlineStyleDashed =
-    Html.Attributes.style "border-inline-style" "dashed"
+border-inline-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleDashed : Html.Attribute msg
 borderInlineStyleDashed =
-    Html.Attributes.style "border-inline-style" "dashed"
+    borderInlineStyle "dashed"
 
 
 {-| ```
-borderInlineStyleHidden : Html.Attribute msg
-borderInlineStyleHidden =
-    Html.Attributes.style "border-inline-style" "hidden"
+border-inline-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-style
 -}
 borderInlineStyleHidden : Html.Attribute msg
 borderInlineStyleHidden =
-    Html.Attributes.style "border-inline-style" "hidden"
+    borderInlineStyle "hidden"
 
 
-{-| ```
-borderInlineWidth : String -> Html.Attribute msg
-borderInlineWidth value =
-    Html.Attributes.style "border-inline-width" value
-```
+{-| CSS property `border-inline-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
@@ -5508,83 +4554,63 @@ borderInlineWidth value =
 
 
 {-| ```
-borderInlineWidthRem : Float -> Html.Attribute msg
-borderInlineWidthRem value =
-    Html.Attributes.style
-        "border-inline-width"
-        (String.append (String.fromFloat value) "rem")
+border-inline-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
 borderInlineWidthRem : Float -> Html.Attribute msg
 borderInlineWidthRem value =
-    Html.Attributes.style
-        "border-inline-width"
-        (String.append (String.fromFloat value) "rem")
+    borderInlineWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderInlineWidthPx : Float -> Html.Attribute msg
-borderInlineWidthPx value =
-    Html.Attributes.style
-        "border-inline-width"
-        (String.append (String.fromFloat value) "px")
+border-inline-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
 borderInlineWidthPx : Float -> Html.Attribute msg
 borderInlineWidthPx value =
-    Html.Attributes.style
-        "border-inline-width"
-        (String.append (String.fromFloat value) "px")
+    borderInlineWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderInlineWidthMedium : Html.Attribute msg
-borderInlineWidthMedium =
-    Html.Attributes.style "border-inline-width" "medium"
+border-inline-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
 borderInlineWidthMedium : Html.Attribute msg
 borderInlineWidthMedium =
-    Html.Attributes.style "border-inline-width" "medium"
+    borderInlineWidth "medium"
 
 
 {-| ```
-borderInlineWidthThick : Html.Attribute msg
-borderInlineWidthThick =
-    Html.Attributes.style "border-inline-width" "thick"
+border-inline-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
 borderInlineWidthThick : Html.Attribute msg
 borderInlineWidthThick =
-    Html.Attributes.style "border-inline-width" "thick"
+    borderInlineWidth "thick"
 
 
 {-| ```
-borderInlineWidthThin : Html.Attribute msg
-borderInlineWidthThin =
-    Html.Attributes.style "border-inline-width" "thin"
+border-inline-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-inline-width
 -}
 borderInlineWidthThin : Html.Attribute msg
 borderInlineWidthThin =
-    Html.Attributes.style "border-inline-width" "thin"
+    borderInlineWidth "thin"
 
 
-{-| ```
-borderLeft : String -> Html.Attribute msg
-borderLeft value =
-    Html.Attributes.style "border-left" value
-```
+{-| CSS property `border-left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
@@ -5594,213 +4620,173 @@ borderLeft value =
 
 
 {-| ```
-borderLeftHidden : Html.Attribute msg
-borderLeftHidden =
-    Html.Attributes.style "border-left" "hidden"
+border-left : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftHidden : Html.Attribute msg
 borderLeftHidden =
-    Html.Attributes.style "border-left" "hidden"
+    borderLeft "hidden"
 
 
 {-| ```
-borderLeftDashed : Html.Attribute msg
-borderLeftDashed =
-    Html.Attributes.style "border-left" "dashed"
+border-left : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftDashed : Html.Attribute msg
 borderLeftDashed =
-    Html.Attributes.style "border-left" "dashed"
+    borderLeft "dashed"
 
 
 {-| ```
-borderLeftDouble : Html.Attribute msg
-borderLeftDouble =
-    Html.Attributes.style "border-left" "double"
+border-left : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftDouble : Html.Attribute msg
 borderLeftDouble =
-    Html.Attributes.style "border-left" "double"
+    borderLeft "double"
 
 
 {-| ```
-borderLeftRidge : Html.Attribute msg
-borderLeftRidge =
-    Html.Attributes.style "border-left" "ridge"
+border-left : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftRidge : Html.Attribute msg
 borderLeftRidge =
-    Html.Attributes.style "border-left" "ridge"
+    borderLeft "ridge"
 
 
 {-| ```
-borderLeftOutset : Html.Attribute msg
-borderLeftOutset =
-    Html.Attributes.style "border-left" "outset"
+border-left : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftOutset : Html.Attribute msg
 borderLeftOutset =
-    Html.Attributes.style "border-left" "outset"
+    borderLeft "outset"
 
 
 {-| ```
-borderLeftInset : Html.Attribute msg
-borderLeftInset =
-    Html.Attributes.style "border-left" "inset"
+border-left : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftInset : Html.Attribute msg
 borderLeftInset =
-    Html.Attributes.style "border-left" "inset"
+    borderLeft "inset"
 
 
 {-| ```
-borderLeftGroove : Html.Attribute msg
-borderLeftGroove =
-    Html.Attributes.style "border-left" "groove"
+border-left : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftGroove : Html.Attribute msg
 borderLeftGroove =
-    Html.Attributes.style "border-left" "groove"
+    borderLeft "groove"
 
 
 {-| ```
-borderLeftSolid : Html.Attribute msg
-borderLeftSolid =
-    Html.Attributes.style "border-left" "solid"
+border-left : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftSolid : Html.Attribute msg
 borderLeftSolid =
-    Html.Attributes.style "border-left" "solid"
+    borderLeft "solid"
 
 
 {-| ```
-borderLeftDotted : Html.Attribute msg
-borderLeftDotted =
-    Html.Attributes.style "border-left" "dotted"
+border-left : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftDotted : Html.Attribute msg
 borderLeftDotted =
-    Html.Attributes.style "border-left" "dotted"
+    borderLeft "dotted"
 
 
 {-| ```
-borderLeftNone : Html.Attribute msg
-borderLeftNone =
-    Html.Attributes.style "border-left" "none"
+border-left : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftNone : Html.Attribute msg
 borderLeftNone =
-    Html.Attributes.style "border-left" "none"
+    borderLeft "none"
 
 
 {-| ```
-borderLeftThin : Html.Attribute msg
-borderLeftThin =
-    Html.Attributes.style "border-left" "thin"
+border-left : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftThin : Html.Attribute msg
 borderLeftThin =
-    Html.Attributes.style "border-left" "thin"
+    borderLeft "thin"
 
 
 {-| ```
-borderLeftThick : Html.Attribute msg
-borderLeftThick =
-    Html.Attributes.style "border-left" "thick"
+border-left : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftThick : Html.Attribute msg
 borderLeftThick =
-    Html.Attributes.style "border-left" "thick"
+    borderLeft "thick"
 
 
 {-| ```
-borderLeftMedium : Html.Attribute msg
-borderLeftMedium =
-    Html.Attributes.style "border-left" "medium"
+border-left : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftMedium : Html.Attribute msg
 borderLeftMedium =
-    Html.Attributes.style "border-left" "medium"
+    borderLeft "medium"
 
 
 {-| ```
-borderLeftPx : Float -> Html.Attribute msg
-borderLeftPx value =
-    Html.Attributes.style
-        "border-left"
-        (String.append (String.fromFloat value) "px")
+border-left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftPx : Float -> Html.Attribute msg
 borderLeftPx value =
-    Html.Attributes.style
-        "border-left"
-        (String.append (String.fromFloat value) "px")
+    borderLeft (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderLeftRem : Float -> Html.Attribute msg
-borderLeftRem value =
-    Html.Attributes.style
-        "border-left"
-        (String.append (String.fromFloat value) "rem")
+border-left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left
 -}
 borderLeftRem : Float -> Html.Attribute msg
 borderLeftRem value =
-    Html.Attributes.style
-        "border-left"
-        (String.append (String.fromFloat value) "rem")
+    borderLeft (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderLeftColor : String -> Html.Attribute msg
-borderLeftColor value =
-    Html.Attributes.style "border-left-color" value
-```
+{-| CSS property `border-left-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-color
 -}
@@ -5809,11 +4795,9 @@ borderLeftColor value =
     Html.Attributes.style "border-left-color" value
 
 
-{-| ```
-borderLeftStyle : String -> Html.Attribute msg
-borderLeftStyle value =
-    Html.Attributes.style "border-left-style" value
-```
+{-| CSS property `border-left-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
@@ -5823,140 +4807,118 @@ borderLeftStyle value =
 
 
 {-| ```
-borderLeftStyleHidden : Html.Attribute msg
-borderLeftStyleHidden =
-    Html.Attributes.style "border-left-style" "hidden"
+border-left-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleHidden : Html.Attribute msg
 borderLeftStyleHidden =
-    Html.Attributes.style "border-left-style" "hidden"
+    borderLeftStyle "hidden"
 
 
 {-| ```
-borderLeftStyleDashed : Html.Attribute msg
-borderLeftStyleDashed =
-    Html.Attributes.style "border-left-style" "dashed"
+border-left-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleDashed : Html.Attribute msg
 borderLeftStyleDashed =
-    Html.Attributes.style "border-left-style" "dashed"
+    borderLeftStyle "dashed"
 
 
 {-| ```
-borderLeftStyleDouble : Html.Attribute msg
-borderLeftStyleDouble =
-    Html.Attributes.style "border-left-style" "double"
+border-left-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleDouble : Html.Attribute msg
 borderLeftStyleDouble =
-    Html.Attributes.style "border-left-style" "double"
+    borderLeftStyle "double"
 
 
 {-| ```
-borderLeftStyleRidge : Html.Attribute msg
-borderLeftStyleRidge =
-    Html.Attributes.style "border-left-style" "ridge"
+border-left-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleRidge : Html.Attribute msg
 borderLeftStyleRidge =
-    Html.Attributes.style "border-left-style" "ridge"
+    borderLeftStyle "ridge"
 
 
 {-| ```
-borderLeftStyleOutset : Html.Attribute msg
-borderLeftStyleOutset =
-    Html.Attributes.style "border-left-style" "outset"
+border-left-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleOutset : Html.Attribute msg
 borderLeftStyleOutset =
-    Html.Attributes.style "border-left-style" "outset"
+    borderLeftStyle "outset"
 
 
 {-| ```
-borderLeftStyleInset : Html.Attribute msg
-borderLeftStyleInset =
-    Html.Attributes.style "border-left-style" "inset"
+border-left-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleInset : Html.Attribute msg
 borderLeftStyleInset =
-    Html.Attributes.style "border-left-style" "inset"
+    borderLeftStyle "inset"
 
 
 {-| ```
-borderLeftStyleGroove : Html.Attribute msg
-borderLeftStyleGroove =
-    Html.Attributes.style "border-left-style" "groove"
+border-left-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleGroove : Html.Attribute msg
 borderLeftStyleGroove =
-    Html.Attributes.style "border-left-style" "groove"
+    borderLeftStyle "groove"
 
 
 {-| ```
-borderLeftStyleSolid : Html.Attribute msg
-borderLeftStyleSolid =
-    Html.Attributes.style "border-left-style" "solid"
+border-left-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleSolid : Html.Attribute msg
 borderLeftStyleSolid =
-    Html.Attributes.style "border-left-style" "solid"
+    borderLeftStyle "solid"
 
 
 {-| ```
-borderLeftStyleDotted : Html.Attribute msg
-borderLeftStyleDotted =
-    Html.Attributes.style "border-left-style" "dotted"
+border-left-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleDotted : Html.Attribute msg
 borderLeftStyleDotted =
-    Html.Attributes.style "border-left-style" "dotted"
+    borderLeftStyle "dotted"
 
 
 {-| ```
-borderLeftStyleNone : Html.Attribute msg
-borderLeftStyleNone =
-    Html.Attributes.style "border-left-style" "none"
+border-left-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-style
 -}
 borderLeftStyleNone : Html.Attribute msg
 borderLeftStyleNone =
-    Html.Attributes.style "border-left-style" "none"
+    borderLeftStyle "none"
 
 
-{-| ```
-borderLeftWidth : String -> Html.Attribute msg
-borderLeftWidth value =
-    Html.Attributes.style "border-left-width" value
-```
+{-| CSS property `border-left-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
@@ -5966,83 +4928,63 @@ borderLeftWidth value =
 
 
 {-| ```
-borderLeftWidthThin : Html.Attribute msg
-borderLeftWidthThin =
-    Html.Attributes.style "border-left-width" "thin"
+border-left-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
 borderLeftWidthThin : Html.Attribute msg
 borderLeftWidthThin =
-    Html.Attributes.style "border-left-width" "thin"
+    borderLeftWidth "thin"
 
 
 {-| ```
-borderLeftWidthThick : Html.Attribute msg
-borderLeftWidthThick =
-    Html.Attributes.style "border-left-width" "thick"
+border-left-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
 borderLeftWidthThick : Html.Attribute msg
 borderLeftWidthThick =
-    Html.Attributes.style "border-left-width" "thick"
+    borderLeftWidth "thick"
 
 
 {-| ```
-borderLeftWidthMedium : Html.Attribute msg
-borderLeftWidthMedium =
-    Html.Attributes.style "border-left-width" "medium"
+border-left-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
 borderLeftWidthMedium : Html.Attribute msg
 borderLeftWidthMedium =
-    Html.Attributes.style "border-left-width" "medium"
+    borderLeftWidth "medium"
 
 
 {-| ```
-borderLeftWidthPx : Float -> Html.Attribute msg
-borderLeftWidthPx value =
-    Html.Attributes.style
-        "border-left-width"
-        (String.append (String.fromFloat value) "px")
+border-left-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
 borderLeftWidthPx : Float -> Html.Attribute msg
 borderLeftWidthPx value =
-    Html.Attributes.style
-        "border-left-width"
-        (String.append (String.fromFloat value) "px")
+    borderLeftWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderLeftWidthRem : Float -> Html.Attribute msg
-borderLeftWidthRem value =
-    Html.Attributes.style
-        "border-left-width"
-        (String.append (String.fromFloat value) "rem")
+border-left-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-left-width
 -}
 borderLeftWidthRem : Float -> Html.Attribute msg
 borderLeftWidthRem value =
-    Html.Attributes.style
-        "border-left-width"
-        (String.append (String.fromFloat value) "rem")
+    borderLeftWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderRadius : String -> Html.Attribute msg
-borderRadius value =
-    Html.Attributes.style "border-radius" value
-```
+{-| CSS property `border-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-radius
 -}
@@ -6051,11 +4993,9 @@ borderRadius value =
     Html.Attributes.style "border-radius" value
 
 
-{-| ```
-borderRight : String -> Html.Attribute msg
-borderRight value =
-    Html.Attributes.style "border-right" value
-```
+{-| CSS property `border-right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
@@ -6065,213 +5005,173 @@ borderRight value =
 
 
 {-| ```
-borderRightHidden : Html.Attribute msg
-borderRightHidden =
-    Html.Attributes.style "border-right" "hidden"
+border-right : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightHidden : Html.Attribute msg
 borderRightHidden =
-    Html.Attributes.style "border-right" "hidden"
+    borderRight "hidden"
 
 
 {-| ```
-borderRightDashed : Html.Attribute msg
-borderRightDashed =
-    Html.Attributes.style "border-right" "dashed"
+border-right : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightDashed : Html.Attribute msg
 borderRightDashed =
-    Html.Attributes.style "border-right" "dashed"
+    borderRight "dashed"
 
 
 {-| ```
-borderRightDouble : Html.Attribute msg
-borderRightDouble =
-    Html.Attributes.style "border-right" "double"
+border-right : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightDouble : Html.Attribute msg
 borderRightDouble =
-    Html.Attributes.style "border-right" "double"
+    borderRight "double"
 
 
 {-| ```
-borderRightRidge : Html.Attribute msg
-borderRightRidge =
-    Html.Attributes.style "border-right" "ridge"
+border-right : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightRidge : Html.Attribute msg
 borderRightRidge =
-    Html.Attributes.style "border-right" "ridge"
+    borderRight "ridge"
 
 
 {-| ```
-borderRightOutset : Html.Attribute msg
-borderRightOutset =
-    Html.Attributes.style "border-right" "outset"
+border-right : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightOutset : Html.Attribute msg
 borderRightOutset =
-    Html.Attributes.style "border-right" "outset"
+    borderRight "outset"
 
 
 {-| ```
-borderRightInset : Html.Attribute msg
-borderRightInset =
-    Html.Attributes.style "border-right" "inset"
+border-right : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightInset : Html.Attribute msg
 borderRightInset =
-    Html.Attributes.style "border-right" "inset"
+    borderRight "inset"
 
 
 {-| ```
-borderRightGroove : Html.Attribute msg
-borderRightGroove =
-    Html.Attributes.style "border-right" "groove"
+border-right : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightGroove : Html.Attribute msg
 borderRightGroove =
-    Html.Attributes.style "border-right" "groove"
+    borderRight "groove"
 
 
 {-| ```
-borderRightSolid : Html.Attribute msg
-borderRightSolid =
-    Html.Attributes.style "border-right" "solid"
+border-right : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightSolid : Html.Attribute msg
 borderRightSolid =
-    Html.Attributes.style "border-right" "solid"
+    borderRight "solid"
 
 
 {-| ```
-borderRightDotted : Html.Attribute msg
-borderRightDotted =
-    Html.Attributes.style "border-right" "dotted"
+border-right : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightDotted : Html.Attribute msg
 borderRightDotted =
-    Html.Attributes.style "border-right" "dotted"
+    borderRight "dotted"
 
 
 {-| ```
-borderRightNone : Html.Attribute msg
-borderRightNone =
-    Html.Attributes.style "border-right" "none"
+border-right : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightNone : Html.Attribute msg
 borderRightNone =
-    Html.Attributes.style "border-right" "none"
+    borderRight "none"
 
 
 {-| ```
-borderRightThin : Html.Attribute msg
-borderRightThin =
-    Html.Attributes.style "border-right" "thin"
+border-right : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightThin : Html.Attribute msg
 borderRightThin =
-    Html.Attributes.style "border-right" "thin"
+    borderRight "thin"
 
 
 {-| ```
-borderRightThick : Html.Attribute msg
-borderRightThick =
-    Html.Attributes.style "border-right" "thick"
+border-right : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightThick : Html.Attribute msg
 borderRightThick =
-    Html.Attributes.style "border-right" "thick"
+    borderRight "thick"
 
 
 {-| ```
-borderRightMedium : Html.Attribute msg
-borderRightMedium =
-    Html.Attributes.style "border-right" "medium"
+border-right : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightMedium : Html.Attribute msg
 borderRightMedium =
-    Html.Attributes.style "border-right" "medium"
+    borderRight "medium"
 
 
 {-| ```
-borderRightPx : Float -> Html.Attribute msg
-borderRightPx value =
-    Html.Attributes.style
-        "border-right"
-        (String.append (String.fromFloat value) "px")
+border-right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightPx : Float -> Html.Attribute msg
 borderRightPx value =
-    Html.Attributes.style
-        "border-right"
-        (String.append (String.fromFloat value) "px")
+    borderRight (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderRightRem : Float -> Html.Attribute msg
-borderRightRem value =
-    Html.Attributes.style
-        "border-right"
-        (String.append (String.fromFloat value) "rem")
+border-right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right
 -}
 borderRightRem : Float -> Html.Attribute msg
 borderRightRem value =
-    Html.Attributes.style
-        "border-right"
-        (String.append (String.fromFloat value) "rem")
+    borderRight (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderRightColor : String -> Html.Attribute msg
-borderRightColor value =
-    Html.Attributes.style "border-right-color" value
-```
+{-| CSS property `border-right-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-color
 -}
@@ -6280,11 +5180,9 @@ borderRightColor value =
     Html.Attributes.style "border-right-color" value
 
 
-{-| ```
-borderRightStyle : String -> Html.Attribute msg
-borderRightStyle value =
-    Html.Attributes.style "border-right-style" value
-```
+{-| CSS property `border-right-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
@@ -6294,140 +5192,118 @@ borderRightStyle value =
 
 
 {-| ```
-borderRightStyleHidden : Html.Attribute msg
-borderRightStyleHidden =
-    Html.Attributes.style "border-right-style" "hidden"
+border-right-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleHidden : Html.Attribute msg
 borderRightStyleHidden =
-    Html.Attributes.style "border-right-style" "hidden"
+    borderRightStyle "hidden"
 
 
 {-| ```
-borderRightStyleDashed : Html.Attribute msg
-borderRightStyleDashed =
-    Html.Attributes.style "border-right-style" "dashed"
+border-right-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleDashed : Html.Attribute msg
 borderRightStyleDashed =
-    Html.Attributes.style "border-right-style" "dashed"
+    borderRightStyle "dashed"
 
 
 {-| ```
-borderRightStyleDouble : Html.Attribute msg
-borderRightStyleDouble =
-    Html.Attributes.style "border-right-style" "double"
+border-right-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleDouble : Html.Attribute msg
 borderRightStyleDouble =
-    Html.Attributes.style "border-right-style" "double"
+    borderRightStyle "double"
 
 
 {-| ```
-borderRightStyleRidge : Html.Attribute msg
-borderRightStyleRidge =
-    Html.Attributes.style "border-right-style" "ridge"
+border-right-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleRidge : Html.Attribute msg
 borderRightStyleRidge =
-    Html.Attributes.style "border-right-style" "ridge"
+    borderRightStyle "ridge"
 
 
 {-| ```
-borderRightStyleOutset : Html.Attribute msg
-borderRightStyleOutset =
-    Html.Attributes.style "border-right-style" "outset"
+border-right-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleOutset : Html.Attribute msg
 borderRightStyleOutset =
-    Html.Attributes.style "border-right-style" "outset"
+    borderRightStyle "outset"
 
 
 {-| ```
-borderRightStyleInset : Html.Attribute msg
-borderRightStyleInset =
-    Html.Attributes.style "border-right-style" "inset"
+border-right-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleInset : Html.Attribute msg
 borderRightStyleInset =
-    Html.Attributes.style "border-right-style" "inset"
+    borderRightStyle "inset"
 
 
 {-| ```
-borderRightStyleGroove : Html.Attribute msg
-borderRightStyleGroove =
-    Html.Attributes.style "border-right-style" "groove"
+border-right-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleGroove : Html.Attribute msg
 borderRightStyleGroove =
-    Html.Attributes.style "border-right-style" "groove"
+    borderRightStyle "groove"
 
 
 {-| ```
-borderRightStyleSolid : Html.Attribute msg
-borderRightStyleSolid =
-    Html.Attributes.style "border-right-style" "solid"
+border-right-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleSolid : Html.Attribute msg
 borderRightStyleSolid =
-    Html.Attributes.style "border-right-style" "solid"
+    borderRightStyle "solid"
 
 
 {-| ```
-borderRightStyleDotted : Html.Attribute msg
-borderRightStyleDotted =
-    Html.Attributes.style "border-right-style" "dotted"
+border-right-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleDotted : Html.Attribute msg
 borderRightStyleDotted =
-    Html.Attributes.style "border-right-style" "dotted"
+    borderRightStyle "dotted"
 
 
 {-| ```
-borderRightStyleNone : Html.Attribute msg
-borderRightStyleNone =
-    Html.Attributes.style "border-right-style" "none"
+border-right-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-style
 -}
 borderRightStyleNone : Html.Attribute msg
 borderRightStyleNone =
-    Html.Attributes.style "border-right-style" "none"
+    borderRightStyle "none"
 
 
-{-| ```
-borderRightWidth : String -> Html.Attribute msg
-borderRightWidth value =
-    Html.Attributes.style "border-right-width" value
-```
+{-| CSS property `border-right-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
@@ -6437,83 +5313,63 @@ borderRightWidth value =
 
 
 {-| ```
-borderRightWidthThin : Html.Attribute msg
-borderRightWidthThin =
-    Html.Attributes.style "border-right-width" "thin"
+border-right-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
 borderRightWidthThin : Html.Attribute msg
 borderRightWidthThin =
-    Html.Attributes.style "border-right-width" "thin"
+    borderRightWidth "thin"
 
 
 {-| ```
-borderRightWidthThick : Html.Attribute msg
-borderRightWidthThick =
-    Html.Attributes.style "border-right-width" "thick"
+border-right-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
 borderRightWidthThick : Html.Attribute msg
 borderRightWidthThick =
-    Html.Attributes.style "border-right-width" "thick"
+    borderRightWidth "thick"
 
 
 {-| ```
-borderRightWidthMedium : Html.Attribute msg
-borderRightWidthMedium =
-    Html.Attributes.style "border-right-width" "medium"
+border-right-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
 borderRightWidthMedium : Html.Attribute msg
 borderRightWidthMedium =
-    Html.Attributes.style "border-right-width" "medium"
+    borderRightWidth "medium"
 
 
 {-| ```
-borderRightWidthPx : Float -> Html.Attribute msg
-borderRightWidthPx value =
-    Html.Attributes.style
-        "border-right-width"
-        (String.append (String.fromFloat value) "px")
+border-right-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
 borderRightWidthPx : Float -> Html.Attribute msg
 borderRightWidthPx value =
-    Html.Attributes.style
-        "border-right-width"
-        (String.append (String.fromFloat value) "px")
+    borderRightWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderRightWidthRem : Float -> Html.Attribute msg
-borderRightWidthRem value =
-    Html.Attributes.style
-        "border-right-width"
-        (String.append (String.fromFloat value) "rem")
+border-right-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-right-width
 -}
 borderRightWidthRem : Float -> Html.Attribute msg
 borderRightWidthRem value =
-    Html.Attributes.style
-        "border-right-width"
-        (String.append (String.fromFloat value) "rem")
+    borderRightWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderSpacing : String -> Html.Attribute msg
-borderSpacing value =
-    Html.Attributes.style "border-spacing" value
-```
+{-| CSS property `border-spacing`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-spacing
 -}
@@ -6523,44 +5379,30 @@ borderSpacing value =
 
 
 {-| ```
-borderSpacingRem : Float -> Html.Attribute msg
-borderSpacingRem value =
-    Html.Attributes.style
-        "border-spacing"
-        (String.append (String.fromFloat value) "rem")
+border-spacing : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-spacing
 -}
 borderSpacingRem : Float -> Html.Attribute msg
 borderSpacingRem value =
-    Html.Attributes.style
-        "border-spacing"
-        (String.append (String.fromFloat value) "rem")
+    borderSpacing (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-borderSpacingPx : Float -> Html.Attribute msg
-borderSpacingPx value =
-    Html.Attributes.style
-        "border-spacing"
-        (String.append (String.fromFloat value) "px")
+border-spacing : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-spacing
 -}
 borderSpacingPx : Float -> Html.Attribute msg
 borderSpacingPx value =
-    Html.Attributes.style
-        "border-spacing"
-        (String.append (String.fromFloat value) "px")
+    borderSpacing (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-borderStartEndRadius : String -> Html.Attribute msg
-borderStartEndRadius value =
-    Html.Attributes.style "border-start-end-radius" value
-```
+{-| CSS property `border-start-end-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius
 -}
@@ -6570,44 +5412,30 @@ borderStartEndRadius value =
 
 
 {-| ```
-borderStartEndRadiusPx : Float -> Html.Attribute msg
-borderStartEndRadiusPx value =
-    Html.Attributes.style
-        "border-start-end-radius"
-        (String.append (String.fromFloat value) "px")
+border-start-end-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius
 -}
 borderStartEndRadiusPx : Float -> Html.Attribute msg
 borderStartEndRadiusPx value =
-    Html.Attributes.style
-        "border-start-end-radius"
-        (String.append (String.fromFloat value) "px")
+    borderStartEndRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderStartEndRadiusRem : Float -> Html.Attribute msg
-borderStartEndRadiusRem value =
-    Html.Attributes.style
-        "border-start-end-radius"
-        (String.append (String.fromFloat value) "rem")
+border-start-end-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius
 -}
 borderStartEndRadiusRem : Float -> Html.Attribute msg
 borderStartEndRadiusRem value =
-    Html.Attributes.style
-        "border-start-end-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderStartEndRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderStartStartRadius : String -> Html.Attribute msg
-borderStartStartRadius value =
-    Html.Attributes.style "border-start-start-radius" value
-```
+{-| CSS property `border-start-start-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius
 -}
@@ -6617,44 +5445,30 @@ borderStartStartRadius value =
 
 
 {-| ```
-borderStartStartRadiusPx : Float -> Html.Attribute msg
-borderStartStartRadiusPx value =
-    Html.Attributes.style
-        "border-start-start-radius"
-        (String.append (String.fromFloat value) "px")
+border-start-start-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius
 -}
 borderStartStartRadiusPx : Float -> Html.Attribute msg
 borderStartStartRadiusPx value =
-    Html.Attributes.style
-        "border-start-start-radius"
-        (String.append (String.fromFloat value) "px")
+    borderStartStartRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderStartStartRadiusRem : Float -> Html.Attribute msg
-borderStartStartRadiusRem value =
-    Html.Attributes.style
-        "border-start-start-radius"
-        (String.append (String.fromFloat value) "rem")
+border-start-start-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius
 -}
 borderStartStartRadiusRem : Float -> Html.Attribute msg
 borderStartStartRadiusRem value =
-    Html.Attributes.style
-        "border-start-start-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderStartStartRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderStyle : String -> Html.Attribute msg
-borderStyle value =
-    Html.Attributes.style "border-style" value
-```
+{-| CSS property `border-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
@@ -6664,140 +5478,118 @@ borderStyle value =
 
 
 {-| ```
-borderStyleHidden : Html.Attribute msg
-borderStyleHidden =
-    Html.Attributes.style "border-style" "hidden"
+border-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleHidden : Html.Attribute msg
 borderStyleHidden =
-    Html.Attributes.style "border-style" "hidden"
+    borderStyle "hidden"
 
 
 {-| ```
-borderStyleDashed : Html.Attribute msg
-borderStyleDashed =
-    Html.Attributes.style "border-style" "dashed"
+border-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleDashed : Html.Attribute msg
 borderStyleDashed =
-    Html.Attributes.style "border-style" "dashed"
+    borderStyle "dashed"
 
 
 {-| ```
-borderStyleDouble : Html.Attribute msg
-borderStyleDouble =
-    Html.Attributes.style "border-style" "double"
+border-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleDouble : Html.Attribute msg
 borderStyleDouble =
-    Html.Attributes.style "border-style" "double"
+    borderStyle "double"
 
 
 {-| ```
-borderStyleRidge : Html.Attribute msg
-borderStyleRidge =
-    Html.Attributes.style "border-style" "ridge"
+border-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleRidge : Html.Attribute msg
 borderStyleRidge =
-    Html.Attributes.style "border-style" "ridge"
+    borderStyle "ridge"
 
 
 {-| ```
-borderStyleOutset : Html.Attribute msg
-borderStyleOutset =
-    Html.Attributes.style "border-style" "outset"
+border-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleOutset : Html.Attribute msg
 borderStyleOutset =
-    Html.Attributes.style "border-style" "outset"
+    borderStyle "outset"
 
 
 {-| ```
-borderStyleInset : Html.Attribute msg
-borderStyleInset =
-    Html.Attributes.style "border-style" "inset"
+border-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleInset : Html.Attribute msg
 borderStyleInset =
-    Html.Attributes.style "border-style" "inset"
+    borderStyle "inset"
 
 
 {-| ```
-borderStyleGroove : Html.Attribute msg
-borderStyleGroove =
-    Html.Attributes.style "border-style" "groove"
+border-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleGroove : Html.Attribute msg
 borderStyleGroove =
-    Html.Attributes.style "border-style" "groove"
+    borderStyle "groove"
 
 
 {-| ```
-borderStyleSolid : Html.Attribute msg
-borderStyleSolid =
-    Html.Attributes.style "border-style" "solid"
+border-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleSolid : Html.Attribute msg
 borderStyleSolid =
-    Html.Attributes.style "border-style" "solid"
+    borderStyle "solid"
 
 
 {-| ```
-borderStyleDotted : Html.Attribute msg
-borderStyleDotted =
-    Html.Attributes.style "border-style" "dotted"
+border-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleDotted : Html.Attribute msg
 borderStyleDotted =
-    Html.Attributes.style "border-style" "dotted"
+    borderStyle "dotted"
 
 
 {-| ```
-borderStyleNone : Html.Attribute msg
-borderStyleNone =
-    Html.Attributes.style "border-style" "none"
+border-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-style
 -}
 borderStyleNone : Html.Attribute msg
 borderStyleNone =
-    Html.Attributes.style "border-style" "none"
+    borderStyle "none"
 
 
-{-| ```
-borderTop : String -> Html.Attribute msg
-borderTop value =
-    Html.Attributes.style "border-top" value
-```
+{-| CSS property `border-top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
@@ -6807,213 +5599,173 @@ borderTop value =
 
 
 {-| ```
-borderTopHidden : Html.Attribute msg
-borderTopHidden =
-    Html.Attributes.style "border-top" "hidden"
+border-top : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopHidden : Html.Attribute msg
 borderTopHidden =
-    Html.Attributes.style "border-top" "hidden"
+    borderTop "hidden"
 
 
 {-| ```
-borderTopDashed : Html.Attribute msg
-borderTopDashed =
-    Html.Attributes.style "border-top" "dashed"
+border-top : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopDashed : Html.Attribute msg
 borderTopDashed =
-    Html.Attributes.style "border-top" "dashed"
+    borderTop "dashed"
 
 
 {-| ```
-borderTopDouble : Html.Attribute msg
-borderTopDouble =
-    Html.Attributes.style "border-top" "double"
+border-top : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopDouble : Html.Attribute msg
 borderTopDouble =
-    Html.Attributes.style "border-top" "double"
+    borderTop "double"
 
 
 {-| ```
-borderTopRidge : Html.Attribute msg
-borderTopRidge =
-    Html.Attributes.style "border-top" "ridge"
+border-top : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopRidge : Html.Attribute msg
 borderTopRidge =
-    Html.Attributes.style "border-top" "ridge"
+    borderTop "ridge"
 
 
 {-| ```
-borderTopOutset : Html.Attribute msg
-borderTopOutset =
-    Html.Attributes.style "border-top" "outset"
+border-top : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopOutset : Html.Attribute msg
 borderTopOutset =
-    Html.Attributes.style "border-top" "outset"
+    borderTop "outset"
 
 
 {-| ```
-borderTopInset : Html.Attribute msg
-borderTopInset =
-    Html.Attributes.style "border-top" "inset"
+border-top : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopInset : Html.Attribute msg
 borderTopInset =
-    Html.Attributes.style "border-top" "inset"
+    borderTop "inset"
 
 
 {-| ```
-borderTopGroove : Html.Attribute msg
-borderTopGroove =
-    Html.Attributes.style "border-top" "groove"
+border-top : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopGroove : Html.Attribute msg
 borderTopGroove =
-    Html.Attributes.style "border-top" "groove"
+    borderTop "groove"
 
 
 {-| ```
-borderTopSolid : Html.Attribute msg
-borderTopSolid =
-    Html.Attributes.style "border-top" "solid"
+border-top : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopSolid : Html.Attribute msg
 borderTopSolid =
-    Html.Attributes.style "border-top" "solid"
+    borderTop "solid"
 
 
 {-| ```
-borderTopDotted : Html.Attribute msg
-borderTopDotted =
-    Html.Attributes.style "border-top" "dotted"
+border-top : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopDotted : Html.Attribute msg
 borderTopDotted =
-    Html.Attributes.style "border-top" "dotted"
+    borderTop "dotted"
 
 
 {-| ```
-borderTopNone : Html.Attribute msg
-borderTopNone =
-    Html.Attributes.style "border-top" "none"
+border-top : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopNone : Html.Attribute msg
 borderTopNone =
-    Html.Attributes.style "border-top" "none"
+    borderTop "none"
 
 
 {-| ```
-borderTopThin : Html.Attribute msg
-borderTopThin =
-    Html.Attributes.style "border-top" "thin"
+border-top : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopThin : Html.Attribute msg
 borderTopThin =
-    Html.Attributes.style "border-top" "thin"
+    borderTop "thin"
 
 
 {-| ```
-borderTopThick : Html.Attribute msg
-borderTopThick =
-    Html.Attributes.style "border-top" "thick"
+border-top : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopThick : Html.Attribute msg
 borderTopThick =
-    Html.Attributes.style "border-top" "thick"
+    borderTop "thick"
 
 
 {-| ```
-borderTopMedium : Html.Attribute msg
-borderTopMedium =
-    Html.Attributes.style "border-top" "medium"
+border-top : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopMedium : Html.Attribute msg
 borderTopMedium =
-    Html.Attributes.style "border-top" "medium"
+    borderTop "medium"
 
 
 {-| ```
-borderTopPx : Float -> Html.Attribute msg
-borderTopPx value =
-    Html.Attributes.style
-        "border-top"
-        (String.append (String.fromFloat value) "px")
+border-top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopPx : Float -> Html.Attribute msg
 borderTopPx value =
-    Html.Attributes.style
-        "border-top"
-        (String.append (String.fromFloat value) "px")
+    borderTop (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderTopRem : Float -> Html.Attribute msg
-borderTopRem value =
-    Html.Attributes.style
-        "border-top"
-        (String.append (String.fromFloat value) "rem")
+border-top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top
 -}
 borderTopRem : Float -> Html.Attribute msg
 borderTopRem value =
-    Html.Attributes.style
-        "border-top"
-        (String.append (String.fromFloat value) "rem")
+    borderTop (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderTopColor : String -> Html.Attribute msg
-borderTopColor value =
-    Html.Attributes.style "border-top-color" value
-```
+{-| CSS property `border-top-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-color
 -}
@@ -7022,11 +5774,9 @@ borderTopColor value =
     Html.Attributes.style "border-top-color" value
 
 
-{-| ```
-borderTopLeftRadius : String -> Html.Attribute msg
-borderTopLeftRadius value =
-    Html.Attributes.style "border-top-left-radius" value
-```
+{-| CSS property `border-top-left-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius
 -}
@@ -7036,44 +5786,30 @@ borderTopLeftRadius value =
 
 
 {-| ```
-borderTopLeftRadiusPx : Float -> Html.Attribute msg
-borderTopLeftRadiusPx value =
-    Html.Attributes.style
-        "border-top-left-radius"
-        (String.append (String.fromFloat value) "px")
+border-top-left-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius
 -}
 borderTopLeftRadiusPx : Float -> Html.Attribute msg
 borderTopLeftRadiusPx value =
-    Html.Attributes.style
-        "border-top-left-radius"
-        (String.append (String.fromFloat value) "px")
+    borderTopLeftRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderTopLeftRadiusRem : Float -> Html.Attribute msg
-borderTopLeftRadiusRem value =
-    Html.Attributes.style
-        "border-top-left-radius"
-        (String.append (String.fromFloat value) "rem")
+border-top-left-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius
 -}
 borderTopLeftRadiusRem : Float -> Html.Attribute msg
 borderTopLeftRadiusRem value =
-    Html.Attributes.style
-        "border-top-left-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderTopLeftRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderTopRightRadius : String -> Html.Attribute msg
-borderTopRightRadius value =
-    Html.Attributes.style "border-top-right-radius" value
-```
+{-| CSS property `border-top-right-radius`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius
 -}
@@ -7083,44 +5819,30 @@ borderTopRightRadius value =
 
 
 {-| ```
-borderTopRightRadiusPx : Float -> Html.Attribute msg
-borderTopRightRadiusPx value =
-    Html.Attributes.style
-        "border-top-right-radius"
-        (String.append (String.fromFloat value) "px")
+border-top-right-radius : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius
 -}
 borderTopRightRadiusPx : Float -> Html.Attribute msg
 borderTopRightRadiusPx value =
-    Html.Attributes.style
-        "border-top-right-radius"
-        (String.append (String.fromFloat value) "px")
+    borderTopRightRadius (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderTopRightRadiusRem : Float -> Html.Attribute msg
-borderTopRightRadiusRem value =
-    Html.Attributes.style
-        "border-top-right-radius"
-        (String.append (String.fromFloat value) "rem")
+border-top-right-radius : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius
 -}
 borderTopRightRadiusRem : Float -> Html.Attribute msg
 borderTopRightRadiusRem value =
-    Html.Attributes.style
-        "border-top-right-radius"
-        (String.append (String.fromFloat value) "rem")
+    borderTopRightRadius (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderTopStyle : String -> Html.Attribute msg
-borderTopStyle value =
-    Html.Attributes.style "border-top-style" value
-```
+{-| CSS property `border-top-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
@@ -7130,140 +5852,118 @@ borderTopStyle value =
 
 
 {-| ```
-borderTopStyleHidden : Html.Attribute msg
-borderTopStyleHidden =
-    Html.Attributes.style "border-top-style" "hidden"
+border-top-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleHidden : Html.Attribute msg
 borderTopStyleHidden =
-    Html.Attributes.style "border-top-style" "hidden"
+    borderTopStyle "hidden"
 
 
 {-| ```
-borderTopStyleDashed : Html.Attribute msg
-borderTopStyleDashed =
-    Html.Attributes.style "border-top-style" "dashed"
+border-top-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleDashed : Html.Attribute msg
 borderTopStyleDashed =
-    Html.Attributes.style "border-top-style" "dashed"
+    borderTopStyle "dashed"
 
 
 {-| ```
-borderTopStyleDouble : Html.Attribute msg
-borderTopStyleDouble =
-    Html.Attributes.style "border-top-style" "double"
+border-top-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleDouble : Html.Attribute msg
 borderTopStyleDouble =
-    Html.Attributes.style "border-top-style" "double"
+    borderTopStyle "double"
 
 
 {-| ```
-borderTopStyleRidge : Html.Attribute msg
-borderTopStyleRidge =
-    Html.Attributes.style "border-top-style" "ridge"
+border-top-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleRidge : Html.Attribute msg
 borderTopStyleRidge =
-    Html.Attributes.style "border-top-style" "ridge"
+    borderTopStyle "ridge"
 
 
 {-| ```
-borderTopStyleOutset : Html.Attribute msg
-borderTopStyleOutset =
-    Html.Attributes.style "border-top-style" "outset"
+border-top-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleOutset : Html.Attribute msg
 borderTopStyleOutset =
-    Html.Attributes.style "border-top-style" "outset"
+    borderTopStyle "outset"
 
 
 {-| ```
-borderTopStyleInset : Html.Attribute msg
-borderTopStyleInset =
-    Html.Attributes.style "border-top-style" "inset"
+border-top-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleInset : Html.Attribute msg
 borderTopStyleInset =
-    Html.Attributes.style "border-top-style" "inset"
+    borderTopStyle "inset"
 
 
 {-| ```
-borderTopStyleGroove : Html.Attribute msg
-borderTopStyleGroove =
-    Html.Attributes.style "border-top-style" "groove"
+border-top-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleGroove : Html.Attribute msg
 borderTopStyleGroove =
-    Html.Attributes.style "border-top-style" "groove"
+    borderTopStyle "groove"
 
 
 {-| ```
-borderTopStyleSolid : Html.Attribute msg
-borderTopStyleSolid =
-    Html.Attributes.style "border-top-style" "solid"
+border-top-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleSolid : Html.Attribute msg
 borderTopStyleSolid =
-    Html.Attributes.style "border-top-style" "solid"
+    borderTopStyle "solid"
 
 
 {-| ```
-borderTopStyleDotted : Html.Attribute msg
-borderTopStyleDotted =
-    Html.Attributes.style "border-top-style" "dotted"
+border-top-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleDotted : Html.Attribute msg
 borderTopStyleDotted =
-    Html.Attributes.style "border-top-style" "dotted"
+    borderTopStyle "dotted"
 
 
 {-| ```
-borderTopStyleNone : Html.Attribute msg
-borderTopStyleNone =
-    Html.Attributes.style "border-top-style" "none"
+border-top-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-style
 -}
 borderTopStyleNone : Html.Attribute msg
 borderTopStyleNone =
-    Html.Attributes.style "border-top-style" "none"
+    borderTopStyle "none"
 
 
-{-| ```
-borderTopWidth : String -> Html.Attribute msg
-borderTopWidth value =
-    Html.Attributes.style "border-top-width" value
-```
+{-| CSS property `border-top-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
@@ -7273,83 +5973,63 @@ borderTopWidth value =
 
 
 {-| ```
-borderTopWidthThin : Html.Attribute msg
-borderTopWidthThin =
-    Html.Attributes.style "border-top-width" "thin"
+border-top-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
 borderTopWidthThin : Html.Attribute msg
 borderTopWidthThin =
-    Html.Attributes.style "border-top-width" "thin"
+    borderTopWidth "thin"
 
 
 {-| ```
-borderTopWidthThick : Html.Attribute msg
-borderTopWidthThick =
-    Html.Attributes.style "border-top-width" "thick"
+border-top-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
 borderTopWidthThick : Html.Attribute msg
 borderTopWidthThick =
-    Html.Attributes.style "border-top-width" "thick"
+    borderTopWidth "thick"
 
 
 {-| ```
-borderTopWidthMedium : Html.Attribute msg
-borderTopWidthMedium =
-    Html.Attributes.style "border-top-width" "medium"
+border-top-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
 borderTopWidthMedium : Html.Attribute msg
 borderTopWidthMedium =
-    Html.Attributes.style "border-top-width" "medium"
+    borderTopWidth "medium"
 
 
 {-| ```
-borderTopWidthPx : Float -> Html.Attribute msg
-borderTopWidthPx value =
-    Html.Attributes.style
-        "border-top-width"
-        (String.append (String.fromFloat value) "px")
+border-top-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
 borderTopWidthPx : Float -> Html.Attribute msg
 borderTopWidthPx value =
-    Html.Attributes.style
-        "border-top-width"
-        (String.append (String.fromFloat value) "px")
+    borderTopWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderTopWidthRem : Float -> Html.Attribute msg
-borderTopWidthRem value =
-    Html.Attributes.style
-        "border-top-width"
-        (String.append (String.fromFloat value) "rem")
+border-top-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-top-width
 -}
 borderTopWidthRem : Float -> Html.Attribute msg
 borderTopWidthRem value =
-    Html.Attributes.style
-        "border-top-width"
-        (String.append (String.fromFloat value) "rem")
+    borderTopWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-borderWidth : String -> Html.Attribute msg
-borderWidth value =
-    Html.Attributes.style "border-width" value
-```
+{-| CSS property `border-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
@@ -7359,83 +6039,63 @@ borderWidth value =
 
 
 {-| ```
-borderWidthThin : Html.Attribute msg
-borderWidthThin =
-    Html.Attributes.style "border-width" "thin"
+border-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
 borderWidthThin : Html.Attribute msg
 borderWidthThin =
-    Html.Attributes.style "border-width" "thin"
+    borderWidth "thin"
 
 
 {-| ```
-borderWidthThick : Html.Attribute msg
-borderWidthThick =
-    Html.Attributes.style "border-width" "thick"
+border-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
 borderWidthThick : Html.Attribute msg
 borderWidthThick =
-    Html.Attributes.style "border-width" "thick"
+    borderWidth "thick"
 
 
 {-| ```
-borderWidthMedium : Html.Attribute msg
-borderWidthMedium =
-    Html.Attributes.style "border-width" "medium"
+border-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
 borderWidthMedium : Html.Attribute msg
 borderWidthMedium =
-    Html.Attributes.style "border-width" "medium"
+    borderWidth "medium"
 
 
 {-| ```
-borderWidthPx : Float -> Html.Attribute msg
-borderWidthPx value =
-    Html.Attributes.style
-        "border-width"
-        (String.append (String.fromFloat value) "px")
+border-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
 borderWidthPx : Float -> Html.Attribute msg
 borderWidthPx value =
-    Html.Attributes.style
-        "border-width"
-        (String.append (String.fromFloat value) "px")
+    borderWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-borderWidthRem : Float -> Html.Attribute msg
-borderWidthRem value =
-    Html.Attributes.style
-        "border-width"
-        (String.append (String.fromFloat value) "rem")
+border-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/border-width
 -}
 borderWidthRem : Float -> Html.Attribute msg
 borderWidthRem value =
-    Html.Attributes.style
-        "border-width"
-        (String.append (String.fromFloat value) "rem")
+    borderWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-bottom : String -> Html.Attribute msg
-bottom value =
-    Html.Attributes.style "bottom" value
-```
+{-| CSS property `bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/bottom
 -}
@@ -7445,53 +6105,41 @@ bottom value =
 
 
 {-| ```
-bottomRem : Float -> Html.Attribute msg
-bottomRem value =
-    Html.Attributes.style
-        "bottom"
-        (String.append (String.fromFloat value) "rem")
+bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/bottom
 -}
 bottomRem : Float -> Html.Attribute msg
 bottomRem value =
-    Html.Attributes.style
-        "bottom"
-        (String.append (String.fromFloat value) "rem")
+    bottom (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-bottomPx : Float -> Html.Attribute msg
-bottomPx value =
-    Html.Attributes.style "bottom" (String.append (String.fromFloat value) "px")
+bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/bottom
 -}
 bottomPx : Float -> Html.Attribute msg
 bottomPx value =
-    Html.Attributes.style "bottom" (String.append (String.fromFloat value) "px")
+    bottom (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-bottomAuto : Html.Attribute msg
-bottomAuto =
-    Html.Attributes.style "bottom" "auto"
+bottom : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/bottom
 -}
 bottomAuto : Html.Attribute msg
 bottomAuto =
-    Html.Attributes.style "bottom" "auto"
+    bottom "auto"
 
 
-{-| ```
-boxAlign : String -> Html.Attribute msg
-boxAlign value =
-    Html.Attributes.style "box-align" value
-```
+{-| CSS property `box-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
@@ -7501,75 +6149,63 @@ boxAlign value =
 
 
 {-| ```
-boxAlignStart : Html.Attribute msg
-boxAlignStart =
-    Html.Attributes.style "box-align" "start"
+box-align : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
 boxAlignStart : Html.Attribute msg
 boxAlignStart =
-    Html.Attributes.style "box-align" "start"
+    boxAlign "start"
 
 
 {-| ```
-boxAlignEnd : Html.Attribute msg
-boxAlignEnd =
-    Html.Attributes.style "box-align" "end"
+box-align : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
 boxAlignEnd : Html.Attribute msg
 boxAlignEnd =
-    Html.Attributes.style "box-align" "end"
+    boxAlign "end"
 
 
 {-| ```
-boxAlignStretch : Html.Attribute msg
-boxAlignStretch =
-    Html.Attributes.style "box-align" "stretch"
+box-align : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
 boxAlignStretch : Html.Attribute msg
 boxAlignStretch =
-    Html.Attributes.style "box-align" "stretch"
+    boxAlign "stretch"
 
 
 {-| ```
-boxAlignBaseline : Html.Attribute msg
-boxAlignBaseline =
-    Html.Attributes.style "box-align" "baseline"
+box-align : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
 boxAlignBaseline : Html.Attribute msg
 boxAlignBaseline =
-    Html.Attributes.style "box-align" "baseline"
+    boxAlign "baseline"
 
 
 {-| ```
-boxAlignCenter : Html.Attribute msg
-boxAlignCenter =
-    Html.Attributes.style "box-align" "center"
+box-align : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-align
 -}
 boxAlignCenter : Html.Attribute msg
 boxAlignCenter =
-    Html.Attributes.style "box-align" "center"
+    boxAlign "center"
 
 
-{-| ```
-boxDecorationBreak : String -> Html.Attribute msg
-boxDecorationBreak value =
-    Html.Attributes.style "box-decoration-break" value
-```
+{-| CSS property `box-decoration-break`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-decoration-break
 -}
@@ -7579,36 +6215,30 @@ boxDecorationBreak value =
 
 
 {-| ```
-boxDecorationBreakSlice : Html.Attribute msg
-boxDecorationBreakSlice =
-    Html.Attributes.style "box-decoration-break" "slice"
+box-decoration-break : slice
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-decoration-break
 -}
 boxDecorationBreakSlice : Html.Attribute msg
 boxDecorationBreakSlice =
-    Html.Attributes.style "box-decoration-break" "slice"
+    boxDecorationBreak "slice"
 
 
 {-| ```
-boxDecorationBreakClone : Html.Attribute msg
-boxDecorationBreakClone =
-    Html.Attributes.style "box-decoration-break" "clone"
+box-decoration-break : clone
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-decoration-break
 -}
 boxDecorationBreakClone : Html.Attribute msg
 boxDecorationBreakClone =
-    Html.Attributes.style "box-decoration-break" "clone"
+    boxDecorationBreak "clone"
 
 
-{-| ```
-boxDirection : String -> Html.Attribute msg
-boxDirection value =
-    Html.Attributes.style "box-direction" value
-```
+{-| CSS property `box-direction`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-direction
 -}
@@ -7618,49 +6248,41 @@ boxDirection value =
 
 
 {-| ```
-boxDirectionNormal : Html.Attribute msg
-boxDirectionNormal =
-    Html.Attributes.style "box-direction" "normal"
+box-direction : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-direction
 -}
 boxDirectionNormal : Html.Attribute msg
 boxDirectionNormal =
-    Html.Attributes.style "box-direction" "normal"
+    boxDirection "normal"
 
 
 {-| ```
-boxDirectionInherit : Html.Attribute msg
-boxDirectionInherit =
-    Html.Attributes.style "box-direction" "inherit"
+box-direction : inherit
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-direction
 -}
 boxDirectionInherit : Html.Attribute msg
 boxDirectionInherit =
-    Html.Attributes.style "box-direction" "inherit"
+    boxDirection "inherit"
 
 
 {-| ```
-boxDirectionReverse : Html.Attribute msg
-boxDirectionReverse =
-    Html.Attributes.style "box-direction" "reverse"
+box-direction : reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-direction
 -}
 boxDirectionReverse : Html.Attribute msg
 boxDirectionReverse =
-    Html.Attributes.style "box-direction" "reverse"
+    boxDirection "reverse"
 
 
-{-| ```
-boxFlex : String -> Html.Attribute msg
-boxFlex value =
-    Html.Attributes.style "box-flex" value
-```
+{-| CSS property `box-flex`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-flex
 -}
@@ -7669,11 +6291,9 @@ boxFlex value =
     Html.Attributes.style "box-flex" value
 
 
-{-| ```
-boxFlexGroup : String -> Html.Attribute msg
-boxFlexGroup value =
-    Html.Attributes.style "box-flex-group" value
-```
+{-| CSS property `box-flex-group`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-flex-group
 -}
@@ -7682,11 +6302,9 @@ boxFlexGroup value =
     Html.Attributes.style "box-flex-group" value
 
 
-{-| ```
-boxLines : String -> Html.Attribute msg
-boxLines value =
-    Html.Attributes.style "box-lines" value
-```
+{-| CSS property `box-lines`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-lines
 -}
@@ -7696,36 +6314,30 @@ boxLines value =
 
 
 {-| ```
-boxLinesSingle : Html.Attribute msg
-boxLinesSingle =
-    Html.Attributes.style "box-lines" "single"
+box-lines : single
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-lines
 -}
 boxLinesSingle : Html.Attribute msg
 boxLinesSingle =
-    Html.Attributes.style "box-lines" "single"
+    boxLines "single"
 
 
 {-| ```
-boxLinesMultiple : Html.Attribute msg
-boxLinesMultiple =
-    Html.Attributes.style "box-lines" "multiple"
+box-lines : multiple
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-lines
 -}
 boxLinesMultiple : Html.Attribute msg
 boxLinesMultiple =
-    Html.Attributes.style "box-lines" "multiple"
+    boxLines "multiple"
 
 
-{-| ```
-boxOrdinalGroup : String -> Html.Attribute msg
-boxOrdinalGroup value =
-    Html.Attributes.style "box-ordinal-group" value
-```
+{-| CSS property `box-ordinal-group`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group
 -}
@@ -7734,11 +6346,9 @@ boxOrdinalGroup value =
     Html.Attributes.style "box-ordinal-group" value
 
 
-{-| ```
-boxOrient : String -> Html.Attribute msg
-boxOrient value =
-    Html.Attributes.style "box-orient" value
-```
+{-| CSS property `box-orient`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
@@ -7748,75 +6358,63 @@ boxOrient value =
 
 
 {-| ```
-boxOrientHorizontal : Html.Attribute msg
-boxOrientHorizontal =
-    Html.Attributes.style "box-orient" "horizontal"
+box-orient : horizontal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
 boxOrientHorizontal : Html.Attribute msg
 boxOrientHorizontal =
-    Html.Attributes.style "box-orient" "horizontal"
+    boxOrient "horizontal"
 
 
 {-| ```
-boxOrientInlineAxis : Html.Attribute msg
-boxOrientInlineAxis =
-    Html.Attributes.style "box-orient" "inline-axis"
+box-orient : inline-axis
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
 boxOrientInlineAxis : Html.Attribute msg
 boxOrientInlineAxis =
-    Html.Attributes.style "box-orient" "inline-axis"
+    boxOrient "inline-axis"
 
 
 {-| ```
-boxOrientInherit : Html.Attribute msg
-boxOrientInherit =
-    Html.Attributes.style "box-orient" "inherit"
+box-orient : inherit
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
 boxOrientInherit : Html.Attribute msg
 boxOrientInherit =
-    Html.Attributes.style "box-orient" "inherit"
+    boxOrient "inherit"
 
 
 {-| ```
-boxOrientBlockAxis : Html.Attribute msg
-boxOrientBlockAxis =
-    Html.Attributes.style "box-orient" "block-axis"
+box-orient : block-axis
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
 boxOrientBlockAxis : Html.Attribute msg
 boxOrientBlockAxis =
-    Html.Attributes.style "box-orient" "block-axis"
+    boxOrient "block-axis"
 
 
 {-| ```
-boxOrientVertical : Html.Attribute msg
-boxOrientVertical =
-    Html.Attributes.style "box-orient" "vertical"
+box-orient : vertical
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-orient
 -}
 boxOrientVertical : Html.Attribute msg
 boxOrientVertical =
-    Html.Attributes.style "box-orient" "vertical"
+    boxOrient "vertical"
 
 
-{-| ```
-boxPack : String -> Html.Attribute msg
-boxPack value =
-    Html.Attributes.style "box-pack" value
-```
+{-| CSS property `box-pack`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-pack
 -}
@@ -7826,62 +6424,52 @@ boxPack value =
 
 
 {-| ```
-boxPackStart : Html.Attribute msg
-boxPackStart =
-    Html.Attributes.style "box-pack" "start"
+box-pack : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-pack
 -}
 boxPackStart : Html.Attribute msg
 boxPackStart =
-    Html.Attributes.style "box-pack" "start"
+    boxPack "start"
 
 
 {-| ```
-boxPackEnd : Html.Attribute msg
-boxPackEnd =
-    Html.Attributes.style "box-pack" "end"
+box-pack : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-pack
 -}
 boxPackEnd : Html.Attribute msg
 boxPackEnd =
-    Html.Attributes.style "box-pack" "end"
+    boxPack "end"
 
 
 {-| ```
-boxPackJustify : Html.Attribute msg
-boxPackJustify =
-    Html.Attributes.style "box-pack" "justify"
+box-pack : justify
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-pack
 -}
 boxPackJustify : Html.Attribute msg
 boxPackJustify =
-    Html.Attributes.style "box-pack" "justify"
+    boxPack "justify"
 
 
 {-| ```
-boxPackCenter : Html.Attribute msg
-boxPackCenter =
-    Html.Attributes.style "box-pack" "center"
+box-pack : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-pack
 -}
 boxPackCenter : Html.Attribute msg
 boxPackCenter =
-    Html.Attributes.style "box-pack" "center"
+    boxPack "center"
 
 
-{-| ```
-boxShadow : String -> Html.Attribute msg
-boxShadow value =
-    Html.Attributes.style "box-shadow" value
-```
+{-| CSS property `box-shadow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-shadow
 -}
@@ -7891,23 +6479,19 @@ boxShadow value =
 
 
 {-| ```
-boxShadowNone : Html.Attribute msg
-boxShadowNone =
-    Html.Attributes.style "box-shadow" "none"
+box-shadow : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-shadow
 -}
 boxShadowNone : Html.Attribute msg
 boxShadowNone =
-    Html.Attributes.style "box-shadow" "none"
+    boxShadow "none"
 
 
-{-| ```
-boxSizing : String -> Html.Attribute msg
-boxSizing value =
-    Html.Attributes.style "box-sizing" value
-```
+{-| CSS property `box-sizing`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/box-sizing
 -}
@@ -7917,36 +6501,30 @@ boxSizing value =
 
 
 {-| ```
-boxSizingContentBox : Html.Attribute msg
-boxSizingContentBox =
-    Html.Attributes.style "box-sizing" "content-box"
+box-sizing : content-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-sizing
 -}
 boxSizingContentBox : Html.Attribute msg
 boxSizingContentBox =
-    Html.Attributes.style "box-sizing" "content-box"
+    boxSizing "content-box"
 
 
 {-| ```
-boxSizingBorderBox : Html.Attribute msg
-boxSizingBorderBox =
-    Html.Attributes.style "box-sizing" "border-box"
+box-sizing : border-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/box-sizing
 -}
 boxSizingBorderBox : Html.Attribute msg
 boxSizingBorderBox =
-    Html.Attributes.style "box-sizing" "border-box"
+    boxSizing "border-box"
 
 
-{-| ```
-breakAfter : String -> Html.Attribute msg
-breakAfter value =
-    Html.Attributes.style "break-after" value
-```
+{-| CSS property `break-after`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
@@ -7956,192 +6534,162 @@ breakAfter value =
 
 
 {-| ```
-breakAfterAuto : Html.Attribute msg
-breakAfterAuto =
-    Html.Attributes.style "break-after" "auto"
+break-after : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAuto : Html.Attribute msg
 breakAfterAuto =
-    Html.Attributes.style "break-after" "auto"
+    breakAfter "auto"
 
 
 {-| ```
-breakAfterAlways : Html.Attribute msg
-breakAfterAlways =
-    Html.Attributes.style "break-after" "always"
+break-after : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAlways : Html.Attribute msg
 breakAfterAlways =
-    Html.Attributes.style "break-after" "always"
+    breakAfter "always"
 
 
 {-| ```
-breakAfterAvoidPage : Html.Attribute msg
-breakAfterAvoidPage =
-    Html.Attributes.style "break-after" "avoid-page"
+break-after : avoid-page
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAvoidPage : Html.Attribute msg
 breakAfterAvoidPage =
-    Html.Attributes.style "break-after" "avoid-page"
+    breakAfter "avoid-page"
 
 
 {-| ```
-breakAfterLeft : Html.Attribute msg
-breakAfterLeft =
-    Html.Attributes.style "break-after" "left"
+break-after : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterLeft : Html.Attribute msg
 breakAfterLeft =
-    Html.Attributes.style "break-after" "left"
+    breakAfter "left"
 
 
 {-| ```
-breakAfterRecto : Html.Attribute msg
-breakAfterRecto =
-    Html.Attributes.style "break-after" "recto"
+break-after : recto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterRecto : Html.Attribute msg
 breakAfterRecto =
-    Html.Attributes.style "break-after" "recto"
+    breakAfter "recto"
 
 
 {-| ```
-breakAfterAvoidColumn : Html.Attribute msg
-breakAfterAvoidColumn =
-    Html.Attributes.style "break-after" "avoid-column"
+break-after : avoid-column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAvoidColumn : Html.Attribute msg
 breakAfterAvoidColumn =
-    Html.Attributes.style "break-after" "avoid-column"
+    breakAfter "avoid-column"
 
 
 {-| ```
-breakAfterAvoidRegion : Html.Attribute msg
-breakAfterAvoidRegion =
-    Html.Attributes.style "break-after" "avoid-region"
+break-after : avoid-region
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAvoidRegion : Html.Attribute msg
 breakAfterAvoidRegion =
-    Html.Attributes.style "break-after" "avoid-region"
+    breakAfter "avoid-region"
 
 
 {-| ```
-breakAfterRegion : Html.Attribute msg
-breakAfterRegion =
-    Html.Attributes.style "break-after" "region"
+break-after : region
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterRegion : Html.Attribute msg
 breakAfterRegion =
-    Html.Attributes.style "break-after" "region"
+    breakAfter "region"
 
 
 {-| ```
-breakAfterColumn : Html.Attribute msg
-breakAfterColumn =
-    Html.Attributes.style "break-after" "column"
+break-after : column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterColumn : Html.Attribute msg
 breakAfterColumn =
-    Html.Attributes.style "break-after" "column"
+    breakAfter "column"
 
 
 {-| ```
-breakAfterVerso : Html.Attribute msg
-breakAfterVerso =
-    Html.Attributes.style "break-after" "verso"
+break-after : verso
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterVerso : Html.Attribute msg
 breakAfterVerso =
-    Html.Attributes.style "break-after" "verso"
+    breakAfter "verso"
 
 
 {-| ```
-breakAfterRight : Html.Attribute msg
-breakAfterRight =
-    Html.Attributes.style "break-after" "right"
+break-after : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterRight : Html.Attribute msg
 breakAfterRight =
-    Html.Attributes.style "break-after" "right"
+    breakAfter "right"
 
 
 {-| ```
-breakAfterPage : Html.Attribute msg
-breakAfterPage =
-    Html.Attributes.style "break-after" "page"
+break-after : page
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterPage : Html.Attribute msg
 breakAfterPage =
-    Html.Attributes.style "break-after" "page"
+    breakAfter "page"
 
 
 {-| ```
-breakAfterAll : Html.Attribute msg
-breakAfterAll =
-    Html.Attributes.style "break-after" "all"
+break-after : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAll : Html.Attribute msg
 breakAfterAll =
-    Html.Attributes.style "break-after" "all"
+    breakAfter "all"
 
 
 {-| ```
-breakAfterAvoid : Html.Attribute msg
-breakAfterAvoid =
-    Html.Attributes.style "break-after" "avoid"
+break-after : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-after
 -}
 breakAfterAvoid : Html.Attribute msg
 breakAfterAvoid =
-    Html.Attributes.style "break-after" "avoid"
+    breakAfter "avoid"
 
 
-{-| ```
-breakBefore : String -> Html.Attribute msg
-breakBefore value =
-    Html.Attributes.style "break-before" value
-```
+{-| CSS property `break-before`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
@@ -8151,192 +6699,162 @@ breakBefore value =
 
 
 {-| ```
-breakBeforeAuto : Html.Attribute msg
-breakBeforeAuto =
-    Html.Attributes.style "break-before" "auto"
+break-before : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAuto : Html.Attribute msg
 breakBeforeAuto =
-    Html.Attributes.style "break-before" "auto"
+    breakBefore "auto"
 
 
 {-| ```
-breakBeforeAlways : Html.Attribute msg
-breakBeforeAlways =
-    Html.Attributes.style "break-before" "always"
+break-before : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAlways : Html.Attribute msg
 breakBeforeAlways =
-    Html.Attributes.style "break-before" "always"
+    breakBefore "always"
 
 
 {-| ```
-breakBeforeAvoidPage : Html.Attribute msg
-breakBeforeAvoidPage =
-    Html.Attributes.style "break-before" "avoid-page"
+break-before : avoid-page
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAvoidPage : Html.Attribute msg
 breakBeforeAvoidPage =
-    Html.Attributes.style "break-before" "avoid-page"
+    breakBefore "avoid-page"
 
 
 {-| ```
-breakBeforeLeft : Html.Attribute msg
-breakBeforeLeft =
-    Html.Attributes.style "break-before" "left"
+break-before : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeLeft : Html.Attribute msg
 breakBeforeLeft =
-    Html.Attributes.style "break-before" "left"
+    breakBefore "left"
 
 
 {-| ```
-breakBeforeRecto : Html.Attribute msg
-breakBeforeRecto =
-    Html.Attributes.style "break-before" "recto"
+break-before : recto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeRecto : Html.Attribute msg
 breakBeforeRecto =
-    Html.Attributes.style "break-before" "recto"
+    breakBefore "recto"
 
 
 {-| ```
-breakBeforeAvoidColumn : Html.Attribute msg
-breakBeforeAvoidColumn =
-    Html.Attributes.style "break-before" "avoid-column"
+break-before : avoid-column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAvoidColumn : Html.Attribute msg
 breakBeforeAvoidColumn =
-    Html.Attributes.style "break-before" "avoid-column"
+    breakBefore "avoid-column"
 
 
 {-| ```
-breakBeforeAvoidRegion : Html.Attribute msg
-breakBeforeAvoidRegion =
-    Html.Attributes.style "break-before" "avoid-region"
+break-before : avoid-region
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAvoidRegion : Html.Attribute msg
 breakBeforeAvoidRegion =
-    Html.Attributes.style "break-before" "avoid-region"
+    breakBefore "avoid-region"
 
 
 {-| ```
-breakBeforeRegion : Html.Attribute msg
-breakBeforeRegion =
-    Html.Attributes.style "break-before" "region"
+break-before : region
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeRegion : Html.Attribute msg
 breakBeforeRegion =
-    Html.Attributes.style "break-before" "region"
+    breakBefore "region"
 
 
 {-| ```
-breakBeforeColumn : Html.Attribute msg
-breakBeforeColumn =
-    Html.Attributes.style "break-before" "column"
+break-before : column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeColumn : Html.Attribute msg
 breakBeforeColumn =
-    Html.Attributes.style "break-before" "column"
+    breakBefore "column"
 
 
 {-| ```
-breakBeforeVerso : Html.Attribute msg
-breakBeforeVerso =
-    Html.Attributes.style "break-before" "verso"
+break-before : verso
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeVerso : Html.Attribute msg
 breakBeforeVerso =
-    Html.Attributes.style "break-before" "verso"
+    breakBefore "verso"
 
 
 {-| ```
-breakBeforeRight : Html.Attribute msg
-breakBeforeRight =
-    Html.Attributes.style "break-before" "right"
+break-before : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeRight : Html.Attribute msg
 breakBeforeRight =
-    Html.Attributes.style "break-before" "right"
+    breakBefore "right"
 
 
 {-| ```
-breakBeforePage : Html.Attribute msg
-breakBeforePage =
-    Html.Attributes.style "break-before" "page"
+break-before : page
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforePage : Html.Attribute msg
 breakBeforePage =
-    Html.Attributes.style "break-before" "page"
+    breakBefore "page"
 
 
 {-| ```
-breakBeforeAll : Html.Attribute msg
-breakBeforeAll =
-    Html.Attributes.style "break-before" "all"
+break-before : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAll : Html.Attribute msg
 breakBeforeAll =
-    Html.Attributes.style "break-before" "all"
+    breakBefore "all"
 
 
 {-| ```
-breakBeforeAvoid : Html.Attribute msg
-breakBeforeAvoid =
-    Html.Attributes.style "break-before" "avoid"
+break-before : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-before
 -}
 breakBeforeAvoid : Html.Attribute msg
 breakBeforeAvoid =
-    Html.Attributes.style "break-before" "avoid"
+    breakBefore "avoid"
 
 
-{-| ```
-breakInside : String -> Html.Attribute msg
-breakInside value =
-    Html.Attributes.style "break-inside" value
-```
+{-| CSS property `break-inside`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
@@ -8346,75 +6864,63 @@ breakInside value =
 
 
 {-| ```
-breakInsideAuto : Html.Attribute msg
-breakInsideAuto =
-    Html.Attributes.style "break-inside" "auto"
+break-inside : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
 breakInsideAuto : Html.Attribute msg
 breakInsideAuto =
-    Html.Attributes.style "break-inside" "auto"
+    breakInside "auto"
 
 
 {-| ```
-breakInsideAvoidPage : Html.Attribute msg
-breakInsideAvoidPage =
-    Html.Attributes.style "break-inside" "avoid-page"
+break-inside : avoid-page
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
 breakInsideAvoidPage : Html.Attribute msg
 breakInsideAvoidPage =
-    Html.Attributes.style "break-inside" "avoid-page"
+    breakInside "avoid-page"
 
 
 {-| ```
-breakInsideAvoidRegion : Html.Attribute msg
-breakInsideAvoidRegion =
-    Html.Attributes.style "break-inside" "avoid-region"
+break-inside : avoid-region
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
 breakInsideAvoidRegion : Html.Attribute msg
 breakInsideAvoidRegion =
-    Html.Attributes.style "break-inside" "avoid-region"
+    breakInside "avoid-region"
 
 
 {-| ```
-breakInsideAvoidColumn : Html.Attribute msg
-breakInsideAvoidColumn =
-    Html.Attributes.style "break-inside" "avoid-column"
+break-inside : avoid-column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
 breakInsideAvoidColumn : Html.Attribute msg
 breakInsideAvoidColumn =
-    Html.Attributes.style "break-inside" "avoid-column"
+    breakInside "avoid-column"
 
 
 {-| ```
-breakInsideAvoid : Html.Attribute msg
-breakInsideAvoid =
-    Html.Attributes.style "break-inside" "avoid"
+break-inside : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/break-inside
 -}
 breakInsideAvoid : Html.Attribute msg
 breakInsideAvoid =
-    Html.Attributes.style "break-inside" "avoid"
+    breakInside "avoid"
 
 
-{-| ```
-captionSide : String -> Html.Attribute msg
-captionSide value =
-    Html.Attributes.style "caption-side" value
-```
+{-| CSS property `caption-side`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
@@ -8424,143 +6930,116 @@ captionSide value =
 
 
 {-| ```
-captionSideTop : Html.Attribute msg
-captionSideTop =
-    Html.Attributes.style "caption-side" "top"
+caption-side : top
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideTop : Html.Attribute msg
 captionSideTop =
-    Html.Attributes.style "caption-side" "top"
+    captionSide "top"
 
 
 {-| ```
-captionSideBlockStart : Html.Attribute msg
-captionSideBlockStart =
-    Html.Attributes.style "caption-side" "block-start"
+caption-side : block-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideBlockStart : Html.Attribute msg
 captionSideBlockStart =
-    Html.Attributes.style "caption-side" "block-start"
+    captionSide "block-start"
 
 
 {-| ```
-captionSideInlineStart : Html.Attribute msg
-captionSideInlineStart =
-    Html.Attributes.style "caption-side" "inline-start"
+caption-side : inline-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideInlineStart : Html.Attribute msg
 captionSideInlineStart =
-    Html.Attributes.style "caption-side" "inline-start"
+    captionSide "inline-start"
 
 
 {-| ```
-captionSideInlineEnd : Html.Attribute msg
-captionSideInlineEnd =
-    Html.Attributes.style "caption-side" "inline-end"
+caption-side : inline-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideInlineEnd : Html.Attribute msg
 captionSideInlineEnd =
-    Html.Attributes.style "caption-side" "inline-end"
+    captionSide "inline-end"
 
 
 {-| ```
-captionSideBlockEnd : Html.Attribute msg
-captionSideBlockEnd =
-    Html.Attributes.style "caption-side" "block-end"
+caption-side : block-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideBlockEnd : Html.Attribute msg
 captionSideBlockEnd =
-    Html.Attributes.style "caption-side" "block-end"
+    captionSide "block-end"
 
 
 {-| ```
-captionSideBottom : Html.Attribute msg
-captionSideBottom =
-    Html.Attributes.style "caption-side" "bottom"
+caption-side : bottom
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caption-side
 -}
 captionSideBottom : Html.Attribute msg
 captionSideBottom =
-    Html.Attributes.style "caption-side" "bottom"
+    captionSide "bottom"
 
 
-{-| ```
-caret : String -> Html.Attribute msg
-caret value =
-    Html.Attributes.style "caret" value
-```
--}
+{-| CSS property `caret` -}
 caret : String -> Html.Attribute msg
 caret value =
     Html.Attributes.style "caret" value
 
 
 {-| ```
-caretBar : Html.Attribute msg
-caretBar =
-    Html.Attributes.style "caret" "bar"
+caret : bar
 ```
 -}
 caretBar : Html.Attribute msg
 caretBar =
-    Html.Attributes.style "caret" "bar"
+    caret "bar"
 
 
 {-| ```
-caretUnderscore : Html.Attribute msg
-caretUnderscore =
-    Html.Attributes.style "caret" "underscore"
+caret : underscore
 ```
 -}
 caretUnderscore : Html.Attribute msg
 caretUnderscore =
-    Html.Attributes.style "caret" "underscore"
+    caret "underscore"
 
 
 {-| ```
-caretBlock : Html.Attribute msg
-caretBlock =
-    Html.Attributes.style "caret" "block"
+caret : block
 ```
 -}
 caretBlock : Html.Attribute msg
 caretBlock =
-    Html.Attributes.style "caret" "block"
+    caret "block"
 
 
 {-| ```
-caretAuto : Html.Attribute msg
-caretAuto =
-    Html.Attributes.style "caret" "auto"
+caret : auto
 ```
 -}
 caretAuto : Html.Attribute msg
 caretAuto =
-    Html.Attributes.style "caret" "auto"
+    caret "auto"
 
 
-{-| ```
-caretColor : String -> Html.Attribute msg
-caretColor value =
-    Html.Attributes.style "caret-color" value
-```
+{-| CSS property `caret-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/caret-color
 -}
@@ -8570,78 +7049,61 @@ caretColor value =
 
 
 {-| ```
-caretColorAuto : Html.Attribute msg
-caretColorAuto =
-    Html.Attributes.style "caret-color" "auto"
+caret-color : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/caret-color
 -}
 caretColorAuto : Html.Attribute msg
 caretColorAuto =
-    Html.Attributes.style "caret-color" "auto"
+    caretColor "auto"
 
 
-{-| ```
-caretShape : String -> Html.Attribute msg
-caretShape value =
-    Html.Attributes.style "caret-shape" value
-```
--}
+{-| CSS property `caret-shape` -}
 caretShape : String -> Html.Attribute msg
 caretShape value =
     Html.Attributes.style "caret-shape" value
 
 
 {-| ```
-caretShapeAuto : Html.Attribute msg
-caretShapeAuto =
-    Html.Attributes.style "caret-shape" "auto"
+caret-shape : auto
 ```
 -}
 caretShapeAuto : Html.Attribute msg
 caretShapeAuto =
-    Html.Attributes.style "caret-shape" "auto"
+    caretShape "auto"
 
 
 {-| ```
-caretShapeBlock : Html.Attribute msg
-caretShapeBlock =
-    Html.Attributes.style "caret-shape" "block"
+caret-shape : block
 ```
 -}
 caretShapeBlock : Html.Attribute msg
 caretShapeBlock =
-    Html.Attributes.style "caret-shape" "block"
+    caretShape "block"
 
 
 {-| ```
-caretShapeUnderscore : Html.Attribute msg
-caretShapeUnderscore =
-    Html.Attributes.style "caret-shape" "underscore"
+caret-shape : underscore
 ```
 -}
 caretShapeUnderscore : Html.Attribute msg
 caretShapeUnderscore =
-    Html.Attributes.style "caret-shape" "underscore"
+    caretShape "underscore"
 
 
 {-| ```
-caretShapeBar : Html.Attribute msg
-caretShapeBar =
-    Html.Attributes.style "caret-shape" "bar"
+caret-shape : bar
 ```
 -}
 caretShapeBar : Html.Attribute msg
 caretShapeBar =
-    Html.Attributes.style "caret-shape" "bar"
+    caretShape "bar"
 
 
-{-| ```
-clear : String -> Html.Attribute msg
-clear value =
-    Html.Attributes.style "clear" value
-```
+{-| CSS property `clear`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
@@ -8651,88 +7113,74 @@ clear value =
 
 
 {-| ```
-clearNone : Html.Attribute msg
-clearNone =
-    Html.Attributes.style "clear" "none"
+clear : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearNone : Html.Attribute msg
 clearNone =
-    Html.Attributes.style "clear" "none"
+    clear "none"
 
 
 {-| ```
-clearRight : Html.Attribute msg
-clearRight =
-    Html.Attributes.style "clear" "right"
+clear : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearRight : Html.Attribute msg
 clearRight =
-    Html.Attributes.style "clear" "right"
+    clear "right"
 
 
 {-| ```
-clearInlineStart : Html.Attribute msg
-clearInlineStart =
-    Html.Attributes.style "clear" "inline-start"
+clear : inline-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearInlineStart : Html.Attribute msg
 clearInlineStart =
-    Html.Attributes.style "clear" "inline-start"
+    clear "inline-start"
 
 
 {-| ```
-clearInlineEnd : Html.Attribute msg
-clearInlineEnd =
-    Html.Attributes.style "clear" "inline-end"
+clear : inline-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearInlineEnd : Html.Attribute msg
 clearInlineEnd =
-    Html.Attributes.style "clear" "inline-end"
+    clear "inline-end"
 
 
 {-| ```
-clearBoth : Html.Attribute msg
-clearBoth =
-    Html.Attributes.style "clear" "both"
+clear : both
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearBoth : Html.Attribute msg
 clearBoth =
-    Html.Attributes.style "clear" "both"
+    clear "both"
 
 
 {-| ```
-clearLeft : Html.Attribute msg
-clearLeft =
-    Html.Attributes.style "clear" "left"
+clear : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clear
 -}
 clearLeft : Html.Attribute msg
 clearLeft =
-    Html.Attributes.style "clear" "left"
+    clear "left"
 
 
-{-| ```
-clip : String -> Html.Attribute msg
-clip value =
-    Html.Attributes.style "clip" value
-```
+{-| CSS property `clip`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/clip
 -}
@@ -8742,23 +7190,19 @@ clip value =
 
 
 {-| ```
-clipAuto : Html.Attribute msg
-clipAuto =
-    Html.Attributes.style "clip" "auto"
+clip : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clip
 -}
 clipAuto : Html.Attribute msg
 clipAuto =
-    Html.Attributes.style "clip" "auto"
+    clip "auto"
 
 
-{-| ```
-clipPath : String -> Html.Attribute msg
-clipPath value =
-    Html.Attributes.style "clip-path" value
-```
+{-| CSS property `clip-path`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/clip-path
 -}
@@ -8768,62 +7212,52 @@ clipPath value =
 
 
 {-| ```
-clipPathNone : Html.Attribute msg
-clipPathNone =
-    Html.Attributes.style "clip-path" "none"
+clip-path : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clip-path
 -}
 clipPathNone : Html.Attribute msg
 clipPathNone =
-    Html.Attributes.style "clip-path" "none"
+    clipPath "none"
 
 
 {-| ```
-clipPathFillBox : Html.Attribute msg
-clipPathFillBox =
-    Html.Attributes.style "clip-path" "fill-box"
+clip-path : fill-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clip-path
 -}
 clipPathFillBox : Html.Attribute msg
 clipPathFillBox =
-    Html.Attributes.style "clip-path" "fill-box"
+    clipPath "fill-box"
 
 
 {-| ```
-clipPathViewBox : Html.Attribute msg
-clipPathViewBox =
-    Html.Attributes.style "clip-path" "view-box"
+clip-path : view-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clip-path
 -}
 clipPathViewBox : Html.Attribute msg
 clipPathViewBox =
-    Html.Attributes.style "clip-path" "view-box"
+    clipPath "view-box"
 
 
 {-| ```
-clipPathStrokeBox : Html.Attribute msg
-clipPathStrokeBox =
-    Html.Attributes.style "clip-path" "stroke-box"
+clip-path : stroke-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/clip-path
 -}
 clipPathStrokeBox : Html.Attribute msg
 clipPathStrokeBox =
-    Html.Attributes.style "clip-path" "stroke-box"
+    clipPath "stroke-box"
 
 
-{-| ```
-color : String -> Html.Attribute msg
-color value =
-    Html.Attributes.style "color" value
-```
+{-| CSS property `color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/color
 -}
@@ -8832,11 +7266,9 @@ color value =
     Html.Attributes.style "color" value
 
 
-{-| ```
-colorScheme : String -> Html.Attribute msg
-colorScheme value =
-    Html.Attributes.style "color-scheme" value
-```
+{-| CSS property `color-scheme`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/color-scheme
 -}
@@ -8845,11 +7277,9 @@ colorScheme value =
     Html.Attributes.style "color-scheme" value
 
 
-{-| ```
-columnCount : String -> Html.Attribute msg
-columnCount value =
-    Html.Attributes.style "column-count" value
-```
+{-| CSS property `column-count`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-count
 -}
@@ -8859,23 +7289,19 @@ columnCount value =
 
 
 {-| ```
-columnCountAuto : Html.Attribute msg
-columnCountAuto =
-    Html.Attributes.style "column-count" "auto"
+column-count : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-count
 -}
 columnCountAuto : Html.Attribute msg
 columnCountAuto =
-    Html.Attributes.style "column-count" "auto"
+    columnCount "auto"
 
 
-{-| ```
-columnFill : String -> Html.Attribute msg
-columnFill value =
-    Html.Attributes.style "column-fill" value
-```
+{-| CSS property `column-fill`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-fill
 -}
@@ -8885,49 +7311,41 @@ columnFill value =
 
 
 {-| ```
-columnFillAuto : Html.Attribute msg
-columnFillAuto =
-    Html.Attributes.style "column-fill" "auto"
+column-fill : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-fill
 -}
 columnFillAuto : Html.Attribute msg
 columnFillAuto =
-    Html.Attributes.style "column-fill" "auto"
+    columnFill "auto"
 
 
 {-| ```
-columnFillBalanceAll : Html.Attribute msg
-columnFillBalanceAll =
-    Html.Attributes.style "column-fill" "balance-all"
+column-fill : balance-all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-fill
 -}
 columnFillBalanceAll : Html.Attribute msg
 columnFillBalanceAll =
-    Html.Attributes.style "column-fill" "balance-all"
+    columnFill "balance-all"
 
 
 {-| ```
-columnFillBalance : Html.Attribute msg
-columnFillBalance =
-    Html.Attributes.style "column-fill" "balance"
+column-fill : balance
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-fill
 -}
 columnFillBalance : Html.Attribute msg
 columnFillBalance =
-    Html.Attributes.style "column-fill" "balance"
+    columnFill "balance"
 
 
-{-| ```
-columnGap : String -> Html.Attribute msg
-columnGap value =
-    Html.Attributes.style "column-gap" value
-```
+{-| CSS property `column-gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
@@ -8937,57 +7355,41 @@ columnGap value =
 
 
 {-| ```
-columnGapNormal : Html.Attribute msg
-columnGapNormal =
-    Html.Attributes.style "column-gap" "normal"
+column-gap : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
 columnGapNormal : Html.Attribute msg
 columnGapNormal =
-    Html.Attributes.style "column-gap" "normal"
+    columnGap "normal"
 
 
 {-| ```
-columnGapRem : Float -> Html.Attribute msg
-columnGapRem value =
-    Html.Attributes.style
-        "column-gap"
-        (String.append (String.fromFloat value) "rem")
+column-gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
 columnGapRem : Float -> Html.Attribute msg
 columnGapRem value =
-    Html.Attributes.style
-        "column-gap"
-        (String.append (String.fromFloat value) "rem")
+    columnGap (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-columnGapPx : Float -> Html.Attribute msg
-columnGapPx value =
-    Html.Attributes.style
-        "column-gap"
-        (String.append (String.fromFloat value) "px")
+column-gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
 columnGapPx : Float -> Html.Attribute msg
 columnGapPx value =
-    Html.Attributes.style
-        "column-gap"
-        (String.append (String.fromFloat value) "px")
+    columnGap (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-columnRule : String -> Html.Attribute msg
-columnRule value =
-    Html.Attributes.style "column-rule" value
-```
+{-| CSS property `column-rule`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
@@ -8997,213 +7399,173 @@ columnRule value =
 
 
 {-| ```
-columnRuleHidden : Html.Attribute msg
-columnRuleHidden =
-    Html.Attributes.style "column-rule" "hidden"
+column-rule : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleHidden : Html.Attribute msg
 columnRuleHidden =
-    Html.Attributes.style "column-rule" "hidden"
+    columnRule "hidden"
 
 
 {-| ```
-columnRuleDashed : Html.Attribute msg
-columnRuleDashed =
-    Html.Attributes.style "column-rule" "dashed"
+column-rule : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleDashed : Html.Attribute msg
 columnRuleDashed =
-    Html.Attributes.style "column-rule" "dashed"
+    columnRule "dashed"
 
 
 {-| ```
-columnRuleDouble : Html.Attribute msg
-columnRuleDouble =
-    Html.Attributes.style "column-rule" "double"
+column-rule : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleDouble : Html.Attribute msg
 columnRuleDouble =
-    Html.Attributes.style "column-rule" "double"
+    columnRule "double"
 
 
 {-| ```
-columnRuleRidge : Html.Attribute msg
-columnRuleRidge =
-    Html.Attributes.style "column-rule" "ridge"
+column-rule : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleRidge : Html.Attribute msg
 columnRuleRidge =
-    Html.Attributes.style "column-rule" "ridge"
+    columnRule "ridge"
 
 
 {-| ```
-columnRuleOutset : Html.Attribute msg
-columnRuleOutset =
-    Html.Attributes.style "column-rule" "outset"
+column-rule : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleOutset : Html.Attribute msg
 columnRuleOutset =
-    Html.Attributes.style "column-rule" "outset"
+    columnRule "outset"
 
 
 {-| ```
-columnRuleInset : Html.Attribute msg
-columnRuleInset =
-    Html.Attributes.style "column-rule" "inset"
+column-rule : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleInset : Html.Attribute msg
 columnRuleInset =
-    Html.Attributes.style "column-rule" "inset"
+    columnRule "inset"
 
 
 {-| ```
-columnRuleGroove : Html.Attribute msg
-columnRuleGroove =
-    Html.Attributes.style "column-rule" "groove"
+column-rule : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleGroove : Html.Attribute msg
 columnRuleGroove =
-    Html.Attributes.style "column-rule" "groove"
+    columnRule "groove"
 
 
 {-| ```
-columnRuleSolid : Html.Attribute msg
-columnRuleSolid =
-    Html.Attributes.style "column-rule" "solid"
+column-rule : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleSolid : Html.Attribute msg
 columnRuleSolid =
-    Html.Attributes.style "column-rule" "solid"
+    columnRule "solid"
 
 
 {-| ```
-columnRuleDotted : Html.Attribute msg
-columnRuleDotted =
-    Html.Attributes.style "column-rule" "dotted"
+column-rule : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleDotted : Html.Attribute msg
 columnRuleDotted =
-    Html.Attributes.style "column-rule" "dotted"
+    columnRule "dotted"
 
 
 {-| ```
-columnRuleNone : Html.Attribute msg
-columnRuleNone =
-    Html.Attributes.style "column-rule" "none"
+column-rule : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleNone : Html.Attribute msg
 columnRuleNone =
-    Html.Attributes.style "column-rule" "none"
+    columnRule "none"
 
 
 {-| ```
-columnRuleThin : Html.Attribute msg
-columnRuleThin =
-    Html.Attributes.style "column-rule" "thin"
+column-rule : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleThin : Html.Attribute msg
 columnRuleThin =
-    Html.Attributes.style "column-rule" "thin"
+    columnRule "thin"
 
 
 {-| ```
-columnRuleThick : Html.Attribute msg
-columnRuleThick =
-    Html.Attributes.style "column-rule" "thick"
+column-rule : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleThick : Html.Attribute msg
 columnRuleThick =
-    Html.Attributes.style "column-rule" "thick"
+    columnRule "thick"
 
 
 {-| ```
-columnRuleMedium : Html.Attribute msg
-columnRuleMedium =
-    Html.Attributes.style "column-rule" "medium"
+column-rule : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleMedium : Html.Attribute msg
 columnRuleMedium =
-    Html.Attributes.style "column-rule" "medium"
+    columnRule "medium"
 
 
 {-| ```
-columnRulePx : Float -> Html.Attribute msg
-columnRulePx value =
-    Html.Attributes.style
-        "column-rule"
-        (String.append (String.fromFloat value) "px")
+column-rule : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRulePx : Float -> Html.Attribute msg
 columnRulePx value =
-    Html.Attributes.style
-        "column-rule"
-        (String.append (String.fromFloat value) "px")
+    columnRule (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-columnRuleRem : Float -> Html.Attribute msg
-columnRuleRem value =
-    Html.Attributes.style
-        "column-rule"
-        (String.append (String.fromFloat value) "rem")
+column-rule : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule
 -}
 columnRuleRem : Float -> Html.Attribute msg
 columnRuleRem value =
-    Html.Attributes.style
-        "column-rule"
-        (String.append (String.fromFloat value) "rem")
+    columnRule (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-columnRuleColor : String -> Html.Attribute msg
-columnRuleColor value =
-    Html.Attributes.style "column-rule-color" value
-```
+{-| CSS property `column-rule-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-color
 -}
@@ -9212,11 +7574,9 @@ columnRuleColor value =
     Html.Attributes.style "column-rule-color" value
 
 
-{-| ```
-columnRuleStyle : String -> Html.Attribute msg
-columnRuleStyle value =
-    Html.Attributes.style "column-rule-style" value
-```
+{-| CSS property `column-rule-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
@@ -9226,140 +7586,118 @@ columnRuleStyle value =
 
 
 {-| ```
-columnRuleStyleNone : Html.Attribute msg
-columnRuleStyleNone =
-    Html.Attributes.style "column-rule-style" "none"
+column-rule-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleNone : Html.Attribute msg
 columnRuleStyleNone =
-    Html.Attributes.style "column-rule-style" "none"
+    columnRuleStyle "none"
 
 
 {-| ```
-columnRuleStyleDotted : Html.Attribute msg
-columnRuleStyleDotted =
-    Html.Attributes.style "column-rule-style" "dotted"
+column-rule-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleDotted : Html.Attribute msg
 columnRuleStyleDotted =
-    Html.Attributes.style "column-rule-style" "dotted"
+    columnRuleStyle "dotted"
 
 
 {-| ```
-columnRuleStyleSolid : Html.Attribute msg
-columnRuleStyleSolid =
-    Html.Attributes.style "column-rule-style" "solid"
+column-rule-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleSolid : Html.Attribute msg
 columnRuleStyleSolid =
-    Html.Attributes.style "column-rule-style" "solid"
+    columnRuleStyle "solid"
 
 
 {-| ```
-columnRuleStyleGroove : Html.Attribute msg
-columnRuleStyleGroove =
-    Html.Attributes.style "column-rule-style" "groove"
+column-rule-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleGroove : Html.Attribute msg
 columnRuleStyleGroove =
-    Html.Attributes.style "column-rule-style" "groove"
+    columnRuleStyle "groove"
 
 
 {-| ```
-columnRuleStyleInset : Html.Attribute msg
-columnRuleStyleInset =
-    Html.Attributes.style "column-rule-style" "inset"
+column-rule-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleInset : Html.Attribute msg
 columnRuleStyleInset =
-    Html.Attributes.style "column-rule-style" "inset"
+    columnRuleStyle "inset"
 
 
 {-| ```
-columnRuleStyleOutset : Html.Attribute msg
-columnRuleStyleOutset =
-    Html.Attributes.style "column-rule-style" "outset"
+column-rule-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleOutset : Html.Attribute msg
 columnRuleStyleOutset =
-    Html.Attributes.style "column-rule-style" "outset"
+    columnRuleStyle "outset"
 
 
 {-| ```
-columnRuleStyleRidge : Html.Attribute msg
-columnRuleStyleRidge =
-    Html.Attributes.style "column-rule-style" "ridge"
+column-rule-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleRidge : Html.Attribute msg
 columnRuleStyleRidge =
-    Html.Attributes.style "column-rule-style" "ridge"
+    columnRuleStyle "ridge"
 
 
 {-| ```
-columnRuleStyleDouble : Html.Attribute msg
-columnRuleStyleDouble =
-    Html.Attributes.style "column-rule-style" "double"
+column-rule-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleDouble : Html.Attribute msg
 columnRuleStyleDouble =
-    Html.Attributes.style "column-rule-style" "double"
+    columnRuleStyle "double"
 
 
 {-| ```
-columnRuleStyleDashed : Html.Attribute msg
-columnRuleStyleDashed =
-    Html.Attributes.style "column-rule-style" "dashed"
+column-rule-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleDashed : Html.Attribute msg
 columnRuleStyleDashed =
-    Html.Attributes.style "column-rule-style" "dashed"
+    columnRuleStyle "dashed"
 
 
 {-| ```
-columnRuleStyleHidden : Html.Attribute msg
-columnRuleStyleHidden =
-    Html.Attributes.style "column-rule-style" "hidden"
+column-rule-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-style
 -}
 columnRuleStyleHidden : Html.Attribute msg
 columnRuleStyleHidden =
-    Html.Attributes.style "column-rule-style" "hidden"
+    columnRuleStyle "hidden"
 
 
-{-| ```
-columnRuleWidth : String -> Html.Attribute msg
-columnRuleWidth value =
-    Html.Attributes.style "column-rule-width" value
-```
+{-| CSS property `column-rule-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
@@ -9369,83 +7707,63 @@ columnRuleWidth value =
 
 
 {-| ```
-columnRuleWidthRem : Float -> Html.Attribute msg
-columnRuleWidthRem value =
-    Html.Attributes.style
-        "column-rule-width"
-        (String.append (String.fromFloat value) "rem")
+column-rule-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
 columnRuleWidthRem : Float -> Html.Attribute msg
 columnRuleWidthRem value =
-    Html.Attributes.style
-        "column-rule-width"
-        (String.append (String.fromFloat value) "rem")
+    columnRuleWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-columnRuleWidthPx : Float -> Html.Attribute msg
-columnRuleWidthPx value =
-    Html.Attributes.style
-        "column-rule-width"
-        (String.append (String.fromFloat value) "px")
+column-rule-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
 columnRuleWidthPx : Float -> Html.Attribute msg
 columnRuleWidthPx value =
-    Html.Attributes.style
-        "column-rule-width"
-        (String.append (String.fromFloat value) "px")
+    columnRuleWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-columnRuleWidthMedium : Html.Attribute msg
-columnRuleWidthMedium =
-    Html.Attributes.style "column-rule-width" "medium"
+column-rule-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
 columnRuleWidthMedium : Html.Attribute msg
 columnRuleWidthMedium =
-    Html.Attributes.style "column-rule-width" "medium"
+    columnRuleWidth "medium"
 
 
 {-| ```
-columnRuleWidthThick : Html.Attribute msg
-columnRuleWidthThick =
-    Html.Attributes.style "column-rule-width" "thick"
+column-rule-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
 columnRuleWidthThick : Html.Attribute msg
 columnRuleWidthThick =
-    Html.Attributes.style "column-rule-width" "thick"
+    columnRuleWidth "thick"
 
 
 {-| ```
-columnRuleWidthThin : Html.Attribute msg
-columnRuleWidthThin =
-    Html.Attributes.style "column-rule-width" "thin"
+column-rule-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-rule-width
 -}
 columnRuleWidthThin : Html.Attribute msg
 columnRuleWidthThin =
-    Html.Attributes.style "column-rule-width" "thin"
+    columnRuleWidth "thin"
 
 
-{-| ```
-columnSpan : String -> Html.Attribute msg
-columnSpan value =
-    Html.Attributes.style "column-span" value
-```
+{-| CSS property `column-span`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-span
 -}
@@ -9455,36 +7773,30 @@ columnSpan value =
 
 
 {-| ```
-columnSpanNone : Html.Attribute msg
-columnSpanNone =
-    Html.Attributes.style "column-span" "none"
+column-span : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-span
 -}
 columnSpanNone : Html.Attribute msg
 columnSpanNone =
-    Html.Attributes.style "column-span" "none"
+    columnSpan "none"
 
 
 {-| ```
-columnSpanAll : Html.Attribute msg
-columnSpanAll =
-    Html.Attributes.style "column-span" "all"
+column-span : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-span
 -}
 columnSpanAll : Html.Attribute msg
 columnSpanAll =
-    Html.Attributes.style "column-span" "all"
+    columnSpan "all"
 
 
-{-| ```
-columnWidth : String -> Html.Attribute msg
-columnWidth value =
-    Html.Attributes.style "column-width" value
-```
+{-| CSS property `column-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-width
 -}
@@ -9494,57 +7806,41 @@ columnWidth value =
 
 
 {-| ```
-columnWidthRem : Float -> Html.Attribute msg
-columnWidthRem value =
-    Html.Attributes.style
-        "column-width"
-        (String.append (String.fromFloat value) "rem")
+column-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-width
 -}
 columnWidthRem : Float -> Html.Attribute msg
 columnWidthRem value =
-    Html.Attributes.style
-        "column-width"
-        (String.append (String.fromFloat value) "rem")
+    columnWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-columnWidthPx : Float -> Html.Attribute msg
-columnWidthPx value =
-    Html.Attributes.style
-        "column-width"
-        (String.append (String.fromFloat value) "px")
+column-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-width
 -}
 columnWidthPx : Float -> Html.Attribute msg
 columnWidthPx value =
-    Html.Attributes.style
-        "column-width"
-        (String.append (String.fromFloat value) "px")
+    columnWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-columnWidthAuto : Html.Attribute msg
-columnWidthAuto =
-    Html.Attributes.style "column-width" "auto"
+column-width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-width
 -}
 columnWidthAuto : Html.Attribute msg
 columnWidthAuto =
-    Html.Attributes.style "column-width" "auto"
+    columnWidth "auto"
 
 
-{-| ```
-columns : String -> Html.Attribute msg
-columns value =
-    Html.Attributes.style "columns" value
-```
+{-| CSS property `columns`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/columns
 -}
@@ -9554,57 +7850,41 @@ columns value =
 
 
 {-| ```
-columnsAuto : Html.Attribute msg
-columnsAuto =
-    Html.Attributes.style "columns" "auto"
+columns : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/columns
 -}
 columnsAuto : Html.Attribute msg
 columnsAuto =
-    Html.Attributes.style "columns" "auto"
+    columns "auto"
 
 
 {-| ```
-columnsPx : Float -> Html.Attribute msg
-columnsPx value =
-    Html.Attributes.style
-        "columns"
-        (String.append (String.fromFloat value) "px")
+columns : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/columns
 -}
 columnsPx : Float -> Html.Attribute msg
 columnsPx value =
-    Html.Attributes.style
-        "columns"
-        (String.append (String.fromFloat value) "px")
+    columns (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-columnsRem : Float -> Html.Attribute msg
-columnsRem value =
-    Html.Attributes.style
-        "columns"
-        (String.append (String.fromFloat value) "rem")
+columns : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/columns
 -}
 columnsRem : Float -> Html.Attribute msg
 columnsRem value =
-    Html.Attributes.style
-        "columns"
-        (String.append (String.fromFloat value) "rem")
+    columns (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-contain : String -> Html.Attribute msg
-contain value =
-    Html.Attributes.style "contain" value
-```
+{-| CSS property `contain`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
@@ -9614,114 +7894,96 @@ contain value =
 
 
 {-| ```
-containNone : Html.Attribute msg
-containNone =
-    Html.Attributes.style "contain" "none"
+contain : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containNone : Html.Attribute msg
 containNone =
-    Html.Attributes.style "contain" "none"
+    contain "none"
 
 
 {-| ```
-containContent : Html.Attribute msg
-containContent =
-    Html.Attributes.style "contain" "content"
+contain : content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containContent : Html.Attribute msg
 containContent =
-    Html.Attributes.style "contain" "content"
+    contain "content"
 
 
 {-| ```
-containPaint : Html.Attribute msg
-containPaint =
-    Html.Attributes.style "contain" "paint"
+contain : paint
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containPaint : Html.Attribute msg
 containPaint =
-    Html.Attributes.style "contain" "paint"
+    contain "paint"
 
 
 {-| ```
-containStyle : Html.Attribute msg
-containStyle =
-    Html.Attributes.style "contain" "style"
+contain : style
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containStyle : Html.Attribute msg
 containStyle =
-    Html.Attributes.style "contain" "style"
+    contain "style"
 
 
 {-| ```
-containLayout : Html.Attribute msg
-containLayout =
-    Html.Attributes.style "contain" "layout"
+contain : layout
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containLayout : Html.Attribute msg
 containLayout =
-    Html.Attributes.style "contain" "layout"
+    contain "layout"
 
 
 {-| ```
-containSize : Html.Attribute msg
-containSize =
-    Html.Attributes.style "contain" "size"
+contain : size
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containSize : Html.Attribute msg
 containSize =
-    Html.Attributes.style "contain" "size"
+    contain "size"
 
 
 {-| ```
-containInlineSize : Html.Attribute msg
-containInlineSize =
-    Html.Attributes.style "contain" "inline-size"
+contain : inline-size
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containInlineSize : Html.Attribute msg
 containInlineSize =
-    Html.Attributes.style "contain" "inline-size"
+    contain "inline-size"
 
 
 {-| ```
-containStrict : Html.Attribute msg
-containStrict =
-    Html.Attributes.style "contain" "strict"
+contain : strict
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain
 -}
 containStrict : Html.Attribute msg
 containStrict =
-    Html.Attributes.style "contain" "strict"
+    contain "strict"
 
 
-{-| ```
-containIntrinsicBlockSize : String -> Html.Attribute msg
-containIntrinsicBlockSize value =
-    Html.Attributes.style "contain-intrinsic-block-size" value
-```
+{-| CSS property `contain-intrinsic-block-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size
 -}
@@ -9731,57 +7993,41 @@ containIntrinsicBlockSize value =
 
 
 {-| ```
-containIntrinsicBlockSizeRem : Float -> Html.Attribute msg
-containIntrinsicBlockSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-block-size"
-        (String.append (String.fromFloat value) "rem")
+contain-intrinsic-block-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size
 -}
 containIntrinsicBlockSizeRem : Float -> Html.Attribute msg
 containIntrinsicBlockSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-block-size"
-        (String.append (String.fromFloat value) "rem")
+    containIntrinsicBlockSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-containIntrinsicBlockSizePx : Float -> Html.Attribute msg
-containIntrinsicBlockSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-block-size"
-        (String.append (String.fromFloat value) "px")
+contain-intrinsic-block-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size
 -}
 containIntrinsicBlockSizePx : Float -> Html.Attribute msg
 containIntrinsicBlockSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-block-size"
-        (String.append (String.fromFloat value) "px")
+    containIntrinsicBlockSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-containIntrinsicBlockSizeNone : Html.Attribute msg
-containIntrinsicBlockSizeNone =
-    Html.Attributes.style "contain-intrinsic-block-size" "none"
+contain-intrinsic-block-size : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size
 -}
 containIntrinsicBlockSizeNone : Html.Attribute msg
 containIntrinsicBlockSizeNone =
-    Html.Attributes.style "contain-intrinsic-block-size" "none"
+    containIntrinsicBlockSize "none"
 
 
-{-| ```
-containIntrinsicHeight : String -> Html.Attribute msg
-containIntrinsicHeight value =
-    Html.Attributes.style "contain-intrinsic-height" value
-```
+{-| CSS property `contain-intrinsic-height`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height
 -}
@@ -9791,57 +8037,41 @@ containIntrinsicHeight value =
 
 
 {-| ```
-containIntrinsicHeightRem : Float -> Html.Attribute msg
-containIntrinsicHeightRem value =
-    Html.Attributes.style
-        "contain-intrinsic-height"
-        (String.append (String.fromFloat value) "rem")
+contain-intrinsic-height : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height
 -}
 containIntrinsicHeightRem : Float -> Html.Attribute msg
 containIntrinsicHeightRem value =
-    Html.Attributes.style
-        "contain-intrinsic-height"
-        (String.append (String.fromFloat value) "rem")
+    containIntrinsicHeight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-containIntrinsicHeightPx : Float -> Html.Attribute msg
-containIntrinsicHeightPx value =
-    Html.Attributes.style
-        "contain-intrinsic-height"
-        (String.append (String.fromFloat value) "px")
+contain-intrinsic-height : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height
 -}
 containIntrinsicHeightPx : Float -> Html.Attribute msg
 containIntrinsicHeightPx value =
-    Html.Attributes.style
-        "contain-intrinsic-height"
-        (String.append (String.fromFloat value) "px")
+    containIntrinsicHeight (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-containIntrinsicHeightNone : Html.Attribute msg
-containIntrinsicHeightNone =
-    Html.Attributes.style "contain-intrinsic-height" "none"
+contain-intrinsic-height : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height
 -}
 containIntrinsicHeightNone : Html.Attribute msg
 containIntrinsicHeightNone =
-    Html.Attributes.style "contain-intrinsic-height" "none"
+    containIntrinsicHeight "none"
 
 
-{-| ```
-containIntrinsicInlineSize : String -> Html.Attribute msg
-containIntrinsicInlineSize value =
-    Html.Attributes.style "contain-intrinsic-inline-size" value
-```
+{-| CSS property `contain-intrinsic-inline-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size
 -}
@@ -9851,57 +8081,41 @@ containIntrinsicInlineSize value =
 
 
 {-| ```
-containIntrinsicInlineSizeRem : Float -> Html.Attribute msg
-containIntrinsicInlineSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-inline-size"
-        (String.append (String.fromFloat value) "rem")
+contain-intrinsic-inline-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size
 -}
 containIntrinsicInlineSizeRem : Float -> Html.Attribute msg
 containIntrinsicInlineSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-inline-size"
-        (String.append (String.fromFloat value) "rem")
+    containIntrinsicInlineSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-containIntrinsicInlineSizePx : Float -> Html.Attribute msg
-containIntrinsicInlineSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-inline-size"
-        (String.append (String.fromFloat value) "px")
+contain-intrinsic-inline-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size
 -}
 containIntrinsicInlineSizePx : Float -> Html.Attribute msg
 containIntrinsicInlineSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-inline-size"
-        (String.append (String.fromFloat value) "px")
+    containIntrinsicInlineSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-containIntrinsicInlineSizeNone : Html.Attribute msg
-containIntrinsicInlineSizeNone =
-    Html.Attributes.style "contain-intrinsic-inline-size" "none"
+contain-intrinsic-inline-size : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size
 -}
 containIntrinsicInlineSizeNone : Html.Attribute msg
 containIntrinsicInlineSizeNone =
-    Html.Attributes.style "contain-intrinsic-inline-size" "none"
+    containIntrinsicInlineSize "none"
 
 
-{-| ```
-containIntrinsicSize : String -> Html.Attribute msg
-containIntrinsicSize value =
-    Html.Attributes.style "contain-intrinsic-size" value
-```
+{-| CSS property `contain-intrinsic-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size
 -}
@@ -9911,57 +8125,41 @@ containIntrinsicSize value =
 
 
 {-| ```
-containIntrinsicSizeNone : Html.Attribute msg
-containIntrinsicSizeNone =
-    Html.Attributes.style "contain-intrinsic-size" "none"
+contain-intrinsic-size : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size
 -}
 containIntrinsicSizeNone : Html.Attribute msg
 containIntrinsicSizeNone =
-    Html.Attributes.style "contain-intrinsic-size" "none"
+    containIntrinsicSize "none"
 
 
 {-| ```
-containIntrinsicSizePx : Float -> Html.Attribute msg
-containIntrinsicSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-size"
-        (String.append (String.fromFloat value) "px")
+contain-intrinsic-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size
 -}
 containIntrinsicSizePx : Float -> Html.Attribute msg
 containIntrinsicSizePx value =
-    Html.Attributes.style
-        "contain-intrinsic-size"
-        (String.append (String.fromFloat value) "px")
+    containIntrinsicSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-containIntrinsicSizeRem : Float -> Html.Attribute msg
-containIntrinsicSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-size"
-        (String.append (String.fromFloat value) "rem")
+contain-intrinsic-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size
 -}
 containIntrinsicSizeRem : Float -> Html.Attribute msg
 containIntrinsicSizeRem value =
-    Html.Attributes.style
-        "contain-intrinsic-size"
-        (String.append (String.fromFloat value) "rem")
+    containIntrinsicSize (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-containIntrinsicWidth : String -> Html.Attribute msg
-containIntrinsicWidth value =
-    Html.Attributes.style "contain-intrinsic-width" value
-```
+{-| CSS property `contain-intrinsic-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width
 -}
@@ -9971,57 +8169,41 @@ containIntrinsicWidth value =
 
 
 {-| ```
-containIntrinsicWidthRem : Float -> Html.Attribute msg
-containIntrinsicWidthRem value =
-    Html.Attributes.style
-        "contain-intrinsic-width"
-        (String.append (String.fromFloat value) "rem")
+contain-intrinsic-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width
 -}
 containIntrinsicWidthRem : Float -> Html.Attribute msg
 containIntrinsicWidthRem value =
-    Html.Attributes.style
-        "contain-intrinsic-width"
-        (String.append (String.fromFloat value) "rem")
+    containIntrinsicWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-containIntrinsicWidthPx : Float -> Html.Attribute msg
-containIntrinsicWidthPx value =
-    Html.Attributes.style
-        "contain-intrinsic-width"
-        (String.append (String.fromFloat value) "px")
+contain-intrinsic-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width
 -}
 containIntrinsicWidthPx : Float -> Html.Attribute msg
 containIntrinsicWidthPx value =
-    Html.Attributes.style
-        "contain-intrinsic-width"
-        (String.append (String.fromFloat value) "px")
+    containIntrinsicWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-containIntrinsicWidthNone : Html.Attribute msg
-containIntrinsicWidthNone =
-    Html.Attributes.style "contain-intrinsic-width" "none"
+contain-intrinsic-width : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width
 -}
 containIntrinsicWidthNone : Html.Attribute msg
 containIntrinsicWidthNone =
-    Html.Attributes.style "contain-intrinsic-width" "none"
+    containIntrinsicWidth "none"
 
 
-{-| ```
-container : String -> Html.Attribute msg
-container value =
-    Html.Attributes.style "container" value
-```
+{-| CSS property `container`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/container
 -}
@@ -10030,11 +8212,9 @@ container value =
     Html.Attributes.style "container" value
 
 
-{-| ```
-containerName : String -> Html.Attribute msg
-containerName value =
-    Html.Attributes.style "container-name" value
-```
+{-| CSS property `container-name`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/container-name
 -}
@@ -10044,23 +8224,19 @@ containerName value =
 
 
 {-| ```
-containerNameNone : Html.Attribute msg
-containerNameNone =
-    Html.Attributes.style "container-name" "none"
+container-name : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/container-name
 -}
 containerNameNone : Html.Attribute msg
 containerNameNone =
-    Html.Attributes.style "container-name" "none"
+    containerName "none"
 
 
-{-| ```
-containerType : String -> Html.Attribute msg
-containerType value =
-    Html.Attributes.style "container-type" value
-```
+{-| CSS property `container-type`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/container-type
 -}
@@ -10070,49 +8246,41 @@ containerType value =
 
 
 {-| ```
-containerTypeNormal : Html.Attribute msg
-containerTypeNormal =
-    Html.Attributes.style "container-type" "normal"
+container-type : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/container-type
 -}
 containerTypeNormal : Html.Attribute msg
 containerTypeNormal =
-    Html.Attributes.style "container-type" "normal"
+    containerType "normal"
 
 
 {-| ```
-containerTypeInlineSize : Html.Attribute msg
-containerTypeInlineSize =
-    Html.Attributes.style "container-type" "inline-size"
+container-type : inline-size
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/container-type
 -}
 containerTypeInlineSize : Html.Attribute msg
 containerTypeInlineSize =
-    Html.Attributes.style "container-type" "inline-size"
+    containerType "inline-size"
 
 
 {-| ```
-containerTypeSize : Html.Attribute msg
-containerTypeSize =
-    Html.Attributes.style "container-type" "size"
+container-type : size
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/container-type
 -}
 containerTypeSize : Html.Attribute msg
 containerTypeSize =
-    Html.Attributes.style "container-type" "size"
+    containerType "size"
 
 
-{-| ```
-content : String -> Html.Attribute msg
-content value =
-    Html.Attributes.style "content" value
-```
+{-| CSS property `content`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/content
 -}
@@ -10121,11 +8289,9 @@ content value =
     Html.Attributes.style "content" value
 
 
-{-| ```
-contentVisibility : String -> Html.Attribute msg
-contentVisibility value =
-    Html.Attributes.style "content-visibility" value
-```
+{-| CSS property `content-visibility`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/content-visibility
 -}
@@ -10135,49 +8301,41 @@ contentVisibility value =
 
 
 {-| ```
-contentVisibilityVisible : Html.Attribute msg
-contentVisibilityVisible =
-    Html.Attributes.style "content-visibility" "visible"
+content-visibility : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/content-visibility
 -}
 contentVisibilityVisible : Html.Attribute msg
 contentVisibilityVisible =
-    Html.Attributes.style "content-visibility" "visible"
+    contentVisibility "visible"
 
 
 {-| ```
-contentVisibilityHidden : Html.Attribute msg
-contentVisibilityHidden =
-    Html.Attributes.style "content-visibility" "hidden"
+content-visibility : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/content-visibility
 -}
 contentVisibilityHidden : Html.Attribute msg
 contentVisibilityHidden =
-    Html.Attributes.style "content-visibility" "hidden"
+    contentVisibility "hidden"
 
 
 {-| ```
-contentVisibilityAuto : Html.Attribute msg
-contentVisibilityAuto =
-    Html.Attributes.style "content-visibility" "auto"
+content-visibility : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/content-visibility
 -}
 contentVisibilityAuto : Html.Attribute msg
 contentVisibilityAuto =
-    Html.Attributes.style "content-visibility" "auto"
+    contentVisibility "auto"
 
 
-{-| ```
-counterIncrement : String -> Html.Attribute msg
-counterIncrement value =
-    Html.Attributes.style "counter-increment" value
-```
+{-| CSS property `counter-increment`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/counter-increment
 -}
@@ -10187,23 +8345,19 @@ counterIncrement value =
 
 
 {-| ```
-counterIncrementNone : Html.Attribute msg
-counterIncrementNone =
-    Html.Attributes.style "counter-increment" "none"
+counter-increment : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/counter-increment
 -}
 counterIncrementNone : Html.Attribute msg
 counterIncrementNone =
-    Html.Attributes.style "counter-increment" "none"
+    counterIncrement "none"
 
 
-{-| ```
-counterReset : String -> Html.Attribute msg
-counterReset value =
-    Html.Attributes.style "counter-reset" value
-```
+{-| CSS property `counter-reset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/counter-reset
 -}
@@ -10213,23 +8367,19 @@ counterReset value =
 
 
 {-| ```
-counterResetNone : Html.Attribute msg
-counterResetNone =
-    Html.Attributes.style "counter-reset" "none"
+counter-reset : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/counter-reset
 -}
 counterResetNone : Html.Attribute msg
 counterResetNone =
-    Html.Attributes.style "counter-reset" "none"
+    counterReset "none"
 
 
-{-| ```
-counterSet : String -> Html.Attribute msg
-counterSet value =
-    Html.Attributes.style "counter-set" value
-```
+{-| CSS property `counter-set`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/counter-set
 -}
@@ -10239,23 +8389,19 @@ counterSet value =
 
 
 {-| ```
-counterSetNone : Html.Attribute msg
-counterSetNone =
-    Html.Attributes.style "counter-set" "none"
+counter-set : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/counter-set
 -}
 counterSetNone : Html.Attribute msg
 counterSetNone =
-    Html.Attributes.style "counter-set" "none"
+    counterSet "none"
 
 
-{-| ```
-cursor : String -> Html.Attribute msg
-cursor value =
-    Html.Attributes.style "cursor" value
-```
+{-| CSS property `cursor`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/cursor
 -}
@@ -10264,11 +8410,9 @@ cursor value =
     Html.Attributes.style "cursor" value
 
 
-{-| ```
-direction : String -> Html.Attribute msg
-direction value =
-    Html.Attributes.style "direction" value
-```
+{-| CSS property `direction`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/direction
 -}
@@ -10278,36 +8422,30 @@ direction value =
 
 
 {-| ```
-directionLtr : Html.Attribute msg
-directionLtr =
-    Html.Attributes.style "direction" "ltr"
+direction : ltr
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/direction
 -}
 directionLtr : Html.Attribute msg
 directionLtr =
-    Html.Attributes.style "direction" "ltr"
+    direction "ltr"
 
 
 {-| ```
-directionRtl : Html.Attribute msg
-directionRtl =
-    Html.Attributes.style "direction" "rtl"
+direction : rtl
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/direction
 -}
 directionRtl : Html.Attribute msg
 directionRtl =
-    Html.Attributes.style "direction" "rtl"
+    direction "rtl"
 
 
-{-| ```
-display : String -> Html.Attribute msg
-display value =
-    Html.Attributes.style "display" value
-```
+{-| CSS property `display`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
@@ -10317,374 +8455,316 @@ display value =
 
 
 {-| ```
-displayBlock : Html.Attribute msg
-displayBlock =
-    Html.Attributes.style "display" "block"
+display : block
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayBlock : Html.Attribute msg
 displayBlock =
-    Html.Attributes.style "display" "block"
+    display "block"
 
 
 {-| ```
-displayRunIn : Html.Attribute msg
-displayRunIn =
-    Html.Attributes.style "display" "run-in"
+display : run-in
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRunIn : Html.Attribute msg
 displayRunIn =
-    Html.Attributes.style "display" "run-in"
+    display "run-in"
 
 
 {-| ```
-displayInline : Html.Attribute msg
-displayInline =
-    Html.Attributes.style "display" "inline"
+display : inline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInline : Html.Attribute msg
 displayInline =
-    Html.Attributes.style "display" "inline"
+    display "inline"
 
 
 {-| ```
-displayFlow : Html.Attribute msg
-displayFlow =
-    Html.Attributes.style "display" "flow"
+display : flow
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayFlow : Html.Attribute msg
 displayFlow =
-    Html.Attributes.style "display" "flow"
+    display "flow"
 
 
 {-| ```
-displayTable : Html.Attribute msg
-displayTable =
-    Html.Attributes.style "display" "table"
+display : table
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTable : Html.Attribute msg
 displayTable =
-    Html.Attributes.style "display" "table"
+    display "table"
 
 
 {-| ```
-displayGrid : Html.Attribute msg
-displayGrid =
-    Html.Attributes.style "display" "grid"
+display : grid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayGrid : Html.Attribute msg
 displayGrid =
-    Html.Attributes.style "display" "grid"
+    display "grid"
 
 
 {-| ```
-displayRuby : Html.Attribute msg
-displayRuby =
-    Html.Attributes.style "display" "ruby"
+display : ruby
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRuby : Html.Attribute msg
 displayRuby =
-    Html.Attributes.style "display" "ruby"
+    display "ruby"
 
 
 {-| ```
-displayFlex : Html.Attribute msg
-displayFlex =
-    Html.Attributes.style "display" "flex"
+display : flex
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayFlex : Html.Attribute msg
 displayFlex =
-    Html.Attributes.style "display" "flex"
+    display "flex"
 
 
 {-| ```
-displayFlowRoot : Html.Attribute msg
-displayFlowRoot =
-    Html.Attributes.style "display" "flow-root"
+display : flow-root
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayFlowRoot : Html.Attribute msg
 displayFlowRoot =
-    Html.Attributes.style "display" "flow-root"
+    display "flow-root"
 
 
 {-| ```
-displayTableHeaderGroup : Html.Attribute msg
-displayTableHeaderGroup =
-    Html.Attributes.style "display" "table-header-group"
+display : table-header-group
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableHeaderGroup : Html.Attribute msg
 displayTableHeaderGroup =
-    Html.Attributes.style "display" "table-header-group"
+    display "table-header-group"
 
 
 {-| ```
-displayTableRow : Html.Attribute msg
-displayTableRow =
-    Html.Attributes.style "display" "table-row"
+display : table-row
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableRow : Html.Attribute msg
 displayTableRow =
-    Html.Attributes.style "display" "table-row"
+    display "table-row"
 
 
 {-| ```
-displayTableColumnGroup : Html.Attribute msg
-displayTableColumnGroup =
-    Html.Attributes.style "display" "table-column-group"
+display : table-column-group
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableColumnGroup : Html.Attribute msg
 displayTableColumnGroup =
-    Html.Attributes.style "display" "table-column-group"
+    display "table-column-group"
 
 
 {-| ```
-displayTableCaption : Html.Attribute msg
-displayTableCaption =
-    Html.Attributes.style "display" "table-caption"
+display : table-caption
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableCaption : Html.Attribute msg
 displayTableCaption =
-    Html.Attributes.style "display" "table-caption"
+    display "table-caption"
 
 
 {-| ```
-displayRubyText : Html.Attribute msg
-displayRubyText =
-    Html.Attributes.style "display" "ruby-text"
+display : ruby-text
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRubyText : Html.Attribute msg
 displayRubyText =
-    Html.Attributes.style "display" "ruby-text"
+    display "ruby-text"
 
 
 {-| ```
-displayRubyTextContainer : Html.Attribute msg
-displayRubyTextContainer =
-    Html.Attributes.style "display" "ruby-text-container"
+display : ruby-text-container
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRubyTextContainer : Html.Attribute msg
 displayRubyTextContainer =
-    Html.Attributes.style "display" "ruby-text-container"
+    display "ruby-text-container"
 
 
 {-| ```
-displayRubyBaseContainer : Html.Attribute msg
-displayRubyBaseContainer =
-    Html.Attributes.style "display" "ruby-base-container"
+display : ruby-base-container
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRubyBaseContainer : Html.Attribute msg
 displayRubyBaseContainer =
-    Html.Attributes.style "display" "ruby-base-container"
+    display "ruby-base-container"
 
 
 {-| ```
-displayRubyBase : Html.Attribute msg
-displayRubyBase =
-    Html.Attributes.style "display" "ruby-base"
+display : ruby-base
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayRubyBase : Html.Attribute msg
 displayRubyBase =
-    Html.Attributes.style "display" "ruby-base"
+    display "ruby-base"
 
 
 {-| ```
-displayTableColumn : Html.Attribute msg
-displayTableColumn =
-    Html.Attributes.style "display" "table-column"
+display : table-column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableColumn : Html.Attribute msg
 displayTableColumn =
-    Html.Attributes.style "display" "table-column"
+    display "table-column"
 
 
 {-| ```
-displayTableCell : Html.Attribute msg
-displayTableCell =
-    Html.Attributes.style "display" "table-cell"
+display : table-cell
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableCell : Html.Attribute msg
 displayTableCell =
-    Html.Attributes.style "display" "table-cell"
+    display "table-cell"
 
 
 {-| ```
-displayTableFooterGroup : Html.Attribute msg
-displayTableFooterGroup =
-    Html.Attributes.style "display" "table-footer-group"
+display : table-footer-group
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableFooterGroup : Html.Attribute msg
 displayTableFooterGroup =
-    Html.Attributes.style "display" "table-footer-group"
+    display "table-footer-group"
 
 
 {-| ```
-displayTableRowGroup : Html.Attribute msg
-displayTableRowGroup =
-    Html.Attributes.style "display" "table-row-group"
+display : table-row-group
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayTableRowGroup : Html.Attribute msg
 displayTableRowGroup =
-    Html.Attributes.style "display" "table-row-group"
+    display "table-row-group"
 
 
 {-| ```
-displayInlineListItem : Html.Attribute msg
-displayInlineListItem =
-    Html.Attributes.style "display" "inline-list-item"
+display : inline-list-item
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInlineListItem : Html.Attribute msg
 displayInlineListItem =
-    Html.Attributes.style "display" "inline-list-item"
+    display "inline-list-item"
 
 
 {-| ```
-displayInlineFlex : Html.Attribute msg
-displayInlineFlex =
-    Html.Attributes.style "display" "inline-flex"
+display : inline-flex
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInlineFlex : Html.Attribute msg
 displayInlineFlex =
-    Html.Attributes.style "display" "inline-flex"
+    display "inline-flex"
 
 
 {-| ```
-displayInlineGrid : Html.Attribute msg
-displayInlineGrid =
-    Html.Attributes.style "display" "inline-grid"
+display : inline-grid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInlineGrid : Html.Attribute msg
 displayInlineGrid =
-    Html.Attributes.style "display" "inline-grid"
+    display "inline-grid"
 
 
 {-| ```
-displayInlineTable : Html.Attribute msg
-displayInlineTable =
-    Html.Attributes.style "display" "inline-table"
+display : inline-table
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInlineTable : Html.Attribute msg
 displayInlineTable =
-    Html.Attributes.style "display" "inline-table"
+    display "inline-table"
 
 
 {-| ```
-displayInlineBlock : Html.Attribute msg
-displayInlineBlock =
-    Html.Attributes.style "display" "inline-block"
+display : inline-block
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayInlineBlock : Html.Attribute msg
 displayInlineBlock =
-    Html.Attributes.style "display" "inline-block"
+    display "inline-block"
 
 
 {-| ```
-displayContents : Html.Attribute msg
-displayContents =
-    Html.Attributes.style "display" "contents"
+display : contents
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayContents : Html.Attribute msg
 displayContents =
-    Html.Attributes.style "display" "contents"
+    display "contents"
 
 
 {-| ```
-displayNone : Html.Attribute msg
-displayNone =
-    Html.Attributes.style "display" "none"
+display : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/display
 -}
 displayNone : Html.Attribute msg
 displayNone =
-    Html.Attributes.style "display" "none"
+    display "none"
 
 
-{-| ```
-emptyCells : String -> Html.Attribute msg
-emptyCells value =
-    Html.Attributes.style "empty-cells" value
-```
+{-| CSS property `empty-cells`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/empty-cells
 -}
@@ -10694,36 +8774,30 @@ emptyCells value =
 
 
 {-| ```
-emptyCellsShow : Html.Attribute msg
-emptyCellsShow =
-    Html.Attributes.style "empty-cells" "show"
+empty-cells : show
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/empty-cells
 -}
 emptyCellsShow : Html.Attribute msg
 emptyCellsShow =
-    Html.Attributes.style "empty-cells" "show"
+    emptyCells "show"
 
 
 {-| ```
-emptyCellsHide : Html.Attribute msg
-emptyCellsHide =
-    Html.Attributes.style "empty-cells" "hide"
+empty-cells : hide
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/empty-cells
 -}
 emptyCellsHide : Html.Attribute msg
 emptyCellsHide =
-    Html.Attributes.style "empty-cells" "hide"
+    emptyCells "hide"
 
 
-{-| ```
-filter : String -> Html.Attribute msg
-filter value =
-    Html.Attributes.style "filter" value
-```
+{-| CSS property `filter`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/filter
 -}
@@ -10733,23 +8807,19 @@ filter value =
 
 
 {-| ```
-filterNone : Html.Attribute msg
-filterNone =
-    Html.Attributes.style "filter" "none"
+filter : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/filter
 -}
 filterNone : Html.Attribute msg
 filterNone =
-    Html.Attributes.style "filter" "none"
+    filter "none"
 
 
-{-| ```
-flex : String -> Html.Attribute msg
-flex value =
-    Html.Attributes.style "flex" value
-```
+{-| CSS property `flex`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex
 -}
@@ -10758,11 +8828,9 @@ flex value =
     Html.Attributes.style "flex" value
 
 
-{-| ```
-flexBasis : String -> Html.Attribute msg
-flexBasis value =
-    Html.Attributes.style "flex-basis" value
-```
+{-| CSS property `flex-basis`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
@@ -10772,109 +8840,85 @@ flexBasis value =
 
 
 {-| ```
-flexBasisContent : Html.Attribute msg
-flexBasisContent =
-    Html.Attributes.style "flex-basis" "content"
+flex-basis : content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisContent : Html.Attribute msg
 flexBasisContent =
-    Html.Attributes.style "flex-basis" "content"
+    flexBasis "content"
 
 
 {-| ```
-flexBasisAuto : Html.Attribute msg
-flexBasisAuto =
-    Html.Attributes.style "flex-basis" "auto"
+flex-basis : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisAuto : Html.Attribute msg
 flexBasisAuto =
-    Html.Attributes.style "flex-basis" "auto"
+    flexBasis "auto"
 
 
 {-| ```
-flexBasisMaxContent : Html.Attribute msg
-flexBasisMaxContent =
-    Html.Attributes.style "flex-basis" "max-content"
+flex-basis : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisMaxContent : Html.Attribute msg
 flexBasisMaxContent =
-    Html.Attributes.style "flex-basis" "max-content"
+    flexBasis "max-content"
 
 
 {-| ```
-flexBasisFitContent : Html.Attribute msg
-flexBasisFitContent =
-    Html.Attributes.style "flex-basis" "fit-content"
+flex-basis : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisFitContent : Html.Attribute msg
 flexBasisFitContent =
-    Html.Attributes.style "flex-basis" "fit-content"
+    flexBasis "fit-content"
 
 
 {-| ```
-flexBasisMinContent : Html.Attribute msg
-flexBasisMinContent =
-    Html.Attributes.style "flex-basis" "min-content"
+flex-basis : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisMinContent : Html.Attribute msg
 flexBasisMinContent =
-    Html.Attributes.style "flex-basis" "min-content"
+    flexBasis "min-content"
 
 
 {-| ```
-flexBasisPx : Float -> Html.Attribute msg
-flexBasisPx value =
-    Html.Attributes.style
-        "flex-basis"
-        (String.append (String.fromFloat value) "px")
+flex-basis : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisPx : Float -> Html.Attribute msg
 flexBasisPx value =
-    Html.Attributes.style
-        "flex-basis"
-        (String.append (String.fromFloat value) "px")
+    flexBasis (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-flexBasisRem : Float -> Html.Attribute msg
-flexBasisRem value =
-    Html.Attributes.style
-        "flex-basis"
-        (String.append (String.fromFloat value) "rem")
+flex-basis : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-basis
 -}
 flexBasisRem : Float -> Html.Attribute msg
 flexBasisRem value =
-    Html.Attributes.style
-        "flex-basis"
-        (String.append (String.fromFloat value) "rem")
+    flexBasis (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-flexDirection : String -> Html.Attribute msg
-flexDirection value =
-    Html.Attributes.style "flex-direction" value
-```
+{-| CSS property `flex-direction`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-direction
 -}
@@ -10884,62 +8928,52 @@ flexDirection value =
 
 
 {-| ```
-flexDirectionRow : Html.Attribute msg
-flexDirectionRow =
-    Html.Attributes.style "flex-direction" "row"
+flex-direction : row
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-direction
 -}
 flexDirectionRow : Html.Attribute msg
 flexDirectionRow =
-    Html.Attributes.style "flex-direction" "row"
+    flexDirection "row"
 
 
 {-| ```
-flexDirectionColumn : Html.Attribute msg
-flexDirectionColumn =
-    Html.Attributes.style "flex-direction" "column"
+flex-direction : column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-direction
 -}
 flexDirectionColumn : Html.Attribute msg
 flexDirectionColumn =
-    Html.Attributes.style "flex-direction" "column"
+    flexDirection "column"
 
 
 {-| ```
-flexDirectionColumnReverse : Html.Attribute msg
-flexDirectionColumnReverse =
-    Html.Attributes.style "flex-direction" "column-reverse"
+flex-direction : column-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-direction
 -}
 flexDirectionColumnReverse : Html.Attribute msg
 flexDirectionColumnReverse =
-    Html.Attributes.style "flex-direction" "column-reverse"
+    flexDirection "column-reverse"
 
 
 {-| ```
-flexDirectionRowReverse : Html.Attribute msg
-flexDirectionRowReverse =
-    Html.Attributes.style "flex-direction" "row-reverse"
+flex-direction : row-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-direction
 -}
 flexDirectionRowReverse : Html.Attribute msg
 flexDirectionRowReverse =
-    Html.Attributes.style "flex-direction" "row-reverse"
+    flexDirection "row-reverse"
 
 
-{-| ```
-flexFlow : String -> Html.Attribute msg
-flexFlow value =
-    Html.Attributes.style "flex-flow" value
-```
+{-| CSS property `flex-flow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
@@ -10949,101 +8983,85 @@ flexFlow value =
 
 
 {-| ```
-flexFlowWrap : Html.Attribute msg
-flexFlowWrap =
-    Html.Attributes.style "flex-flow" "wrap"
+flex-flow : wrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowWrap : Html.Attribute msg
 flexFlowWrap =
-    Html.Attributes.style "flex-flow" "wrap"
+    flexFlow "wrap"
 
 
 {-| ```
-flexFlowWrapReverse : Html.Attribute msg
-flexFlowWrapReverse =
-    Html.Attributes.style "flex-flow" "wrap-reverse"
+flex-flow : wrap-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowWrapReverse : Html.Attribute msg
 flexFlowWrapReverse =
-    Html.Attributes.style "flex-flow" "wrap-reverse"
+    flexFlow "wrap-reverse"
 
 
 {-| ```
-flexFlowNowrap : Html.Attribute msg
-flexFlowNowrap =
-    Html.Attributes.style "flex-flow" "nowrap"
+flex-flow : nowrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowNowrap : Html.Attribute msg
 flexFlowNowrap =
-    Html.Attributes.style "flex-flow" "nowrap"
+    flexFlow "nowrap"
 
 
 {-| ```
-flexFlowRowReverse : Html.Attribute msg
-flexFlowRowReverse =
-    Html.Attributes.style "flex-flow" "row-reverse"
+flex-flow : row-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowRowReverse : Html.Attribute msg
 flexFlowRowReverse =
-    Html.Attributes.style "flex-flow" "row-reverse"
+    flexFlow "row-reverse"
 
 
 {-| ```
-flexFlowColumnReverse : Html.Attribute msg
-flexFlowColumnReverse =
-    Html.Attributes.style "flex-flow" "column-reverse"
+flex-flow : column-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowColumnReverse : Html.Attribute msg
 flexFlowColumnReverse =
-    Html.Attributes.style "flex-flow" "column-reverse"
+    flexFlow "column-reverse"
 
 
 {-| ```
-flexFlowColumn : Html.Attribute msg
-flexFlowColumn =
-    Html.Attributes.style "flex-flow" "column"
+flex-flow : column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowColumn : Html.Attribute msg
 flexFlowColumn =
-    Html.Attributes.style "flex-flow" "column"
+    flexFlow "column"
 
 
 {-| ```
-flexFlowRow : Html.Attribute msg
-flexFlowRow =
-    Html.Attributes.style "flex-flow" "row"
+flex-flow : row
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-flow
 -}
 flexFlowRow : Html.Attribute msg
 flexFlowRow =
-    Html.Attributes.style "flex-flow" "row"
+    flexFlow "row"
 
 
-{-| ```
-flexGrow : String -> Html.Attribute msg
-flexGrow value =
-    Html.Attributes.style "flex-grow" value
-```
+{-| CSS property `flex-grow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-grow
 -}
@@ -11052,11 +9070,9 @@ flexGrow value =
     Html.Attributes.style "flex-grow" value
 
 
-{-| ```
-flexShrink : String -> Html.Attribute msg
-flexShrink value =
-    Html.Attributes.style "flex-shrink" value
-```
+{-| CSS property `flex-shrink`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-shrink
 -}
@@ -11065,11 +9081,9 @@ flexShrink value =
     Html.Attributes.style "flex-shrink" value
 
 
-{-| ```
-flexWrap : String -> Html.Attribute msg
-flexWrap value =
-    Html.Attributes.style "flex-wrap" value
-```
+{-| CSS property `flex-wrap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/flex-wrap
 -}
@@ -11079,49 +9093,41 @@ flexWrap value =
 
 
 {-| ```
-flexWrapNowrap : Html.Attribute msg
-flexWrapNowrap =
-    Html.Attributes.style "flex-wrap" "nowrap"
+flex-wrap : nowrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-wrap
 -}
 flexWrapNowrap : Html.Attribute msg
 flexWrapNowrap =
-    Html.Attributes.style "flex-wrap" "nowrap"
+    flexWrap "nowrap"
 
 
 {-| ```
-flexWrapWrapReverse : Html.Attribute msg
-flexWrapWrapReverse =
-    Html.Attributes.style "flex-wrap" "wrap-reverse"
+flex-wrap : wrap-reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-wrap
 -}
 flexWrapWrapReverse : Html.Attribute msg
 flexWrapWrapReverse =
-    Html.Attributes.style "flex-wrap" "wrap-reverse"
+    flexWrap "wrap-reverse"
 
 
 {-| ```
-flexWrapWrap : Html.Attribute msg
-flexWrapWrap =
-    Html.Attributes.style "flex-wrap" "wrap"
+flex-wrap : wrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/flex-wrap
 -}
 flexWrapWrap : Html.Attribute msg
 flexWrapWrap =
-    Html.Attributes.style "flex-wrap" "wrap"
+    flexWrap "wrap"
 
 
-{-| ```
-float : String -> Html.Attribute msg
-float value =
-    Html.Attributes.style "float" value
-```
+{-| CSS property `float`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
@@ -11131,75 +9137,63 @@ float value =
 
 
 {-| ```
-floatLeft : Html.Attribute msg
-floatLeft =
-    Html.Attributes.style "float" "left"
+float : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
 floatLeft : Html.Attribute msg
 floatLeft =
-    Html.Attributes.style "float" "left"
+    float "left"
 
 
 {-| ```
-floatNone : Html.Attribute msg
-floatNone =
-    Html.Attributes.style "float" "none"
+float : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
 floatNone : Html.Attribute msg
 floatNone =
-    Html.Attributes.style "float" "none"
+    float "none"
 
 
 {-| ```
-floatInlineEnd : Html.Attribute msg
-floatInlineEnd =
-    Html.Attributes.style "float" "inline-end"
+float : inline-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
 floatInlineEnd : Html.Attribute msg
 floatInlineEnd =
-    Html.Attributes.style "float" "inline-end"
+    float "inline-end"
 
 
 {-| ```
-floatInlineStart : Html.Attribute msg
-floatInlineStart =
-    Html.Attributes.style "float" "inline-start"
+float : inline-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
 floatInlineStart : Html.Attribute msg
 floatInlineStart =
-    Html.Attributes.style "float" "inline-start"
+    float "inline-start"
 
 
 {-| ```
-floatRight : Html.Attribute msg
-floatRight =
-    Html.Attributes.style "float" "right"
+float : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/float
 -}
 floatRight : Html.Attribute msg
 floatRight =
-    Html.Attributes.style "float" "right"
+    float "right"
 
 
-{-| ```
-font : String -> Html.Attribute msg
-font value =
-    Html.Attributes.style "font" value
-```
+{-| CSS property `font`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font
 -}
@@ -11208,11 +9202,9 @@ font value =
     Html.Attributes.style "font" value
 
 
-{-| ```
-fontFamily : String -> Html.Attribute msg
-fontFamily value =
-    Html.Attributes.style "font-family" value
-```
+{-| CSS property `font-family`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-family
 -}
@@ -11221,11 +9213,9 @@ fontFamily value =
     Html.Attributes.style "font-family" value
 
 
-{-| ```
-fontFeatureSettings : String -> Html.Attribute msg
-fontFeatureSettings value =
-    Html.Attributes.style "font-feature-settings" value
-```
+{-| CSS property `font-feature-settings`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-feature-settings
 -}
@@ -11235,23 +9225,19 @@ fontFeatureSettings value =
 
 
 {-| ```
-fontFeatureSettingsNormal : Html.Attribute msg
-fontFeatureSettingsNormal =
-    Html.Attributes.style "font-feature-settings" "normal"
+font-feature-settings : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-feature-settings
 -}
 fontFeatureSettingsNormal : Html.Attribute msg
 fontFeatureSettingsNormal =
-    Html.Attributes.style "font-feature-settings" "normal"
+    fontFeatureSettings "normal"
 
 
-{-| ```
-fontKerning : String -> Html.Attribute msg
-fontKerning value =
-    Html.Attributes.style "font-kerning" value
-```
+{-| CSS property `font-kerning`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-kerning
 -}
@@ -11261,49 +9247,41 @@ fontKerning value =
 
 
 {-| ```
-fontKerningAuto : Html.Attribute msg
-fontKerningAuto =
-    Html.Attributes.style "font-kerning" "auto"
+font-kerning : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-kerning
 -}
 fontKerningAuto : Html.Attribute msg
 fontKerningAuto =
-    Html.Attributes.style "font-kerning" "auto"
+    fontKerning "auto"
 
 
 {-| ```
-fontKerningNone : Html.Attribute msg
-fontKerningNone =
-    Html.Attributes.style "font-kerning" "none"
+font-kerning : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-kerning
 -}
 fontKerningNone : Html.Attribute msg
 fontKerningNone =
-    Html.Attributes.style "font-kerning" "none"
+    fontKerning "none"
 
 
 {-| ```
-fontKerningNormal : Html.Attribute msg
-fontKerningNormal =
-    Html.Attributes.style "font-kerning" "normal"
+font-kerning : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-kerning
 -}
 fontKerningNormal : Html.Attribute msg
 fontKerningNormal =
-    Html.Attributes.style "font-kerning" "normal"
+    fontKerning "normal"
 
 
-{-| ```
-fontLanguageOverride : String -> Html.Attribute msg
-fontLanguageOverride value =
-    Html.Attributes.style "font-language-override" value
-```
+{-| CSS property `font-language-override`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-language-override
 -}
@@ -11313,23 +9291,19 @@ fontLanguageOverride value =
 
 
 {-| ```
-fontLanguageOverrideNormal : Html.Attribute msg
-fontLanguageOverrideNormal =
-    Html.Attributes.style "font-language-override" "normal"
+font-language-override : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-language-override
 -}
 fontLanguageOverrideNormal : Html.Attribute msg
 fontLanguageOverrideNormal =
-    Html.Attributes.style "font-language-override" "normal"
+    fontLanguageOverride "normal"
 
 
-{-| ```
-fontOpticalSizing : String -> Html.Attribute msg
-fontOpticalSizing value =
-    Html.Attributes.style "font-optical-sizing" value
-```
+{-| CSS property `font-optical-sizing`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing
 -}
@@ -11339,80 +9313,63 @@ fontOpticalSizing value =
 
 
 {-| ```
-fontOpticalSizingAuto : Html.Attribute msg
-fontOpticalSizingAuto =
-    Html.Attributes.style "font-optical-sizing" "auto"
+font-optical-sizing : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing
 -}
 fontOpticalSizingAuto : Html.Attribute msg
 fontOpticalSizingAuto =
-    Html.Attributes.style "font-optical-sizing" "auto"
+    fontOpticalSizing "auto"
 
 
 {-| ```
-fontOpticalSizingNone : Html.Attribute msg
-fontOpticalSizingNone =
-    Html.Attributes.style "font-optical-sizing" "none"
+font-optical-sizing : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing
 -}
 fontOpticalSizingNone : Html.Attribute msg
 fontOpticalSizingNone =
-    Html.Attributes.style "font-optical-sizing" "none"
+    fontOpticalSizing "none"
 
 
-{-| ```
-fontPalette : String -> Html.Attribute msg
-fontPalette value =
-    Html.Attributes.style "font-palette" value
-```
--}
+{-| CSS property `font-palette` -}
 fontPalette : String -> Html.Attribute msg
 fontPalette value =
     Html.Attributes.style "font-palette" value
 
 
 {-| ```
-fontPaletteNormal : Html.Attribute msg
-fontPaletteNormal =
-    Html.Attributes.style "font-palette" "normal"
+font-palette : normal
 ```
 -}
 fontPaletteNormal : Html.Attribute msg
 fontPaletteNormal =
-    Html.Attributes.style "font-palette" "normal"
+    fontPalette "normal"
 
 
 {-| ```
-fontPaletteDark : Html.Attribute msg
-fontPaletteDark =
-    Html.Attributes.style "font-palette" "dark"
+font-palette : dark
 ```
 -}
 fontPaletteDark : Html.Attribute msg
 fontPaletteDark =
-    Html.Attributes.style "font-palette" "dark"
+    fontPalette "dark"
 
 
 {-| ```
-fontPaletteLight : Html.Attribute msg
-fontPaletteLight =
-    Html.Attributes.style "font-palette" "light"
+font-palette : light
 ```
 -}
 fontPaletteLight : Html.Attribute msg
 fontPaletteLight =
-    Html.Attributes.style "font-palette" "light"
+    fontPalette "light"
 
 
-{-| ```
-fontSize : String -> Html.Attribute msg
-fontSize value =
-    Html.Attributes.style "font-size" value
-```
+{-| CSS property `font-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
@@ -11422,174 +9379,140 @@ fontSize value =
 
 
 {-| ```
-fontSizeXSmall : Html.Attribute msg
-fontSizeXSmall =
-    Html.Attributes.style "font-size" "x-small"
+font-size : x-small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeXSmall : Html.Attribute msg
 fontSizeXSmall =
-    Html.Attributes.style "font-size" "x-small"
+    fontSize "x-small"
 
 
 {-| ```
-fontSizeMedium : Html.Attribute msg
-fontSizeMedium =
-    Html.Attributes.style "font-size" "medium"
+font-size : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeMedium : Html.Attribute msg
 fontSizeMedium =
-    Html.Attributes.style "font-size" "medium"
+    fontSize "medium"
 
 
 {-| ```
-fontSizeXLarge : Html.Attribute msg
-fontSizeXLarge =
-    Html.Attributes.style "font-size" "x-large"
+font-size : x-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeXLarge : Html.Attribute msg
 fontSizeXLarge =
-    Html.Attributes.style "font-size" "x-large"
+    fontSize "x-large"
 
 
 {-| ```
-fontSizeXxxLarge : Html.Attribute msg
-fontSizeXxxLarge =
-    Html.Attributes.style "font-size" "xxx-large"
+font-size : xxx-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeXxxLarge : Html.Attribute msg
 fontSizeXxxLarge =
-    Html.Attributes.style "font-size" "xxx-large"
+    fontSize "xxx-large"
 
 
 {-| ```
-fontSizeXxLarge : Html.Attribute msg
-fontSizeXxLarge =
-    Html.Attributes.style "font-size" "xx-large"
+font-size : xx-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeXxLarge : Html.Attribute msg
 fontSizeXxLarge =
-    Html.Attributes.style "font-size" "xx-large"
+    fontSize "xx-large"
 
 
 {-| ```
-fontSizeLarge : Html.Attribute msg
-fontSizeLarge =
-    Html.Attributes.style "font-size" "large"
+font-size : large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeLarge : Html.Attribute msg
 fontSizeLarge =
-    Html.Attributes.style "font-size" "large"
+    fontSize "large"
 
 
 {-| ```
-fontSizeSmall : Html.Attribute msg
-fontSizeSmall =
-    Html.Attributes.style "font-size" "small"
+font-size : small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeSmall : Html.Attribute msg
 fontSizeSmall =
-    Html.Attributes.style "font-size" "small"
+    fontSize "small"
 
 
 {-| ```
-fontSizeXxSmall : Html.Attribute msg
-fontSizeXxSmall =
-    Html.Attributes.style "font-size" "xx-small"
+font-size : xx-small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeXxSmall : Html.Attribute msg
 fontSizeXxSmall =
-    Html.Attributes.style "font-size" "xx-small"
+    fontSize "xx-small"
 
 
 {-| ```
-fontSizePx : Float -> Html.Attribute msg
-fontSizePx value =
-    Html.Attributes.style
-        "font-size"
-        (String.append (String.fromFloat value) "px")
+font-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizePx : Float -> Html.Attribute msg
 fontSizePx value =
-    Html.Attributes.style
-        "font-size"
-        (String.append (String.fromFloat value) "px")
+    fontSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-fontSizeRem : Float -> Html.Attribute msg
-fontSizeRem value =
-    Html.Attributes.style
-        "font-size"
-        (String.append (String.fromFloat value) "rem")
+font-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeRem : Float -> Html.Attribute msg
 fontSizeRem value =
-    Html.Attributes.style
-        "font-size"
-        (String.append (String.fromFloat value) "rem")
+    fontSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-fontSizeLarger : Html.Attribute msg
-fontSizeLarger =
-    Html.Attributes.style "font-size" "larger"
+font-size : larger
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeLarger : Html.Attribute msg
 fontSizeLarger =
-    Html.Attributes.style "font-size" "larger"
+    fontSize "larger"
 
 
 {-| ```
-fontSizeSmaller : Html.Attribute msg
-fontSizeSmaller =
-    Html.Attributes.style "font-size" "smaller"
+font-size : smaller
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size
 -}
 fontSizeSmaller : Html.Attribute msg
 fontSizeSmaller =
-    Html.Attributes.style "font-size" "smaller"
+    fontSize "smaller"
 
 
-{-| ```
-fontSizeAdjust : String -> Html.Attribute msg
-fontSizeAdjust value =
-    Html.Attributes.style "font-size-adjust" value
-```
+{-| CSS property `font-size-adjust`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-size-adjust
 -}
@@ -11599,36 +9522,30 @@ fontSizeAdjust value =
 
 
 {-| ```
-fontSizeAdjustNone : Html.Attribute msg
-fontSizeAdjustNone =
-    Html.Attributes.style "font-size-adjust" "none"
+font-size-adjust : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size-adjust
 -}
 fontSizeAdjustNone : Html.Attribute msg
 fontSizeAdjustNone =
-    Html.Attributes.style "font-size-adjust" "none"
+    fontSizeAdjust "none"
 
 
 {-| ```
-fontSizeAdjustFromFont : Html.Attribute msg
-fontSizeAdjustFromFont =
-    Html.Attributes.style "font-size-adjust" "from-font"
+font-size-adjust : from-font
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-size-adjust
 -}
 fontSizeAdjustFromFont : Html.Attribute msg
 fontSizeAdjustFromFont =
-    Html.Attributes.style "font-size-adjust" "from-font"
+    fontSizeAdjust "from-font"
 
 
-{-| ```
-fontSmooth : String -> Html.Attribute msg
-fontSmooth value =
-    Html.Attributes.style "font-smooth" value
-```
+{-| CSS property `font-smooth`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
@@ -11638,187 +9555,151 @@ fontSmooth value =
 
 
 {-| ```
-fontSmoothAuto : Html.Attribute msg
-fontSmoothAuto =
-    Html.Attributes.style "font-smooth" "auto"
+font-smooth : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothAuto : Html.Attribute msg
 fontSmoothAuto =
-    Html.Attributes.style "font-smooth" "auto"
+    fontSmooth "auto"
 
 
 {-| ```
-fontSmoothAlways : Html.Attribute msg
-fontSmoothAlways =
-    Html.Attributes.style "font-smooth" "always"
+font-smooth : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothAlways : Html.Attribute msg
 fontSmoothAlways =
-    Html.Attributes.style "font-smooth" "always"
+    fontSmooth "always"
 
 
 {-| ```
-fontSmoothRem : Float -> Html.Attribute msg
-fontSmoothRem value =
-    Html.Attributes.style
-        "font-smooth"
-        (String.append (String.fromFloat value) "rem")
+font-smooth : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothRem : Float -> Html.Attribute msg
 fontSmoothRem value =
-    Html.Attributes.style
-        "font-smooth"
-        (String.append (String.fromFloat value) "rem")
+    fontSmooth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-fontSmoothPx : Float -> Html.Attribute msg
-fontSmoothPx value =
-    Html.Attributes.style
-        "font-smooth"
-        (String.append (String.fromFloat value) "px")
+font-smooth : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothPx : Float -> Html.Attribute msg
 fontSmoothPx value =
-    Html.Attributes.style
-        "font-smooth"
-        (String.append (String.fromFloat value) "px")
+    fontSmooth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-fontSmoothXxSmall : Html.Attribute msg
-fontSmoothXxSmall =
-    Html.Attributes.style "font-smooth" "xx-small"
+font-smooth : xx-small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothXxSmall : Html.Attribute msg
 fontSmoothXxSmall =
-    Html.Attributes.style "font-smooth" "xx-small"
+    fontSmooth "xx-small"
 
 
 {-| ```
-fontSmoothSmall : Html.Attribute msg
-fontSmoothSmall =
-    Html.Attributes.style "font-smooth" "small"
+font-smooth : small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothSmall : Html.Attribute msg
 fontSmoothSmall =
-    Html.Attributes.style "font-smooth" "small"
+    fontSmooth "small"
 
 
 {-| ```
-fontSmoothLarge : Html.Attribute msg
-fontSmoothLarge =
-    Html.Attributes.style "font-smooth" "large"
+font-smooth : large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothLarge : Html.Attribute msg
 fontSmoothLarge =
-    Html.Attributes.style "font-smooth" "large"
+    fontSmooth "large"
 
 
 {-| ```
-fontSmoothXxLarge : Html.Attribute msg
-fontSmoothXxLarge =
-    Html.Attributes.style "font-smooth" "xx-large"
+font-smooth : xx-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothXxLarge : Html.Attribute msg
 fontSmoothXxLarge =
-    Html.Attributes.style "font-smooth" "xx-large"
+    fontSmooth "xx-large"
 
 
 {-| ```
-fontSmoothXxxLarge : Html.Attribute msg
-fontSmoothXxxLarge =
-    Html.Attributes.style "font-smooth" "xxx-large"
+font-smooth : xxx-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothXxxLarge : Html.Attribute msg
 fontSmoothXxxLarge =
-    Html.Attributes.style "font-smooth" "xxx-large"
+    fontSmooth "xxx-large"
 
 
 {-| ```
-fontSmoothXLarge : Html.Attribute msg
-fontSmoothXLarge =
-    Html.Attributes.style "font-smooth" "x-large"
+font-smooth : x-large
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothXLarge : Html.Attribute msg
 fontSmoothXLarge =
-    Html.Attributes.style "font-smooth" "x-large"
+    fontSmooth "x-large"
 
 
 {-| ```
-fontSmoothMedium : Html.Attribute msg
-fontSmoothMedium =
-    Html.Attributes.style "font-smooth" "medium"
+font-smooth : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothMedium : Html.Attribute msg
 fontSmoothMedium =
-    Html.Attributes.style "font-smooth" "medium"
+    fontSmooth "medium"
 
 
 {-| ```
-fontSmoothXSmall : Html.Attribute msg
-fontSmoothXSmall =
-    Html.Attributes.style "font-smooth" "x-small"
+font-smooth : x-small
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothXSmall : Html.Attribute msg
 fontSmoothXSmall =
-    Html.Attributes.style "font-smooth" "x-small"
+    fontSmooth "x-small"
 
 
 {-| ```
-fontSmoothNever : Html.Attribute msg
-fontSmoothNever =
-    Html.Attributes.style "font-smooth" "never"
+font-smooth : never
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-smooth
 -}
 fontSmoothNever : Html.Attribute msg
 fontSmoothNever =
-    Html.Attributes.style "font-smooth" "never"
+    fontSmooth "never"
 
 
-{-| ```
-fontStretch : String -> Html.Attribute msg
-fontStretch value =
-    Html.Attributes.style "font-stretch" value
-```
+{-| CSS property `font-stretch`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
@@ -11828,127 +9709,107 @@ fontStretch value =
 
 
 {-| ```
-fontStretchUltraCondensed : Html.Attribute msg
-fontStretchUltraCondensed =
-    Html.Attributes.style "font-stretch" "ultra-condensed"
+font-stretch : ultra-condensed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchUltraCondensed : Html.Attribute msg
 fontStretchUltraCondensed =
-    Html.Attributes.style "font-stretch" "ultra-condensed"
+    fontStretch "ultra-condensed"
 
 
 {-| ```
-fontStretchCondensed : Html.Attribute msg
-fontStretchCondensed =
-    Html.Attributes.style "font-stretch" "condensed"
+font-stretch : condensed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchCondensed : Html.Attribute msg
 fontStretchCondensed =
-    Html.Attributes.style "font-stretch" "condensed"
+    fontStretch "condensed"
 
 
 {-| ```
-fontStretchSemiExpanded : Html.Attribute msg
-fontStretchSemiExpanded =
-    Html.Attributes.style "font-stretch" "semi-expanded"
+font-stretch : semi-expanded
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchSemiExpanded : Html.Attribute msg
 fontStretchSemiExpanded =
-    Html.Attributes.style "font-stretch" "semi-expanded"
+    fontStretch "semi-expanded"
 
 
 {-| ```
-fontStretchExtraExpanded : Html.Attribute msg
-fontStretchExtraExpanded =
-    Html.Attributes.style "font-stretch" "extra-expanded"
+font-stretch : extra-expanded
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchExtraExpanded : Html.Attribute msg
 fontStretchExtraExpanded =
-    Html.Attributes.style "font-stretch" "extra-expanded"
+    fontStretch "extra-expanded"
 
 
 {-| ```
-fontStretchUltraExpanded : Html.Attribute msg
-fontStretchUltraExpanded =
-    Html.Attributes.style "font-stretch" "ultra-expanded"
+font-stretch : ultra-expanded
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchUltraExpanded : Html.Attribute msg
 fontStretchUltraExpanded =
-    Html.Attributes.style "font-stretch" "ultra-expanded"
+    fontStretch "ultra-expanded"
 
 
 {-| ```
-fontStretchExpanded : Html.Attribute msg
-fontStretchExpanded =
-    Html.Attributes.style "font-stretch" "expanded"
+font-stretch : expanded
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchExpanded : Html.Attribute msg
 fontStretchExpanded =
-    Html.Attributes.style "font-stretch" "expanded"
+    fontStretch "expanded"
 
 
 {-| ```
-fontStretchSemiCondensed : Html.Attribute msg
-fontStretchSemiCondensed =
-    Html.Attributes.style "font-stretch" "semi-condensed"
+font-stretch : semi-condensed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchSemiCondensed : Html.Attribute msg
 fontStretchSemiCondensed =
-    Html.Attributes.style "font-stretch" "semi-condensed"
+    fontStretch "semi-condensed"
 
 
 {-| ```
-fontStretchExtraCondensed : Html.Attribute msg
-fontStretchExtraCondensed =
-    Html.Attributes.style "font-stretch" "extra-condensed"
+font-stretch : extra-condensed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchExtraCondensed : Html.Attribute msg
 fontStretchExtraCondensed =
-    Html.Attributes.style "font-stretch" "extra-condensed"
+    fontStretch "extra-condensed"
 
 
 {-| ```
-fontStretchNormal : Html.Attribute msg
-fontStretchNormal =
-    Html.Attributes.style "font-stretch" "normal"
+font-stretch : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-stretch
 -}
 fontStretchNormal : Html.Attribute msg
 fontStretchNormal =
-    Html.Attributes.style "font-stretch" "normal"
+    fontStretch "normal"
 
 
-{-| ```
-fontStyle : String -> Html.Attribute msg
-fontStyle value =
-    Html.Attributes.style "font-style" value
-```
+{-| CSS property `font-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-style
 -}
@@ -11958,49 +9819,41 @@ fontStyle value =
 
 
 {-| ```
-fontStyleNormal : Html.Attribute msg
-fontStyleNormal =
-    Html.Attributes.style "font-style" "normal"
+font-style : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-style
 -}
 fontStyleNormal : Html.Attribute msg
 fontStyleNormal =
-    Html.Attributes.style "font-style" "normal"
+    fontStyle "normal"
 
 
 {-| ```
-fontStyleOblique : Html.Attribute msg
-fontStyleOblique =
-    Html.Attributes.style "font-style" "oblique"
+font-style : oblique
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-style
 -}
 fontStyleOblique : Html.Attribute msg
 fontStyleOblique =
-    Html.Attributes.style "font-style" "oblique"
+    fontStyle "oblique"
 
 
 {-| ```
-fontStyleItalic : Html.Attribute msg
-fontStyleItalic =
-    Html.Attributes.style "font-style" "italic"
+font-style : italic
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-style
 -}
 fontStyleItalic : Html.Attribute msg
 fontStyleItalic =
-    Html.Attributes.style "font-style" "italic"
+    fontStyle "italic"
 
 
-{-| ```
-fontSynthesis : String -> Html.Attribute msg
-fontSynthesis value =
-    Html.Attributes.style "font-synthesis" value
-```
+{-| CSS property `font-synthesis`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis
 -}
@@ -12009,11 +9862,9 @@ fontSynthesis value =
     Html.Attributes.style "font-synthesis" value
 
 
-{-| ```
-fontSynthesisPosition : String -> Html.Attribute msg
-fontSynthesisPosition value =
-    Html.Attributes.style "font-synthesis-position" value
-```
+{-| CSS property `font-synthesis-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-position
 -}
@@ -12023,36 +9874,30 @@ fontSynthesisPosition value =
 
 
 {-| ```
-fontSynthesisPositionAuto : Html.Attribute msg
-fontSynthesisPositionAuto =
-    Html.Attributes.style "font-synthesis-position" "auto"
+font-synthesis-position : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-position
 -}
 fontSynthesisPositionAuto : Html.Attribute msg
 fontSynthesisPositionAuto =
-    Html.Attributes.style "font-synthesis-position" "auto"
+    fontSynthesisPosition "auto"
 
 
 {-| ```
-fontSynthesisPositionNone : Html.Attribute msg
-fontSynthesisPositionNone =
-    Html.Attributes.style "font-synthesis-position" "none"
+font-synthesis-position : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-position
 -}
 fontSynthesisPositionNone : Html.Attribute msg
 fontSynthesisPositionNone =
-    Html.Attributes.style "font-synthesis-position" "none"
+    fontSynthesisPosition "none"
 
 
-{-| ```
-fontSynthesisSmallCaps : String -> Html.Attribute msg
-fontSynthesisSmallCaps value =
-    Html.Attributes.style "font-synthesis-small-caps" value
-```
+{-| CSS property `font-synthesis-small-caps`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps
 -}
@@ -12062,36 +9907,30 @@ fontSynthesisSmallCaps value =
 
 
 {-| ```
-fontSynthesisSmallCapsAuto : Html.Attribute msg
-fontSynthesisSmallCapsAuto =
-    Html.Attributes.style "font-synthesis-small-caps" "auto"
+font-synthesis-small-caps : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps
 -}
 fontSynthesisSmallCapsAuto : Html.Attribute msg
 fontSynthesisSmallCapsAuto =
-    Html.Attributes.style "font-synthesis-small-caps" "auto"
+    fontSynthesisSmallCaps "auto"
 
 
 {-| ```
-fontSynthesisSmallCapsNone : Html.Attribute msg
-fontSynthesisSmallCapsNone =
-    Html.Attributes.style "font-synthesis-small-caps" "none"
+font-synthesis-small-caps : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-small-caps
 -}
 fontSynthesisSmallCapsNone : Html.Attribute msg
 fontSynthesisSmallCapsNone =
-    Html.Attributes.style "font-synthesis-small-caps" "none"
+    fontSynthesisSmallCaps "none"
 
 
-{-| ```
-fontSynthesisStyle : String -> Html.Attribute msg
-fontSynthesisStyle value =
-    Html.Attributes.style "font-synthesis-style" value
-```
+{-| CSS property `font-synthesis-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-style
 -}
@@ -12101,36 +9940,30 @@ fontSynthesisStyle value =
 
 
 {-| ```
-fontSynthesisStyleAuto : Html.Attribute msg
-fontSynthesisStyleAuto =
-    Html.Attributes.style "font-synthesis-style" "auto"
+font-synthesis-style : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-style
 -}
 fontSynthesisStyleAuto : Html.Attribute msg
 fontSynthesisStyleAuto =
-    Html.Attributes.style "font-synthesis-style" "auto"
+    fontSynthesisStyle "auto"
 
 
 {-| ```
-fontSynthesisStyleNone : Html.Attribute msg
-fontSynthesisStyleNone =
-    Html.Attributes.style "font-synthesis-style" "none"
+font-synthesis-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-style
 -}
 fontSynthesisStyleNone : Html.Attribute msg
 fontSynthesisStyleNone =
-    Html.Attributes.style "font-synthesis-style" "none"
+    fontSynthesisStyle "none"
 
 
-{-| ```
-fontSynthesisWeight : String -> Html.Attribute msg
-fontSynthesisWeight value =
-    Html.Attributes.style "font-synthesis-weight" value
-```
+{-| CSS property `font-synthesis-weight`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-weight
 -}
@@ -12140,36 +9973,30 @@ fontSynthesisWeight value =
 
 
 {-| ```
-fontSynthesisWeightAuto : Html.Attribute msg
-fontSynthesisWeightAuto =
-    Html.Attributes.style "font-synthesis-weight" "auto"
+font-synthesis-weight : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-weight
 -}
 fontSynthesisWeightAuto : Html.Attribute msg
 fontSynthesisWeightAuto =
-    Html.Attributes.style "font-synthesis-weight" "auto"
+    fontSynthesisWeight "auto"
 
 
 {-| ```
-fontSynthesisWeightNone : Html.Attribute msg
-fontSynthesisWeightNone =
-    Html.Attributes.style "font-synthesis-weight" "none"
+font-synthesis-weight : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-synthesis-weight
 -}
 fontSynthesisWeightNone : Html.Attribute msg
 fontSynthesisWeightNone =
-    Html.Attributes.style "font-synthesis-weight" "none"
+    fontSynthesisWeight "none"
 
 
-{-| ```
-fontVariant : String -> Html.Attribute msg
-fontVariant value =
-    Html.Attributes.style "font-variant" value
-```
+{-| CSS property `font-variant`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant
 -}
@@ -12178,11 +10005,9 @@ fontVariant value =
     Html.Attributes.style "font-variant" value
 
 
-{-| ```
-fontVariantAlternates : String -> Html.Attribute msg
-fontVariantAlternates value =
-    Html.Attributes.style "font-variant-alternates" value
-```
+{-| CSS property `font-variant-alternates`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates
 -}
@@ -12191,11 +10016,9 @@ fontVariantAlternates value =
     Html.Attributes.style "font-variant-alternates" value
 
 
-{-| ```
-fontVariantCaps : String -> Html.Attribute msg
-fontVariantCaps value =
-    Html.Attributes.style "font-variant-caps" value
-```
+{-| CSS property `font-variant-caps`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
@@ -12205,101 +10028,85 @@ fontVariantCaps value =
 
 
 {-| ```
-fontVariantCapsNormal : Html.Attribute msg
-fontVariantCapsNormal =
-    Html.Attributes.style "font-variant-caps" "normal"
+font-variant-caps : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsNormal : Html.Attribute msg
 fontVariantCapsNormal =
-    Html.Attributes.style "font-variant-caps" "normal"
+    fontVariantCaps "normal"
 
 
 {-| ```
-fontVariantCapsAllSmallCaps : Html.Attribute msg
-fontVariantCapsAllSmallCaps =
-    Html.Attributes.style "font-variant-caps" "all-small-caps"
+font-variant-caps : all-small-caps
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsAllSmallCaps : Html.Attribute msg
 fontVariantCapsAllSmallCaps =
-    Html.Attributes.style "font-variant-caps" "all-small-caps"
+    fontVariantCaps "all-small-caps"
 
 
 {-| ```
-fontVariantCapsAllPetiteCaps : Html.Attribute msg
-fontVariantCapsAllPetiteCaps =
-    Html.Attributes.style "font-variant-caps" "all-petite-caps"
+font-variant-caps : all-petite-caps
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsAllPetiteCaps : Html.Attribute msg
 fontVariantCapsAllPetiteCaps =
-    Html.Attributes.style "font-variant-caps" "all-petite-caps"
+    fontVariantCaps "all-petite-caps"
 
 
 {-| ```
-fontVariantCapsTitlingCaps : Html.Attribute msg
-fontVariantCapsTitlingCaps =
-    Html.Attributes.style "font-variant-caps" "titling-caps"
+font-variant-caps : titling-caps
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsTitlingCaps : Html.Attribute msg
 fontVariantCapsTitlingCaps =
-    Html.Attributes.style "font-variant-caps" "titling-caps"
+    fontVariantCaps "titling-caps"
 
 
 {-| ```
-fontVariantCapsUnicase : Html.Attribute msg
-fontVariantCapsUnicase =
-    Html.Attributes.style "font-variant-caps" "unicase"
+font-variant-caps : unicase
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsUnicase : Html.Attribute msg
 fontVariantCapsUnicase =
-    Html.Attributes.style "font-variant-caps" "unicase"
+    fontVariantCaps "unicase"
 
 
 {-| ```
-fontVariantCapsPetiteCaps : Html.Attribute msg
-fontVariantCapsPetiteCaps =
-    Html.Attributes.style "font-variant-caps" "petite-caps"
+font-variant-caps : petite-caps
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsPetiteCaps : Html.Attribute msg
 fontVariantCapsPetiteCaps =
-    Html.Attributes.style "font-variant-caps" "petite-caps"
+    fontVariantCaps "petite-caps"
 
 
 {-| ```
-fontVariantCapsSmallCaps : Html.Attribute msg
-fontVariantCapsSmallCaps =
-    Html.Attributes.style "font-variant-caps" "small-caps"
+font-variant-caps : small-caps
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-caps
 -}
 fontVariantCapsSmallCaps : Html.Attribute msg
 fontVariantCapsSmallCaps =
-    Html.Attributes.style "font-variant-caps" "small-caps"
+    fontVariantCaps "small-caps"
 
 
-{-| ```
-fontVariantEastAsian : String -> Html.Attribute msg
-fontVariantEastAsian value =
-    Html.Attributes.style "font-variant-east-asian" value
-```
+{-| CSS property `font-variant-east-asian`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
@@ -12309,195 +10116,160 @@ fontVariantEastAsian value =
 
 
 {-| ```
-fontVariantEastAsianNormal : Html.Attribute msg
-fontVariantEastAsianNormal =
-    Html.Attributes.style "font-variant-east-asian" "normal"
+font-variant-east-asian : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianNormal : Html.Attribute msg
 fontVariantEastAsianNormal =
-    Html.Attributes.style "font-variant-east-asian" "normal"
+    fontVariantEastAsian "normal"
 
 
 {-| ```
-fontVariantEastAsianRuby : Html.Attribute msg
-fontVariantEastAsianRuby =
-    Html.Attributes.style "font-variant-east-asian" "ruby"
+font-variant-east-asian : ruby
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianRuby : Html.Attribute msg
 fontVariantEastAsianRuby =
-    Html.Attributes.style "font-variant-east-asian" "ruby"
+    fontVariantEastAsian "ruby"
 
 
 {-| ```
-fontVariantEastAsianFullWidth : Html.Attribute msg
-fontVariantEastAsianFullWidth =
-    Html.Attributes.style "font-variant-east-asian" "full-width"
+font-variant-east-asian : full-width
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianFullWidth : Html.Attribute msg
 fontVariantEastAsianFullWidth =
-    Html.Attributes.style "font-variant-east-asian" "full-width"
+    fontVariantEastAsian "full-width"
 
 
 {-| ```
-fontVariantEastAsianProportionalWidth : Html.Attribute msg
-fontVariantEastAsianProportionalWidth =
-    Html.Attributes.style "font-variant-east-asian" "proportional-width"
+font-variant-east-asian : proportional-width
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianProportionalWidth : Html.Attribute msg
 fontVariantEastAsianProportionalWidth =
-    Html.Attributes.style "font-variant-east-asian" "proportional-width"
+    fontVariantEastAsian "proportional-width"
 
 
 {-| ```
-fontVariantEastAsianJis78 : Html.Attribute msg
-fontVariantEastAsianJis78 =
-    Html.Attributes.style "font-variant-east-asian" "jis78"
+font-variant-east-asian : jis78
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianJis78 : Html.Attribute msg
 fontVariantEastAsianJis78 =
-    Html.Attributes.style "font-variant-east-asian" "jis78"
+    fontVariantEastAsian "jis78"
 
 
 {-| ```
-fontVariantEastAsianJis90 : Html.Attribute msg
-fontVariantEastAsianJis90 =
-    Html.Attributes.style "font-variant-east-asian" "jis90"
+font-variant-east-asian : jis90
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianJis90 : Html.Attribute msg
 fontVariantEastAsianJis90 =
-    Html.Attributes.style "font-variant-east-asian" "jis90"
+    fontVariantEastAsian "jis90"
 
 
 {-| ```
-fontVariantEastAsianSimplified : Html.Attribute msg
-fontVariantEastAsianSimplified =
-    Html.Attributes.style "font-variant-east-asian" "simplified"
+font-variant-east-asian : simplified
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianSimplified : Html.Attribute msg
 fontVariantEastAsianSimplified =
-    Html.Attributes.style "font-variant-east-asian" "simplified"
+    fontVariantEastAsian "simplified"
 
 
 {-| ```
-fontVariantEastAsianTraditional : Html.Attribute msg
-fontVariantEastAsianTraditional =
-    Html.Attributes.style "font-variant-east-asian" "traditional"
+font-variant-east-asian : traditional
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianTraditional : Html.Attribute msg
 fontVariantEastAsianTraditional =
-    Html.Attributes.style "font-variant-east-asian" "traditional"
+    fontVariantEastAsian "traditional"
 
 
 {-| ```
-fontVariantEastAsianJis04 : Html.Attribute msg
-fontVariantEastAsianJis04 =
-    Html.Attributes.style "font-variant-east-asian" "jis04"
+font-variant-east-asian : jis04
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianJis04 : Html.Attribute msg
 fontVariantEastAsianJis04 =
-    Html.Attributes.style "font-variant-east-asian" "jis04"
+    fontVariantEastAsian "jis04"
 
 
 {-| ```
-fontVariantEastAsianJis83 : Html.Attribute msg
-fontVariantEastAsianJis83 =
-    Html.Attributes.style "font-variant-east-asian" "jis83"
+font-variant-east-asian : jis83
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian
 -}
 fontVariantEastAsianJis83 : Html.Attribute msg
 fontVariantEastAsianJis83 =
-    Html.Attributes.style "font-variant-east-asian" "jis83"
+    fontVariantEastAsian "jis83"
 
 
-{-| ```
-fontVariantEmoji : String -> Html.Attribute msg
-fontVariantEmoji value =
-    Html.Attributes.style "font-variant-emoji" value
-```
--}
+{-| CSS property `font-variant-emoji` -}
 fontVariantEmoji : String -> Html.Attribute msg
 fontVariantEmoji value =
     Html.Attributes.style "font-variant-emoji" value
 
 
 {-| ```
-fontVariantEmojiNormal : Html.Attribute msg
-fontVariantEmojiNormal =
-    Html.Attributes.style "font-variant-emoji" "normal"
+font-variant-emoji : normal
 ```
 -}
 fontVariantEmojiNormal : Html.Attribute msg
 fontVariantEmojiNormal =
-    Html.Attributes.style "font-variant-emoji" "normal"
+    fontVariantEmoji "normal"
 
 
 {-| ```
-fontVariantEmojiEmoji : Html.Attribute msg
-fontVariantEmojiEmoji =
-    Html.Attributes.style "font-variant-emoji" "emoji"
+font-variant-emoji : emoji
 ```
 -}
 fontVariantEmojiEmoji : Html.Attribute msg
 fontVariantEmojiEmoji =
-    Html.Attributes.style "font-variant-emoji" "emoji"
+    fontVariantEmoji "emoji"
 
 
 {-| ```
-fontVariantEmojiUnicode : Html.Attribute msg
-fontVariantEmojiUnicode =
-    Html.Attributes.style "font-variant-emoji" "unicode"
+font-variant-emoji : unicode
 ```
 -}
 fontVariantEmojiUnicode : Html.Attribute msg
 fontVariantEmojiUnicode =
-    Html.Attributes.style "font-variant-emoji" "unicode"
+    fontVariantEmoji "unicode"
 
 
 {-| ```
-fontVariantEmojiText : Html.Attribute msg
-fontVariantEmojiText =
-    Html.Attributes.style "font-variant-emoji" "text"
+font-variant-emoji : text
 ```
 -}
 fontVariantEmojiText : Html.Attribute msg
 fontVariantEmojiText =
-    Html.Attributes.style "font-variant-emoji" "text"
+    fontVariantEmoji "text"
 
 
-{-| ```
-fontVariantLigatures : String -> Html.Attribute msg
-fontVariantLigatures value =
-    Html.Attributes.style "font-variant-ligatures" value
-```
+{-| CSS property `font-variant-ligatures`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
@@ -12507,140 +10279,118 @@ fontVariantLigatures value =
 
 
 {-| ```
-fontVariantLigaturesNormal : Html.Attribute msg
-fontVariantLigaturesNormal =
-    Html.Attributes.style "font-variant-ligatures" "normal"
+font-variant-ligatures : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNormal : Html.Attribute msg
 fontVariantLigaturesNormal =
-    Html.Attributes.style "font-variant-ligatures" "normal"
+    fontVariantLigatures "normal"
 
 
 {-| ```
-fontVariantLigaturesNoCommonLigatures : Html.Attribute msg
-fontVariantLigaturesNoCommonLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-common-ligatures"
+font-variant-ligatures : no-common-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNoCommonLigatures : Html.Attribute msg
 fontVariantLigaturesNoCommonLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-common-ligatures"
+    fontVariantLigatures "no-common-ligatures"
 
 
 {-| ```
-fontVariantLigaturesCommonLigatures : Html.Attribute msg
-fontVariantLigaturesCommonLigatures =
-    Html.Attributes.style "font-variant-ligatures" "common-ligatures"
+font-variant-ligatures : common-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesCommonLigatures : Html.Attribute msg
 fontVariantLigaturesCommonLigatures =
-    Html.Attributes.style "font-variant-ligatures" "common-ligatures"
+    fontVariantLigatures "common-ligatures"
 
 
 {-| ```
-fontVariantLigaturesNoDiscretionaryLigatures : Html.Attribute msg
-fontVariantLigaturesNoDiscretionaryLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-discretionary-ligatures"
+font-variant-ligatures : no-discretionary-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNoDiscretionaryLigatures : Html.Attribute msg
 fontVariantLigaturesNoDiscretionaryLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-discretionary-ligatures"
+    fontVariantLigatures "no-discretionary-ligatures"
 
 
 {-| ```
-fontVariantLigaturesDiscretionaryLigatures : Html.Attribute msg
-fontVariantLigaturesDiscretionaryLigatures =
-    Html.Attributes.style "font-variant-ligatures" "discretionary-ligatures"
+font-variant-ligatures : discretionary-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesDiscretionaryLigatures : Html.Attribute msg
 fontVariantLigaturesDiscretionaryLigatures =
-    Html.Attributes.style "font-variant-ligatures" "discretionary-ligatures"
+    fontVariantLigatures "discretionary-ligatures"
 
 
 {-| ```
-fontVariantLigaturesNoHistoricalLigatures : Html.Attribute msg
-fontVariantLigaturesNoHistoricalLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-historical-ligatures"
+font-variant-ligatures : no-historical-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNoHistoricalLigatures : Html.Attribute msg
 fontVariantLigaturesNoHistoricalLigatures =
-    Html.Attributes.style "font-variant-ligatures" "no-historical-ligatures"
+    fontVariantLigatures "no-historical-ligatures"
 
 
 {-| ```
-fontVariantLigaturesHistoricalLigatures : Html.Attribute msg
-fontVariantLigaturesHistoricalLigatures =
-    Html.Attributes.style "font-variant-ligatures" "historical-ligatures"
+font-variant-ligatures : historical-ligatures
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesHistoricalLigatures : Html.Attribute msg
 fontVariantLigaturesHistoricalLigatures =
-    Html.Attributes.style "font-variant-ligatures" "historical-ligatures"
+    fontVariantLigatures "historical-ligatures"
 
 
 {-| ```
-fontVariantLigaturesNoContextual : Html.Attribute msg
-fontVariantLigaturesNoContextual =
-    Html.Attributes.style "font-variant-ligatures" "no-contextual"
+font-variant-ligatures : no-contextual
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNoContextual : Html.Attribute msg
 fontVariantLigaturesNoContextual =
-    Html.Attributes.style "font-variant-ligatures" "no-contextual"
+    fontVariantLigatures "no-contextual"
 
 
 {-| ```
-fontVariantLigaturesContextual : Html.Attribute msg
-fontVariantLigaturesContextual =
-    Html.Attributes.style "font-variant-ligatures" "contextual"
+font-variant-ligatures : contextual
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesContextual : Html.Attribute msg
 fontVariantLigaturesContextual =
-    Html.Attributes.style "font-variant-ligatures" "contextual"
+    fontVariantLigatures "contextual"
 
 
 {-| ```
-fontVariantLigaturesNone : Html.Attribute msg
-fontVariantLigaturesNone =
-    Html.Attributes.style "font-variant-ligatures" "none"
+font-variant-ligatures : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures
 -}
 fontVariantLigaturesNone : Html.Attribute msg
 fontVariantLigaturesNone =
-    Html.Attributes.style "font-variant-ligatures" "none"
+    fontVariantLigatures "none"
 
 
-{-| ```
-fontVariantNumeric : String -> Html.Attribute msg
-fontVariantNumeric value =
-    Html.Attributes.style "font-variant-numeric" value
-```
+{-| CSS property `font-variant-numeric`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
@@ -12650,127 +10400,107 @@ fontVariantNumeric value =
 
 
 {-| ```
-fontVariantNumericNormal : Html.Attribute msg
-fontVariantNumericNormal =
-    Html.Attributes.style "font-variant-numeric" "normal"
+font-variant-numeric : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericNormal : Html.Attribute msg
 fontVariantNumericNormal =
-    Html.Attributes.style "font-variant-numeric" "normal"
+    fontVariantNumeric "normal"
 
 
 {-| ```
-fontVariantNumericSlashedZero : Html.Attribute msg
-fontVariantNumericSlashedZero =
-    Html.Attributes.style "font-variant-numeric" "slashed-zero"
+font-variant-numeric : slashed-zero
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericSlashedZero : Html.Attribute msg
 fontVariantNumericSlashedZero =
-    Html.Attributes.style "font-variant-numeric" "slashed-zero"
+    fontVariantNumeric "slashed-zero"
 
 
 {-| ```
-fontVariantNumericOrdinal : Html.Attribute msg
-fontVariantNumericOrdinal =
-    Html.Attributes.style "font-variant-numeric" "ordinal"
+font-variant-numeric : ordinal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericOrdinal : Html.Attribute msg
 fontVariantNumericOrdinal =
-    Html.Attributes.style "font-variant-numeric" "ordinal"
+    fontVariantNumeric "ordinal"
 
 
 {-| ```
-fontVariantNumericDiagonalFractions : Html.Attribute msg
-fontVariantNumericDiagonalFractions =
-    Html.Attributes.style "font-variant-numeric" "diagonal-fractions"
+font-variant-numeric : diagonal-fractions
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericDiagonalFractions : Html.Attribute msg
 fontVariantNumericDiagonalFractions =
-    Html.Attributes.style "font-variant-numeric" "diagonal-fractions"
+    fontVariantNumeric "diagonal-fractions"
 
 
 {-| ```
-fontVariantNumericStackedFractions : Html.Attribute msg
-fontVariantNumericStackedFractions =
-    Html.Attributes.style "font-variant-numeric" "stacked-fractions"
+font-variant-numeric : stacked-fractions
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericStackedFractions : Html.Attribute msg
 fontVariantNumericStackedFractions =
-    Html.Attributes.style "font-variant-numeric" "stacked-fractions"
+    fontVariantNumeric "stacked-fractions"
 
 
 {-| ```
-fontVariantNumericProportionalNums : Html.Attribute msg
-fontVariantNumericProportionalNums =
-    Html.Attributes.style "font-variant-numeric" "proportional-nums"
+font-variant-numeric : proportional-nums
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericProportionalNums : Html.Attribute msg
 fontVariantNumericProportionalNums =
-    Html.Attributes.style "font-variant-numeric" "proportional-nums"
+    fontVariantNumeric "proportional-nums"
 
 
 {-| ```
-fontVariantNumericTabularNums : Html.Attribute msg
-fontVariantNumericTabularNums =
-    Html.Attributes.style "font-variant-numeric" "tabular-nums"
+font-variant-numeric : tabular-nums
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericTabularNums : Html.Attribute msg
 fontVariantNumericTabularNums =
-    Html.Attributes.style "font-variant-numeric" "tabular-nums"
+    fontVariantNumeric "tabular-nums"
 
 
 {-| ```
-fontVariantNumericLiningNums : Html.Attribute msg
-fontVariantNumericLiningNums =
-    Html.Attributes.style "font-variant-numeric" "lining-nums"
+font-variant-numeric : lining-nums
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericLiningNums : Html.Attribute msg
 fontVariantNumericLiningNums =
-    Html.Attributes.style "font-variant-numeric" "lining-nums"
+    fontVariantNumeric "lining-nums"
 
 
 {-| ```
-fontVariantNumericOldstyleNums : Html.Attribute msg
-fontVariantNumericOldstyleNums =
-    Html.Attributes.style "font-variant-numeric" "oldstyle-nums"
+font-variant-numeric : oldstyle-nums
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric
 -}
 fontVariantNumericOldstyleNums : Html.Attribute msg
 fontVariantNumericOldstyleNums =
-    Html.Attributes.style "font-variant-numeric" "oldstyle-nums"
+    fontVariantNumeric "oldstyle-nums"
 
 
-{-| ```
-fontVariantPosition : String -> Html.Attribute msg
-fontVariantPosition value =
-    Html.Attributes.style "font-variant-position" value
-```
+{-| CSS property `font-variant-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-position
 -}
@@ -12780,49 +10510,41 @@ fontVariantPosition value =
 
 
 {-| ```
-fontVariantPositionNormal : Html.Attribute msg
-fontVariantPositionNormal =
-    Html.Attributes.style "font-variant-position" "normal"
+font-variant-position : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-position
 -}
 fontVariantPositionNormal : Html.Attribute msg
 fontVariantPositionNormal =
-    Html.Attributes.style "font-variant-position" "normal"
+    fontVariantPosition "normal"
 
 
 {-| ```
-fontVariantPositionSuper : Html.Attribute msg
-fontVariantPositionSuper =
-    Html.Attributes.style "font-variant-position" "super"
+font-variant-position : super
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-position
 -}
 fontVariantPositionSuper : Html.Attribute msg
 fontVariantPositionSuper =
-    Html.Attributes.style "font-variant-position" "super"
+    fontVariantPosition "super"
 
 
 {-| ```
-fontVariantPositionSub : Html.Attribute msg
-fontVariantPositionSub =
-    Html.Attributes.style "font-variant-position" "sub"
+font-variant-position : sub
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variant-position
 -}
 fontVariantPositionSub : Html.Attribute msg
 fontVariantPositionSub =
-    Html.Attributes.style "font-variant-position" "sub"
+    fontVariantPosition "sub"
 
 
-{-| ```
-fontVariationSettings : String -> Html.Attribute msg
-fontVariationSettings value =
-    Html.Attributes.style "font-variation-settings" value
-```
+{-| CSS property `font-variation-settings`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-variation-settings
 -}
@@ -12832,23 +10554,19 @@ fontVariationSettings value =
 
 
 {-| ```
-fontVariationSettingsNormal : Html.Attribute msg
-fontVariationSettingsNormal =
-    Html.Attributes.style "font-variation-settings" "normal"
+font-variation-settings : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-variation-settings
 -}
 fontVariationSettingsNormal : Html.Attribute msg
 fontVariationSettingsNormal =
-    Html.Attributes.style "font-variation-settings" "normal"
+    fontVariationSettings "normal"
 
 
-{-| ```
-fontWeight : String -> Html.Attribute msg
-fontWeight value =
-    Html.Attributes.style "font-weight" value
-```
+{-| CSS property `font-weight`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/font-weight
 -}
@@ -12858,36 +10576,30 @@ fontWeight value =
 
 
 {-| ```
-fontWeightLighter : Html.Attribute msg
-fontWeightLighter =
-    Html.Attributes.style "font-weight" "lighter"
+font-weight : lighter
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-weight
 -}
 fontWeightLighter : Html.Attribute msg
 fontWeightLighter =
-    Html.Attributes.style "font-weight" "lighter"
+    fontWeight "lighter"
 
 
 {-| ```
-fontWeightBolder : Html.Attribute msg
-fontWeightBolder =
-    Html.Attributes.style "font-weight" "bolder"
+font-weight : bolder
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/font-weight
 -}
 fontWeightBolder : Html.Attribute msg
 fontWeightBolder =
-    Html.Attributes.style "font-weight" "bolder"
+    fontWeight "bolder"
 
 
-{-| ```
-forcedColorAdjust : String -> Html.Attribute msg
-forcedColorAdjust value =
-    Html.Attributes.style "forced-color-adjust" value
-```
+{-| CSS property `forced-color-adjust`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust
 -}
@@ -12897,36 +10609,30 @@ forcedColorAdjust value =
 
 
 {-| ```
-forcedColorAdjustAuto : Html.Attribute msg
-forcedColorAdjustAuto =
-    Html.Attributes.style "forced-color-adjust" "auto"
+forced-color-adjust : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust
 -}
 forcedColorAdjustAuto : Html.Attribute msg
 forcedColorAdjustAuto =
-    Html.Attributes.style "forced-color-adjust" "auto"
+    forcedColorAdjust "auto"
 
 
 {-| ```
-forcedColorAdjustNone : Html.Attribute msg
-forcedColorAdjustNone =
-    Html.Attributes.style "forced-color-adjust" "none"
+forced-color-adjust : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust
 -}
 forcedColorAdjustNone : Html.Attribute msg
 forcedColorAdjustNone =
-    Html.Attributes.style "forced-color-adjust" "none"
+    forcedColorAdjust "none"
 
 
-{-| ```
-gap : String -> Html.Attribute msg
-gap value =
-    Html.Attributes.style "gap" value
-```
+{-| CSS property `gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
@@ -12936,49 +10642,41 @@ gap value =
 
 
 {-| ```
-gapPx : Float -> Html.Attribute msg
-gapPx value =
-    Html.Attributes.style "gap" (String.append (String.fromFloat value) "px")
+gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
 gapPx : Float -> Html.Attribute msg
 gapPx value =
-    Html.Attributes.style "gap" (String.append (String.fromFloat value) "px")
+    gap (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-gapRem : Float -> Html.Attribute msg
-gapRem value =
-    Html.Attributes.style "gap" (String.append (String.fromFloat value) "rem")
+gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
 gapRem : Float -> Html.Attribute msg
 gapRem value =
-    Html.Attributes.style "gap" (String.append (String.fromFloat value) "rem")
+    gap (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-gapNormal : Html.Attribute msg
-gapNormal =
-    Html.Attributes.style "gap" "normal"
+gap : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
 gapNormal : Html.Attribute msg
 gapNormal =
-    Html.Attributes.style "gap" "normal"
+    gap "normal"
 
 
-{-| ```
-grid : String -> Html.Attribute msg
-grid value =
-    Html.Attributes.style "grid" value
-```
+{-| CSS property `grid`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid
 -}
@@ -12987,11 +10685,9 @@ grid value =
     Html.Attributes.style "grid" value
 
 
-{-| ```
-gridArea : String -> Html.Attribute msg
-gridArea value =
-    Html.Attributes.style "grid-area" value
-```
+{-| CSS property `grid-area`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-area
 -}
@@ -13000,11 +10696,9 @@ gridArea value =
     Html.Attributes.style "grid-area" value
 
 
-{-| ```
-gridAutoColumns : String -> Html.Attribute msg
-gridAutoColumns value =
-    Html.Attributes.style "grid-auto-columns" value
-```
+{-| CSS property `grid-auto-columns`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns
 -}
@@ -13013,11 +10707,9 @@ gridAutoColumns value =
     Html.Attributes.style "grid-auto-columns" value
 
 
-{-| ```
-gridAutoFlow : String -> Html.Attribute msg
-gridAutoFlow value =
-    Html.Attributes.style "grid-auto-flow" value
-```
+{-| CSS property `grid-auto-flow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow
 -}
@@ -13027,49 +10719,41 @@ gridAutoFlow value =
 
 
 {-| ```
-gridAutoFlowDense : Html.Attribute msg
-gridAutoFlowDense =
-    Html.Attributes.style "grid-auto-flow" "dense"
+grid-auto-flow : dense
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow
 -}
 gridAutoFlowDense : Html.Attribute msg
 gridAutoFlowDense =
-    Html.Attributes.style "grid-auto-flow" "dense"
+    gridAutoFlow "dense"
 
 
 {-| ```
-gridAutoFlowColumn : Html.Attribute msg
-gridAutoFlowColumn =
-    Html.Attributes.style "grid-auto-flow" "column"
+grid-auto-flow : column
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow
 -}
 gridAutoFlowColumn : Html.Attribute msg
 gridAutoFlowColumn =
-    Html.Attributes.style "grid-auto-flow" "column"
+    gridAutoFlow "column"
 
 
 {-| ```
-gridAutoFlowRow : Html.Attribute msg
-gridAutoFlowRow =
-    Html.Attributes.style "grid-auto-flow" "row"
+grid-auto-flow : row
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow
 -}
 gridAutoFlowRow : Html.Attribute msg
 gridAutoFlowRow =
-    Html.Attributes.style "grid-auto-flow" "row"
+    gridAutoFlow "row"
 
 
-{-| ```
-gridAutoRows : String -> Html.Attribute msg
-gridAutoRows value =
-    Html.Attributes.style "grid-auto-rows" value
-```
+{-| CSS property `grid-auto-rows`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows
 -}
@@ -13078,11 +10762,9 @@ gridAutoRows value =
     Html.Attributes.style "grid-auto-rows" value
 
 
-{-| ```
-gridColumn : String -> Html.Attribute msg
-gridColumn value =
-    Html.Attributes.style "grid-column" value
-```
+{-| CSS property `grid-column`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-column
 -}
@@ -13091,11 +10773,9 @@ gridColumn value =
     Html.Attributes.style "grid-column" value
 
 
-{-| ```
-gridColumnEnd : String -> Html.Attribute msg
-gridColumnEnd value =
-    Html.Attributes.style "grid-column-end" value
-```
+{-| CSS property `grid-column-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-column-end
 -}
@@ -13104,11 +10784,9 @@ gridColumnEnd value =
     Html.Attributes.style "grid-column-end" value
 
 
-{-| ```
-gridColumnGap : String -> Html.Attribute msg
-gridColumnGap value =
-    Html.Attributes.style "grid-column-gap" value
-```
+{-| CSS property `grid-column-gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
@@ -13118,44 +10796,30 @@ gridColumnGap value =
 
 
 {-| ```
-gridColumnGapPx : Float -> Html.Attribute msg
-gridColumnGapPx value =
-    Html.Attributes.style
-        "grid-column-gap"
-        (String.append (String.fromFloat value) "px")
+grid-column-gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
 gridColumnGapPx : Float -> Html.Attribute msg
 gridColumnGapPx value =
-    Html.Attributes.style
-        "grid-column-gap"
-        (String.append (String.fromFloat value) "px")
+    gridColumnGap (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-gridColumnGapRem : Float -> Html.Attribute msg
-gridColumnGapRem value =
-    Html.Attributes.style
-        "grid-column-gap"
-        (String.append (String.fromFloat value) "rem")
+grid-column-gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/column-gap
 -}
 gridColumnGapRem : Float -> Html.Attribute msg
 gridColumnGapRem value =
-    Html.Attributes.style
-        "grid-column-gap"
-        (String.append (String.fromFloat value) "rem")
+    gridColumnGap (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-gridColumnStart : String -> Html.Attribute msg
-gridColumnStart value =
-    Html.Attributes.style "grid-column-start" value
-```
+{-| CSS property `grid-column-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-column-start
 -}
@@ -13164,11 +10828,9 @@ gridColumnStart value =
     Html.Attributes.style "grid-column-start" value
 
 
-{-| ```
-gridGap : String -> Html.Attribute msg
-gridGap value =
-    Html.Attributes.style "grid-gap" value
-```
+{-| CSS property `grid-gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
@@ -13178,44 +10840,30 @@ gridGap value =
 
 
 {-| ```
-gridGapRem : Float -> Html.Attribute msg
-gridGapRem value =
-    Html.Attributes.style
-        "grid-gap"
-        (String.append (String.fromFloat value) "rem")
+grid-gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
 gridGapRem : Float -> Html.Attribute msg
 gridGapRem value =
-    Html.Attributes.style
-        "grid-gap"
-        (String.append (String.fromFloat value) "rem")
+    gridGap (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-gridGapPx : Float -> Html.Attribute msg
-gridGapPx value =
-    Html.Attributes.style
-        "grid-gap"
-        (String.append (String.fromFloat value) "px")
+grid-gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/gap
 -}
 gridGapPx : Float -> Html.Attribute msg
 gridGapPx value =
-    Html.Attributes.style
-        "grid-gap"
-        (String.append (String.fromFloat value) "px")
+    gridGap (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-gridRow : String -> Html.Attribute msg
-gridRow value =
-    Html.Attributes.style "grid-row" value
-```
+{-| CSS property `grid-row`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-row
 -}
@@ -13224,11 +10872,9 @@ gridRow value =
     Html.Attributes.style "grid-row" value
 
 
-{-| ```
-gridRowEnd : String -> Html.Attribute msg
-gridRowEnd value =
-    Html.Attributes.style "grid-row-end" value
-```
+{-| CSS property `grid-row-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-row-end
 -}
@@ -13237,11 +10883,9 @@ gridRowEnd value =
     Html.Attributes.style "grid-row-end" value
 
 
-{-| ```
-gridRowGap : String -> Html.Attribute msg
-gridRowGap value =
-    Html.Attributes.style "grid-row-gap" value
-```
+{-| CSS property `grid-row-gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
@@ -13251,44 +10895,30 @@ gridRowGap value =
 
 
 {-| ```
-gridRowGapPx : Float -> Html.Attribute msg
-gridRowGapPx value =
-    Html.Attributes.style
-        "grid-row-gap"
-        (String.append (String.fromFloat value) "px")
+grid-row-gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
 gridRowGapPx : Float -> Html.Attribute msg
 gridRowGapPx value =
-    Html.Attributes.style
-        "grid-row-gap"
-        (String.append (String.fromFloat value) "px")
+    gridRowGap (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-gridRowGapRem : Float -> Html.Attribute msg
-gridRowGapRem value =
-    Html.Attributes.style
-        "grid-row-gap"
-        (String.append (String.fromFloat value) "rem")
+grid-row-gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
 gridRowGapRem : Float -> Html.Attribute msg
 gridRowGapRem value =
-    Html.Attributes.style
-        "grid-row-gap"
-        (String.append (String.fromFloat value) "rem")
+    gridRowGap (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-gridRowStart : String -> Html.Attribute msg
-gridRowStart value =
-    Html.Attributes.style "grid-row-start" value
-```
+{-| CSS property `grid-row-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-row-start
 -}
@@ -13297,11 +10927,9 @@ gridRowStart value =
     Html.Attributes.style "grid-row-start" value
 
 
-{-| ```
-gridTemplate : String -> Html.Attribute msg
-gridTemplate value =
-    Html.Attributes.style "grid-template" value
-```
+{-| CSS property `grid-template`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template
 -}
@@ -13310,11 +10938,9 @@ gridTemplate value =
     Html.Attributes.style "grid-template" value
 
 
-{-| ```
-gridTemplateAreas : String -> Html.Attribute msg
-gridTemplateAreas value =
-    Html.Attributes.style "grid-template-areas" value
-```
+{-| CSS property `grid-template-areas`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-areas
 -}
@@ -13324,23 +10950,19 @@ gridTemplateAreas value =
 
 
 {-| ```
-gridTemplateAreasNone : Html.Attribute msg
-gridTemplateAreasNone =
-    Html.Attributes.style "grid-template-areas" "none"
+grid-template-areas : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-areas
 -}
 gridTemplateAreasNone : Html.Attribute msg
 gridTemplateAreasNone =
-    Html.Attributes.style "grid-template-areas" "none"
+    gridTemplateAreas "none"
 
 
-{-| ```
-gridTemplateColumns : String -> Html.Attribute msg
-gridTemplateColumns value =
-    Html.Attributes.style "grid-template-columns" value
-```
+{-| CSS property `grid-template-columns`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-columns
 -}
@@ -13350,36 +10972,30 @@ gridTemplateColumns value =
 
 
 {-| ```
-gridTemplateColumnsNone : Html.Attribute msg
-gridTemplateColumnsNone =
-    Html.Attributes.style "grid-template-columns" "none"
+grid-template-columns : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-columns
 -}
 gridTemplateColumnsNone : Html.Attribute msg
 gridTemplateColumnsNone =
-    Html.Attributes.style "grid-template-columns" "none"
+    gridTemplateColumns "none"
 
 
 {-| ```
-gridTemplateColumnsSubgrid : Html.Attribute msg
-gridTemplateColumnsSubgrid =
-    Html.Attributes.style "grid-template-columns" "subgrid"
+grid-template-columns : subgrid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-columns
 -}
 gridTemplateColumnsSubgrid : Html.Attribute msg
 gridTemplateColumnsSubgrid =
-    Html.Attributes.style "grid-template-columns" "subgrid"
+    gridTemplateColumns "subgrid"
 
 
-{-| ```
-gridTemplateRows : String -> Html.Attribute msg
-gridTemplateRows value =
-    Html.Attributes.style "grid-template-rows" value
-```
+{-| CSS property `grid-template-rows`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-rows
 -}
@@ -13389,36 +11005,30 @@ gridTemplateRows value =
 
 
 {-| ```
-gridTemplateRowsNone : Html.Attribute msg
-gridTemplateRowsNone =
-    Html.Attributes.style "grid-template-rows" "none"
+grid-template-rows : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-rows
 -}
 gridTemplateRowsNone : Html.Attribute msg
 gridTemplateRowsNone =
-    Html.Attributes.style "grid-template-rows" "none"
+    gridTemplateRows "none"
 
 
 {-| ```
-gridTemplateRowsSubgrid : Html.Attribute msg
-gridTemplateRowsSubgrid =
-    Html.Attributes.style "grid-template-rows" "subgrid"
+grid-template-rows : subgrid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/grid-template-rows
 -}
 gridTemplateRowsSubgrid : Html.Attribute msg
 gridTemplateRowsSubgrid =
-    Html.Attributes.style "grid-template-rows" "subgrid"
+    gridTemplateRows "subgrid"
 
 
-{-| ```
-hangingPunctuation : String -> Html.Attribute msg
-hangingPunctuation value =
-    Html.Attributes.style "hanging-punctuation" value
-```
+{-| CSS property `hanging-punctuation`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
@@ -13428,75 +11038,63 @@ hangingPunctuation value =
 
 
 {-| ```
-hangingPunctuationNone : Html.Attribute msg
-hangingPunctuationNone =
-    Html.Attributes.style "hanging-punctuation" "none"
+hanging-punctuation : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
 hangingPunctuationNone : Html.Attribute msg
 hangingPunctuationNone =
-    Html.Attributes.style "hanging-punctuation" "none"
+    hangingPunctuation "none"
 
 
 {-| ```
-hangingPunctuationLast : Html.Attribute msg
-hangingPunctuationLast =
-    Html.Attributes.style "hanging-punctuation" "last"
+hanging-punctuation : last
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
 hangingPunctuationLast : Html.Attribute msg
 hangingPunctuationLast =
-    Html.Attributes.style "hanging-punctuation" "last"
+    hangingPunctuation "last"
 
 
 {-| ```
-hangingPunctuationAllowEnd : Html.Attribute msg
-hangingPunctuationAllowEnd =
-    Html.Attributes.style "hanging-punctuation" "allow-end"
+hanging-punctuation : allow-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
 hangingPunctuationAllowEnd : Html.Attribute msg
 hangingPunctuationAllowEnd =
-    Html.Attributes.style "hanging-punctuation" "allow-end"
+    hangingPunctuation "allow-end"
 
 
 {-| ```
-hangingPunctuationForceEnd : Html.Attribute msg
-hangingPunctuationForceEnd =
-    Html.Attributes.style "hanging-punctuation" "force-end"
+hanging-punctuation : force-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
 hangingPunctuationForceEnd : Html.Attribute msg
 hangingPunctuationForceEnd =
-    Html.Attributes.style "hanging-punctuation" "force-end"
+    hangingPunctuation "force-end"
 
 
 {-| ```
-hangingPunctuationFirst : Html.Attribute msg
-hangingPunctuationFirst =
-    Html.Attributes.style "hanging-punctuation" "first"
+hanging-punctuation : first
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation
 -}
 hangingPunctuationFirst : Html.Attribute msg
 hangingPunctuationFirst =
-    Html.Attributes.style "hanging-punctuation" "first"
+    hangingPunctuation "first"
 
 
-{-| ```
-height : String -> Html.Attribute msg
-height value =
-    Html.Attributes.style "height" value
-```
+{-| CSS property `height`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
@@ -13506,92 +11104,74 @@ height value =
 
 
 {-| ```
-heightAuto : Html.Attribute msg
-heightAuto =
-    Html.Attributes.style "height" "auto"
+height : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightAuto : Html.Attribute msg
 heightAuto =
-    Html.Attributes.style "height" "auto"
+    height "auto"
 
 
 {-| ```
-heightMaxContent : Html.Attribute msg
-heightMaxContent =
-    Html.Attributes.style "height" "max-content"
+height : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightMaxContent : Html.Attribute msg
 heightMaxContent =
-    Html.Attributes.style "height" "max-content"
+    height "max-content"
 
 
 {-| ```
-heightFitContent : Html.Attribute msg
-heightFitContent =
-    Html.Attributes.style "height" "fit-content"
+height : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightFitContent : Html.Attribute msg
 heightFitContent =
-    Html.Attributes.style "height" "fit-content"
+    height "fit-content"
 
 
 {-| ```
-heightMinContent : Html.Attribute msg
-heightMinContent =
-    Html.Attributes.style "height" "min-content"
+height : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightMinContent : Html.Attribute msg
 heightMinContent =
-    Html.Attributes.style "height" "min-content"
+    height "min-content"
 
 
 {-| ```
-heightPx : Float -> Html.Attribute msg
-heightPx value =
-    Html.Attributes.style "height" (String.append (String.fromFloat value) "px")
+height : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightPx : Float -> Html.Attribute msg
 heightPx value =
-    Html.Attributes.style "height" (String.append (String.fromFloat value) "px")
+    height (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-heightRem : Float -> Html.Attribute msg
-heightRem value =
-    Html.Attributes.style
-        "height"
-        (String.append (String.fromFloat value) "rem")
+height : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/height
 -}
 heightRem : Float -> Html.Attribute msg
 heightRem value =
-    Html.Attributes.style
-        "height"
-        (String.append (String.fromFloat value) "rem")
+    height (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-hyphenateCharacter : String -> Html.Attribute msg
-hyphenateCharacter value =
-    Html.Attributes.style "hyphenate-character" value
-```
+{-| CSS property `hyphenate-character`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/hyphenate-character
 -}
@@ -13601,23 +11181,19 @@ hyphenateCharacter value =
 
 
 {-| ```
-hyphenateCharacterAuto : Html.Attribute msg
-hyphenateCharacterAuto =
-    Html.Attributes.style "hyphenate-character" "auto"
+hyphenate-character : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hyphenate-character
 -}
 hyphenateCharacterAuto : Html.Attribute msg
 hyphenateCharacterAuto =
-    Html.Attributes.style "hyphenate-character" "auto"
+    hyphenateCharacter "auto"
 
 
-{-| ```
-hyphenateLimitChars : String -> Html.Attribute msg
-hyphenateLimitChars value =
-    Html.Attributes.style "hyphenate-limit-chars" value
-```
+{-| CSS property `hyphenate-limit-chars`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars
 -}
@@ -13627,23 +11203,19 @@ hyphenateLimitChars value =
 
 
 {-| ```
-hyphenateLimitCharsAuto : Html.Attribute msg
-hyphenateLimitCharsAuto =
-    Html.Attributes.style "hyphenate-limit-chars" "auto"
+hyphenate-limit-chars : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hyphenate-limit-chars
 -}
 hyphenateLimitCharsAuto : Html.Attribute msg
 hyphenateLimitCharsAuto =
-    Html.Attributes.style "hyphenate-limit-chars" "auto"
+    hyphenateLimitChars "auto"
 
 
-{-| ```
-hyphens : String -> Html.Attribute msg
-hyphens value =
-    Html.Attributes.style "hyphens" value
-```
+{-| CSS property `hyphens`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/hyphens
 -}
@@ -13653,49 +11225,41 @@ hyphens value =
 
 
 {-| ```
-hyphensNone : Html.Attribute msg
-hyphensNone =
-    Html.Attributes.style "hyphens" "none"
+hyphens : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hyphens
 -}
 hyphensNone : Html.Attribute msg
 hyphensNone =
-    Html.Attributes.style "hyphens" "none"
+    hyphens "none"
 
 
 {-| ```
-hyphensAuto : Html.Attribute msg
-hyphensAuto =
-    Html.Attributes.style "hyphens" "auto"
+hyphens : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hyphens
 -}
 hyphensAuto : Html.Attribute msg
 hyphensAuto =
-    Html.Attributes.style "hyphens" "auto"
+    hyphens "auto"
 
 
 {-| ```
-hyphensManual : Html.Attribute msg
-hyphensManual =
-    Html.Attributes.style "hyphens" "manual"
+hyphens : manual
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/hyphens
 -}
 hyphensManual : Html.Attribute msg
 hyphensManual =
-    Html.Attributes.style "hyphens" "manual"
+    hyphens "manual"
 
 
-{-| ```
-imageOrientation : String -> Html.Attribute msg
-imageOrientation value =
-    Html.Attributes.style "image-orientation" value
-```
+{-| CSS property `image-orientation`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/image-orientation
 -}
@@ -13705,36 +11269,30 @@ imageOrientation value =
 
 
 {-| ```
-imageOrientationFromImage : Html.Attribute msg
-imageOrientationFromImage =
-    Html.Attributes.style "image-orientation" "from-image"
+image-orientation : from-image
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/image-orientation
 -}
 imageOrientationFromImage : Html.Attribute msg
 imageOrientationFromImage =
-    Html.Attributes.style "image-orientation" "from-image"
+    imageOrientation "from-image"
 
 
 {-| ```
-imageOrientationFlip : Html.Attribute msg
-imageOrientationFlip =
-    Html.Attributes.style "image-orientation" "flip"
+image-orientation : flip
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/image-orientation
 -}
 imageOrientationFlip : Html.Attribute msg
 imageOrientationFlip =
-    Html.Attributes.style "image-orientation" "flip"
+    imageOrientation "flip"
 
 
-{-| ```
-imageRendering : String -> Html.Attribute msg
-imageRendering value =
-    Html.Attributes.style "image-rendering" value
-```
+{-| CSS property `image-rendering`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/image-rendering
 -}
@@ -13744,60 +11302,47 @@ imageRendering value =
 
 
 {-| ```
-imageRenderingAuto : Html.Attribute msg
-imageRenderingAuto =
-    Html.Attributes.style "image-rendering" "auto"
+image-rendering : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/image-rendering
 -}
 imageRenderingAuto : Html.Attribute msg
 imageRenderingAuto =
-    Html.Attributes.style "image-rendering" "auto"
+    imageRendering "auto"
 
 
 {-| ```
-imageRenderingPixelated : Html.Attribute msg
-imageRenderingPixelated =
-    Html.Attributes.style "image-rendering" "pixelated"
+image-rendering : pixelated
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/image-rendering
 -}
 imageRenderingPixelated : Html.Attribute msg
 imageRenderingPixelated =
-    Html.Attributes.style "image-rendering" "pixelated"
+    imageRendering "pixelated"
 
 
 {-| ```
-imageRenderingCrispEdges : Html.Attribute msg
-imageRenderingCrispEdges =
-    Html.Attributes.style "image-rendering" "crisp-edges"
+image-rendering : crisp-edges
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/image-rendering
 -}
 imageRenderingCrispEdges : Html.Attribute msg
 imageRenderingCrispEdges =
-    Html.Attributes.style "image-rendering" "crisp-edges"
+    imageRendering "crisp-edges"
 
 
-{-| ```
-imageResolution : String -> Html.Attribute msg
-imageResolution value =
-    Html.Attributes.style "image-resolution" value
-```
--}
+{-| CSS property `image-resolution` -}
 imageResolution : String -> Html.Attribute msg
 imageResolution value =
     Html.Attributes.style "image-resolution" value
 
 
-{-| ```
-imeMode : String -> Html.Attribute msg
-imeMode value =
-    Html.Attributes.style "ime-mode" value
-```
+{-| CSS property `ime-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
@@ -13807,75 +11352,63 @@ imeMode value =
 
 
 {-| ```
-imeModeAuto : Html.Attribute msg
-imeModeAuto =
-    Html.Attributes.style "ime-mode" "auto"
+ime-mode : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
 imeModeAuto : Html.Attribute msg
 imeModeAuto =
-    Html.Attributes.style "ime-mode" "auto"
+    imeMode "auto"
 
 
 {-| ```
-imeModeActive : Html.Attribute msg
-imeModeActive =
-    Html.Attributes.style "ime-mode" "active"
+ime-mode : active
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
 imeModeActive : Html.Attribute msg
 imeModeActive =
-    Html.Attributes.style "ime-mode" "active"
+    imeMode "active"
 
 
 {-| ```
-imeModeDisabled : Html.Attribute msg
-imeModeDisabled =
-    Html.Attributes.style "ime-mode" "disabled"
+ime-mode : disabled
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
 imeModeDisabled : Html.Attribute msg
 imeModeDisabled =
-    Html.Attributes.style "ime-mode" "disabled"
+    imeMode "disabled"
 
 
 {-| ```
-imeModeInactive : Html.Attribute msg
-imeModeInactive =
-    Html.Attributes.style "ime-mode" "inactive"
+ime-mode : inactive
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
 imeModeInactive : Html.Attribute msg
 imeModeInactive =
-    Html.Attributes.style "ime-mode" "inactive"
+    imeMode "inactive"
 
 
 {-| ```
-imeModeNormal : Html.Attribute msg
-imeModeNormal =
-    Html.Attributes.style "ime-mode" "normal"
+ime-mode : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ime-mode
 -}
 imeModeNormal : Html.Attribute msg
 imeModeNormal =
-    Html.Attributes.style "ime-mode" "normal"
+    imeMode "normal"
 
 
-{-| ```
-initialLetter : String -> Html.Attribute msg
-initialLetter value =
-    Html.Attributes.style "initial-letter" value
-```
+{-| CSS property `initial-letter`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter
 -}
@@ -13885,23 +11418,19 @@ initialLetter value =
 
 
 {-| ```
-initialLetterNormal : Html.Attribute msg
-initialLetterNormal =
-    Html.Attributes.style "initial-letter" "normal"
+initial-letter : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter
 -}
 initialLetterNormal : Html.Attribute msg
 initialLetterNormal =
-    Html.Attributes.style "initial-letter" "normal"
+    initialLetter "normal"
 
 
-{-| ```
-initialLetterAlign : String -> Html.Attribute msg
-initialLetterAlign value =
-    Html.Attributes.style "initial-letter-align" value
-```
+{-| CSS property `initial-letter-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter-align
 -}
@@ -13911,62 +11440,52 @@ initialLetterAlign value =
 
 
 {-| ```
-initialLetterAlignAlphabetic : Html.Attribute msg
-initialLetterAlignAlphabetic =
-    Html.Attributes.style "initial-letter-align" "alphabetic"
+initial-letter-align : alphabetic
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter-align
 -}
 initialLetterAlignAlphabetic : Html.Attribute msg
 initialLetterAlignAlphabetic =
-    Html.Attributes.style "initial-letter-align" "alphabetic"
+    initialLetterAlign "alphabetic"
 
 
 {-| ```
-initialLetterAlignIdeographic : Html.Attribute msg
-initialLetterAlignIdeographic =
-    Html.Attributes.style "initial-letter-align" "ideographic"
+initial-letter-align : ideographic
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter-align
 -}
 initialLetterAlignIdeographic : Html.Attribute msg
 initialLetterAlignIdeographic =
-    Html.Attributes.style "initial-letter-align" "ideographic"
+    initialLetterAlign "ideographic"
 
 
 {-| ```
-initialLetterAlignHanging : Html.Attribute msg
-initialLetterAlignHanging =
-    Html.Attributes.style "initial-letter-align" "hanging"
+initial-letter-align : hanging
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter-align
 -}
 initialLetterAlignHanging : Html.Attribute msg
 initialLetterAlignHanging =
-    Html.Attributes.style "initial-letter-align" "hanging"
+    initialLetterAlign "hanging"
 
 
 {-| ```
-initialLetterAlignAuto : Html.Attribute msg
-initialLetterAlignAuto =
-    Html.Attributes.style "initial-letter-align" "auto"
+initial-letter-align : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/initial-letter-align
 -}
 initialLetterAlignAuto : Html.Attribute msg
 initialLetterAlignAuto =
-    Html.Attributes.style "initial-letter-align" "auto"
+    initialLetterAlign "auto"
 
 
-{-| ```
-inlineSize : String -> Html.Attribute msg
-inlineSize value =
-    Html.Attributes.style "inline-size" value
-```
+{-| CSS property `inline-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
@@ -13976,129 +11495,98 @@ inlineSize value =
 
 
 {-| ```
-inlineSizeRem : Float -> Html.Attribute msg
-inlineSizeRem value =
-    Html.Attributes.style
-        "inline-size"
-        (String.append (String.fromFloat value) "rem")
+inline-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizeRem : Float -> Html.Attribute msg
 inlineSizeRem value =
-    Html.Attributes.style
-        "inline-size"
-        (String.append (String.fromFloat value) "rem")
+    inlineSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-inlineSizePx : Float -> Html.Attribute msg
-inlineSizePx value =
-    Html.Attributes.style
-        "inline-size"
-        (String.append (String.fromFloat value) "px")
+inline-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizePx : Float -> Html.Attribute msg
 inlineSizePx value =
-    Html.Attributes.style
-        "inline-size"
-        (String.append (String.fromFloat value) "px")
+    inlineSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-inlineSizeMinContent : Html.Attribute msg
-inlineSizeMinContent =
-    Html.Attributes.style "inline-size" "min-content"
+inline-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizeMinContent : Html.Attribute msg
 inlineSizeMinContent =
-    Html.Attributes.style "inline-size" "min-content"
+    inlineSize "min-content"
 
 
 {-| ```
-inlineSizeFitContent : Html.Attribute msg
-inlineSizeFitContent =
-    Html.Attributes.style "inline-size" "fit-content"
+inline-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizeFitContent : Html.Attribute msg
 inlineSizeFitContent =
-    Html.Attributes.style "inline-size" "fit-content"
+    inlineSize "fit-content"
 
 
 {-| ```
-inlineSizeMaxContent : Html.Attribute msg
-inlineSizeMaxContent =
-    Html.Attributes.style "inline-size" "max-content"
+inline-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizeMaxContent : Html.Attribute msg
 inlineSizeMaxContent =
-    Html.Attributes.style "inline-size" "max-content"
+    inlineSize "max-content"
 
 
 {-| ```
-inlineSizeAuto : Html.Attribute msg
-inlineSizeAuto =
-    Html.Attributes.style "inline-size" "auto"
+inline-size : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inline-size
 -}
 inlineSizeAuto : Html.Attribute msg
 inlineSizeAuto =
-    Html.Attributes.style "inline-size" "auto"
+    inlineSize "auto"
 
 
-{-| ```
-inputSecurity : String -> Html.Attribute msg
-inputSecurity value =
-    Html.Attributes.style "input-security" value
-```
--}
+{-| CSS property `input-security` -}
 inputSecurity : String -> Html.Attribute msg
 inputSecurity value =
     Html.Attributes.style "input-security" value
 
 
 {-| ```
-inputSecurityAuto : Html.Attribute msg
-inputSecurityAuto =
-    Html.Attributes.style "input-security" "auto"
+input-security : auto
 ```
 -}
 inputSecurityAuto : Html.Attribute msg
 inputSecurityAuto =
-    Html.Attributes.style "input-security" "auto"
+    inputSecurity "auto"
 
 
 {-| ```
-inputSecurityNone : Html.Attribute msg
-inputSecurityNone =
-    Html.Attributes.style "input-security" "none"
+input-security : none
 ```
 -}
 inputSecurityNone : Html.Attribute msg
 inputSecurityNone =
-    Html.Attributes.style "input-security" "none"
+    inputSecurity "none"
 
 
-{-| ```
-inset : String -> Html.Attribute msg
-inset value =
-    Html.Attributes.style "inset" value
-```
+{-| CSS property `inset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset
 -}
@@ -14108,49 +11596,41 @@ inset value =
 
 
 {-| ```
-insetAuto : Html.Attribute msg
-insetAuto =
-    Html.Attributes.style "inset" "auto"
+inset : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset
 -}
 insetAuto : Html.Attribute msg
 insetAuto =
-    Html.Attributes.style "inset" "auto"
+    inset "auto"
 
 
 {-| ```
-insetPx : Float -> Html.Attribute msg
-insetPx value =
-    Html.Attributes.style "inset" (String.append (String.fromFloat value) "px")
+inset : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset
 -}
 insetPx : Float -> Html.Attribute msg
 insetPx value =
-    Html.Attributes.style "inset" (String.append (String.fromFloat value) "px")
+    inset (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetRem : Float -> Html.Attribute msg
-insetRem value =
-    Html.Attributes.style "inset" (String.append (String.fromFloat value) "rem")
+inset : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset
 -}
 insetRem : Float -> Html.Attribute msg
 insetRem value =
-    Html.Attributes.style "inset" (String.append (String.fromFloat value) "rem")
+    inset (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetBlock : String -> Html.Attribute msg
-insetBlock value =
-    Html.Attributes.style "inset-block" value
-```
+{-| CSS property `inset-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block
 -}
@@ -14160,57 +11640,41 @@ insetBlock value =
 
 
 {-| ```
-insetBlockAuto : Html.Attribute msg
-insetBlockAuto =
-    Html.Attributes.style "inset-block" "auto"
+inset-block : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block
 -}
 insetBlockAuto : Html.Attribute msg
 insetBlockAuto =
-    Html.Attributes.style "inset-block" "auto"
+    insetBlock "auto"
 
 
 {-| ```
-insetBlockPx : Float -> Html.Attribute msg
-insetBlockPx value =
-    Html.Attributes.style
-        "inset-block"
-        (String.append (String.fromFloat value) "px")
+inset-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block
 -}
 insetBlockPx : Float -> Html.Attribute msg
 insetBlockPx value =
-    Html.Attributes.style
-        "inset-block"
-        (String.append (String.fromFloat value) "px")
+    insetBlock (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetBlockRem : Float -> Html.Attribute msg
-insetBlockRem value =
-    Html.Attributes.style
-        "inset-block"
-        (String.append (String.fromFloat value) "rem")
+inset-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block
 -}
 insetBlockRem : Float -> Html.Attribute msg
 insetBlockRem value =
-    Html.Attributes.style
-        "inset-block"
-        (String.append (String.fromFloat value) "rem")
+    insetBlock (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetBlockEnd : String -> Html.Attribute msg
-insetBlockEnd value =
-    Html.Attributes.style "inset-block-end" value
-```
+{-| CSS property `inset-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-end
 -}
@@ -14220,57 +11684,41 @@ insetBlockEnd value =
 
 
 {-| ```
-insetBlockEndAuto : Html.Attribute msg
-insetBlockEndAuto =
-    Html.Attributes.style "inset-block-end" "auto"
+inset-block-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-end
 -}
 insetBlockEndAuto : Html.Attribute msg
 insetBlockEndAuto =
-    Html.Attributes.style "inset-block-end" "auto"
+    insetBlockEnd "auto"
 
 
 {-| ```
-insetBlockEndPx : Float -> Html.Attribute msg
-insetBlockEndPx value =
-    Html.Attributes.style
-        "inset-block-end"
-        (String.append (String.fromFloat value) "px")
+inset-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-end
 -}
 insetBlockEndPx : Float -> Html.Attribute msg
 insetBlockEndPx value =
-    Html.Attributes.style
-        "inset-block-end"
-        (String.append (String.fromFloat value) "px")
+    insetBlockEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetBlockEndRem : Float -> Html.Attribute msg
-insetBlockEndRem value =
-    Html.Attributes.style
-        "inset-block-end"
-        (String.append (String.fromFloat value) "rem")
+inset-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-end
 -}
 insetBlockEndRem : Float -> Html.Attribute msg
 insetBlockEndRem value =
-    Html.Attributes.style
-        "inset-block-end"
-        (String.append (String.fromFloat value) "rem")
+    insetBlockEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetBlockStart : String -> Html.Attribute msg
-insetBlockStart value =
-    Html.Attributes.style "inset-block-start" value
-```
+{-| CSS property `inset-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-start
 -}
@@ -14280,57 +11728,41 @@ insetBlockStart value =
 
 
 {-| ```
-insetBlockStartAuto : Html.Attribute msg
-insetBlockStartAuto =
-    Html.Attributes.style "inset-block-start" "auto"
+inset-block-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-start
 -}
 insetBlockStartAuto : Html.Attribute msg
 insetBlockStartAuto =
-    Html.Attributes.style "inset-block-start" "auto"
+    insetBlockStart "auto"
 
 
 {-| ```
-insetBlockStartPx : Float -> Html.Attribute msg
-insetBlockStartPx value =
-    Html.Attributes.style
-        "inset-block-start"
-        (String.append (String.fromFloat value) "px")
+inset-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-start
 -}
 insetBlockStartPx : Float -> Html.Attribute msg
 insetBlockStartPx value =
-    Html.Attributes.style
-        "inset-block-start"
-        (String.append (String.fromFloat value) "px")
+    insetBlockStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetBlockStartRem : Float -> Html.Attribute msg
-insetBlockStartRem value =
-    Html.Attributes.style
-        "inset-block-start"
-        (String.append (String.fromFloat value) "rem")
+inset-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-block-start
 -}
 insetBlockStartRem : Float -> Html.Attribute msg
 insetBlockStartRem value =
-    Html.Attributes.style
-        "inset-block-start"
-        (String.append (String.fromFloat value) "rem")
+    insetBlockStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetInline : String -> Html.Attribute msg
-insetInline value =
-    Html.Attributes.style "inset-inline" value
-```
+{-| CSS property `inset-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline
 -}
@@ -14340,57 +11772,41 @@ insetInline value =
 
 
 {-| ```
-insetInlineAuto : Html.Attribute msg
-insetInlineAuto =
-    Html.Attributes.style "inset-inline" "auto"
+inset-inline : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline
 -}
 insetInlineAuto : Html.Attribute msg
 insetInlineAuto =
-    Html.Attributes.style "inset-inline" "auto"
+    insetInline "auto"
 
 
 {-| ```
-insetInlinePx : Float -> Html.Attribute msg
-insetInlinePx value =
-    Html.Attributes.style
-        "inset-inline"
-        (String.append (String.fromFloat value) "px")
+inset-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline
 -}
 insetInlinePx : Float -> Html.Attribute msg
 insetInlinePx value =
-    Html.Attributes.style
-        "inset-inline"
-        (String.append (String.fromFloat value) "px")
+    insetInline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetInlineRem : Float -> Html.Attribute msg
-insetInlineRem value =
-    Html.Attributes.style
-        "inset-inline"
-        (String.append (String.fromFloat value) "rem")
+inset-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline
 -}
 insetInlineRem : Float -> Html.Attribute msg
 insetInlineRem value =
-    Html.Attributes.style
-        "inset-inline"
-        (String.append (String.fromFloat value) "rem")
+    insetInline (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetInlineEnd : String -> Html.Attribute msg
-insetInlineEnd value =
-    Html.Attributes.style "inset-inline-end" value
-```
+{-| CSS property `inset-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-end
 -}
@@ -14400,57 +11816,41 @@ insetInlineEnd value =
 
 
 {-| ```
-insetInlineEndAuto : Html.Attribute msg
-insetInlineEndAuto =
-    Html.Attributes.style "inset-inline-end" "auto"
+inset-inline-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-end
 -}
 insetInlineEndAuto : Html.Attribute msg
 insetInlineEndAuto =
-    Html.Attributes.style "inset-inline-end" "auto"
+    insetInlineEnd "auto"
 
 
 {-| ```
-insetInlineEndPx : Float -> Html.Attribute msg
-insetInlineEndPx value =
-    Html.Attributes.style
-        "inset-inline-end"
-        (String.append (String.fromFloat value) "px")
+inset-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-end
 -}
 insetInlineEndPx : Float -> Html.Attribute msg
 insetInlineEndPx value =
-    Html.Attributes.style
-        "inset-inline-end"
-        (String.append (String.fromFloat value) "px")
+    insetInlineEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetInlineEndRem : Float -> Html.Attribute msg
-insetInlineEndRem value =
-    Html.Attributes.style
-        "inset-inline-end"
-        (String.append (String.fromFloat value) "rem")
+inset-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-end
 -}
 insetInlineEndRem : Float -> Html.Attribute msg
 insetInlineEndRem value =
-    Html.Attributes.style
-        "inset-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    insetInlineEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-insetInlineStart : String -> Html.Attribute msg
-insetInlineStart value =
-    Html.Attributes.style "inset-inline-start" value
-```
+{-| CSS property `inset-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-start
 -}
@@ -14460,57 +11860,41 @@ insetInlineStart value =
 
 
 {-| ```
-insetInlineStartAuto : Html.Attribute msg
-insetInlineStartAuto =
-    Html.Attributes.style "inset-inline-start" "auto"
+inset-inline-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-start
 -}
 insetInlineStartAuto : Html.Attribute msg
 insetInlineStartAuto =
-    Html.Attributes.style "inset-inline-start" "auto"
+    insetInlineStart "auto"
 
 
 {-| ```
-insetInlineStartPx : Float -> Html.Attribute msg
-insetInlineStartPx value =
-    Html.Attributes.style
-        "inset-inline-start"
-        (String.append (String.fromFloat value) "px")
+inset-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-start
 -}
 insetInlineStartPx : Float -> Html.Attribute msg
 insetInlineStartPx value =
-    Html.Attributes.style
-        "inset-inline-start"
-        (String.append (String.fromFloat value) "px")
+    insetInlineStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-insetInlineStartRem : Float -> Html.Attribute msg
-insetInlineStartRem value =
-    Html.Attributes.style
-        "inset-inline-start"
-        (String.append (String.fromFloat value) "rem")
+inset-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/inset-inline-start
 -}
 insetInlineStartRem : Float -> Html.Attribute msg
 insetInlineStartRem value =
-    Html.Attributes.style
-        "inset-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    insetInlineStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-isolation : String -> Html.Attribute msg
-isolation value =
-    Html.Attributes.style "isolation" value
-```
+{-| CSS property `isolation`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/isolation
 -}
@@ -14520,36 +11904,30 @@ isolation value =
 
 
 {-| ```
-isolationAuto : Html.Attribute msg
-isolationAuto =
-    Html.Attributes.style "isolation" "auto"
+isolation : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/isolation
 -}
 isolationAuto : Html.Attribute msg
 isolationAuto =
-    Html.Attributes.style "isolation" "auto"
+    isolation "auto"
 
 
 {-| ```
-isolationIsolate : Html.Attribute msg
-isolationIsolate =
-    Html.Attributes.style "isolation" "isolate"
+isolation : isolate
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/isolation
 -}
 isolationIsolate : Html.Attribute msg
 isolationIsolate =
-    Html.Attributes.style "isolation" "isolate"
+    isolation "isolate"
 
 
-{-| ```
-justifyContent : String -> Html.Attribute msg
-justifyContent value =
-    Html.Attributes.style "justify-content" value
-```
+{-| CSS property `justify-content`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
@@ -14559,166 +11937,140 @@ justifyContent value =
 
 
 {-| ```
-justifyContentNormal : Html.Attribute msg
-justifyContentNormal =
-    Html.Attributes.style "justify-content" "normal"
+justify-content : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentNormal : Html.Attribute msg
 justifyContentNormal =
-    Html.Attributes.style "justify-content" "normal"
+    justifyContent "normal"
 
 
 {-| ```
-justifyContentLeft : Html.Attribute msg
-justifyContentLeft =
-    Html.Attributes.style "justify-content" "left"
+justify-content : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentLeft : Html.Attribute msg
 justifyContentLeft =
-    Html.Attributes.style "justify-content" "left"
+    justifyContent "left"
 
 
 {-| ```
-justifyContentRight : Html.Attribute msg
-justifyContentRight =
-    Html.Attributes.style "justify-content" "right"
+justify-content : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentRight : Html.Attribute msg
 justifyContentRight =
-    Html.Attributes.style "justify-content" "right"
+    justifyContent "right"
 
 
 {-| ```
-justifyContentCenter : Html.Attribute msg
-justifyContentCenter =
-    Html.Attributes.style "justify-content" "center"
+justify-content : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentCenter : Html.Attribute msg
 justifyContentCenter =
-    Html.Attributes.style "justify-content" "center"
+    justifyContent "center"
 
 
 {-| ```
-justifyContentEnd : Html.Attribute msg
-justifyContentEnd =
-    Html.Attributes.style "justify-content" "end"
+justify-content : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentEnd : Html.Attribute msg
 justifyContentEnd =
-    Html.Attributes.style "justify-content" "end"
+    justifyContent "end"
 
 
 {-| ```
-justifyContentFlexEnd : Html.Attribute msg
-justifyContentFlexEnd =
-    Html.Attributes.style "justify-content" "flex-end"
+justify-content : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentFlexEnd : Html.Attribute msg
 justifyContentFlexEnd =
-    Html.Attributes.style "justify-content" "flex-end"
+    justifyContent "flex-end"
 
 
 {-| ```
-justifyContentFlexStart : Html.Attribute msg
-justifyContentFlexStart =
-    Html.Attributes.style "justify-content" "flex-start"
+justify-content : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentFlexStart : Html.Attribute msg
 justifyContentFlexStart =
-    Html.Attributes.style "justify-content" "flex-start"
+    justifyContent "flex-start"
 
 
 {-| ```
-justifyContentStart : Html.Attribute msg
-justifyContentStart =
-    Html.Attributes.style "justify-content" "start"
+justify-content : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentStart : Html.Attribute msg
 justifyContentStart =
-    Html.Attributes.style "justify-content" "start"
+    justifyContent "start"
 
 
 {-| ```
-justifyContentSpaceBetween : Html.Attribute msg
-justifyContentSpaceBetween =
-    Html.Attributes.style "justify-content" "space-between"
+justify-content : space-between
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentSpaceBetween : Html.Attribute msg
 justifyContentSpaceBetween =
-    Html.Attributes.style "justify-content" "space-between"
+    justifyContent "space-between"
 
 
 {-| ```
-justifyContentSpaceEvenly : Html.Attribute msg
-justifyContentSpaceEvenly =
-    Html.Attributes.style "justify-content" "space-evenly"
+justify-content : space-evenly
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentSpaceEvenly : Html.Attribute msg
 justifyContentSpaceEvenly =
-    Html.Attributes.style "justify-content" "space-evenly"
+    justifyContent "space-evenly"
 
 
 {-| ```
-justifyContentStretch : Html.Attribute msg
-justifyContentStretch =
-    Html.Attributes.style "justify-content" "stretch"
+justify-content : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentStretch : Html.Attribute msg
 justifyContentStretch =
-    Html.Attributes.style "justify-content" "stretch"
+    justifyContent "stretch"
 
 
 {-| ```
-justifyContentSpaceAround : Html.Attribute msg
-justifyContentSpaceAround =
-    Html.Attributes.style "justify-content" "space-around"
+justify-content : space-around
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-content
 -}
 justifyContentSpaceAround : Html.Attribute msg
 justifyContentSpaceAround =
-    Html.Attributes.style "justify-content" "space-around"
+    justifyContent "space-around"
 
 
-{-| ```
-justifyItems : String -> Html.Attribute msg
-justifyItems value =
-    Html.Attributes.style "justify-items" value
-```
+{-| CSS property `justify-items`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/justify-items
 -}
@@ -14727,11 +12079,9 @@ justifyItems value =
     Html.Attributes.style "justify-items" value
 
 
-{-| ```
-justifySelf : String -> Html.Attribute msg
-justifySelf value =
-    Html.Attributes.style "justify-self" value
-```
+{-| CSS property `justify-self`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
@@ -14741,179 +12091,151 @@ justifySelf value =
 
 
 {-| ```
-justifySelfAuto : Html.Attribute msg
-justifySelfAuto =
-    Html.Attributes.style "justify-self" "auto"
+justify-self : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfAuto : Html.Attribute msg
 justifySelfAuto =
-    Html.Attributes.style "justify-self" "auto"
+    justifySelf "auto"
 
 
 {-| ```
-justifySelfStretch : Html.Attribute msg
-justifySelfStretch =
-    Html.Attributes.style "justify-self" "stretch"
+justify-self : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfStretch : Html.Attribute msg
 justifySelfStretch =
-    Html.Attributes.style "justify-self" "stretch"
+    justifySelf "stretch"
 
 
 {-| ```
-justifySelfLeft : Html.Attribute msg
-justifySelfLeft =
-    Html.Attributes.style "justify-self" "left"
+justify-self : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfLeft : Html.Attribute msg
 justifySelfLeft =
-    Html.Attributes.style "justify-self" "left"
+    justifySelf "left"
 
 
 {-| ```
-justifySelfRight : Html.Attribute msg
-justifySelfRight =
-    Html.Attributes.style "justify-self" "right"
+justify-self : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfRight : Html.Attribute msg
 justifySelfRight =
-    Html.Attributes.style "justify-self" "right"
+    justifySelf "right"
 
 
 {-| ```
-justifySelfCenter : Html.Attribute msg
-justifySelfCenter =
-    Html.Attributes.style "justify-self" "center"
+justify-self : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfCenter : Html.Attribute msg
 justifySelfCenter =
-    Html.Attributes.style "justify-self" "center"
+    justifySelf "center"
 
 
 {-| ```
-justifySelfEnd : Html.Attribute msg
-justifySelfEnd =
-    Html.Attributes.style "justify-self" "end"
+justify-self : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfEnd : Html.Attribute msg
 justifySelfEnd =
-    Html.Attributes.style "justify-self" "end"
+    justifySelf "end"
 
 
 {-| ```
-justifySelfSelfEnd : Html.Attribute msg
-justifySelfSelfEnd =
-    Html.Attributes.style "justify-self" "self-end"
+justify-self : self-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfSelfEnd : Html.Attribute msg
 justifySelfSelfEnd =
-    Html.Attributes.style "justify-self" "self-end"
+    justifySelf "self-end"
 
 
 {-| ```
-justifySelfFlexEnd : Html.Attribute msg
-justifySelfFlexEnd =
-    Html.Attributes.style "justify-self" "flex-end"
+justify-self : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfFlexEnd : Html.Attribute msg
 justifySelfFlexEnd =
-    Html.Attributes.style "justify-self" "flex-end"
+    justifySelf "flex-end"
 
 
 {-| ```
-justifySelfFlexStart : Html.Attribute msg
-justifySelfFlexStart =
-    Html.Attributes.style "justify-self" "flex-start"
+justify-self : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfFlexStart : Html.Attribute msg
 justifySelfFlexStart =
-    Html.Attributes.style "justify-self" "flex-start"
+    justifySelf "flex-start"
 
 
 {-| ```
-justifySelfSelfStart : Html.Attribute msg
-justifySelfSelfStart =
-    Html.Attributes.style "justify-self" "self-start"
+justify-self : self-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfSelfStart : Html.Attribute msg
 justifySelfSelfStart =
-    Html.Attributes.style "justify-self" "self-start"
+    justifySelf "self-start"
 
 
 {-| ```
-justifySelfStart : Html.Attribute msg
-justifySelfStart =
-    Html.Attributes.style "justify-self" "start"
+justify-self : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfStart : Html.Attribute msg
 justifySelfStart =
-    Html.Attributes.style "justify-self" "start"
+    justifySelf "start"
 
 
 {-| ```
-justifySelfBaseline : Html.Attribute msg
-justifySelfBaseline =
-    Html.Attributes.style "justify-self" "baseline"
+justify-self : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfBaseline : Html.Attribute msg
 justifySelfBaseline =
-    Html.Attributes.style "justify-self" "baseline"
+    justifySelf "baseline"
 
 
 {-| ```
-justifySelfNormal : Html.Attribute msg
-justifySelfNormal =
-    Html.Attributes.style "justify-self" "normal"
+justify-self : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/justify-self
 -}
 justifySelfNormal : Html.Attribute msg
 justifySelfNormal =
-    Html.Attributes.style "justify-self" "normal"
+    justifySelf "normal"
 
 
-{-| ```
-justifyTracks : String -> Html.Attribute msg
-justifyTracks value =
-    Html.Attributes.style "justify-tracks" value
-```
+{-| CSS property `justify-tracks`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/justify-tracks
 -}
@@ -14922,11 +12244,9 @@ justifyTracks value =
     Html.Attributes.style "justify-tracks" value
 
 
-{-| ```
-left : String -> Html.Attribute msg
-left value =
-    Html.Attributes.style "left" value
-```
+{-| CSS property `left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/left
 -}
@@ -14936,49 +12256,41 @@ left value =
 
 
 {-| ```
-leftRem : Float -> Html.Attribute msg
-leftRem value =
-    Html.Attributes.style "left" (String.append (String.fromFloat value) "rem")
+left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/left
 -}
 leftRem : Float -> Html.Attribute msg
 leftRem value =
-    Html.Attributes.style "left" (String.append (String.fromFloat value) "rem")
+    left (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-leftPx : Float -> Html.Attribute msg
-leftPx value =
-    Html.Attributes.style "left" (String.append (String.fromFloat value) "px")
+left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/left
 -}
 leftPx : Float -> Html.Attribute msg
 leftPx value =
-    Html.Attributes.style "left" (String.append (String.fromFloat value) "px")
+    left (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-leftAuto : Html.Attribute msg
-leftAuto =
-    Html.Attributes.style "left" "auto"
+left : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/left
 -}
 leftAuto : Html.Attribute msg
 leftAuto =
-    Html.Attributes.style "left" "auto"
+    left "auto"
 
 
-{-| ```
-letterSpacing : String -> Html.Attribute msg
-letterSpacing value =
-    Html.Attributes.style "letter-spacing" value
-```
+{-| CSS property `letter-spacing`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/letter-spacing
 -}
@@ -14988,57 +12300,41 @@ letterSpacing value =
 
 
 {-| ```
-letterSpacingNormal : Html.Attribute msg
-letterSpacingNormal =
-    Html.Attributes.style "letter-spacing" "normal"
+letter-spacing : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/letter-spacing
 -}
 letterSpacingNormal : Html.Attribute msg
 letterSpacingNormal =
-    Html.Attributes.style "letter-spacing" "normal"
+    letterSpacing "normal"
 
 
 {-| ```
-letterSpacingPx : Float -> Html.Attribute msg
-letterSpacingPx value =
-    Html.Attributes.style
-        "letter-spacing"
-        (String.append (String.fromFloat value) "px")
+letter-spacing : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/letter-spacing
 -}
 letterSpacingPx : Float -> Html.Attribute msg
 letterSpacingPx value =
-    Html.Attributes.style
-        "letter-spacing"
-        (String.append (String.fromFloat value) "px")
+    letterSpacing (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-letterSpacingRem : Float -> Html.Attribute msg
-letterSpacingRem value =
-    Html.Attributes.style
-        "letter-spacing"
-        (String.append (String.fromFloat value) "rem")
+letter-spacing : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/letter-spacing
 -}
 letterSpacingRem : Float -> Html.Attribute msg
 letterSpacingRem value =
-    Html.Attributes.style
-        "letter-spacing"
-        (String.append (String.fromFloat value) "rem")
+    letterSpacing (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-lineBreak : String -> Html.Attribute msg
-lineBreak value =
-    Html.Attributes.style "line-break" value
-```
+{-| CSS property `line-break`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
@@ -15048,97 +12344,78 @@ lineBreak value =
 
 
 {-| ```
-lineBreakAuto : Html.Attribute msg
-lineBreakAuto =
-    Html.Attributes.style "line-break" "auto"
+line-break : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
 lineBreakAuto : Html.Attribute msg
 lineBreakAuto =
-    Html.Attributes.style "line-break" "auto"
+    lineBreak "auto"
 
 
 {-| ```
-lineBreakNormal : Html.Attribute msg
-lineBreakNormal =
-    Html.Attributes.style "line-break" "normal"
+line-break : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
 lineBreakNormal : Html.Attribute msg
 lineBreakNormal =
-    Html.Attributes.style "line-break" "normal"
+    lineBreak "normal"
 
 
 {-| ```
-lineBreakAnywhere : Html.Attribute msg
-lineBreakAnywhere =
-    Html.Attributes.style "line-break" "anywhere"
+line-break : anywhere
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
 lineBreakAnywhere : Html.Attribute msg
 lineBreakAnywhere =
-    Html.Attributes.style "line-break" "anywhere"
+    lineBreak "anywhere"
 
 
 {-| ```
-lineBreakStrict : Html.Attribute msg
-lineBreakStrict =
-    Html.Attributes.style "line-break" "strict"
+line-break : strict
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
 lineBreakStrict : Html.Attribute msg
 lineBreakStrict =
-    Html.Attributes.style "line-break" "strict"
+    lineBreak "strict"
 
 
 {-| ```
-lineBreakLoose : Html.Attribute msg
-lineBreakLoose =
-    Html.Attributes.style "line-break" "loose"
+line-break : loose
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-break
 -}
 lineBreakLoose : Html.Attribute msg
 lineBreakLoose =
-    Html.Attributes.style "line-break" "loose"
+    lineBreak "loose"
 
 
-{-| ```
-lineClamp : String -> Html.Attribute msg
-lineClamp value =
-    Html.Attributes.style "line-clamp" value
-```
--}
+{-| CSS property `line-clamp` -}
 lineClamp : String -> Html.Attribute msg
 lineClamp value =
     Html.Attributes.style "line-clamp" value
 
 
 {-| ```
-lineClampNone : Html.Attribute msg
-lineClampNone =
-    Html.Attributes.style "line-clamp" "none"
+line-clamp : none
 ```
 -}
 lineClampNone : Html.Attribute msg
 lineClampNone =
-    Html.Attributes.style "line-clamp" "none"
+    lineClamp "none"
 
 
-{-| ```
-lineHeight : String -> Html.Attribute msg
-lineHeight value =
-    Html.Attributes.style "line-height" value
-```
+{-| CSS property `line-height`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/line-height
 -}
@@ -15148,57 +12425,41 @@ lineHeight value =
 
 
 {-| ```
-lineHeightNormal : Html.Attribute msg
-lineHeightNormal =
-    Html.Attributes.style "line-height" "normal"
+line-height : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-height
 -}
 lineHeightNormal : Html.Attribute msg
 lineHeightNormal =
-    Html.Attributes.style "line-height" "normal"
+    lineHeight "normal"
 
 
 {-| ```
-lineHeightRem : Float -> Html.Attribute msg
-lineHeightRem value =
-    Html.Attributes.style
-        "line-height"
-        (String.append (String.fromFloat value) "rem")
+line-height : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-height
 -}
 lineHeightRem : Float -> Html.Attribute msg
 lineHeightRem value =
-    Html.Attributes.style
-        "line-height"
-        (String.append (String.fromFloat value) "rem")
+    lineHeight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-lineHeightPx : Float -> Html.Attribute msg
-lineHeightPx value =
-    Html.Attributes.style
-        "line-height"
-        (String.append (String.fromFloat value) "px")
+line-height : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-height
 -}
 lineHeightPx : Float -> Html.Attribute msg
 lineHeightPx value =
-    Html.Attributes.style
-        "line-height"
-        (String.append (String.fromFloat value) "px")
+    lineHeight (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-lineHeightStep : String -> Html.Attribute msg
-lineHeightStep value =
-    Html.Attributes.style "line-height-step" value
-```
+{-| CSS property `line-height-step`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/line-height-step
 -}
@@ -15208,44 +12469,30 @@ lineHeightStep value =
 
 
 {-| ```
-lineHeightStepRem : Float -> Html.Attribute msg
-lineHeightStepRem value =
-    Html.Attributes.style
-        "line-height-step"
-        (String.append (String.fromFloat value) "rem")
+line-height-step : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-height-step
 -}
 lineHeightStepRem : Float -> Html.Attribute msg
 lineHeightStepRem value =
-    Html.Attributes.style
-        "line-height-step"
-        (String.append (String.fromFloat value) "rem")
+    lineHeightStep (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-lineHeightStepPx : Float -> Html.Attribute msg
-lineHeightStepPx value =
-    Html.Attributes.style
-        "line-height-step"
-        (String.append (String.fromFloat value) "px")
+line-height-step : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/line-height-step
 -}
 lineHeightStepPx : Float -> Html.Attribute msg
 lineHeightStepPx value =
-    Html.Attributes.style
-        "line-height-step"
-        (String.append (String.fromFloat value) "px")
+    lineHeightStep (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-listStyle : String -> Html.Attribute msg
-listStyle value =
-    Html.Attributes.style "list-style" value
-```
+{-| CSS property `list-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/list-style
 -}
@@ -15255,49 +12502,41 @@ listStyle value =
 
 
 {-| ```
-listStyleOutside : Html.Attribute msg
-listStyleOutside =
-    Html.Attributes.style "list-style" "outside"
+list-style : outside
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style
 -}
 listStyleOutside : Html.Attribute msg
 listStyleOutside =
-    Html.Attributes.style "list-style" "outside"
+    listStyle "outside"
 
 
 {-| ```
-listStyleInside : Html.Attribute msg
-listStyleInside =
-    Html.Attributes.style "list-style" "inside"
+list-style : inside
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style
 -}
 listStyleInside : Html.Attribute msg
 listStyleInside =
-    Html.Attributes.style "list-style" "inside"
+    listStyle "inside"
 
 
 {-| ```
-listStyleNone : Html.Attribute msg
-listStyleNone =
-    Html.Attributes.style "list-style" "none"
+list-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style
 -}
 listStyleNone : Html.Attribute msg
 listStyleNone =
-    Html.Attributes.style "list-style" "none"
+    listStyle "none"
 
 
-{-| ```
-listStyleImage : String -> Html.Attribute msg
-listStyleImage value =
-    Html.Attributes.style "list-style-image" value
-```
+{-| CSS property `list-style-image`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-image
 -}
@@ -15307,23 +12546,19 @@ listStyleImage value =
 
 
 {-| ```
-listStyleImageNone : Html.Attribute msg
-listStyleImageNone =
-    Html.Attributes.style "list-style-image" "none"
+list-style-image : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-image
 -}
 listStyleImageNone : Html.Attribute msg
 listStyleImageNone =
-    Html.Attributes.style "list-style-image" "none"
+    listStyleImage "none"
 
 
-{-| ```
-listStylePosition : String -> Html.Attribute msg
-listStylePosition value =
-    Html.Attributes.style "list-style-position" value
-```
+{-| CSS property `list-style-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-position
 -}
@@ -15333,36 +12568,30 @@ listStylePosition value =
 
 
 {-| ```
-listStylePositionInside : Html.Attribute msg
-listStylePositionInside =
-    Html.Attributes.style "list-style-position" "inside"
+list-style-position : inside
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-position
 -}
 listStylePositionInside : Html.Attribute msg
 listStylePositionInside =
-    Html.Attributes.style "list-style-position" "inside"
+    listStylePosition "inside"
 
 
 {-| ```
-listStylePositionOutside : Html.Attribute msg
-listStylePositionOutside =
-    Html.Attributes.style "list-style-position" "outside"
+list-style-position : outside
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-position
 -}
 listStylePositionOutside : Html.Attribute msg
 listStylePositionOutside =
-    Html.Attributes.style "list-style-position" "outside"
+    listStylePosition "outside"
 
 
-{-| ```
-listStyleType : String -> Html.Attribute msg
-listStyleType value =
-    Html.Attributes.style "list-style-type" value
-```
+{-| CSS property `list-style-type`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-type
 -}
@@ -15372,23 +12601,19 @@ listStyleType value =
 
 
 {-| ```
-listStyleTypeNone : Html.Attribute msg
-listStyleTypeNone =
-    Html.Attributes.style "list-style-type" "none"
+list-style-type : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/list-style-type
 -}
 listStyleTypeNone : Html.Attribute msg
 listStyleTypeNone =
-    Html.Attributes.style "list-style-type" "none"
+    listStyleType "none"
 
 
-{-| ```
-margin : String -> Html.Attribute msg
-margin value =
-    Html.Attributes.style "margin" value
-```
+{-| CSS property `margin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin
 -}
@@ -15398,53 +12623,41 @@ margin value =
 
 
 {-| ```
-marginAuto : Html.Attribute msg
-marginAuto =
-    Html.Attributes.style "margin" "auto"
+margin : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin
 -}
 marginAuto : Html.Attribute msg
 marginAuto =
-    Html.Attributes.style "margin" "auto"
+    margin "auto"
 
 
 {-| ```
-marginPx : Float -> Html.Attribute msg
-marginPx value =
-    Html.Attributes.style "margin" (String.append (String.fromFloat value) "px")
+margin : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin
 -}
 marginPx : Float -> Html.Attribute msg
 marginPx value =
-    Html.Attributes.style "margin" (String.append (String.fromFloat value) "px")
+    margin (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginRem : Float -> Html.Attribute msg
-marginRem value =
-    Html.Attributes.style
-        "margin"
-        (String.append (String.fromFloat value) "rem")
+margin : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin
 -}
 marginRem : Float -> Html.Attribute msg
 marginRem value =
-    Html.Attributes.style
-        "margin"
-        (String.append (String.fromFloat value) "rem")
+    margin (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginBlock : String -> Html.Attribute msg
-marginBlock value =
-    Html.Attributes.style "margin-block" value
-```
+{-| CSS property `margin-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block
 -}
@@ -15454,57 +12667,41 @@ marginBlock value =
 
 
 {-| ```
-marginBlockAuto : Html.Attribute msg
-marginBlockAuto =
-    Html.Attributes.style "margin-block" "auto"
+margin-block : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block
 -}
 marginBlockAuto : Html.Attribute msg
 marginBlockAuto =
-    Html.Attributes.style "margin-block" "auto"
+    marginBlock "auto"
 
 
 {-| ```
-marginBlockPx : Float -> Html.Attribute msg
-marginBlockPx value =
-    Html.Attributes.style
-        "margin-block"
-        (String.append (String.fromFloat value) "px")
+margin-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block
 -}
 marginBlockPx : Float -> Html.Attribute msg
 marginBlockPx value =
-    Html.Attributes.style
-        "margin-block"
-        (String.append (String.fromFloat value) "px")
+    marginBlock (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginBlockRem : Float -> Html.Attribute msg
-marginBlockRem value =
-    Html.Attributes.style
-        "margin-block"
-        (String.append (String.fromFloat value) "rem")
+margin-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block
 -}
 marginBlockRem : Float -> Html.Attribute msg
 marginBlockRem value =
-    Html.Attributes.style
-        "margin-block"
-        (String.append (String.fromFloat value) "rem")
+    marginBlock (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginBlockEnd : String -> Html.Attribute msg
-marginBlockEnd value =
-    Html.Attributes.style "margin-block-end" value
-```
+{-| CSS property `margin-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-end
 -}
@@ -15514,57 +12711,41 @@ marginBlockEnd value =
 
 
 {-| ```
-marginBlockEndAuto : Html.Attribute msg
-marginBlockEndAuto =
-    Html.Attributes.style "margin-block-end" "auto"
+margin-block-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-end
 -}
 marginBlockEndAuto : Html.Attribute msg
 marginBlockEndAuto =
-    Html.Attributes.style "margin-block-end" "auto"
+    marginBlockEnd "auto"
 
 
 {-| ```
-marginBlockEndPx : Float -> Html.Attribute msg
-marginBlockEndPx value =
-    Html.Attributes.style
-        "margin-block-end"
-        (String.append (String.fromFloat value) "px")
+margin-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-end
 -}
 marginBlockEndPx : Float -> Html.Attribute msg
 marginBlockEndPx value =
-    Html.Attributes.style
-        "margin-block-end"
-        (String.append (String.fromFloat value) "px")
+    marginBlockEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginBlockEndRem : Float -> Html.Attribute msg
-marginBlockEndRem value =
-    Html.Attributes.style
-        "margin-block-end"
-        (String.append (String.fromFloat value) "rem")
+margin-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-end
 -}
 marginBlockEndRem : Float -> Html.Attribute msg
 marginBlockEndRem value =
-    Html.Attributes.style
-        "margin-block-end"
-        (String.append (String.fromFloat value) "rem")
+    marginBlockEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginBlockStart : String -> Html.Attribute msg
-marginBlockStart value =
-    Html.Attributes.style "margin-block-start" value
-```
+{-| CSS property `margin-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-start
 -}
@@ -15574,57 +12755,41 @@ marginBlockStart value =
 
 
 {-| ```
-marginBlockStartAuto : Html.Attribute msg
-marginBlockStartAuto =
-    Html.Attributes.style "margin-block-start" "auto"
+margin-block-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-start
 -}
 marginBlockStartAuto : Html.Attribute msg
 marginBlockStartAuto =
-    Html.Attributes.style "margin-block-start" "auto"
+    marginBlockStart "auto"
 
 
 {-| ```
-marginBlockStartPx : Float -> Html.Attribute msg
-marginBlockStartPx value =
-    Html.Attributes.style
-        "margin-block-start"
-        (String.append (String.fromFloat value) "px")
+margin-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-start
 -}
 marginBlockStartPx : Float -> Html.Attribute msg
 marginBlockStartPx value =
-    Html.Attributes.style
-        "margin-block-start"
-        (String.append (String.fromFloat value) "px")
+    marginBlockStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginBlockStartRem : Float -> Html.Attribute msg
-marginBlockStartRem value =
-    Html.Attributes.style
-        "margin-block-start"
-        (String.append (String.fromFloat value) "rem")
+margin-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-block-start
 -}
 marginBlockStartRem : Float -> Html.Attribute msg
 marginBlockStartRem value =
-    Html.Attributes.style
-        "margin-block-start"
-        (String.append (String.fromFloat value) "rem")
+    marginBlockStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginBottom : String -> Html.Attribute msg
-marginBottom value =
-    Html.Attributes.style "margin-bottom" value
-```
+{-| CSS property `margin-bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-bottom
 -}
@@ -15634,57 +12799,41 @@ marginBottom value =
 
 
 {-| ```
-marginBottomRem : Float -> Html.Attribute msg
-marginBottomRem value =
-    Html.Attributes.style
-        "margin-bottom"
-        (String.append (String.fromFloat value) "rem")
+margin-bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-bottom
 -}
 marginBottomRem : Float -> Html.Attribute msg
 marginBottomRem value =
-    Html.Attributes.style
-        "margin-bottom"
-        (String.append (String.fromFloat value) "rem")
+    marginBottom (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-marginBottomPx : Float -> Html.Attribute msg
-marginBottomPx value =
-    Html.Attributes.style
-        "margin-bottom"
-        (String.append (String.fromFloat value) "px")
+margin-bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-bottom
 -}
 marginBottomPx : Float -> Html.Attribute msg
 marginBottomPx value =
-    Html.Attributes.style
-        "margin-bottom"
-        (String.append (String.fromFloat value) "px")
+    marginBottom (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginBottomAuto : Html.Attribute msg
-marginBottomAuto =
-    Html.Attributes.style "margin-bottom" "auto"
+margin-bottom : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-bottom
 -}
 marginBottomAuto : Html.Attribute msg
 marginBottomAuto =
-    Html.Attributes.style "margin-bottom" "auto"
+    marginBottom "auto"
 
 
-{-| ```
-marginInline : String -> Html.Attribute msg
-marginInline value =
-    Html.Attributes.style "margin-inline" value
-```
+{-| CSS property `margin-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline
 -}
@@ -15694,57 +12843,41 @@ marginInline value =
 
 
 {-| ```
-marginInlineAuto : Html.Attribute msg
-marginInlineAuto =
-    Html.Attributes.style "margin-inline" "auto"
+margin-inline : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline
 -}
 marginInlineAuto : Html.Attribute msg
 marginInlineAuto =
-    Html.Attributes.style "margin-inline" "auto"
+    marginInline "auto"
 
 
 {-| ```
-marginInlinePx : Float -> Html.Attribute msg
-marginInlinePx value =
-    Html.Attributes.style
-        "margin-inline"
-        (String.append (String.fromFloat value) "px")
+margin-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline
 -}
 marginInlinePx : Float -> Html.Attribute msg
 marginInlinePx value =
-    Html.Attributes.style
-        "margin-inline"
-        (String.append (String.fromFloat value) "px")
+    marginInline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginInlineRem : Float -> Html.Attribute msg
-marginInlineRem value =
-    Html.Attributes.style
-        "margin-inline"
-        (String.append (String.fromFloat value) "rem")
+margin-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline
 -}
 marginInlineRem : Float -> Html.Attribute msg
 marginInlineRem value =
-    Html.Attributes.style
-        "margin-inline"
-        (String.append (String.fromFloat value) "rem")
+    marginInline (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginInlineEnd : String -> Html.Attribute msg
-marginInlineEnd value =
-    Html.Attributes.style "margin-inline-end" value
-```
+{-| CSS property `margin-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-end
 -}
@@ -15754,57 +12887,41 @@ marginInlineEnd value =
 
 
 {-| ```
-marginInlineEndAuto : Html.Attribute msg
-marginInlineEndAuto =
-    Html.Attributes.style "margin-inline-end" "auto"
+margin-inline-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-end
 -}
 marginInlineEndAuto : Html.Attribute msg
 marginInlineEndAuto =
-    Html.Attributes.style "margin-inline-end" "auto"
+    marginInlineEnd "auto"
 
 
 {-| ```
-marginInlineEndPx : Float -> Html.Attribute msg
-marginInlineEndPx value =
-    Html.Attributes.style
-        "margin-inline-end"
-        (String.append (String.fromFloat value) "px")
+margin-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-end
 -}
 marginInlineEndPx : Float -> Html.Attribute msg
 marginInlineEndPx value =
-    Html.Attributes.style
-        "margin-inline-end"
-        (String.append (String.fromFloat value) "px")
+    marginInlineEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginInlineEndRem : Float -> Html.Attribute msg
-marginInlineEndRem value =
-    Html.Attributes.style
-        "margin-inline-end"
-        (String.append (String.fromFloat value) "rem")
+margin-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-end
 -}
 marginInlineEndRem : Float -> Html.Attribute msg
 marginInlineEndRem value =
-    Html.Attributes.style
-        "margin-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    marginInlineEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginInlineStart : String -> Html.Attribute msg
-marginInlineStart value =
-    Html.Attributes.style "margin-inline-start" value
-```
+{-| CSS property `margin-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-start
 -}
@@ -15814,57 +12931,41 @@ marginInlineStart value =
 
 
 {-| ```
-marginInlineStartAuto : Html.Attribute msg
-marginInlineStartAuto =
-    Html.Attributes.style "margin-inline-start" "auto"
+margin-inline-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-start
 -}
 marginInlineStartAuto : Html.Attribute msg
 marginInlineStartAuto =
-    Html.Attributes.style "margin-inline-start" "auto"
+    marginInlineStart "auto"
 
 
 {-| ```
-marginInlineStartPx : Float -> Html.Attribute msg
-marginInlineStartPx value =
-    Html.Attributes.style
-        "margin-inline-start"
-        (String.append (String.fromFloat value) "px")
+margin-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-start
 -}
 marginInlineStartPx : Float -> Html.Attribute msg
 marginInlineStartPx value =
-    Html.Attributes.style
-        "margin-inline-start"
-        (String.append (String.fromFloat value) "px")
+    marginInlineStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginInlineStartRem : Float -> Html.Attribute msg
-marginInlineStartRem value =
-    Html.Attributes.style
-        "margin-inline-start"
-        (String.append (String.fromFloat value) "rem")
+margin-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-inline-start
 -}
 marginInlineStartRem : Float -> Html.Attribute msg
 marginInlineStartRem value =
-    Html.Attributes.style
-        "margin-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    marginInlineStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-marginLeft : String -> Html.Attribute msg
-marginLeft value =
-    Html.Attributes.style "margin-left" value
-```
+{-| CSS property `margin-left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-left
 -}
@@ -15874,57 +12975,41 @@ marginLeft value =
 
 
 {-| ```
-marginLeftRem : Float -> Html.Attribute msg
-marginLeftRem value =
-    Html.Attributes.style
-        "margin-left"
-        (String.append (String.fromFloat value) "rem")
+margin-left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-left
 -}
 marginLeftRem : Float -> Html.Attribute msg
 marginLeftRem value =
-    Html.Attributes.style
-        "margin-left"
-        (String.append (String.fromFloat value) "rem")
+    marginLeft (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-marginLeftPx : Float -> Html.Attribute msg
-marginLeftPx value =
-    Html.Attributes.style
-        "margin-left"
-        (String.append (String.fromFloat value) "px")
+margin-left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-left
 -}
 marginLeftPx : Float -> Html.Attribute msg
 marginLeftPx value =
-    Html.Attributes.style
-        "margin-left"
-        (String.append (String.fromFloat value) "px")
+    marginLeft (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginLeftAuto : Html.Attribute msg
-marginLeftAuto =
-    Html.Attributes.style "margin-left" "auto"
+margin-left : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-left
 -}
 marginLeftAuto : Html.Attribute msg
 marginLeftAuto =
-    Html.Attributes.style "margin-left" "auto"
+    marginLeft "auto"
 
 
-{-| ```
-marginRight : String -> Html.Attribute msg
-marginRight value =
-    Html.Attributes.style "margin-right" value
-```
+{-| CSS property `margin-right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-right
 -}
@@ -15934,57 +13019,41 @@ marginRight value =
 
 
 {-| ```
-marginRightRem : Float -> Html.Attribute msg
-marginRightRem value =
-    Html.Attributes.style
-        "margin-right"
-        (String.append (String.fromFloat value) "rem")
+margin-right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-right
 -}
 marginRightRem : Float -> Html.Attribute msg
 marginRightRem value =
-    Html.Attributes.style
-        "margin-right"
-        (String.append (String.fromFloat value) "rem")
+    marginRight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-marginRightPx : Float -> Html.Attribute msg
-marginRightPx value =
-    Html.Attributes.style
-        "margin-right"
-        (String.append (String.fromFloat value) "px")
+margin-right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-right
 -}
 marginRightPx : Float -> Html.Attribute msg
 marginRightPx value =
-    Html.Attributes.style
-        "margin-right"
-        (String.append (String.fromFloat value) "px")
+    marginRight (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginRightAuto : Html.Attribute msg
-marginRightAuto =
-    Html.Attributes.style "margin-right" "auto"
+margin-right : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-right
 -}
 marginRightAuto : Html.Attribute msg
 marginRightAuto =
-    Html.Attributes.style "margin-right" "auto"
+    marginRight "auto"
 
 
-{-| ```
-marginTop : String -> Html.Attribute msg
-marginTop value =
-    Html.Attributes.style "margin-top" value
-```
+{-| CSS property `margin-top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-top
 -}
@@ -15994,57 +13063,41 @@ marginTop value =
 
 
 {-| ```
-marginTopRem : Float -> Html.Attribute msg
-marginTopRem value =
-    Html.Attributes.style
-        "margin-top"
-        (String.append (String.fromFloat value) "rem")
+margin-top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-top
 -}
 marginTopRem : Float -> Html.Attribute msg
 marginTopRem value =
-    Html.Attributes.style
-        "margin-top"
-        (String.append (String.fromFloat value) "rem")
+    marginTop (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-marginTopPx : Float -> Html.Attribute msg
-marginTopPx value =
-    Html.Attributes.style
-        "margin-top"
-        (String.append (String.fromFloat value) "px")
+margin-top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-top
 -}
 marginTopPx : Float -> Html.Attribute msg
 marginTopPx value =
-    Html.Attributes.style
-        "margin-top"
-        (String.append (String.fromFloat value) "px")
+    marginTop (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-marginTopAuto : Html.Attribute msg
-marginTopAuto =
-    Html.Attributes.style "margin-top" "auto"
+margin-top : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-top
 -}
 marginTopAuto : Html.Attribute msg
 marginTopAuto =
-    Html.Attributes.style "margin-top" "auto"
+    marginTop "auto"
 
 
-{-| ```
-marginTrim : String -> Html.Attribute msg
-marginTrim value =
-    Html.Attributes.style "margin-trim" value
-```
+{-| CSS property `margin-trim`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/margin-trim
 -}
@@ -16054,49 +13107,41 @@ marginTrim value =
 
 
 {-| ```
-marginTrimNone : Html.Attribute msg
-marginTrimNone =
-    Html.Attributes.style "margin-trim" "none"
+margin-trim : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-trim
 -}
 marginTrimNone : Html.Attribute msg
 marginTrimNone =
-    Html.Attributes.style "margin-trim" "none"
+    marginTrim "none"
 
 
 {-| ```
-marginTrimAll : Html.Attribute msg
-marginTrimAll =
-    Html.Attributes.style "margin-trim" "all"
+margin-trim : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-trim
 -}
 marginTrimAll : Html.Attribute msg
 marginTrimAll =
-    Html.Attributes.style "margin-trim" "all"
+    marginTrim "all"
 
 
 {-| ```
-marginTrimInFlow : Html.Attribute msg
-marginTrimInFlow =
-    Html.Attributes.style "margin-trim" "in-flow"
+margin-trim : in-flow
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/margin-trim
 -}
 marginTrimInFlow : Html.Attribute msg
 marginTrimInFlow =
-    Html.Attributes.style "margin-trim" "in-flow"
+    marginTrim "in-flow"
 
 
-{-| ```
-mask : String -> Html.Attribute msg
-mask value =
-    Html.Attributes.style "mask" value
-```
+{-| CSS property `mask`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask
 -}
@@ -16105,11 +13150,9 @@ mask value =
     Html.Attributes.style "mask" value
 
 
-{-| ```
-maskBorder : String -> Html.Attribute msg
-maskBorder value =
-    Html.Attributes.style "mask-border" value
-```
+{-| CSS property `mask-border`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border
 -}
@@ -16118,11 +13161,9 @@ maskBorder value =
     Html.Attributes.style "mask-border" value
 
 
-{-| ```
-maskBorderMode : String -> Html.Attribute msg
-maskBorderMode value =
-    Html.Attributes.style "mask-border-mode" value
-```
+{-| CSS property `mask-border-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-mode
 -}
@@ -16132,36 +13173,30 @@ maskBorderMode value =
 
 
 {-| ```
-maskBorderModeLuminance : Html.Attribute msg
-maskBorderModeLuminance =
-    Html.Attributes.style "mask-border-mode" "luminance"
+mask-border-mode : luminance
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-mode
 -}
 maskBorderModeLuminance : Html.Attribute msg
 maskBorderModeLuminance =
-    Html.Attributes.style "mask-border-mode" "luminance"
+    maskBorderMode "luminance"
 
 
 {-| ```
-maskBorderModeAlpha : Html.Attribute msg
-maskBorderModeAlpha =
-    Html.Attributes.style "mask-border-mode" "alpha"
+mask-border-mode : alpha
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-mode
 -}
 maskBorderModeAlpha : Html.Attribute msg
 maskBorderModeAlpha =
-    Html.Attributes.style "mask-border-mode" "alpha"
+    maskBorderMode "alpha"
 
 
-{-| ```
-maskBorderOutset : String -> Html.Attribute msg
-maskBorderOutset value =
-    Html.Attributes.style "mask-border-outset" value
-```
+{-| CSS property `mask-border-outset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-outset
 -}
@@ -16171,44 +13206,30 @@ maskBorderOutset value =
 
 
 {-| ```
-maskBorderOutsetPx : Float -> Html.Attribute msg
-maskBorderOutsetPx value =
-    Html.Attributes.style
-        "mask-border-outset"
-        (String.append (String.fromFloat value) "px")
+mask-border-outset : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-outset
 -}
 maskBorderOutsetPx : Float -> Html.Attribute msg
 maskBorderOutsetPx value =
-    Html.Attributes.style
-        "mask-border-outset"
-        (String.append (String.fromFloat value) "px")
+    maskBorderOutset (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-maskBorderOutsetRem : Float -> Html.Attribute msg
-maskBorderOutsetRem value =
-    Html.Attributes.style
-        "mask-border-outset"
-        (String.append (String.fromFloat value) "rem")
+mask-border-outset : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-outset
 -}
 maskBorderOutsetRem : Float -> Html.Attribute msg
 maskBorderOutsetRem value =
-    Html.Attributes.style
-        "mask-border-outset"
-        (String.append (String.fromFloat value) "rem")
+    maskBorderOutset (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-maskBorderRepeat : String -> Html.Attribute msg
-maskBorderRepeat value =
-    Html.Attributes.style "mask-border-repeat" value
-```
+{-| CSS property `mask-border-repeat`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat
 -}
@@ -16218,62 +13239,52 @@ maskBorderRepeat value =
 
 
 {-| ```
-maskBorderRepeatRepeat : Html.Attribute msg
-maskBorderRepeatRepeat =
-    Html.Attributes.style "mask-border-repeat" "repeat"
+mask-border-repeat : repeat
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat
 -}
 maskBorderRepeatRepeat : Html.Attribute msg
 maskBorderRepeatRepeat =
-    Html.Attributes.style "mask-border-repeat" "repeat"
+    maskBorderRepeat "repeat"
 
 
 {-| ```
-maskBorderRepeatSpace : Html.Attribute msg
-maskBorderRepeatSpace =
-    Html.Attributes.style "mask-border-repeat" "space"
+mask-border-repeat : space
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat
 -}
 maskBorderRepeatSpace : Html.Attribute msg
 maskBorderRepeatSpace =
-    Html.Attributes.style "mask-border-repeat" "space"
+    maskBorderRepeat "space"
 
 
 {-| ```
-maskBorderRepeatRound : Html.Attribute msg
-maskBorderRepeatRound =
-    Html.Attributes.style "mask-border-repeat" "round"
+mask-border-repeat : round
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat
 -}
 maskBorderRepeatRound : Html.Attribute msg
 maskBorderRepeatRound =
-    Html.Attributes.style "mask-border-repeat" "round"
+    maskBorderRepeat "round"
 
 
 {-| ```
-maskBorderRepeatStretch : Html.Attribute msg
-maskBorderRepeatStretch =
-    Html.Attributes.style "mask-border-repeat" "stretch"
+mask-border-repeat : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat
 -}
 maskBorderRepeatStretch : Html.Attribute msg
 maskBorderRepeatStretch =
-    Html.Attributes.style "mask-border-repeat" "stretch"
+    maskBorderRepeat "stretch"
 
 
-{-| ```
-maskBorderSlice : String -> Html.Attribute msg
-maskBorderSlice value =
-    Html.Attributes.style "mask-border-slice" value
-```
+{-| CSS property `mask-border-slice`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-slice
 -}
@@ -16282,11 +13293,9 @@ maskBorderSlice value =
     Html.Attributes.style "mask-border-slice" value
 
 
-{-| ```
-maskBorderSource : String -> Html.Attribute msg
-maskBorderSource value =
-    Html.Attributes.style "mask-border-source" value
-```
+{-| CSS property `mask-border-source`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-source
 -}
@@ -16296,23 +13305,19 @@ maskBorderSource value =
 
 
 {-| ```
-maskBorderSourceNone : Html.Attribute msg
-maskBorderSourceNone =
-    Html.Attributes.style "mask-border-source" "none"
+mask-border-source : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-source
 -}
 maskBorderSourceNone : Html.Attribute msg
 maskBorderSourceNone =
-    Html.Attributes.style "mask-border-source" "none"
+    maskBorderSource "none"
 
 
-{-| ```
-maskBorderWidth : String -> Html.Attribute msg
-maskBorderWidth value =
-    Html.Attributes.style "mask-border-width" value
-```
+{-| CSS property `mask-border-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-width
 -}
@@ -16322,57 +13327,41 @@ maskBorderWidth value =
 
 
 {-| ```
-maskBorderWidthAuto : Html.Attribute msg
-maskBorderWidthAuto =
-    Html.Attributes.style "mask-border-width" "auto"
+mask-border-width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-width
 -}
 maskBorderWidthAuto : Html.Attribute msg
 maskBorderWidthAuto =
-    Html.Attributes.style "mask-border-width" "auto"
+    maskBorderWidth "auto"
 
 
 {-| ```
-maskBorderWidthRem : Float -> Html.Attribute msg
-maskBorderWidthRem value =
-    Html.Attributes.style
-        "mask-border-width"
-        (String.append (String.fromFloat value) "rem")
+mask-border-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-width
 -}
 maskBorderWidthRem : Float -> Html.Attribute msg
 maskBorderWidthRem value =
-    Html.Attributes.style
-        "mask-border-width"
-        (String.append (String.fromFloat value) "rem")
+    maskBorderWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-maskBorderWidthPx : Float -> Html.Attribute msg
-maskBorderWidthPx value =
-    Html.Attributes.style
-        "mask-border-width"
-        (String.append (String.fromFloat value) "px")
+mask-border-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-border-width
 -}
 maskBorderWidthPx : Float -> Html.Attribute msg
 maskBorderWidthPx value =
-    Html.Attributes.style
-        "mask-border-width"
-        (String.append (String.fromFloat value) "px")
+    maskBorderWidth (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-maskClip : String -> Html.Attribute msg
-maskClip value =
-    Html.Attributes.style "mask-clip" value
-```
+{-| CSS property `mask-clip`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-clip
 -}
@@ -16381,11 +13370,9 @@ maskClip value =
     Html.Attributes.style "mask-clip" value
 
 
-{-| ```
-maskComposite : String -> Html.Attribute msg
-maskComposite value =
-    Html.Attributes.style "mask-composite" value
-```
+{-| CSS property `mask-composite`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-composite
 -}
@@ -16394,11 +13381,9 @@ maskComposite value =
     Html.Attributes.style "mask-composite" value
 
 
-{-| ```
-maskImage : String -> Html.Attribute msg
-maskImage value =
-    Html.Attributes.style "mask-image" value
-```
+{-| CSS property `mask-image`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-image
 -}
@@ -16407,11 +13392,9 @@ maskImage value =
     Html.Attributes.style "mask-image" value
 
 
-{-| ```
-maskMode : String -> Html.Attribute msg
-maskMode value =
-    Html.Attributes.style "mask-mode" value
-```
+{-| CSS property `mask-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-mode
 -}
@@ -16420,11 +13403,9 @@ maskMode value =
     Html.Attributes.style "mask-mode" value
 
 
-{-| ```
-maskOrigin : String -> Html.Attribute msg
-maskOrigin value =
-    Html.Attributes.style "mask-origin" value
-```
+{-| CSS property `mask-origin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-origin
 -}
@@ -16433,11 +13414,9 @@ maskOrigin value =
     Html.Attributes.style "mask-origin" value
 
 
-{-| ```
-maskPosition : String -> Html.Attribute msg
-maskPosition value =
-    Html.Attributes.style "mask-position" value
-```
+{-| CSS property `mask-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-position
 -}
@@ -16446,11 +13425,9 @@ maskPosition value =
     Html.Attributes.style "mask-position" value
 
 
-{-| ```
-maskRepeat : String -> Html.Attribute msg
-maskRepeat value =
-    Html.Attributes.style "mask-repeat" value
-```
+{-| CSS property `mask-repeat`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-repeat
 -}
@@ -16459,11 +13436,9 @@ maskRepeat value =
     Html.Attributes.style "mask-repeat" value
 
 
-{-| ```
-maskSize : String -> Html.Attribute msg
-maskSize value =
-    Html.Attributes.style "mask-size" value
-```
+{-| CSS property `mask-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-size
 -}
@@ -16472,11 +13447,9 @@ maskSize value =
     Html.Attributes.style "mask-size" value
 
 
-{-| ```
-maskType : String -> Html.Attribute msg
-maskType value =
-    Html.Attributes.style "mask-type" value
-```
+{-| CSS property `mask-type`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mask-type
 -}
@@ -16486,36 +13459,30 @@ maskType value =
 
 
 {-| ```
-maskTypeLuminance : Html.Attribute msg
-maskTypeLuminance =
-    Html.Attributes.style "mask-type" "luminance"
+mask-type : luminance
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-type
 -}
 maskTypeLuminance : Html.Attribute msg
 maskTypeLuminance =
-    Html.Attributes.style "mask-type" "luminance"
+    maskType "luminance"
 
 
 {-| ```
-maskTypeAlpha : Html.Attribute msg
-maskTypeAlpha =
-    Html.Attributes.style "mask-type" "alpha"
+mask-type : alpha
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mask-type
 -}
 maskTypeAlpha : Html.Attribute msg
 maskTypeAlpha =
-    Html.Attributes.style "mask-type" "alpha"
+    maskType "alpha"
 
 
-{-| ```
-masonryAutoFlow : String -> Html.Attribute msg
-masonryAutoFlow value =
-    Html.Attributes.style "masonry-auto-flow" value
-```
+{-| CSS property `masonry-auto-flow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow
 -}
@@ -16525,62 +13492,52 @@ masonryAutoFlow value =
 
 
 {-| ```
-masonryAutoFlowOrdered : Html.Attribute msg
-masonryAutoFlowOrdered =
-    Html.Attributes.style "masonry-auto-flow" "ordered"
+masonry-auto-flow : ordered
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow
 -}
 masonryAutoFlowOrdered : Html.Attribute msg
 masonryAutoFlowOrdered =
-    Html.Attributes.style "masonry-auto-flow" "ordered"
+    masonryAutoFlow "ordered"
 
 
 {-| ```
-masonryAutoFlowDefiniteFirst : Html.Attribute msg
-masonryAutoFlowDefiniteFirst =
-    Html.Attributes.style "masonry-auto-flow" "definite-first"
+masonry-auto-flow : definite-first
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow
 -}
 masonryAutoFlowDefiniteFirst : Html.Attribute msg
 masonryAutoFlowDefiniteFirst =
-    Html.Attributes.style "masonry-auto-flow" "definite-first"
+    masonryAutoFlow "definite-first"
 
 
 {-| ```
-masonryAutoFlowNext : Html.Attribute msg
-masonryAutoFlowNext =
-    Html.Attributes.style "masonry-auto-flow" "next"
+masonry-auto-flow : next
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow
 -}
 masonryAutoFlowNext : Html.Attribute msg
 masonryAutoFlowNext =
-    Html.Attributes.style "masonry-auto-flow" "next"
+    masonryAutoFlow "next"
 
 
 {-| ```
-masonryAutoFlowPack : Html.Attribute msg
-masonryAutoFlowPack =
-    Html.Attributes.style "masonry-auto-flow" "pack"
+masonry-auto-flow : pack
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow
 -}
 masonryAutoFlowPack : Html.Attribute msg
 masonryAutoFlowPack =
-    Html.Attributes.style "masonry-auto-flow" "pack"
+    masonryAutoFlow "pack"
 
 
-{-| ```
-mathDepth : String -> Html.Attribute msg
-mathDepth value =
-    Html.Attributes.style "math-depth" value
-```
+{-| CSS property `math-depth`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/math-depth
 -}
@@ -16590,23 +13547,19 @@ mathDepth value =
 
 
 {-| ```
-mathDepthAutoAdd : Html.Attribute msg
-mathDepthAutoAdd =
-    Html.Attributes.style "math-depth" "auto-add"
+math-depth : auto-add
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/math-depth
 -}
 mathDepthAutoAdd : Html.Attribute msg
 mathDepthAutoAdd =
-    Html.Attributes.style "math-depth" "auto-add"
+    mathDepth "auto-add"
 
 
-{-| ```
-mathShift : String -> Html.Attribute msg
-mathShift value =
-    Html.Attributes.style "math-shift" value
-```
+{-| CSS property `math-shift`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/math-shift
 -}
@@ -16616,36 +13569,30 @@ mathShift value =
 
 
 {-| ```
-mathShiftNormal : Html.Attribute msg
-mathShiftNormal =
-    Html.Attributes.style "math-shift" "normal"
+math-shift : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/math-shift
 -}
 mathShiftNormal : Html.Attribute msg
 mathShiftNormal =
-    Html.Attributes.style "math-shift" "normal"
+    mathShift "normal"
 
 
 {-| ```
-mathShiftCompact : Html.Attribute msg
-mathShiftCompact =
-    Html.Attributes.style "math-shift" "compact"
+math-shift : compact
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/math-shift
 -}
 mathShiftCompact : Html.Attribute msg
 mathShiftCompact =
-    Html.Attributes.style "math-shift" "compact"
+    mathShift "compact"
 
 
-{-| ```
-mathStyle : String -> Html.Attribute msg
-mathStyle value =
-    Html.Attributes.style "math-style" value
-```
+{-| CSS property `math-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/math-style
 -}
@@ -16655,36 +13602,30 @@ mathStyle value =
 
 
 {-| ```
-mathStyleNormal : Html.Attribute msg
-mathStyleNormal =
-    Html.Attributes.style "math-style" "normal"
+math-style : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/math-style
 -}
 mathStyleNormal : Html.Attribute msg
 mathStyleNormal =
-    Html.Attributes.style "math-style" "normal"
+    mathStyle "normal"
 
 
 {-| ```
-mathStyleCompact : Html.Attribute msg
-mathStyleCompact =
-    Html.Attributes.style "math-style" "compact"
+math-style : compact
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/math-style
 -}
 mathStyleCompact : Html.Attribute msg
 mathStyleCompact =
-    Html.Attributes.style "math-style" "compact"
+    mathStyle "compact"
 
 
-{-| ```
-maxBlockSize : String -> Html.Attribute msg
-maxBlockSize value =
-    Html.Attributes.style "max-block-size" value
-```
+{-| CSS property `max-block-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
@@ -16694,96 +13635,74 @@ maxBlockSize value =
 
 
 {-| ```
-maxBlockSizePx : Float -> Html.Attribute msg
-maxBlockSizePx value =
-    Html.Attributes.style
-        "max-block-size"
-        (String.append (String.fromFloat value) "px")
+max-block-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizePx : Float -> Html.Attribute msg
 maxBlockSizePx value =
-    Html.Attributes.style
-        "max-block-size"
-        (String.append (String.fromFloat value) "px")
+    maxBlockSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-maxBlockSizeRem : Float -> Html.Attribute msg
-maxBlockSizeRem value =
-    Html.Attributes.style
-        "max-block-size"
-        (String.append (String.fromFloat value) "rem")
+max-block-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizeRem : Float -> Html.Attribute msg
 maxBlockSizeRem value =
-    Html.Attributes.style
-        "max-block-size"
-        (String.append (String.fromFloat value) "rem")
+    maxBlockSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-maxBlockSizeMaxContent : Html.Attribute msg
-maxBlockSizeMaxContent =
-    Html.Attributes.style "max-block-size" "max-content"
+max-block-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizeMaxContent : Html.Attribute msg
 maxBlockSizeMaxContent =
-    Html.Attributes.style "max-block-size" "max-content"
+    maxBlockSize "max-content"
 
 
 {-| ```
-maxBlockSizeFitContent : Html.Attribute msg
-maxBlockSizeFitContent =
-    Html.Attributes.style "max-block-size" "fit-content"
+max-block-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizeFitContent : Html.Attribute msg
 maxBlockSizeFitContent =
-    Html.Attributes.style "max-block-size" "fit-content"
+    maxBlockSize "fit-content"
 
 
 {-| ```
-maxBlockSizeMinContent : Html.Attribute msg
-maxBlockSizeMinContent =
-    Html.Attributes.style "max-block-size" "min-content"
+max-block-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizeMinContent : Html.Attribute msg
 maxBlockSizeMinContent =
-    Html.Attributes.style "max-block-size" "min-content"
+    maxBlockSize "min-content"
 
 
 {-| ```
-maxBlockSizeNone : Html.Attribute msg
-maxBlockSizeNone =
-    Html.Attributes.style "max-block-size" "none"
+max-block-size : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-block-size
 -}
 maxBlockSizeNone : Html.Attribute msg
 maxBlockSizeNone =
-    Html.Attributes.style "max-block-size" "none"
+    maxBlockSize "none"
 
 
-{-| ```
-maxHeight : String -> Html.Attribute msg
-maxHeight value =
-    Html.Attributes.style "max-height" value
-```
+{-| CSS property `max-height`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
@@ -16793,96 +13712,74 @@ maxHeight value =
 
 
 {-| ```
-maxHeightNone : Html.Attribute msg
-maxHeightNone =
-    Html.Attributes.style "max-height" "none"
+max-height : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightNone : Html.Attribute msg
 maxHeightNone =
-    Html.Attributes.style "max-height" "none"
+    maxHeight "none"
 
 
 {-| ```
-maxHeightMinContent : Html.Attribute msg
-maxHeightMinContent =
-    Html.Attributes.style "max-height" "min-content"
+max-height : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightMinContent : Html.Attribute msg
 maxHeightMinContent =
-    Html.Attributes.style "max-height" "min-content"
+    maxHeight "min-content"
 
 
 {-| ```
-maxHeightFitContent : Html.Attribute msg
-maxHeightFitContent =
-    Html.Attributes.style "max-height" "fit-content"
+max-height : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightFitContent : Html.Attribute msg
 maxHeightFitContent =
-    Html.Attributes.style "max-height" "fit-content"
+    maxHeight "fit-content"
 
 
 {-| ```
-maxHeightMaxContent : Html.Attribute msg
-maxHeightMaxContent =
-    Html.Attributes.style "max-height" "max-content"
+max-height : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightMaxContent : Html.Attribute msg
 maxHeightMaxContent =
-    Html.Attributes.style "max-height" "max-content"
+    maxHeight "max-content"
 
 
 {-| ```
-maxHeightRem : Float -> Html.Attribute msg
-maxHeightRem value =
-    Html.Attributes.style
-        "max-height"
-        (String.append (String.fromFloat value) "rem")
+max-height : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightRem : Float -> Html.Attribute msg
 maxHeightRem value =
-    Html.Attributes.style
-        "max-height"
-        (String.append (String.fromFloat value) "rem")
+    maxHeight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-maxHeightPx : Float -> Html.Attribute msg
-maxHeightPx value =
-    Html.Attributes.style
-        "max-height"
-        (String.append (String.fromFloat value) "px")
+max-height : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-height
 -}
 maxHeightPx : Float -> Html.Attribute msg
 maxHeightPx value =
-    Html.Attributes.style
-        "max-height"
-        (String.append (String.fromFloat value) "px")
+    maxHeight (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-maxInlineSize : String -> Html.Attribute msg
-maxInlineSize value =
-    Html.Attributes.style "max-inline-size" value
-```
+{-| CSS property `max-inline-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
@@ -16892,118 +13789,89 @@ maxInlineSize value =
 
 
 {-| ```
-maxInlineSizePx : Float -> Html.Attribute msg
-maxInlineSizePx value =
-    Html.Attributes.style
-        "max-inline-size"
-        (String.append (String.fromFloat value) "px")
+max-inline-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizePx : Float -> Html.Attribute msg
 maxInlineSizePx value =
-    Html.Attributes.style
-        "max-inline-size"
-        (String.append (String.fromFloat value) "px")
+    maxInlineSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-maxInlineSizeRem : Float -> Html.Attribute msg
-maxInlineSizeRem value =
-    Html.Attributes.style
-        "max-inline-size"
-        (String.append (String.fromFloat value) "rem")
+max-inline-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizeRem : Float -> Html.Attribute msg
 maxInlineSizeRem value =
-    Html.Attributes.style
-        "max-inline-size"
-        (String.append (String.fromFloat value) "rem")
+    maxInlineSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-maxInlineSizeMaxContent : Html.Attribute msg
-maxInlineSizeMaxContent =
-    Html.Attributes.style "max-inline-size" "max-content"
+max-inline-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizeMaxContent : Html.Attribute msg
 maxInlineSizeMaxContent =
-    Html.Attributes.style "max-inline-size" "max-content"
+    maxInlineSize "max-content"
 
 
 {-| ```
-maxInlineSizeFitContent : Html.Attribute msg
-maxInlineSizeFitContent =
-    Html.Attributes.style "max-inline-size" "fit-content"
+max-inline-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizeFitContent : Html.Attribute msg
 maxInlineSizeFitContent =
-    Html.Attributes.style "max-inline-size" "fit-content"
+    maxInlineSize "fit-content"
 
 
 {-| ```
-maxInlineSizeMinContent : Html.Attribute msg
-maxInlineSizeMinContent =
-    Html.Attributes.style "max-inline-size" "min-content"
+max-inline-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizeMinContent : Html.Attribute msg
 maxInlineSizeMinContent =
-    Html.Attributes.style "max-inline-size" "min-content"
+    maxInlineSize "min-content"
 
 
 {-| ```
-maxInlineSizeNone : Html.Attribute msg
-maxInlineSizeNone =
-    Html.Attributes.style "max-inline-size" "none"
+max-inline-size : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-inline-size
 -}
 maxInlineSizeNone : Html.Attribute msg
 maxInlineSizeNone =
-    Html.Attributes.style "max-inline-size" "none"
+    maxInlineSize "none"
 
 
-{-| ```
-maxLines : String -> Html.Attribute msg
-maxLines value =
-    Html.Attributes.style "max-lines" value
-```
--}
+{-| CSS property `max-lines` -}
 maxLines : String -> Html.Attribute msg
 maxLines value =
     Html.Attributes.style "max-lines" value
 
 
 {-| ```
-maxLinesNone : Html.Attribute msg
-maxLinesNone =
-    Html.Attributes.style "max-lines" "none"
+max-lines : none
 ```
 -}
 maxLinesNone : Html.Attribute msg
 maxLinesNone =
-    Html.Attributes.style "max-lines" "none"
+    maxLines "none"
 
 
-{-| ```
-maxWidth : String -> Html.Attribute msg
-maxWidth value =
-    Html.Attributes.style "max-width" value
-```
+{-| CSS property `max-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
@@ -17013,96 +13881,74 @@ maxWidth value =
 
 
 {-| ```
-maxWidthNone : Html.Attribute msg
-maxWidthNone =
-    Html.Attributes.style "max-width" "none"
+max-width : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthNone : Html.Attribute msg
 maxWidthNone =
-    Html.Attributes.style "max-width" "none"
+    maxWidth "none"
 
 
 {-| ```
-maxWidthMinContent : Html.Attribute msg
-maxWidthMinContent =
-    Html.Attributes.style "max-width" "min-content"
+max-width : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthMinContent : Html.Attribute msg
 maxWidthMinContent =
-    Html.Attributes.style "max-width" "min-content"
+    maxWidth "min-content"
 
 
 {-| ```
-maxWidthFitContent : Html.Attribute msg
-maxWidthFitContent =
-    Html.Attributes.style "max-width" "fit-content"
+max-width : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthFitContent : Html.Attribute msg
 maxWidthFitContent =
-    Html.Attributes.style "max-width" "fit-content"
+    maxWidth "fit-content"
 
 
 {-| ```
-maxWidthMaxContent : Html.Attribute msg
-maxWidthMaxContent =
-    Html.Attributes.style "max-width" "max-content"
+max-width : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthMaxContent : Html.Attribute msg
 maxWidthMaxContent =
-    Html.Attributes.style "max-width" "max-content"
+    maxWidth "max-content"
 
 
 {-| ```
-maxWidthRem : Float -> Html.Attribute msg
-maxWidthRem value =
-    Html.Attributes.style
-        "max-width"
-        (String.append (String.fromFloat value) "rem")
+max-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthRem : Float -> Html.Attribute msg
 maxWidthRem value =
-    Html.Attributes.style
-        "max-width"
-        (String.append (String.fromFloat value) "rem")
+    maxWidth (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-maxWidthPx : Float -> Html.Attribute msg
-maxWidthPx value =
-    Html.Attributes.style
-        "max-width"
-        (String.append (String.fromFloat value) "px")
+max-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/max-width
 -}
 maxWidthPx : Float -> Html.Attribute msg
 maxWidthPx value =
-    Html.Attributes.style
-        "max-width"
-        (String.append (String.fromFloat value) "px")
+    maxWidth (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-minBlockSize : String -> Html.Attribute msg
-minBlockSize value =
-    Html.Attributes.style "min-block-size" value
-```
+{-| CSS property `min-block-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
@@ -17112,96 +13958,74 @@ minBlockSize value =
 
 
 {-| ```
-minBlockSizeRem : Float -> Html.Attribute msg
-minBlockSizeRem value =
-    Html.Attributes.style
-        "min-block-size"
-        (String.append (String.fromFloat value) "rem")
+min-block-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizeRem : Float -> Html.Attribute msg
 minBlockSizeRem value =
-    Html.Attributes.style
-        "min-block-size"
-        (String.append (String.fromFloat value) "rem")
+    minBlockSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-minBlockSizePx : Float -> Html.Attribute msg
-minBlockSizePx value =
-    Html.Attributes.style
-        "min-block-size"
-        (String.append (String.fromFloat value) "px")
+min-block-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizePx : Float -> Html.Attribute msg
 minBlockSizePx value =
-    Html.Attributes.style
-        "min-block-size"
-        (String.append (String.fromFloat value) "px")
+    minBlockSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-minBlockSizeMinContent : Html.Attribute msg
-minBlockSizeMinContent =
-    Html.Attributes.style "min-block-size" "min-content"
+min-block-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizeMinContent : Html.Attribute msg
 minBlockSizeMinContent =
-    Html.Attributes.style "min-block-size" "min-content"
+    minBlockSize "min-content"
 
 
 {-| ```
-minBlockSizeFitContent : Html.Attribute msg
-minBlockSizeFitContent =
-    Html.Attributes.style "min-block-size" "fit-content"
+min-block-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizeFitContent : Html.Attribute msg
 minBlockSizeFitContent =
-    Html.Attributes.style "min-block-size" "fit-content"
+    minBlockSize "fit-content"
 
 
 {-| ```
-minBlockSizeMaxContent : Html.Attribute msg
-minBlockSizeMaxContent =
-    Html.Attributes.style "min-block-size" "max-content"
+min-block-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizeMaxContent : Html.Attribute msg
 minBlockSizeMaxContent =
-    Html.Attributes.style "min-block-size" "max-content"
+    minBlockSize "max-content"
 
 
 {-| ```
-minBlockSizeAuto : Html.Attribute msg
-minBlockSizeAuto =
-    Html.Attributes.style "min-block-size" "auto"
+min-block-size : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-block-size
 -}
 minBlockSizeAuto : Html.Attribute msg
 minBlockSizeAuto =
-    Html.Attributes.style "min-block-size" "auto"
+    minBlockSize "auto"
 
 
-{-| ```
-minHeight : String -> Html.Attribute msg
-minHeight value =
-    Html.Attributes.style "min-height" value
-```
+{-| CSS property `min-height`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
@@ -17211,96 +14035,74 @@ minHeight value =
 
 
 {-| ```
-minHeightAuto : Html.Attribute msg
-minHeightAuto =
-    Html.Attributes.style "min-height" "auto"
+min-height : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightAuto : Html.Attribute msg
 minHeightAuto =
-    Html.Attributes.style "min-height" "auto"
+    minHeight "auto"
 
 
 {-| ```
-minHeightMaxContent : Html.Attribute msg
-minHeightMaxContent =
-    Html.Attributes.style "min-height" "max-content"
+min-height : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightMaxContent : Html.Attribute msg
 minHeightMaxContent =
-    Html.Attributes.style "min-height" "max-content"
+    minHeight "max-content"
 
 
 {-| ```
-minHeightFitContent : Html.Attribute msg
-minHeightFitContent =
-    Html.Attributes.style "min-height" "fit-content"
+min-height : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightFitContent : Html.Attribute msg
 minHeightFitContent =
-    Html.Attributes.style "min-height" "fit-content"
+    minHeight "fit-content"
 
 
 {-| ```
-minHeightMinContent : Html.Attribute msg
-minHeightMinContent =
-    Html.Attributes.style "min-height" "min-content"
+min-height : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightMinContent : Html.Attribute msg
 minHeightMinContent =
-    Html.Attributes.style "min-height" "min-content"
+    minHeight "min-content"
 
 
 {-| ```
-minHeightPx : Float -> Html.Attribute msg
-minHeightPx value =
-    Html.Attributes.style
-        "min-height"
-        (String.append (String.fromFloat value) "px")
+min-height : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightPx : Float -> Html.Attribute msg
 minHeightPx value =
-    Html.Attributes.style
-        "min-height"
-        (String.append (String.fromFloat value) "px")
+    minHeight (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-minHeightRem : Float -> Html.Attribute msg
-minHeightRem value =
-    Html.Attributes.style
-        "min-height"
-        (String.append (String.fromFloat value) "rem")
+min-height : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-height
 -}
 minHeightRem : Float -> Html.Attribute msg
 minHeightRem value =
-    Html.Attributes.style
-        "min-height"
-        (String.append (String.fromFloat value) "rem")
+    minHeight (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-minInlineSize : String -> Html.Attribute msg
-minInlineSize value =
-    Html.Attributes.style "min-inline-size" value
-```
+{-| CSS property `min-inline-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
@@ -17310,96 +14112,74 @@ minInlineSize value =
 
 
 {-| ```
-minInlineSizeRem : Float -> Html.Attribute msg
-minInlineSizeRem value =
-    Html.Attributes.style
-        "min-inline-size"
-        (String.append (String.fromFloat value) "rem")
+min-inline-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizeRem : Float -> Html.Attribute msg
 minInlineSizeRem value =
-    Html.Attributes.style
-        "min-inline-size"
-        (String.append (String.fromFloat value) "rem")
+    minInlineSize (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-minInlineSizePx : Float -> Html.Attribute msg
-minInlineSizePx value =
-    Html.Attributes.style
-        "min-inline-size"
-        (String.append (String.fromFloat value) "px")
+min-inline-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizePx : Float -> Html.Attribute msg
 minInlineSizePx value =
-    Html.Attributes.style
-        "min-inline-size"
-        (String.append (String.fromFloat value) "px")
+    minInlineSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-minInlineSizeMinContent : Html.Attribute msg
-minInlineSizeMinContent =
-    Html.Attributes.style "min-inline-size" "min-content"
+min-inline-size : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizeMinContent : Html.Attribute msg
 minInlineSizeMinContent =
-    Html.Attributes.style "min-inline-size" "min-content"
+    minInlineSize "min-content"
 
 
 {-| ```
-minInlineSizeFitContent : Html.Attribute msg
-minInlineSizeFitContent =
-    Html.Attributes.style "min-inline-size" "fit-content"
+min-inline-size : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizeFitContent : Html.Attribute msg
 minInlineSizeFitContent =
-    Html.Attributes.style "min-inline-size" "fit-content"
+    minInlineSize "fit-content"
 
 
 {-| ```
-minInlineSizeMaxContent : Html.Attribute msg
-minInlineSizeMaxContent =
-    Html.Attributes.style "min-inline-size" "max-content"
+min-inline-size : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizeMaxContent : Html.Attribute msg
 minInlineSizeMaxContent =
-    Html.Attributes.style "min-inline-size" "max-content"
+    minInlineSize "max-content"
 
 
 {-| ```
-minInlineSizeAuto : Html.Attribute msg
-minInlineSizeAuto =
-    Html.Attributes.style "min-inline-size" "auto"
+min-inline-size : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-inline-size
 -}
 minInlineSizeAuto : Html.Attribute msg
 minInlineSizeAuto =
-    Html.Attributes.style "min-inline-size" "auto"
+    minInlineSize "auto"
 
 
-{-| ```
-minWidth : String -> Html.Attribute msg
-minWidth value =
-    Html.Attributes.style "min-width" value
-```
+{-| CSS property `min-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
@@ -17409,96 +14189,74 @@ minWidth value =
 
 
 {-| ```
-minWidthAuto : Html.Attribute msg
-minWidthAuto =
-    Html.Attributes.style "min-width" "auto"
+min-width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthAuto : Html.Attribute msg
 minWidthAuto =
-    Html.Attributes.style "min-width" "auto"
+    minWidth "auto"
 
 
 {-| ```
-minWidthMaxContent : Html.Attribute msg
-minWidthMaxContent =
-    Html.Attributes.style "min-width" "max-content"
+min-width : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthMaxContent : Html.Attribute msg
 minWidthMaxContent =
-    Html.Attributes.style "min-width" "max-content"
+    minWidth "max-content"
 
 
 {-| ```
-minWidthFitContent : Html.Attribute msg
-minWidthFitContent =
-    Html.Attributes.style "min-width" "fit-content"
+min-width : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthFitContent : Html.Attribute msg
 minWidthFitContent =
-    Html.Attributes.style "min-width" "fit-content"
+    minWidth "fit-content"
 
 
 {-| ```
-minWidthMinContent : Html.Attribute msg
-minWidthMinContent =
-    Html.Attributes.style "min-width" "min-content"
+min-width : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthMinContent : Html.Attribute msg
 minWidthMinContent =
-    Html.Attributes.style "min-width" "min-content"
+    minWidth "min-content"
 
 
 {-| ```
-minWidthPx : Float -> Html.Attribute msg
-minWidthPx value =
-    Html.Attributes.style
-        "min-width"
-        (String.append (String.fromFloat value) "px")
+min-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthPx : Float -> Html.Attribute msg
 minWidthPx value =
-    Html.Attributes.style
-        "min-width"
-        (String.append (String.fromFloat value) "px")
+    minWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-minWidthRem : Float -> Html.Attribute msg
-minWidthRem value =
-    Html.Attributes.style
-        "min-width"
-        (String.append (String.fromFloat value) "rem")
+min-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/min-width
 -}
 minWidthRem : Float -> Html.Attribute msg
 minWidthRem value =
-    Html.Attributes.style
-        "min-width"
-        (String.append (String.fromFloat value) "rem")
+    minWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-mixBlendMode : String -> Html.Attribute msg
-mixBlendMode value =
-    Html.Attributes.style "mix-blend-mode" value
-```
+{-| CSS property `mix-blend-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
@@ -17508,231 +14266,195 @@ mixBlendMode value =
 
 
 {-| ```
-mixBlendModeMultiply : Html.Attribute msg
-mixBlendModeMultiply =
-    Html.Attributes.style "mix-blend-mode" "multiply"
+mix-blend-mode : multiply
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeMultiply : Html.Attribute msg
 mixBlendModeMultiply =
-    Html.Attributes.style "mix-blend-mode" "multiply"
+    mixBlendMode "multiply"
 
 
 {-| ```
-mixBlendModeOverlay : Html.Attribute msg
-mixBlendModeOverlay =
-    Html.Attributes.style "mix-blend-mode" "overlay"
+mix-blend-mode : overlay
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeOverlay : Html.Attribute msg
 mixBlendModeOverlay =
-    Html.Attributes.style "mix-blend-mode" "overlay"
+    mixBlendMode "overlay"
 
 
 {-| ```
-mixBlendModeLighten : Html.Attribute msg
-mixBlendModeLighten =
-    Html.Attributes.style "mix-blend-mode" "lighten"
+mix-blend-mode : lighten
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeLighten : Html.Attribute msg
 mixBlendModeLighten =
-    Html.Attributes.style "mix-blend-mode" "lighten"
+    mixBlendMode "lighten"
 
 
 {-| ```
-mixBlendModeColorBurn : Html.Attribute msg
-mixBlendModeColorBurn =
-    Html.Attributes.style "mix-blend-mode" "color-burn"
+mix-blend-mode : color-burn
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeColorBurn : Html.Attribute msg
 mixBlendModeColorBurn =
-    Html.Attributes.style "mix-blend-mode" "color-burn"
+    mixBlendMode "color-burn"
 
 
 {-| ```
-mixBlendModeSoftLight : Html.Attribute msg
-mixBlendModeSoftLight =
-    Html.Attributes.style "mix-blend-mode" "soft-light"
+mix-blend-mode : soft-light
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeSoftLight : Html.Attribute msg
 mixBlendModeSoftLight =
-    Html.Attributes.style "mix-blend-mode" "soft-light"
+    mixBlendMode "soft-light"
 
 
 {-| ```
-mixBlendModeExclusion : Html.Attribute msg
-mixBlendModeExclusion =
-    Html.Attributes.style "mix-blend-mode" "exclusion"
+mix-blend-mode : exclusion
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeExclusion : Html.Attribute msg
 mixBlendModeExclusion =
-    Html.Attributes.style "mix-blend-mode" "exclusion"
+    mixBlendMode "exclusion"
 
 
 {-| ```
-mixBlendModeSaturation : Html.Attribute msg
-mixBlendModeSaturation =
-    Html.Attributes.style "mix-blend-mode" "saturation"
+mix-blend-mode : saturation
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeSaturation : Html.Attribute msg
 mixBlendModeSaturation =
-    Html.Attributes.style "mix-blend-mode" "saturation"
+    mixBlendMode "saturation"
 
 
 {-| ```
-mixBlendModeLuminosity : Html.Attribute msg
-mixBlendModeLuminosity =
-    Html.Attributes.style "mix-blend-mode" "luminosity"
+mix-blend-mode : luminosity
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeLuminosity : Html.Attribute msg
 mixBlendModeLuminosity =
-    Html.Attributes.style "mix-blend-mode" "luminosity"
+    mixBlendMode "luminosity"
 
 
 {-| ```
-mixBlendModeColor : Html.Attribute msg
-mixBlendModeColor =
-    Html.Attributes.style "mix-blend-mode" "color"
+mix-blend-mode : color
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeColor : Html.Attribute msg
 mixBlendModeColor =
-    Html.Attributes.style "mix-blend-mode" "color"
+    mixBlendMode "color"
 
 
 {-| ```
-mixBlendModeHue : Html.Attribute msg
-mixBlendModeHue =
-    Html.Attributes.style "mix-blend-mode" "hue"
+mix-blend-mode : hue
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeHue : Html.Attribute msg
 mixBlendModeHue =
-    Html.Attributes.style "mix-blend-mode" "hue"
+    mixBlendMode "hue"
 
 
 {-| ```
-mixBlendModeDifference : Html.Attribute msg
-mixBlendModeDifference =
-    Html.Attributes.style "mix-blend-mode" "difference"
+mix-blend-mode : difference
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeDifference : Html.Attribute msg
 mixBlendModeDifference =
-    Html.Attributes.style "mix-blend-mode" "difference"
+    mixBlendMode "difference"
 
 
 {-| ```
-mixBlendModeHardLight : Html.Attribute msg
-mixBlendModeHardLight =
-    Html.Attributes.style "mix-blend-mode" "hard-light"
+mix-blend-mode : hard-light
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeHardLight : Html.Attribute msg
 mixBlendModeHardLight =
-    Html.Attributes.style "mix-blend-mode" "hard-light"
+    mixBlendMode "hard-light"
 
 
 {-| ```
-mixBlendModeColorDodge : Html.Attribute msg
-mixBlendModeColorDodge =
-    Html.Attributes.style "mix-blend-mode" "color-dodge"
+mix-blend-mode : color-dodge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeColorDodge : Html.Attribute msg
 mixBlendModeColorDodge =
-    Html.Attributes.style "mix-blend-mode" "color-dodge"
+    mixBlendMode "color-dodge"
 
 
 {-| ```
-mixBlendModeDarken : Html.Attribute msg
-mixBlendModeDarken =
-    Html.Attributes.style "mix-blend-mode" "darken"
+mix-blend-mode : darken
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeDarken : Html.Attribute msg
 mixBlendModeDarken =
-    Html.Attributes.style "mix-blend-mode" "darken"
+    mixBlendMode "darken"
 
 
 {-| ```
-mixBlendModeScreen : Html.Attribute msg
-mixBlendModeScreen =
-    Html.Attributes.style "mix-blend-mode" "screen"
+mix-blend-mode : screen
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeScreen : Html.Attribute msg
 mixBlendModeScreen =
-    Html.Attributes.style "mix-blend-mode" "screen"
+    mixBlendMode "screen"
 
 
 {-| ```
-mixBlendModeNormal : Html.Attribute msg
-mixBlendModeNormal =
-    Html.Attributes.style "mix-blend-mode" "normal"
+mix-blend-mode : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModeNormal : Html.Attribute msg
 mixBlendModeNormal =
-    Html.Attributes.style "mix-blend-mode" "normal"
+    mixBlendMode "normal"
 
 
 {-| ```
-mixBlendModePlusLighter : Html.Attribute msg
-mixBlendModePlusLighter =
-    Html.Attributes.style "mix-blend-mode" "plus-lighter"
+mix-blend-mode : plus-lighter
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode
 -}
 mixBlendModePlusLighter : Html.Attribute msg
 mixBlendModePlusLighter =
-    Html.Attributes.style "mix-blend-mode" "plus-lighter"
+    mixBlendMode "plus-lighter"
 
 
-{-| ```
-objectFit : String -> Html.Attribute msg
-objectFit value =
-    Html.Attributes.style "object-fit" value
-```
+{-| CSS property `object-fit`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
@@ -17742,75 +14464,63 @@ objectFit value =
 
 
 {-| ```
-objectFitFill : Html.Attribute msg
-objectFitFill =
-    Html.Attributes.style "object-fit" "fill"
+object-fit : fill
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
 objectFitFill : Html.Attribute msg
 objectFitFill =
-    Html.Attributes.style "object-fit" "fill"
+    objectFit "fill"
 
 
 {-| ```
-objectFitCover : Html.Attribute msg
-objectFitCover =
-    Html.Attributes.style "object-fit" "cover"
+object-fit : cover
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
 objectFitCover : Html.Attribute msg
 objectFitCover =
-    Html.Attributes.style "object-fit" "cover"
+    objectFit "cover"
 
 
 {-| ```
-objectFitScaleDown : Html.Attribute msg
-objectFitScaleDown =
-    Html.Attributes.style "object-fit" "scale-down"
+object-fit : scale-down
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
 objectFitScaleDown : Html.Attribute msg
 objectFitScaleDown =
-    Html.Attributes.style "object-fit" "scale-down"
+    objectFit "scale-down"
 
 
 {-| ```
-objectFitNone : Html.Attribute msg
-objectFitNone =
-    Html.Attributes.style "object-fit" "none"
+object-fit : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
 objectFitNone : Html.Attribute msg
 objectFitNone =
-    Html.Attributes.style "object-fit" "none"
+    objectFit "none"
 
 
 {-| ```
-objectFitContain : Html.Attribute msg
-objectFitContain =
-    Html.Attributes.style "object-fit" "contain"
+object-fit : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/object-fit
 -}
 objectFitContain : Html.Attribute msg
 objectFitContain =
-    Html.Attributes.style "object-fit" "contain"
+    objectFit "contain"
 
 
-{-| ```
-objectPosition : String -> Html.Attribute msg
-objectPosition value =
-    Html.Attributes.style "object-position" value
-```
+{-| CSS property `object-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/object-position
 -}
@@ -17819,11 +14529,9 @@ objectPosition value =
     Html.Attributes.style "object-position" value
 
 
-{-| ```
-offset : String -> Html.Attribute msg
-offset value =
-    Html.Attributes.style "offset" value
-```
+{-| CSS property `offset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/offset
 -}
@@ -17832,33 +14540,24 @@ offset value =
     Html.Attributes.style "offset" value
 
 
-{-| ```
-offsetAnchor : String -> Html.Attribute msg
-offsetAnchor value =
-    Html.Attributes.style "offset-anchor" value
-```
--}
+{-| CSS property `offset-anchor` -}
 offsetAnchor : String -> Html.Attribute msg
 offsetAnchor value =
     Html.Attributes.style "offset-anchor" value
 
 
 {-| ```
-offsetAnchorAuto : Html.Attribute msg
-offsetAnchorAuto =
-    Html.Attributes.style "offset-anchor" "auto"
+offset-anchor : auto
 ```
 -}
 offsetAnchorAuto : Html.Attribute msg
 offsetAnchorAuto =
-    Html.Attributes.style "offset-anchor" "auto"
+    offsetAnchor "auto"
 
 
-{-| ```
-offsetDistance : String -> Html.Attribute msg
-offsetDistance value =
-    Html.Attributes.style "offset-distance" value
-```
+{-| CSS property `offset-distance`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/offset-distance
 -}
@@ -17868,44 +14567,30 @@ offsetDistance value =
 
 
 {-| ```
-offsetDistancePx : Float -> Html.Attribute msg
-offsetDistancePx value =
-    Html.Attributes.style
-        "offset-distance"
-        (String.append (String.fromFloat value) "px")
+offset-distance : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/offset-distance
 -}
 offsetDistancePx : Float -> Html.Attribute msg
 offsetDistancePx value =
-    Html.Attributes.style
-        "offset-distance"
-        (String.append (String.fromFloat value) "px")
+    offsetDistance (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-offsetDistanceRem : Float -> Html.Attribute msg
-offsetDistanceRem value =
-    Html.Attributes.style
-        "offset-distance"
-        (String.append (String.fromFloat value) "rem")
+offset-distance : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/offset-distance
 -}
 offsetDistanceRem : Float -> Html.Attribute msg
 offsetDistanceRem value =
-    Html.Attributes.style
-        "offset-distance"
-        (String.append (String.fromFloat value) "rem")
+    offsetDistance (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-offsetPath : String -> Html.Attribute msg
-offsetPath value =
-    Html.Attributes.style "offset-path" value
-```
+{-| CSS property `offset-path`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/offset-path
 -}
@@ -17915,56 +14600,43 @@ offsetPath value =
 
 
 {-| ```
-offsetPathNone : Html.Attribute msg
-offsetPathNone =
-    Html.Attributes.style "offset-path" "none"
+offset-path : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/offset-path
 -}
 offsetPathNone : Html.Attribute msg
 offsetPathNone =
-    Html.Attributes.style "offset-path" "none"
+    offsetPath "none"
 
 
-{-| ```
-offsetPosition : String -> Html.Attribute msg
-offsetPosition value =
-    Html.Attributes.style "offset-position" value
-```
--}
+{-| CSS property `offset-position` -}
 offsetPosition : String -> Html.Attribute msg
 offsetPosition value =
     Html.Attributes.style "offset-position" value
 
 
 {-| ```
-offsetPositionNormal : Html.Attribute msg
-offsetPositionNormal =
-    Html.Attributes.style "offset-position" "normal"
+offset-position : normal
 ```
 -}
 offsetPositionNormal : Html.Attribute msg
 offsetPositionNormal =
-    Html.Attributes.style "offset-position" "normal"
+    offsetPosition "normal"
 
 
 {-| ```
-offsetPositionAuto : Html.Attribute msg
-offsetPositionAuto =
-    Html.Attributes.style "offset-position" "auto"
+offset-position : auto
 ```
 -}
 offsetPositionAuto : Html.Attribute msg
 offsetPositionAuto =
-    Html.Attributes.style "offset-position" "auto"
+    offsetPosition "auto"
 
 
-{-| ```
-offsetRotate : String -> Html.Attribute msg
-offsetRotate value =
-    Html.Attributes.style "offset-rotate" value
-```
+{-| CSS property `offset-rotate`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/offset-rotate
 -}
@@ -17974,36 +14646,30 @@ offsetRotate value =
 
 
 {-| ```
-offsetRotateReverse : Html.Attribute msg
-offsetRotateReverse =
-    Html.Attributes.style "offset-rotate" "reverse"
+offset-rotate : reverse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/offset-rotate
 -}
 offsetRotateReverse : Html.Attribute msg
 offsetRotateReverse =
-    Html.Attributes.style "offset-rotate" "reverse"
+    offsetRotate "reverse"
 
 
 {-| ```
-offsetRotateAuto : Html.Attribute msg
-offsetRotateAuto =
-    Html.Attributes.style "offset-rotate" "auto"
+offset-rotate : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/offset-rotate
 -}
 offsetRotateAuto : Html.Attribute msg
 offsetRotateAuto =
-    Html.Attributes.style "offset-rotate" "auto"
+    offsetRotate "auto"
 
 
-{-| ```
-opacity : String -> Html.Attribute msg
-opacity value =
-    Html.Attributes.style "opacity" value
-```
+{-| CSS property `opacity`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/opacity
 -}
@@ -18012,11 +14678,9 @@ opacity value =
     Html.Attributes.style "opacity" value
 
 
-{-| ```
-order : String -> Html.Attribute msg
-order value =
-    Html.Attributes.style "order" value
-```
+{-| CSS property `order`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/order
 -}
@@ -18025,11 +14689,9 @@ order value =
     Html.Attributes.style "order" value
 
 
-{-| ```
-orphans : String -> Html.Attribute msg
-orphans value =
-    Html.Attributes.style "orphans" value
-```
+{-| CSS property `orphans`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/orphans
 -}
@@ -18038,11 +14700,9 @@ orphans value =
     Html.Attributes.style "orphans" value
 
 
-{-| ```
-outline : String -> Html.Attribute msg
-outline value =
-    Html.Attributes.style "outline" value
-```
+{-| CSS property `outline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
@@ -18052,226 +14712,184 @@ outline value =
 
 
 {-| ```
-outlineAuto : Html.Attribute msg
-outlineAuto =
-    Html.Attributes.style "outline" "auto"
+outline : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineAuto : Html.Attribute msg
 outlineAuto =
-    Html.Attributes.style "outline" "auto"
+    outline "auto"
 
 
 {-| ```
-outlineHidden : Html.Attribute msg
-outlineHidden =
-    Html.Attributes.style "outline" "hidden"
+outline : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineHidden : Html.Attribute msg
 outlineHidden =
-    Html.Attributes.style "outline" "hidden"
+    outline "hidden"
 
 
 {-| ```
-outlineDashed : Html.Attribute msg
-outlineDashed =
-    Html.Attributes.style "outline" "dashed"
+outline : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineDashed : Html.Attribute msg
 outlineDashed =
-    Html.Attributes.style "outline" "dashed"
+    outline "dashed"
 
 
 {-| ```
-outlineDouble : Html.Attribute msg
-outlineDouble =
-    Html.Attributes.style "outline" "double"
+outline : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineDouble : Html.Attribute msg
 outlineDouble =
-    Html.Attributes.style "outline" "double"
+    outline "double"
 
 
 {-| ```
-outlineRidge : Html.Attribute msg
-outlineRidge =
-    Html.Attributes.style "outline" "ridge"
+outline : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineRidge : Html.Attribute msg
 outlineRidge =
-    Html.Attributes.style "outline" "ridge"
+    outline "ridge"
 
 
 {-| ```
-outlineOutset : Html.Attribute msg
-outlineOutset =
-    Html.Attributes.style "outline" "outset"
+outline : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineOutset : Html.Attribute msg
 outlineOutset =
-    Html.Attributes.style "outline" "outset"
+    outline "outset"
 
 
 {-| ```
-outlineInset : Html.Attribute msg
-outlineInset =
-    Html.Attributes.style "outline" "inset"
+outline : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineInset : Html.Attribute msg
 outlineInset =
-    Html.Attributes.style "outline" "inset"
+    outline "inset"
 
 
 {-| ```
-outlineGroove : Html.Attribute msg
-outlineGroove =
-    Html.Attributes.style "outline" "groove"
+outline : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineGroove : Html.Attribute msg
 outlineGroove =
-    Html.Attributes.style "outline" "groove"
+    outline "groove"
 
 
 {-| ```
-outlineSolid : Html.Attribute msg
-outlineSolid =
-    Html.Attributes.style "outline" "solid"
+outline : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineSolid : Html.Attribute msg
 outlineSolid =
-    Html.Attributes.style "outline" "solid"
+    outline "solid"
 
 
 {-| ```
-outlineDotted : Html.Attribute msg
-outlineDotted =
-    Html.Attributes.style "outline" "dotted"
+outline : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineDotted : Html.Attribute msg
 outlineDotted =
-    Html.Attributes.style "outline" "dotted"
+    outline "dotted"
 
 
 {-| ```
-outlineNone : Html.Attribute msg
-outlineNone =
-    Html.Attributes.style "outline" "none"
+outline : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineNone : Html.Attribute msg
 outlineNone =
-    Html.Attributes.style "outline" "none"
+    outline "none"
 
 
 {-| ```
-outlineThin : Html.Attribute msg
-outlineThin =
-    Html.Attributes.style "outline" "thin"
+outline : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineThin : Html.Attribute msg
 outlineThin =
-    Html.Attributes.style "outline" "thin"
+    outline "thin"
 
 
 {-| ```
-outlineThick : Html.Attribute msg
-outlineThick =
-    Html.Attributes.style "outline" "thick"
+outline : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineThick : Html.Attribute msg
 outlineThick =
-    Html.Attributes.style "outline" "thick"
+    outline "thick"
 
 
 {-| ```
-outlineMedium : Html.Attribute msg
-outlineMedium =
-    Html.Attributes.style "outline" "medium"
+outline : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineMedium : Html.Attribute msg
 outlineMedium =
-    Html.Attributes.style "outline" "medium"
+    outline "medium"
 
 
 {-| ```
-outlinePx : Float -> Html.Attribute msg
-outlinePx value =
-    Html.Attributes.style
-        "outline"
-        (String.append (String.fromFloat value) "px")
+outline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlinePx : Float -> Html.Attribute msg
 outlinePx value =
-    Html.Attributes.style
-        "outline"
-        (String.append (String.fromFloat value) "px")
+    outline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-outlineRem : Float -> Html.Attribute msg
-outlineRem value =
-    Html.Attributes.style
-        "outline"
-        (String.append (String.fromFloat value) "rem")
+outline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline
 -}
 outlineRem : Float -> Html.Attribute msg
 outlineRem value =
-    Html.Attributes.style
-        "outline"
-        (String.append (String.fromFloat value) "rem")
+    outline (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-outlineColor : String -> Html.Attribute msg
-outlineColor value =
-    Html.Attributes.style "outline-color" value
-```
+{-| CSS property `outline-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/outline-color
 -}
@@ -18281,23 +14899,19 @@ outlineColor value =
 
 
 {-| ```
-outlineColorAuto : Html.Attribute msg
-outlineColorAuto =
-    Html.Attributes.style "outline-color" "auto"
+outline-color : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-color
 -}
 outlineColorAuto : Html.Attribute msg
 outlineColorAuto =
-    Html.Attributes.style "outline-color" "auto"
+    outlineColor "auto"
 
 
-{-| ```
-outlineOffset : String -> Html.Attribute msg
-outlineOffset value =
-    Html.Attributes.style "outline-offset" value
-```
+{-| CSS property `outline-offset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/outline-offset
 -}
@@ -18307,44 +14921,30 @@ outlineOffset value =
 
 
 {-| ```
-outlineOffsetRem : Float -> Html.Attribute msg
-outlineOffsetRem value =
-    Html.Attributes.style
-        "outline-offset"
-        (String.append (String.fromFloat value) "rem")
+outline-offset : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-offset
 -}
 outlineOffsetRem : Float -> Html.Attribute msg
 outlineOffsetRem value =
-    Html.Attributes.style
-        "outline-offset"
-        (String.append (String.fromFloat value) "rem")
+    outlineOffset (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-outlineOffsetPx : Float -> Html.Attribute msg
-outlineOffsetPx value =
-    Html.Attributes.style
-        "outline-offset"
-        (String.append (String.fromFloat value) "px")
+outline-offset : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-offset
 -}
 outlineOffsetPx : Float -> Html.Attribute msg
 outlineOffsetPx value =
-    Html.Attributes.style
-        "outline-offset"
-        (String.append (String.fromFloat value) "px")
+    outlineOffset (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-outlineStyle : String -> Html.Attribute msg
-outlineStyle value =
-    Html.Attributes.style "outline-style" value
-```
+{-| CSS property `outline-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
@@ -18354,153 +14954,129 @@ outlineStyle value =
 
 
 {-| ```
-outlineStyleAuto : Html.Attribute msg
-outlineStyleAuto =
-    Html.Attributes.style "outline-style" "auto"
+outline-style : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleAuto : Html.Attribute msg
 outlineStyleAuto =
-    Html.Attributes.style "outline-style" "auto"
+    outlineStyle "auto"
 
 
 {-| ```
-outlineStyleHidden : Html.Attribute msg
-outlineStyleHidden =
-    Html.Attributes.style "outline-style" "hidden"
+outline-style : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleHidden : Html.Attribute msg
 outlineStyleHidden =
-    Html.Attributes.style "outline-style" "hidden"
+    outlineStyle "hidden"
 
 
 {-| ```
-outlineStyleDashed : Html.Attribute msg
-outlineStyleDashed =
-    Html.Attributes.style "outline-style" "dashed"
+outline-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleDashed : Html.Attribute msg
 outlineStyleDashed =
-    Html.Attributes.style "outline-style" "dashed"
+    outlineStyle "dashed"
 
 
 {-| ```
-outlineStyleDouble : Html.Attribute msg
-outlineStyleDouble =
-    Html.Attributes.style "outline-style" "double"
+outline-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleDouble : Html.Attribute msg
 outlineStyleDouble =
-    Html.Attributes.style "outline-style" "double"
+    outlineStyle "double"
 
 
 {-| ```
-outlineStyleRidge : Html.Attribute msg
-outlineStyleRidge =
-    Html.Attributes.style "outline-style" "ridge"
+outline-style : ridge
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleRidge : Html.Attribute msg
 outlineStyleRidge =
-    Html.Attributes.style "outline-style" "ridge"
+    outlineStyle "ridge"
 
 
 {-| ```
-outlineStyleOutset : Html.Attribute msg
-outlineStyleOutset =
-    Html.Attributes.style "outline-style" "outset"
+outline-style : outset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleOutset : Html.Attribute msg
 outlineStyleOutset =
-    Html.Attributes.style "outline-style" "outset"
+    outlineStyle "outset"
 
 
 {-| ```
-outlineStyleInset : Html.Attribute msg
-outlineStyleInset =
-    Html.Attributes.style "outline-style" "inset"
+outline-style : inset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleInset : Html.Attribute msg
 outlineStyleInset =
-    Html.Attributes.style "outline-style" "inset"
+    outlineStyle "inset"
 
 
 {-| ```
-outlineStyleGroove : Html.Attribute msg
-outlineStyleGroove =
-    Html.Attributes.style "outline-style" "groove"
+outline-style : groove
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleGroove : Html.Attribute msg
 outlineStyleGroove =
-    Html.Attributes.style "outline-style" "groove"
+    outlineStyle "groove"
 
 
 {-| ```
-outlineStyleSolid : Html.Attribute msg
-outlineStyleSolid =
-    Html.Attributes.style "outline-style" "solid"
+outline-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleSolid : Html.Attribute msg
 outlineStyleSolid =
-    Html.Attributes.style "outline-style" "solid"
+    outlineStyle "solid"
 
 
 {-| ```
-outlineStyleDotted : Html.Attribute msg
-outlineStyleDotted =
-    Html.Attributes.style "outline-style" "dotted"
+outline-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleDotted : Html.Attribute msg
 outlineStyleDotted =
-    Html.Attributes.style "outline-style" "dotted"
+    outlineStyle "dotted"
 
 
 {-| ```
-outlineStyleNone : Html.Attribute msg
-outlineStyleNone =
-    Html.Attributes.style "outline-style" "none"
+outline-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-style
 -}
 outlineStyleNone : Html.Attribute msg
 outlineStyleNone =
-    Html.Attributes.style "outline-style" "none"
+    outlineStyle "none"
 
 
-{-| ```
-outlineWidth : String -> Html.Attribute msg
-outlineWidth value =
-    Html.Attributes.style "outline-width" value
-```
+{-| CSS property `outline-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
@@ -18510,83 +15086,63 @@ outlineWidth value =
 
 
 {-| ```
-outlineWidthThin : Html.Attribute msg
-outlineWidthThin =
-    Html.Attributes.style "outline-width" "thin"
+outline-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
 outlineWidthThin : Html.Attribute msg
 outlineWidthThin =
-    Html.Attributes.style "outline-width" "thin"
+    outlineWidth "thin"
 
 
 {-| ```
-outlineWidthThick : Html.Attribute msg
-outlineWidthThick =
-    Html.Attributes.style "outline-width" "thick"
+outline-width : thick
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
 outlineWidthThick : Html.Attribute msg
 outlineWidthThick =
-    Html.Attributes.style "outline-width" "thick"
+    outlineWidth "thick"
 
 
 {-| ```
-outlineWidthMedium : Html.Attribute msg
-outlineWidthMedium =
-    Html.Attributes.style "outline-width" "medium"
+outline-width : medium
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
 outlineWidthMedium : Html.Attribute msg
 outlineWidthMedium =
-    Html.Attributes.style "outline-width" "medium"
+    outlineWidth "medium"
 
 
 {-| ```
-outlineWidthPx : Float -> Html.Attribute msg
-outlineWidthPx value =
-    Html.Attributes.style
-        "outline-width"
-        (String.append (String.fromFloat value) "px")
+outline-width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
 outlineWidthPx : Float -> Html.Attribute msg
 outlineWidthPx value =
-    Html.Attributes.style
-        "outline-width"
-        (String.append (String.fromFloat value) "px")
+    outlineWidth (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-outlineWidthRem : Float -> Html.Attribute msg
-outlineWidthRem value =
-    Html.Attributes.style
-        "outline-width"
-        (String.append (String.fromFloat value) "rem")
+outline-width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/outline-width
 -}
 outlineWidthRem : Float -> Html.Attribute msg
 outlineWidthRem value =
-    Html.Attributes.style
-        "outline-width"
-        (String.append (String.fromFloat value) "rem")
+    outlineWidth (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-overflow : String -> Html.Attribute msg
-overflow value =
-    Html.Attributes.style "overflow" value
-```
+{-| CSS property `overflow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
@@ -18596,174 +15152,138 @@ overflow value =
 
 
 {-| ```
-overflowHidden : Html.Attribute msg
-overflowHidden =
-    Html.Attributes.style "overflow" "hidden"
+overflow : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
 overflowHidden : Html.Attribute msg
 overflowHidden =
-    Html.Attributes.style "overflow" "hidden"
+    overflow "hidden"
 
 
 {-| ```
-overflowScroll : Html.Attribute msg
-overflowScroll =
-    Html.Attributes.style "overflow" "scroll"
+overflow : scroll
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
 overflowScroll : Html.Attribute msg
 overflowScroll =
-    Html.Attributes.style "overflow" "scroll"
+    overflow "scroll"
 
 
 {-| ```
-overflowAuto : Html.Attribute msg
-overflowAuto =
-    Html.Attributes.style "overflow" "auto"
+overflow : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
 overflowAuto : Html.Attribute msg
 overflowAuto =
-    Html.Attributes.style "overflow" "auto"
+    overflow "auto"
 
 
 {-| ```
-overflowClip : Html.Attribute msg
-overflowClip =
-    Html.Attributes.style "overflow" "clip"
+overflow : clip
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
 overflowClip : Html.Attribute msg
 overflowClip =
-    Html.Attributes.style "overflow" "clip"
+    overflow "clip"
 
 
 {-| ```
-overflowVisible : Html.Attribute msg
-overflowVisible =
-    Html.Attributes.style "overflow" "visible"
+overflow : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow
 -}
 overflowVisible : Html.Attribute msg
 overflowVisible =
-    Html.Attributes.style "overflow" "visible"
+    overflow "visible"
 
 
-{-| ```
-overflowAnchor : String -> Html.Attribute msg
-overflowAnchor value =
-    Html.Attributes.style "overflow-anchor" value
-```
--}
+{-| CSS property `overflow-anchor` -}
 overflowAnchor : String -> Html.Attribute msg
 overflowAnchor value =
     Html.Attributes.style "overflow-anchor" value
 
 
 {-| ```
-overflowAnchorAuto : Html.Attribute msg
-overflowAnchorAuto =
-    Html.Attributes.style "overflow-anchor" "auto"
+overflow-anchor : auto
 ```
 -}
 overflowAnchorAuto : Html.Attribute msg
 overflowAnchorAuto =
-    Html.Attributes.style "overflow-anchor" "auto"
+    overflowAnchor "auto"
 
 
 {-| ```
-overflowAnchorNone : Html.Attribute msg
-overflowAnchorNone =
-    Html.Attributes.style "overflow-anchor" "none"
+overflow-anchor : none
 ```
 -}
 overflowAnchorNone : Html.Attribute msg
 overflowAnchorNone =
-    Html.Attributes.style "overflow-anchor" "none"
+    overflowAnchor "none"
 
 
-{-| ```
-overflowBlock : String -> Html.Attribute msg
-overflowBlock value =
-    Html.Attributes.style "overflow-block" value
-```
--}
+{-| CSS property `overflow-block` -}
 overflowBlock : String -> Html.Attribute msg
 overflowBlock value =
     Html.Attributes.style "overflow-block" value
 
 
 {-| ```
-overflowBlockVisible : Html.Attribute msg
-overflowBlockVisible =
-    Html.Attributes.style "overflow-block" "visible"
+overflow-block : visible
 ```
 -}
 overflowBlockVisible : Html.Attribute msg
 overflowBlockVisible =
-    Html.Attributes.style "overflow-block" "visible"
+    overflowBlock "visible"
 
 
 {-| ```
-overflowBlockClip : Html.Attribute msg
-overflowBlockClip =
-    Html.Attributes.style "overflow-block" "clip"
+overflow-block : clip
 ```
 -}
 overflowBlockClip : Html.Attribute msg
 overflowBlockClip =
-    Html.Attributes.style "overflow-block" "clip"
+    overflowBlock "clip"
 
 
 {-| ```
-overflowBlockAuto : Html.Attribute msg
-overflowBlockAuto =
-    Html.Attributes.style "overflow-block" "auto"
+overflow-block : auto
 ```
 -}
 overflowBlockAuto : Html.Attribute msg
 overflowBlockAuto =
-    Html.Attributes.style "overflow-block" "auto"
+    overflowBlock "auto"
 
 
 {-| ```
-overflowBlockScroll : Html.Attribute msg
-overflowBlockScroll =
-    Html.Attributes.style "overflow-block" "scroll"
+overflow-block : scroll
 ```
 -}
 overflowBlockScroll : Html.Attribute msg
 overflowBlockScroll =
-    Html.Attributes.style "overflow-block" "scroll"
+    overflowBlock "scroll"
 
 
 {-| ```
-overflowBlockHidden : Html.Attribute msg
-overflowBlockHidden =
-    Html.Attributes.style "overflow-block" "hidden"
+overflow-block : hidden
 ```
 -}
 overflowBlockHidden : Html.Attribute msg
 overflowBlockHidden =
-    Html.Attributes.style "overflow-block" "hidden"
+    overflowBlock "hidden"
 
 
-{-| ```
-overflowClipBox : String -> Html.Attribute msg
-overflowClipBox value =
-    Html.Attributes.style "overflow-clip-box" value
-```
+{-| CSS property `overflow-clip-box`
+
+
 
 https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box
 -}
@@ -18773,113 +15293,87 @@ overflowClipBox value =
 
 
 {-| ```
-overflowClipBoxPaddingBox : Html.Attribute msg
-overflowClipBoxPaddingBox =
-    Html.Attributes.style "overflow-clip-box" "padding-box"
+overflow-clip-box : padding-box
 ```
 
 https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box
 -}
 overflowClipBoxPaddingBox : Html.Attribute msg
 overflowClipBoxPaddingBox =
-    Html.Attributes.style "overflow-clip-box" "padding-box"
+    overflowClipBox "padding-box"
 
 
 {-| ```
-overflowClipBoxContentBox : Html.Attribute msg
-overflowClipBoxContentBox =
-    Html.Attributes.style "overflow-clip-box" "content-box"
+overflow-clip-box : content-box
 ```
 
 https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box
 -}
 overflowClipBoxContentBox : Html.Attribute msg
 overflowClipBoxContentBox =
-    Html.Attributes.style "overflow-clip-box" "content-box"
+    overflowClipBox "content-box"
 
 
-{-| ```
-overflowClipMargin : String -> Html.Attribute msg
-overflowClipMargin value =
-    Html.Attributes.style "overflow-clip-margin" value
-```
--}
+{-| CSS property `overflow-clip-margin` -}
 overflowClipMargin : String -> Html.Attribute msg
 overflowClipMargin value =
     Html.Attributes.style "overflow-clip-margin" value
 
 
-{-| ```
-overflowInline : String -> Html.Attribute msg
-overflowInline value =
-    Html.Attributes.style "overflow-inline" value
-```
--}
+{-| CSS property `overflow-inline` -}
 overflowInline : String -> Html.Attribute msg
 overflowInline value =
     Html.Attributes.style "overflow-inline" value
 
 
 {-| ```
-overflowInlineVisible : Html.Attribute msg
-overflowInlineVisible =
-    Html.Attributes.style "overflow-inline" "visible"
+overflow-inline : visible
 ```
 -}
 overflowInlineVisible : Html.Attribute msg
 overflowInlineVisible =
-    Html.Attributes.style "overflow-inline" "visible"
+    overflowInline "visible"
 
 
 {-| ```
-overflowInlineClip : Html.Attribute msg
-overflowInlineClip =
-    Html.Attributes.style "overflow-inline" "clip"
+overflow-inline : clip
 ```
 -}
 overflowInlineClip : Html.Attribute msg
 overflowInlineClip =
-    Html.Attributes.style "overflow-inline" "clip"
+    overflowInline "clip"
 
 
 {-| ```
-overflowInlineAuto : Html.Attribute msg
-overflowInlineAuto =
-    Html.Attributes.style "overflow-inline" "auto"
+overflow-inline : auto
 ```
 -}
 overflowInlineAuto : Html.Attribute msg
 overflowInlineAuto =
-    Html.Attributes.style "overflow-inline" "auto"
+    overflowInline "auto"
 
 
 {-| ```
-overflowInlineScroll : Html.Attribute msg
-overflowInlineScroll =
-    Html.Attributes.style "overflow-inline" "scroll"
+overflow-inline : scroll
 ```
 -}
 overflowInlineScroll : Html.Attribute msg
 overflowInlineScroll =
-    Html.Attributes.style "overflow-inline" "scroll"
+    overflowInline "scroll"
 
 
 {-| ```
-overflowInlineHidden : Html.Attribute msg
-overflowInlineHidden =
-    Html.Attributes.style "overflow-inline" "hidden"
+overflow-inline : hidden
 ```
 -}
 overflowInlineHidden : Html.Attribute msg
 overflowInlineHidden =
-    Html.Attributes.style "overflow-inline" "hidden"
+    overflowInline "hidden"
 
 
-{-| ```
-overflowWrap : String -> Html.Attribute msg
-overflowWrap value =
-    Html.Attributes.style "overflow-wrap" value
-```
+{-| CSS property `overflow-wrap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
@@ -18889,49 +15383,41 @@ overflowWrap value =
 
 
 {-| ```
-overflowWrapNormal : Html.Attribute msg
-overflowWrapNormal =
-    Html.Attributes.style "overflow-wrap" "normal"
+overflow-wrap : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
 overflowWrapNormal : Html.Attribute msg
 overflowWrapNormal =
-    Html.Attributes.style "overflow-wrap" "normal"
+    overflowWrap "normal"
 
 
 {-| ```
-overflowWrapAnywhere : Html.Attribute msg
-overflowWrapAnywhere =
-    Html.Attributes.style "overflow-wrap" "anywhere"
+overflow-wrap : anywhere
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
 overflowWrapAnywhere : Html.Attribute msg
 overflowWrapAnywhere =
-    Html.Attributes.style "overflow-wrap" "anywhere"
+    overflowWrap "anywhere"
 
 
 {-| ```
-overflowWrapBreakWord : Html.Attribute msg
-overflowWrapBreakWord =
-    Html.Attributes.style "overflow-wrap" "break-word"
+overflow-wrap : break-word
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
 overflowWrapBreakWord : Html.Attribute msg
 overflowWrapBreakWord =
-    Html.Attributes.style "overflow-wrap" "break-word"
+    overflowWrap "break-word"
 
 
-{-| ```
-overflowX : String -> Html.Attribute msg
-overflowX value =
-    Html.Attributes.style "overflow-x" value
-```
+{-| CSS property `overflow-x`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
@@ -18941,75 +15427,63 @@ overflowX value =
 
 
 {-| ```
-overflowXVisible : Html.Attribute msg
-overflowXVisible =
-    Html.Attributes.style "overflow-x" "visible"
+overflow-x : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
 overflowXVisible : Html.Attribute msg
 overflowXVisible =
-    Html.Attributes.style "overflow-x" "visible"
+    overflowX "visible"
 
 
 {-| ```
-overflowXClip : Html.Attribute msg
-overflowXClip =
-    Html.Attributes.style "overflow-x" "clip"
+overflow-x : clip
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
 overflowXClip : Html.Attribute msg
 overflowXClip =
-    Html.Attributes.style "overflow-x" "clip"
+    overflowX "clip"
 
 
 {-| ```
-overflowXAuto : Html.Attribute msg
-overflowXAuto =
-    Html.Attributes.style "overflow-x" "auto"
+overflow-x : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
 overflowXAuto : Html.Attribute msg
 overflowXAuto =
-    Html.Attributes.style "overflow-x" "auto"
+    overflowX "auto"
 
 
 {-| ```
-overflowXScroll : Html.Attribute msg
-overflowXScroll =
-    Html.Attributes.style "overflow-x" "scroll"
+overflow-x : scroll
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
 overflowXScroll : Html.Attribute msg
 overflowXScroll =
-    Html.Attributes.style "overflow-x" "scroll"
+    overflowX "scroll"
 
 
 {-| ```
-overflowXHidden : Html.Attribute msg
-overflowXHidden =
-    Html.Attributes.style "overflow-x" "hidden"
+overflow-x : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-x
 -}
 overflowXHidden : Html.Attribute msg
 overflowXHidden =
-    Html.Attributes.style "overflow-x" "hidden"
+    overflowX "hidden"
 
 
-{-| ```
-overflowY : String -> Html.Attribute msg
-overflowY value =
-    Html.Attributes.style "overflow-y" value
-```
+{-| CSS property `overflow-y`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
@@ -19019,75 +15493,63 @@ overflowY value =
 
 
 {-| ```
-overflowYVisible : Html.Attribute msg
-overflowYVisible =
-    Html.Attributes.style "overflow-y" "visible"
+overflow-y : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
 overflowYVisible : Html.Attribute msg
 overflowYVisible =
-    Html.Attributes.style "overflow-y" "visible"
+    overflowY "visible"
 
 
 {-| ```
-overflowYClip : Html.Attribute msg
-overflowYClip =
-    Html.Attributes.style "overflow-y" "clip"
+overflow-y : clip
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
 overflowYClip : Html.Attribute msg
 overflowYClip =
-    Html.Attributes.style "overflow-y" "clip"
+    overflowY "clip"
 
 
 {-| ```
-overflowYAuto : Html.Attribute msg
-overflowYAuto =
-    Html.Attributes.style "overflow-y" "auto"
+overflow-y : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
 overflowYAuto : Html.Attribute msg
 overflowYAuto =
-    Html.Attributes.style "overflow-y" "auto"
+    overflowY "auto"
 
 
 {-| ```
-overflowYScroll : Html.Attribute msg
-overflowYScroll =
-    Html.Attributes.style "overflow-y" "scroll"
+overflow-y : scroll
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
 overflowYScroll : Html.Attribute msg
 overflowYScroll =
-    Html.Attributes.style "overflow-y" "scroll"
+    overflowY "scroll"
 
 
 {-| ```
-overflowYHidden : Html.Attribute msg
-overflowYHidden =
-    Html.Attributes.style "overflow-y" "hidden"
+overflow-y : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-y
 -}
 overflowYHidden : Html.Attribute msg
 overflowYHidden =
-    Html.Attributes.style "overflow-y" "hidden"
+    overflowY "hidden"
 
 
-{-| ```
-overlay : String -> Html.Attribute msg
-overlay value =
-    Html.Attributes.style "overlay" value
-```
+{-| CSS property `overlay`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overlay
 -}
@@ -19097,36 +15559,30 @@ overlay value =
 
 
 {-| ```
-overlayNone : Html.Attribute msg
-overlayNone =
-    Html.Attributes.style "overlay" "none"
+overlay : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overlay
 -}
 overlayNone : Html.Attribute msg
 overlayNone =
-    Html.Attributes.style "overlay" "none"
+    overlay "none"
 
 
 {-| ```
-overlayAuto : Html.Attribute msg
-overlayAuto =
-    Html.Attributes.style "overlay" "auto"
+overlay : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overlay
 -}
 overlayAuto : Html.Attribute msg
 overlayAuto =
-    Html.Attributes.style "overlay" "auto"
+    overlay "auto"
 
 
-{-| ```
-overscrollBehavior : String -> Html.Attribute msg
-overscrollBehavior value =
-    Html.Attributes.style "overscroll-behavior" value
-```
+{-| CSS property `overscroll-behavior`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior
 -}
@@ -19136,49 +15592,41 @@ overscrollBehavior value =
 
 
 {-| ```
-overscrollBehaviorNone : Html.Attribute msg
-overscrollBehaviorNone =
-    Html.Attributes.style "overscroll-behavior" "none"
+overscroll-behavior : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior
 -}
 overscrollBehaviorNone : Html.Attribute msg
 overscrollBehaviorNone =
-    Html.Attributes.style "overscroll-behavior" "none"
+    overscrollBehavior "none"
 
 
 {-| ```
-overscrollBehaviorAuto : Html.Attribute msg
-overscrollBehaviorAuto =
-    Html.Attributes.style "overscroll-behavior" "auto"
+overscroll-behavior : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior
 -}
 overscrollBehaviorAuto : Html.Attribute msg
 overscrollBehaviorAuto =
-    Html.Attributes.style "overscroll-behavior" "auto"
+    overscrollBehavior "auto"
 
 
 {-| ```
-overscrollBehaviorContain : Html.Attribute msg
-overscrollBehaviorContain =
-    Html.Attributes.style "overscroll-behavior" "contain"
+overscroll-behavior : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior
 -}
 overscrollBehaviorContain : Html.Attribute msg
 overscrollBehaviorContain =
-    Html.Attributes.style "overscroll-behavior" "contain"
+    overscrollBehavior "contain"
 
 
-{-| ```
-overscrollBehaviorBlock : String -> Html.Attribute msg
-overscrollBehaviorBlock value =
-    Html.Attributes.style "overscroll-behavior-block" value
-```
+{-| CSS property `overscroll-behavior-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block
 -}
@@ -19188,49 +15636,41 @@ overscrollBehaviorBlock value =
 
 
 {-| ```
-overscrollBehaviorBlockContain : Html.Attribute msg
-overscrollBehaviorBlockContain =
-    Html.Attributes.style "overscroll-behavior-block" "contain"
+overscroll-behavior-block : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block
 -}
 overscrollBehaviorBlockContain : Html.Attribute msg
 overscrollBehaviorBlockContain =
-    Html.Attributes.style "overscroll-behavior-block" "contain"
+    overscrollBehaviorBlock "contain"
 
 
 {-| ```
-overscrollBehaviorBlockAuto : Html.Attribute msg
-overscrollBehaviorBlockAuto =
-    Html.Attributes.style "overscroll-behavior-block" "auto"
+overscroll-behavior-block : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block
 -}
 overscrollBehaviorBlockAuto : Html.Attribute msg
 overscrollBehaviorBlockAuto =
-    Html.Attributes.style "overscroll-behavior-block" "auto"
+    overscrollBehaviorBlock "auto"
 
 
 {-| ```
-overscrollBehaviorBlockNone : Html.Attribute msg
-overscrollBehaviorBlockNone =
-    Html.Attributes.style "overscroll-behavior-block" "none"
+overscroll-behavior-block : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block
 -}
 overscrollBehaviorBlockNone : Html.Attribute msg
 overscrollBehaviorBlockNone =
-    Html.Attributes.style "overscroll-behavior-block" "none"
+    overscrollBehaviorBlock "none"
 
 
-{-| ```
-overscrollBehaviorInline : String -> Html.Attribute msg
-overscrollBehaviorInline value =
-    Html.Attributes.style "overscroll-behavior-inline" value
-```
+{-| CSS property `overscroll-behavior-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline
 -}
@@ -19240,49 +15680,41 @@ overscrollBehaviorInline value =
 
 
 {-| ```
-overscrollBehaviorInlineContain : Html.Attribute msg
-overscrollBehaviorInlineContain =
-    Html.Attributes.style "overscroll-behavior-inline" "contain"
+overscroll-behavior-inline : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline
 -}
 overscrollBehaviorInlineContain : Html.Attribute msg
 overscrollBehaviorInlineContain =
-    Html.Attributes.style "overscroll-behavior-inline" "contain"
+    overscrollBehaviorInline "contain"
 
 
 {-| ```
-overscrollBehaviorInlineAuto : Html.Attribute msg
-overscrollBehaviorInlineAuto =
-    Html.Attributes.style "overscroll-behavior-inline" "auto"
+overscroll-behavior-inline : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline
 -}
 overscrollBehaviorInlineAuto : Html.Attribute msg
 overscrollBehaviorInlineAuto =
-    Html.Attributes.style "overscroll-behavior-inline" "auto"
+    overscrollBehaviorInline "auto"
 
 
 {-| ```
-overscrollBehaviorInlineNone : Html.Attribute msg
-overscrollBehaviorInlineNone =
-    Html.Attributes.style "overscroll-behavior-inline" "none"
+overscroll-behavior-inline : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline
 -}
 overscrollBehaviorInlineNone : Html.Attribute msg
 overscrollBehaviorInlineNone =
-    Html.Attributes.style "overscroll-behavior-inline" "none"
+    overscrollBehaviorInline "none"
 
 
-{-| ```
-overscrollBehaviorX : String -> Html.Attribute msg
-overscrollBehaviorX value =
-    Html.Attributes.style "overscroll-behavior-x" value
-```
+{-| CSS property `overscroll-behavior-x`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x
 -}
@@ -19292,49 +15724,41 @@ overscrollBehaviorX value =
 
 
 {-| ```
-overscrollBehaviorXContain : Html.Attribute msg
-overscrollBehaviorXContain =
-    Html.Attributes.style "overscroll-behavior-x" "contain"
+overscroll-behavior-x : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x
 -}
 overscrollBehaviorXContain : Html.Attribute msg
 overscrollBehaviorXContain =
-    Html.Attributes.style "overscroll-behavior-x" "contain"
+    overscrollBehaviorX "contain"
 
 
 {-| ```
-overscrollBehaviorXAuto : Html.Attribute msg
-overscrollBehaviorXAuto =
-    Html.Attributes.style "overscroll-behavior-x" "auto"
+overscroll-behavior-x : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x
 -}
 overscrollBehaviorXAuto : Html.Attribute msg
 overscrollBehaviorXAuto =
-    Html.Attributes.style "overscroll-behavior-x" "auto"
+    overscrollBehaviorX "auto"
 
 
 {-| ```
-overscrollBehaviorXNone : Html.Attribute msg
-overscrollBehaviorXNone =
-    Html.Attributes.style "overscroll-behavior-x" "none"
+overscroll-behavior-x : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x
 -}
 overscrollBehaviorXNone : Html.Attribute msg
 overscrollBehaviorXNone =
-    Html.Attributes.style "overscroll-behavior-x" "none"
+    overscrollBehaviorX "none"
 
 
-{-| ```
-overscrollBehaviorY : String -> Html.Attribute msg
-overscrollBehaviorY value =
-    Html.Attributes.style "overscroll-behavior-y" value
-```
+{-| CSS property `overscroll-behavior-y`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y
 -}
@@ -19344,49 +15768,41 @@ overscrollBehaviorY value =
 
 
 {-| ```
-overscrollBehaviorYContain : Html.Attribute msg
-overscrollBehaviorYContain =
-    Html.Attributes.style "overscroll-behavior-y" "contain"
+overscroll-behavior-y : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y
 -}
 overscrollBehaviorYContain : Html.Attribute msg
 overscrollBehaviorYContain =
-    Html.Attributes.style "overscroll-behavior-y" "contain"
+    overscrollBehaviorY "contain"
 
 
 {-| ```
-overscrollBehaviorYAuto : Html.Attribute msg
-overscrollBehaviorYAuto =
-    Html.Attributes.style "overscroll-behavior-y" "auto"
+overscroll-behavior-y : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y
 -}
 overscrollBehaviorYAuto : Html.Attribute msg
 overscrollBehaviorYAuto =
-    Html.Attributes.style "overscroll-behavior-y" "auto"
+    overscrollBehaviorY "auto"
 
 
 {-| ```
-overscrollBehaviorYNone : Html.Attribute msg
-overscrollBehaviorYNone =
-    Html.Attributes.style "overscroll-behavior-y" "none"
+overscroll-behavior-y : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y
 -}
 overscrollBehaviorYNone : Html.Attribute msg
 overscrollBehaviorYNone =
-    Html.Attributes.style "overscroll-behavior-y" "none"
+    overscrollBehaviorY "none"
 
 
-{-| ```
-padding : String -> Html.Attribute msg
-padding value =
-    Html.Attributes.style "padding" value
-```
+{-| CSS property `padding`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding
 -}
@@ -19396,44 +15812,30 @@ padding value =
 
 
 {-| ```
-paddingPx : Float -> Html.Attribute msg
-paddingPx value =
-    Html.Attributes.style
-        "padding"
-        (String.append (String.fromFloat value) "px")
+padding : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding
 -}
 paddingPx : Float -> Html.Attribute msg
 paddingPx value =
-    Html.Attributes.style
-        "padding"
-        (String.append (String.fromFloat value) "px")
+    padding (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingRem : Float -> Html.Attribute msg
-paddingRem value =
-    Html.Attributes.style
-        "padding"
-        (String.append (String.fromFloat value) "rem")
+padding : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding
 -}
 paddingRem : Float -> Html.Attribute msg
 paddingRem value =
-    Html.Attributes.style
-        "padding"
-        (String.append (String.fromFloat value) "rem")
+    padding (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingBlock : String -> Html.Attribute msg
-paddingBlock value =
-    Html.Attributes.style "padding-block" value
-```
+{-| CSS property `padding-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block
 -}
@@ -19443,44 +15845,30 @@ paddingBlock value =
 
 
 {-| ```
-paddingBlockPx : Float -> Html.Attribute msg
-paddingBlockPx value =
-    Html.Attributes.style
-        "padding-block"
-        (String.append (String.fromFloat value) "px")
+padding-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block
 -}
 paddingBlockPx : Float -> Html.Attribute msg
 paddingBlockPx value =
-    Html.Attributes.style
-        "padding-block"
-        (String.append (String.fromFloat value) "px")
+    paddingBlock (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingBlockRem : Float -> Html.Attribute msg
-paddingBlockRem value =
-    Html.Attributes.style
-        "padding-block"
-        (String.append (String.fromFloat value) "rem")
+padding-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block
 -}
 paddingBlockRem : Float -> Html.Attribute msg
 paddingBlockRem value =
-    Html.Attributes.style
-        "padding-block"
-        (String.append (String.fromFloat value) "rem")
+    paddingBlock (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingBlockEnd : String -> Html.Attribute msg
-paddingBlockEnd value =
-    Html.Attributes.style "padding-block-end" value
-```
+{-| CSS property `padding-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-end
 -}
@@ -19490,44 +15878,30 @@ paddingBlockEnd value =
 
 
 {-| ```
-paddingBlockEndPx : Float -> Html.Attribute msg
-paddingBlockEndPx value =
-    Html.Attributes.style
-        "padding-block-end"
-        (String.append (String.fromFloat value) "px")
+padding-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-end
 -}
 paddingBlockEndPx : Float -> Html.Attribute msg
 paddingBlockEndPx value =
-    Html.Attributes.style
-        "padding-block-end"
-        (String.append (String.fromFloat value) "px")
+    paddingBlockEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingBlockEndRem : Float -> Html.Attribute msg
-paddingBlockEndRem value =
-    Html.Attributes.style
-        "padding-block-end"
-        (String.append (String.fromFloat value) "rem")
+padding-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-end
 -}
 paddingBlockEndRem : Float -> Html.Attribute msg
 paddingBlockEndRem value =
-    Html.Attributes.style
-        "padding-block-end"
-        (String.append (String.fromFloat value) "rem")
+    paddingBlockEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingBlockStart : String -> Html.Attribute msg
-paddingBlockStart value =
-    Html.Attributes.style "padding-block-start" value
-```
+{-| CSS property `padding-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-start
 -}
@@ -19537,44 +15911,30 @@ paddingBlockStart value =
 
 
 {-| ```
-paddingBlockStartPx : Float -> Html.Attribute msg
-paddingBlockStartPx value =
-    Html.Attributes.style
-        "padding-block-start"
-        (String.append (String.fromFloat value) "px")
+padding-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-start
 -}
 paddingBlockStartPx : Float -> Html.Attribute msg
 paddingBlockStartPx value =
-    Html.Attributes.style
-        "padding-block-start"
-        (String.append (String.fromFloat value) "px")
+    paddingBlockStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingBlockStartRem : Float -> Html.Attribute msg
-paddingBlockStartRem value =
-    Html.Attributes.style
-        "padding-block-start"
-        (String.append (String.fromFloat value) "rem")
+padding-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-block-start
 -}
 paddingBlockStartRem : Float -> Html.Attribute msg
 paddingBlockStartRem value =
-    Html.Attributes.style
-        "padding-block-start"
-        (String.append (String.fromFloat value) "rem")
+    paddingBlockStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingBottom : String -> Html.Attribute msg
-paddingBottom value =
-    Html.Attributes.style "padding-bottom" value
-```
+{-| CSS property `padding-bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-bottom
 -}
@@ -19584,44 +15944,30 @@ paddingBottom value =
 
 
 {-| ```
-paddingBottomRem : Float -> Html.Attribute msg
-paddingBottomRem value =
-    Html.Attributes.style
-        "padding-bottom"
-        (String.append (String.fromFloat value) "rem")
+padding-bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-bottom
 -}
 paddingBottomRem : Float -> Html.Attribute msg
 paddingBottomRem value =
-    Html.Attributes.style
-        "padding-bottom"
-        (String.append (String.fromFloat value) "rem")
+    paddingBottom (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-paddingBottomPx : Float -> Html.Attribute msg
-paddingBottomPx value =
-    Html.Attributes.style
-        "padding-bottom"
-        (String.append (String.fromFloat value) "px")
+padding-bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-bottom
 -}
 paddingBottomPx : Float -> Html.Attribute msg
 paddingBottomPx value =
-    Html.Attributes.style
-        "padding-bottom"
-        (String.append (String.fromFloat value) "px")
+    paddingBottom (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-paddingInline : String -> Html.Attribute msg
-paddingInline value =
-    Html.Attributes.style "padding-inline" value
-```
+{-| CSS property `padding-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline
 -}
@@ -19631,44 +15977,30 @@ paddingInline value =
 
 
 {-| ```
-paddingInlinePx : Float -> Html.Attribute msg
-paddingInlinePx value =
-    Html.Attributes.style
-        "padding-inline"
-        (String.append (String.fromFloat value) "px")
+padding-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline
 -}
 paddingInlinePx : Float -> Html.Attribute msg
 paddingInlinePx value =
-    Html.Attributes.style
-        "padding-inline"
-        (String.append (String.fromFloat value) "px")
+    paddingInline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingInlineRem : Float -> Html.Attribute msg
-paddingInlineRem value =
-    Html.Attributes.style
-        "padding-inline"
-        (String.append (String.fromFloat value) "rem")
+padding-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline
 -}
 paddingInlineRem : Float -> Html.Attribute msg
 paddingInlineRem value =
-    Html.Attributes.style
-        "padding-inline"
-        (String.append (String.fromFloat value) "rem")
+    paddingInline (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingInlineEnd : String -> Html.Attribute msg
-paddingInlineEnd value =
-    Html.Attributes.style "padding-inline-end" value
-```
+{-| CSS property `padding-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-end
 -}
@@ -19678,44 +16010,30 @@ paddingInlineEnd value =
 
 
 {-| ```
-paddingInlineEndPx : Float -> Html.Attribute msg
-paddingInlineEndPx value =
-    Html.Attributes.style
-        "padding-inline-end"
-        (String.append (String.fromFloat value) "px")
+padding-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-end
 -}
 paddingInlineEndPx : Float -> Html.Attribute msg
 paddingInlineEndPx value =
-    Html.Attributes.style
-        "padding-inline-end"
-        (String.append (String.fromFloat value) "px")
+    paddingInlineEnd (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingInlineEndRem : Float -> Html.Attribute msg
-paddingInlineEndRem value =
-    Html.Attributes.style
-        "padding-inline-end"
-        (String.append (String.fromFloat value) "rem")
+padding-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-end
 -}
 paddingInlineEndRem : Float -> Html.Attribute msg
 paddingInlineEndRem value =
-    Html.Attributes.style
-        "padding-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    paddingInlineEnd (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingInlineStart : String -> Html.Attribute msg
-paddingInlineStart value =
-    Html.Attributes.style "padding-inline-start" value
-```
+{-| CSS property `padding-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-start
 -}
@@ -19725,44 +16043,30 @@ paddingInlineStart value =
 
 
 {-| ```
-paddingInlineStartPx : Float -> Html.Attribute msg
-paddingInlineStartPx value =
-    Html.Attributes.style
-        "padding-inline-start"
-        (String.append (String.fromFloat value) "px")
+padding-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-start
 -}
 paddingInlineStartPx : Float -> Html.Attribute msg
 paddingInlineStartPx value =
-    Html.Attributes.style
-        "padding-inline-start"
-        (String.append (String.fromFloat value) "px")
+    paddingInlineStart (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-paddingInlineStartRem : Float -> Html.Attribute msg
-paddingInlineStartRem value =
-    Html.Attributes.style
-        "padding-inline-start"
-        (String.append (String.fromFloat value) "rem")
+padding-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-inline-start
 -}
 paddingInlineStartRem : Float -> Html.Attribute msg
 paddingInlineStartRem value =
-    Html.Attributes.style
-        "padding-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    paddingInlineStart (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-paddingLeft : String -> Html.Attribute msg
-paddingLeft value =
-    Html.Attributes.style "padding-left" value
-```
+{-| CSS property `padding-left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-left
 -}
@@ -19772,44 +16076,30 @@ paddingLeft value =
 
 
 {-| ```
-paddingLeftRem : Float -> Html.Attribute msg
-paddingLeftRem value =
-    Html.Attributes.style
-        "padding-left"
-        (String.append (String.fromFloat value) "rem")
+padding-left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-left
 -}
 paddingLeftRem : Float -> Html.Attribute msg
 paddingLeftRem value =
-    Html.Attributes.style
-        "padding-left"
-        (String.append (String.fromFloat value) "rem")
+    paddingLeft (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-paddingLeftPx : Float -> Html.Attribute msg
-paddingLeftPx value =
-    Html.Attributes.style
-        "padding-left"
-        (String.append (String.fromFloat value) "px")
+padding-left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-left
 -}
 paddingLeftPx : Float -> Html.Attribute msg
 paddingLeftPx value =
-    Html.Attributes.style
-        "padding-left"
-        (String.append (String.fromFloat value) "px")
+    paddingLeft (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-paddingRight : String -> Html.Attribute msg
-paddingRight value =
-    Html.Attributes.style "padding-right" value
-```
+{-| CSS property `padding-right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-right
 -}
@@ -19819,44 +16109,30 @@ paddingRight value =
 
 
 {-| ```
-paddingRightRem : Float -> Html.Attribute msg
-paddingRightRem value =
-    Html.Attributes.style
-        "padding-right"
-        (String.append (String.fromFloat value) "rem")
+padding-right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-right
 -}
 paddingRightRem : Float -> Html.Attribute msg
 paddingRightRem value =
-    Html.Attributes.style
-        "padding-right"
-        (String.append (String.fromFloat value) "rem")
+    paddingRight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-paddingRightPx : Float -> Html.Attribute msg
-paddingRightPx value =
-    Html.Attributes.style
-        "padding-right"
-        (String.append (String.fromFloat value) "px")
+padding-right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-right
 -}
 paddingRightPx : Float -> Html.Attribute msg
 paddingRightPx value =
-    Html.Attributes.style
-        "padding-right"
-        (String.append (String.fromFloat value) "px")
+    paddingRight (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-paddingTop : String -> Html.Attribute msg
-paddingTop value =
-    Html.Attributes.style "padding-top" value
-```
+{-| CSS property `padding-top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/padding-top
 -}
@@ -19866,44 +16142,30 @@ paddingTop value =
 
 
 {-| ```
-paddingTopRem : Float -> Html.Attribute msg
-paddingTopRem value =
-    Html.Attributes.style
-        "padding-top"
-        (String.append (String.fromFloat value) "rem")
+padding-top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-top
 -}
 paddingTopRem : Float -> Html.Attribute msg
 paddingTopRem value =
-    Html.Attributes.style
-        "padding-top"
-        (String.append (String.fromFloat value) "rem")
+    paddingTop (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-paddingTopPx : Float -> Html.Attribute msg
-paddingTopPx value =
-    Html.Attributes.style
-        "padding-top"
-        (String.append (String.fromFloat value) "px")
+padding-top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/padding-top
 -}
 paddingTopPx : Float -> Html.Attribute msg
 paddingTopPx value =
-    Html.Attributes.style
-        "padding-top"
-        (String.append (String.fromFloat value) "px")
+    paddingTop (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-page : String -> Html.Attribute msg
-page value =
-    Html.Attributes.style "page" value
-```
+{-| CSS property `page`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/page
 -}
@@ -19913,23 +16175,19 @@ page value =
 
 
 {-| ```
-pageAuto : Html.Attribute msg
-pageAuto =
-    Html.Attributes.style "page" "auto"
+page : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page
 -}
 pageAuto : Html.Attribute msg
 pageAuto =
-    Html.Attributes.style "page" "auto"
+    page "auto"
 
 
-{-| ```
-pageBreakAfter : String -> Html.Attribute msg
-pageBreakAfter value =
-    Html.Attributes.style "page-break-after" value
-```
+{-| CSS property `page-break-after`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
@@ -19939,101 +16197,85 @@ pageBreakAfter value =
 
 
 {-| ```
-pageBreakAfterAuto : Html.Attribute msg
-pageBreakAfterAuto =
-    Html.Attributes.style "page-break-after" "auto"
+page-break-after : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterAuto : Html.Attribute msg
 pageBreakAfterAuto =
-    Html.Attributes.style "page-break-after" "auto"
+    pageBreakAfter "auto"
 
 
 {-| ```
-pageBreakAfterAvoid : Html.Attribute msg
-pageBreakAfterAvoid =
-    Html.Attributes.style "page-break-after" "avoid"
+page-break-after : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterAvoid : Html.Attribute msg
 pageBreakAfterAvoid =
-    Html.Attributes.style "page-break-after" "avoid"
+    pageBreakAfter "avoid"
 
 
 {-| ```
-pageBreakAfterRight : Html.Attribute msg
-pageBreakAfterRight =
-    Html.Attributes.style "page-break-after" "right"
+page-break-after : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterRight : Html.Attribute msg
 pageBreakAfterRight =
-    Html.Attributes.style "page-break-after" "right"
+    pageBreakAfter "right"
 
 
 {-| ```
-pageBreakAfterVerso : Html.Attribute msg
-pageBreakAfterVerso =
-    Html.Attributes.style "page-break-after" "verso"
+page-break-after : verso
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterVerso : Html.Attribute msg
 pageBreakAfterVerso =
-    Html.Attributes.style "page-break-after" "verso"
+    pageBreakAfter "verso"
 
 
 {-| ```
-pageBreakAfterRecto : Html.Attribute msg
-pageBreakAfterRecto =
-    Html.Attributes.style "page-break-after" "recto"
+page-break-after : recto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterRecto : Html.Attribute msg
 pageBreakAfterRecto =
-    Html.Attributes.style "page-break-after" "recto"
+    pageBreakAfter "recto"
 
 
 {-| ```
-pageBreakAfterLeft : Html.Attribute msg
-pageBreakAfterLeft =
-    Html.Attributes.style "page-break-after" "left"
+page-break-after : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterLeft : Html.Attribute msg
 pageBreakAfterLeft =
-    Html.Attributes.style "page-break-after" "left"
+    pageBreakAfter "left"
 
 
 {-| ```
-pageBreakAfterAlways : Html.Attribute msg
-pageBreakAfterAlways =
-    Html.Attributes.style "page-break-after" "always"
+page-break-after : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-after
 -}
 pageBreakAfterAlways : Html.Attribute msg
 pageBreakAfterAlways =
-    Html.Attributes.style "page-break-after" "always"
+    pageBreakAfter "always"
 
 
-{-| ```
-pageBreakBefore : String -> Html.Attribute msg
-pageBreakBefore value =
-    Html.Attributes.style "page-break-before" value
-```
+{-| CSS property `page-break-before`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
@@ -20043,101 +16285,85 @@ pageBreakBefore value =
 
 
 {-| ```
-pageBreakBeforeAuto : Html.Attribute msg
-pageBreakBeforeAuto =
-    Html.Attributes.style "page-break-before" "auto"
+page-break-before : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeAuto : Html.Attribute msg
 pageBreakBeforeAuto =
-    Html.Attributes.style "page-break-before" "auto"
+    pageBreakBefore "auto"
 
 
 {-| ```
-pageBreakBeforeAvoid : Html.Attribute msg
-pageBreakBeforeAvoid =
-    Html.Attributes.style "page-break-before" "avoid"
+page-break-before : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeAvoid : Html.Attribute msg
 pageBreakBeforeAvoid =
-    Html.Attributes.style "page-break-before" "avoid"
+    pageBreakBefore "avoid"
 
 
 {-| ```
-pageBreakBeforeRight : Html.Attribute msg
-pageBreakBeforeRight =
-    Html.Attributes.style "page-break-before" "right"
+page-break-before : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeRight : Html.Attribute msg
 pageBreakBeforeRight =
-    Html.Attributes.style "page-break-before" "right"
+    pageBreakBefore "right"
 
 
 {-| ```
-pageBreakBeforeVerso : Html.Attribute msg
-pageBreakBeforeVerso =
-    Html.Attributes.style "page-break-before" "verso"
+page-break-before : verso
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeVerso : Html.Attribute msg
 pageBreakBeforeVerso =
-    Html.Attributes.style "page-break-before" "verso"
+    pageBreakBefore "verso"
 
 
 {-| ```
-pageBreakBeforeRecto : Html.Attribute msg
-pageBreakBeforeRecto =
-    Html.Attributes.style "page-break-before" "recto"
+page-break-before : recto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeRecto : Html.Attribute msg
 pageBreakBeforeRecto =
-    Html.Attributes.style "page-break-before" "recto"
+    pageBreakBefore "recto"
 
 
 {-| ```
-pageBreakBeforeLeft : Html.Attribute msg
-pageBreakBeforeLeft =
-    Html.Attributes.style "page-break-before" "left"
+page-break-before : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeLeft : Html.Attribute msg
 pageBreakBeforeLeft =
-    Html.Attributes.style "page-break-before" "left"
+    pageBreakBefore "left"
 
 
 {-| ```
-pageBreakBeforeAlways : Html.Attribute msg
-pageBreakBeforeAlways =
-    Html.Attributes.style "page-break-before" "always"
+page-break-before : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-before
 -}
 pageBreakBeforeAlways : Html.Attribute msg
 pageBreakBeforeAlways =
-    Html.Attributes.style "page-break-before" "always"
+    pageBreakBefore "always"
 
 
-{-| ```
-pageBreakInside : String -> Html.Attribute msg
-pageBreakInside value =
-    Html.Attributes.style "page-break-inside" value
-```
+{-| CSS property `page-break-inside`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-inside
 -}
@@ -20147,36 +16373,30 @@ pageBreakInside value =
 
 
 {-| ```
-pageBreakInsideAuto : Html.Attribute msg
-pageBreakInsideAuto =
-    Html.Attributes.style "page-break-inside" "auto"
+page-break-inside : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-inside
 -}
 pageBreakInsideAuto : Html.Attribute msg
 pageBreakInsideAuto =
-    Html.Attributes.style "page-break-inside" "auto"
+    pageBreakInside "auto"
 
 
 {-| ```
-pageBreakInsideAvoid : Html.Attribute msg
-pageBreakInsideAvoid =
-    Html.Attributes.style "page-break-inside" "avoid"
+page-break-inside : avoid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/page-break-inside
 -}
 pageBreakInsideAvoid : Html.Attribute msg
 pageBreakInsideAvoid =
-    Html.Attributes.style "page-break-inside" "avoid"
+    pageBreakInside "avoid"
 
 
-{-| ```
-paintOrder : String -> Html.Attribute msg
-paintOrder value =
-    Html.Attributes.style "paint-order" value
-```
+{-| CSS property `paint-order`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/paint-order
 -}
@@ -20186,62 +16406,52 @@ paintOrder value =
 
 
 {-| ```
-paintOrderNormal : Html.Attribute msg
-paintOrderNormal =
-    Html.Attributes.style "paint-order" "normal"
+paint-order : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/paint-order
 -}
 paintOrderNormal : Html.Attribute msg
 paintOrderNormal =
-    Html.Attributes.style "paint-order" "normal"
+    paintOrder "normal"
 
 
 {-| ```
-paintOrderMarkers : Html.Attribute msg
-paintOrderMarkers =
-    Html.Attributes.style "paint-order" "markers"
+paint-order : markers
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/paint-order
 -}
 paintOrderMarkers : Html.Attribute msg
 paintOrderMarkers =
-    Html.Attributes.style "paint-order" "markers"
+    paintOrder "markers"
 
 
 {-| ```
-paintOrderStroke : Html.Attribute msg
-paintOrderStroke =
-    Html.Attributes.style "paint-order" "stroke"
+paint-order : stroke
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/paint-order
 -}
 paintOrderStroke : Html.Attribute msg
 paintOrderStroke =
-    Html.Attributes.style "paint-order" "stroke"
+    paintOrder "stroke"
 
 
 {-| ```
-paintOrderFill : Html.Attribute msg
-paintOrderFill =
-    Html.Attributes.style "paint-order" "fill"
+paint-order : fill
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/paint-order
 -}
 paintOrderFill : Html.Attribute msg
 paintOrderFill =
-    Html.Attributes.style "paint-order" "fill"
+    paintOrder "fill"
 
 
-{-| ```
-perspective : String -> Html.Attribute msg
-perspective value =
-    Html.Attributes.style "perspective" value
-```
+{-| CSS property `perspective`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/perspective
 -}
@@ -20251,57 +16461,41 @@ perspective value =
 
 
 {-| ```
-perspectiveNone : Html.Attribute msg
-perspectiveNone =
-    Html.Attributes.style "perspective" "none"
+perspective : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/perspective
 -}
 perspectiveNone : Html.Attribute msg
 perspectiveNone =
-    Html.Attributes.style "perspective" "none"
+    perspective "none"
 
 
 {-| ```
-perspectivePx : Float -> Html.Attribute msg
-perspectivePx value =
-    Html.Attributes.style
-        "perspective"
-        (String.append (String.fromFloat value) "px")
+perspective : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/perspective
 -}
 perspectivePx : Float -> Html.Attribute msg
 perspectivePx value =
-    Html.Attributes.style
-        "perspective"
-        (String.append (String.fromFloat value) "px")
+    perspective (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-perspectiveRem : Float -> Html.Attribute msg
-perspectiveRem value =
-    Html.Attributes.style
-        "perspective"
-        (String.append (String.fromFloat value) "rem")
+perspective : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/perspective
 -}
 perspectiveRem : Float -> Html.Attribute msg
 perspectiveRem value =
-    Html.Attributes.style
-        "perspective"
-        (String.append (String.fromFloat value) "rem")
+    perspective (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-perspectiveOrigin : String -> Html.Attribute msg
-perspectiveOrigin value =
-    Html.Attributes.style "perspective-origin" value
-```
+{-| CSS property `perspective-origin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/perspective-origin
 -}
@@ -20310,11 +16504,9 @@ perspectiveOrigin value =
     Html.Attributes.style "perspective-origin" value
 
 
-{-| ```
-placeContent : String -> Html.Attribute msg
-placeContent value =
-    Html.Attributes.style "place-content" value
-```
+{-| CSS property `place-content`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
@@ -20324,153 +16516,129 @@ placeContent value =
 
 
 {-| ```
-placeContentBaseline : Html.Attribute msg
-placeContentBaseline =
-    Html.Attributes.style "place-content" "baseline"
+place-content : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentBaseline : Html.Attribute msg
 placeContentBaseline =
-    Html.Attributes.style "place-content" "baseline"
+    placeContent "baseline"
 
 
 {-| ```
-placeContentStart : Html.Attribute msg
-placeContentStart =
-    Html.Attributes.style "place-content" "start"
+place-content : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentStart : Html.Attribute msg
 placeContentStart =
-    Html.Attributes.style "place-content" "start"
+    placeContent "start"
 
 
 {-| ```
-placeContentFlexStart : Html.Attribute msg
-placeContentFlexStart =
-    Html.Attributes.style "place-content" "flex-start"
+place-content : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentFlexStart : Html.Attribute msg
 placeContentFlexStart =
-    Html.Attributes.style "place-content" "flex-start"
+    placeContent "flex-start"
 
 
 {-| ```
-placeContentFlexEnd : Html.Attribute msg
-placeContentFlexEnd =
-    Html.Attributes.style "place-content" "flex-end"
+place-content : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentFlexEnd : Html.Attribute msg
 placeContentFlexEnd =
-    Html.Attributes.style "place-content" "flex-end"
+    placeContent "flex-end"
 
 
 {-| ```
-placeContentEnd : Html.Attribute msg
-placeContentEnd =
-    Html.Attributes.style "place-content" "end"
+place-content : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentEnd : Html.Attribute msg
 placeContentEnd =
-    Html.Attributes.style "place-content" "end"
+    placeContent "end"
 
 
 {-| ```
-placeContentCenter : Html.Attribute msg
-placeContentCenter =
-    Html.Attributes.style "place-content" "center"
+place-content : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentCenter : Html.Attribute msg
 placeContentCenter =
-    Html.Attributes.style "place-content" "center"
+    placeContent "center"
 
 
 {-| ```
-placeContentSpaceBetween : Html.Attribute msg
-placeContentSpaceBetween =
-    Html.Attributes.style "place-content" "space-between"
+place-content : space-between
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentSpaceBetween : Html.Attribute msg
 placeContentSpaceBetween =
-    Html.Attributes.style "place-content" "space-between"
+    placeContent "space-between"
 
 
 {-| ```
-placeContentSpaceEvenly : Html.Attribute msg
-placeContentSpaceEvenly =
-    Html.Attributes.style "place-content" "space-evenly"
+place-content : space-evenly
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentSpaceEvenly : Html.Attribute msg
 placeContentSpaceEvenly =
-    Html.Attributes.style "place-content" "space-evenly"
+    placeContent "space-evenly"
 
 
 {-| ```
-placeContentStretch : Html.Attribute msg
-placeContentStretch =
-    Html.Attributes.style "place-content" "stretch"
+place-content : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentStretch : Html.Attribute msg
 placeContentStretch =
-    Html.Attributes.style "place-content" "stretch"
+    placeContent "stretch"
 
 
 {-| ```
-placeContentSpaceAround : Html.Attribute msg
-placeContentSpaceAround =
-    Html.Attributes.style "place-content" "space-around"
+place-content : space-around
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentSpaceAround : Html.Attribute msg
 placeContentSpaceAround =
-    Html.Attributes.style "place-content" "space-around"
+    placeContent "space-around"
 
 
 {-| ```
-placeContentNormal : Html.Attribute msg
-placeContentNormal =
-    Html.Attributes.style "place-content" "normal"
+place-content : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-content
 -}
 placeContentNormal : Html.Attribute msg
 placeContentNormal =
-    Html.Attributes.style "place-content" "normal"
+    placeContent "normal"
 
 
-{-| ```
-placeItems : String -> Html.Attribute msg
-placeItems value =
-    Html.Attributes.style "place-items" value
-```
+{-| CSS property `place-items`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
@@ -20480,140 +16648,118 @@ placeItems value =
 
 
 {-| ```
-placeItemsStretch : Html.Attribute msg
-placeItemsStretch =
-    Html.Attributes.style "place-items" "stretch"
+place-items : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsStretch : Html.Attribute msg
 placeItemsStretch =
-    Html.Attributes.style "place-items" "stretch"
+    placeItems "stretch"
 
 
 {-| ```
-placeItemsCenter : Html.Attribute msg
-placeItemsCenter =
-    Html.Attributes.style "place-items" "center"
+place-items : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsCenter : Html.Attribute msg
 placeItemsCenter =
-    Html.Attributes.style "place-items" "center"
+    placeItems "center"
 
 
 {-| ```
-placeItemsEnd : Html.Attribute msg
-placeItemsEnd =
-    Html.Attributes.style "place-items" "end"
+place-items : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsEnd : Html.Attribute msg
 placeItemsEnd =
-    Html.Attributes.style "place-items" "end"
+    placeItems "end"
 
 
 {-| ```
-placeItemsSelfEnd : Html.Attribute msg
-placeItemsSelfEnd =
-    Html.Attributes.style "place-items" "self-end"
+place-items : self-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsSelfEnd : Html.Attribute msg
 placeItemsSelfEnd =
-    Html.Attributes.style "place-items" "self-end"
+    placeItems "self-end"
 
 
 {-| ```
-placeItemsFlexEnd : Html.Attribute msg
-placeItemsFlexEnd =
-    Html.Attributes.style "place-items" "flex-end"
+place-items : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsFlexEnd : Html.Attribute msg
 placeItemsFlexEnd =
-    Html.Attributes.style "place-items" "flex-end"
+    placeItems "flex-end"
 
 
 {-| ```
-placeItemsFlexStart : Html.Attribute msg
-placeItemsFlexStart =
-    Html.Attributes.style "place-items" "flex-start"
+place-items : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsFlexStart : Html.Attribute msg
 placeItemsFlexStart =
-    Html.Attributes.style "place-items" "flex-start"
+    placeItems "flex-start"
 
 
 {-| ```
-placeItemsSelfStart : Html.Attribute msg
-placeItemsSelfStart =
-    Html.Attributes.style "place-items" "self-start"
+place-items : self-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsSelfStart : Html.Attribute msg
 placeItemsSelfStart =
-    Html.Attributes.style "place-items" "self-start"
+    placeItems "self-start"
 
 
 {-| ```
-placeItemsStart : Html.Attribute msg
-placeItemsStart =
-    Html.Attributes.style "place-items" "start"
+place-items : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsStart : Html.Attribute msg
 placeItemsStart =
-    Html.Attributes.style "place-items" "start"
+    placeItems "start"
 
 
 {-| ```
-placeItemsBaseline : Html.Attribute msg
-placeItemsBaseline =
-    Html.Attributes.style "place-items" "baseline"
+place-items : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsBaseline : Html.Attribute msg
 placeItemsBaseline =
-    Html.Attributes.style "place-items" "baseline"
+    placeItems "baseline"
 
 
 {-| ```
-placeItemsNormal : Html.Attribute msg
-placeItemsNormal =
-    Html.Attributes.style "place-items" "normal"
+place-items : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-items
 -}
 placeItemsNormal : Html.Attribute msg
 placeItemsNormal =
-    Html.Attributes.style "place-items" "normal"
+    placeItems "normal"
 
 
-{-| ```
-placeSelf : String -> Html.Attribute msg
-placeSelf value =
-    Html.Attributes.style "place-self" value
-```
+{-| CSS property `place-self`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
@@ -20623,153 +16769,129 @@ placeSelf value =
 
 
 {-| ```
-placeSelfNormal : Html.Attribute msg
-placeSelfNormal =
-    Html.Attributes.style "place-self" "normal"
+place-self : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfNormal : Html.Attribute msg
 placeSelfNormal =
-    Html.Attributes.style "place-self" "normal"
+    placeSelf "normal"
 
 
 {-| ```
-placeSelfBaseline : Html.Attribute msg
-placeSelfBaseline =
-    Html.Attributes.style "place-self" "baseline"
+place-self : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfBaseline : Html.Attribute msg
 placeSelfBaseline =
-    Html.Attributes.style "place-self" "baseline"
+    placeSelf "baseline"
 
 
 {-| ```
-placeSelfCenter : Html.Attribute msg
-placeSelfCenter =
-    Html.Attributes.style "place-self" "center"
+place-self : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfCenter : Html.Attribute msg
 placeSelfCenter =
-    Html.Attributes.style "place-self" "center"
+    placeSelf "center"
 
 
 {-| ```
-placeSelfEnd : Html.Attribute msg
-placeSelfEnd =
-    Html.Attributes.style "place-self" "end"
+place-self : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfEnd : Html.Attribute msg
 placeSelfEnd =
-    Html.Attributes.style "place-self" "end"
+    placeSelf "end"
 
 
 {-| ```
-placeSelfSelfEnd : Html.Attribute msg
-placeSelfSelfEnd =
-    Html.Attributes.style "place-self" "self-end"
+place-self : self-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfSelfEnd : Html.Attribute msg
 placeSelfSelfEnd =
-    Html.Attributes.style "place-self" "self-end"
+    placeSelf "self-end"
 
 
 {-| ```
-placeSelfFlexEnd : Html.Attribute msg
-placeSelfFlexEnd =
-    Html.Attributes.style "place-self" "flex-end"
+place-self : flex-end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfFlexEnd : Html.Attribute msg
 placeSelfFlexEnd =
-    Html.Attributes.style "place-self" "flex-end"
+    placeSelf "flex-end"
 
 
 {-| ```
-placeSelfFlexStart : Html.Attribute msg
-placeSelfFlexStart =
-    Html.Attributes.style "place-self" "flex-start"
+place-self : flex-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfFlexStart : Html.Attribute msg
 placeSelfFlexStart =
-    Html.Attributes.style "place-self" "flex-start"
+    placeSelf "flex-start"
 
 
 {-| ```
-placeSelfSelfStart : Html.Attribute msg
-placeSelfSelfStart =
-    Html.Attributes.style "place-self" "self-start"
+place-self : self-start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfSelfStart : Html.Attribute msg
 placeSelfSelfStart =
-    Html.Attributes.style "place-self" "self-start"
+    placeSelf "self-start"
 
 
 {-| ```
-placeSelfStart : Html.Attribute msg
-placeSelfStart =
-    Html.Attributes.style "place-self" "start"
+place-self : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfStart : Html.Attribute msg
 placeSelfStart =
-    Html.Attributes.style "place-self" "start"
+    placeSelf "start"
 
 
 {-| ```
-placeSelfStretch : Html.Attribute msg
-placeSelfStretch =
-    Html.Attributes.style "place-self" "stretch"
+place-self : stretch
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfStretch : Html.Attribute msg
 placeSelfStretch =
-    Html.Attributes.style "place-self" "stretch"
+    placeSelf "stretch"
 
 
 {-| ```
-placeSelfAuto : Html.Attribute msg
-placeSelfAuto =
-    Html.Attributes.style "place-self" "auto"
+place-self : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/place-self
 -}
 placeSelfAuto : Html.Attribute msg
 placeSelfAuto =
-    Html.Attributes.style "place-self" "auto"
+    placeSelf "auto"
 
 
-{-| ```
-pointerEvents : String -> Html.Attribute msg
-pointerEvents value =
-    Html.Attributes.style "pointer-events" value
-```
+{-| CSS property `pointer-events`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
@@ -20779,153 +16901,129 @@ pointerEvents value =
 
 
 {-| ```
-pointerEventsAuto : Html.Attribute msg
-pointerEventsAuto =
-    Html.Attributes.style "pointer-events" "auto"
+pointer-events : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsAuto : Html.Attribute msg
 pointerEventsAuto =
-    Html.Attributes.style "pointer-events" "auto"
+    pointerEvents "auto"
 
 
 {-| ```
-pointerEventsVisiblePainted : Html.Attribute msg
-pointerEventsVisiblePainted =
-    Html.Attributes.style "pointer-events" "visiblePainted"
+pointer-events : visiblePainted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsVisiblePainted : Html.Attribute msg
 pointerEventsVisiblePainted =
-    Html.Attributes.style "pointer-events" "visiblePainted"
+    pointerEvents "visiblePainted"
 
 
 {-| ```
-pointerEventsVisibleStroke : Html.Attribute msg
-pointerEventsVisibleStroke =
-    Html.Attributes.style "pointer-events" "visibleStroke"
+pointer-events : visibleStroke
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsVisibleStroke : Html.Attribute msg
 pointerEventsVisibleStroke =
-    Html.Attributes.style "pointer-events" "visibleStroke"
+    pointerEvents "visibleStroke"
 
 
 {-| ```
-pointerEventsPainted : Html.Attribute msg
-pointerEventsPainted =
-    Html.Attributes.style "pointer-events" "painted"
+pointer-events : painted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsPainted : Html.Attribute msg
 pointerEventsPainted =
-    Html.Attributes.style "pointer-events" "painted"
+    pointerEvents "painted"
 
 
 {-| ```
-pointerEventsStroke : Html.Attribute msg
-pointerEventsStroke =
-    Html.Attributes.style "pointer-events" "stroke"
+pointer-events : stroke
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsStroke : Html.Attribute msg
 pointerEventsStroke =
-    Html.Attributes.style "pointer-events" "stroke"
+    pointerEvents "stroke"
 
 
 {-| ```
-pointerEventsInherit : Html.Attribute msg
-pointerEventsInherit =
-    Html.Attributes.style "pointer-events" "inherit"
+pointer-events : inherit
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsInherit : Html.Attribute msg
 pointerEventsInherit =
-    Html.Attributes.style "pointer-events" "inherit"
+    pointerEvents "inherit"
 
 
 {-| ```
-pointerEventsAll : Html.Attribute msg
-pointerEventsAll =
-    Html.Attributes.style "pointer-events" "all"
+pointer-events : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsAll : Html.Attribute msg
 pointerEventsAll =
-    Html.Attributes.style "pointer-events" "all"
+    pointerEvents "all"
 
 
 {-| ```
-pointerEventsFill : Html.Attribute msg
-pointerEventsFill =
-    Html.Attributes.style "pointer-events" "fill"
+pointer-events : fill
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsFill : Html.Attribute msg
 pointerEventsFill =
-    Html.Attributes.style "pointer-events" "fill"
+    pointerEvents "fill"
 
 
 {-| ```
-pointerEventsVisible : Html.Attribute msg
-pointerEventsVisible =
-    Html.Attributes.style "pointer-events" "visible"
+pointer-events : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsVisible : Html.Attribute msg
 pointerEventsVisible =
-    Html.Attributes.style "pointer-events" "visible"
+    pointerEvents "visible"
 
 
 {-| ```
-pointerEventsVisibleFill : Html.Attribute msg
-pointerEventsVisibleFill =
-    Html.Attributes.style "pointer-events" "visibleFill"
+pointer-events : visibleFill
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsVisibleFill : Html.Attribute msg
 pointerEventsVisibleFill =
-    Html.Attributes.style "pointer-events" "visibleFill"
+    pointerEvents "visibleFill"
 
 
 {-| ```
-pointerEventsNone : Html.Attribute msg
-pointerEventsNone =
-    Html.Attributes.style "pointer-events" "none"
+pointer-events : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/pointer-events
 -}
 pointerEventsNone : Html.Attribute msg
 pointerEventsNone =
-    Html.Attributes.style "pointer-events" "none"
+    pointerEvents "none"
 
 
-{-| ```
-position : String -> Html.Attribute msg
-position value =
-    Html.Attributes.style "position" value
-```
+{-| CSS property `position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
@@ -20935,75 +17033,63 @@ position value =
 
 
 {-| ```
-positionStatic : Html.Attribute msg
-positionStatic =
-    Html.Attributes.style "position" "static"
+position : static
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
 positionStatic : Html.Attribute msg
 positionStatic =
-    Html.Attributes.style "position" "static"
+    position "static"
 
 
 {-| ```
-positionAbsolute : Html.Attribute msg
-positionAbsolute =
-    Html.Attributes.style "position" "absolute"
+position : absolute
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
 positionAbsolute : Html.Attribute msg
 positionAbsolute =
-    Html.Attributes.style "position" "absolute"
+    position "absolute"
 
 
 {-| ```
-positionFixed : Html.Attribute msg
-positionFixed =
-    Html.Attributes.style "position" "fixed"
+position : fixed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
 positionFixed : Html.Attribute msg
 positionFixed =
-    Html.Attributes.style "position" "fixed"
+    position "fixed"
 
 
 {-| ```
-positionSticky : Html.Attribute msg
-positionSticky =
-    Html.Attributes.style "position" "sticky"
+position : sticky
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
 positionSticky : Html.Attribute msg
 positionSticky =
-    Html.Attributes.style "position" "sticky"
+    position "sticky"
 
 
 {-| ```
-positionRelative : Html.Attribute msg
-positionRelative =
-    Html.Attributes.style "position" "relative"
+position : relative
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/position
 -}
 positionRelative : Html.Attribute msg
 positionRelative =
-    Html.Attributes.style "position" "relative"
+    position "relative"
 
 
-{-| ```
-printColorAdjust : String -> Html.Attribute msg
-printColorAdjust value =
-    Html.Attributes.style "print-color-adjust" value
-```
+{-| CSS property `print-color-adjust`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/print-color-adjust
 -}
@@ -21013,36 +17099,30 @@ printColorAdjust value =
 
 
 {-| ```
-printColorAdjustEconomy : Html.Attribute msg
-printColorAdjustEconomy =
-    Html.Attributes.style "print-color-adjust" "economy"
+print-color-adjust : economy
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/print-color-adjust
 -}
 printColorAdjustEconomy : Html.Attribute msg
 printColorAdjustEconomy =
-    Html.Attributes.style "print-color-adjust" "economy"
+    printColorAdjust "economy"
 
 
 {-| ```
-printColorAdjustExact : Html.Attribute msg
-printColorAdjustExact =
-    Html.Attributes.style "print-color-adjust" "exact"
+print-color-adjust : exact
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/print-color-adjust
 -}
 printColorAdjustExact : Html.Attribute msg
 printColorAdjustExact =
-    Html.Attributes.style "print-color-adjust" "exact"
+    printColorAdjust "exact"
 
 
-{-| ```
-quotes : String -> Html.Attribute msg
-quotes value =
-    Html.Attributes.style "quotes" value
-```
+{-| CSS property `quotes`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/quotes
 -}
@@ -21052,36 +17132,30 @@ quotes value =
 
 
 {-| ```
-quotesNone : Html.Attribute msg
-quotesNone =
-    Html.Attributes.style "quotes" "none"
+quotes : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/quotes
 -}
 quotesNone : Html.Attribute msg
 quotesNone =
-    Html.Attributes.style "quotes" "none"
+    quotes "none"
 
 
 {-| ```
-quotesAuto : Html.Attribute msg
-quotesAuto =
-    Html.Attributes.style "quotes" "auto"
+quotes : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/quotes
 -}
 quotesAuto : Html.Attribute msg
 quotesAuto =
-    Html.Attributes.style "quotes" "auto"
+    quotes "auto"
 
 
-{-| ```
-resize : String -> Html.Attribute msg
-resize value =
-    Html.Attributes.style "resize" value
-```
+{-| CSS property `resize`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
@@ -21091,88 +17165,74 @@ resize value =
 
 
 {-| ```
-resizeNone : Html.Attribute msg
-resizeNone =
-    Html.Attributes.style "resize" "none"
+resize : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeNone : Html.Attribute msg
 resizeNone =
-    Html.Attributes.style "resize" "none"
+    resize "none"
 
 
 {-| ```
-resizeHorizontal : Html.Attribute msg
-resizeHorizontal =
-    Html.Attributes.style "resize" "horizontal"
+resize : horizontal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeHorizontal : Html.Attribute msg
 resizeHorizontal =
-    Html.Attributes.style "resize" "horizontal"
+    resize "horizontal"
 
 
 {-| ```
-resizeBlock : Html.Attribute msg
-resizeBlock =
-    Html.Attributes.style "resize" "block"
+resize : block
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeBlock : Html.Attribute msg
 resizeBlock =
-    Html.Attributes.style "resize" "block"
+    resize "block"
 
 
 {-| ```
-resizeInline : Html.Attribute msg
-resizeInline =
-    Html.Attributes.style "resize" "inline"
+resize : inline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeInline : Html.Attribute msg
 resizeInline =
-    Html.Attributes.style "resize" "inline"
+    resize "inline"
 
 
 {-| ```
-resizeVertical : Html.Attribute msg
-resizeVertical =
-    Html.Attributes.style "resize" "vertical"
+resize : vertical
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeVertical : Html.Attribute msg
 resizeVertical =
-    Html.Attributes.style "resize" "vertical"
+    resize "vertical"
 
 
 {-| ```
-resizeBoth : Html.Attribute msg
-resizeBoth =
-    Html.Attributes.style "resize" "both"
+resize : both
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/resize
 -}
 resizeBoth : Html.Attribute msg
 resizeBoth =
-    Html.Attributes.style "resize" "both"
+    resize "both"
 
 
-{-| ```
-right : String -> Html.Attribute msg
-right value =
-    Html.Attributes.style "right" value
-```
+{-| CSS property `right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/right
 -}
@@ -21182,49 +17242,41 @@ right value =
 
 
 {-| ```
-rightRem : Float -> Html.Attribute msg
-rightRem value =
-    Html.Attributes.style "right" (String.append (String.fromFloat value) "rem")
+right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/right
 -}
 rightRem : Float -> Html.Attribute msg
 rightRem value =
-    Html.Attributes.style "right" (String.append (String.fromFloat value) "rem")
+    right (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-rightPx : Float -> Html.Attribute msg
-rightPx value =
-    Html.Attributes.style "right" (String.append (String.fromFloat value) "px")
+right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/right
 -}
 rightPx : Float -> Html.Attribute msg
 rightPx value =
-    Html.Attributes.style "right" (String.append (String.fromFloat value) "px")
+    right (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-rightAuto : Html.Attribute msg
-rightAuto =
-    Html.Attributes.style "right" "auto"
+right : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/right
 -}
 rightAuto : Html.Attribute msg
 rightAuto =
-    Html.Attributes.style "right" "auto"
+    right "auto"
 
 
-{-| ```
-rotate : String -> Html.Attribute msg
-rotate value =
-    Html.Attributes.style "rotate" value
-```
+{-| CSS property `rotate`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/rotate
 -}
@@ -21233,11 +17285,9 @@ rotate value =
     Html.Attributes.style "rotate" value
 
 
-{-| ```
-rowGap : String -> Html.Attribute msg
-rowGap value =
-    Html.Attributes.style "row-gap" value
-```
+{-| CSS property `row-gap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
@@ -21247,57 +17297,41 @@ rowGap value =
 
 
 {-| ```
-rowGapNormal : Html.Attribute msg
-rowGapNormal =
-    Html.Attributes.style "row-gap" "normal"
+row-gap : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
 rowGapNormal : Html.Attribute msg
 rowGapNormal =
-    Html.Attributes.style "row-gap" "normal"
+    rowGap "normal"
 
 
 {-| ```
-rowGapRem : Float -> Html.Attribute msg
-rowGapRem value =
-    Html.Attributes.style
-        "row-gap"
-        (String.append (String.fromFloat value) "rem")
+row-gap : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
 rowGapRem : Float -> Html.Attribute msg
 rowGapRem value =
-    Html.Attributes.style
-        "row-gap"
-        (String.append (String.fromFloat value) "rem")
+    rowGap (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-rowGapPx : Float -> Html.Attribute msg
-rowGapPx value =
-    Html.Attributes.style
-        "row-gap"
-        (String.append (String.fromFloat value) "px")
+row-gap : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/row-gap
 -}
 rowGapPx : Float -> Html.Attribute msg
 rowGapPx value =
-    Html.Attributes.style
-        "row-gap"
-        (String.append (String.fromFloat value) "px")
+    rowGap (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-rubyAlign : String -> Html.Attribute msg
-rubyAlign value =
-    Html.Attributes.style "ruby-align" value
-```
+{-| CSS property `ruby-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-align
 -}
@@ -21307,106 +17341,85 @@ rubyAlign value =
 
 
 {-| ```
-rubyAlignStart : Html.Attribute msg
-rubyAlignStart =
-    Html.Attributes.style "ruby-align" "start"
+ruby-align : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-align
 -}
 rubyAlignStart : Html.Attribute msg
 rubyAlignStart =
-    Html.Attributes.style "ruby-align" "start"
+    rubyAlign "start"
 
 
 {-| ```
-rubyAlignSpaceBetween : Html.Attribute msg
-rubyAlignSpaceBetween =
-    Html.Attributes.style "ruby-align" "space-between"
+ruby-align : space-between
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-align
 -}
 rubyAlignSpaceBetween : Html.Attribute msg
 rubyAlignSpaceBetween =
-    Html.Attributes.style "ruby-align" "space-between"
+    rubyAlign "space-between"
 
 
 {-| ```
-rubyAlignSpaceAround : Html.Attribute msg
-rubyAlignSpaceAround =
-    Html.Attributes.style "ruby-align" "space-around"
+ruby-align : space-around
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-align
 -}
 rubyAlignSpaceAround : Html.Attribute msg
 rubyAlignSpaceAround =
-    Html.Attributes.style "ruby-align" "space-around"
+    rubyAlign "space-around"
 
 
 {-| ```
-rubyAlignCenter : Html.Attribute msg
-rubyAlignCenter =
-    Html.Attributes.style "ruby-align" "center"
+ruby-align : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-align
 -}
 rubyAlignCenter : Html.Attribute msg
 rubyAlignCenter =
-    Html.Attributes.style "ruby-align" "center"
+    rubyAlign "center"
 
 
-{-| ```
-rubyMerge : String -> Html.Attribute msg
-rubyMerge value =
-    Html.Attributes.style "ruby-merge" value
-```
--}
+{-| CSS property `ruby-merge` -}
 rubyMerge : String -> Html.Attribute msg
 rubyMerge value =
     Html.Attributes.style "ruby-merge" value
 
 
 {-| ```
-rubyMergeSeparate : Html.Attribute msg
-rubyMergeSeparate =
-    Html.Attributes.style "ruby-merge" "separate"
+ruby-merge : separate
 ```
 -}
 rubyMergeSeparate : Html.Attribute msg
 rubyMergeSeparate =
-    Html.Attributes.style "ruby-merge" "separate"
+    rubyMerge "separate"
 
 
 {-| ```
-rubyMergeAuto : Html.Attribute msg
-rubyMergeAuto =
-    Html.Attributes.style "ruby-merge" "auto"
+ruby-merge : auto
 ```
 -}
 rubyMergeAuto : Html.Attribute msg
 rubyMergeAuto =
-    Html.Attributes.style "ruby-merge" "auto"
+    rubyMerge "auto"
 
 
 {-| ```
-rubyMergeCollapse : Html.Attribute msg
-rubyMergeCollapse =
-    Html.Attributes.style "ruby-merge" "collapse"
+ruby-merge : collapse
 ```
 -}
 rubyMergeCollapse : Html.Attribute msg
 rubyMergeCollapse =
-    Html.Attributes.style "ruby-merge" "collapse"
+    rubyMerge "collapse"
 
 
-{-| ```
-rubyPosition : String -> Html.Attribute msg
-rubyPosition value =
-    Html.Attributes.style "ruby-position" value
-```
+{-| CSS property `ruby-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-position
 -}
@@ -21416,62 +17429,52 @@ rubyPosition value =
 
 
 {-| ```
-rubyPositionAlternate : Html.Attribute msg
-rubyPositionAlternate =
-    Html.Attributes.style "ruby-position" "alternate"
+ruby-position : alternate
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-position
 -}
 rubyPositionAlternate : Html.Attribute msg
 rubyPositionAlternate =
-    Html.Attributes.style "ruby-position" "alternate"
+    rubyPosition "alternate"
 
 
 {-| ```
-rubyPositionOver : Html.Attribute msg
-rubyPositionOver =
-    Html.Attributes.style "ruby-position" "over"
+ruby-position : over
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-position
 -}
 rubyPositionOver : Html.Attribute msg
 rubyPositionOver =
-    Html.Attributes.style "ruby-position" "over"
+    rubyPosition "over"
 
 
 {-| ```
-rubyPositionUnder : Html.Attribute msg
-rubyPositionUnder =
-    Html.Attributes.style "ruby-position" "under"
+ruby-position : under
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-position
 -}
 rubyPositionUnder : Html.Attribute msg
 rubyPositionUnder =
-    Html.Attributes.style "ruby-position" "under"
+    rubyPosition "under"
 
 
 {-| ```
-rubyPositionInterCharacter : Html.Attribute msg
-rubyPositionInterCharacter =
-    Html.Attributes.style "ruby-position" "inter-character"
+ruby-position : inter-character
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/ruby-position
 -}
 rubyPositionInterCharacter : Html.Attribute msg
 rubyPositionInterCharacter =
-    Html.Attributes.style "ruby-position" "inter-character"
+    rubyPosition "inter-character"
 
 
-{-| ```
-scale : String -> Html.Attribute msg
-scale value =
-    Html.Attributes.style "scale" value
-```
+{-| CSS property `scale`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scale
 -}
@@ -21481,23 +17484,19 @@ scale value =
 
 
 {-| ```
-scaleNone : Html.Attribute msg
-scaleNone =
-    Html.Attributes.style "scale" "none"
+scale : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scale
 -}
 scaleNone : Html.Attribute msg
 scaleNone =
-    Html.Attributes.style "scale" "none"
+    scale "none"
 
 
-{-| ```
-scrollBehavior : String -> Html.Attribute msg
-scrollBehavior value =
-    Html.Attributes.style "scroll-behavior" value
-```
+{-| CSS property `scroll-behavior`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-behavior
 -}
@@ -21507,36 +17506,30 @@ scrollBehavior value =
 
 
 {-| ```
-scrollBehaviorAuto : Html.Attribute msg
-scrollBehaviorAuto =
-    Html.Attributes.style "scroll-behavior" "auto"
+scroll-behavior : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-behavior
 -}
 scrollBehaviorAuto : Html.Attribute msg
 scrollBehaviorAuto =
-    Html.Attributes.style "scroll-behavior" "auto"
+    scrollBehavior "auto"
 
 
 {-| ```
-scrollBehaviorSmooth : Html.Attribute msg
-scrollBehaviorSmooth =
-    Html.Attributes.style "scroll-behavior" "smooth"
+scroll-behavior : smooth
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-behavior
 -}
 scrollBehaviorSmooth : Html.Attribute msg
 scrollBehaviorSmooth =
-    Html.Attributes.style "scroll-behavior" "smooth"
+    scrollBehavior "smooth"
 
 
-{-| ```
-scrollMargin : String -> Html.Attribute msg
-scrollMargin value =
-    Html.Attributes.style "scroll-margin" value
-```
+{-| CSS property `scroll-margin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin
 -}
@@ -21546,44 +17539,30 @@ scrollMargin value =
 
 
 {-| ```
-scrollMarginRem : Float -> Html.Attribute msg
-scrollMarginRem value =
-    Html.Attributes.style
-        "scroll-margin"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin
 -}
 scrollMarginRem : Float -> Html.Attribute msg
 scrollMarginRem value =
-    Html.Attributes.style
-        "scroll-margin"
-        (String.append (String.fromFloat value) "rem")
+    scrollMargin (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginPx : Float -> Html.Attribute msg
-scrollMarginPx value =
-    Html.Attributes.style
-        "scroll-margin"
-        (String.append (String.fromFloat value) "px")
+scroll-margin : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin
 -}
 scrollMarginPx : Float -> Html.Attribute msg
 scrollMarginPx value =
-    Html.Attributes.style
-        "scroll-margin"
-        (String.append (String.fromFloat value) "px")
+    scrollMargin (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginBlock : String -> Html.Attribute msg
-scrollMarginBlock value =
-    Html.Attributes.style "scroll-margin-block" value
-```
+{-| CSS property `scroll-margin-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block
 -}
@@ -21593,44 +17572,30 @@ scrollMarginBlock value =
 
 
 {-| ```
-scrollMarginBlockRem : Float -> Html.Attribute msg
-scrollMarginBlockRem value =
-    Html.Attributes.style
-        "scroll-margin-block"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block
 -}
 scrollMarginBlockRem : Float -> Html.Attribute msg
 scrollMarginBlockRem value =
-    Html.Attributes.style
-        "scroll-margin-block"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginBlock (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginBlockPx : Float -> Html.Attribute msg
-scrollMarginBlockPx value =
-    Html.Attributes.style
-        "scroll-margin-block"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block
 -}
 scrollMarginBlockPx : Float -> Html.Attribute msg
 scrollMarginBlockPx value =
-    Html.Attributes.style
-        "scroll-margin-block"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginBlock (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginBlockEnd : String -> Html.Attribute msg
-scrollMarginBlockEnd value =
-    Html.Attributes.style "scroll-margin-block-end" value
-```
+{-| CSS property `scroll-margin-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end
 -}
@@ -21640,44 +17605,30 @@ scrollMarginBlockEnd value =
 
 
 {-| ```
-scrollMarginBlockEndRem : Float -> Html.Attribute msg
-scrollMarginBlockEndRem value =
-    Html.Attributes.style
-        "scroll-margin-block-end"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end
 -}
 scrollMarginBlockEndRem : Float -> Html.Attribute msg
 scrollMarginBlockEndRem value =
-    Html.Attributes.style
-        "scroll-margin-block-end"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginBlockEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginBlockEndPx : Float -> Html.Attribute msg
-scrollMarginBlockEndPx value =
-    Html.Attributes.style
-        "scroll-margin-block-end"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end
 -}
 scrollMarginBlockEndPx : Float -> Html.Attribute msg
 scrollMarginBlockEndPx value =
-    Html.Attributes.style
-        "scroll-margin-block-end"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginBlockEnd (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginBlockStart : String -> Html.Attribute msg
-scrollMarginBlockStart value =
-    Html.Attributes.style "scroll-margin-block-start" value
-```
+{-| CSS property `scroll-margin-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start
 -}
@@ -21687,44 +17638,30 @@ scrollMarginBlockStart value =
 
 
 {-| ```
-scrollMarginBlockStartRem : Float -> Html.Attribute msg
-scrollMarginBlockStartRem value =
-    Html.Attributes.style
-        "scroll-margin-block-start"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start
 -}
 scrollMarginBlockStartRem : Float -> Html.Attribute msg
 scrollMarginBlockStartRem value =
-    Html.Attributes.style
-        "scroll-margin-block-start"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginBlockStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginBlockStartPx : Float -> Html.Attribute msg
-scrollMarginBlockStartPx value =
-    Html.Attributes.style
-        "scroll-margin-block-start"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start
 -}
 scrollMarginBlockStartPx : Float -> Html.Attribute msg
 scrollMarginBlockStartPx value =
-    Html.Attributes.style
-        "scroll-margin-block-start"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginBlockStart (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginBottom : String -> Html.Attribute msg
-scrollMarginBottom value =
-    Html.Attributes.style "scroll-margin-bottom" value
-```
+{-| CSS property `scroll-margin-bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom
 -}
@@ -21734,44 +17671,30 @@ scrollMarginBottom value =
 
 
 {-| ```
-scrollMarginBottomRem : Float -> Html.Attribute msg
-scrollMarginBottomRem value =
-    Html.Attributes.style
-        "scroll-margin-bottom"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom
 -}
 scrollMarginBottomRem : Float -> Html.Attribute msg
 scrollMarginBottomRem value =
-    Html.Attributes.style
-        "scroll-margin-bottom"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginBottom (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginBottomPx : Float -> Html.Attribute msg
-scrollMarginBottomPx value =
-    Html.Attributes.style
-        "scroll-margin-bottom"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom
 -}
 scrollMarginBottomPx : Float -> Html.Attribute msg
 scrollMarginBottomPx value =
-    Html.Attributes.style
-        "scroll-margin-bottom"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginBottom (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginInline : String -> Html.Attribute msg
-scrollMarginInline value =
-    Html.Attributes.style "scroll-margin-inline" value
-```
+{-| CSS property `scroll-margin-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline
 -}
@@ -21781,44 +17704,30 @@ scrollMarginInline value =
 
 
 {-| ```
-scrollMarginInlineRem : Float -> Html.Attribute msg
-scrollMarginInlineRem value =
-    Html.Attributes.style
-        "scroll-margin-inline"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline
 -}
 scrollMarginInlineRem : Float -> Html.Attribute msg
 scrollMarginInlineRem value =
-    Html.Attributes.style
-        "scroll-margin-inline"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginInline (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginInlinePx : Float -> Html.Attribute msg
-scrollMarginInlinePx value =
-    Html.Attributes.style
-        "scroll-margin-inline"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline
 -}
 scrollMarginInlinePx : Float -> Html.Attribute msg
 scrollMarginInlinePx value =
-    Html.Attributes.style
-        "scroll-margin-inline"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginInline (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginInlineEnd : String -> Html.Attribute msg
-scrollMarginInlineEnd value =
-    Html.Attributes.style "scroll-margin-inline-end" value
-```
+{-| CSS property `scroll-margin-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end
 -}
@@ -21828,44 +17737,30 @@ scrollMarginInlineEnd value =
 
 
 {-| ```
-scrollMarginInlineEndRem : Float -> Html.Attribute msg
-scrollMarginInlineEndRem value =
-    Html.Attributes.style
-        "scroll-margin-inline-end"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end
 -}
 scrollMarginInlineEndRem : Float -> Html.Attribute msg
 scrollMarginInlineEndRem value =
-    Html.Attributes.style
-        "scroll-margin-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginInlineEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginInlineEndPx : Float -> Html.Attribute msg
-scrollMarginInlineEndPx value =
-    Html.Attributes.style
-        "scroll-margin-inline-end"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end
 -}
 scrollMarginInlineEndPx : Float -> Html.Attribute msg
 scrollMarginInlineEndPx value =
-    Html.Attributes.style
-        "scroll-margin-inline-end"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginInlineEnd (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginInlineStart : String -> Html.Attribute msg
-scrollMarginInlineStart value =
-    Html.Attributes.style "scroll-margin-inline-start" value
-```
+{-| CSS property `scroll-margin-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start
 -}
@@ -21875,44 +17770,30 @@ scrollMarginInlineStart value =
 
 
 {-| ```
-scrollMarginInlineStartRem : Float -> Html.Attribute msg
-scrollMarginInlineStartRem value =
-    Html.Attributes.style
-        "scroll-margin-inline-start"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start
 -}
 scrollMarginInlineStartRem : Float -> Html.Attribute msg
 scrollMarginInlineStartRem value =
-    Html.Attributes.style
-        "scroll-margin-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginInlineStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginInlineStartPx : Float -> Html.Attribute msg
-scrollMarginInlineStartPx value =
-    Html.Attributes.style
-        "scroll-margin-inline-start"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start
 -}
 scrollMarginInlineStartPx : Float -> Html.Attribute msg
 scrollMarginInlineStartPx value =
-    Html.Attributes.style
-        "scroll-margin-inline-start"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginInlineStart (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginLeft : String -> Html.Attribute msg
-scrollMarginLeft value =
-    Html.Attributes.style "scroll-margin-left" value
-```
+{-| CSS property `scroll-margin-left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left
 -}
@@ -21922,44 +17803,30 @@ scrollMarginLeft value =
 
 
 {-| ```
-scrollMarginLeftRem : Float -> Html.Attribute msg
-scrollMarginLeftRem value =
-    Html.Attributes.style
-        "scroll-margin-left"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left
 -}
 scrollMarginLeftRem : Float -> Html.Attribute msg
 scrollMarginLeftRem value =
-    Html.Attributes.style
-        "scroll-margin-left"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginLeft (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginLeftPx : Float -> Html.Attribute msg
-scrollMarginLeftPx value =
-    Html.Attributes.style
-        "scroll-margin-left"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left
 -}
 scrollMarginLeftPx : Float -> Html.Attribute msg
 scrollMarginLeftPx value =
-    Html.Attributes.style
-        "scroll-margin-left"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginLeft (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginRight : String -> Html.Attribute msg
-scrollMarginRight value =
-    Html.Attributes.style "scroll-margin-right" value
-```
+{-| CSS property `scroll-margin-right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right
 -}
@@ -21969,44 +17836,30 @@ scrollMarginRight value =
 
 
 {-| ```
-scrollMarginRightRem : Float -> Html.Attribute msg
-scrollMarginRightRem value =
-    Html.Attributes.style
-        "scroll-margin-right"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right
 -}
 scrollMarginRightRem : Float -> Html.Attribute msg
 scrollMarginRightRem value =
-    Html.Attributes.style
-        "scroll-margin-right"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginRight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginRightPx : Float -> Html.Attribute msg
-scrollMarginRightPx value =
-    Html.Attributes.style
-        "scroll-margin-right"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right
 -}
 scrollMarginRightPx : Float -> Html.Attribute msg
 scrollMarginRightPx value =
-    Html.Attributes.style
-        "scroll-margin-right"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginRight (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollMarginTop : String -> Html.Attribute msg
-scrollMarginTop value =
-    Html.Attributes.style "scroll-margin-top" value
-```
+{-| CSS property `scroll-margin-top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top
 -}
@@ -22016,44 +17869,30 @@ scrollMarginTop value =
 
 
 {-| ```
-scrollMarginTopRem : Float -> Html.Attribute msg
-scrollMarginTopRem value =
-    Html.Attributes.style
-        "scroll-margin-top"
-        (String.append (String.fromFloat value) "rem")
+scroll-margin-top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top
 -}
 scrollMarginTopRem : Float -> Html.Attribute msg
 scrollMarginTopRem value =
-    Html.Attributes.style
-        "scroll-margin-top"
-        (String.append (String.fromFloat value) "rem")
+    scrollMarginTop (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollMarginTopPx : Float -> Html.Attribute msg
-scrollMarginTopPx value =
-    Html.Attributes.style
-        "scroll-margin-top"
-        (String.append (String.fromFloat value) "px")
+scroll-margin-top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top
 -}
 scrollMarginTopPx : Float -> Html.Attribute msg
 scrollMarginTopPx value =
-    Html.Attributes.style
-        "scroll-margin-top"
-        (String.append (String.fromFloat value) "px")
+    scrollMarginTop (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPadding : String -> Html.Attribute msg
-scrollPadding value =
-    Html.Attributes.style "scroll-padding" value
-```
+{-| CSS property `scroll-padding`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding
 -}
@@ -22063,57 +17902,41 @@ scrollPadding value =
 
 
 {-| ```
-scrollPaddingPx : Float -> Html.Attribute msg
-scrollPaddingPx value =
-    Html.Attributes.style
-        "scroll-padding"
-        (String.append (String.fromFloat value) "px")
+scroll-padding : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding
 -}
 scrollPaddingPx : Float -> Html.Attribute msg
 scrollPaddingPx value =
-    Html.Attributes.style
-        "scroll-padding"
-        (String.append (String.fromFloat value) "px")
+    scrollPadding (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-scrollPaddingRem : Float -> Html.Attribute msg
-scrollPaddingRem value =
-    Html.Attributes.style
-        "scroll-padding"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding
 -}
 scrollPaddingRem : Float -> Html.Attribute msg
 scrollPaddingRem value =
-    Html.Attributes.style
-        "scroll-padding"
-        (String.append (String.fromFloat value) "rem")
+    scrollPadding (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingAuto : Html.Attribute msg
-scrollPaddingAuto =
-    Html.Attributes.style "scroll-padding" "auto"
+scroll-padding : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding
 -}
 scrollPaddingAuto : Html.Attribute msg
 scrollPaddingAuto =
-    Html.Attributes.style "scroll-padding" "auto"
+    scrollPadding "auto"
 
 
-{-| ```
-scrollPaddingBlock : String -> Html.Attribute msg
-scrollPaddingBlock value =
-    Html.Attributes.style "scroll-padding-block" value
-```
+{-| CSS property `scroll-padding-block`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block
 -}
@@ -22123,57 +17946,41 @@ scrollPaddingBlock value =
 
 
 {-| ```
-scrollPaddingBlockPx : Float -> Html.Attribute msg
-scrollPaddingBlockPx value =
-    Html.Attributes.style
-        "scroll-padding-block"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-block : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block
 -}
 scrollPaddingBlockPx : Float -> Html.Attribute msg
 scrollPaddingBlockPx value =
-    Html.Attributes.style
-        "scroll-padding-block"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingBlock (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-scrollPaddingBlockRem : Float -> Html.Attribute msg
-scrollPaddingBlockRem value =
-    Html.Attributes.style
-        "scroll-padding-block"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-block : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block
 -}
 scrollPaddingBlockRem : Float -> Html.Attribute msg
 scrollPaddingBlockRem value =
-    Html.Attributes.style
-        "scroll-padding-block"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingBlock (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingBlockAuto : Html.Attribute msg
-scrollPaddingBlockAuto =
-    Html.Attributes.style "scroll-padding-block" "auto"
+scroll-padding-block : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block
 -}
 scrollPaddingBlockAuto : Html.Attribute msg
 scrollPaddingBlockAuto =
-    Html.Attributes.style "scroll-padding-block" "auto"
+    scrollPaddingBlock "auto"
 
 
-{-| ```
-scrollPaddingBlockEnd : String -> Html.Attribute msg
-scrollPaddingBlockEnd value =
-    Html.Attributes.style "scroll-padding-block-end" value
-```
+{-| CSS property `scroll-padding-block-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end
 -}
@@ -22183,57 +17990,41 @@ scrollPaddingBlockEnd value =
 
 
 {-| ```
-scrollPaddingBlockEndAuto : Html.Attribute msg
-scrollPaddingBlockEndAuto =
-    Html.Attributes.style "scroll-padding-block-end" "auto"
+scroll-padding-block-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end
 -}
 scrollPaddingBlockEndAuto : Html.Attribute msg
 scrollPaddingBlockEndAuto =
-    Html.Attributes.style "scroll-padding-block-end" "auto"
+    scrollPaddingBlockEnd "auto"
 
 
 {-| ```
-scrollPaddingBlockEndRem : Float -> Html.Attribute msg
-scrollPaddingBlockEndRem value =
-    Html.Attributes.style
-        "scroll-padding-block-end"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-block-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end
 -}
 scrollPaddingBlockEndRem : Float -> Html.Attribute msg
 scrollPaddingBlockEndRem value =
-    Html.Attributes.style
-        "scroll-padding-block-end"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingBlockEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingBlockEndPx : Float -> Html.Attribute msg
-scrollPaddingBlockEndPx value =
-    Html.Attributes.style
-        "scroll-padding-block-end"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-block-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end
 -}
 scrollPaddingBlockEndPx : Float -> Html.Attribute msg
 scrollPaddingBlockEndPx value =
-    Html.Attributes.style
-        "scroll-padding-block-end"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingBlockEnd (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingBlockStart : String -> Html.Attribute msg
-scrollPaddingBlockStart value =
-    Html.Attributes.style "scroll-padding-block-start" value
-```
+{-| CSS property `scroll-padding-block-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start
 -}
@@ -22243,57 +18034,41 @@ scrollPaddingBlockStart value =
 
 
 {-| ```
-scrollPaddingBlockStartAuto : Html.Attribute msg
-scrollPaddingBlockStartAuto =
-    Html.Attributes.style "scroll-padding-block-start" "auto"
+scroll-padding-block-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start
 -}
 scrollPaddingBlockStartAuto : Html.Attribute msg
 scrollPaddingBlockStartAuto =
-    Html.Attributes.style "scroll-padding-block-start" "auto"
+    scrollPaddingBlockStart "auto"
 
 
 {-| ```
-scrollPaddingBlockStartRem : Float -> Html.Attribute msg
-scrollPaddingBlockStartRem value =
-    Html.Attributes.style
-        "scroll-padding-block-start"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-block-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start
 -}
 scrollPaddingBlockStartRem : Float -> Html.Attribute msg
 scrollPaddingBlockStartRem value =
-    Html.Attributes.style
-        "scroll-padding-block-start"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingBlockStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingBlockStartPx : Float -> Html.Attribute msg
-scrollPaddingBlockStartPx value =
-    Html.Attributes.style
-        "scroll-padding-block-start"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-block-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start
 -}
 scrollPaddingBlockStartPx : Float -> Html.Attribute msg
 scrollPaddingBlockStartPx value =
-    Html.Attributes.style
-        "scroll-padding-block-start"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingBlockStart (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingBottom : String -> Html.Attribute msg
-scrollPaddingBottom value =
-    Html.Attributes.style "scroll-padding-bottom" value
-```
+{-| CSS property `scroll-padding-bottom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom
 -}
@@ -22303,57 +18078,41 @@ scrollPaddingBottom value =
 
 
 {-| ```
-scrollPaddingBottomAuto : Html.Attribute msg
-scrollPaddingBottomAuto =
-    Html.Attributes.style "scroll-padding-bottom" "auto"
+scroll-padding-bottom : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom
 -}
 scrollPaddingBottomAuto : Html.Attribute msg
 scrollPaddingBottomAuto =
-    Html.Attributes.style "scroll-padding-bottom" "auto"
+    scrollPaddingBottom "auto"
 
 
 {-| ```
-scrollPaddingBottomRem : Float -> Html.Attribute msg
-scrollPaddingBottomRem value =
-    Html.Attributes.style
-        "scroll-padding-bottom"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-bottom : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom
 -}
 scrollPaddingBottomRem : Float -> Html.Attribute msg
 scrollPaddingBottomRem value =
-    Html.Attributes.style
-        "scroll-padding-bottom"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingBottom (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingBottomPx : Float -> Html.Attribute msg
-scrollPaddingBottomPx value =
-    Html.Attributes.style
-        "scroll-padding-bottom"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-bottom : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom
 -}
 scrollPaddingBottomPx : Float -> Html.Attribute msg
 scrollPaddingBottomPx value =
-    Html.Attributes.style
-        "scroll-padding-bottom"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingBottom (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingInline : String -> Html.Attribute msg
-scrollPaddingInline value =
-    Html.Attributes.style "scroll-padding-inline" value
-```
+{-| CSS property `scroll-padding-inline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline
 -}
@@ -22363,57 +18122,41 @@ scrollPaddingInline value =
 
 
 {-| ```
-scrollPaddingInlinePx : Float -> Html.Attribute msg
-scrollPaddingInlinePx value =
-    Html.Attributes.style
-        "scroll-padding-inline"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-inline : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline
 -}
 scrollPaddingInlinePx : Float -> Html.Attribute msg
 scrollPaddingInlinePx value =
-    Html.Attributes.style
-        "scroll-padding-inline"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingInline (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-scrollPaddingInlineRem : Float -> Html.Attribute msg
-scrollPaddingInlineRem value =
-    Html.Attributes.style
-        "scroll-padding-inline"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-inline : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline
 -}
 scrollPaddingInlineRem : Float -> Html.Attribute msg
 scrollPaddingInlineRem value =
-    Html.Attributes.style
-        "scroll-padding-inline"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingInline (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingInlineAuto : Html.Attribute msg
-scrollPaddingInlineAuto =
-    Html.Attributes.style "scroll-padding-inline" "auto"
+scroll-padding-inline : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline
 -}
 scrollPaddingInlineAuto : Html.Attribute msg
 scrollPaddingInlineAuto =
-    Html.Attributes.style "scroll-padding-inline" "auto"
+    scrollPaddingInline "auto"
 
 
-{-| ```
-scrollPaddingInlineEnd : String -> Html.Attribute msg
-scrollPaddingInlineEnd value =
-    Html.Attributes.style "scroll-padding-inline-end" value
-```
+{-| CSS property `scroll-padding-inline-end`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end
 -}
@@ -22423,57 +18166,41 @@ scrollPaddingInlineEnd value =
 
 
 {-| ```
-scrollPaddingInlineEndAuto : Html.Attribute msg
-scrollPaddingInlineEndAuto =
-    Html.Attributes.style "scroll-padding-inline-end" "auto"
+scroll-padding-inline-end : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end
 -}
 scrollPaddingInlineEndAuto : Html.Attribute msg
 scrollPaddingInlineEndAuto =
-    Html.Attributes.style "scroll-padding-inline-end" "auto"
+    scrollPaddingInlineEnd "auto"
 
 
 {-| ```
-scrollPaddingInlineEndRem : Float -> Html.Attribute msg
-scrollPaddingInlineEndRem value =
-    Html.Attributes.style
-        "scroll-padding-inline-end"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-inline-end : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end
 -}
 scrollPaddingInlineEndRem : Float -> Html.Attribute msg
 scrollPaddingInlineEndRem value =
-    Html.Attributes.style
-        "scroll-padding-inline-end"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingInlineEnd (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingInlineEndPx : Float -> Html.Attribute msg
-scrollPaddingInlineEndPx value =
-    Html.Attributes.style
-        "scroll-padding-inline-end"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-inline-end : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end
 -}
 scrollPaddingInlineEndPx : Float -> Html.Attribute msg
 scrollPaddingInlineEndPx value =
-    Html.Attributes.style
-        "scroll-padding-inline-end"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingInlineEnd (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingInlineStart : String -> Html.Attribute msg
-scrollPaddingInlineStart value =
-    Html.Attributes.style "scroll-padding-inline-start" value
-```
+{-| CSS property `scroll-padding-inline-start`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start
 -}
@@ -22483,57 +18210,41 @@ scrollPaddingInlineStart value =
 
 
 {-| ```
-scrollPaddingInlineStartAuto : Html.Attribute msg
-scrollPaddingInlineStartAuto =
-    Html.Attributes.style "scroll-padding-inline-start" "auto"
+scroll-padding-inline-start : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start
 -}
 scrollPaddingInlineStartAuto : Html.Attribute msg
 scrollPaddingInlineStartAuto =
-    Html.Attributes.style "scroll-padding-inline-start" "auto"
+    scrollPaddingInlineStart "auto"
 
 
 {-| ```
-scrollPaddingInlineStartRem : Float -> Html.Attribute msg
-scrollPaddingInlineStartRem value =
-    Html.Attributes.style
-        "scroll-padding-inline-start"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-inline-start : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start
 -}
 scrollPaddingInlineStartRem : Float -> Html.Attribute msg
 scrollPaddingInlineStartRem value =
-    Html.Attributes.style
-        "scroll-padding-inline-start"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingInlineStart (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingInlineStartPx : Float -> Html.Attribute msg
-scrollPaddingInlineStartPx value =
-    Html.Attributes.style
-        "scroll-padding-inline-start"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-inline-start : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start
 -}
 scrollPaddingInlineStartPx : Float -> Html.Attribute msg
 scrollPaddingInlineStartPx value =
-    Html.Attributes.style
-        "scroll-padding-inline-start"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingInlineStart (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingLeft : String -> Html.Attribute msg
-scrollPaddingLeft value =
-    Html.Attributes.style "scroll-padding-left" value
-```
+{-| CSS property `scroll-padding-left`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left
 -}
@@ -22543,57 +18254,41 @@ scrollPaddingLeft value =
 
 
 {-| ```
-scrollPaddingLeftAuto : Html.Attribute msg
-scrollPaddingLeftAuto =
-    Html.Attributes.style "scroll-padding-left" "auto"
+scroll-padding-left : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left
 -}
 scrollPaddingLeftAuto : Html.Attribute msg
 scrollPaddingLeftAuto =
-    Html.Attributes.style "scroll-padding-left" "auto"
+    scrollPaddingLeft "auto"
 
 
 {-| ```
-scrollPaddingLeftRem : Float -> Html.Attribute msg
-scrollPaddingLeftRem value =
-    Html.Attributes.style
-        "scroll-padding-left"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-left : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left
 -}
 scrollPaddingLeftRem : Float -> Html.Attribute msg
 scrollPaddingLeftRem value =
-    Html.Attributes.style
-        "scroll-padding-left"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingLeft (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingLeftPx : Float -> Html.Attribute msg
-scrollPaddingLeftPx value =
-    Html.Attributes.style
-        "scroll-padding-left"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-left : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left
 -}
 scrollPaddingLeftPx : Float -> Html.Attribute msg
 scrollPaddingLeftPx value =
-    Html.Attributes.style
-        "scroll-padding-left"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingLeft (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingRight : String -> Html.Attribute msg
-scrollPaddingRight value =
-    Html.Attributes.style "scroll-padding-right" value
-```
+{-| CSS property `scroll-padding-right`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right
 -}
@@ -22603,57 +18298,41 @@ scrollPaddingRight value =
 
 
 {-| ```
-scrollPaddingRightAuto : Html.Attribute msg
-scrollPaddingRightAuto =
-    Html.Attributes.style "scroll-padding-right" "auto"
+scroll-padding-right : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right
 -}
 scrollPaddingRightAuto : Html.Attribute msg
 scrollPaddingRightAuto =
-    Html.Attributes.style "scroll-padding-right" "auto"
+    scrollPaddingRight "auto"
 
 
 {-| ```
-scrollPaddingRightRem : Float -> Html.Attribute msg
-scrollPaddingRightRem value =
-    Html.Attributes.style
-        "scroll-padding-right"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-right : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right
 -}
 scrollPaddingRightRem : Float -> Html.Attribute msg
 scrollPaddingRightRem value =
-    Html.Attributes.style
-        "scroll-padding-right"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingRight (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingRightPx : Float -> Html.Attribute msg
-scrollPaddingRightPx value =
-    Html.Attributes.style
-        "scroll-padding-right"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-right : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right
 -}
 scrollPaddingRightPx : Float -> Html.Attribute msg
 scrollPaddingRightPx value =
-    Html.Attributes.style
-        "scroll-padding-right"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingRight (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollPaddingTop : String -> Html.Attribute msg
-scrollPaddingTop value =
-    Html.Attributes.style "scroll-padding-top" value
-```
+{-| CSS property `scroll-padding-top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top
 -}
@@ -22663,57 +18342,41 @@ scrollPaddingTop value =
 
 
 {-| ```
-scrollPaddingTopAuto : Html.Attribute msg
-scrollPaddingTopAuto =
-    Html.Attributes.style "scroll-padding-top" "auto"
+scroll-padding-top : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top
 -}
 scrollPaddingTopAuto : Html.Attribute msg
 scrollPaddingTopAuto =
-    Html.Attributes.style "scroll-padding-top" "auto"
+    scrollPaddingTop "auto"
 
 
 {-| ```
-scrollPaddingTopRem : Float -> Html.Attribute msg
-scrollPaddingTopRem value =
-    Html.Attributes.style
-        "scroll-padding-top"
-        (String.append (String.fromFloat value) "rem")
+scroll-padding-top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top
 -}
 scrollPaddingTopRem : Float -> Html.Attribute msg
 scrollPaddingTopRem value =
-    Html.Attributes.style
-        "scroll-padding-top"
-        (String.append (String.fromFloat value) "rem")
+    scrollPaddingTop (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-scrollPaddingTopPx : Float -> Html.Attribute msg
-scrollPaddingTopPx value =
-    Html.Attributes.style
-        "scroll-padding-top"
-        (String.append (String.fromFloat value) "px")
+scroll-padding-top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top
 -}
 scrollPaddingTopPx : Float -> Html.Attribute msg
 scrollPaddingTopPx value =
-    Html.Attributes.style
-        "scroll-padding-top"
-        (String.append (String.fromFloat value) "px")
+    scrollPaddingTop (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-scrollSnapAlign : String -> Html.Attribute msg
-scrollSnapAlign value =
-    Html.Attributes.style "scroll-snap-align" value
-```
+{-| CSS property `scroll-snap-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align
 -}
@@ -22723,62 +18386,52 @@ scrollSnapAlign value =
 
 
 {-| ```
-scrollSnapAlignStart : Html.Attribute msg
-scrollSnapAlignStart =
-    Html.Attributes.style "scroll-snap-align" "start"
+scroll-snap-align : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align
 -}
 scrollSnapAlignStart : Html.Attribute msg
 scrollSnapAlignStart =
-    Html.Attributes.style "scroll-snap-align" "start"
+    scrollSnapAlign "start"
 
 
 {-| ```
-scrollSnapAlignCenter : Html.Attribute msg
-scrollSnapAlignCenter =
-    Html.Attributes.style "scroll-snap-align" "center"
+scroll-snap-align : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align
 -}
 scrollSnapAlignCenter : Html.Attribute msg
 scrollSnapAlignCenter =
-    Html.Attributes.style "scroll-snap-align" "center"
+    scrollSnapAlign "center"
 
 
 {-| ```
-scrollSnapAlignEnd : Html.Attribute msg
-scrollSnapAlignEnd =
-    Html.Attributes.style "scroll-snap-align" "end"
+scroll-snap-align : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align
 -}
 scrollSnapAlignEnd : Html.Attribute msg
 scrollSnapAlignEnd =
-    Html.Attributes.style "scroll-snap-align" "end"
+    scrollSnapAlign "end"
 
 
 {-| ```
-scrollSnapAlignNone : Html.Attribute msg
-scrollSnapAlignNone =
-    Html.Attributes.style "scroll-snap-align" "none"
+scroll-snap-align : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align
 -}
 scrollSnapAlignNone : Html.Attribute msg
 scrollSnapAlignNone =
-    Html.Attributes.style "scroll-snap-align" "none"
+    scrollSnapAlign "none"
 
 
-{-| ```
-scrollSnapCoordinate : String -> Html.Attribute msg
-scrollSnapCoordinate value =
-    Html.Attributes.style "scroll-snap-coordinate" value
-```
+{-| CSS property `scroll-snap-coordinate`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate
 -}
@@ -22788,23 +18441,19 @@ scrollSnapCoordinate value =
 
 
 {-| ```
-scrollSnapCoordinateNone : Html.Attribute msg
-scrollSnapCoordinateNone =
-    Html.Attributes.style "scroll-snap-coordinate" "none"
+scroll-snap-coordinate : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate
 -}
 scrollSnapCoordinateNone : Html.Attribute msg
 scrollSnapCoordinateNone =
-    Html.Attributes.style "scroll-snap-coordinate" "none"
+    scrollSnapCoordinate "none"
 
 
-{-| ```
-scrollSnapDestination : String -> Html.Attribute msg
-scrollSnapDestination value =
-    Html.Attributes.style "scroll-snap-destination" value
-```
+{-| CSS property `scroll-snap-destination`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination
 -}
@@ -22813,11 +18462,9 @@ scrollSnapDestination value =
     Html.Attributes.style "scroll-snap-destination" value
 
 
-{-| ```
-scrollSnapPointsX : String -> Html.Attribute msg
-scrollSnapPointsX value =
-    Html.Attributes.style "scroll-snap-points-x" value
-```
+{-| CSS property `scroll-snap-points-x`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x
 -}
@@ -22826,11 +18473,9 @@ scrollSnapPointsX value =
     Html.Attributes.style "scroll-snap-points-x" value
 
 
-{-| ```
-scrollSnapPointsY : String -> Html.Attribute msg
-scrollSnapPointsY value =
-    Html.Attributes.style "scroll-snap-points-y" value
-```
+{-| CSS property `scroll-snap-points-y`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y
 -}
@@ -22839,11 +18484,9 @@ scrollSnapPointsY value =
     Html.Attributes.style "scroll-snap-points-y" value
 
 
-{-| ```
-scrollSnapStop : String -> Html.Attribute msg
-scrollSnapStop value =
-    Html.Attributes.style "scroll-snap-stop" value
-```
+{-| CSS property `scroll-snap-stop`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop
 -}
@@ -22853,36 +18496,30 @@ scrollSnapStop value =
 
 
 {-| ```
-scrollSnapStopNormal : Html.Attribute msg
-scrollSnapStopNormal =
-    Html.Attributes.style "scroll-snap-stop" "normal"
+scroll-snap-stop : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop
 -}
 scrollSnapStopNormal : Html.Attribute msg
 scrollSnapStopNormal =
-    Html.Attributes.style "scroll-snap-stop" "normal"
+    scrollSnapStop "normal"
 
 
 {-| ```
-scrollSnapStopAlways : Html.Attribute msg
-scrollSnapStopAlways =
-    Html.Attributes.style "scroll-snap-stop" "always"
+scroll-snap-stop : always
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop
 -}
 scrollSnapStopAlways : Html.Attribute msg
 scrollSnapStopAlways =
-    Html.Attributes.style "scroll-snap-stop" "always"
+    scrollSnapStop "always"
 
 
-{-| ```
-scrollSnapType : String -> Html.Attribute msg
-scrollSnapType value =
-    Html.Attributes.style "scroll-snap-type" value
-```
+{-| CSS property `scroll-snap-type`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
@@ -22892,88 +18529,74 @@ scrollSnapType value =
 
 
 {-| ```
-scrollSnapTypeNone : Html.Attribute msg
-scrollSnapTypeNone =
-    Html.Attributes.style "scroll-snap-type" "none"
+scroll-snap-type : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
 scrollSnapTypeNone : Html.Attribute msg
 scrollSnapTypeNone =
-    Html.Attributes.style "scroll-snap-type" "none"
+    scrollSnapType "none"
 
 
 {-| ```
-scrollSnapType_x : Html.Attribute msg
-scrollSnapType_x =
-    Html.Attributes.style "scroll-snap-type" "x"
+scroll-snap-type : x
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
 scrollSnapType_x : Html.Attribute msg
 scrollSnapType_x =
-    Html.Attributes.style "scroll-snap-type" "x"
+    scrollSnapType "x"
 
 
 {-| ```
-scrollSnapTypeBlock : Html.Attribute msg
-scrollSnapTypeBlock =
-    Html.Attributes.style "scroll-snap-type" "block"
+scroll-snap-type : block
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
 scrollSnapTypeBlock : Html.Attribute msg
 scrollSnapTypeBlock =
-    Html.Attributes.style "scroll-snap-type" "block"
+    scrollSnapType "block"
 
 
 {-| ```
-scrollSnapTypeBoth : Html.Attribute msg
-scrollSnapTypeBoth =
-    Html.Attributes.style "scroll-snap-type" "both"
+scroll-snap-type : both
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
 scrollSnapTypeBoth : Html.Attribute msg
 scrollSnapTypeBoth =
-    Html.Attributes.style "scroll-snap-type" "both"
+    scrollSnapType "both"
 
 
 {-| ```
-scrollSnapTypeInline : Html.Attribute msg
-scrollSnapTypeInline =
-    Html.Attributes.style "scroll-snap-type" "inline"
+scroll-snap-type : inline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
 scrollSnapTypeInline : Html.Attribute msg
 scrollSnapTypeInline =
-    Html.Attributes.style "scroll-snap-type" "inline"
+    scrollSnapType "inline"
 
 
 {-| ```
-scrollSnapTypeY : Html.Attribute msg
-scrollSnapTypeY =
-    Html.Attributes.style "scroll-snap-type" "y"
+scroll-snap-type : y
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type
 -}
-scrollSnapTypeY : Html.Attribute msg
-scrollSnapTypeY =
-    Html.Attributes.style "scroll-snap-type" "y"
+scrollSnapType_y : Html.Attribute msg
+scrollSnapType_y =
+    scrollSnapType "y"
 
 
-{-| ```
-scrollSnapTypeX : String -> Html.Attribute msg
-scrollSnapTypeX value =
-    Html.Attributes.style "scroll-snap-type-x" value
-```
+{-| CSS property `scroll-snap-type-x`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x
 -}
@@ -22983,49 +18606,41 @@ scrollSnapTypeX value =
 
 
 {-| ```
-scrollSnapTypeXNone : Html.Attribute msg
-scrollSnapTypeXNone =
-    Html.Attributes.style "scroll-snap-type-x" "none"
+scroll-snap-type-x : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x
 -}
 scrollSnapTypeXNone : Html.Attribute msg
 scrollSnapTypeXNone =
-    Html.Attributes.style "scroll-snap-type-x" "none"
+    scrollSnapTypeX "none"
 
 
 {-| ```
-scrollSnapTypeXProximity : Html.Attribute msg
-scrollSnapTypeXProximity =
-    Html.Attributes.style "scroll-snap-type-x" "proximity"
+scroll-snap-type-x : proximity
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x
 -}
 scrollSnapTypeXProximity : Html.Attribute msg
 scrollSnapTypeXProximity =
-    Html.Attributes.style "scroll-snap-type-x" "proximity"
+    scrollSnapTypeX "proximity"
 
 
 {-| ```
-scrollSnapTypeXMandatory : Html.Attribute msg
-scrollSnapTypeXMandatory =
-    Html.Attributes.style "scroll-snap-type-x" "mandatory"
+scroll-snap-type-x : mandatory
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x
 -}
 scrollSnapTypeXMandatory : Html.Attribute msg
 scrollSnapTypeXMandatory =
-    Html.Attributes.style "scroll-snap-type-x" "mandatory"
+    scrollSnapTypeX "mandatory"
 
 
-{-| ```
-scrollSnapTypeY : String -> Html.Attribute msg
-scrollSnapTypeY value =
-    Html.Attributes.style "scroll-snap-type-y" value
-```
+{-| CSS property `scroll-snap-type-y`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y
 -}
@@ -23035,49 +18650,41 @@ scrollSnapTypeY value =
 
 
 {-| ```
-scrollSnapTypeYNone : Html.Attribute msg
-scrollSnapTypeYNone =
-    Html.Attributes.style "scroll-snap-type-y" "none"
+scroll-snap-type-y : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y
 -}
 scrollSnapTypeYNone : Html.Attribute msg
 scrollSnapTypeYNone =
-    Html.Attributes.style "scroll-snap-type-y" "none"
+    scrollSnapTypeY "none"
 
 
 {-| ```
-scrollSnapTypeYProximity : Html.Attribute msg
-scrollSnapTypeYProximity =
-    Html.Attributes.style "scroll-snap-type-y" "proximity"
+scroll-snap-type-y : proximity
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y
 -}
 scrollSnapTypeYProximity : Html.Attribute msg
 scrollSnapTypeYProximity =
-    Html.Attributes.style "scroll-snap-type-y" "proximity"
+    scrollSnapTypeY "proximity"
 
 
 {-| ```
-scrollSnapTypeYMandatory : Html.Attribute msg
-scrollSnapTypeYMandatory =
-    Html.Attributes.style "scroll-snap-type-y" "mandatory"
+scroll-snap-type-y : mandatory
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y
 -}
 scrollSnapTypeYMandatory : Html.Attribute msg
 scrollSnapTypeYMandatory =
-    Html.Attributes.style "scroll-snap-type-y" "mandatory"
+    scrollSnapTypeY "mandatory"
 
 
-{-| ```
-scrollTimeline : String -> Html.Attribute msg
-scrollTimeline value =
-    Html.Attributes.style "scroll-timeline" value
-```
+{-| CSS property `scroll-timeline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-timeline
 -}
@@ -23086,11 +18693,9 @@ scrollTimeline value =
     Html.Attributes.style "scroll-timeline" value
 
 
-{-| ```
-scrollTimelineAxis : String -> Html.Attribute msg
-scrollTimelineAxis value =
-    Html.Attributes.style "scroll-timeline-axis" value
-```
+{-| CSS property `scroll-timeline-axis`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-axis
 -}
@@ -23099,11 +18704,9 @@ scrollTimelineAxis value =
     Html.Attributes.style "scroll-timeline-axis" value
 
 
-{-| ```
-scrollTimelineName : String -> Html.Attribute msg
-scrollTimelineName value =
-    Html.Attributes.style "scroll-timeline-name" value
-```
+{-| CSS property `scroll-timeline-name`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name
 -}
@@ -23113,23 +18716,19 @@ scrollTimelineName value =
 
 
 {-| ```
-scrollTimelineNameNone : Html.Attribute msg
-scrollTimelineNameNone =
-    Html.Attributes.style "scroll-timeline-name" "none"
+scroll-timeline-name : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scroll-timeline-name
 -}
 scrollTimelineNameNone : Html.Attribute msg
 scrollTimelineNameNone =
-    Html.Attributes.style "scroll-timeline-name" "none"
+    scrollTimelineName "none"
 
 
-{-| ```
-scrollbarColor : String -> Html.Attribute msg
-scrollbarColor value =
-    Html.Attributes.style "scrollbar-color" value
-```
+{-| CSS property `scrollbar-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-color
 -}
@@ -23138,11 +18737,9 @@ scrollbarColor value =
     Html.Attributes.style "scrollbar-color" value
 
 
-{-| ```
-scrollbarGutter : String -> Html.Attribute msg
-scrollbarGutter value =
-    Html.Attributes.style "scrollbar-gutter" value
-```
+{-| CSS property `scrollbar-gutter`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter
 -}
@@ -23151,11 +18748,9 @@ scrollbarGutter value =
     Html.Attributes.style "scrollbar-gutter" value
 
 
-{-| ```
-scrollbarWidth : String -> Html.Attribute msg
-scrollbarWidth value =
-    Html.Attributes.style "scrollbar-width" value
-```
+{-| CSS property `scrollbar-width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-width
 -}
@@ -23165,49 +18760,41 @@ scrollbarWidth value =
 
 
 {-| ```
-scrollbarWidthAuto : Html.Attribute msg
-scrollbarWidthAuto =
-    Html.Attributes.style "scrollbar-width" "auto"
+scrollbar-width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-width
 -}
 scrollbarWidthAuto : Html.Attribute msg
 scrollbarWidthAuto =
-    Html.Attributes.style "scrollbar-width" "auto"
+    scrollbarWidth "auto"
 
 
 {-| ```
-scrollbarWidthNone : Html.Attribute msg
-scrollbarWidthNone =
-    Html.Attributes.style "scrollbar-width" "none"
+scrollbar-width : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-width
 -}
 scrollbarWidthNone : Html.Attribute msg
 scrollbarWidthNone =
-    Html.Attributes.style "scrollbar-width" "none"
+    scrollbarWidth "none"
 
 
 {-| ```
-scrollbarWidthThin : Html.Attribute msg
-scrollbarWidthThin =
-    Html.Attributes.style "scrollbar-width" "thin"
+scrollbar-width : thin
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/scrollbar-width
 -}
 scrollbarWidthThin : Html.Attribute msg
 scrollbarWidthThin =
-    Html.Attributes.style "scrollbar-width" "thin"
+    scrollbarWidth "thin"
 
 
-{-| ```
-shapeImageThreshold : String -> Html.Attribute msg
-shapeImageThreshold value =
-    Html.Attributes.style "shape-image-threshold" value
-```
+{-| CSS property `shape-image-threshold`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold
 -}
@@ -23216,11 +18803,9 @@ shapeImageThreshold value =
     Html.Attributes.style "shape-image-threshold" value
 
 
-{-| ```
-shapeMargin : String -> Html.Attribute msg
-shapeMargin value =
-    Html.Attributes.style "shape-margin" value
-```
+{-| CSS property `shape-margin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/shape-margin
 -}
@@ -23230,44 +18815,30 @@ shapeMargin value =
 
 
 {-| ```
-shapeMarginPx : Float -> Html.Attribute msg
-shapeMarginPx value =
-    Html.Attributes.style
-        "shape-margin"
-        (String.append (String.fromFloat value) "px")
+shape-margin : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/shape-margin
 -}
 shapeMarginPx : Float -> Html.Attribute msg
 shapeMarginPx value =
-    Html.Attributes.style
-        "shape-margin"
-        (String.append (String.fromFloat value) "px")
+    shapeMargin (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-shapeMarginRem : Float -> Html.Attribute msg
-shapeMarginRem value =
-    Html.Attributes.style
-        "shape-margin"
-        (String.append (String.fromFloat value) "rem")
+shape-margin : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/shape-margin
 -}
 shapeMarginRem : Float -> Html.Attribute msg
 shapeMarginRem value =
-    Html.Attributes.style
-        "shape-margin"
-        (String.append (String.fromFloat value) "rem")
+    shapeMargin (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-shapeOutside : String -> Html.Attribute msg
-shapeOutside value =
-    Html.Attributes.style "shape-outside" value
-```
+{-| CSS property `shape-outside`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/shape-outside
 -}
@@ -23277,36 +18848,30 @@ shapeOutside value =
 
 
 {-| ```
-shapeOutsideNone : Html.Attribute msg
-shapeOutsideNone =
-    Html.Attributes.style "shape-outside" "none"
+shape-outside : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/shape-outside
 -}
 shapeOutsideNone : Html.Attribute msg
 shapeOutsideNone =
-    Html.Attributes.style "shape-outside" "none"
+    shapeOutside "none"
 
 
 {-| ```
-shapeOutsideMarginBox : Html.Attribute msg
-shapeOutsideMarginBox =
-    Html.Attributes.style "shape-outside" "margin-box"
+shape-outside : margin-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/shape-outside
 -}
 shapeOutsideMarginBox : Html.Attribute msg
 shapeOutsideMarginBox =
-    Html.Attributes.style "shape-outside" "margin-box"
+    shapeOutside "margin-box"
 
 
-{-| ```
-tabSize : String -> Html.Attribute msg
-tabSize value =
-    Html.Attributes.style "tab-size" value
-```
+{-| CSS property `tab-size`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/tab-size
 -}
@@ -23316,44 +18881,30 @@ tabSize value =
 
 
 {-| ```
-tabSizePx : Float -> Html.Attribute msg
-tabSizePx value =
-    Html.Attributes.style
-        "tab-size"
-        (String.append (String.fromFloat value) "px")
+tab-size : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/tab-size
 -}
 tabSizePx : Float -> Html.Attribute msg
 tabSizePx value =
-    Html.Attributes.style
-        "tab-size"
-        (String.append (String.fromFloat value) "px")
+    tabSize (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-tabSizeRem : Float -> Html.Attribute msg
-tabSizeRem value =
-    Html.Attributes.style
-        "tab-size"
-        (String.append (String.fromFloat value) "rem")
+tab-size : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/tab-size
 -}
 tabSizeRem : Float -> Html.Attribute msg
 tabSizeRem value =
-    Html.Attributes.style
-        "tab-size"
-        (String.append (String.fromFloat value) "rem")
+    tabSize (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-tableLayout : String -> Html.Attribute msg
-tableLayout value =
-    Html.Attributes.style "table-layout" value
-```
+{-| CSS property `table-layout`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/table-layout
 -}
@@ -23363,36 +18914,30 @@ tableLayout value =
 
 
 {-| ```
-tableLayoutAuto : Html.Attribute msg
-tableLayoutAuto =
-    Html.Attributes.style "table-layout" "auto"
+table-layout : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/table-layout
 -}
 tableLayoutAuto : Html.Attribute msg
 tableLayoutAuto =
-    Html.Attributes.style "table-layout" "auto"
+    tableLayout "auto"
 
 
 {-| ```
-tableLayoutFixed : Html.Attribute msg
-tableLayoutFixed =
-    Html.Attributes.style "table-layout" "fixed"
+table-layout : fixed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/table-layout
 -}
 tableLayoutFixed : Html.Attribute msg
 tableLayoutFixed =
-    Html.Attributes.style "table-layout" "fixed"
+    tableLayout "fixed"
 
 
-{-| ```
-textAlign : String -> Html.Attribute msg
-textAlign value =
-    Html.Attributes.style "text-align" value
-```
+{-| CSS property `text-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
@@ -23402,101 +18947,85 @@ textAlign value =
 
 
 {-| ```
-textAlignStart : Html.Attribute msg
-textAlignStart =
-    Html.Attributes.style "text-align" "start"
+text-align : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignStart : Html.Attribute msg
 textAlignStart =
-    Html.Attributes.style "text-align" "start"
+    textAlign "start"
 
 
 {-| ```
-textAlignLeft : Html.Attribute msg
-textAlignLeft =
-    Html.Attributes.style "text-align" "left"
+text-align : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignLeft : Html.Attribute msg
 textAlignLeft =
-    Html.Attributes.style "text-align" "left"
+    textAlign "left"
 
 
 {-| ```
-textAlignCenter : Html.Attribute msg
-textAlignCenter =
-    Html.Attributes.style "text-align" "center"
+text-align : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignCenter : Html.Attribute msg
 textAlignCenter =
-    Html.Attributes.style "text-align" "center"
+    textAlign "center"
 
 
 {-| ```
-textAlignMatchParent : Html.Attribute msg
-textAlignMatchParent =
-    Html.Attributes.style "text-align" "match-parent"
+text-align : match-parent
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignMatchParent : Html.Attribute msg
 textAlignMatchParent =
-    Html.Attributes.style "text-align" "match-parent"
+    textAlign "match-parent"
 
 
 {-| ```
-textAlignJustify : Html.Attribute msg
-textAlignJustify =
-    Html.Attributes.style "text-align" "justify"
+text-align : justify
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignJustify : Html.Attribute msg
 textAlignJustify =
-    Html.Attributes.style "text-align" "justify"
+    textAlign "justify"
 
 
 {-| ```
-textAlignRight : Html.Attribute msg
-textAlignRight =
-    Html.Attributes.style "text-align" "right"
+text-align : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignRight : Html.Attribute msg
 textAlignRight =
-    Html.Attributes.style "text-align" "right"
+    textAlign "right"
 
 
 {-| ```
-textAlignEnd : Html.Attribute msg
-textAlignEnd =
-    Html.Attributes.style "text-align" "end"
+text-align : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align
 -}
 textAlignEnd : Html.Attribute msg
 textAlignEnd =
-    Html.Attributes.style "text-align" "end"
+    textAlign "end"
 
 
-{-| ```
-textAlignLast : String -> Html.Attribute msg
-textAlignLast value =
-    Html.Attributes.style "text-align-last" value
-```
+{-| CSS property `text-align-last`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
@@ -23506,101 +19035,85 @@ textAlignLast value =
 
 
 {-| ```
-textAlignLastAuto : Html.Attribute msg
-textAlignLastAuto =
-    Html.Attributes.style "text-align-last" "auto"
+text-align-last : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastAuto : Html.Attribute msg
 textAlignLastAuto =
-    Html.Attributes.style "text-align-last" "auto"
+    textAlignLast "auto"
 
 
 {-| ```
-textAlignLastEnd : Html.Attribute msg
-textAlignLastEnd =
-    Html.Attributes.style "text-align-last" "end"
+text-align-last : end
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastEnd : Html.Attribute msg
 textAlignLastEnd =
-    Html.Attributes.style "text-align-last" "end"
+    textAlignLast "end"
 
 
 {-| ```
-textAlignLastRight : Html.Attribute msg
-textAlignLastRight =
-    Html.Attributes.style "text-align-last" "right"
+text-align-last : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastRight : Html.Attribute msg
 textAlignLastRight =
-    Html.Attributes.style "text-align-last" "right"
+    textAlignLast "right"
 
 
 {-| ```
-textAlignLastJustify : Html.Attribute msg
-textAlignLastJustify =
-    Html.Attributes.style "text-align-last" "justify"
+text-align-last : justify
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastJustify : Html.Attribute msg
 textAlignLastJustify =
-    Html.Attributes.style "text-align-last" "justify"
+    textAlignLast "justify"
 
 
 {-| ```
-textAlignLastCenter : Html.Attribute msg
-textAlignLastCenter =
-    Html.Attributes.style "text-align-last" "center"
+text-align-last : center
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastCenter : Html.Attribute msg
 textAlignLastCenter =
-    Html.Attributes.style "text-align-last" "center"
+    textAlignLast "center"
 
 
 {-| ```
-textAlignLastLeft : Html.Attribute msg
-textAlignLastLeft =
-    Html.Attributes.style "text-align-last" "left"
+text-align-last : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastLeft : Html.Attribute msg
 textAlignLastLeft =
-    Html.Attributes.style "text-align-last" "left"
+    textAlignLast "left"
 
 
 {-| ```
-textAlignLastStart : Html.Attribute msg
-textAlignLastStart =
-    Html.Attributes.style "text-align-last" "start"
+text-align-last : start
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-align-last
 -}
 textAlignLastStart : Html.Attribute msg
 textAlignLastStart =
-    Html.Attributes.style "text-align-last" "start"
+    textAlignLast "start"
 
 
-{-| ```
-textCombineUpright : String -> Html.Attribute msg
-textCombineUpright value =
-    Html.Attributes.style "text-combine-upright" value
-```
+{-| CSS property `text-combine-upright`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
 -}
@@ -23610,49 +19123,41 @@ textCombineUpright value =
 
 
 {-| ```
-textCombineUprightNone : Html.Attribute msg
-textCombineUprightNone =
-    Html.Attributes.style "text-combine-upright" "none"
+text-combine-upright : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
 -}
 textCombineUprightNone : Html.Attribute msg
 textCombineUprightNone =
-    Html.Attributes.style "text-combine-upright" "none"
+    textCombineUpright "none"
 
 
 {-| ```
-textCombineUprightDigits : Html.Attribute msg
-textCombineUprightDigits =
-    Html.Attributes.style "text-combine-upright" "digits"
+text-combine-upright : digits
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
 -}
 textCombineUprightDigits : Html.Attribute msg
 textCombineUprightDigits =
-    Html.Attributes.style "text-combine-upright" "digits"
+    textCombineUpright "digits"
 
 
 {-| ```
-textCombineUprightAll : Html.Attribute msg
-textCombineUprightAll =
-    Html.Attributes.style "text-combine-upright" "all"
+text-combine-upright : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-combine-upright
 -}
 textCombineUprightAll : Html.Attribute msg
 textCombineUprightAll =
-    Html.Attributes.style "text-combine-upright" "all"
+    textCombineUpright "all"
 
 
-{-| ```
-textDecoration : String -> Html.Attribute msg
-textDecoration value =
-    Html.Attributes.style "text-decoration" value
-```
+{-| CSS property `text-decoration`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
@@ -23662,166 +19167,140 @@ textDecoration value =
 
 
 {-| ```
-textDecorationDouble : Html.Attribute msg
-textDecorationDouble =
-    Html.Attributes.style "text-decoration" "double"
+text-decoration : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationDouble : Html.Attribute msg
 textDecorationDouble =
-    Html.Attributes.style "text-decoration" "double"
+    textDecoration "double"
 
 
 {-| ```
-textDecorationDashed : Html.Attribute msg
-textDecorationDashed =
-    Html.Attributes.style "text-decoration" "dashed"
+text-decoration : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationDashed : Html.Attribute msg
 textDecorationDashed =
-    Html.Attributes.style "text-decoration" "dashed"
+    textDecoration "dashed"
 
 
 {-| ```
-textDecorationWavy : Html.Attribute msg
-textDecorationWavy =
-    Html.Attributes.style "text-decoration" "wavy"
+text-decoration : wavy
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationWavy : Html.Attribute msg
 textDecorationWavy =
-    Html.Attributes.style "text-decoration" "wavy"
+    textDecoration "wavy"
 
 
 {-| ```
-textDecorationDotted : Html.Attribute msg
-textDecorationDotted =
-    Html.Attributes.style "text-decoration" "dotted"
+text-decoration : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationDotted : Html.Attribute msg
 textDecorationDotted =
-    Html.Attributes.style "text-decoration" "dotted"
+    textDecoration "dotted"
 
 
 {-| ```
-textDecorationSolid : Html.Attribute msg
-textDecorationSolid =
-    Html.Attributes.style "text-decoration" "solid"
+text-decoration : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationSolid : Html.Attribute msg
 textDecorationSolid =
-    Html.Attributes.style "text-decoration" "solid"
+    textDecoration "solid"
 
 
 {-| ```
-textDecorationUnderline : Html.Attribute msg
-textDecorationUnderline =
-    Html.Attributes.style "text-decoration" "underline"
+text-decoration : underline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationUnderline : Html.Attribute msg
 textDecorationUnderline =
-    Html.Attributes.style "text-decoration" "underline"
+    textDecoration "underline"
 
 
 {-| ```
-textDecorationOverline : Html.Attribute msg
-textDecorationOverline =
-    Html.Attributes.style "text-decoration" "overline"
+text-decoration : overline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationOverline : Html.Attribute msg
 textDecorationOverline =
-    Html.Attributes.style "text-decoration" "overline"
+    textDecoration "overline"
 
 
 {-| ```
-textDecorationLineThrough : Html.Attribute msg
-textDecorationLineThrough =
-    Html.Attributes.style "text-decoration" "line-through"
+text-decoration : line-through
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationLineThrough : Html.Attribute msg
 textDecorationLineThrough =
-    Html.Attributes.style "text-decoration" "line-through"
+    textDecoration "line-through"
 
 
 {-| ```
-textDecorationBlink : Html.Attribute msg
-textDecorationBlink =
-    Html.Attributes.style "text-decoration" "blink"
+text-decoration : blink
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationBlink : Html.Attribute msg
 textDecorationBlink =
-    Html.Attributes.style "text-decoration" "blink"
+    textDecoration "blink"
 
 
 {-| ```
-textDecorationGrammarError : Html.Attribute msg
-textDecorationGrammarError =
-    Html.Attributes.style "text-decoration" "grammar-error"
+text-decoration : grammar-error
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationGrammarError : Html.Attribute msg
 textDecorationGrammarError =
-    Html.Attributes.style "text-decoration" "grammar-error"
+    textDecoration "grammar-error"
 
 
 {-| ```
-textDecorationSpellingError : Html.Attribute msg
-textDecorationSpellingError =
-    Html.Attributes.style "text-decoration" "spelling-error"
+text-decoration : spelling-error
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationSpellingError : Html.Attribute msg
 textDecorationSpellingError =
-    Html.Attributes.style "text-decoration" "spelling-error"
+    textDecoration "spelling-error"
 
 
 {-| ```
-textDecorationNone : Html.Attribute msg
-textDecorationNone =
-    Html.Attributes.style "text-decoration" "none"
+text-decoration : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration
 -}
 textDecorationNone : Html.Attribute msg
 textDecorationNone =
-    Html.Attributes.style "text-decoration" "none"
+    textDecoration "none"
 
 
-{-| ```
-textDecorationColor : String -> Html.Attribute msg
-textDecorationColor value =
-    Html.Attributes.style "text-decoration-color" value
-```
+{-| CSS property `text-decoration-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-color
 -}
@@ -23830,11 +19309,9 @@ textDecorationColor value =
     Html.Attributes.style "text-decoration-color" value
 
 
-{-| ```
-textDecorationLine : String -> Html.Attribute msg
-textDecorationLine value =
-    Html.Attributes.style "text-decoration-line" value
-```
+{-| CSS property `text-decoration-line`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
@@ -23844,101 +19321,85 @@ textDecorationLine value =
 
 
 {-| ```
-textDecorationLineNone : Html.Attribute msg
-textDecorationLineNone =
-    Html.Attributes.style "text-decoration-line" "none"
+text-decoration-line : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineNone : Html.Attribute msg
 textDecorationLineNone =
-    Html.Attributes.style "text-decoration-line" "none"
+    textDecorationLine "none"
 
 
 {-| ```
-textDecorationLineSpellingError : Html.Attribute msg
-textDecorationLineSpellingError =
-    Html.Attributes.style "text-decoration-line" "spelling-error"
+text-decoration-line : spelling-error
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineSpellingError : Html.Attribute msg
 textDecorationLineSpellingError =
-    Html.Attributes.style "text-decoration-line" "spelling-error"
+    textDecorationLine "spelling-error"
 
 
 {-| ```
-textDecorationLineGrammarError : Html.Attribute msg
-textDecorationLineGrammarError =
-    Html.Attributes.style "text-decoration-line" "grammar-error"
+text-decoration-line : grammar-error
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineGrammarError : Html.Attribute msg
 textDecorationLineGrammarError =
-    Html.Attributes.style "text-decoration-line" "grammar-error"
+    textDecorationLine "grammar-error"
 
 
 {-| ```
-textDecorationLineBlink : Html.Attribute msg
-textDecorationLineBlink =
-    Html.Attributes.style "text-decoration-line" "blink"
+text-decoration-line : blink
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineBlink : Html.Attribute msg
 textDecorationLineBlink =
-    Html.Attributes.style "text-decoration-line" "blink"
+    textDecorationLine "blink"
 
 
 {-| ```
-textDecorationLineLineThrough : Html.Attribute msg
-textDecorationLineLineThrough =
-    Html.Attributes.style "text-decoration-line" "line-through"
+text-decoration-line : line-through
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineLineThrough : Html.Attribute msg
 textDecorationLineLineThrough =
-    Html.Attributes.style "text-decoration-line" "line-through"
+    textDecorationLine "line-through"
 
 
 {-| ```
-textDecorationLineOverline : Html.Attribute msg
-textDecorationLineOverline =
-    Html.Attributes.style "text-decoration-line" "overline"
+text-decoration-line : overline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineOverline : Html.Attribute msg
 textDecorationLineOverline =
-    Html.Attributes.style "text-decoration-line" "overline"
+    textDecorationLine "overline"
 
 
 {-| ```
-textDecorationLineUnderline : Html.Attribute msg
-textDecorationLineUnderline =
-    Html.Attributes.style "text-decoration-line" "underline"
+text-decoration-line : underline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-line
 -}
 textDecorationLineUnderline : Html.Attribute msg
 textDecorationLineUnderline =
-    Html.Attributes.style "text-decoration-line" "underline"
+    textDecorationLine "underline"
 
 
-{-| ```
-textDecorationSkip : String -> Html.Attribute msg
-textDecorationSkip value =
-    Html.Attributes.style "text-decoration-skip" value
-```
+{-| CSS property `text-decoration-skip`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
@@ -23948,101 +19409,85 @@ textDecorationSkip value =
 
 
 {-| ```
-textDecorationSkipNone : Html.Attribute msg
-textDecorationSkipNone =
-    Html.Attributes.style "text-decoration-skip" "none"
+text-decoration-skip : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipNone : Html.Attribute msg
 textDecorationSkipNone =
-    Html.Attributes.style "text-decoration-skip" "none"
+    textDecorationSkip "none"
 
 
 {-| ```
-textDecorationSkipBoxDecoration : Html.Attribute msg
-textDecorationSkipBoxDecoration =
-    Html.Attributes.style "text-decoration-skip" "box-decoration"
+text-decoration-skip : box-decoration
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipBoxDecoration : Html.Attribute msg
 textDecorationSkipBoxDecoration =
-    Html.Attributes.style "text-decoration-skip" "box-decoration"
+    textDecorationSkip "box-decoration"
 
 
 {-| ```
-textDecorationSkipEdges : Html.Attribute msg
-textDecorationSkipEdges =
-    Html.Attributes.style "text-decoration-skip" "edges"
+text-decoration-skip : edges
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipEdges : Html.Attribute msg
 textDecorationSkipEdges =
-    Html.Attributes.style "text-decoration-skip" "edges"
+    textDecorationSkip "edges"
 
 
 {-| ```
-textDecorationSkipLeadingSpaces : Html.Attribute msg
-textDecorationSkipLeadingSpaces =
-    Html.Attributes.style "text-decoration-skip" "leading-spaces"
+text-decoration-skip : leading-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipLeadingSpaces : Html.Attribute msg
 textDecorationSkipLeadingSpaces =
-    Html.Attributes.style "text-decoration-skip" "leading-spaces"
+    textDecorationSkip "leading-spaces"
 
 
 {-| ```
-textDecorationSkipTrailingSpaces : Html.Attribute msg
-textDecorationSkipTrailingSpaces =
-    Html.Attributes.style "text-decoration-skip" "trailing-spaces"
+text-decoration-skip : trailing-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipTrailingSpaces : Html.Attribute msg
 textDecorationSkipTrailingSpaces =
-    Html.Attributes.style "text-decoration-skip" "trailing-spaces"
+    textDecorationSkip "trailing-spaces"
 
 
 {-| ```
-textDecorationSkipSpaces : Html.Attribute msg
-textDecorationSkipSpaces =
-    Html.Attributes.style "text-decoration-skip" "spaces"
+text-decoration-skip : spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipSpaces : Html.Attribute msg
 textDecorationSkipSpaces =
-    Html.Attributes.style "text-decoration-skip" "spaces"
+    textDecorationSkip "spaces"
 
 
 {-| ```
-textDecorationSkipObjects : Html.Attribute msg
-textDecorationSkipObjects =
-    Html.Attributes.style "text-decoration-skip" "objects"
+text-decoration-skip : objects
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip
 -}
 textDecorationSkipObjects : Html.Attribute msg
 textDecorationSkipObjects =
-    Html.Attributes.style "text-decoration-skip" "objects"
+    textDecorationSkip "objects"
 
 
-{-| ```
-textDecorationSkipInk : String -> Html.Attribute msg
-textDecorationSkipInk value =
-    Html.Attributes.style "text-decoration-skip-ink" value
-```
+{-| CSS property `text-decoration-skip-ink`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink
 -}
@@ -24052,49 +19497,41 @@ textDecorationSkipInk value =
 
 
 {-| ```
-textDecorationSkipInkAuto : Html.Attribute msg
-textDecorationSkipInkAuto =
-    Html.Attributes.style "text-decoration-skip-ink" "auto"
+text-decoration-skip-ink : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink
 -}
 textDecorationSkipInkAuto : Html.Attribute msg
 textDecorationSkipInkAuto =
-    Html.Attributes.style "text-decoration-skip-ink" "auto"
+    textDecorationSkipInk "auto"
 
 
 {-| ```
-textDecorationSkipInkNone : Html.Attribute msg
-textDecorationSkipInkNone =
-    Html.Attributes.style "text-decoration-skip-ink" "none"
+text-decoration-skip-ink : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink
 -}
 textDecorationSkipInkNone : Html.Attribute msg
 textDecorationSkipInkNone =
-    Html.Attributes.style "text-decoration-skip-ink" "none"
+    textDecorationSkipInk "none"
 
 
 {-| ```
-textDecorationSkipInkAll : Html.Attribute msg
-textDecorationSkipInkAll =
-    Html.Attributes.style "text-decoration-skip-ink" "all"
+text-decoration-skip-ink : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink
 -}
 textDecorationSkipInkAll : Html.Attribute msg
 textDecorationSkipInkAll =
-    Html.Attributes.style "text-decoration-skip-ink" "all"
+    textDecorationSkipInk "all"
 
 
-{-| ```
-textDecorationStyle : String -> Html.Attribute msg
-textDecorationStyle value =
-    Html.Attributes.style "text-decoration-style" value
-```
+{-| CSS property `text-decoration-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
@@ -24104,75 +19541,63 @@ textDecorationStyle value =
 
 
 {-| ```
-textDecorationStyleSolid : Html.Attribute msg
-textDecorationStyleSolid =
-    Html.Attributes.style "text-decoration-style" "solid"
+text-decoration-style : solid
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
 textDecorationStyleSolid : Html.Attribute msg
 textDecorationStyleSolid =
-    Html.Attributes.style "text-decoration-style" "solid"
+    textDecorationStyle "solid"
 
 
 {-| ```
-textDecorationStyleDotted : Html.Attribute msg
-textDecorationStyleDotted =
-    Html.Attributes.style "text-decoration-style" "dotted"
+text-decoration-style : dotted
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
 textDecorationStyleDotted : Html.Attribute msg
 textDecorationStyleDotted =
-    Html.Attributes.style "text-decoration-style" "dotted"
+    textDecorationStyle "dotted"
 
 
 {-| ```
-textDecorationStyleWavy : Html.Attribute msg
-textDecorationStyleWavy =
-    Html.Attributes.style "text-decoration-style" "wavy"
+text-decoration-style : wavy
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
 textDecorationStyleWavy : Html.Attribute msg
 textDecorationStyleWavy =
-    Html.Attributes.style "text-decoration-style" "wavy"
+    textDecorationStyle "wavy"
 
 
 {-| ```
-textDecorationStyleDashed : Html.Attribute msg
-textDecorationStyleDashed =
-    Html.Attributes.style "text-decoration-style" "dashed"
+text-decoration-style : dashed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
 textDecorationStyleDashed : Html.Attribute msg
 textDecorationStyleDashed =
-    Html.Attributes.style "text-decoration-style" "dashed"
+    textDecorationStyle "dashed"
 
 
 {-| ```
-textDecorationStyleDouble : Html.Attribute msg
-textDecorationStyleDouble =
-    Html.Attributes.style "text-decoration-style" "double"
+text-decoration-style : double
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-style
 -}
 textDecorationStyleDouble : Html.Attribute msg
 textDecorationStyleDouble =
-    Html.Attributes.style "text-decoration-style" "double"
+    textDecorationStyle "double"
 
 
-{-| ```
-textDecorationThickness : String -> Html.Attribute msg
-textDecorationThickness value =
-    Html.Attributes.style "text-decoration-thickness" value
-```
+{-| CSS property `text-decoration-thickness`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness
 -}
@@ -24181,11 +19606,9 @@ textDecorationThickness value =
     Html.Attributes.style "text-decoration-thickness" value
 
 
-{-| ```
-textEmphasis : String -> Html.Attribute msg
-textEmphasis value =
-    Html.Attributes.style "text-emphasis" value
-```
+{-| CSS property `text-emphasis`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
@@ -24195,114 +19618,96 @@ textEmphasis value =
 
 
 {-| ```
-textEmphasisFilled : Html.Attribute msg
-textEmphasisFilled =
-    Html.Attributes.style "text-emphasis" "filled"
+text-emphasis : filled
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisFilled : Html.Attribute msg
 textEmphasisFilled =
-    Html.Attributes.style "text-emphasis" "filled"
+    textEmphasis "filled"
 
 
 {-| ```
-textEmphasisOpen : Html.Attribute msg
-textEmphasisOpen =
-    Html.Attributes.style "text-emphasis" "open"
+text-emphasis : open
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisOpen : Html.Attribute msg
 textEmphasisOpen =
-    Html.Attributes.style "text-emphasis" "open"
+    textEmphasis "open"
 
 
 {-| ```
-textEmphasisDot : Html.Attribute msg
-textEmphasisDot =
-    Html.Attributes.style "text-emphasis" "dot"
+text-emphasis : dot
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisDot : Html.Attribute msg
 textEmphasisDot =
-    Html.Attributes.style "text-emphasis" "dot"
+    textEmphasis "dot"
 
 
 {-| ```
-textEmphasisDoubleCircle : Html.Attribute msg
-textEmphasisDoubleCircle =
-    Html.Attributes.style "text-emphasis" "double-circle"
+text-emphasis : double-circle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisDoubleCircle : Html.Attribute msg
 textEmphasisDoubleCircle =
-    Html.Attributes.style "text-emphasis" "double-circle"
+    textEmphasis "double-circle"
 
 
 {-| ```
-textEmphasisSesame : Html.Attribute msg
-textEmphasisSesame =
-    Html.Attributes.style "text-emphasis" "sesame"
+text-emphasis : sesame
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisSesame : Html.Attribute msg
 textEmphasisSesame =
-    Html.Attributes.style "text-emphasis" "sesame"
+    textEmphasis "sesame"
 
 
 {-| ```
-textEmphasisTriangle : Html.Attribute msg
-textEmphasisTriangle =
-    Html.Attributes.style "text-emphasis" "triangle"
+text-emphasis : triangle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisTriangle : Html.Attribute msg
 textEmphasisTriangle =
-    Html.Attributes.style "text-emphasis" "triangle"
+    textEmphasis "triangle"
 
 
 {-| ```
-textEmphasisCircle : Html.Attribute msg
-textEmphasisCircle =
-    Html.Attributes.style "text-emphasis" "circle"
+text-emphasis : circle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisCircle : Html.Attribute msg
 textEmphasisCircle =
-    Html.Attributes.style "text-emphasis" "circle"
+    textEmphasis "circle"
 
 
 {-| ```
-textEmphasisNone : Html.Attribute msg
-textEmphasisNone =
-    Html.Attributes.style "text-emphasis" "none"
+text-emphasis : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis
 -}
 textEmphasisNone : Html.Attribute msg
 textEmphasisNone =
-    Html.Attributes.style "text-emphasis" "none"
+    textEmphasis "none"
 
 
-{-| ```
-textEmphasisColor : String -> Html.Attribute msg
-textEmphasisColor value =
-    Html.Attributes.style "text-emphasis-color" value
-```
+{-| CSS property `text-emphasis-color`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color
 -}
@@ -24311,11 +19716,9 @@ textEmphasisColor value =
     Html.Attributes.style "text-emphasis-color" value
 
 
-{-| ```
-textEmphasisPosition : String -> Html.Attribute msg
-textEmphasisPosition value =
-    Html.Attributes.style "text-emphasis-position" value
-```
+{-| CSS property `text-emphasis-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position
 -}
@@ -24324,11 +19727,9 @@ textEmphasisPosition value =
     Html.Attributes.style "text-emphasis-position" value
 
 
-{-| ```
-textEmphasisStyle : String -> Html.Attribute msg
-textEmphasisStyle value =
-    Html.Attributes.style "text-emphasis-style" value
-```
+{-| CSS property `text-emphasis-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
@@ -24338,114 +19739,96 @@ textEmphasisStyle value =
 
 
 {-| ```
-textEmphasisStyleNone : Html.Attribute msg
-textEmphasisStyleNone =
-    Html.Attributes.style "text-emphasis-style" "none"
+text-emphasis-style : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleNone : Html.Attribute msg
 textEmphasisStyleNone =
-    Html.Attributes.style "text-emphasis-style" "none"
+    textEmphasisStyle "none"
 
 
 {-| ```
-textEmphasisStyleCircle : Html.Attribute msg
-textEmphasisStyleCircle =
-    Html.Attributes.style "text-emphasis-style" "circle"
+text-emphasis-style : circle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleCircle : Html.Attribute msg
 textEmphasisStyleCircle =
-    Html.Attributes.style "text-emphasis-style" "circle"
+    textEmphasisStyle "circle"
 
 
 {-| ```
-textEmphasisStyleTriangle : Html.Attribute msg
-textEmphasisStyleTriangle =
-    Html.Attributes.style "text-emphasis-style" "triangle"
+text-emphasis-style : triangle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleTriangle : Html.Attribute msg
 textEmphasisStyleTriangle =
-    Html.Attributes.style "text-emphasis-style" "triangle"
+    textEmphasisStyle "triangle"
 
 
 {-| ```
-textEmphasisStyleSesame : Html.Attribute msg
-textEmphasisStyleSesame =
-    Html.Attributes.style "text-emphasis-style" "sesame"
+text-emphasis-style : sesame
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleSesame : Html.Attribute msg
 textEmphasisStyleSesame =
-    Html.Attributes.style "text-emphasis-style" "sesame"
+    textEmphasisStyle "sesame"
 
 
 {-| ```
-textEmphasisStyleDoubleCircle : Html.Attribute msg
-textEmphasisStyleDoubleCircle =
-    Html.Attributes.style "text-emphasis-style" "double-circle"
+text-emphasis-style : double-circle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleDoubleCircle : Html.Attribute msg
 textEmphasisStyleDoubleCircle =
-    Html.Attributes.style "text-emphasis-style" "double-circle"
+    textEmphasisStyle "double-circle"
 
 
 {-| ```
-textEmphasisStyleDot : Html.Attribute msg
-textEmphasisStyleDot =
-    Html.Attributes.style "text-emphasis-style" "dot"
+text-emphasis-style : dot
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleDot : Html.Attribute msg
 textEmphasisStyleDot =
-    Html.Attributes.style "text-emphasis-style" "dot"
+    textEmphasisStyle "dot"
 
 
 {-| ```
-textEmphasisStyleOpen : Html.Attribute msg
-textEmphasisStyleOpen =
-    Html.Attributes.style "text-emphasis-style" "open"
+text-emphasis-style : open
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleOpen : Html.Attribute msg
 textEmphasisStyleOpen =
-    Html.Attributes.style "text-emphasis-style" "open"
+    textEmphasisStyle "open"
 
 
 {-| ```
-textEmphasisStyleFilled : Html.Attribute msg
-textEmphasisStyleFilled =
-    Html.Attributes.style "text-emphasis-style" "filled"
+text-emphasis-style : filled
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style
 -}
 textEmphasisStyleFilled : Html.Attribute msg
 textEmphasisStyleFilled =
-    Html.Attributes.style "text-emphasis-style" "filled"
+    textEmphasisStyle "filled"
 
 
-{-| ```
-textIndent : String -> Html.Attribute msg
-textIndent value =
-    Html.Attributes.style "text-indent" value
-```
+{-| CSS property `text-indent`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-indent
 -}
@@ -24454,11 +19837,9 @@ textIndent value =
     Html.Attributes.style "text-indent" value
 
 
-{-| ```
-textJustify : String -> Html.Attribute msg
-textJustify value =
-    Html.Attributes.style "text-justify" value
-```
+{-| CSS property `text-justify`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-justify
 -}
@@ -24468,62 +19849,52 @@ textJustify value =
 
 
 {-| ```
-textJustifyAuto : Html.Attribute msg
-textJustifyAuto =
-    Html.Attributes.style "text-justify" "auto"
+text-justify : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-justify
 -}
 textJustifyAuto : Html.Attribute msg
 textJustifyAuto =
-    Html.Attributes.style "text-justify" "auto"
+    textJustify "auto"
 
 
 {-| ```
-textJustifyInterWord : Html.Attribute msg
-textJustifyInterWord =
-    Html.Attributes.style "text-justify" "inter-word"
+text-justify : inter-word
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-justify
 -}
 textJustifyInterWord : Html.Attribute msg
 textJustifyInterWord =
-    Html.Attributes.style "text-justify" "inter-word"
+    textJustify "inter-word"
 
 
 {-| ```
-textJustifyNone : Html.Attribute msg
-textJustifyNone =
-    Html.Attributes.style "text-justify" "none"
+text-justify : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-justify
 -}
 textJustifyNone : Html.Attribute msg
 textJustifyNone =
-    Html.Attributes.style "text-justify" "none"
+    textJustify "none"
 
 
 {-| ```
-textJustifyInterCharacter : Html.Attribute msg
-textJustifyInterCharacter =
-    Html.Attributes.style "text-justify" "inter-character"
+text-justify : inter-character
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-justify
 -}
 textJustifyInterCharacter : Html.Attribute msg
 textJustifyInterCharacter =
-    Html.Attributes.style "text-justify" "inter-character"
+    textJustify "inter-character"
 
 
-{-| ```
-textOrientation : String -> Html.Attribute msg
-textOrientation value =
-    Html.Attributes.style "text-orientation" value
-```
+{-| CSS property `text-orientation`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-orientation
 -}
@@ -24533,49 +19904,41 @@ textOrientation value =
 
 
 {-| ```
-textOrientationMixed : Html.Attribute msg
-textOrientationMixed =
-    Html.Attributes.style "text-orientation" "mixed"
+text-orientation : mixed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-orientation
 -}
 textOrientationMixed : Html.Attribute msg
 textOrientationMixed =
-    Html.Attributes.style "text-orientation" "mixed"
+    textOrientation "mixed"
 
 
 {-| ```
-textOrientationSideways : Html.Attribute msg
-textOrientationSideways =
-    Html.Attributes.style "text-orientation" "sideways"
+text-orientation : sideways
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-orientation
 -}
 textOrientationSideways : Html.Attribute msg
 textOrientationSideways =
-    Html.Attributes.style "text-orientation" "sideways"
+    textOrientation "sideways"
 
 
 {-| ```
-textOrientationUpright : Html.Attribute msg
-textOrientationUpright =
-    Html.Attributes.style "text-orientation" "upright"
+text-orientation : upright
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-orientation
 -}
 textOrientationUpright : Html.Attribute msg
 textOrientationUpright =
-    Html.Attributes.style "text-orientation" "upright"
+    textOrientation "upright"
 
 
-{-| ```
-textOverflow : String -> Html.Attribute msg
-textOverflow value =
-    Html.Attributes.style "text-overflow" value
-```
+{-| CSS property `text-overflow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-overflow
 -}
@@ -24585,36 +19948,30 @@ textOverflow value =
 
 
 {-| ```
-textOverflowEllipsis : Html.Attribute msg
-textOverflowEllipsis =
-    Html.Attributes.style "text-overflow" "ellipsis"
+text-overflow : ellipsis
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-overflow
 -}
 textOverflowEllipsis : Html.Attribute msg
 textOverflowEllipsis =
-    Html.Attributes.style "text-overflow" "ellipsis"
+    textOverflow "ellipsis"
 
 
 {-| ```
-textOverflowClip : Html.Attribute msg
-textOverflowClip =
-    Html.Attributes.style "text-overflow" "clip"
+text-overflow : clip
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-overflow
 -}
 textOverflowClip : Html.Attribute msg
 textOverflowClip =
-    Html.Attributes.style "text-overflow" "clip"
+    textOverflow "clip"
 
 
-{-| ```
-textRendering : String -> Html.Attribute msg
-textRendering value =
-    Html.Attributes.style "text-rendering" value
-```
+{-| CSS property `text-rendering`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-rendering
 -}
@@ -24624,62 +19981,52 @@ textRendering value =
 
 
 {-| ```
-textRenderingAuto : Html.Attribute msg
-textRenderingAuto =
-    Html.Attributes.style "text-rendering" "auto"
+text-rendering : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-rendering
 -}
 textRenderingAuto : Html.Attribute msg
 textRenderingAuto =
-    Html.Attributes.style "text-rendering" "auto"
+    textRendering "auto"
 
 
 {-| ```
-textRenderingOptimizeLegibility : Html.Attribute msg
-textRenderingOptimizeLegibility =
-    Html.Attributes.style "text-rendering" "optimizeLegibility"
+text-rendering : optimizeLegibility
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-rendering
 -}
 textRenderingOptimizeLegibility : Html.Attribute msg
 textRenderingOptimizeLegibility =
-    Html.Attributes.style "text-rendering" "optimizeLegibility"
+    textRendering "optimizeLegibility"
 
 
 {-| ```
-textRenderingGeometricPrecision : Html.Attribute msg
-textRenderingGeometricPrecision =
-    Html.Attributes.style "text-rendering" "geometricPrecision"
+text-rendering : geometricPrecision
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-rendering
 -}
 textRenderingGeometricPrecision : Html.Attribute msg
 textRenderingGeometricPrecision =
-    Html.Attributes.style "text-rendering" "geometricPrecision"
+    textRendering "geometricPrecision"
 
 
 {-| ```
-textRenderingOptimizeSpeed : Html.Attribute msg
-textRenderingOptimizeSpeed =
-    Html.Attributes.style "text-rendering" "optimizeSpeed"
+text-rendering : optimizeSpeed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-rendering
 -}
 textRenderingOptimizeSpeed : Html.Attribute msg
 textRenderingOptimizeSpeed =
-    Html.Attributes.style "text-rendering" "optimizeSpeed"
+    textRendering "optimizeSpeed"
 
 
-{-| ```
-textShadow : String -> Html.Attribute msg
-textShadow value =
-    Html.Attributes.style "text-shadow" value
-```
+{-| CSS property `text-shadow`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-shadow
 -}
@@ -24689,23 +20036,19 @@ textShadow value =
 
 
 {-| ```
-textShadowNone : Html.Attribute msg
-textShadowNone =
-    Html.Attributes.style "text-shadow" "none"
+text-shadow : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-shadow
 -}
 textShadowNone : Html.Attribute msg
 textShadowNone =
-    Html.Attributes.style "text-shadow" "none"
+    textShadow "none"
 
 
-{-| ```
-textSizeAdjust : String -> Html.Attribute msg
-textSizeAdjust value =
-    Html.Attributes.style "text-size-adjust" value
-```
+{-| CSS property `text-size-adjust`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-size-adjust
 -}
@@ -24715,36 +20058,30 @@ textSizeAdjust value =
 
 
 {-| ```
-textSizeAdjustNone : Html.Attribute msg
-textSizeAdjustNone =
-    Html.Attributes.style "text-size-adjust" "none"
+text-size-adjust : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-size-adjust
 -}
 textSizeAdjustNone : Html.Attribute msg
 textSizeAdjustNone =
-    Html.Attributes.style "text-size-adjust" "none"
+    textSizeAdjust "none"
 
 
 {-| ```
-textSizeAdjustAuto : Html.Attribute msg
-textSizeAdjustAuto =
-    Html.Attributes.style "text-size-adjust" "auto"
+text-size-adjust : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-size-adjust
 -}
 textSizeAdjustAuto : Html.Attribute msg
 textSizeAdjustAuto =
-    Html.Attributes.style "text-size-adjust" "auto"
+    textSizeAdjust "auto"
 
 
-{-| ```
-textTransform : String -> Html.Attribute msg
-textTransform value =
-    Html.Attributes.style "text-transform" value
-```
+{-| CSS property `text-transform`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
@@ -24754,88 +20091,74 @@ textTransform value =
 
 
 {-| ```
-textTransformNone : Html.Attribute msg
-textTransformNone =
-    Html.Attributes.style "text-transform" "none"
+text-transform : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformNone : Html.Attribute msg
 textTransformNone =
-    Html.Attributes.style "text-transform" "none"
+    textTransform "none"
 
 
 {-| ```
-textTransformUppercase : Html.Attribute msg
-textTransformUppercase =
-    Html.Attributes.style "text-transform" "uppercase"
+text-transform : uppercase
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformUppercase : Html.Attribute msg
 textTransformUppercase =
-    Html.Attributes.style "text-transform" "uppercase"
+    textTransform "uppercase"
 
 
 {-| ```
-textTransformFullWidth : Html.Attribute msg
-textTransformFullWidth =
-    Html.Attributes.style "text-transform" "full-width"
+text-transform : full-width
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformFullWidth : Html.Attribute msg
 textTransformFullWidth =
-    Html.Attributes.style "text-transform" "full-width"
+    textTransform "full-width"
 
 
 {-| ```
-textTransformFullSizeKana : Html.Attribute msg
-textTransformFullSizeKana =
-    Html.Attributes.style "text-transform" "full-size-kana"
+text-transform : full-size-kana
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformFullSizeKana : Html.Attribute msg
 textTransformFullSizeKana =
-    Html.Attributes.style "text-transform" "full-size-kana"
+    textTransform "full-size-kana"
 
 
 {-| ```
-textTransformLowercase : Html.Attribute msg
-textTransformLowercase =
-    Html.Attributes.style "text-transform" "lowercase"
+text-transform : lowercase
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformLowercase : Html.Attribute msg
 textTransformLowercase =
-    Html.Attributes.style "text-transform" "lowercase"
+    textTransform "lowercase"
 
 
 {-| ```
-textTransformCapitalize : Html.Attribute msg
-textTransformCapitalize =
-    Html.Attributes.style "text-transform" "capitalize"
+text-transform : capitalize
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-transform
 -}
 textTransformCapitalize : Html.Attribute msg
 textTransformCapitalize =
-    Html.Attributes.style "text-transform" "capitalize"
+    textTransform "capitalize"
 
 
-{-| ```
-textUnderlineOffset : String -> Html.Attribute msg
-textUnderlineOffset value =
-    Html.Attributes.style "text-underline-offset" value
-```
+{-| CSS property `text-underline-offset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-offset
 -}
@@ -24844,11 +20167,9 @@ textUnderlineOffset value =
     Html.Attributes.style "text-underline-offset" value
 
 
-{-| ```
-textUnderlinePosition : String -> Html.Attribute msg
-textUnderlinePosition value =
-    Html.Attributes.style "text-underline-position" value
-```
+{-| CSS property `text-underline-position`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
@@ -24858,75 +20179,63 @@ textUnderlinePosition value =
 
 
 {-| ```
-textUnderlinePositionAuto : Html.Attribute msg
-textUnderlinePositionAuto =
-    Html.Attributes.style "text-underline-position" "auto"
+text-underline-position : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
 textUnderlinePositionAuto : Html.Attribute msg
 textUnderlinePositionAuto =
-    Html.Attributes.style "text-underline-position" "auto"
+    textUnderlinePosition "auto"
 
 
 {-| ```
-textUnderlinePositionUnder : Html.Attribute msg
-textUnderlinePositionUnder =
-    Html.Attributes.style "text-underline-position" "under"
+text-underline-position : under
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
 textUnderlinePositionUnder : Html.Attribute msg
 textUnderlinePositionUnder =
-    Html.Attributes.style "text-underline-position" "under"
+    textUnderlinePosition "under"
 
 
 {-| ```
-textUnderlinePositionLeft : Html.Attribute msg
-textUnderlinePositionLeft =
-    Html.Attributes.style "text-underline-position" "left"
+text-underline-position : left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
 textUnderlinePositionLeft : Html.Attribute msg
 textUnderlinePositionLeft =
-    Html.Attributes.style "text-underline-position" "left"
+    textUnderlinePosition "left"
 
 
 {-| ```
-textUnderlinePositionRight : Html.Attribute msg
-textUnderlinePositionRight =
-    Html.Attributes.style "text-underline-position" "right"
+text-underline-position : right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
 textUnderlinePositionRight : Html.Attribute msg
 textUnderlinePositionRight =
-    Html.Attributes.style "text-underline-position" "right"
+    textUnderlinePosition "right"
 
 
 {-| ```
-textUnderlinePositionFromFont : Html.Attribute msg
-textUnderlinePositionFromFont =
-    Html.Attributes.style "text-underline-position" "from-font"
+text-underline-position : from-font
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-underline-position
 -}
 textUnderlinePositionFromFont : Html.Attribute msg
 textUnderlinePositionFromFont =
-    Html.Attributes.style "text-underline-position" "from-font"
+    textUnderlinePosition "from-font"
 
 
-{-| ```
-textWrap : String -> Html.Attribute msg
-textWrap value =
-    Html.Attributes.style "text-wrap" value
-```
+{-| CSS property `text-wrap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
@@ -24936,75 +20245,63 @@ textWrap value =
 
 
 {-| ```
-textWrapWrap : Html.Attribute msg
-textWrapWrap =
-    Html.Attributes.style "text-wrap" "wrap"
+text-wrap : wrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
 textWrapWrap : Html.Attribute msg
 textWrapWrap =
-    Html.Attributes.style "text-wrap" "wrap"
+    textWrap "wrap"
 
 
 {-| ```
-textWrapBalance : Html.Attribute msg
-textWrapBalance =
-    Html.Attributes.style "text-wrap" "balance"
+text-wrap : balance
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
 textWrapBalance : Html.Attribute msg
 textWrapBalance =
-    Html.Attributes.style "text-wrap" "balance"
+    textWrap "balance"
 
 
 {-| ```
-textWrapPretty : Html.Attribute msg
-textWrapPretty =
-    Html.Attributes.style "text-wrap" "pretty"
+text-wrap : pretty
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
 textWrapPretty : Html.Attribute msg
 textWrapPretty =
-    Html.Attributes.style "text-wrap" "pretty"
+    textWrap "pretty"
 
 
 {-| ```
-textWrapStable : Html.Attribute msg
-textWrapStable =
-    Html.Attributes.style "text-wrap" "stable"
+text-wrap : stable
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
 textWrapStable : Html.Attribute msg
 textWrapStable =
-    Html.Attributes.style "text-wrap" "stable"
+    textWrap "stable"
 
 
 {-| ```
-textWrapNowrap : Html.Attribute msg
-textWrapNowrap =
-    Html.Attributes.style "text-wrap" "nowrap"
+text-wrap : nowrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/text-wrap
 -}
 textWrapNowrap : Html.Attribute msg
 textWrapNowrap =
-    Html.Attributes.style "text-wrap" "nowrap"
+    textWrap "nowrap"
 
 
-{-| ```
-timelineScope : String -> Html.Attribute msg
-timelineScope value =
-    Html.Attributes.style "timeline-scope" value
-```
+{-| CSS property `timeline-scope`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/timeline-scope
 -}
@@ -25014,23 +20311,19 @@ timelineScope value =
 
 
 {-| ```
-timelineScopeNone : Html.Attribute msg
-timelineScopeNone =
-    Html.Attributes.style "timeline-scope" "none"
+timeline-scope : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/timeline-scope
 -}
 timelineScopeNone : Html.Attribute msg
 timelineScopeNone =
-    Html.Attributes.style "timeline-scope" "none"
+    timelineScope "none"
 
 
-{-| ```
-top : String -> Html.Attribute msg
-top value =
-    Html.Attributes.style "top" value
-```
+{-| CSS property `top`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/top
 -}
@@ -25040,49 +20333,41 @@ top value =
 
 
 {-| ```
-topRem : Float -> Html.Attribute msg
-topRem value =
-    Html.Attributes.style "top" (String.append (String.fromFloat value) "rem")
+top : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/top
 -}
 topRem : Float -> Html.Attribute msg
 topRem value =
-    Html.Attributes.style "top" (String.append (String.fromFloat value) "rem")
+    top (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-topPx : Float -> Html.Attribute msg
-topPx value =
-    Html.Attributes.style "top" (String.append (String.fromFloat value) "px")
+top : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/top
 -}
 topPx : Float -> Html.Attribute msg
 topPx value =
-    Html.Attributes.style "top" (String.append (String.fromFloat value) "px")
+    top (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-topAuto : Html.Attribute msg
-topAuto =
-    Html.Attributes.style "top" "auto"
+top : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/top
 -}
 topAuto : Html.Attribute msg
 topAuto =
-    Html.Attributes.style "top" "auto"
+    top "auto"
 
 
-{-| ```
-touchAction : String -> Html.Attribute msg
-touchAction value =
-    Html.Attributes.style "touch-action" value
-```
+{-| CSS property `touch-action`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
@@ -25092,140 +20377,118 @@ touchAction value =
 
 
 {-| ```
-touchActionAuto : Html.Attribute msg
-touchActionAuto =
-    Html.Attributes.style "touch-action" "auto"
+touch-action : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionAuto : Html.Attribute msg
 touchActionAuto =
-    Html.Attributes.style "touch-action" "auto"
+    touchAction "auto"
 
 
 {-| ```
-touchActionPanX : Html.Attribute msg
-touchActionPanX =
-    Html.Attributes.style "touch-action" "pan-x"
+touch-action : pan-x
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanX : Html.Attribute msg
 touchActionPanX =
-    Html.Attributes.style "touch-action" "pan-x"
+    touchAction "pan-x"
 
 
 {-| ```
-touchActionPanRight : Html.Attribute msg
-touchActionPanRight =
-    Html.Attributes.style "touch-action" "pan-right"
+touch-action : pan-right
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanRight : Html.Attribute msg
 touchActionPanRight =
-    Html.Attributes.style "touch-action" "pan-right"
+    touchAction "pan-right"
 
 
 {-| ```
-touchActionPanLeft : Html.Attribute msg
-touchActionPanLeft =
-    Html.Attributes.style "touch-action" "pan-left"
+touch-action : pan-left
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanLeft : Html.Attribute msg
 touchActionPanLeft =
-    Html.Attributes.style "touch-action" "pan-left"
+    touchAction "pan-left"
 
 
 {-| ```
-touchActionPanY : Html.Attribute msg
-touchActionPanY =
-    Html.Attributes.style "touch-action" "pan-y"
+touch-action : pan-y
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanY : Html.Attribute msg
 touchActionPanY =
-    Html.Attributes.style "touch-action" "pan-y"
+    touchAction "pan-y"
 
 
 {-| ```
-touchActionPanDown : Html.Attribute msg
-touchActionPanDown =
-    Html.Attributes.style "touch-action" "pan-down"
+touch-action : pan-down
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanDown : Html.Attribute msg
 touchActionPanDown =
-    Html.Attributes.style "touch-action" "pan-down"
+    touchAction "pan-down"
 
 
 {-| ```
-touchActionPanUp : Html.Attribute msg
-touchActionPanUp =
-    Html.Attributes.style "touch-action" "pan-up"
+touch-action : pan-up
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPanUp : Html.Attribute msg
 touchActionPanUp =
-    Html.Attributes.style "touch-action" "pan-up"
+    touchAction "pan-up"
 
 
 {-| ```
-touchActionPinchZoom : Html.Attribute msg
-touchActionPinchZoom =
-    Html.Attributes.style "touch-action" "pinch-zoom"
+touch-action : pinch-zoom
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionPinchZoom : Html.Attribute msg
 touchActionPinchZoom =
-    Html.Attributes.style "touch-action" "pinch-zoom"
+    touchAction "pinch-zoom"
 
 
 {-| ```
-touchActionManipulation : Html.Attribute msg
-touchActionManipulation =
-    Html.Attributes.style "touch-action" "manipulation"
+touch-action : manipulation
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionManipulation : Html.Attribute msg
 touchActionManipulation =
-    Html.Attributes.style "touch-action" "manipulation"
+    touchAction "manipulation"
 
 
 {-| ```
-touchActionNone : Html.Attribute msg
-touchActionNone =
-    Html.Attributes.style "touch-action" "none"
+touch-action : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/touch-action
 -}
 touchActionNone : Html.Attribute msg
 touchActionNone =
-    Html.Attributes.style "touch-action" "none"
+    touchAction "none"
 
 
-{-| ```
-transform : String -> Html.Attribute msg
-transform value =
-    Html.Attributes.style "transform" value
-```
+{-| CSS property `transform`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transform
 -}
@@ -25235,23 +20498,19 @@ transform value =
 
 
 {-| ```
-transformNone : Html.Attribute msg
-transformNone =
-    Html.Attributes.style "transform" "none"
+transform : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform
 -}
 transformNone : Html.Attribute msg
 transformNone =
-    Html.Attributes.style "transform" "none"
+    transform "none"
 
 
-{-| ```
-transformBox : String -> Html.Attribute msg
-transformBox value =
-    Html.Attributes.style "transform-box" value
-```
+{-| CSS property `transform-box`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
@@ -25261,75 +20520,63 @@ transformBox value =
 
 
 {-| ```
-transformBoxContentBox : Html.Attribute msg
-transformBoxContentBox =
-    Html.Attributes.style "transform-box" "content-box"
+transform-box : content-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
 transformBoxContentBox : Html.Attribute msg
 transformBoxContentBox =
-    Html.Attributes.style "transform-box" "content-box"
+    transformBox "content-box"
 
 
 {-| ```
-transformBoxFillBox : Html.Attribute msg
-transformBoxFillBox =
-    Html.Attributes.style "transform-box" "fill-box"
+transform-box : fill-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
 transformBoxFillBox : Html.Attribute msg
 transformBoxFillBox =
-    Html.Attributes.style "transform-box" "fill-box"
+    transformBox "fill-box"
 
 
 {-| ```
-transformBoxViewBox : Html.Attribute msg
-transformBoxViewBox =
-    Html.Attributes.style "transform-box" "view-box"
+transform-box : view-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
 transformBoxViewBox : Html.Attribute msg
 transformBoxViewBox =
-    Html.Attributes.style "transform-box" "view-box"
+    transformBox "view-box"
 
 
 {-| ```
-transformBoxStrokeBox : Html.Attribute msg
-transformBoxStrokeBox =
-    Html.Attributes.style "transform-box" "stroke-box"
+transform-box : stroke-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
 transformBoxStrokeBox : Html.Attribute msg
 transformBoxStrokeBox =
-    Html.Attributes.style "transform-box" "stroke-box"
+    transformBox "stroke-box"
 
 
 {-| ```
-transformBoxBorderBox : Html.Attribute msg
-transformBoxBorderBox =
-    Html.Attributes.style "transform-box" "border-box"
+transform-box : border-box
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-box
 -}
 transformBoxBorderBox : Html.Attribute msg
 transformBoxBorderBox =
-    Html.Attributes.style "transform-box" "border-box"
+    transformBox "border-box"
 
 
-{-| ```
-transformOrigin : String -> Html.Attribute msg
-transformOrigin value =
-    Html.Attributes.style "transform-origin" value
-```
+{-| CSS property `transform-origin`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transform-origin
 -}
@@ -25338,11 +20585,9 @@ transformOrigin value =
     Html.Attributes.style "transform-origin" value
 
 
-{-| ```
-transformStyle : String -> Html.Attribute msg
-transformStyle value =
-    Html.Attributes.style "transform-style" value
-```
+{-| CSS property `transform-style`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transform-style
 -}
@@ -25352,36 +20597,30 @@ transformStyle value =
 
 
 {-| ```
-transformStyleFlat : Html.Attribute msg
-transformStyleFlat =
-    Html.Attributes.style "transform-style" "flat"
+transform-style : flat
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-style
 -}
 transformStyleFlat : Html.Attribute msg
 transformStyleFlat =
-    Html.Attributes.style "transform-style" "flat"
+    transformStyle "flat"
 
 
 {-| ```
-transformStylePreserve3d : Html.Attribute msg
-transformStylePreserve3d =
-    Html.Attributes.style "transform-style" "preserve-3d"
+transform-style : preserve-3d
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transform-style
 -}
 transformStylePreserve3d : Html.Attribute msg
 transformStylePreserve3d =
-    Html.Attributes.style "transform-style" "preserve-3d"
+    transformStyle "preserve-3d"
 
 
-{-| ```
-transition : String -> Html.Attribute msg
-transition value =
-    Html.Attributes.style "transition" value
-```
+{-| CSS property `transition`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition
 -}
@@ -25390,11 +20629,9 @@ transition value =
     Html.Attributes.style "transition" value
 
 
-{-| ```
-transitionBehavior : String -> Html.Attribute msg
-transitionBehavior value =
-    Html.Attributes.style "transition-behavior" value
-```
+{-| CSS property `transition-behavior`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition-behavior
 -}
@@ -25403,11 +20640,9 @@ transitionBehavior value =
     Html.Attributes.style "transition-behavior" value
 
 
-{-| ```
-transitionDelay : String -> Html.Attribute msg
-transitionDelay value =
-    Html.Attributes.style "transition-delay" value
-```
+{-| CSS property `transition-delay`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition-delay
 -}
@@ -25416,11 +20651,9 @@ transitionDelay value =
     Html.Attributes.style "transition-delay" value
 
 
-{-| ```
-transitionDuration : String -> Html.Attribute msg
-transitionDuration value =
-    Html.Attributes.style "transition-duration" value
-```
+{-| CSS property `transition-duration`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition-duration
 -}
@@ -25429,11 +20662,9 @@ transitionDuration value =
     Html.Attributes.style "transition-duration" value
 
 
-{-| ```
-transitionProperty : String -> Html.Attribute msg
-transitionProperty value =
-    Html.Attributes.style "transition-property" value
-```
+{-| CSS property `transition-property`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition-property
 -}
@@ -25443,23 +20674,19 @@ transitionProperty value =
 
 
 {-| ```
-transitionPropertyNone : Html.Attribute msg
-transitionPropertyNone =
-    Html.Attributes.style "transition-property" "none"
+transition-property : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/transition-property
 -}
 transitionPropertyNone : Html.Attribute msg
 transitionPropertyNone =
-    Html.Attributes.style "transition-property" "none"
+    transitionProperty "none"
 
 
-{-| ```
-transitionTimingFunction : String -> Html.Attribute msg
-transitionTimingFunction value =
-    Html.Attributes.style "transition-timing-function" value
-```
+{-| CSS property `transition-timing-function`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/transition-timing-function
 -}
@@ -25468,11 +20695,9 @@ transitionTimingFunction value =
     Html.Attributes.style "transition-timing-function" value
 
 
-{-| ```
-translate : String -> Html.Attribute msg
-translate value =
-    Html.Attributes.style "translate" value
-```
+{-| CSS property `translate`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/translate
 -}
@@ -25482,57 +20707,41 @@ translate value =
 
 
 {-| ```
-translateNone : Html.Attribute msg
-translateNone =
-    Html.Attributes.style "translate" "none"
+translate : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/translate
 -}
 translateNone : Html.Attribute msg
 translateNone =
-    Html.Attributes.style "translate" "none"
+    translate "none"
 
 
 {-| ```
-translateRem : Float -> Html.Attribute msg
-translateRem value =
-    Html.Attributes.style
-        "translate"
-        (String.append (String.fromFloat value) "rem")
+translate : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/translate
 -}
 translateRem : Float -> Html.Attribute msg
 translateRem value =
-    Html.Attributes.style
-        "translate"
-        (String.append (String.fromFloat value) "rem")
+    translate (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-translatePx : Float -> Html.Attribute msg
-translatePx value =
-    Html.Attributes.style
-        "translate"
-        (String.append (String.fromFloat value) "px")
+translate : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/translate
 -}
 translatePx : Float -> Html.Attribute msg
 translatePx value =
-    Html.Attributes.style
-        "translate"
-        (String.append (String.fromFloat value) "px")
+    translate (String.append (String.fromFloat value) "px")
 
 
-{-| ```
-unicodeBidi : String -> Html.Attribute msg
-unicodeBidi value =
-    Html.Attributes.style "unicode-bidi" value
-```
+{-| CSS property `unicode-bidi`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
@@ -25542,88 +20751,74 @@ unicodeBidi value =
 
 
 {-| ```
-unicodeBidiNormal : Html.Attribute msg
-unicodeBidiNormal =
-    Html.Attributes.style "unicode-bidi" "normal"
+unicode-bidi : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiNormal : Html.Attribute msg
 unicodeBidiNormal =
-    Html.Attributes.style "unicode-bidi" "normal"
+    unicodeBidi "normal"
 
 
 {-| ```
-unicodeBidiIsolate : Html.Attribute msg
-unicodeBidiIsolate =
-    Html.Attributes.style "unicode-bidi" "isolate"
+unicode-bidi : isolate
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiIsolate : Html.Attribute msg
 unicodeBidiIsolate =
-    Html.Attributes.style "unicode-bidi" "isolate"
+    unicodeBidi "isolate"
 
 
 {-| ```
-unicodeBidiIsolateOverride : Html.Attribute msg
-unicodeBidiIsolateOverride =
-    Html.Attributes.style "unicode-bidi" "isolate-override"
+unicode-bidi : isolate-override
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiIsolateOverride : Html.Attribute msg
 unicodeBidiIsolateOverride =
-    Html.Attributes.style "unicode-bidi" "isolate-override"
+    unicodeBidi "isolate-override"
 
 
 {-| ```
-unicodeBidiPlaintext : Html.Attribute msg
-unicodeBidiPlaintext =
-    Html.Attributes.style "unicode-bidi" "plaintext"
+unicode-bidi : plaintext
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiPlaintext : Html.Attribute msg
 unicodeBidiPlaintext =
-    Html.Attributes.style "unicode-bidi" "plaintext"
+    unicodeBidi "plaintext"
 
 
 {-| ```
-unicodeBidiBidiOverride : Html.Attribute msg
-unicodeBidiBidiOverride =
-    Html.Attributes.style "unicode-bidi" "bidi-override"
+unicode-bidi : bidi-override
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiBidiOverride : Html.Attribute msg
 unicodeBidiBidiOverride =
-    Html.Attributes.style "unicode-bidi" "bidi-override"
+    unicodeBidi "bidi-override"
 
 
 {-| ```
-unicodeBidiEmbed : Html.Attribute msg
-unicodeBidiEmbed =
-    Html.Attributes.style "unicode-bidi" "embed"
+unicode-bidi : embed
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/unicode-bidi
 -}
 unicodeBidiEmbed : Html.Attribute msg
 unicodeBidiEmbed =
-    Html.Attributes.style "unicode-bidi" "embed"
+    unicodeBidi "embed"
 
 
-{-| ```
-userSelect : String -> Html.Attribute msg
-userSelect value =
-    Html.Attributes.style "user-select" value
-```
+{-| CSS property `user-select`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
@@ -25633,75 +20828,63 @@ userSelect value =
 
 
 {-| ```
-userSelectAuto : Html.Attribute msg
-userSelectAuto =
-    Html.Attributes.style "user-select" "auto"
+user-select : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
 userSelectAuto : Html.Attribute msg
 userSelectAuto =
-    Html.Attributes.style "user-select" "auto"
+    userSelect "auto"
 
 
 {-| ```
-userSelectNone : Html.Attribute msg
-userSelectNone =
-    Html.Attributes.style "user-select" "none"
+user-select : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
 userSelectNone : Html.Attribute msg
 userSelectNone =
-    Html.Attributes.style "user-select" "none"
+    userSelect "none"
 
 
 {-| ```
-userSelectAll : Html.Attribute msg
-userSelectAll =
-    Html.Attributes.style "user-select" "all"
+user-select : all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
 userSelectAll : Html.Attribute msg
 userSelectAll =
-    Html.Attributes.style "user-select" "all"
+    userSelect "all"
 
 
 {-| ```
-userSelectContain : Html.Attribute msg
-userSelectContain =
-    Html.Attributes.style "user-select" "contain"
+user-select : contain
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
 userSelectContain : Html.Attribute msg
 userSelectContain =
-    Html.Attributes.style "user-select" "contain"
+    userSelect "contain"
 
 
 {-| ```
-userSelectText : Html.Attribute msg
-userSelectText =
-    Html.Attributes.style "user-select" "text"
+user-select : text
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/user-select
 -}
 userSelectText : Html.Attribute msg
 userSelectText =
-    Html.Attributes.style "user-select" "text"
+    userSelect "text"
 
 
-{-| ```
-verticalAlign : String -> Html.Attribute msg
-verticalAlign value =
-    Html.Attributes.style "vertical-align" value
-```
+{-| CSS property `vertical-align`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
@@ -25711,148 +20894,118 @@ verticalAlign value =
 
 
 {-| ```
-verticalAlignBaseline : Html.Attribute msg
-verticalAlignBaseline =
-    Html.Attributes.style "vertical-align" "baseline"
+vertical-align : baseline
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignBaseline : Html.Attribute msg
 verticalAlignBaseline =
-    Html.Attributes.style "vertical-align" "baseline"
+    verticalAlign "baseline"
 
 
 {-| ```
-verticalAlignSuper : Html.Attribute msg
-verticalAlignSuper =
-    Html.Attributes.style "vertical-align" "super"
+vertical-align : super
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignSuper : Html.Attribute msg
 verticalAlignSuper =
-    Html.Attributes.style "vertical-align" "super"
+    verticalAlign "super"
 
 
 {-| ```
-verticalAlignTextBottom : Html.Attribute msg
-verticalAlignTextBottom =
-    Html.Attributes.style "vertical-align" "text-bottom"
+vertical-align : text-bottom
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignTextBottom : Html.Attribute msg
 verticalAlignTextBottom =
-    Html.Attributes.style "vertical-align" "text-bottom"
+    verticalAlign "text-bottom"
 
 
 {-| ```
-verticalAlignTop : Html.Attribute msg
-verticalAlignTop =
-    Html.Attributes.style "vertical-align" "top"
+vertical-align : top
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignTop : Html.Attribute msg
 verticalAlignTop =
-    Html.Attributes.style "vertical-align" "top"
+    verticalAlign "top"
 
 
 {-| ```
-verticalAlignPx : Float -> Html.Attribute msg
-verticalAlignPx value =
-    Html.Attributes.style
-        "vertical-align"
-        (String.append (String.fromFloat value) "px")
+vertical-align : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignPx : Float -> Html.Attribute msg
 verticalAlignPx value =
-    Html.Attributes.style
-        "vertical-align"
-        (String.append (String.fromFloat value) "px")
+    verticalAlign (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-verticalAlignRem : Float -> Html.Attribute msg
-verticalAlignRem value =
-    Html.Attributes.style
-        "vertical-align"
-        (String.append (String.fromFloat value) "rem")
+vertical-align : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignRem : Float -> Html.Attribute msg
 verticalAlignRem value =
-    Html.Attributes.style
-        "vertical-align"
-        (String.append (String.fromFloat value) "rem")
+    verticalAlign (String.append (String.fromFloat value) "rem")
 
 
 {-| ```
-verticalAlignBottom : Html.Attribute msg
-verticalAlignBottom =
-    Html.Attributes.style "vertical-align" "bottom"
+vertical-align : bottom
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignBottom : Html.Attribute msg
 verticalAlignBottom =
-    Html.Attributes.style "vertical-align" "bottom"
+    verticalAlign "bottom"
 
 
 {-| ```
-verticalAlignMiddle : Html.Attribute msg
-verticalAlignMiddle =
-    Html.Attributes.style "vertical-align" "middle"
+vertical-align : middle
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignMiddle : Html.Attribute msg
 verticalAlignMiddle =
-    Html.Attributes.style "vertical-align" "middle"
+    verticalAlign "middle"
 
 
 {-| ```
-verticalAlignTextTop : Html.Attribute msg
-verticalAlignTextTop =
-    Html.Attributes.style "vertical-align" "text-top"
+vertical-align : text-top
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignTextTop : Html.Attribute msg
 verticalAlignTextTop =
-    Html.Attributes.style "vertical-align" "text-top"
+    verticalAlign "text-top"
 
 
 {-| ```
-verticalAlignSub : Html.Attribute msg
-verticalAlignSub =
-    Html.Attributes.style "vertical-align" "sub"
+vertical-align : sub
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/vertical-align
 -}
 verticalAlignSub : Html.Attribute msg
 verticalAlignSub =
-    Html.Attributes.style "vertical-align" "sub"
+    verticalAlign "sub"
 
 
-{-| ```
-viewTimeline : String -> Html.Attribute msg
-viewTimeline value =
-    Html.Attributes.style "view-timeline" value
-```
+{-| CSS property `view-timeline`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/view-timeline
 -}
@@ -25861,11 +21014,9 @@ viewTimeline value =
     Html.Attributes.style "view-timeline" value
 
 
-{-| ```
-viewTimelineAxis : String -> Html.Attribute msg
-viewTimelineAxis value =
-    Html.Attributes.style "view-timeline-axis" value
-```
+{-| CSS property `view-timeline-axis`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/view-timeline-axis
 -}
@@ -25874,11 +21025,9 @@ viewTimelineAxis value =
     Html.Attributes.style "view-timeline-axis" value
 
 
-{-| ```
-viewTimelineInset : String -> Html.Attribute msg
-viewTimelineInset value =
-    Html.Attributes.style "view-timeline-inset" value
-```
+{-| CSS property `view-timeline-inset`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/view-timeline-inset
 -}
@@ -25887,11 +21036,9 @@ viewTimelineInset value =
     Html.Attributes.style "view-timeline-inset" value
 
 
-{-| ```
-viewTimelineName : String -> Html.Attribute msg
-viewTimelineName value =
-    Html.Attributes.style "view-timeline-name" value
-```
+{-| CSS property `view-timeline-name`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/view-timeline-name
 -}
@@ -25901,23 +21048,19 @@ viewTimelineName value =
 
 
 {-| ```
-viewTimelineNameNone : Html.Attribute msg
-viewTimelineNameNone =
-    Html.Attributes.style "view-timeline-name" "none"
+view-timeline-name : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/view-timeline-name
 -}
 viewTimelineNameNone : Html.Attribute msg
 viewTimelineNameNone =
-    Html.Attributes.style "view-timeline-name" "none"
+    viewTimelineName "none"
 
 
-{-| ```
-viewTransitionName : String -> Html.Attribute msg
-viewTransitionName value =
-    Html.Attributes.style "view-transition-name" value
-```
+{-| CSS property `view-transition-name`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/view-transition-name
 -}
@@ -25927,23 +21070,19 @@ viewTransitionName value =
 
 
 {-| ```
-viewTransitionNameNone : Html.Attribute msg
-viewTransitionNameNone =
-    Html.Attributes.style "view-transition-name" "none"
+view-transition-name : none
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/view-transition-name
 -}
 viewTransitionNameNone : Html.Attribute msg
 viewTransitionNameNone =
-    Html.Attributes.style "view-transition-name" "none"
+    viewTransitionName "none"
 
 
-{-| ```
-visibility : String -> Html.Attribute msg
-visibility value =
-    Html.Attributes.style "visibility" value
-```
+{-| CSS property `visibility`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/visibility
 -}
@@ -25953,49 +21092,41 @@ visibility value =
 
 
 {-| ```
-visibilityVisible : Html.Attribute msg
-visibilityVisible =
-    Html.Attributes.style "visibility" "visible"
+visibility : visible
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/visibility
 -}
 visibilityVisible : Html.Attribute msg
 visibilityVisible =
-    Html.Attributes.style "visibility" "visible"
+    visibility "visible"
 
 
 {-| ```
-visibilityCollapse : Html.Attribute msg
-visibilityCollapse =
-    Html.Attributes.style "visibility" "collapse"
+visibility : collapse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/visibility
 -}
 visibilityCollapse : Html.Attribute msg
 visibilityCollapse =
-    Html.Attributes.style "visibility" "collapse"
+    visibility "collapse"
 
 
 {-| ```
-visibilityHidden : Html.Attribute msg
-visibilityHidden =
-    Html.Attributes.style "visibility" "hidden"
+visibility : hidden
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/visibility
 -}
 visibilityHidden : Html.Attribute msg
 visibilityHidden =
-    Html.Attributes.style "visibility" "hidden"
+    visibility "hidden"
 
 
-{-| ```
-whiteSpace : String -> Html.Attribute msg
-whiteSpace value =
-    Html.Attributes.style "white-space" value
-```
+{-| CSS property `white-space`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
@@ -26005,205 +21136,173 @@ whiteSpace value =
 
 
 {-| ```
-whiteSpaceNormal : Html.Attribute msg
-whiteSpaceNormal =
-    Html.Attributes.style "white-space" "normal"
+white-space : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceNormal : Html.Attribute msg
 whiteSpaceNormal =
-    Html.Attributes.style "white-space" "normal"
+    whiteSpace "normal"
 
 
 {-| ```
-whiteSpacePreLine : Html.Attribute msg
-whiteSpacePreLine =
-    Html.Attributes.style "white-space" "pre-line"
+white-space : pre-line
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePreLine : Html.Attribute msg
 whiteSpacePreLine =
-    Html.Attributes.style "white-space" "pre-line"
+    whiteSpace "pre-line"
 
 
 {-| ```
-whiteSpace_collapse : Html.Attribute msg
-whiteSpace_collapse =
-    Html.Attributes.style "white-space" "collapse"
+white-space : collapse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpace_collapse : Html.Attribute msg
 whiteSpace_collapse =
-    Html.Attributes.style "white-space" "collapse"
+    whiteSpace "collapse"
 
 
 {-| ```
-whiteSpacePreserve : Html.Attribute msg
-whiteSpacePreserve =
-    Html.Attributes.style "white-space" "preserve"
+white-space : preserve
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePreserve : Html.Attribute msg
 whiteSpacePreserve =
-    Html.Attributes.style "white-space" "preserve"
+    whiteSpace "preserve"
 
 
 {-| ```
-whiteSpacePreserveSpaces : Html.Attribute msg
-whiteSpacePreserveSpaces =
-    Html.Attributes.style "white-space" "preserve-spaces"
+white-space : preserve-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePreserveSpaces : Html.Attribute msg
 whiteSpacePreserveSpaces =
-    Html.Attributes.style "white-space" "preserve-spaces"
+    whiteSpace "preserve-spaces"
 
 
 {-| ```
-whiteSpaceBreakSpaces : Html.Attribute msg
-whiteSpaceBreakSpaces =
-    Html.Attributes.style "white-space" "break-spaces"
+white-space : break-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceBreakSpaces : Html.Attribute msg
 whiteSpaceBreakSpaces =
-    Html.Attributes.style "white-space" "break-spaces"
+    whiteSpace "break-spaces"
 
 
 {-| ```
-whiteSpacePreserveBreaks : Html.Attribute msg
-whiteSpacePreserveBreaks =
-    Html.Attributes.style "white-space" "preserve-breaks"
+white-space : preserve-breaks
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePreserveBreaks : Html.Attribute msg
 whiteSpacePreserveBreaks =
-    Html.Attributes.style "white-space" "preserve-breaks"
+    whiteSpace "preserve-breaks"
 
 
 {-| ```
-whiteSpaceDiscard : Html.Attribute msg
-whiteSpaceDiscard =
-    Html.Attributes.style "white-space" "discard"
+white-space : discard
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceDiscard : Html.Attribute msg
 whiteSpaceDiscard =
-    Html.Attributes.style "white-space" "discard"
+    whiteSpace "discard"
 
 
 {-| ```
-whiteSpaceWrap : Html.Attribute msg
-whiteSpaceWrap =
-    Html.Attributes.style "white-space" "wrap"
+white-space : wrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceWrap : Html.Attribute msg
 whiteSpaceWrap =
-    Html.Attributes.style "white-space" "wrap"
+    whiteSpace "wrap"
 
 
 {-| ```
-whiteSpaceBalance : Html.Attribute msg
-whiteSpaceBalance =
-    Html.Attributes.style "white-space" "balance"
+white-space : balance
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceBalance : Html.Attribute msg
 whiteSpaceBalance =
-    Html.Attributes.style "white-space" "balance"
+    whiteSpace "balance"
 
 
 {-| ```
-whiteSpacePretty : Html.Attribute msg
-whiteSpacePretty =
-    Html.Attributes.style "white-space" "pretty"
+white-space : pretty
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePretty : Html.Attribute msg
 whiteSpacePretty =
-    Html.Attributes.style "white-space" "pretty"
+    whiteSpace "pretty"
 
 
 {-| ```
-whiteSpaceStable : Html.Attribute msg
-whiteSpaceStable =
-    Html.Attributes.style "white-space" "stable"
+white-space : stable
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceStable : Html.Attribute msg
 whiteSpaceStable =
-    Html.Attributes.style "white-space" "stable"
+    whiteSpace "stable"
 
 
 {-| ```
-whiteSpaceNowrap : Html.Attribute msg
-whiteSpaceNowrap =
-    Html.Attributes.style "white-space" "nowrap"
+white-space : nowrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpaceNowrap : Html.Attribute msg
 whiteSpaceNowrap =
-    Html.Attributes.style "white-space" "nowrap"
+    whiteSpace "nowrap"
 
 
 {-| ```
-whiteSpacePreWrap : Html.Attribute msg
-whiteSpacePreWrap =
-    Html.Attributes.style "white-space" "pre-wrap"
+white-space : pre-wrap
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePreWrap : Html.Attribute msg
 whiteSpacePreWrap =
-    Html.Attributes.style "white-space" "pre-wrap"
+    whiteSpace "pre-wrap"
 
 
 {-| ```
-whiteSpacePre : Html.Attribute msg
-whiteSpacePre =
-    Html.Attributes.style "white-space" "pre"
+white-space : pre
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space
 -}
 whiteSpacePre : Html.Attribute msg
 whiteSpacePre =
-    Html.Attributes.style "white-space" "pre"
+    whiteSpace "pre"
 
 
-{-| ```
-whiteSpaceCollapse : String -> Html.Attribute msg
-whiteSpaceCollapse value =
-    Html.Attributes.style "white-space-collapse" value
-```
+{-| CSS property `white-space-collapse`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
@@ -26213,88 +21312,74 @@ whiteSpaceCollapse value =
 
 
 {-| ```
-whiteSpaceCollapseCollapse : Html.Attribute msg
-whiteSpaceCollapseCollapse =
-    Html.Attributes.style "white-space-collapse" "collapse"
+white-space-collapse : collapse
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapseCollapse : Html.Attribute msg
 whiteSpaceCollapseCollapse =
-    Html.Attributes.style "white-space-collapse" "collapse"
+    whiteSpaceCollapse "collapse"
 
 
 {-| ```
-whiteSpaceCollapsePreserve : Html.Attribute msg
-whiteSpaceCollapsePreserve =
-    Html.Attributes.style "white-space-collapse" "preserve"
+white-space-collapse : preserve
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapsePreserve : Html.Attribute msg
 whiteSpaceCollapsePreserve =
-    Html.Attributes.style "white-space-collapse" "preserve"
+    whiteSpaceCollapse "preserve"
 
 
 {-| ```
-whiteSpaceCollapsePreserveSpaces : Html.Attribute msg
-whiteSpaceCollapsePreserveSpaces =
-    Html.Attributes.style "white-space-collapse" "preserve-spaces"
+white-space-collapse : preserve-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapsePreserveSpaces : Html.Attribute msg
 whiteSpaceCollapsePreserveSpaces =
-    Html.Attributes.style "white-space-collapse" "preserve-spaces"
+    whiteSpaceCollapse "preserve-spaces"
 
 
 {-| ```
-whiteSpaceCollapseBreakSpaces : Html.Attribute msg
-whiteSpaceCollapseBreakSpaces =
-    Html.Attributes.style "white-space-collapse" "break-spaces"
+white-space-collapse : break-spaces
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapseBreakSpaces : Html.Attribute msg
 whiteSpaceCollapseBreakSpaces =
-    Html.Attributes.style "white-space-collapse" "break-spaces"
+    whiteSpaceCollapse "break-spaces"
 
 
 {-| ```
-whiteSpaceCollapsePreserveBreaks : Html.Attribute msg
-whiteSpaceCollapsePreserveBreaks =
-    Html.Attributes.style "white-space-collapse" "preserve-breaks"
+white-space-collapse : preserve-breaks
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapsePreserveBreaks : Html.Attribute msg
 whiteSpaceCollapsePreserveBreaks =
-    Html.Attributes.style "white-space-collapse" "preserve-breaks"
+    whiteSpaceCollapse "preserve-breaks"
 
 
 {-| ```
-whiteSpaceCollapseDiscard : Html.Attribute msg
-whiteSpaceCollapseDiscard =
-    Html.Attributes.style "white-space-collapse" "discard"
+white-space-collapse : discard
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/white-space-collapse
 -}
 whiteSpaceCollapseDiscard : Html.Attribute msg
 whiteSpaceCollapseDiscard =
-    Html.Attributes.style "white-space-collapse" "discard"
+    whiteSpaceCollapse "discard"
 
 
-{-| ```
-widows : String -> Html.Attribute msg
-widows value =
-    Html.Attributes.style "widows" value
-```
+{-| CSS property `widows`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/widows
 -}
@@ -26303,11 +21388,9 @@ widows value =
     Html.Attributes.style "widows" value
 
 
-{-| ```
-width : String -> Html.Attribute msg
-width value =
-    Html.Attributes.style "width" value
-```
+{-| CSS property `width`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
@@ -26317,88 +21400,74 @@ width value =
 
 
 {-| ```
-widthAuto : Html.Attribute msg
-widthAuto =
-    Html.Attributes.style "width" "auto"
+width : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthAuto : Html.Attribute msg
 widthAuto =
-    Html.Attributes.style "width" "auto"
+    width "auto"
 
 
 {-| ```
-widthMaxContent : Html.Attribute msg
-widthMaxContent =
-    Html.Attributes.style "width" "max-content"
+width : max-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthMaxContent : Html.Attribute msg
 widthMaxContent =
-    Html.Attributes.style "width" "max-content"
+    width "max-content"
 
 
 {-| ```
-widthFitContent : Html.Attribute msg
-widthFitContent =
-    Html.Attributes.style "width" "fit-content"
+width : fit-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthFitContent : Html.Attribute msg
 widthFitContent =
-    Html.Attributes.style "width" "fit-content"
+    width "fit-content"
 
 
 {-| ```
-widthMinContent : Html.Attribute msg
-widthMinContent =
-    Html.Attributes.style "width" "min-content"
+width : min-content
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthMinContent : Html.Attribute msg
 widthMinContent =
-    Html.Attributes.style "width" "min-content"
+    width "min-content"
 
 
 {-| ```
-widthPx : Float -> Html.Attribute msg
-widthPx value =
-    Html.Attributes.style "width" (String.append (String.fromFloat value) "px")
+width : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthPx : Float -> Html.Attribute msg
 widthPx value =
-    Html.Attributes.style "width" (String.append (String.fromFloat value) "px")
+    width (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-widthRem : Float -> Html.Attribute msg
-widthRem value =
-    Html.Attributes.style "width" (String.append (String.fromFloat value) "rem")
+width : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/width
 -}
 widthRem : Float -> Html.Attribute msg
 widthRem value =
-    Html.Attributes.style "width" (String.append (String.fromFloat value) "rem")
+    width (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-willChange : String -> Html.Attribute msg
-willChange value =
-    Html.Attributes.style "will-change" value
-```
+{-| CSS property `will-change`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/will-change
 -}
@@ -26408,23 +21477,19 @@ willChange value =
 
 
 {-| ```
-willChangeAuto : Html.Attribute msg
-willChangeAuto =
-    Html.Attributes.style "will-change" "auto"
+will-change : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/will-change
 -}
 willChangeAuto : Html.Attribute msg
 willChangeAuto =
-    Html.Attributes.style "will-change" "auto"
+    willChange "auto"
 
 
-{-| ```
-wordBreak : String -> Html.Attribute msg
-wordBreak value =
-    Html.Attributes.style "word-break" value
-```
+{-| CSS property `word-break`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/word-break
 -}
@@ -26434,62 +21499,52 @@ wordBreak value =
 
 
 {-| ```
-wordBreakNormal : Html.Attribute msg
-wordBreakNormal =
-    Html.Attributes.style "word-break" "normal"
+word-break : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-break
 -}
 wordBreakNormal : Html.Attribute msg
 wordBreakNormal =
-    Html.Attributes.style "word-break" "normal"
+    wordBreak "normal"
 
 
 {-| ```
-wordBreakKeepAll : Html.Attribute msg
-wordBreakKeepAll =
-    Html.Attributes.style "word-break" "keep-all"
+word-break : keep-all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-break
 -}
 wordBreakKeepAll : Html.Attribute msg
 wordBreakKeepAll =
-    Html.Attributes.style "word-break" "keep-all"
+    wordBreak "keep-all"
 
 
 {-| ```
-wordBreakBreakWord : Html.Attribute msg
-wordBreakBreakWord =
-    Html.Attributes.style "word-break" "break-word"
+word-break : break-word
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-break
 -}
 wordBreakBreakWord : Html.Attribute msg
 wordBreakBreakWord =
-    Html.Attributes.style "word-break" "break-word"
+    wordBreak "break-word"
 
 
 {-| ```
-wordBreakBreakAll : Html.Attribute msg
-wordBreakBreakAll =
-    Html.Attributes.style "word-break" "break-all"
+word-break : break-all
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-break
 -}
 wordBreakBreakAll : Html.Attribute msg
 wordBreakBreakAll =
-    Html.Attributes.style "word-break" "break-all"
+    wordBreak "break-all"
 
 
-{-| ```
-wordSpacing : String -> Html.Attribute msg
-wordSpacing value =
-    Html.Attributes.style "word-spacing" value
-```
+{-| CSS property `word-spacing`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/word-spacing
 -}
@@ -26499,57 +21554,41 @@ wordSpacing value =
 
 
 {-| ```
-wordSpacingNormal : Html.Attribute msg
-wordSpacingNormal =
-    Html.Attributes.style "word-spacing" "normal"
+word-spacing : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-spacing
 -}
 wordSpacingNormal : Html.Attribute msg
 wordSpacingNormal =
-    Html.Attributes.style "word-spacing" "normal"
+    wordSpacing "normal"
 
 
 {-| ```
-wordSpacingPx : Float -> Html.Attribute msg
-wordSpacingPx value =
-    Html.Attributes.style
-        "word-spacing"
-        (String.append (String.fromFloat value) "px")
+word-spacing : 42px
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-spacing
 -}
 wordSpacingPx : Float -> Html.Attribute msg
 wordSpacingPx value =
-    Html.Attributes.style
-        "word-spacing"
-        (String.append (String.fromFloat value) "px")
+    wordSpacing (String.append (String.fromFloat value) "px")
 
 
 {-| ```
-wordSpacingRem : Float -> Html.Attribute msg
-wordSpacingRem value =
-    Html.Attributes.style
-        "word-spacing"
-        (String.append (String.fromFloat value) "rem")
+word-spacing : 42rem
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/word-spacing
 -}
 wordSpacingRem : Float -> Html.Attribute msg
 wordSpacingRem value =
-    Html.Attributes.style
-        "word-spacing"
-        (String.append (String.fromFloat value) "rem")
+    wordSpacing (String.append (String.fromFloat value) "rem")
 
 
-{-| ```
-wordWrap : String -> Html.Attribute msg
-wordWrap value =
-    Html.Attributes.style "word-wrap" value
-```
+{-| CSS property `word-wrap`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
@@ -26559,36 +21598,30 @@ wordWrap value =
 
 
 {-| ```
-wordWrapNormal : Html.Attribute msg
-wordWrapNormal =
-    Html.Attributes.style "word-wrap" "normal"
+word-wrap : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
 wordWrapNormal : Html.Attribute msg
 wordWrapNormal =
-    Html.Attributes.style "word-wrap" "normal"
+    wordWrap "normal"
 
 
 {-| ```
-wordWrapBreakWord : Html.Attribute msg
-wordWrapBreakWord =
-    Html.Attributes.style "word-wrap" "break-word"
+word-wrap : break-word
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/overflow-wrap
 -}
 wordWrapBreakWord : Html.Attribute msg
 wordWrapBreakWord =
-    Html.Attributes.style "word-wrap" "break-word"
+    wordWrap "break-word"
 
 
-{-| ```
-writingMode : String -> Html.Attribute msg
-writingMode value =
-    Html.Attributes.style "writing-mode" value
-```
+{-| CSS property `writing-mode`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
@@ -26598,75 +21631,63 @@ writingMode value =
 
 
 {-| ```
-writingModeHorizontalTb : Html.Attribute msg
-writingModeHorizontalTb =
-    Html.Attributes.style "writing-mode" "horizontal-tb"
+writing-mode : horizontal-tb
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
 writingModeHorizontalTb : Html.Attribute msg
 writingModeHorizontalTb =
-    Html.Attributes.style "writing-mode" "horizontal-tb"
+    writingMode "horizontal-tb"
 
 
 {-| ```
-writingModeVerticalLr : Html.Attribute msg
-writingModeVerticalLr =
-    Html.Attributes.style "writing-mode" "vertical-lr"
+writing-mode : vertical-lr
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
 writingModeVerticalLr : Html.Attribute msg
 writingModeVerticalLr =
-    Html.Attributes.style "writing-mode" "vertical-lr"
+    writingMode "vertical-lr"
 
 
 {-| ```
-writingModeSidewaysLr : Html.Attribute msg
-writingModeSidewaysLr =
-    Html.Attributes.style "writing-mode" "sideways-lr"
+writing-mode : sideways-lr
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
 writingModeSidewaysLr : Html.Attribute msg
 writingModeSidewaysLr =
-    Html.Attributes.style "writing-mode" "sideways-lr"
+    writingMode "sideways-lr"
 
 
 {-| ```
-writingModeSidewaysRl : Html.Attribute msg
-writingModeSidewaysRl =
-    Html.Attributes.style "writing-mode" "sideways-rl"
+writing-mode : sideways-rl
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
 writingModeSidewaysRl : Html.Attribute msg
 writingModeSidewaysRl =
-    Html.Attributes.style "writing-mode" "sideways-rl"
+    writingMode "sideways-rl"
 
 
 {-| ```
-writingModeVerticalRl : Html.Attribute msg
-writingModeVerticalRl =
-    Html.Attributes.style "writing-mode" "vertical-rl"
+writing-mode : vertical-rl
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/writing-mode
 -}
 writingModeVerticalRl : Html.Attribute msg
 writingModeVerticalRl =
-    Html.Attributes.style "writing-mode" "vertical-rl"
+    writingMode "vertical-rl"
 
 
-{-| ```
-zIndex : String -> Html.Attribute msg
-zIndex value =
-    Html.Attributes.style "z-index" value
-```
+{-| CSS property `z-index`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/z-index
 -}
@@ -26676,23 +21697,19 @@ zIndex value =
 
 
 {-| ```
-zIndexAuto : Html.Attribute msg
-zIndexAuto =
-    Html.Attributes.style "z-index" "auto"
+z-index : auto
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/z-index
 -}
 zIndexAuto : Html.Attribute msg
 zIndexAuto =
-    Html.Attributes.style "z-index" "auto"
+    zIndex "auto"
 
 
-{-| ```
-zoom : String -> Html.Attribute msg
-zoom value =
-    Html.Attributes.style "zoom" value
-```
+{-| CSS property `zoom`
+
+
 
 https://developer.mozilla.org/docs/Web/CSS/zoom
 -}
@@ -26702,26 +21719,22 @@ zoom value =
 
 
 {-| ```
-zoomNormal : Html.Attribute msg
-zoomNormal =
-    Html.Attributes.style "zoom" "normal"
+zoom : normal
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/zoom
 -}
 zoomNormal : Html.Attribute msg
 zoomNormal =
-    Html.Attributes.style "zoom" "normal"
+    zoom "normal"
 
 
 {-| ```
-zoomReset : Html.Attribute msg
-zoomReset =
-    Html.Attributes.style "zoom" "reset"
+zoom : reset
 ```
 
 https://developer.mozilla.org/docs/Web/CSS/zoom
 -}
 zoomReset : Html.Attribute msg
 zoomReset =
-    Html.Attributes.style "zoom" "reset"
+    zoom "reset"

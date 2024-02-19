@@ -9,6 +9,8 @@ fromValue value base =
             normalize base ++ "_collapse"
         ("scroll-snap-type",Constant "x") ->
             normalize base ++ "_x"
+        ("scroll-snap-type",Constant "y") ->
+            normalize base ++ "_y"   
         _ ->
             case value of
                 Constant constant ->

@@ -2,6 +2,7 @@
   "scripts": {
     "fetch": "git submodule update --remote",
     "generate": "ts-node ./scripts/generate.ts",
+    "bump": "npx -p elm@0.19.0-no-deps elm bump",
     "publish": "npx -p elm@0.19.0-no-deps elm publish"
   },
   "devDependencies": {
