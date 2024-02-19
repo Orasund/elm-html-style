@@ -87,3 +87,9 @@ jobs:
 
       - name: bump version number
         run: elm bump -y
+
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          message: "prepair new version"
