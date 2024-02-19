@@ -1,6 +1,7 @@
 name: Example
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 1 */3 *'
 
@@ -26,10 +27,7 @@ jobs:
       - name: Internal npm ci
         if: steps.internal-cache-node_modules.outputs.cache-hit != 'true'
         run: npm ci
-        working-directory: .
-      - name: Internal build
-        run: npm run build
-        working-directory: .
+        working-directory: . .
       # IGNORE END
 
       # Re-use node_modules between runs until package.json or package-lock.json changes.
