@@ -11,17 +11,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           # Choose your Node.js version here:
-          node-version: 18.x
+          node-version: 20.x
 
       # IGNORE START: This is just internal stuff specific for this repo.
       - name: Internal cache node_modules
         id: internal-cache-node_modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: internal-node_modules-ubuntu-latest-18.x-${{ hashFiles('package.json', 'package-lock.json') }}
