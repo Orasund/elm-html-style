@@ -62,7 +62,18 @@ valueParser =
         , Parser.succeed Type
             |. Parser.symbol "<"
             |= keyword
-            |. Parser.symbol ">"
+            |. Parser.oneOf [
+                 Parser.succeed ()
+                |. Parser.symbol " ["
+                |. Parser.variable
+                    { start = \char -> char /= ']'
+                    , inner = \char -> char /= ']'
+                    , reserved = Set.empty
+                    }
+                |. Parser.symbol "]>"
+                , Parser.symbol ">"
+            ]
+        
         , keyword
             |> Parser.andThen
                 (\v ->
