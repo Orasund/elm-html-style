@@ -73,7 +73,7 @@ jobs:
         run: npm run generate
 
       - name: bump version number
-        run: elm bump -y
+        run: npx elm bump -y
 
       - name: Commit & Push changes
         uses: actions-js/push@master
