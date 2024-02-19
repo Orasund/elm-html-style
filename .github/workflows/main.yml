@@ -17,19 +17,6 @@ jobs:
           # Choose your Node.js version here:
           node-version: 20.x
 
-      # IGNORE START: This is just internal stuff specific for this repo.
-      - name: Internal cache node_modules
-        id: internal-cache-node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: internal-node_modules-ubuntu-latest-18.x-${{ hashFiles('package.json', 'package-lock.json') }}
-      - name: Internal npm ci
-        if: steps.internal-cache-node_modules.outputs.cache-hit != 'true'
-        run: npm ci
-        working-directory: . .
-      # IGNORE END
-
       # Re-use node_modules between runs until package.json or package-lock.json changes.
       - name: Cache node_modules
         id: cache-node_modules
