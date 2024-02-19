@@ -73,12 +73,16 @@ jobs:
         run: npm run generate
 
       - name: bump version number
+        id: bump
         run: npm run bump
-
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: "[Github Action] new version"
+      - name: create tag
+        run: git tag -a ${{steps.bump.outputs}}
+      - name: push tag
+        run: git push origin ${{steps.bump.outputs}}
       - name: publish
         run: npm run publish
