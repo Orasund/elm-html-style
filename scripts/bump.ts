@@ -21,6 +21,6 @@ const [major, minor, batch] = version.split(".")
 const newVersion = major + "." + (parseInt(minor) + 1) + "." + batch
 elmJson.version = newVersion
 writeFile("../elm.json", JSON.stringify(elmJson, null, 4))
-
-childProcess.execSync("git tag -a " + newVersion + " -m \"new release\"")
-childProcess.execSync("git push origin " + newVersion)
+process.stdout.write(newVersion);
+//childProcess.execSync("git tag -a " + newVersion + " -m \"new release\"")
+//childProcess.execSync("git push origin " + newVersion)
