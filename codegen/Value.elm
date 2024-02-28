@@ -52,7 +52,6 @@ collectSequence args sequenceSyntax =
                 [ ( elem, Just (Multiple range) ) ] ->
                     case ( range.min, range.max ) of
                         ( 1, _ ) ->
-                            --TODO implement more then one value
                             collectElem args elem
 
                         --}
@@ -62,16 +61,23 @@ collectSequence args sequenceSyntax =
                 [ ( _, Just (Multiple range) ), ( elem2, Nothing ) ] ->
                     case ( range.min, range.max ) of
                         ( 0, _ ) ->
-                            --TODO implement more then zero values
                             collectElem args elem2
 
                         _ ->
                             []
-                [ (elem1,Nothing),( _,Just (Multiple range))] ->
+
+                [ ( elem1, Nothing ), ( _, Just (Multiple range) ) ] ->
                     case ( range.min, range.max ) of
                         ( 0, _ ) ->
-                            --TODO implement more then zero values
                             collectElem args elem1
+
+                        _ ->
+                            []
+
+                [ ( elem, Just (Multiple range1) ), ( _, Just (Multiple range2) ) ] ->
+                    case ( range1.min, range2.min ) of
+                        ( 1, 0 ) ->
+                            collectElem args elem
 
                         _ ->
                             []
@@ -103,7 +109,7 @@ collectConstants args syntax =
                         |> Maybe.map (collectConstants args)
                         |> Maybe.withDefault []
                     )
-                    |> List.Extra.unique
+                |> List.Extra.unique
                 |> List.reverse
 
 

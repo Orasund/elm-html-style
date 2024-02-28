@@ -4,7 +4,6 @@ import Config
 import Dict exposing (Dict)
 import Elm
 import Elm.Declare
-import Elm.ToString
 import File.PropertiesJson exposing (Property)
 import Gen.Html.Attributes
 import Gen.String
@@ -43,22 +42,27 @@ toDeclarations { values } ( key, property ) =
                 |> List.map
                     (\value ->
                         fromValue baseDeclaration value ( key, property )
-                        |> Elm.withDocumentation (
-                            (case value of
-                                Constant constant -> 
-                                    "```\n"
-                                    ++ key ++ " : " ++ constant
-                                    ++ "\n"
-                                    ++ "```\n\n"
-                                Unit unit ->
-                                    "```\n"
-                                    ++ key ++ " : 42" ++ unit
-                                    ++ "\n"
-                                    ++ "```\n\n")
-                ++ (property.url |> Maybe.withDefault "")))
-                    
-                
-            
+                            |> Elm.withDocumentation
+                                ((case value of
+                                    Constant constant ->
+                                        "```\n"
+                                            ++ key
+                                            ++ " : "
+                                            ++ constant
+                                            ++ "\n"
+                                            ++ "```\n\n"
+
+                                    Unit unit ->
+                                        "```\n"
+                                            ++ key
+                                            ++ " : 42"
+                                            ++ unit
+                                            ++ "\n"
+                                            ++ "```\n\n"
+                                 )
+                                    ++ (property.url |> Maybe.withDefault "")
+                                )
+                    )
     in
     declarations
         |> List.map
@@ -72,15 +76,16 @@ toDeclarations { values } ( key, property ) =
         |> (::)
             (baseDeclaration.declaration
                 |> Elm.withDocumentation
-                    (("CSS property `" ++ key ++ "`\n\n") ++
-                        (if Config.debug then
-                        "Possible values: "
-                            ++ property.syntax
-                            ++ "\n\n"
+                    (("CSS property `" ++ key ++ "`\n\n")
+                        ++ (if Config.debug then
+                                "Possible values: "
+                                    ++ property.syntax
+                                    ++ "\n\n"
 
-                      else
-                        "\n\n"
-                     )++ ((property.url |> Maybe.withDefault ""))
+                            else
+                                "\n\n"
+                           )
+                        ++ (property.url |> Maybe.withDefault "")
                     )
                 |> Elm.exposeWith
                     { exposeConstructor = False

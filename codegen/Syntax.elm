@@ -9,6 +9,7 @@ import Set
 
 type ValueSyntax
     = Keyword String
+    | SpecialChar Char
     | Reference String
     | Type String
     | Function String Syntax
@@ -35,7 +36,7 @@ type Syntax
 
 
 reservedCharacters =
-    [ ' ', '&', '|', '<', '>', '(', ')', '[', ']', '{', '}', '*', '+', '?', '#', '!','\'' ]
+    [ ' ', '&', '|', '<', '>', '(', ')', '[', ']', '{', '}', '*', '+', '?', '#', '!', '\'' ]
 
 
 type Value
@@ -62,18 +63,19 @@ valueParser =
         , Parser.succeed Type
             |. Parser.symbol "<"
             |= keyword
-            |. Parser.oneOf [
-                 Parser.succeed ()
-                |. Parser.symbol " ["
-                |. Parser.variable
-                    { start = \char -> char /= ']'
-                    , inner = \char -> char /= ']'
-                    , reserved = Set.empty
-                    }
-                |. Parser.symbol "]>"
+            |. Parser.oneOf
+                [ Parser.succeed ()
+                    |. Parser.symbol " ["
+                    |. Parser.variable
+                        { start = \char -> char /= ']'
+                        , inner = \char -> char /= ']'
+                        , reserved = Set.empty
+                        }
+                    |. Parser.symbol "]>"
                 , Parser.symbol ">"
-            ]
-        
+                ]
+        , Parser.succeed (SpecialChar '/')
+            |. Parser.symbol "/"
         , keyword
             |> Parser.andThen
                 (\v ->
