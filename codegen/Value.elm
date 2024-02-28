@@ -101,8 +101,27 @@ collectSequence args sequenceSyntax =
                                     []
                            )
 
-                [ ( elem, Just MultipleCommaSeperatedMinOne ) ] ->
-                    collectElem args elem
+                ( elem, Just MultipleCommaSeperatedMinOne ) :: tail ->
+                    tail
+                        |> List.all isOptional
+                        |> (\bool ->
+                                if bool then
+                                    collectElem args elem
+
+                                else
+                                    []
+                           )
+
+                ( elem, Just NonEmpty ) :: tail ->
+                    tail
+                        |> List.all isOptional
+                        |> (\bool ->
+                                if bool then
+                                    collectElem args elem
+
+                                else
+                                    []
+                           )
 
                 _ ->
                     let
