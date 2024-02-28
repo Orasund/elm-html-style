@@ -76,6 +76,8 @@ valueParser =
                 ]
         , Parser.succeed (SpecialChar '/')
             |. Parser.symbol "/"
+        , Parser.succeed (SpecialChar ',')
+            |. Parser.symbol ","
         , keyword
             |> Parser.andThen
                 (\v ->

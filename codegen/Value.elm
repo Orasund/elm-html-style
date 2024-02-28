@@ -43,21 +43,29 @@ collectElem args elementSyntax =
 
 collectSequence : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> SequenceSyntax -> List Value
 collectSequence args sequenceSyntax =
+    let
+        isOptional ( _, multiplier ) =
+            case multiplier of
+                Just (Multiple range) ->
+                    case ( range.min, range.max ) of
+                        ( 0, _ ) ->
+                            True
+
+                        _ ->
+                            False
+
+                Just MultipleCommaSeperatedMinOne ->
+                    False
+
+                Just NonEmpty ->
+                    False
+
+                Nothing ->
+                    False
+    in
     case sequenceSyntax of
         Sequence list ->
             case list of
-                [ ( elem, Nothing ) ] ->
-                    collectElem args elem
-
-                [ ( elem, Just (Multiple range) ) ] ->
-                    case ( range.min, range.max ) of
-                        ( 1, _ ) ->
-                            collectElem args elem
-
-                        --}
-                        _ ->
-                            []
-
                 [ ( _, Just (Multiple range) ), ( elem2, Nothing ) ] ->
                     case ( range.min, range.max ) of
                         ( 0, _ ) ->
@@ -66,27 +74,44 @@ collectSequence args sequenceSyntax =
                         _ ->
                             []
 
-                [ ( elem1, Nothing ), ( _, Just (Multiple range) ) ] ->
-                    case ( range.min, range.max ) of
-                        ( 0, _ ) ->
-                            collectElem args elem1
+                ( elem1, Just (Multiple range1) ) :: tail ->
+                    case range1.min of
+                        1 ->
+                            tail
+                                |> List.all isOptional
+                                |> (\bool ->
+                                        if bool then
+                                            collectElem args elem1
+
+                                        else
+                                            []
+                                   )
 
                         _ ->
                             []
 
-                [ ( elem, Just (Multiple range1) ), ( _, Just (Multiple range2) ) ] ->
-                    case ( range1.min, range2.min ) of
-                        ( 1, 0 ) ->
-                            collectElem args elem
+                ( elem, Nothing ) :: tail ->
+                    tail
+                        |> List.all isOptional
+                        |> (\bool ->
+                                if bool then
+                                    collectElem args elem
 
-                        _ ->
-                            []
+                                else
+                                    []
+                           )
+
+                [ ( elem, Just MultipleCommaSeperatedMinOne ) ] ->
+                    collectElem args elem
 
                 _ ->
+                    let
+                        _ =
+                            Debug.log "missing case" sequenceSyntax
+                    in
                     []
 
         Set list ->
-            --TODO support multiple values
             list
                 |> List.concatMap
                     (\tuple ->
@@ -94,8 +119,22 @@ collectSequence args sequenceSyntax =
                             ( elem, Nothing ) ->
                                 collectElem args elem
 
-                            _ ->
-                                []
+                            ( elem, Just (Multiple range) ) ->
+                                case range.min of
+                                    0 ->
+                                        collectElem args elem
+
+                                    1 ->
+                                        collectElem args elem
+
+                                    _ ->
+                                        []
+
+                            ( elem, Just NonEmpty ) ->
+                                collectElem args elem
+
+                            ( elem, Just MultipleCommaSeperatedMinOne ) ->
+                                collectElem args elem
                     )
 
 
