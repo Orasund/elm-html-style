@@ -28,11 +28,14 @@ type ElementSyntax
 
 type SequenceSyntax
     = Sequence (List ( ElementSyntax, Maybe MultiplierSyntax ))
-    | Set (List ( ElementSyntax, Maybe MultiplierSyntax ))
+
+
+type SetSyntax
+    = Set (List SequenceSyntax)
 
 
 type Syntax
-    = Or SequenceSyntax (Maybe Syntax)
+    = Or (List SetSyntax)
 
 
 reservedCharacters =
@@ -119,7 +122,11 @@ parser : Parser Syntax
 parser =
     valueWihMultiplier
         |> Parser.map List.singleton
-        |> Parser.andThen collectHeadAndProceed
+        |> Parser.andThen collectSequence
+        |> Parser.map List.singleton
+        |> Parser.andThen collectSet
+        |> Parser.map List.singleton
+        |> Parser.andThen collectOr
 
 
 valueWihMultiplier =
@@ -128,6 +135,8 @@ valueWihMultiplier =
             |. Parser.symbol "["
             |. Parser.spaces
             |= Parser.lazy (\() -> parser)
+            |. Parser.spaces
+            |. Parser.symbol "]"
             |= multiplier
         , Parser.succeed (\value mult -> ( ValueElem value, mult ))
             |= valueParser
@@ -135,71 +144,124 @@ valueWihMultiplier =
         ]
 
 
-collectHeadAndProceed list =
-    Parser.oneOf
-        [ Parser.succeed identity
-            |. Parser.symbol " "
-            |= Parser.oneOf
-                [ Parser.succeed (Or (Sequence (List.reverse list)) Nothing)
-                    |. Parser.symbol "]"
-                , Parser.succeed identity
-                    |. Parser.symbol "|"
-                    |= Parser.oneOf
-                        [ (Parser.succeed identity
-                            |. Parser.symbol "| "
-                            |= valueWihMultiplier
-                          )
-                            |> Parser.andThen
-                                (\v2 ->
-                                    v2 :: list |> collectSet
-                                )
-                        , Parser.succeed (\v2 -> Or (Sequence (List.reverse list)) (Just v2))
-                            |. Parser.symbol " "
-                            |= Parser.lazy (\() -> parser)
-                        ]
-                , valueWihMultiplier
-                    |> Parser.andThen
-                        (\v2 ->
-                            v2 :: list |> collectSequence
-                        )
-                ]
-        , Parser.succeed (Or (Sequence (List.reverse list)) Nothing)
-        ]
-
-
+collectSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
 collectSequence list =
     Parser.oneOf
-        [ Parser.succeed identity
-            |. Parser.symbol " "
-            |= Parser.oneOf
-                [ Parser.succeed (Or (Sequence (List.reverse list)) Nothing)
-                    |. Parser.symbol "]"
-                , Parser.succeed identity
-                    |. Parser.symbol "|"
-                    |= Parser.oneOf
-                        [ Parser.succeed (\v2 -> Or (Sequence (List.reverse list)) (Just v2))
-                            |. Parser.symbol " "
-                            |= Parser.lazy (\() -> parser)
-                        ]
-                , valueWihMultiplier
-                    |> Parser.andThen
-                        (\v2 ->
-                            v2 :: list |> collectSequence
-                        )
-                ]
-        , Parser.succeed (Or (Sequence (List.reverse list)) Nothing)
+        [ Parser.backtrackable
+            (Parser.succeed identity
+                |. Parser.symbol " "
+                |= valueWihMultiplier
+                |> Parser.andThen
+                    (\v2 ->
+                        v2 :: list |> collectSequence
+                    )
+            )
+        , Parser.succeed (Sequence (List.reverse list))
         ]
 
 
+collectSet : List SequenceSyntax -> Parser SetSyntax
 collectSet list =
     Parser.oneOf
         [ Parser.succeed identity
+            |. Parser.symbol " || "
+            |= Parser.oneOf
+                [ valueWihMultiplier
+                    |> Parser.map List.singleton
+                    |> Parser.andThen collectSequence
+                    |> Parser.andThen
+                        (\v2 ->
+                            v2 :: list |> collectSet
+                        )
+                ]
+        , Parser.succeed (Set (list |> List.reverse))
+        ]
+
+
+collectOr list =
+    Parser.oneOf
+        [ Parser.succeed identity
+            |. Parser.symbol " | "
+            |= Parser.oneOf
+                [ valueWihMultiplier
+                    |> Parser.map List.singleton
+                    |> Parser.andThen collectSequence
+                    |> Parser.map List.singleton
+                    |> Parser.andThen collectSet
+                    |> Parser.andThen
+                        (\v2 ->
+                            v2 :: list |> collectOr
+                        )
+                ]
+        , Parser.succeed (Or (list |> List.reverse))
+        ]
+
+
+
+{--
+collectHeadAndProceed : ( ElementSyntax, Maybe MultiplierSyntax ) -> Syntax
+collectHeadAndProceed v =
+    Parser.oneOf
+        [ Parser.succeed (Or (Set [ Sequence [ v ] ]) Nothing)
+            |. Parser.symbol " ]"
+        , Parser.succeed identity
+            |. Parser.symbol " |"
+            |= Parser.oneOf
+                [ Parser.succeed (\v1 v2 -> Or v1 (Just v2))
+                    |= ((Parser.succeed identity
+                            |. Parser.symbol "| "
+                            |= collectSequence [ v ]
+                        )
+                            |> Parser.andThen
+                                (\v2 ->
+                                    collectSet [ v2 ]
+                                )
+                       )
+                    |. Parser.symbol " "
+                    |= Parser.lazy (\() -> parser)
+                , Parser.succeed (\v2 -> Or (Set [ Sequence [ v ] ]) (Just v2))
+                    |. Parser.symbol " "
+                    |= Parser.lazy (\() -> parser)
+                ]
+        , Parser.succeed (\v2 -> collectSequence [ v2 ])
+            |. Parser.symbol " "
+            |= Parser.lazy (\() -> parser)
+        ]
+
+
+collectSequence2 list =
+    Parser.oneOf
+        [ Parser.succeed identity
             |. Parser.symbol " "
             |= Parser.oneOf
-                [ Parser.succeed (Or (Set (List.reverse list)) Nothing)
+                [ Parser.succeed (Or (Set [ Sequence (List.reverse list) ]) Nothing)
                     |. Parser.symbol "]"
                 , Parser.succeed identity
                     |. Parser.symbol "|"
+                    |= Parser.oneOf
+                        [ Parser.succeed (\v2 -> Or (Set [ Sequence (List.reverse list) ]) (Just v2))
+                            |. Parser.symbol " "
+                            |= Parser.lazy (\() -> parser)
+                        ]
+                , valueWihMultiplier
+                    |> Parser.andThen
+                        (\v2 ->
+                            v2 :: list |> collectSequence
+                        )
+                ]
+        , Parser.succeed (Or (Set [ Sequence (List.reverse list) ]) Nothing)
+        ]
+
+
+collectSet2 : List ( ElementSyntax, Maybe MultiplierSyntax ) -> List SequenceSyntax -> Parser Syntax
+collectSet2 head tail =
+    Parser.oneOf
+        [ Parser.succeed identity
+            |= Parser.oneOf
+                [ Parser.succeed (Or (Set (Sequence head :: tail |> List.reverse)) Nothing)
+                    |. Parser.symbol " ]"
+                , Parser.succeed identity
+                    |. Parser.symbol " |"
                     |= Parser.oneOf
                         [ (Parser.succeed identity
                             |. Parser.symbol "| "
@@ -207,12 +269,13 @@ collectSet list =
                           )
                             |> Parser.andThen
                                 (\v2 ->
-                                    v2 :: list |> collectSet
+                                    Sequence head :: tail |> collectSet [ v2 ]
                                 )
-                        , Parser.succeed (\v2 -> Or (Set (List.reverse list)) (Just v2))
+                        , Parser.succeed (\v2 -> Or (Set (Sequence head :: tail |> List.reverse)) (Just v2))
                             |. Parser.symbol " "
                             |= Parser.lazy (\() -> parser)
                         ]
                 ]
-        , Parser.succeed (Or (Set (List.reverse list)) Nothing)
+        , Parser.succeed (Or (Set (Sequence head :: tail |> List.reverse)) Nothing)
         ]
+--}

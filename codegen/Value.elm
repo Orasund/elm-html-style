@@ -3,7 +3,7 @@ module Value exposing (..)
 import Dict exposing (Dict)
 import List.Extra
 import Parser exposing ((|.), (|=), DeadEnd, Problem(..))
-import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), SequenceSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
+import Syntax exposing (ElementSyntax(..), MultiplierSyntax(..), SequenceSyntax(..), SetSyntax(..), Syntax(..), Value(..), ValueSyntax(..))
 
 
 collectValue : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> ValueSyntax -> List Value
@@ -130,43 +130,21 @@ collectSequence args sequenceSyntax =
                     in
                     []
 
+
+collectSet : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> SetSyntax -> List Value
+collectSet args setSyntax =
+    case setSyntax of
         Set list ->
             list
-                |> List.concatMap
-                    (\tuple ->
-                        case tuple of
-                            ( elem, Nothing ) ->
-                                collectElem args elem
-
-                            ( elem, Just (Multiple range) ) ->
-                                case range.min of
-                                    0 ->
-                                        collectElem args elem
-
-                                    1 ->
-                                        collectElem args elem
-
-                                    _ ->
-                                        []
-
-                            ( elem, Just NonEmpty ) ->
-                                collectElem args elem
-
-                            ( elem, Just MultipleCommaSeperatedMinOne ) ->
-                                collectElem args elem
-                    )
+                |> List.concatMap (collectSequence args)
 
 
 collectConstants : { syntaxGroups : Dict String (List Value), syntaxes : Dict String Syntax } -> Syntax -> List Value
 collectConstants args syntax =
     case syntax of
-        Or sequenceSyntax maybeSyntax ->
-            collectSequence args sequenceSyntax
-                |> (++)
-                    (maybeSyntax
-                        |> Maybe.map (collectConstants args)
-                        |> Maybe.withDefault []
-                    )
+        Or list ->
+            list
+                |> List.concatMap (collectSet args)
                 |> List.Extra.unique
                 |> List.reverse
 
