@@ -27,7 +27,8 @@ type ElementSyntax
 
 
 type SequenceSyntax
-    = Sequence (List ( ElementSyntax, Maybe MultiplierSyntax ))
+    = Ordered (List ( ElementSyntax, Maybe MultiplierSyntax ))
+    | Unordered (List ( ElementSyntax, Maybe MultiplierSyntax ))
 
 
 type SetSyntax
@@ -122,7 +123,7 @@ parser : Parser Syntax
 parser =
     valueWihMultiplier
         |> Parser.map List.singleton
-        |> Parser.andThen collectSequence
+        |> Parser.andThen collectOrderedSequence
         |> Parser.map List.singleton
         |> Parser.andThen collectSet
         |> Parser.map List.singleton
@@ -147,16 +148,40 @@ valueWihMultiplier =
 collectSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
 collectSequence list =
     Parser.oneOf
+        [ collectOrderedSequence list
+        , collectUnorderedSequence list
+        ]
+
+
+collectOrderedSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
+collectOrderedSequence list =
+    Parser.oneOf
         [ Parser.backtrackable
             (Parser.succeed identity
                 |. Parser.symbol " "
                 |= valueWihMultiplier
                 |> Parser.andThen
                     (\v2 ->
-                        v2 :: list |> collectSequence
+                        v2 :: list |> collectOrderedSequence
                     )
             )
-        , Parser.succeed (Sequence (List.reverse list))
+        , Parser.succeed (Ordered (List.reverse list))
+        ]
+
+
+collectUnorderedSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
+collectUnorderedSequence list =
+    Parser.oneOf
+        [ Parser.backtrackable
+            (Parser.succeed identity
+                |. Parser.symbol " && "
+                |= valueWihMultiplier
+                |> Parser.andThen
+                    (\v2 ->
+                        v2 :: list |> collectUnorderedSequence
+                    )
+            )
+        , Parser.succeed (Unordered (List.reverse list))
         ]
 
 

@@ -62,9 +62,15 @@ collectSequence args sequenceSyntax =
 
                 Nothing ->
                     False
+        list =
+            case sequenceSyntax of
+                Ordered l ->
+                    l
+                Unordered l ->
+                    l
+
     in
-    case sequenceSyntax of
-        Sequence list ->
+    
             case list of
                 [ ( _, Just (Multiple range) ), ( elem2, Nothing ) ] ->
                     case ( range.min, range.max ) of
