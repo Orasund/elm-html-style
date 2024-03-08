@@ -119,17 +119,6 @@ multiplier =
         ]
 
 
-parser : Parser Syntax
-parser =
-    valueWihMultiplier
-        |> Parser.map List.singleton
-        |> Parser.andThen collectOrderedSequence
-        |> Parser.map List.singleton
-        |> Parser.andThen collectSet
-        |> Parser.map List.singleton
-        |> Parser.andThen collectOr
-
-
 valueWihMultiplier =
     Parser.oneOf
         [ Parser.succeed (\syntax maybeMultiplier -> ( Brackets syntax, maybeMultiplier ))
@@ -145,12 +134,31 @@ valueWihMultiplier =
         ]
 
 
-collectSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
-collectSequence list =
-    Parser.oneOf
-        [ collectOrderedSequence list
-        , collectUnorderedSequence list
-        ]
+collectSequence : Parser SequenceSyntax
+collectSequence =
+    valueWihMultiplier
+        |> Parser.andThen
+            (\v ->
+                Parser.oneOf
+                    [ Parser.succeed identity
+                        |. Parser.symbol " && "
+                        |= valueWihMultiplier
+                        |> Parser.andThen
+                            (\v2 ->
+                                [ v2, v ] |> collectUnorderedSequence
+                            )
+                    , Parser.backtrackable
+                        (Parser.succeed identity
+                            |. Parser.symbol " "
+                            |= valueWihMultiplier
+                            |> Parser.andThen
+                                (\v2 ->
+                                    [ v2, v ] |> collectOrderedSequence
+                                )
+                        )
+                    , Parser.succeed (Ordered (List.reverse [ v ]))
+                    ]
+            )
 
 
 collectOrderedSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
@@ -172,15 +180,13 @@ collectOrderedSequence list =
 collectUnorderedSequence : List ( ElementSyntax, Maybe MultiplierSyntax ) -> Parser SequenceSyntax
 collectUnorderedSequence list =
     Parser.oneOf
-        [ Parser.backtrackable
-            (Parser.succeed identity
-                |. Parser.symbol " && "
-                |= valueWihMultiplier
-                |> Parser.andThen
-                    (\v2 ->
-                        v2 :: list |> collectUnorderedSequence
-                    )
-            )
+        [ Parser.succeed identity
+            |. Parser.symbol " && "
+            |= valueWihMultiplier
+            |> Parser.andThen
+                (\v2 ->
+                    v2 :: list |> collectUnorderedSequence
+                )
         , Parser.succeed (Unordered (List.reverse list))
         ]
 
@@ -191,9 +197,7 @@ collectSet list =
         [ Parser.succeed identity
             |. Parser.symbol " || "
             |= Parser.oneOf
-                [ valueWihMultiplier
-                    |> Parser.map List.singleton
-                    |> Parser.andThen collectSequence
+                [ collectSequence
                     |> Parser.andThen
                         (\v2 ->
                             v2 :: list |> collectSet
@@ -208,9 +212,7 @@ collectOr list =
         [ Parser.succeed identity
             |. Parser.symbol " | "
             |= Parser.oneOf
-                [ valueWihMultiplier
-                    |> Parser.map List.singleton
-                    |> Parser.andThen collectSequence
+                [ collectSequence
                     |> Parser.map List.singleton
                     |> Parser.andThen collectSet
                     |> Parser.andThen
@@ -220,6 +222,15 @@ collectOr list =
                 ]
         , Parser.succeed (Or (list |> List.reverse))
         ]
+
+
+parser : Parser Syntax
+parser =
+    collectSequence
+        |> Parser.map List.singleton
+        |> Parser.andThen collectSet
+        |> Parser.map List.singleton
+        |> Parser.andThen collectOr
 
 
 
