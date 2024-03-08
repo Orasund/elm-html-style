@@ -12,7 +12,7 @@ type ValueSyntax
     | SpecialChar Char
     | Reference String
     | Type String
-    | Function String Syntax
+    | Function String (List Syntax)
 
 
 type MultiplierSyntax
@@ -68,16 +68,22 @@ valueParser =
             |. Parser.symbol "<"
             |= keyword
             |. Parser.oneOf
-                [ Parser.succeed ()
+                [ {--Parser.succeed (\s -> s ++ "()")
+                    |= keyword
+                    |. Parser.symbol "()"--}
+                --,
+                 Parser.succeed ()
+                    
                     |. Parser.symbol " ["
                     |. Parser.variable
                         { start = \char -> char /= ']'
                         , inner = \char -> char /= ']'
                         , reserved = Set.empty
                         }
-                    |. Parser.symbol "]>"
-                , Parser.symbol ">"
+                    |. Parser.symbol "]"
+                , Parser.succeed ()
                 ]
+            |. Parser.symbol ">"
         , Parser.succeed (SpecialChar '/')
             |. Parser.symbol "/"
         , Parser.succeed (SpecialChar ',')
@@ -87,11 +93,14 @@ valueParser =
                 (\v ->
                     Parser.oneOf
                         [ Parser.succeed (Function v)
-                            |. Parser.symbol "("
-                            |. Parser.spaces
-                            |= Parser.lazy (\() -> parser)
-                            |. Parser.spaces
-                            |. Parser.symbol ")"
+                            |= Parser.sequence
+                                { start = "("
+                                , separator =","
+                                ,end = ")"
+                                ,spaces = Parser.spaces
+                                ,item =Parser.lazy (\() -> parser)
+                                ,trailing = Parser.Forbidden
+                                }
                         , Parser.succeed (Keyword v)
                         ]
                 )

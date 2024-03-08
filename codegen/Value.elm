@@ -247,10 +247,13 @@ build syntaxGroups dict =
                 |> Dict.fromList
     in
     Dict.map
-        (\_ ->
-            collectConstants
+        (\_ syntax->
+            syntax |> collectConstants
                 { syntaxGroups = syntaxGroups
                 , syntaxes = syntaxes
                 }
+            |> List.sortBy (\value -> case value of
+                Constant str -> str
+                Unit str -> str)
         )
         syntaxes
