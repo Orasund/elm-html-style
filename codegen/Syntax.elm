@@ -88,7 +88,9 @@ valueParser =
                     Parser.oneOf
                         [ Parser.succeed (Function v)
                             |. Parser.symbol "("
+                            |. Parser.spaces
                             |= Parser.lazy (\() -> parser)
+                            |. Parser.spaces
                             |. Parser.symbol ")"
                         , Parser.succeed (Keyword v)
                         ]
