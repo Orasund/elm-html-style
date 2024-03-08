@@ -64,15 +64,13 @@ valueParser =
             |. Parser.symbol "<'"
             |= keyword
             |. Parser.symbol "'>"
-        , Parser.succeed Type
+        , Parser.succeed (\str1 str2 -> Type (str1 ++ str2))
             |. Parser.symbol "<"
             |= keyword
-            |. Parser.oneOf
-                [ {--Parser.succeed (\s -> s ++ "()")
-                    |= keyword
-                    |. Parser.symbol "()"--}
-                --,
-                 Parser.succeed ()
+            |= Parser.oneOf
+                [ Parser.succeed ("()")
+                    |. Parser.symbol "()",
+                 Parser.succeed ""
                     
                     |. Parser.symbol " ["
                     |. Parser.variable
@@ -81,7 +79,7 @@ valueParser =
                         , reserved = Set.empty
                         }
                     |. Parser.symbol "]"
-                , Parser.succeed ()
+                , Parser.succeed ""
                 ]
             |. Parser.symbol ">"
         , Parser.succeed (SpecialChar '/')
