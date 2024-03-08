@@ -211,8 +211,8 @@ deadEndsToString deadEnds =
     List.foldl (++) "" (List.map deadEndToString deadEnds)
 
 
-parse : String -> Maybe Syntax
-parse string =
+parse : String -> String -> Maybe Syntax
+parse key string =
     case
         string
             |> Parser.run
@@ -227,7 +227,7 @@ parse string =
         Err err ->
             let
                 _ =
-                    Debug.log string (deadEndsToString err)
+                    Debug.log ("\n\n" ++ key ++ "= " ++ string) (deadEndsToString err)
             in
             Nothing
 
@@ -241,7 +241,7 @@ build syntaxGroups dict =
                 |> List.filterMap
                     (\( key, string ) ->
                         string
-                            |> parse
+                            |> parse key
                             |> Maybe.map (Tuple.pair key)
                     )
                 |> Dict.fromList
