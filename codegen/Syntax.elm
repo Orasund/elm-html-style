@@ -107,12 +107,18 @@ multiplier =
             |. Parser.symbol "+"
         , Parser.succeed (Multiple { min = 0, max = Just 1 } |> Just)
             |. Parser.symbol "?"
-        , Parser.succeed (\min max -> Multiple { min = min, max = Just max } |> Just)
+        , Parser.succeed (\min maybeMax -> Multiple { min = min, max = maybeMax |> Maybe.withDefault min |> Just } |> Just)
             |. Parser.symbol "{"
             |= Parser.int
-            |. Parser.symbol ","
-            |= Parser.int
-            |. Parser.symbol "}"
+            |= Parser.oneOf 
+                [ Parser.succeed Just
+                    |. Parser.symbol ","
+                    |= Parser.int
+                    |. Parser.symbol "}"
+                , Parser.succeed Nothing
+                    |. Parser.symbol "}"
+
+                ]
         , Parser.succeed (MultipleCommaSeperatedMinOne |> Just)
             |. Parser.symbol "#"
         , Parser.succeed (NonEmpty |> Just)
